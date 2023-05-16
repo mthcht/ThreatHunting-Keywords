@@ -1,8 +1,30 @@
 # ThreatHunting-Keywords
 List of keywords for ThreatHunting sessions [offensive tools/greyware tools/signatures tools keywords]
 
-## Content of the lookup
-fixme
+## Content of the ThreatHunting Keywords File:
+- Header: `keyword,metadata_keyword_type,metadata_tool,metadata_description,metadata_tool_techniques,metadata_tool_tactics,metadata_malwares_name,metadata_groups_name,metadata_category,metadata_link,metadata_enable_endpoint_detection,metadata_enable_proxy_detection,metadata_comment`
+
+- `keyword`: The entries in this column represent non-case-sensitive keywords used for Threat Hunting. These keywords are flexible, allowing the use of wildcards to broaden or narrow your search parameters as needed.
+- `metadata_keyword_type`: Type of the keywords, Currently, there are three types::
+  - `offensive tool keyword`: These keywords relate to offensive tools or exhibit high confidence of malicious intent. It's crucial that these terms hold relevance and reliability in detecting potential threats (low false positive rate)
+  - `greyware tool keyword`: Keywords in this category correspond to 'legitimate' tools that are abused by malicious actors. As these tools also have legitimate uses, the potential for false positives is inherently higher. It's important to interpret these results with the understanding that not all detections may signify malicious activity
+  - `signature keyword`: These keywords may not directly associate with tools but may include security product signature names, specific strings, or words significant in threat detection.
+  - `lolbas keyword`: `work in progress, not included in the public lookup` will include all lolbas commands exploitations techniques that can fit in the lookup without the correlation of multiple fields or events.
+- `metadata_tool`: Name of the tool we want to detect
+- `metadata_description`: description of the tool we want to detect
+- `metadata_tool_techniques`: MITRE techniques related to the tool we want to detect
+- `metadata_tool_tactics`: MITRE tactics related to the tool we want to detect
+- `metadata_malwares_name`: Names of malware variants that utilize the tool in question
+- `metadata_groups_name`: Names of Threat actors groups associated with the tool
+- `metadata_category`: Global category name of the tool. This may change later and suggestions are welcome.
+- `metadata_link`: link to the tool (source code, articles, samples, blog ...)
+- `metadata_enable_endpoint_detection`: Field indicating whether the keyword can be effectively employed in searches across endpoint logs. This includes but is not limited to Windows event logs, EDR, PowerShell logs, auditd, bastion sessions, Sysmon or any data source containing process and file activity fields.
+  - If you can search the keyword in endpoint logs, the value is 1 (enabled).
+  - If the keyword is not relevant for endpoint logs, the value is 0 (disabled).
+- `metadata_enable_proxy_detection`: Field indicating the applicability of the keyword for searches within network logs (Proxy, DNS logs or any data with queries and URLs originating from the internal network)
+  - If you can search the keyword in network activity logs, the value is 1 (enabled).
+  - If the keyword is not relevant for network activity logs, the value is 0 (disabled).
+- `metadata_comment`: This field may contain a useful comment added for the keyword.
 
 ## Use the List to hunt with Splunk:
 - upload the list `threathunting-keywords.csv` on Splunk
