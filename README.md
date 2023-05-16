@@ -22,7 +22,7 @@ This approach encourages the creation of high-quality, purposeful rules while ke
 
 ### For the redteam:
 
-To evade detection by simple keyword detection, it is critical to recompile and rename all custom strings, class or function names, variable names, argument names, executable names, default user-agents, certificates, or any other strings that could potentially be with the associated tools you using during are your operation. Employ the most common names for everything to blend in with normal traffic. Scripts located here can assist you in identifying some of these.
+To evade detection by simple keyword detection, it is critical to recompile and rename all custom strings, class or function names, variable names, argument names, executable names, default user-agents, certificates, or any other strings that could potentially be with the associated tools you using during your operation. Employ the most common names for everything to blend in with normal traffic. Scripts located here can assist you in identifying some of these.
 
 However, if you're developing public "red team tools", consider aiding the blue team by using distinct names. Employ a default configuration with an exotic port, custom certificates, unique user-agents, specific function names and arguments that aren't common. This assists in creating a clear signature that can be used for simple keyword detections, so the blueteam can at least easily detect the script kiddies. 
 
@@ -151,3 +151,5 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 #### If you want me to add a tool to the list, create a issue with this template: https://github.com/mthcht/ThreatHunting-Keywords/issues/1
+#### Propose changes to the list with a PR (provide false positives feedbacks, logs sample if you can), if a keyword is generating too many false positives in too many environments we can delete it)
+
