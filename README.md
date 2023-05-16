@@ -146,6 +146,10 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 | convert ctime(*time)
 ```
 
+## Quick datatable to search for keyword (can be improved, open to suggestions)
+https://mthcht.github.io/ThreatHunting-Keywords/
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
+
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 #### If you want me to add a tool to the list, create a issue with this template: https://github.com/mthcht/ThreatHunting-Keywords/issues/1
