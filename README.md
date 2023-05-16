@@ -57,9 +57,9 @@ However, if you're developing public "red team tools", consider aiding the blue 
   - in the advanced options, add the Match type `WILDCARD(keyword)` and make sure `Case sensitive match` is not checked
 - now we can use our lookup definition to hunt 🏹
 
-### Example use cases with `threathunting-keywords`:
+## Example use cases with `threathunting-keywords`:
 
-#### Hunt all the keywords in raw logs 😱
+### Hunt all the keywords in raw logs 😱
 
 ```
 `myendpointslogs` 
@@ -118,9 +118,9 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 
 ---
 
-#### Hunt the keywords in other fields 🙂 (url,process,commandline,query...):
+### Hunt the keywords in other fields 🙂 (url,process,commandline,query...):
 
-##### Match only on url field:
+#### Match only on url field:
 ```
 `mynetworklogs` url=*
 | lookup threathunting-keywords keyword as url OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
@@ -129,7 +129,7 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 | convert ctime(*time)
 ```
 
-##### Match only on query field:
+#### Match only on query field:
 ```
 `mynetworklogs` query=*
 | lookup threathunting-keywords keyword as query OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
@@ -138,7 +138,7 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 | convert ctime(*time)
 ```
 
-##### Match on multiple fields at the same time, example for endpoint logs:
+#### Match on multiple fields at the same time, example for endpoint logs:
 ```
 `myendpointslogs` 
 | eval myfields=mvappend(service, process, process_command, parent_process, parent_process_command, grand_parent_process, grand_parent_process_command, file_path, file_name)
