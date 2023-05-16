@@ -67,7 +67,7 @@ So that was our Use case to search on raw logs in endpoint logs, if we want to s
 | stats count ealiest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
-Now it is the same as the first search but i added `metadata_enable_proxy_detection=1` to match the relevant keywords for networklogs (better have proxy and DNS logs for this)
+Now it is the same as the first search but i changed the datasource for `mynetworklogs` and added `metadata_enable_proxy_detection=1` to match the relevant keywords for networklogs (better have proxy and DNS logs for this)
 
 #### Hunt the keywords in other fields 🙂 (url,process,commandline,query...):
 
