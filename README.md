@@ -1,14 +1,39 @@
 # ThreatHunting-Keywords
-List of keywords for ThreatHunting sessions [offensive tools/greyware tools/signatures tools keywords]
+🎯 List of keywords for ThreatHunting sessions
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/11223acf-ccd6-4a6c-8038-6afd336d3629)
+
+## ThreatHunting Keywords
+
+### For the blueteam:
+This List can be valuable for ThreatHunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
+It differs from IOC feeds in its enduring relevance: the keywords here have no 'expiration dates' and can detect threats years after their inclusion, they are flexible accepting wildcard and non sensitive case matches and only focused on default keywords.
+
+Primarily designed for Threat Hunting, this list can be useful in complex scenarios.
+Whether you have access to a SIEM you don't manage, with unparsed data, or if you're part of a SOC team with a well-managed SIEM, the examples provided here can expedite the process of detecting malicious activity without the necessity to parse anything. If your logs are already parsed, this list can be used to match fields within your data, potentially transforming into a detection rule based on the keyword type category you select, provided the false positive rate is sufficiently low.
+
+⚠️ **Not everything can be added in this list, we do not make complex behavior detections here, only simple keywords detections in fields or raw logs, aimed to detect default configurations**
+
+⚠️ **A lot of tools in the list have dedicated detection rules, correlating events with thresholds and unique process relations... we will not cover all the possible detections for a tool here, only keywords detections**
+
+If you're part of a Security Operations Center (SOC) and are managing hundreds of detection rules that rely solely on simple keyword detections without any field or event correlation, consider rethinking your approach. In my opinion, these should not constitute individual detection rules. Instead, they might be better suited to a consolidated list like this one, although implementation might be more challenging if you're not using a platform like Splunk.
+
+This approach encourages the creation of high-quality, purposeful rules while keeping your simple field keyword detections organized and manageable in one place. The end result? One comprehensive detection rule that covers all of them. This streamlines your process and optimizes your detection capabilities.
+
+### For the redteam:
+
+To evade detection by simple keyword detection, it is critical to recompile and rename all custom strings, class or function names, variable names, argument names, executable names, default user-agents, certificates, or any other strings that could potentially be with the associated tools you using during are your operation. Employ the most common names for everything to blend in with normal traffic. Scripts located here can assist you in identifying some of these.
+
+However, if you're developing public "red team tools", consider aiding the blue team by using distinct names. Employ a default configuration with an exotic port, custom certificates, unique user-agents, specific function names and arguments that aren't common. This assists in creating a clear signature that can be used for simple keyword detections, so the blueteam can at least easily detect the script kiddies. 
 
 ## Content of the ThreatHunting Keywords File:
 - Header: `keyword,metadata_keyword_type,metadata_tool,metadata_description,metadata_tool_techniques,metadata_tool_tactics,metadata_malwares_name,metadata_groups_name,metadata_category,metadata_link,metadata_enable_endpoint_detection,metadata_enable_proxy_detection,metadata_comment`
 
 - `keyword`: The entries in this column represent non-case-sensitive keywords used for Threat Hunting. These keywords are flexible, allowing the use of wildcards to broaden or narrow your search parameters as needed.
 - `metadata_keyword_type`: Type of the keywords, Currently, there are three types::
-  - `offensive tool keyword`: These keywords relate to offensive tools or exhibit high confidence of malicious intent. It's crucial that these terms hold relevance and reliability in detecting potential threats (low false positive rate)
-  - `greyware tool keyword`: Keywords in this category correspond to 'legitimate' tools that are abused by malicious actors. As these tools also have legitimate uses, the potential for false positives is inherently higher. It's important to interpret these results with the understanding that not all detections may signify malicious activity
-  - `signature keyword`: These keywords may not directly associate with tools but may include security product signature names, specific strings, or words significant in threat detection.
+  - 🛠️ `offensive tool keyword`: These keywords relate to offensive tools or exhibit high confidence of malicious intent. It's crucial that these terms hold relevance and reliability in detecting potential threats (low false positive rate)
+  - 🛠️ `greyware tool keyword`: Keywords in this category correspond to 'legitimate' tools that are abused by malicious actors. As these tools also have legitimate uses, the potential for false positives is inherently higher. It's important to interpret these results with the understanding that not all detections may signify malicious activity
+  - 🛠️ `signature keyword`: These keywords may not directly associate with tools but may include security product signature names, specific strings, or words significant in threat detection.
   - `lolbas keyword`: `work in progress, not included in the public lookup` will include all lolbas commands exploitations techniques that can fit in the lookup without the correlation of multiple fields or events.
 - `metadata_tool`: Name of the tool we want to detect
 - `metadata_description`: description of the tool we want to detect
@@ -91,10 +116,38 @@ So that was our Use case to search on raw logs in endpoint logs, if we want to s
 ```
 Now it is the same as the first search but i changed the datasource for `mynetworklogs` and added `metadata_enable_proxy_detection=1` to match the relevant keywords for networklogs (better have proxy and DNS logs for this)
 
+---
+
 #### Hunt the keywords in other fields 🙂 (url,process,commandline,query...):
 
-fixme
+##### Match only on url field:
+```
+`mynetworklogs` url=*
+| lookup threathunting-keywords keyword as url OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
+| search metadata_description!="" AND metadata_enable_proxy_detection=1
+| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(url) as url by src_ip metadata_keyword_type keyword_detection index sourcetype 
+| convert ctime(*time)
+```
 
+##### Match only on query field:
+```
+`mynetworklogs` query=*
+| lookup threathunting-keywords keyword as query OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
+| search metadata_description!="" AND metadata_enable_proxy_detection=1
+| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(query) as query by src_ip metadata_keyword_type keyword_detection index sourcetype 
+| convert ctime(*time)
+```
 
+##### Match on multiple fields at the same time, example for endpoint logs:
+```
+`myendpointslogs` 
+| eval myfields=mvappend(service, process, process_command, parent_process, parent_process_command, grand_parent_process, grand_parent_process_command, file_path, file_name)
+| lookup threathunting-keywords keyword as myfields OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
+| search metadata_description!="" AND metadata_enable_endpoint_detection=1
+| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(process) values(service) values(process_command) values(file_name) values(file_path) values(parent_process) values(parent_process_command) values(grand_parent_process) values(grand_parent_process_command) by metadata_keyword_type keyword_detection index sourcetype 
+| convert ctime(*time)
+```
 
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
 #### If you want me to add a tool to the list, create a issue with this template: https://github.com/mthcht/ThreatHunting-Keywords/issues/1
