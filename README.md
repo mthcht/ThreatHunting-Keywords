@@ -24,7 +24,7 @@ To evade detection by simple keyword detection, it is critical to recompile and 
 
 However, if you're developing public "red team tools", consider aiding the blue team by using distinct names. Employ a default configuration with an exotic port, custom certificates, unique user-agents, specific function names and arguments that aren't common. This assists in creating a clear signature that can be used for simple keyword detections, so the blueteam can at least easily detect the script kiddies. 
 
-## Content of the ThreatHunting Keywords File:
+## Content of the Threat Hunting Keywords File:
 - Header: `keyword,metadata_keyword_type,metadata_tool,metadata_description,metadata_tool_techniques,metadata_tool_tactics,metadata_malwares_name,metadata_groups_name,metadata_category,metadata_link,metadata_enable_endpoint_detection,metadata_enable_proxy_detection,metadata_comment`
 
 - `keyword`: The entries in this column represent non-case-sensitive keywords used for Threat Hunting. These keywords are flexible, allowing the use of wildcards to broaden or narrow your search parameters as needed.
@@ -85,7 +85,7 @@ Filter the result
   NOT (metadata_keyword_type IN ("fixme","fixme"))
   NOT (raw IN ("fixme","fixme","fixme"))
 ```
-Exclude the requiered keywords, raw text or keyword types.
+Exclude the required keywords, raw text or keyword types.
 if if decide to exclude `greyware tool keyword` type (legitimate tools keywords that are abused by attackers) because this environment has too many results for this kind of tools, we have two options:
 
 - Filter at the beggining of our initial search 
