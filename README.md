@@ -146,6 +146,13 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 | convert ctime(*time)
 ```
 
+#### Speed:
+
+If the speed is a concern or you're planning to implement this as a scheduled detection rule, you might want to consider splitting the lookup into diffent lookups by choosing the metadata_keyword_type or metadata_tool column you want to use.
+
+Note that filtering using the search command after the `|lookup` doesn't expedite the search process. If you want to concentrate on a specific portion of the lookup without dividing it, you should use the `|inputlookup` command along with the where clause. While this method may consume more CPU resources, it generally results in faster execution. For more details, check out the Splunk documentation on inputlookup: https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Inputlookup
+
+
 ## Quick datatable to search for keyword (can be improved, open to suggestions)
 https://mthcht.github.io/ThreatHunting-Keywords/
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
@@ -154,4 +161,3 @@ https://mthcht.github.io/ThreatHunting-Keywords/
 Contributions, issues and feature requests are welcome!
 #### If you want me to add a tool to the list, create a issue with this template: https://github.com/mthcht/ThreatHunting-Keywords/issues/1
 #### Propose changes to the list with a PR (provide false positives feedbacks, logs sample if you can), if a keyword is generating too many false positives in too many environments we can delete it)
-
