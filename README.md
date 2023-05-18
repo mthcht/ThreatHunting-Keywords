@@ -63,7 +63,7 @@ However, if you're developing public "red team tools", consider aiding the blue 
 `myendpointslogs` 
 | lookup threathunting-keywords keyword as _raw OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
 | search metadata_description!="" AND metadata_enable_endpoint_detection=1
-| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
+| stats count earliest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
 Send the job to background and keep the job ID.
@@ -75,7 +75,7 @@ Send the job to background and keep the job ID.
 - `| lookup` this is very important, for big lookups like this one, always use `|lookup` instead of `|inputlookup`, `|lookup` will use the lookup pushed on the indexers when the bundle is replicated but `|inputlookup` will send to the indexers the search with all the lookup content each time, using `|lookup` we gain massive performances here (this search will execute for hours on big environments so better optimize our search.
 - `... keyword as _raw OUTPUT keyword as keyword_detection` this is the part where we will match the field named `_raw` with the field `keyword` in our lookup , in splunk `_raw` is the raw log without any parsing (our use case). When a keyword match, the field `keyword_detection` will show the keyword in the lookup that matched on the field (`_raw`) here.
 - `| search metadata_description!="" AND metadata_enable_endpoint_detection=1` we only focus on endpoints logs here so we add `metadata_enable_endpoint_detection=1` to only match on the relevant keywords for endpoint logs and metadata_description!="" to only have the matched keywords
-- `| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype` here i made a quick filter without all the fields of the lookup for the example (but you can also add them if you want to have more exclusions possibilities), this allows us to easily have an idea of which keyword is matching a lot so we can easily exclude the category or the tool if we have too many false positives for it !
+- `| stats count earliest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype` here i made a quick filter without all the fields of the lookup for the example (but you can also add them if you want to have more exclusions possibilities), this allows us to easily have an idea of which keyword is matching a lot so we can easily exclude the category or the tool if we have too many false positives for it !
 - When my search is finished, how can i analyze the results ? you will have the raw logs ordered by keywords and keyword types, using `|loadjob myjobid` we can now manipulate the output with the relevant logs without searching again on all the logs.
 
 Filter the result
@@ -94,7 +94,7 @@ if if decide to exclude `greyware tool keyword` type (legitimate tools keywords 
 `myendpointslogs` 
 | lookup threathunting-keywords keyword as _raw OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
 | search metadata_description!="" metadata_keyword_type="offensive tool keyword" metadata_enable_endpoint_detection=1
-| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
+| stats count earliest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
 I added a `metadata_keyword_type="offensive tool keyword"` to only focus on offensive tools that i am sure are used by malicious actors
@@ -110,7 +110,7 @@ So that was our Use case to search on raw logs in endpoint logs, if we want to s
 `mynetworklogs` 
 | lookup threathunting-keywords keyword as _raw OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
 | search metadata_description!="" AND metadata_enable_proxy_detection=1
-| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
+| stats count earliest(_time) as firsttime latest(_time) as lasttime values(_raw) as raw by metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
 Now it is the same as the first search but i changed the datasource for `mynetworklogs` and added `metadata_enable_proxy_detection=1` to match the relevant keywords for networklogs (better have proxy and DNS logs for this)
@@ -124,7 +124,7 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 `mynetworklogs` url=*
 | lookup threathunting-keywords keyword as url OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
 | search metadata_description!="" AND metadata_enable_proxy_detection=1
-| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(url) as url by src_ip metadata_keyword_type keyword_detection index sourcetype 
+| stats count earliest(_time) as firsttime latest(_time) as lasttime values(url) as url by src_ip metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
 
@@ -133,7 +133,7 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 `mynetworklogs` query=*
 | lookup threathunting-keywords keyword as query OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
 | search metadata_description!="" AND metadata_enable_proxy_detection=1
-| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(query) as query by src_ip metadata_keyword_type keyword_detection index sourcetype 
+| stats count earliest(_time) as firsttime latest(_time) as lasttime values(query) as query by src_ip metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
 
@@ -143,7 +143,7 @@ Now it is the same as the first search but i changed the datasource for `mynetwo
 | eval myfields=mvappend(service, process, process_command, parent_process, parent_process_command, grand_parent_process, grand_parent_process_command, file_path, file_name)
 | lookup threathunting-keywords keyword as myfields OUTPUT keyword as keyword_detection metadata_keyword_type metadata_tool metadata_description metadata_tool_techniques metadata_tool_tactics metadata_malwares_name metadata_groups_name metadata_category	metadata_link	metadata_enable_endpoint_detection metadata_enable_proxy_detection metadata_comment
 | search metadata_description!="" AND metadata_enable_endpoint_detection=1
-| stats count ealiest(_time) as firsttime latest(_time) as lasttime values(process) values(service) values(process_command) values(file_name) values(file_path) values(parent_process) values(parent_process_command) values(grand_parent_process) values(grand_parent_process_command) by metadata_keyword_type keyword_detection index sourcetype 
+| stats count earliest(_time) as firsttime latest(_time) as lasttime values(process) values(service) values(process_command) values(file_name) values(file_path) values(parent_process) values(parent_process_command) values(grand_parent_process) values(grand_parent_process_command) by metadata_keyword_type keyword_detection index sourcetype 
 | convert ctime(*time)
 ```
 
