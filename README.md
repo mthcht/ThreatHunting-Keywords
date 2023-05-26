@@ -153,7 +153,7 @@ If the speed is a concern or you're planning to implement this as a scheduled de
 
 Note that filtering using the search command after the `|lookup` doesn't expedite the search process. If you want to concentrate on a specific portion of the lookup without dividing it, you should use the `|inputlookup` command along with the where clause. While this method may consume more CPU resources, it generally results in faster execution. For more details, check out the Splunk documentation on inputlookup: https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Inputlookup
 
-### Update 20230526
+### Update 2023/05/26
 In order to improve navigation and specificity, the primary CSV file threathunting-keywords.csv is now automatically partitioned based on each keyword type following an update. This leads to the creation of four distinct files, which can be seamlessly loaded onto the site:
 - threathunting-keywords.csv (the main file with all the keywords types)
 - signature_keyword.csv (specific to signature keywords)
