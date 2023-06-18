@@ -17,3 +17,8 @@ foreach ($type in $types) {
     # Export filtered data to CSV
     $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation
 }
+
+
+$keywords = $data | Select-Object -Property keyword
+$outputFilePath = Join-Path $PSScriptRoot "only_keywords.csv"
+$keywords | Export-Csv -Path $outputFilePath -NoTypeInformation
