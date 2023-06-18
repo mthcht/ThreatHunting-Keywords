@@ -19,6 +19,7 @@ foreach ($type in $types) {
 }
 
 
-$keywords = $data | Select-Object -Property keyword
-$outputFilePath = Join-Path $PSScriptRoot "only_keywords.csv"
-$keywords | Export-Csv -Path $outputFilePath -NoTypeInformation
+$keywords = $data | Select-Object -ExpandProperty keyword
+$outputFilePath = Join-Path $PSScriptRoot "only_keywords.txt"
+$keywords | Out-File -FilePath $outputFilePath
+
