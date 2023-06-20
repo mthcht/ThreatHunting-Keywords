@@ -162,6 +162,64 @@ In order to improve navigation and specificity, the primary CSV file threathunti
 
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/bc55fa3f-3ce8-4485-8e01-aabbfc5fb12a)
 
+## DFIR Hunt for keywords in files (No SIEM)
+After conducting a thorough review of various tools, I discovered that [ripgrep](https://github.com/BurntSushi/ripgrep) significantly outperforms its competitors when it comes to rapidly matching an extensive list of regex patterns against each line of a large log file or even multiple files simultaneously. It proved to be the most efficient solution for handling massive amounts of data, providing unparalleled speed and flexibility.
+
+### Hunt for evil in log file(s) with **Ripgrep** and the 'only_keywords_regex.txt' list
+#### `rg.exe -f .\only_keywords_regex.txt .\EvtxECmd_Output.csv --multiline`
+- .\only_keywords_regex.txt serves as the source file for the threat hunting keywords, transformed into regex patterns for precise matching. These patterns originate from the threathunting-keywords.csv file, which has undergone a conversion process for optimal compatibility with regex operations.
+- .\EvtxECmd_Output.csv represents the target file in which the search will be conducted. In this context, it is a .csv format of a Windows event log, produced by exporting evtx logs. However, the flexibility of ripgrep allows you to replace this with any file of your choosing for detailed pattern search operations.
+- --multiline option enables ripgrep to effectively handle and match patterns spanning across multiple lines, significantly broadening the scope of the search.
+You will get the matched lines like this with the line number (but without the matching keyword)
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/c5ef924d-7cee-4780-92d7-81b039ffa46c)
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/9ecaefe3-82a0-4434-85ad-488067e43290)
+
+#### Hunt for evil in file with powershell and the 'only_keywords.txt ' list
+
+In powershell it's much slower but if you still want to do it this way, you can use the script below, it will tell you the line number matched and the corresponding keyword: 
+
+`powershell.exe -ep Bypass -File .\hunt_keywords_windows.ps1 -k .\only_keywords.txt -f .\EvtxECmd_Output.csv`
+
+<details>
+  
+```powershell
+param(
+    [Parameter(Mandatory=$true)]
+    [string]$file,
+    
+    [Parameter(Mandatory=$true)]
+    [string]$kw
+)
+
+$Keywords = Get-Content $kw
+$result = @()
+
+foreach ($Keyword in $Keywords) {
+    $SearchTerm = $Keyword.Replace("*", ".*")
+    $SearchTerm = [Regex]::Escape($SearchTerm).Replace("\.\*", ".*")
+    
+    $reader = New-Object System.IO.StreamReader($file)
+    $lineNumber = 0
+    while (($line = $reader.ReadLine()) -ne $null) {
+        $lineNumber++
+        if ($line -match $SearchTerm) {
+            $result += New-Object PSObject -Property @{
+                'Keyword' = $Keyword
+                'LineNumber' = $lineNumber
+                'Line' = $line
+            }
+        }
+    }
+    $reader.Close()
+}
+
+$result | Out-GridView
+Read-Host -Prompt "Press Enter to exit"
+```
+</details>
+
 ## Quick datatable to search for keyword (can be improved, open to suggestions)
 https://mthcht.github.io/ThreatHunting-Keywords/
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
