@@ -18,8 +18,32 @@ foreach ($type in $types) {
     $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation
 }
 
-
 $keywords = $data | Select-Object -ExpandProperty keyword
 $outputFilePath = Join-Path $PSScriptRoot "only_keywords.txt"
 $keywords | Out-File -FilePath $outputFilePath
 
+# Add-Type method to use C#'s Regex.Escape method
+Add-Type -TypeDefinition @"
+    using System.Text.RegularExpressions;
+    public class RegExUtility{
+        public static string Escape(string str){
+            return Regex.Escape(str);
+        }
+    }
+"@
+
+# Placeholder string that does not have special meaning in regular expressions
+$placeholder = "PLACEHOLDER123"
+
+# Convert keywords to regex keywords
+$regexKeywords = foreach ($Keyword in $keywords) {
+    $regexKeyword = $Keyword -replace '\*', $placeholder  # Replace * with placeholder
+    $regexKeyword = [RegExUtility]::Escape($regexKeyword)  # Escape special characters
+    $regexKeyword = $regexKeyword -replace $placeholder, '.*'  # Replace placeholder with .*
+    $regexKeyword = $regexKeyword -replace '\\ ', ' '  # Replace escaped space with space
+    $regexKeyword
+}
+
+# Write regex keywords to file
+$regexOutputFilePath = Join-Path $PSScriptRoot "only_keywords_regex.txt"
+$regexKeywords | Out-File -FilePath $regexOutputFilePath
