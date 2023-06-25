@@ -1,4 +1,4 @@
-*osmedeus scan*
+﻿*osmedeus scan*
 *scan -T list_of_targets.txt*
 */workflow/test/dirbscan.yaml*
 *osmedeus provider*
@@ -3475,7 +3475,7 @@ get-delegation *
 *tas389.ps1*
 *net start SysUpdate*
 *fodhelperbypass*
-*wevtutil qe security /format:text /q:Ã¢â‚¬ÂEvent[System[(EventID=4624)]*find Ã¢â‚¬Å“Source Network AddressÃ¢â‚¬Â*
+*wevtutil qe security /format:text /q:*Event[System[(EventID=4624)]*find *Source Network Address*
 *BadPotato.cs*
 *badpotato.exe*
 *proxyshell.py*

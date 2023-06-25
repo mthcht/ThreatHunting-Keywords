@@ -15,12 +15,12 @@ foreach ($type in $types) {
     $outputFilePath = Join-Path $PSScriptRoot "$type.csv"
 
     # Export filtered data to CSV
-    $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation
+    $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
 }
 
 $keywords = $data | Select-Object -ExpandProperty keyword
 $outputFilePath = Join-Path $PSScriptRoot "only_keywords.txt"
-$keywords | Out-File -FilePath $outputFilePath
+$keywords | Out-File -FilePath $outputFilePath -Encoding UTF8
 
 # Add-Type method to use C#'s Regex.Escape method
 Add-Type -TypeDefinition @"
@@ -46,4 +46,4 @@ $regexKeywords = foreach ($Keyword in $keywords) {
 
 # Write regex keywords to file
 $regexOutputFilePath = Join-Path $PSScriptRoot "only_keywords_regex.txt"
-$regexKeywords | Out-File -FilePath $regexOutputFilePath
+$regexKeywords | Out-File -FilePath $regexOutputFilePath -Encoding UTF8
