@@ -166,7 +166,7 @@ In order to improve navigation and specificity, the primary CSV file threathunti
 After conducting a thorough review of various tools, I discovered that [ripgrep](https://github.com/BurntSushi/ripgrep) significantly outperforms its competitors when it comes to rapidly matching an extensive list of regex patterns against each line of a large log file or even multiple files simultaneously. It proved to be the most efficient solution for handling massive amounts of data, providing unparalleled speed and flexibility.
 
 ### Hunt for evil in log file(s) with **Ripgrep** and the 'only_keywords_regex.txt' list
-#### `rg.exe -f .\only_keywords_regex.txt .\EvtxECmd_Output.csv --multiline`
+#### `rg.exe -f .\only_keywords_regex.txt .\EvtxECmd_Output.csv --multiline --ignore-case`
 - .\only_keywords_regex.txt serves as the source file for the threat hunting keywords, transformed into regex patterns for precise matching. These patterns originate from the threathunting-keywords.csv file, which has undergone a conversion process for optimal compatibility with regex operations.
 - .\EvtxECmd_Output.csv represents the target file in which the search will be conducted. In this context, it is a .csv format of a Windows event log, produced by exporting evtx logs. However, the flexibility of ripgrep allows you to replace this with any file of your choosing for detailed pattern search operations.
 - --multiline option enables ripgrep to effectively handle and match patterns spanning across multiple lines, significantly broadening the scope of the search.
