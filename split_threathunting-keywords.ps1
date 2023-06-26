@@ -41,6 +41,7 @@ $regexKeywords = foreach ($Keyword in $keywords) {
     $regexKeyword = [RegExUtility]::Escape($regexKeyword)  # Escape special characters
     $regexKeyword = $regexKeyword -replace $placeholder, '.*'  # Replace placeholder with .*
     $regexKeyword = $regexKeyword -replace '\\ ', ' '  # Replace escaped space with space
+    $regexKeyword = $regexKeyword -replace '"', '\"'  # escape double quote
     $regexKeyword
 }
 

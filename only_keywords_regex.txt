@@ -166,7 +166,7 @@
 .*\.exe s4u /user:.* /impersonateuser:.* /msdsspn:.* /altservice:ldap /ptt /rc4.*
 .*Invoke-SQLOSCmd -Instance .* -Command .*
 .*Invoke-SQLAudit.*
-.*Get-ItemProperty -Path HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa -Name "RunAsPPL".*
+.*Get-ItemProperty -Path HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Lsa -Name \"RunAsPPL\".*
 .*token.* -ImpersonateUser -Username .*
 .*token.* -CreateProcess .* -ProcessId .*
 .*Set-DomainObject.*
@@ -192,7 +192,7 @@
 .*adfind\.exe.*
 .* -sc trustdump.*
 .* dclist .*
-.*name="Domain Admins.*
+.*name=\"Domain Admins.*
 .*computers_pwdnotreqd.*
 .*adfind\.bat.*
 .*adfind -f .*
@@ -1087,7 +1087,7 @@ fw_walk display.*
 .*schtask_callback.*
 .*applocker_enum.*
 .*applocker-enumerator.*
-.*"AppLockerPolicy\.h.*
+.*\"AppLockerPolicy\.h.*
 .* GetAppLockerPolicies.*
 .*strip-bof -Path .*
 .*strip_bof\.ps1.*
@@ -2114,7 +2114,7 @@ doc-stg-prepend.*\..*
 .*ReflectiveDll\.x64\.dll.*
 .*ReflectiveDll\.x86\.dll.*
 .*/cna/pipetest\.cna.*
-.* "youcantpatchthis".*
+.* \"youcantpatchthis\".*
 .*common\.ReflectiveDLL.*
 .*/Mr-Un1k0d3r/.*
 .*Un1k0d3r/SCShell.*
@@ -2179,7 +2179,7 @@ doc-stg-prepend.*\..*
 .*/DesertFox/archive/.*\.zip.*
 .*douknowwhoami\?d.*
 .*5a40f11a99d0db4a0b06ab5b95c7da4b1c05b55a99c7c443021bff02c2cf93145c53ff5b.*
-.*"zha0gongz1".*
+.*\"zha0gongz1\".*
 .*encrypt/encryptFile\.go.*
 .*encrypt/encryptUrl\.go.*
 .*http.*/zha0gongz1.*
@@ -2215,8 +2215,8 @@ doc-stg-prepend.*\..*
 .*injectassembly\.x64\.o.*
 .*InlineExecute-Assembly.*
 .*execute_bof .*
-.*"ziiiiizzzb".*
-.*"ziiiiizzzib".*
+.*\"ziiiiizzzb\".*
+.*\"ziiiiizzzib\".*
 .*--format-string ziiiiizzzib .*
 .*--format-string ziiiiizzzb .* 
 .* --dotnetassembly .* --amsi.*
@@ -2439,11 +2439,11 @@ Ladon Mac .*
 .*/UTWOqVQ132/.*
 .*/CWoNaJLBo/VTNeWw11213/.*
 .*/etumbot\.profile.*
-.* "Etumbot".*
+.* \"Etumbot\".*
 .*/havex\.profile.*
 .* pipename_stager .*
 .*Tmprovider\.dll.*
-.* "beacon\.dll".*
+.* \"beacon\.dll\".*
 .*beacon\.x64\.dll.*
 .*meterpreter\..*
 .*hijack_remote_thread.*
@@ -2554,7 +2554,7 @@ Ladon Mac .*
 .*/PEzor/inject\.cpp.*
 .*PEzor\.sh .*\.bin.*
 .*SharpEventPersist.*
-.*\.exe .* -eventlog "Key Management Service".*
+.*\.exe .* -eventlog \"Key Management Service\".*
 .*\.exe .* --source Persistence.*
 .*SharpEventLoader.*
 \\\\postex_.*
@@ -2812,7 +2812,7 @@ detect-hooks
 .*SharpCompileServer\.exe.*
 .*sharp-exec .*
 .*sharp-fexec .*
-.*Sharp Compile".*
+.*Sharp Compile\".*
 .*sharpcompile.*\.exe.*
 .*/sharpcompile_.*\..*
 .*SharpCompileServer.*
@@ -2908,7 +2908,7 @@ needle_sift .*
 .*syscall_disable_priv .*
 .*toggle_privileges_bof\..*
 .*RiccardoAncarani/TaskShell.*
-.*TaskShell\.exe .* -s "SYSTEM".*
+.*TaskShell\.exe .* -s \"SYSTEM\".*
 .*TaskShell\.exe .* -b .*\.exe.*
 .*\\TASKSHELL\.EXE.*
 .*Invoke-EnvBypass\..*
@@ -2936,7 +2936,7 @@ needle_sift .*
 .*/beacon_compatibility.*
 .*ELFLoader\.c.*
 .*ELFLoader\.out.*
-.*"beacon_api\.h".*
+.*\"beacon_api\.h\".*
 .*beacon_generate\.py.*
 .*COFFLoader64\.exe.*
 .*/beacon_compatibility\..*
@@ -3482,7 +3482,7 @@ get-delegation .*
 .*proxyshell-poc.*
 .*proxyLogon\.py.*
 .*fodhelperUACBypass.*
-.*"C:\\Windows\\System32\\fodhelper\.exe" -WindowStyle Hidden.*
+.*\"C:\\Windows\\System32\\fodhelper\.exe\" -WindowStyle Hidden.*
 .*UAC-bypass.*
 .*cmd\.exe  /S /D /c.* echo 123
 .*cmd.*echo.*\\pipe\\.*
@@ -4542,7 +4542,7 @@ noclient-3\..*
 .* --msfoptions .*
 .*--msfvenom .*
 .* --list-payloads.*
-.* -c "OBFUSCATION=.*\.ps1.*
+.* -c \"OBFUSCATION=.*\.ps1.*
 .*/greatsct-output.*
 .*func_get_powershell_dll.*
 .*func_install_wine_dotnettojscript.*
@@ -4553,7 +4553,7 @@ noclient-3\..*
 .*invoke_obfuscation\.py.*
 .*Greenwolf.*
 .*grep -i pass .*
-.*grep -roiE "password\..*
+.*grep -roiE \"password\..*
 .*grep -.* .*DBPassword.*
 .*grep .*password\..* /etc/.*\.conf.*
 .*grep -R db_passwd.*
@@ -4994,7 +4994,7 @@ Impacket .*
 .*InvisibilityCloak\.py.*
 .* -d .* -n .* -m rot13.*
 .* -d .* -n .* -m reverse.*=
-.* -n "TotallyLegitTool".*
+.* -n \"TotallyLegitTool\".*
 .*Invisi-Shell.*
 .*Invoke-ACLPwn.*
 .*Invoke-BSOD.*
@@ -5583,10 +5583,10 @@ ldeep .*
 .*ldeep.*ldap_activedirectory\.py.*
 .*LinkedInt.*
 .*linuxprivchecker.*
-.*"notepad FUZZ".*
-.*puttygen\.exe FUZZ".*
-.*AcroRd32\.exe FUZZ".*
-.*"antiword FUZZ".*
+.*\"notepad FUZZ\".*
+.*puttygen\.exe FUZZ\".*
+.*AcroRd32\.exe FUZZ\".*
+.*\"antiword FUZZ\".*
 .*\./litefuzz\.py.*
 .*litefuzz.* -l -c.*
 .*litefuzz -lk -c.*
@@ -6257,7 +6257,7 @@ ldeep .*
 .*msfvenom -.*
 .* --payload .* --platform windows.*
 .*metasploitframework.*\.msi.*
-.*impersonate_token "BUILTIN\\Administrators".*
+.*impersonate_token \"BUILTIN\\Administrators\".*
 .*metterpreter.*
 .*MeteTool.*
 .*MicroBurst.*
@@ -6336,7 +6336,7 @@ ldeep .*
 .*mimidrv\.zip.*
 .*/mimidrv\.sys.*
 .*mimidrv\.sys.*
-.*"Hello from DCShadow".*
+.*\"Hello from DCShadow\".*
 .*\.kirbi .*
 .*service::me.*
 .*<3 eo\.oe.*
@@ -10330,7 +10330,7 @@ find \. -name spring-beans.*\.jar
 .* -u .*http.* --dbs
 .* -u .*http.* --os-shell.*
 .* --dbms=mysql -u .*
-.* --union-char "GsFRts2".*
+.* --union-char \"GsFRts2\".*
 .* --os-cmd whoami.*
 .*--file-read=/etc/passwd.*
 .*xforwardedfor\.py.*
@@ -11703,7 +11703,7 @@ masscan .*
 .*AutoCompletionHandlerC2ServerManager.*
 .*SharpSploitDomainRecon.*
 .*SSploitEnumerationDomain.*
-.*"We had a woodoo".*
+.*\"We had a woodoo\".*
 .*EvilClippyManager\..*
 .* EvilClippyManager.*
 .*EvilClippyMenu.*
@@ -11767,7 +11767,7 @@ masscan .*
 .*sharppsexec.*
 .*PrivEscManager\.cs.*
 .*RedPeanutManager\.cs.*
-.*"C2 Server".*
+.*\"C2 Server\".*
 .*RubeusManager.*
 .*spawnasshellcode.*
 .*using donutCS.*
@@ -12036,7 +12036,7 @@ set shellcode .*
 .*/Alan\.v.*\.zip.*
 .*AlanFramework\.git.*
 .*dump_lsass\.js.*
-.*dump_process\("lsass\.exe"\).*
+.*dump_process\(\"lsass\.exe\"\).*
 .*agent/cmd_shell\..*
 .*agent/cmd_proxy\..*
 .*agent/cmd_download_files\..*
@@ -12325,7 +12325,7 @@ set shellcode .*
 .*install certsync.*
 .*\\Windows\\Tasks\\Certipy.*
 .*\\certipy\.pfx.*
-.*ntdsutil "ac i ntds" .*create full.*\\temp.*
+.*ntdsutil \"ac i ntds\" .*create full.*\\temp.*
 .*/DonPAPI\.git.*
 .*/login-securite/DonPAPI.*
 .*donpapi-master\.zip.*
@@ -12502,7 +12502,7 @@ set shellcode .*
 .* live dpapi securestring .*
 .* live dpapi wifi.*
 .* live smb client .*
-.* smb client .* shares "use c\$".*
+.* smb client .* shares \"use c\$\".*
 .* smb shareenum .*smb2\+ntlm-password.*
 .* live smb lsassdump .*
 .* live smb regdump .*
@@ -12559,7 +12559,7 @@ set shellcode .*
 .*dbc2_agent\.exe.*
 .*dbc2_agent\.cs.*
 .*powershell\.exe -NoP -sta -NonI -W Hidden -Command .*Action = New-ScheduledTaskAction -Execute .*
-.*regsvr32\.exe /s /n /u /i:" .* " scrobj\.dll.*
+.*regsvr32\.exe /s /n /u /i:\" .* \" scrobj\.dll.*
 .*Invoke-ReflectivePEInjection.*
 .*dbc2Loader\.tpl.*
 .*/persist\.tpl.*
@@ -12695,7 +12695,7 @@ set shellcode .*
 .*findstr /si secret .*\.docx.*
 .*findstr .*vnc\.ini.*
 .*crontab.* sleep .*ncat .* -e /bin/bash.*crontab.*
-.*APT::Update::Pre-Invoke \{".*"}.*
+.*APT::Update::Pre-Invoke \{\".*\"}.*
 .*cat /dev/null > /var/log/auth\.log.*
 .*cat /dev/null > ~/\.bash_history.*
 .*export HISTFILESIZE=0.*
@@ -13029,7 +13029,7 @@ sniffer -.*
 .*qwqdanchun/DcRat.*
 .*https://pastebin\.com/raw/fevFJe98.*
 .*119\.45\.104\.153:8848.*
-.*"qwqdanchun".*
+.*\"qwqdanchun\".*
 .*Keylogger\.exe.*
 .*Resources\\donut\.exe.*
 .*DcRat_png\.png.*
@@ -13063,7 +13063,7 @@ sniffer -.*
 .*debugfs /dev/.*
 .* /bin/nc .* -e /bin/bash.* > cron && crontab cron.*
 .*xxd -p -c 4 /.* \| while read line.* do ping -c 1 -p .*
-.*echo "%sudo  ALL=\(ALL\) NOPASSWD: ALL" >> /etc/sudoers.*
+.*echo \"%sudo  ALL=\(ALL\) NOPASSWD: ALL\" >> /etc/sudoers.*
 .*getcap -r / 2>/dev/null.*
 .*cat .*\.bash_history.*
 .*cat .*\.zsh_history.*
@@ -13291,7 +13291,7 @@ socat TCP-LISTEN:.*.*reuseaddr.*fork EXEC:/bin/sh.*
 .*ReverseShell\.ps1.*
 .*windows_recon\.bat.*
 .*winreconstreamline\.bat.*
-.*cscript dl\.vbs .*http.*/.*\.zip" .*\.zip.*
+.*cscript dl\.vbs .*http.*/.*\.zip\" .*\.zip.*
 .*Windows-Privilege-Escalation.*
 .*\\Users\\Public\\nc\.exe.*
 .*windows-privesc-check.*
