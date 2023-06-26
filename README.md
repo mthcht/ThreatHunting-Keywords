@@ -215,7 +215,7 @@ The result of the search will be in `result_search.log` in the same directory as
 `todo`
 
 
-#### Hunt for evil in file with powershell and the 'only_keywords.txt ' list
+#### Hunt for evil in file only with powershell and the 'only_keywords.txt ' list (slower)
 
 In powershell it's much slower but if you still want to do it this way, you can use the script below, it will tell you the line number matched and the corresponding keyword: 
 
