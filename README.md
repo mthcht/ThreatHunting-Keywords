@@ -176,6 +176,45 @@ You will get the matched lines like this with the line number (but without the m
 
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/9ecaefe3-82a0-4434-85ad-488067e43290)
 
+#### Better option for verylarge files (on windows):
+#### `powershell -ep Bypass -File .\DFIR_hunt_in_file.ps1 -patternFile "only_keywords_regex.txt" -targetFile "C:\Users\mthcht\collection\20230406154410_EvtxECmd_Output.csv" -rgPath "C:\Users\mthcht\Downloads\ripgrep-13.0.0-x86_64-pc-windows-msvc\ripgrep-13.0.0-x86_64-pc-windows-msvc\rg.exe"`
+- `-targetFile`: specify the file to search in (in the example, a DFIR-ORC extract logs)
+- `-patternFile`: the file containing the regex patterns `only_keywords_regex.txt`
+- `-rgPath`: the path of the ripgrep executable
+
+content of the powershell script (included in the repo):
+```powershell
+param (
+    [Parameter(Mandatory=$true)]
+    [string]$patternFile,
+    [Parameter(Mandatory=$true)]
+    [string]$targetFile,
+    [Parameter(Mandatory=$true)]
+    [string]$rgPath
+)
+
+Start-Transcript -Path "$PSScriptRoot\result_search.log" -Append -Force -Verbose
+
+$totalLines = (Get-Content $patternFile | Measure-Object -Line).Lines
+$currentLine = 0
+Get-Content $patternFile | ForEach-Object {
+    $currentLine++
+    Write-Host "Searching for pattern $currentLine of $totalLines : $_"  
+    & $rgPath --multiline --ignore-case $_ $targetFile | Write-Output 
+}
+
+Stop-Transcript -Verbose
+```
+The result of the search will be in `result_search.log` in the same directory as the script.
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/0096d48e-6531-4264-8995-f6073107c461)
+
+
+
+#### Better option for verylarge files (on linux):
+`todo`
+
+
 #### Hunt for evil in file with powershell and the 'only_keywords.txt ' list
 
 In powershell it's much slower but if you still want to do it this way, you can use the script below, it will tell you the line number matched and the corresponding keyword: 
