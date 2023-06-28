@@ -3126,7 +3126,7 @@ dumpwifi *
 *powershell -enc cwBjACAALQBwAGEAdABoACAAYwA6AFwAaQBuAGUAdABwAHUAYgBcAHcAdwB3AHIAbwBvAHQAXABhAHMAcABuAGUAdABfAGMAbABpAGUAbgB0AFwAdABlAHMAdAAuAHQAeAB0ACAALQB2AGEAbAB1AGUAIAB0AGUAcwBlAHQA*
 *sc -path c:\inetpub\wwwroot\aspnet_client\test.txt -value teset*
 *powershell.exe -noninteractive -executionpolicy bypass ipconfig /all*
-*powershell.exe -noninteractive -executionpolicy bypass net group *domain admins* /domain*
+*net group *domain admins* /domain*
 *copy *NTDS\NTDS.dit*Temp*
 */SharpDump*
 *ShellCmd sc qc *
@@ -9170,13 +9170,16 @@ cmd.exe /c PowerShell.exe -Exec ByPass -Nol -Enc *
 *//:sptth*
 *\:MLKH*
 *\\:C*
+* resu ten*
+*=resu ten*
 *//:ptth*
-*powershell -NoP -NonI -W Hidden -Exec Bypass -Command New-Object System.Net.Sockets.TCPClient(***)*$stream = $client.GetStream()*[byte[]]$bytes = 0..65535|%{0}*
-Get-DomainUser -KerberosPreuthNotRequired -Verbose
-Get-NetUser -SPN
+*llehsrewop*
+*=imaohw*
+* imaohw*
+*New-Object System.Net.Sockets.TCPClient(*$stream = $client.GetStream()*[byte[]]$bytes = 0..65535*
+*Get-DomainUser -KerberosPreuthNotRequired -Verbose*
+*Get-NetUser -SPN*
 *Get-LoggedonLocal -ComputerName *
-Set-DomainObject <target> -Set @{'mstsinitialprogram'=*} -Verbose
-Get-NetGroup \*admin\*
 *Import-Module *Microsoft.ActiveDirectory.Management.dll*
 *https://*Microsoft.ActiveDirectory.Management.dll*
 *http://*Microsoft.ActiveDirectory.Management.dll*
@@ -11352,8 +11355,8 @@ wapiti -*
 *shell whoami*
 *shell nltest /dclist*
 *shell net localgroup administrators*
-*shell net group / domain *Domain Admins*
-*shell net group *Enterprise Admins* /domain*
+*net group / domain *Domain Admins*
+*net group *Enterprise Admins* /domain*
 *shell net group *Domain Computers* /domain*
 *net domain_controllers*
 *powershell-import*ShareFinder.ps1*
@@ -13081,7 +13084,7 @@ sniffer -*
 *grep :0: /etc/passwd*
 *socat file:*tty*raw*echo=0 tcp-listen:*
 *socat FILE:*tty*raw*echo=0 TCP*:*
-socat TCP-LISTEN:**reuseaddr*fork EXEC:/bin/sh*
+*socat TCP-LISTEN:**reuseaddr*fork EXEC:/bin/sh*
 *socat tcp-connect:*:* exec:/bin/sh*
 *bash -i >& /dev/tcp/*/* 0>&1*
 *php -r *$sock=fsockopen(*exec(*/bin/sh -i <&3 >&3 2>&3*
@@ -13123,6 +13126,7 @@ socat TCP-LISTEN:**reuseaddr*fork EXEC:/bin/sh*
 *nc -v -n -z -w1 *-*
 *:(){:I: &I*
 *net group /domain *Domain Admins*
+*net group *Domain Controllers*/domain*
 *hping3 * --flood --frag --spoof * --destport*
 */msLDAPDump*
 *msLDAPDump.py*
@@ -13303,3 +13307,15 @@ socat TCP-LISTEN:**reuseaddr*fork EXEC:/bin/sh*
 *Jormungandr.exe*
 *COFFLdr.exe*
 *COFFLdr.cpp*
+*ftype *findstr "dfil"*
+*assoc *findstr "s1x"*
+*assoc *findstr "mdf"*
+*ftype *findstr "SHCm"*
+*assoc *findstr "lCmd"*
+*assoc *findstr "=cm"*
+*ftype *findstr dfil*
+*assoc *findstr s1x*
+*assoc *findstr mdf*
+*ftype *findstr SHCm*
+*assoc *findstr lCmd*
+*assoc *findstr =cm*
