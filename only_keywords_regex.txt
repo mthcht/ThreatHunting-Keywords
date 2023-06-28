@@ -1,4 +1,4 @@
-.*osmedeus scan.*
+﻿.*osmedeus scan.*
 .*scan -T list_of_targets\.txt.*
 .*/workflow/test/dirbscan\.yaml.*
 .*osmedeus provider.*
@@ -13319,3 +13319,101 @@ sniffer -.*
 .*ftype .*findstr SHCm.*
 .*assoc .*findstr lCmd.*
 .*assoc .*findstr =cm.*
+.*nltest /domain_trusts.*
+.*nltest /all_trusts.*
+.*dsquery .* -filter .*\(objectClass=trustedDomain\).* -attr .*
+.*adfind\.exe -f objectclass=trusteddomain.*
+.*adfind -f objectclass=trusteddomain.*
+.*adfind\.exe -sc trustdmp.*
+.*adfind -sc trustdmp.*
+.*sysdream/ligolo.*
+.*/ligolo\.git.*
+.*ligolo-master.*
+.*ligolo_windows.*\.exe.*
+.*ligolo_linux.*
+.*ligolo_darwin.*
+.*/ligolo-ng.*
+.* -relayserver .*:5555.*
+.*127\.0\.0\.1:1080.*
+.*127\.0\.0\.1:5555.*
+.*tools/ligolo.*
+.*ip link set ligolo up.*
+.*src/ligolo.*
+.*cmd/ligolo.*
+.*ligolo\.lan.*
+.*cd ligolo.*
+.*localrelay_linux_amd64.*
+.*proxychains nmap -sT .* -p .* -Pn -A.*
+.*proxychains rdesktop .*
+.*cmd/localrelay.*
+.*cmd/ligolo.*
+.*bin/ligolo.*
+.*bin/localrelay.*
+.*/wmiexec/.*
+.*WMIExec\.git.*
+.*WMIExec-main.*
+.*wmiexec_win32process\.py.*
+.*wmiexec_scheduledjob\.py.*
+.*praetorian-inc/gato.*
+.*gato .* --socks-proxy.*
+.*gato .* --http-proxy.*
+.*gato .* attack.*
+.*gato .* enumerate.*
+.*/gato/.*attack\.py.*
+.*/enumerate/enumerate\.py.*
+.*Invoke-PowerExtract.*
+.*powerseb/PowerExtract.*
+.*/PowerExtract\.git.*
+.*PowerExtract-main\.zip.*
+.* -PathToDMP .*\.dmp.*
+.*sysmonquiet\..*
+.*/SysmonQuiet.*
+.*SysmonQuiet-main.*
+.*Sysmon is being suffocated.*
+.*Sysmon is quiet now!.*
+.*Yay! No SYSMON here!.*
+.*ffuf/ffuf.*
+.*/ffuf\.git.*
+.*/ffuf/ffufrc.*
+.*ffuf-master\.zip.*
+.*ffuf_.*_freebsd_.*\.tar\.gz.*
+.*ffuf_.*_linux_.*\.tar\.gz.*
+.*ffuf_.*_macOS_.*\.tar\.gz.*
+.*ffuf_.*_openbsd_.*\.tar\.gz.*
+.*ffuf\.exe.*
+.*ffuf_.*_windows_.*\.zip.*
+.*cd ffuf.*
+.*ffuf -c .*
+.*ffuf -w .*
+.*ffuf .*-u http.*
+.*https://ffuf\.io/FUZZ.*
+.*https://ffuf\.io\.fi.*
+.*ffuf .*-input-cmd.*
+.*fuff .*-input-shell.*
+.*fuff .*-scraperfile.*
+.*fuff .*-scrapers.*
+.*/commando-vm.*
+.*https://www\.myget\.org/F/fireeye/api/v2.*
+.*Unblock-File \.\\install\.ps1.*
+.*commando-vm-master.*
+.*fireeye.*commando.*
+.*choco install .* common\.fireeye.*
+.*-ExecutionPolicy Bypass -File Win10\.ps1 .*
+.*-ExecutionPolicy Bypass -File Win11\.ps1 .*
+.*\.win10\.config\.fireeye.*
+.*\.win7\.config\.fireeye.*
+.*/krbrelayx.*
+.*krbrelayx\.git.*
+.*krbrelayx-master.*
+.*krbrelayx\.py.*
+.*addspn\.py.*
+.*/dnstool\.py.*
+.*/printerbug\.py.*
+.* --enum-local-admins.*
+.*-hashes.* --escalate-user.*
+.* --krbpass .*--krbsalt.*
+.* --dump-laps.*
+.* --dump-gmsa.*
+.* --dump-adcs.*
+.* -f kirbi .*
+.* --format kirbi.*
