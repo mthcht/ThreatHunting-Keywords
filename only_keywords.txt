@@ -1,4 +1,4 @@
-﻿*osmedeus scan*
+*osmedeus scan*
 *scan -T list_of_targets.txt*
 */workflow/test/dirbscan.yaml*
 *osmedeus provider*
