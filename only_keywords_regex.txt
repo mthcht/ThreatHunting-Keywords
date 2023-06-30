@@ -3202,11 +3202,36 @@ BypassUAC .*
 .*get_keystrokes\.py.*
 .*hook-lsassy\.py.*
 .*BloodHound-modified\.ps1.*
+.*cme/cme\.conf.*
+.*/obfuscated_scripts/.*
+.*/enum_av\.py.*
+.*enum_avproducts\.py.*
+.*temp.*whoami\.txt.*
+.*handlekatz\.py.*
+.*empire_exec\.py.*
+.*DNS-Enum-.*-.*\.log.*
+.* Pwn3d!.*
+.* empireadmin.*
+.*hook-lsassy\.py.*
+.*gpp_autologin\.py.*
+.*gpp_password\.py.*
+.*keepass_discover\.py.*
+.*lsassy_dump.*
+.*met_inject\.py.*
+.*ntlmv1\.py.*
+.*petitpotam\.py.*
+.*whoami\.py.*
+.*cme-windows-latest-.*\.zip.*
+.*cme-ubuntu-latest-.*\.zip.*
+.*cme-macOS-latest-.*\.zip.*
+.*powershell\.exe -noni -nop -w 1 -enc .*
+.*powershell\.exe -exec bypass -noni -nop -w 1 -C.*
+.*modules.*daclread\.py.*
 .*cme -d .*localhost.*
 .*cme -d .* -.*
 cme smb -.*
 .* -p .* --amsi-bypass .*
-.* --no-bruteforce --continue-on-success.*
+.* --no-bruteforce .*
 .*mimipenguin\.py.*
 .*invoke_sessiongopher\.py.*
 .*lsassy_dump\.py.*
@@ -13392,6 +13417,7 @@ sniffer -.*
 .*fuff .*-input-shell.*
 .*fuff .*-scraperfile.*
 .*fuff .*-scrapers.*
+.* -o ffuf\.csv.*
 .*/commando-vm.*
 .*https://www\.myget\.org/F/fireeye/api/v2.*
 .*Unblock-File \.\\install\.ps1.*
@@ -13417,3 +13443,49 @@ sniffer -.*
 .* --dump-adcs.*
 .* -f kirbi .*
 .* --format kirbi.*
+.*SwampThing\.sln.*
+.*SwampThing\.exe.*
+.*SwampThing\.pdb.*
+SwampThing\.csproj
+.* -FakeCmdLine .*
+.* -RealCmdLine .*
+.*master/SwampThing.*
+.*\\SpoofCmdLine\\TheThing.*
+.*\\TheThing\.exe.*
+.*DesertNut\.csproj.*
+.*DesertNut\.sln.*
+.*DesertNut_h\.cs.*
+.*DesertNut\.exe.*
+.*WindfarmDynamite\.sln.*
+.*WindfarmDynamite\.exe.*
+.*WindfarmDynamite\.cdproj.*
+.*WNFarmDynamite_h\.cs.*
+.*MaceTrap\.exe.*
+.*UrbanBishop\.exe.*
+.*Londor\.exe -t Coverage.*
+.*Londor\.exe -t Script.*
+.*Sharp-Suite\.git.*
+.*FuzzySecurity/Sharp-Suite.*
+.*o365creeper\.py.*
+.*o365creeper\.git.*
+.*o365creeper-master.*
+.*ROADtools\.git.*
+.*ROADtools-master.*
+.*install .* roadrecon.*
+.*roadrecon/frontend.*
+.*/ROADtools/.*
+.*\\ROADtools\\.*
+.*roadrecon\.db.*
+.*roadrecon.*gather\.py.*
+.*roadrecon plugin .*
+.*dllproxy\.py.*
+.*\.py .*\.exe .*NormalDLL\.dll.*
+.*/DllProxy\.git.*
+.*DllProxy-main.*
+.*SQLRecon\.git.*
+.*/SQLRecon.*
+.*\\SQLRecon.*
+.*SQLRecon\.exe.*
+.* -m olecmd -o .*powershell .*
+.*\\temp\\hollow\.dll.*
+.* -m lagentcmd .*powershell .*
