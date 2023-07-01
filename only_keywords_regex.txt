@@ -13489,3 +13489,203 @@ SwampThing\.csproj
 .* -m olecmd -o .*powershell .*
 .*\\temp\\hollow\.dll.*
 .* -m lagentcmd .*powershell .*
+.*/linWinPwn.*
+.*linWinPwn\..*
+.*linWinPwn-.*
+.* linWinPwn.*
+.*/opt/lwp-wordlists.*
+.*/rockyou\.txt.*
+.*cirt-default-usernames\.txt.*
+.*/opt/lwp-scripts.*
+.*/DomainRecon/.*\.txt.*
+.*DomainRecon/BloodHound.*
+.*LDAPDomainDump.*
+.*DomainRecon/ADCS.*
+.*DomainRecon/SilentHound.*
+.*/ldeepDump.*
+.*smbmapDump.*
+.*/manspiderDump.*
+.*Credentials/SAMDump.*
+.*Vulnerabilities/RPCDump.*
+.* aad3b435b51404eeaad3b435b51404ee.*
+.*/Credentials/.*\.ccache.*
+.*/Scans/servers_all_smb.*\.txt.*
+.*/nmap_smb_scan_all_.*\.txt.*
+.*nmap_smb_scan_custom_.*\.txt.*
+.*bloodhound_output.*/dev/null.*
+.*bloodhound_output_.*\.txt.*
+.*cme_bloodhound_output_.*\.txt.*
+.*bloodhound_output_dconly_.*
+.*enum4linux_.*\.txt.*
+.*cme_users_nullsess_smb_.*\.txt.*
+.*cme_users_auth_smb_.*\.txt.*
+.*cme_passpol_output_.*\.txt.*
+.*cme_gpp_output_.*\.txt.*
+.*users_list_cme_ldap_nullsess_.*
+.*cme_users_auth_ldap_.*\.txt.*
+.* --password-not-required --kdcHost .*cme.*
+.*/cme_adcs_output_.*\.txt.*
+.*cme_get-desc-users_pass_output_.*
+.*cme_get-desc-users_pass_results.*
+.*cme_MachineAccountQuota_output_.*
+.*cme_subnets_output_.*\.txt.*
+.*cme_ldap-checker_output_.*
+.*cme_trusted-for-delegation_output_.*
+.*DomainRecon.*ridbrute.*
+.*users_list_ridbrute_.*
+.*user_eq_pass_valid_cme_.*\.txt.*
+.*impacket_findDelegation.*
+.*certi\.py_vulntemplates_output.*
+.*silenthound_output_.*\.txt.*
+.*/windapsearch_.*\.txt.*
+.*users_list_kerbrute_.*
+.*kerbrute_user_output_.*
+.*asrep_attack.*
+.*asreproast_output_.*\.txt.*
+.*/asreproast_hashes_.*\.txt.*
+.*kerberoast_blind_output_.*
+.*/kerberoast_hashes_.*\.txt.*
+.*targetedkerberoast_hashes_.*\.txt.*
+.*targetedkerberoast_output_.*\.txt.*
+.*kerbrute_userpass_wordlist_.*
+.*kerbrute_pass_output_.*
+.*asreproast_john_results_.*
+.*kerberoast_john_results_.*
+.*/smbmapDump.*
+.*/cme_shares_output_.*
+.*Shares/cme_spider_plus.*
+.*Shares/finduncshar_.*\.txt.*
+.*/manspider_output.*\.txt
+.*cme_petitpotam_output_.*\.txt.*
+.*cme_dfscoerce_output_.*\.txt.*
+.*cme_zerologon_output_.*\.txt.*
+.*cme_ms17-010_output_.*
+.*/cme_spooler_output_.*
+.*cme_printnightmare_output_.*\.txt.*
+.*cme_webdav_output_.*\.txt.*
+.*cme_shadowcoerce_output_.*\.txt.*
+.*cme_smbsigning_output_.*\.txt.*
+.*cme_ntlmv1_output_.*
+.*cme_runasppl_output_.*\.txt.*
+.*impacket_rpcdump_output_.*
+.*/coercer_output_.*\.txt.*
+.*cme_mssql_priv_output_.*\.txt.*
+.*/keepass_discover_.*\.txt.*
+.*/Credentials/firefox_.*\.txt.*
+.*/Credentials/msol_.*\.txt.*
+.*/laps_dump_.*\.txt.*
+.*/gMSA_dump_.*\.txt.*
+.*/dcsync_.*\.txt
+.*/secretsdump_.*\.txt.*
+.*/ntds_dump_.*\.txt.*
+.*/sam_dump_.*\.txt.*
+.*/lsa_dump_.*\.txt.*
+.*lsass_dump_lsassy_.*
+.*lsass_dump_.*
+.*dpapi_dump_.*\.txt.*
+.*Credentials.*hekatomb_.*\.txt
+.*Credentials/certsync_.*
+.*silenthound_enum.*
+.*windapsearch_enum.*
+.*ldeep_enum.*
+.*ridbrute_attack.*
+.*userpass_cme_check.*
+.*kerbrute_enum.*
+.*userpass_kerbrute_check.*
+.*asreprc4_attack.*
+.*kerberoast_attack.*
+.*targetedkerberoast_attack.*
+.*john_crack_asrep.*
+.*john_crack_kerberoast.*
+.*manspider_scan.*
+.*juicycreds_dump.*
+.*laps_dump.*
+.*gmsa_dump.*
+.*secrets_dump.*
+.*lsassy_dump.*
+.*dpapi_dump.*
+.*petitpotam_check.*
+.*zerologon_check.*
+.*bhd_enum_dconly.*
+.*cme_smb_enum.*
+.*deleg_enum_imp.*
+.*certi_py_enum.*
+.*certipy_enum.*
+.*finduncshar_scan.*
+.*secrets_dump_dcsync.*
+.*handlekatz_dump.*
+.*procdump_dump.*
+.*nanodump_dump.*
+.*masky_dump.*
+.*donpapi_dump.*
+.*certsync_ntds_dump.*
+.*hekatomb_dump.*
+.*Passwords/Leaked-Databases.*\.txt.*
+.*xato-net-10-million-usernames\.txt.*
+.*\$attacker_IPlist.*
+.* -M ldap-checker .*
+.* -M MAQ --kdcHost .*
+.*--trusted-for-delegation --kdcHost .*
+.* --rid-brute 2>&1 .*\.txt.*
+.* --dc-ip .* --vuln --enabled.*
+.* -vulnerable -stdout -hide-admins.*
+.* -save-old -dc-ip .*
+.* -pfx .*\.pfx -dc-ip .*
+.*rpc://.* -rpc-mode ICPR -icpr-ca-name .*
+.* -g -n --kerberoast.*
+.* -m privileged-users --full .*
+.* userenum .* --dc .*
+.* -request -dc-ip .*
+.* --asreproast .*
+.* -no-preauth .* -dc-ip .*
+.* --only-abuse --dc-host .*
+.* --format=krb5asrep.* --wordlist=.*
+.* -M spider_plus .*
+.* --impersonate Administrator -shell .*
+.* -dc-ip .* -dump .*
+.* -M petitpotam .*
+.* -M dfscoerce .*
+.* -M zerologon .*
+.* -no-pass -just-dc-user .*
+.* -M ms17-010 .*
+.* -M printnightmare .*
+.* -M shadowcoerce .*
+.* smb .* --gen-relay-list .*\.txt.*
+.* smb .* -M ntlmv1 .*
+.* -M runasppl .*
+.* scan .* --dc-ip .*
+.* coerce .* --dc-ip .*
+.* --dc .* -m custom --filter .*objectCategory.*
+.* -M mssql_priv .*
+.* -M keepass_discover .*
+.* -M teams_localdb .*
+.* smb .* -M msol .*
+.* -M laps --kdcHost .*
+.* ldap .* --gmsa .*dump.*
+.* -ip .* -smb2support .*lwpshare.* 
+.* -dc-ip .*SAMDump.*
+.* smb .* --ntds --log .*
+.* smb .* --sam --log .*
+.* smb .* --lsa --log .*
+.* -M lsassy .*
+.* -M handlekatz .*
+.* -M procdump 
+.* -M nanodump .*
+.* smb .* --dpapi .*password.*
+.* -M masky .*CA=.*
+.*pwd_dump .*
+.*-k -no-pass -p '' --auth-method kerberos.*
+.* --force-kerb .*
+.*ms14-068_check.*
+.*ms17-010_check.*
+.*spooler_check.*
+.*printnightmare_check.*
+.*dfscoerce_check.*
+.*shadowcoerce_check.*
+.*smbsigning_check.*
+.*ntlmv1_check.*
+.*runasppl_check.*
+.*rpcdump_check.*
+.*coercer_check.*
+.*veeam_dump.*
+.*msol_dump.*
