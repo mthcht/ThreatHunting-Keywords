@@ -1,4 +1,4 @@
-.*osmedeus scan.*
+﻿.*osmedeus scan.*
 .*scan -T list_of_targets\.txt.*
 .*/workflow/test/dirbscan\.yaml.*
 .*osmedeus provider.*
@@ -9184,7 +9184,7 @@ Get-ADGroup -Filter .*Name -like .*admin.*
 .*\\powershell\.exe.* \+=hidden.*
 .*\\powershell\.exe.* \+= hidden.*
 .*powershell New-ItemProperty -Path .*HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender.* -Name DisableAntiSpyware -Value 1 -PropertyType DWORD -Force.*
-.*powershell\.exe -exec Bypass /c Set-MpPreference -DisableRealtimeMonitoring \$true.*
+.*Set-MpPreference -DisableRealtimeMonitoring \$true.*
 Get-ADObject -SearchBase .*CN=Shadow Principal Configuration.*CN=Services.* \(Get-ADRootDSE\)\.configurationNamingContext\) \| select .*msDS-ShadowPrincipalSid.*
 Get-NetGroup -FullData.*
 .*Invoke-EnumerateLocalAdmin -Verbose.*
@@ -13172,6 +13172,7 @@ sniffer -.*
 .*ssh -N -R 4567:localhost:.*root.*
 .*PrimusC2-main\.zip.*
 .*/WinPwn.*
+.*Offline_WinPwn\.ps1.*
 .*Invoke-Seatbelt.*
 .*Invoke-watson.*
 .*Invoke-Sharpweb.*
@@ -13422,6 +13423,7 @@ sniffer -.*
 .* -o ffuf\.csv.*
 .*/commando-vm.*
 .*https://www\.myget\.org/F/fireeye/api/v2.*
+.*commandovm\..*\.installer\.fireeye.*
 .*Unblock-File \.\\install\.ps1.*
 .*commando-vm-master.*
 .*fireeye.*commando.*
@@ -13794,3 +13796,169 @@ inceptor.*dotnet.*
 .*targetedKerberoast-main.*
 .*targetedKerberoast\.py.*
 .*kerberoastables\.txt.*
+.*LaresLLC/SlinkyCat.*
+.*/SlinkyCat\.git.*
+.*SlinkyCat-main.*
+.*SlinkyCat\.ps1.*
+.*EnumerateAllDomainControllers.*
+.*ListDomainAdmins.*
+.*ListAccountsWithSPN.*
+.*ListPasswordNeverExpire.*
+.*ListUsersNoPasswordRequired.*
+.*ListUsersPasswordMustChange.*
+.*ListDomainGroupsLocalAdmin.*
+.*ListNeverLoggedInAccounts.*
+.*ListDescriptionContainsPass.*
+.*ListUsersPasswordNotChanged.*
+.*ListUsersLastPasswordChange.*
+.*TestWinRMMachines.*
+.*FindAdminAccessComputers.*
+.*DNet-EnumerateAllDomainUserAccounts.*
+.*DNet-ListDomainUserAccountsWithCompletedADDescription.*
+.*DNet-ListAccountsByDescription.*
+.*DNet-ListUsersInDomainAdminsGroup.*
+.*Invoke-SlinkyCat.*
+.*System\.DirectoryServices\.AccountManagement\.GroupPrincipal.*FindByIdentity.*D
+.*output/AllDomainHosts\.txt.*
+.*output/AllDomainControllers\.txt.*
+.*output/AllDomainUsers\.txt.*
+.*output/DomainAdmins\.txt.*
+.*output/AccountsWithSPN\.txt.*
+.*output/AllDomainGroups\.txt.*
+.*output/PasswordNeverExpire\.txt.*
+.*output/UsersNoPasswordRequired\.txt.*
+.*output/UsersPasswordMustChange\.txt.*
+.*output/NonDCWindows7Computers\.txt.*
+.*output/NonDCWindows10Computers\.txt.*
+.*output/NonDCWindows11Computers\.txt.*
+.*output/AllServers\.txt.*
+.*output/AllServers2k8\.txt.*
+.*output/AllServers2k12\.txt.*
+.*output/AllServers2k16\.txt.*
+.*output/AllServers2k19\.txt.*
+.*output/AllServers2k22\.txt.*
+.*output/DomainGroupsLocalAdmin\.txt.*
+.*output/AllTrusts\.txt.*
+.*output/ExchangeServers\.txt.*
+.*output/NeverLoggedInAccounts\.txt.*
+.*output/CompletedDescriptionField\.txt.*
+.*output/DescriptionContainsPass\.txt.*
+.*output/UsersPasswordNotChanged\.txt.*
+.*output/UsersLastPasswordChange\.txt.*
+.*output/WinRMMachines\.txt.*
+.*output/RDPMachines\.txt.*
+.*output/AdminAccessComputers\.txt.*
+.*output/AllDomainUserAccounts\.txt.*
+.*output/DomainUserAccountsWithCompletedADDescription\.txt.*
+.*output/DNETAccountsByDescription\.txt.*
+.*output/UsersInDomainAdminsGroup\.txt.*
+.*rvrsh3ll/TokenTactics.*
+.*/rvrsh3ll/.*
+.*/TokenTactics\.git.*
+.*TokenTactics-main\.zip.*
+.*TokenTactics\.psm1.*
+.*TokenTactics\.psd1.*
+.*Connect-AzureAD -AadAccessToken -AccountId .*
+.*Invoke-RefreshToMSGraphToken -domain -ClientId .*
+.*Invoke-DumpOWAMailboxViaMSGraphApi.*
+.*Invoke-ForgeUserAgent.*
+.*Invoke-OpenOWAMailboxInBrowser.*
+.*/CapBypass\.ps1.*
+.*OutlookEmailAbuse\.ps1.*
+.*capturetokenphish\.ps1.*
+.*capturetokenphish\.py.*
+.*deploycaptureserver\.ps1.*
+.*ShellGhost\.sln.*
+.*ShellGhost\.vcxproj.*
+.*ShellGhost_mapping\.py.*
+.*ShellGhost\.exe.*
+.*ShellGhost\.dll
+.*lem0nSec/ShellGhost.*
+.*/ShellGhost\.git.*
+.*ShellGhost-master\.zip.*
+.*src/ShellGhost\.c.*
+.*kgretzky/evilqr.*
+.*/evilqr\.git.*
+.*evilqr-main.*
+.*evilqr-phishing.*
+.*http://127\.0\.0\.1:35000.*
+.*evilqr-server.*
+.*rasta-mouse/ThreatCheck.*
+.*/ThreatCheck\.git.*
+.*ThreatCheck-master.*
+.*matterpreter/DefenderCheck.*
+.*ThreatCheck\.exe.*
+.*DefenderCheck\.exe.*
+.* -f .*\.bin -e AMSI.*
+.* -f .*\.bin -e Defender.*
+.*ThreatCheck\.csproj.*
+.* -Scan -ScanType 3 -File .* -DisableRemediation -Trace -Level 0x10.*
+.*ThreatCheck\.csproj.*
+.*C:\\Temp\\file\.exe.*
+.*/NimBlackout.*
+.*\\NimBlackout.*
+.*/NimBlackout.*
+.*NimBlackout\..*
+.*NimBlackout.*\.exe.*
+.*/NimBlackout.*
+.*\\Blackout\.sys.*
+.*/NimBlackout.*
+.*NimBlackout-main.*
+.*/NimBlackout.*
+.*layer8secure/SilentHound.*
+.*/SilentHound\.git.*
+.*SilentHound-main.*
+.*silenthound\.py.*
+.* -k --kerberoast.*
+.*Nick Swink aka c0rnbread.*
+.*-domain_admins\.txt.*
+.*/TakeMyRDP.*
+.*\\TakeMyRDP.*
+.*TakeMyRDP\.git.*
+.*TakeMyRDP\.cpp.*
+.*TakeMyRDP\.sln.*
+.*TakeMyRDP\.vcxproj.*
+.*TakeMyRDP\.exe.*
+.*TakeMyRDP-main.*
+.*TakeMyRDP\.h.*
+.*TakeMyRDP.*logfile\.txt.*
+.*TakeMyRDP2\.0.*
+.*windapsearch\.py.*
+.*windapsearch_py2\.py.*
+.*/windapsearch\.git.*
+.* --unconstrained-users.*
+.* --user-spns.*
+.* -d .* -u .*\\.* -p .* --da.*
+.*windapsearch-master.*
+.*/RecycledInjector.*
+.*/RecycledInjector\.git.*
+.*RecycledInjector-main.*
+.*RecycledInjector\.exe.*
+.*poc\.exe.*poc\.txt.*
+.*GateTrampolin\.asm.*
+.*\\RecycledGate\.c.*
+.*/src/RecycledGate\.h.*
+.*RecycledInjector-main.*
+.*Processus-Thief/HEKATOMB.*
+.*hekatomb@thiefin\.fr.*
+.* install hekatomb.*
+.*hekatomb.*-hashes .*
+.*\.py .* -debug -dnstcp.*
+.*hekatomb-.*\.tar\.gz.*
+.*hekatomb-.*-py3-none-any\.whl.*
+.*SharpSQLPwn.*
+.* /cmdtech:.* /cmd:.* /impuser:.*
+.* /cmdtech:.* /cmd:.* /query:.*
+.* /modules:.* /target:.* /linkedsql:.*
+.*/acltoolkit.*
+.*acltoolkit\.git.*
+.*acltoolkit-main.*
+.*acltoolkit-ad.*
+.* acltoolkit.*
+.*acltoolkit .*
+.* set-objectowner .* -target-sid .* -owner-sid .*
+.* give-genericall .* -target-sid .*
+.* give-dcsync.*
+.*/add_groupmember\.py.*
+.*give_dcsync\.py.*
+.*set_logon_script\.py.*
