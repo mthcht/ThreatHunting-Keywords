@@ -5019,7 +5019,7 @@ Impacket .*
 .*InvisibilityCloak\.py.*
 .* -d .* -n .* -m rot13.*
 .* -d .* -n .* -m reverse.*=
-.* -n .*TotallyLegitTool.*.*
+.* -n .*TotallyLegitTool.*
 .*Invisi-Shell.*
 .*Invoke-ACLPwn.*
 .*Invoke-BSOD.*
@@ -11396,7 +11396,7 @@ wapiti -.*
 .*CVE-2021-34527\.ps1.*
 .*Invoke-Nightmare -NewUser.*
 .*HACKER.*FUCKER.*Xeroxxx.*
-.*– DriverName .*Xeroxxx.*
+.* DriverName .*Xeroxxx.*
 .*spawnas .* \\ HACKER https.*
 .*Invoke-Nightmare -DLL .*
 .*shell rclone\.exe copy .*
@@ -13336,11 +13336,11 @@ sniffer -.*
 .*COFFLdr\.exe.*
 .*COFFLdr\.cpp.*
 .*ftype .*findstr .*dfil.*
-.*assoc .*findstr .*s1x.*.*
-.*assoc .*findstr .*mdf.*.*
-.*ftype .*findstr .*SHCm.*.*
-.*assoc .*findstr .*lCmd.*.*
-.*assoc .*findstr .*=cm.*.*
+.*assoc .*findstr .*s1x.*
+.*assoc .*findstr .*mdf.*
+.*ftype .*findstr .*SHCm.*
+.*assoc .*findstr .*lCmd.*
+.*assoc .*findstr .*=cm.*
 .*ftype .*findstr dfil.*
 .*assoc .*findstr s1x.*
 .*assoc .*findstr mdf.*
