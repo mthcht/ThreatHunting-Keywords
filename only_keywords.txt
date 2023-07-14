@@ -1,4 +1,4 @@
-*osmedeus scan*
+﻿*osmedeus scan*
 *scan -T list_of_targets.txt*
 */workflow/test/dirbscan.yaml*
 *osmedeus provider*
@@ -213,6 +213,12 @@ afrog -*
 *Aircrack-ng*
 *Airgeddon*
 *airpwn-ng*
+*obfuscator.cpp*
+*/Alcatraz/files/*/Alcatraz.zip*
+*/Alcatraz/x64*
+*Alcatraz-master.zip*
+*/Alcatraz-gui*
+*/Alcatraz.git*
 *weak1337/Alcatraz*
 *Alcatraz.sln*
 *\Alcatraz.exe*
@@ -6285,7 +6291,38 @@ ldeep *
 *impersonate_token *BUILTIN\Administrators*
 *metterpreter*
 *MeteTool*
-*MicroBurst*
+*\Files\ContainersFileUrls.txt*
+*Get-AzDomainInfo*
+*Get-AzUserAssignedIdentity*
+*Get-AzureADDomainInfo.ps1*
+*\MSOL\DomainCompanyInfo.txt*
+*C:\dsc_hello.txt*
+*\Resources\Disks-NoEncryption.txt*
+*Invoke-APIConnectionHijack.ps1*
+*OwnerPersist-POST.*
+*MicroBurst-Misc.psm1*
+*Invoke-EnumerateAzureSubDomains.ps1*
+*Invoke-EnumerateAzureBlobs.ps1*
+*MicroBurst-MSOL*
+*MicroBurst-AzureRM*
+*Invoke-AzureRmVMBulkCMD.ps1*
+*Get-AzurePasswords*
+*Get-AzPasswords*
+*Invoke-AzVMBulkCMD.ps1*
+*MicroBurst-Az.psm1*
+*MicroBurst-AzureAD*
+*Get-AzureADDomainInfo*
+*Get-AZStorageKeysREST.ps1*
+*Get-AzAutomationAccountCredsREST.ps1*
+*Get-AzDomainInfoREST.ps1*
+*Get-AzKeyVaultKeysREST.ps1*
+*Get-AzKeyVaultSecretsREST.ps1*
+*MicroBurst-AzureREST*
+*Invoke-AzRESTBastionShareableLink*
+*Invoke-AzElevatedAccessToggle*
+*MicroBurst-master*
+*/MicroBurst.git*
+*MicroBurst.psm1*
 *gentilkiwi*
 *Import-DllInRemoteProcess*
 *Enable-SeDebugPrivilege*
@@ -9158,7 +9195,9 @@ runof *.o*
 *PowerLessShell*
 *\Powermad*
 *powermad.ps1*
+*Powermad-master*
 *Powermad.psd1*
+*/Powermad.git*
 *Powermad.psm1*
 *Invoke-DNSUpdate.ps1*
 *PowerMemory*
@@ -10941,8 +10980,88 @@ sudomy -*
 */Weevely3*
 *wePWNise*
 *wevtutil cl *
-*wfuzz *
-*Wfuzz*
+*wfuzz.bat*
+*subdomains-top1million-20000.txt*
+* -c -w methods.txt -p 127.0.0.1*
+* -c -w *.txt -w *.txt --ss *
+* -c -w users.txt --hs *
+*../../../../../../etc/shadow*
+*../../../../../../etc/passwd*
+*/../../../../../boot.ini*
+* install wfuzz*
+* -u FUZZ *
+* -z range --zD 0-1 -u http*
+* FUZZ:FUZZ *
+* -z list*nonvalid-httpwatch --basic*
+* -X FUZZ http*
+* -z file*wordlist/*
+* -z range*0-10 --hl 97 http*
+* -c -z file*users.txt -z file*pass.txt *
+* -c -z range*1-10 --hc=BBB http*
+* --script=robots -z list*robots.txt*http*
+*xmendez/wfuzz*
+*wfencode -e *
+*wfpayload -*
+*wfuzz.get_payload*
+*import wfuzz*
+*https://wfuzz.readthedocs.io*
+* -w wordlist/*.txt*http*
+*www.wfuzz.org*
+*http://127.0.0.1/FUZZ*
+*burp_log_*.log*
+* -z burplog*
+*uname=FUZZ&pass=FUZZ*
+*vulnweb.com/FUZZ*
+*Injections/Traversal.txt*
+*/Injections/SQL.txt*
+*Injections/XSS.txt*
+*/sql_inj.txt*
+*vulns/tomcat.txt*
+*vulns/apache.txt*
+*vulns/jrun.txt*
+*vulns/iis.txt*
+*wfuzz.wfuzz*
+*fuzzfactory.py*
+*wfuzzp.py*
+*shodanp.py*
+*dirwalk.py*
+*burpstate.py*
+*burplog.py*
+*burpitem.py*
+*buffer_overflow.py*
+*from .wfuzz import *
+*wfencode -*
+*from .core import Fuzzer*
+*wfuzz.py*
+*fuzzrequest.py*
+*site-packages/wfuzz*
+* ws-dirs.txt*
+*\ws-dirs.txt*
+*/ws-dirs.txt*
+* ws-files.txt*
+*\ws-files.txt*
+*/ws-files.txt*
+*dirTraversal.txt*
+*dirTraversal-win.txt*
+*dirTraversal-nix.txt*
+* common_pass.txt*
+*\common_pass.txt*
+*/common_pass.txt*
+* admin-panels.txt*
+*\admin-panels.txt*
+*/admin-panels.txt*
+*\All_attack.txt*
+* All_attack.txt*
+*/All_attack.txt*
+*http://wfuzz.org*
+*wfuzz-cli.py*
+*wfencode.py*
+*wfencode.bat*
+*wfpayload.py*
+*wfpayload.bat*
+*wxfuzz.py*
+*wxfuzz.bat*
+*wfuzz*
 *WhatBreach*
 *whiskeysamlandfriends*
 */shocknawe/*
@@ -13962,3 +14081,246 @@ inceptor*dotnet*
 */add_groupmember.py*
 *give_dcsync.py*
 *set_logon_script.py*
+*Hakumarachi/Bropper*
+*/Bropper.git*
+*Bropper-main.zip*
+*/bropper.py*
+* -t 127.0.0.1 -p 1337 *
+*.py * --brop *
+*--expected Bad --expected-stop Welcome*
+*socat tcp4-listen:1337*
+* bropper.py*
+*bropper.py *
+*WorldWind-Stealer*
+*WorldWind Stealer.zip*
+*Invoke-Locksmith.ps1*
+*/Locksmith.git*
+*Locksmith-main.zip*
+* -InputPath .\TrustedForests.txt*
+*dfscoerce.py*
+*Wh04m1001/DFSCoerce*
+*/DFSCoerce.git*
+*DFSCoerce-main*
+*/SharpSystemTriggers*
+*SharpSystemTriggers.git*
+*SharpSystemTriggers-main*
+*SharpSystemTriggers.sln*
+*/SharpSpoolTrigger*
+*SharpSpoolTrigger.exe*
+*SharpDcomTrigger.exe*
+*SharpEfsTriggeEfs.exe*
+*Midl2Bytes.exe*
+*/IDiagnosticProfileUAC*
+*IDiagnosticProfileUAC.git*
+*IDiagnosticProfileUAC-main*
+*\IDiagnosticProfileUAC*
+*C:\Uac\results.cab*
+*anypotato.exe*
+*\rasman.exe*
+*/rasman.exe*
+* rasman.exe*
+*rasman*whoami*
+*magicRasMan*
+*rasman_c.c*
+*rasman_h.h*
+*RasMan.sln*
+*RasMan.cpp*
+*RasMan.vcxproj*
+*/RasmanPotato*
+*\RasmanPotato*
+*RasmanPotato-master*
+*werdhaihai/AtlasReaper*
+*/AtlasReaper.git*
+*AtlasReaper-main*
+*AtlasReaper.exe*
+*ysoserial.exe *
+* -p DotNetNuke*
+*-f Json.Net -g ObjectDataProvider -o raw -c *
+*-f BinaryFormatter -g PSObject -o base64 -c *
+* -m run_command -c *.exe*
+* -p Altserialization*
+* -p ActivatorUrl*
+* -p SessionSecurityTokenHandler*
+* -p TransactionManagerReenlist*
+* -g ClaimsPrincipal *
+* -g ActivitySurrogateSelector*
+* --gadget ClaimsPrincipal *
+* --gadget ActivitySurrogateSelector*
+*ysoserial.sln*
+*/ysoserial/*
+*\ysoserial\*
+*ysoserial -*
+*ysoserial.net*
+*echo 123 > c:\windows\temp\test.txt*
+* -g TextFormattingRunProperties *
+*\windows\temp\ncat.exe -nv *
+*ModifiedVulnerableBinaryFormatters\info.txt*
+*MessageBox.Show*Pwned*
+* -c *ExploitClass.cs*System.dll*
+*X-YSOSERIAL-NET*
+*PCVAIExhbmd1YWdlPSJDIyIlPgpUaGlzIGlzIHRoZSBhdHRhY2tlcidzIGZpbGUgPGJyLz4KUnVubmluZyBvbiB0aGUgc2VydmVyIGlmIGA8JT0xMzM4LTElPmAgaXMgMTMzNy4*
+*GhostWebShell.cs*
+*fakepath31337*
+*/ghostfile.aspx*
+*TestConsoleApp_YSONET*
+* --gadget PSObject *
+* -g PSObject *
+*  --cve=* --command*
+*ysoserial-*.zip
+*klsecservices/rpivot*
+*/rpivot.git*
+*rpivot-master*
+*--server-port * --server-ip * --proxy-ip * --proxy-port *
+*client.py --server-ip * --server-port *
+* --ntlm-proxy-ip * --ntlm-proxy-port *
+*9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45*
+*client.py*--domain*--hashes*
+*rpivot.zip*
+*Modlishka-linux-amd64*
+*Modlishka-windows-*-amd64.exe*
+*proxy_linux_amd64*
+*drk1wi/Modlishka*
+*/Modlishka.git*
+* -config modlishka.json *
+*MODLISHKA_BIN*
+*Modlishka/config*
+*9emin1/charlotte*
+*windows/x64/meterpreter_reverse_tcp*
+*charlotte-main.zip*
+*python*charlotte.py*
+*http*/charlotte.dll*
+*rundll32 charlotte.dll*
+*/charlotte.py*
+*/charlotte.cpp*
+*\charlotte.cpp*
+* charlotte.cpp*
+*\charlotte.py*
+* charlotte.dll *
+*Genetic-Malware/Ebowla*
+*/Ebowla.git*
+*Ebowla-master.zip*
+*/ebowla.py*
+* ebowla.py*
+*\ebowla.py*
+*exe_dll_shellcode genetic.config*
+*DllLoaderLoader.exe*
+*/SocialBox-Termux*
+* SocialBox.sh*
+*/SocialBox.sh*
+*/install-sb.sh*
+* install-sb.sh*
+*/fb-brute.pl*
+*/Sup3r-Us3r/scripts/*
+*datr=80ZzUfKqDOjwL8pauwqMjHTa*
+*Yuuup!! Pass Cracked*
+*Ox-Bruter.pl*
+*/umeshshinde19/instainsane*
+*/instainsane.git*
+*/instainsane.sh*
+* instainsane.sh*
+*gemailhack.py*
+*Ha3MrX/Gemail-Hack*
+*/Gemail-Hack.git*
+* instabf.py*
+*/instabf.py*
+*/insta-bf.git*
+*/insTof.py*
+* insTof.py*
+*Brute-force-Instagram-*.git*
+*ZxKmz4hXp6XKmTPg9lzgYxXN4sFr2pzo*
+*thelinuxchoice/tweetshell*
+* tweetshell.sh*
+*/tweetshell.sh*
+*apt-get -y install tor *
+*/remote-method-guesser.git*
+*qtc-de/remote-method-guesser*
+*remote-method-guesser-master*
+*rmg-*-jar-with-dependencies.jar*
+*rmg scan *
+*rmg enum *
+*rmg bind *127.0.0.1:*--localhost-bypass*
+*rmg call * --signature * --bound-name plain-server*
+*rmg call * --plugin GenericPrint.jar*
+*rmg codebase *java.util.HashMap *--bound-name legacy-service*
+*rmg codebase *http* --component *
+*rmg guess * *
+*rmg known javax.management.remote.rmi.RMIServerImpl_Stub*
+*rmg listen 0.0.0.0 *
+*rmg objid *[*
+*rmg scan * --ports *
+*rmg bind * jmxrmi --bind-objid *
+*rmg roguejmx *
+*rmg serial *CommonsCollections*
+*rmg serial * AnTrinh * --component *
+*rmg listen * CommonsCollections*
+*nc -vlp 4445*
+*nc -vlp 4444*
+*docker build -t rmg .*
+*rmg*--yso*
+*remote-method-guesser/rmg*
+*wordlists*rmg.txt*
+*wordlists*rmiscout.txt*
+*/tmp/wordlist.txt*
+*0.0.0.0:4444*
+*jdk*-method-rce-test.txt*
+*jdk*-reg-bypass.txt*
+*jdk*-activator-rce-test.txt*
+*0.0.0.0:4445*
+*jdk*-dgc-rce-test.txt*
+*jdk*-call-rce-test.txt*
+* enum 127.0.0.1 *
+*--ssrf --gopher --encode --scan-action filter-bypass*
+*CognisysGroup/HadesLdr*
+*/HadesLdr.git*
+*HadesLdr-main*
+*IDSyscall/IDSyscall*
+*IDSyscall\IDSyscall*
+*IDSyscall.vcxproj*
+*syscallStuff.asm*
+*/scripts/xor.py*
+*IDSyscall.sln*
+*IDSyscall.exe*
+* -h *-p * -c cypher.bin -k key.bin*
+*rc4.py *.bin*
+*python3 GetHash.py NtCreateFile*
+*xor.py *.dll*
+*0xthirteen/PerfExec*
+*PerfExec-main.zip*
+*\PerfExec.exe*
+* diagrun=true service=DNS* dllpath=*.dll* computername=*
+* wmirun=true dllpath=*.dll* computername=*
+*PerfExec.sln*
+*Spartacus-v2.*-x64.zip*
+*Spartacus.exe --mode proxy*
+* --action exports --dll C:\Windows\System32\amsi.dll*
+*exports --dll *.dll --prototypes ./Assets/prototypes.csv*
+* --dll * --only *AmsiScanBuffer*AmsiScanString*
+*takeown /f C:\Windows\System32\amsi.dll /a*
+*icacls.exe C:\Windows\System32\amsi.dll /grant administrators:F*
+*ren C:\Windows\System32\amsi.dll *.dll
+*movefile64.exe /nobanner *.dll C:\Windows\System32\amsi.dll*
+*Accenture/Spartacus*
+*Spartacus-main.zip*
+*--mode dll --procmon *
+*--mode dll --existing --pml *
+*--mode com --procmon *
+*Data\VulnerableCOM.csv*
+*--mode com --acl --csv *
+*--mode proxy --dll *.dll*--external-resources*
+* --dll C:\Windows\System32\version.dll*--dll C:\Windows\System32\userenv.dll*
+*\tmp\dll-collection*
+*--mode proxy --ghidra *--dll *
+*--mode proxy --action prototypes --path *prototypes.csv*
+*Assets/solution/dllmain.cpp*
+*spartacus-proxy-*.log*
+*help\dll.txt*
+*fileless-elf-exec*
+*python3 fee.py*
+*./fee.py*
+*pipx install fee
+*pip install --user fee
+*fee */* -l pl | perl*
+*fee */* -l pl | ruby*
+*fee -c */* | ssh *@*
+*fee -c */* -w 64 | *
+*fee -a *killall sshd* *busybox*
