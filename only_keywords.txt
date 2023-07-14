@@ -14324,3 +14324,21 @@ inceptor*dotnet*
 *fee -c */* | ssh *@*
 *fee -c */* -w 64 | *
 *fee -a *killall sshd* *busybox*
+*SharpDXWebcam*
+*Get-DXWebcamVideo.ps1*
+*SxNade/Rudrastra*
+*fake_ap.py*
+*aircrack-ng*
+*install macchanger*
+*macchanger -r*
+*/Rudrastra.git*
+*Rudrastra-main.zip*
+*shucknt.php*
+*//shuck.sh*
+*pwned-passwords-ntlm*
+*wordlist-nthash-reversed*
+*99$1a7F1qr2HihoXfs/56u5XMdpDZ83N6hW/HI=*
+*yanncam/ShuckNT*
+*/get-shucking.php*
+*/ShuckNT.git*
+*ShuckNT-main*
