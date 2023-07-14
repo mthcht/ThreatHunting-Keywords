@@ -14342,3 +14342,18 @@ inceptor*dotnet*
 */get-shucking.php*
 */ShuckNT.git*
 *ShuckNT-main*
+*set COMPlus_ETWEnabled=0*
+*$env:COMPlus_ETWEnabled=0*
+*env_var_spoofing_poc.cpp*
+*COMPlus_ETWEnabled=0\0\0\0*
+*unode/firefox_decrypt*
+*/firefox_decrypt.git*
+*firefox_decrypt-main*
+*firefox_decrypt.py*
+*/decrypt-chrome-passwords*
+*decrypt_chrome_password.py*
+*decrypt-chrome-passwords-main*
+*WKL-Sec/Winsocky*
+*/Winsocky.git*
+*Winsocky-main*
+*socky whoami*
