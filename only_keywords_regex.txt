@@ -5600,6 +5600,11 @@ set CMD .*
 .*getAllUserSpns.*
 .*LdapMiner.*
 .*LdapRelayScan\.py.*
+.* -method .* -nthash .*
+.*\.py -method BOTH -dc-ip .*
+.*\.py -method LDAPS -dc-ip .*
+.*LdapRelayScan-main.*
+.*/LdapRelayScan\.git.*
 .*zyn3rgy/LdapRelayScan.*
 .*ldeep_dump_users_enabled\.json
 .*ldeep ldap -u .*
@@ -14357,3 +14362,153 @@ inceptor.*dotnet.*
 .*/Winsocky\.git.*
 .*Winsocky-main.*
 .*socky whoami.*
+.*Invoke-BadZure.*
+.*mvelazc0/BadZure.*
+.*/BadZure/.*
+.*\\BadZure.*
+.*-RandomAttackPath -Token.*
+.* -Build -NoAttackPaths.*
+.*-Build \$RandomAttackPath.*
+.*/BadZure\.git.*
+.*BadZure-main.*
+.*rwxfinder\..*
+.*pwnsauc3/RWXFinder.*
+.*/RWXfinder\.git.*
+.*RWXfinder-main.*
+.*/dploot\.git.*
+.*zblurx/dploot.*
+.*dploot-main\.zip.*
+.*install dploot.*
+.*dploot -.*
+.*dploot.*wifi.*
+.*dploot.*browser.*
+.*dploot.*machinevaults.*
+.*dploot.*machinecredentials.*
+.*dploot.*machinemasterkeys.*
+.*dploot.*credentials.*
+.*dploot.*certificates.*
+.*dploot.*masterkeys.*
+.*dploot.*backupkey.*
+.*dploot.*machinecertificates.*
+.*lsassy -.*
+.* -m rdrleakdiag -M masterkeys.*
+.*dploot.*vaults.*
+.*dploot_linux_adm64.*
+.*0vercl0k/udmp-parser.*
+.*install udmp_parser.*
+.*import udmp_parser.*
+.*/udmp-parser\.git.*
+.*parser\.exe -a .*\.dmp.*
+.*parser\.exe -a .*\.dmp.*
+.*udmp-parser-main.*
+.*praetorian-inc/noseyparker.*
+.*/noseyparker\.git.*
+.*noseyparker-main.*
+.*noseyparker-v.*-universal-macos.*
+.*noseyparker-v.*-x86_64-unknown-linux-gnu.*
+.*noseyparker scan --datastore .*
+.*noseyparker summarize --datastore .*
+.*noseyparker report --datastore .*
+.* github repos list --user .*
+.*noseyparker-cli.*
+.* github repos list --org.*
+.* scan --github-org.*
+.* scan --github-user.*
+.*passthehashbrowns/BOFMask.*
+.*/BOFMask\.git.*
+.*BOFMask-main.*
+.*include.*bofmask\.h.*
+.*/bofmask\.h.*
+.*sensepost/wiresocks.*
+.*/wiresocks\.git.*
+.*wiresocks-main.*
+.*/redsocks-fw\.sh.*
+.*/redsocks\.sh.*
+.* redsocks\.sh.*
+.*redsocks-fw\.sh stop.*
+.*-c /tmp/redsocks\.conf.*
+.*iptables -t nat -A REDSOCKS.*
+.*docker-compose logs wiresocks.*
+.*wiresocks-redsocks.*
+.*-filter .*\(&\(objectClass=User\)\(serviceprincipalname=.*\)\(samaccountname=.* -limit 0 -attr samaccountname serviceprincipalname.*
+.*-filter .*\(&\(objectClass=User\)\(msDS-AllowedToDelegateTo=.*
+.*-filter .*\(userAccountControl:1\.2\.840\.113556\.1\.4\.803:=524288\).*
+.*-filter .*\(&\(objectCategory=person\)\(objectClass=user\)\(userAccountControl:1\.2\.840\.113556\.1\.4\.803:=4194304.*
+.*-filter .*\(&\(objectClass=user\)\(servicePrincipalName=.*\)\(!\(cn=krbtgt\)\)\(!\(samaccounttype=805306369.*
+.*-filter .*\(&\(objectCategory=person\)\(objectClass=user\)\(userAccountControl:1\.2\.840\.113556\.1\.4\.803:=32.*
+.*ntrights\.exe.*
+.*/NtRights/.*
+.*\\NtRights\\.*
+.*wavvs/nanorobeus.*
+.*nanorobeus-main.*
+.*/nanorobeus\.git.*
+.*nanorobeus64.*
+.* tgtdeleg /spn:cifs.*
+.* kerberoast /spn:.*
+.*sample_brc4\.json.*
+.*nanorobeus\.x64.*
+.*nanorobeus86.*
+.*nanorobeus\.x86.*
+.*nanorobeus_brc4.*
+.*nanorobeus\.cna.*
+.*dist/nanorobeus_cs\..*
+.*nanorobeus.*dump.*
+.*nanorobeus.*_cs\.x86\..*
+.*nanorobeus.*_cs\.x64\..*
+.*dist.*_brc4\.x86\.o.*
+.*dist.*_brc4\.x64\.o.*
+.*/kerberoast\.c.*
+.*\\kerberoast\.c.*
+.*\?sample_sliver\.json.*
+.*/ShadowForgeC2.*
+.*ShadowForge\.py.*
+.*teamServer.*ZoomAPI\.py.*
+.*ShadowForgeC2-main.*
+.*import ShadowForgeHome.*
+.*cmd_powershell\.cpp.*
+.*dist/shadow\.exe.*
+.*dist\\shadow\.exe.*
+.*generate exe Shadow.*
+.*shell whoami /user.*
+.*\.exe -d .* -u .* -p .* -m LDAPS.*
+.*SharpLdapRelayScan.*
+.*kite03/echoac-poc.*
+.*/PoC/PrivilegeEscalation.*
+.*shell should now be running as nt authority\\\\system!.*
+.*\\PoC\\PrivilegeEscalation.*
+.*/echoac-poc\.git.*
+.*echoac-poc-main.*
+.*6563686f2048656c6c6f204261636b646f6f72.*
+.*5b5b20242873746174202d632559202f62696e2f73682920213d20242873746174202d632559202e73736829205d5d202626207b203a3b746f756368202d72202f62696e2f7368202e7373683b6578706f7274204b45593d22223b62617368202d63202224286375726c202d6673534c207468632e6f72672f737368782922.*
+.*command=.*\#\#\#---POWERSHELL---.*eval \$\(echo .*
+.*&& cat /etc/motd.*exec -a -\$\(basename \$SHELL\) \$SHELL.*
+.*glebarez/padre.*
+.*Gw3kg8e3ej4ai9wffn%2Fd0uRqKzyaPfM2UFq%2F8dWmoW4wnyKZhx07Bg==.*
+.*/padre/pkg/exploit.*
+.*\\padre\\pkg\\exploit.*
+.*github.*/padre\.git.*
+.*padre-master\.zip.*
+.*-p 5000:5000 pador_vuln_server.*
+.*padre -u .*http.*://.*
+.* go build -o padre \..*
+.*csandker/Azure-AccessPermissions.*
+.*Azure-AccessPermissions-master.*
+.*/Azure-AccessPermissions\.git.*
+.*Azure-AccessPermissions\.ps1.*
+.*Invoke-AccessCheckForCurrentUser.*
+.*Invoke-AccessCheckForServicePrincipal.*
+.*Invoke-AccessCheckForAllServicePrincipals.*
+.*Invoke-AccessCheckForGroup.*
+.*Invoke-AccessCheckForAllGroups.*
+.*Invoke-AccessCheckForUser.*
+.*Invoke-AccessCheckForAllUsers.*
+.*Invoke-AccessCheckForCurrentUser.*
+.*Invoke-AllAccessChecks.*
+.*Enumerate-MFAStatusOfHighPrivilegePrincipals.*
+.*Enumerate-AllHighPrivilegePrincipals.*
+.*AAP-GetHighPrivilegedDirectoryRoleTemplateMap.*
+.*AAP-DisplayHighPrivilegePrincipalMap.*
+.*AAP-DisplayApplicableMFAConditionalAccessPolicyForUserID.*
+.*AAP-AddToHighPrivilegePrincipalMap.*
+.*AAP-DisplayNonHighPrivilegedRoleAssignments.*
+.*AAP-CheckIfMemberOfPrivilegedDirectoryRole.*
