@@ -14512,3 +14512,37 @@ inceptor*dotnet*
 *AAP-AddToHighPrivilegePrincipalMap*
 *AAP-DisplayNonHighPrivilegedRoleAssignments*
 *AAP-CheckIfMemberOfPrivilegedDirectoryRole*
+*pktmon start*
+*pysoserial.py*
+*/Pysoserial.git*
+*Pysoserial-main*
+* -p CommonsCollections1 -c whoami*
+* -c * -o payload.ser*
+* --payload CommonsCollections*
+* --command * --output payload*
+*generate_mozillarhino1*
+*generate_jdk8u20*
+*generate_mozillarhino2*
+*generate_beanshell1*
+*/processhacker-*-bin.zip*
+*ProcessHacker.sln*
+*/processhacker/files/latest/download*
+*processhacker-*-setup.exe*
+*processhacker-*-src.zip*
+*processhacker-*-sdk.zip*
+*\Process Hacker 2\*
+*ProcessHacker.exe*
+*/SeeYouCM-Thief*
+*SeeYouCM-Thief.git*
+*SeeYouCM-Thief-main*
+*cisco-phone-query.sh*
+*/thief.py*
+* thief.py*
+*thief.py -*
+*run thief:latest*
+*python*'http://*SEP*:6970/*.cnf.xml*
+*python*http://*:6970/ConfigFileCacheList.txt*
+*python*https://*:8443/cucm-uds/users?name=*
+*Credentials Found in Configurations!*
+*search_for_secrets(*
+*tmp*ciscophones.tgz*
