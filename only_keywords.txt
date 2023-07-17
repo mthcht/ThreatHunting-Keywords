@@ -772,6 +772,8 @@ Lapsdump *
 *certipy shadow *
 *certipy ca *
 *certipy forge *
+* shadow auto -u * -p * -account *
+* -old-bloodhound*
 *certipy cert *
 *certipy relay *
 *certipy account *
@@ -3396,6 +3398,7 @@ get-delegation *
 *dnsenum*
 *DNSExfiltrator*
 *dnsmorph*
+* -d * -t zonewalk*
 *dnsrecon*
 *dnstracer*
 *dnstwist*
@@ -4128,6 +4131,13 @@ noclient-3.*
 *cmd /c mklink /d * HarddiskVolumeShadowCopy1*
 *evil-winrm*
 * download *\NTDS\NTDS.dit*
+*Invoke-Binary *.exe*
+*Dll-Loader -smb -path *
+*Dll-Loader -local -path*
+*Dll-Loader -http -path *
+*donut-maker.py -i *.exe*
+*Bypass-4MSI*
+*Donut-Loader -process_id*
 * download *\Windows\System32\config\SYSTEM*
 *expl-bin*
 *WindowsExploits*
@@ -4797,6 +4807,7 @@ dcenum *
 */IKEForce*
 *impacket-GetADUsers*
 *impacket-lookupsid*
+*impacket-dcomexec*
 *impacket-getST*
 *impacket-rpcdump*
 *impacket-psexec*
@@ -5758,6 +5769,11 @@ ldeep *
 *import metame
 * LPORT=4444*
 *LHOST=* LPORT=*
+*load incognito*
+*list_tokens -u*
+*load kiwi*
+*portfwd add �l *-p *-r *
+*impersonate_token *Administrator*
 *Metasploit*
 */Metasploit*
 *msfconsole *
@@ -6672,6 +6688,7 @@ ldeep *
 *quentinhardy*msdat*
 *msfpc.sh*
 */msfpc.sh*
+*exec CMD=/bin/sh -f elf -o *.elf*
 */msfvenom/*
 *msfencode*
 *msfpayload*
@@ -6954,7 +6971,13 @@ delete_file *.dll
 *nessus-updates*.tar.gz*
 *Nessus-*.deb*
 *Nessus-*.msi*
+*nessus* --set listen_address=127.0.0.1*
 *Nessus-*.dmg*
+*tenable.com/downloads/nessus*
+*systemctl start nessusd*
+*/opt/nessus/*
+*nessuscli fix*
+*nessuscli fetch*
 *Nessus-*.txz*
 *net* group Administrator* /add /domain*
 *ncat * -e /bin/bash*
@@ -8570,6 +8593,7 @@ nmap *
 *File-Extensions-Wordlist.txt*
 *Office-DDE-Payloads*
 *oh365userfinder.py*
+*Oh365UserFinder-main*
 *Oh365UserFinder.git*
 */Oh365UserFinder*
 *One-Lin3r*
@@ -8597,6 +8621,8 @@ onex install *
 *p0wny-shell*
 *P4wnP1*
 *PackMyPayload.py*
+*PackMyPayload-master*
+*/PackMyPayload.git*
 */PackMyPayload/*
 * --backdoor *
 *mgeeky/PackMyPayload*
@@ -10169,7 +10195,10 @@ use boo/*
 *sillyrat.py*
 *keylogger dump*
 */Simple-Reverse-Shell*
-*SimplyEmail*
+*SimplyEmail.py*
+*SimplyEmail-master*
+*/SimplyEmail.git*
+*SimplySecurity/SimplyEmail*
 *sliverpb*
 *testing* testing* 1* 2* 3 *
 *sliver_pcap_parser.py*
@@ -10257,19 +10286,33 @@ raw_keylogger *
 *SMBeagle.exe*
 *SMBeagle.sln*
 * --dont-enumerate-acls *
+*smbeagle_*_linux_amd64.zip*
+*smbeagle_*_linux_arm64.zip*
+*smbeagle_*_win_x64.zip*
+* --scan-local-shares * -e *
+* --dont-enumerate-acls * -e *
+*\WindowsShareFinder.cs*
+*using SMBeagle*
+*/SharpShares/Enums*
 *WindowsShareFinder.cs*
 *SMBetray*
 *SMBGhost.pcap*
 */SMBGhost/scanner.py*
 */SMBGhost_RCE*
 *smb_win.py*
+*-x *net group *Domain Admins* /domain*
+* -H * -u * -p * -r *C$/Users*
+*cmd /c *if exist *.txt echo ImHere*
+*\\\\*\\*\\Get-FileLockProcess.ps1*
+* --host-file *.txt -u * --prompt --admin --no-banner*
+*install smbmap*
 *smbmap -*
 *ShawnDEvans/smbmap*
 *smbmap.smbmap*
 *install smbmap*
 *smbmap-master*
 */smbmap.git*
-*/smbmap.py *
+*smbmap.py *
 *smbscan*
 *smb-scanner*
 *1N3/Sn1per*
@@ -10343,6 +10386,20 @@ raw_keylogger *
 *impacket.*
 */smbserver/smb_server.py*
 */aerosol.py*
+*atomizer.py owa *
+*owa */autodiscover/autodiscover.xml* --recon*
+* owa * --user-as-pass *
+*SprayingToolkit-master*
+*/SprayingToolkit.git*
+*spindrift.py *--target *
+*spindrift.py --domain*
+*mitmdump -s aerosol.py*
+*atomizer.py -*
+*atomizer.py imap *
+*atomizer.py lync *
+*atomizer owa *
+*atomizer imap *
+*atomizer lync *
 */LyncSniper.ps1*
 *core/sprayers/lync.py*
 */sprayers/owa.py*
@@ -10668,9 +10725,12 @@ sudomy -*
 *bin/SillyRAT/*
 *bin/icmpsh/*
 *icmpsh.exe*
+*sysctl -w net.ipv4.icmp_echo_ignore_all=1*
 *icmpsh_m.py*
 *icmpsh-m.*
 *bdamele/icmpsh*
+*icmpsh-master*
+*icmpsh.git*
 *icmpsh-s.*
 *install_winrar_wine64.*
 *bin/*/PS2EXE/*
@@ -11250,6 +11310,7 @@ rawshark -*
 *Backdoor:Linux*
 *Backdoor:Python*
 *Backdoor:Win32*
+*Hacktool:SH*
 *HackTool:Linux*
 *HackTool:MSIL*
 *HackTool:PowerShell*
@@ -14546,3 +14607,275 @@ inceptor*dotnet*
 *Credentials Found in Configurations!*
 *search_for_secrets(*
 *tmp*ciscophones.tgz*
+*alwaysinstallelevated.c*
+*alwaysinstallelevated.o*
+*hijackablepath.c*
+*privcheck.cna*
+*Priv Esc Check Bof*
+*/PrivKit/*
+*\PrivKit\*
+*\unquotedsvcpath.o*
+*\modifiableautorun.o*
+*hijackablepath.o*
+*\tokenprivileges.o*
+*\tokenprivileges.c*
+*-c credentialmanager.c -o credentialmanager.o*
+*-c modifiableautorun.c -o modifiableautorun.o*
+*-c tokenprivileges.c -o tokenprivileges.o*
+*-c unquotedsvcpath.c -o unquotedsvcpath.o*
+*inline-execute *tokenprivileges.o*
+*/PrivKit.git*
+*PrivKit-main*
+*PrivKit32*
+*privcheck32*
+*remiflavien1/nse-install*
+*shadawck/nse-install*
+*/nmap-scada*
+*psc4re/NSE-scripts*
+*b4ldr/nse-scripts*
+*/s4n7h0/NSE*
+*nse-insall-0.0.1*
+*/nse_install/*
+*nse_install.py*
+*./test/nmap*/*.nse*
+*/nse-install.git*
+*nse-install-master*
+*OCSAF/freevulnsearch*
+*takeshixx/nmap-scripts*
+*/nmap-vulners*
+*/nmap-nse-scripts*
+*external-nse-script-library*
+*nmap-elasticsearch-nse*
+*nse-install *
+*/glit.git*
+*glit-main.zip*
+*shadawck/glit*
+*glit-x86_64-pc-windows-msvc*
+*glit-i686-pc-windows-msvc*
+*glit-x86_64-apple-darwin*
+*glit-x86_64-unknown-linux-gnu*
+*\glit.exe*
+*/glit-cli*
+*\glit-cli*
+*glit user *
+*glit repo *
+*glit org -*
+*cargo install glit*
+*glit.exe repo*
+*glit.exe user*
+*glit.exe org*
+*/glit-core*
+* repo -u https://github.com/*
+*shadawck/recon-archy*
+*/recon-archy.git*
+*recon-archy-master*
+*remiflavien1/recon-archy*
+*recon-archy crawl*
+*recon-archy analyse*
+*recon-archy build*
+*ip l set dev * address *:*:*
+*ifconfig * hw ether *:*:*
+*macchanger -r *
+*/chimera.sh*
+* chimera.sh*
+*tokyoneon/Chimera*
+*/Chimera.git*
+*Chimera-master.zip*
+*/opt/chimera*
+* -f *.ps1 -l 3 -o *.ps1 -v -t powershell*reverse*
+*Invoke-PowerShellIcmp.ps1*
+*Invoke-PowerShellTcpOneLine.ps1*
+*Invoke-PowerShellTcp.ps1*
+*Invoke-PowerShellUdpOneLine.ps1*
+*Invoke-PowerShellUdp.ps1*
+*powershell_reverse_shell.ps1*
+*Add-RegBackdoor.ps1*
+*Get-WLAN-Keys.ps1*
+*Invoke-PortScan*
+*Invoke-PoshRatHttp*
+*/tmp/vt-results-*.txt*
+*/tmp/vt-post-*.txt*
+* -f shells/generic1.ps1 *
+*/tmp/chimera.ps1*
+*/tmp/payload.ps1*
+* -s *ascii* -b *reverse*invoke-expression*
+*null-byte.com/bypass-amsi*
+*linux-exploit-suggester*
+*/mzet-/les-res*
+*.sh *cvelist-file:*
+*.sh *--checksec*
+*/localroot/2.6.x/h00lyshit*
+*/localroot/2.6.x/elflbl*
+*http://tarantula.by.ru/localroot/2.6.x/h00lyshit*
+*/CVE-2009-2698/katon.c*
+*http://tarantula.by.ru/localroot/*
+*files/team-edward.py*
+*https://web.archive.org/*https://www.kernel-exploits.com/media/*
+*www.securityfocus.com/archive/1/514379*
+*www.vsecurity.com/download/tools/*
+*linux-rds-exploit.c*
+*/mempodipper.c*
+*/memodipper64*
+*vulnfactory.org/exploits/*.c*
+*/full-nelson.c*
+*/full-nelson64*
+*/clown-newuser.c*
+*/perf_swevent64*
+*https://cyseclabs.com/exploits/*
+*/vnik_v1.c*
+*/timeoutpwn64*
+*/p_cve-2014-9322.tar.gz*
+*/UserNamespaceOverlayfsSetuidWriteExec/*
+*exploit-database-bin-sploits/*
+*/bin-sploits/*.zip*
+*www.exploit-db.com/download/*
+*/CVE*/chocobo_root*
+*xfrm_poc*lucky0*
+*/NotQuite0DayFriday/zip/trunk*
+*/dirtypipez.c*
+*ktsuss-lpe.sh*
+*/raceabrt.c*
+*tomcat-rootprivesc-deb.sh*
+*legalhackers.com/exploits/CVE*
+*/nginxed-root.sh*
+*raw*/straight-shooter.c*
+*/tomcat-RH-root.sh*
+*mysql-privesc-race.c*
+*nagios-root-privesc.sh*
+*CVE*/exploit.sh*
+*linux_sudo_cve-2017-1000367.c*
+*sudopwn.c*
+*/linux_ldso_hwcap.c*
+*/linux_ldso_dynamic.c*
+*/linux_ldso_hwcap_64.c*
+*/linux_offset2lib.c*
+*LibcRealpathBufferUnderflow/RationalLove.c*
+*dirty_sock/archive/master.zip*
+*return-wizard-rce-exim.txt*
+*/local-exploits/master/CVE*
+*/exploit.cron.sh*
+*/exploit.ldpreload.sh*
+*baron-samedit-heap-based-overflow-sudo.txt*
+*wget* -O les.sh*
+*hakrawler.go*
+*hakluke/hakrawler*
+*/hakrawler.git*
+*| hakrawler*
+*hakrawler-master*
+*hakrawler -*
+*haktrails subdomains*
+*hakrawler@latest*
+*/bin/hakrawler*
+*install hakrawler*
+*phishing-HTML-linter.*
+*vba-macro-mac-persistence.vbs*
+*vba-windows-persistence.vbs*
+*WMIPersistence.vbs*
+*Phish-Creds.ps1*
+*MacroDetectSandbox.vbs*
+*DancingRightToLeft.py*
+*gophish-send-mail.py*
+*RobustPentestMacro*
+*/VisualBasicObfuscator*
+*/pyLAPS.py*
+* pyLAPS.py*
+*p0dalirius/pyLAPS*
+*/pyLAPS.git*
+*pyLAPS-main*
+*gpg --list-keys*
+*find / -perm -u=s -type f 2>/dev/null*
+*find / -perm +4000 -type f 2>/dev/null*
+*find / -perm /2000 -ls 2>/dev/null*
+*find / -perm +8000 -ls 2>/dev/null*
+*Invoke-SmbOrder *
+*Invoke-SmbObey *
+*/smb-reverse-shell*
+*smb-reverse-shell.git*
+*smb-reverse-shell-main*
+*invoke* -Action command -Execute * -Session*
+*Invoke-SmbObey.*
+*Invoke-SmbOrder.*
+*r1cksec/thoth*
+*/thoth.git*
+*thoth-master.zip*
+*thoth.py -*
+* -im amass -ir *
+* -rl 4 -ta 8 -t 2100 -an AS8560*
+* --includeModules amass*
+*amass-get-subdomains*
+*amass-get-rootdomains*
+* enum -passive -d *
+* intel -d * -whois*
+*completedns-get-ns-history*
+*csprecon -*
+*dnslytics-get-rootdomains*
+*dnsrecon-zonetransfer*
+*dnsrecon -*
+* -d * -t axfr >*
+* -d * -t zonewalk > *
+*favfreak-http*
+*| favfreak*
+* -im get-dns-records*
+* -im github-get-repositories*
+*gitleaks detect*
+* -im google-get-linkedIn-employees*
+*google-get-pdf-metadata *
+*google-get-rootdomains *
+* -im grep-through-commits*
+*hackertarget-get-rootdomains *
+*hakrawler-ip-range*
+*handelsregister-get-company-names *
+* -im massdns*
+*subdomains-top1million-110000.txt*
+*massdns -r *.txt*
+*map-get-tls-alternative-names *
+*nmap-reverse-lookup*
+*northdata-get-company-names *
+*git log -p | scanrepo *
+*skymem-get-mails *
+*spyonweb-get-rootdomains *
+*subfinder --silent*
+*tmdb-get-company-names *
+*trufflehog git *
+*viewdns-get-rootdomains-ip-ns *
+*viewdns-get-rootdomains-whois *
+*/tmp/FavFreak/*
+*MattKeeley/Spoofy*
+*grep-through-commits.sh *
+*/tmp/bin/csprecon*
+*/tmp/amass.zip*
+*/tmp/bin/subfinder*
+*/tmp/geckodriver.tar.gz*
+*/tmp/gitleaks*
+*/tmp/truffleHog.tar.gz*
+*/tmp/scanrepo.tar.gz*
+*Spoofy/spoofy.py*
+*Taonn/EmailAll*
+*/EmailAll.git*
+*EmailAll-master.*
+*/emailall.py*
+* emailall.py*
+*\emailall.py*
+*emailall.py -*
+*emailall.py check*
+* --domains ./domains.txt run*
+*hacktools-*.xpi*
+*hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi*
+*/Hack-Tools.git*
+*https://crackstation.net/*
+*cmbndhnoonmghfofefkcccljbkdpamhi_14678.crx*
+*LasCC/Hack-Tools*
+*Hack-Tools-master*
+*simplekeylogger.*
+*\users\public\sam.save*
+*\users\public\system.save*
+*Successfully dumped SAM and SYSTEM*
+*.\dumpy.py*
+*c:\users\public\output.txt*
+*users/public/troubleshooting_log.log*
+*\public\klogging.log*
+*c:/users/public/creds.log*
+*c:\users\public\creds.log*
+*g3tsyst3m/undertheradar*
+*undertheradar-main*
+*/undertheradar.git*
