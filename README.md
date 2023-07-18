@@ -47,6 +47,8 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - `metadata_enable_proxy_detection`: Field indicating the applicability of the keyword for searches within network logs (Proxy, DNS logs or any data with queries and URLs originating from the internal network)
   - If you can search the keyword in network activity logs, the value is 1 (enabled).
   - If the keyword is not relevant for network activity logs, the value is 0 (disabled).
+- `metadata_popularity_score`: score from 1 to 10 (low to high popularity)
+- `metadata_severity_score`: score from 1 to 10 (low to high severity)
 - `metadata_comment`: This field may contain a useful comment added for the keyword.
 
 ## Use the List to hunt with Splunk:
