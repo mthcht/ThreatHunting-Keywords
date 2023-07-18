@@ -5378,6 +5378,7 @@ john .* --wordlist=.*
 .*hub\.docker\.com/u/kalilinux/.*
 .*kali-linux-.*-live-everything-amd64\.iso\.torrent.*
 .*-d kali-linux .*
+.*home/kali/Downloads.*
 .*kali-linux-.*-raspberry-pi-armhf\.img\.xz.*
 .*kali-anonsurf.*
 .*kalitorify.*
@@ -10200,6 +10201,8 @@ use boo/.*
 .*/SimplyEmail\.git.*
 .*SimplySecurity/SimplyEmail.*
 .*sliverpb.*
+.*generate --mtls .* --save .*
+.*install c2tc-domaininfo.*
 .*testing.* testing.* 1.* 2.* 3 .*
 .*sliver_pcap_parser\.py.*
 .*UseBeaconCmd.*
@@ -14879,3 +14882,22 @@ inceptor.*dotnet.*
 .*g3tsyst3m/undertheradar.*
 .*undertheradar-main.*
 .*/undertheradar\.git.*
+.*antonioCoco/RunasCs.*
+.*/RunasCs\.git.*
+.*RunasCs-master.*
+.*Invoke-RunasCs.*
+.*\\RunasCs\.cs.*
+.*/RunasCs\.cs.*
+.*base64_conversion_commands\.ps1.*
+.*RunasCs\.exe.*
+.*cmd /c .* --remote-impersonation.*
+.*cmd /c .* --bypass-uac.*
+.*RunasCs\.zip.*
+.*RunasCs_net2\.exe.*
+.*SeManageVolumeExploit\..*
+.*CsEnox/SeManageVolumeExploit.*
+.*/SeManageVolumeExploit\.git.*
+.*SeManageVolumeExploit-main
+.*/WerTrigger\.git.*
+.*WerTrigger-master.*
+.*WerTrigger\.exe.*
