@@ -4218,7 +4218,14 @@ noclient-3.*
 *.exe *-searchforest*-pwdlastset*
 *getsploit*
 */ghidra*
-*GhostInTheNet*
+*GhostInTheNet off*
+*GhostInTheNet on*
+*/tmp/host.ghost*
+*/tmp/mac.ghost*
+*GhostInTheNet.sh *
+*/GhostInTheNet-master*
+*/GhostInTheNet.git*
+*/GhostInTheNet.sh*
 *GhostPack*
 *dump_wifi_wpa_*
 *dump_chrome_user*
@@ -14901,3 +14908,22 @@ inceptor*dotnet*
 */WerTrigger.git*
 *WerTrigger-master*
 *WerTrigger.exe*
+*CCob/ThreadlessInject*
+*/ThreadlessInject.git*
+*ThreadlessInject-master*
+*ThreadlessInject.exe*
+*ThreadlessInject* -p * -d *
+* -p * -d *.dll -e OpenProcess*
+*Needles without the Thread.pptx*
+*winrs -r:*whoami*
+*MpCmdRun.exe* -RemoveDefinitions -All*
+*global.rel.tunnels.api.visualstudio.com*
+*code.exe tunnel --accept-server-license-terms --name *
+*injector.ps1*.kirbi*
+*\dumper.ps1*
+* dumper.ps1*
+*/PowershellKerberos.git*
+*\PowershellKerberos*
+*\injector.ps1 1 *
+*\injector.ps1 2 *
+*PowershellKerberos-main*
