@@ -301,6 +301,7 @@ afrog -.*
 .*Backdoor\..*
 .*backstab\.exe.*
 .*/Backstab\.git
+.*Backstab-master.*
 .*Yaxser/Backstab.*
 .*Backstab\.sln.*
 .*/resources/PROCEXP\.sys.*
@@ -820,6 +821,8 @@ certipy .*
 .*bofnet_execute .*
 .*bofnet_init.*
 .*bofnet_load .*\..*
+.*BOF\.NET-main.*
+.*BOF\.NET\.git.*
 .*bofnet_list.*
 .*bofnet_listassembiles.*
 .*bofnet_shutdown.*
@@ -3202,6 +3205,7 @@ BypassUAC .*
 .*CovenantAPI\..*
 .*/Elite/Elite.*
 .*docker .* -t elite .*
+.*/opt/Covenant/Covenant/.*
 .*docker .* --name elite .*
 .*Cowpatty.*
 .*Cr3dOv3r.*
@@ -5602,6 +5606,18 @@ set CMD .*
 .*Lazagne\.exe.*
 .*AlessandroZ/LaZagne.*
 .*HTool-Lazagne.*
+.*LaZagne-master\.zip.*
+.*memory.*mimipy\.py.*
+.*windows.*lsa_secrets\.py.*
+.*/creddump7.*\.py.*
+.*memory/onepassword\.py.*
+.* memorydump\.py.*
+.*/memorydump\.py.*
+.*/pswRecovery4Moz\.txt.*
+.*Windows/lazagne\.spec.*
+.* laZagne\.py.*
+.*laZagne\.exe browsers.*
+.*/laZagne\.py.*
 .*Hacktool\.Lazagne.*
 .*LaZagneForensic.*
 .*octetsplicer/LAZYPARIAH.*
@@ -9604,6 +9620,8 @@ RedGuard -.*
 .*HostEnum\.ps1.*
 .*Invoke-HostEnum.*
 .*ReelPhish.*
+.*RefleXXion-main.*
+.*/RefleXXion\.git.*
 .*hlldz/RefleXXion.*
 .*RefleXXion\.sln.*
 .*RefleXXion-EXE.*
@@ -9771,7 +9789,13 @@ RedGuard -.*
 .* ruler\.exe.*
 .*rundll32.*\.dll.*a.*/p:.*
 .*rundll32.*\.dll.*StartW.*
-.*SafetyKatz.*
+.*SafetyKatz\.csproj.*
+.*SafetyKatz-master.*
+.*/SafetyKatz\.git.*
+.*SafetyKatz\.exe.*
+.*SafetyKatz\.sln.*
+.*GhostPack/SafetyKatz.*
+.*\\SafetyKatz.*
 .*Salsa-tools.*
 .*sam_the_admin\.py.*
 .*/utils/addcomputer\.py.*
@@ -14927,3 +14951,187 @@ inceptor.*dotnet.*
 .*\\injector\.ps1 1 .*
 .*\\injector\.ps1 2 .*
 .*PowershellKerberos-main.*
+.*GhostPack/SharpDPAPI.*
+.*/SharpDPAPI\.git.*
+.*SharpDPAPI-master.*
+.*SharpDPAPI\.sln.*
+.*SharpDPAPI\.exe.*
+.* backupkey.* /server:.* /file.*\.pvk.*
+.*\.exe certificates /mkfile:.*\.txt.*
+.*\.exe  certificates /pvk:.*\.pvk.*
+.*SharpDPAPI\.csproj.*
+.*SharpDPAPI\.Domain.*
+.*SharpDPAPI backupkey.*
+.*SharpDPAPI\.txt.*
+.* vaults /target:.* /pvk:.*
+.* ps /target:.*\.xml /unprotect.*
+.*SharpDPAPI\.ps1.*
+.* blob /target:.*\.bin.* /pvk:.*
+.* blob /target:.*\.bin.* /unprotect.*
+.* keepass /unprotect.*
+.*\.exe masterkeys /hashes.*
+.* credentials /pvk:.*
+.*SharpDPAPI.* credentias .*
+.*SharpDPAPI.* vaults .*
+.*forkatz\.sln.*
+.*forkatz\.vcxproj.*
+.*forkatz\.exe.*
+.*/forkatz\.git.*
+.*forkatz-main.*
+.*users\\public\\temp\.bin.*
+.*users\\public\\example\.bin.*
+.*/forkatz\.filters.*
+.*PPLKiller\.exe.*
+.*/PPLKiller/.*
+.*\\PPLKiller.*
+.*\.exe /disableLSAProtection.*
+.*/PPLKiller\.git.*
+.*PPLKiller\.sln.*
+.*PPLKiller\.vcxproj.*
+.*processPIDByName.*lsass\.exe.*
+.*\\Temp\\RTCore64\.sys.*
+.*PPLKiller-master.*
+.*hoangprod/AndrewSpecial.*
+.*/AndrewSpecial\.git.*
+.*AndrewSpecial-master.*
+.*\\Andrew\.dmp.*
+.*AndrewSpecial\.exe.*
+.*AndrewSpecial\.cpp.*
+.*outflanknl/Net-GPPPassword.*
+.*/Net-GPPPassword\.git.*
+.*Net-GPPPassword-master.*
+.*Net-GPPPassword\.cs.*
+.*Net-GPPPassword\.exe.*
+.*Net-GPPPassword_dotNET.*
+.*djhohnstein/SharpChromium.*
+.*/SharpChromium\.git.*
+.*SharpChromium\.exe.*
+.*SharpChromium\.csproj.*
+.*SharpChromium\.sln.*
+.*SharpChromium-master.*
+.*chrismaddalena/SharpCloud.*
+.*execute_assembly SharpCloud.*
+.*SharpCloud\.csproj.*
+.*/SharpCloud\.git.*
+.*sharpcloud\.cna.*
+.*SharpCloud\.exe.*
+.*SharpCloud\.sln.*
+.*SharpCloud-master.*
+.*fox-it/adconnectdump.*
+.*/adconnectdump\.git.*
+.*adconnectdump-master.*
+.*adconnectdump\.py.*
+.*ADSyncGather\.exe.*
+.*ADSyncDecrypt\.exe.*
+.*decrypt\.py \.\\.*\.txt utf-16-le.*
+.*ADSyncQuery.*ADSync\.mdf.*\.txt.*
+.*SharpLAPS\..*
+.*SharpLAPS-main.*
+.*swisskyrepo/SharpLAPS.*
+.*RhinoSecurityLabs/pacu.*
+.*/pacu\.git.*
+.*pacu-master\.zip.*
+.*pip3 install -U pacu.*
+.*pacu --session .*
+.*pacu --list-modules.*
+.* --pacu-help.*
+.*pacu --module-name .*
+.*pacu --exec .*
+.*pacu --module-info.*
+.*pacu --module-args=.*
+.*pacu --set-regions .*
+.*pacu --whoami.*
+.*python3 pacu\.py.*
+.*/\.local/share/pacu/.*
+.*iam__enum_assume_role/default-word-list\.txt.*
+.*=MSEXCEL.*regsvr32 /s /n /u /i:http.*/SCTLauncher\.sct scrobj\.dll.*
+.*cloudtrail__csv_injection.*
+.*/acm_enum_certs_.*\.json.*
+.*/acm_enum_certs_info_.*\.json.*
+.*/acm_enum_certs_chain_.*\.json.*
+.*/acm_enum_cas_.*\.json.*
+.*/aws__enum_account.*
+.*ecs_task_def_data/all_task_def\.txt.*
+.*/ec2_public_ips_.*_.*\.txt.*
+.*/cmd_log\.txt.*
+.*secrets/secrets_manager/secrets\.txt.*
+.*/enum__secrets/.*\.py.*
+.*/lambda__backdoor_new_users.*
+.*lambda__backdoor_new_sec_groups.*
+.*/iam__privesc_scan.*
+.*test_pacu_update\.py.*
+.*/iam__backdoor_users_password.*
+.*/backdoor_all_users\.py.*
+.*/lambda__backdoor_new_roles.*
+.*/lambda__backdoor_new_sec_groups.*
+.*/waf__enum/main\.py.*
+.*/aws__enum_account/main\.py.*
+.*/vpc__enum_lateral_movement.*
+.*/ec2__backdoor_ec2_sec_groups.*
+.*/ec2__check_termination_protection.*\.py
+.*/ec2__startup_shell_script/main\.py.*
+.*/cfn__resource_injection_lambda.*
+.*/iam__bruteforce_permissions/.*
+.*pacu/core pacu.*
+.*pacu/last_update\.txt.*
+.*/acm_enum_certs_expired_.*\.json.*
+.*docker run .*/pacu:latest.*
+.*wavestone-cdt/EDRSandblast.*
+.*/EDRSandblast\.git.*
+.*EDRSandblast-master.*
+.*EDRSandblast\.sln.*
+.*EDRSandblast\.exe.*
+.*EDRSandblast_CLI.*
+.*EDRSandblast_LsassDump.*
+.*lsass\.exe.*C:\\temp\\tmp\.tmp.*
+.*--wdigest-offsets .*\.csv .*
+.*LSASSProtectionBypass.*/
+.*EDRSandblast\.c.*
+.*EDRSandblast_StaticLibrary.*
+.*APTortellini/unDefender.*
+.*/unDefender\.git.*
+.*unDefender-master.*
+.*\\unDefender\.exe.*
+.* unDefender\.exe.*
+.*/unDefender\.exe.*
+.*ImpersonateAndUnload\.cpp.*
+.*copy .*\\legit\.sys .*Windows\\System32\\Drivers\\.*\.sys.*
+.*Flangvik/NetLoader.*
+.*/NetLoader\.git.*
+.*NetLoader-master.*
+.*MSBuild\.exe NetLoader\.xml.*
+.*csc\.exe /t:exe /out:RandomName\.exe Program\.cs.*
+.*LOLBins/NetLoader\.xml.*
+.*\\NetLoader\.exe.*
+.*NetLoader\.exe --path .*\.exe .*
+.*\.exe  --b64 --path .* --args 
+.*U2VhdGJlbHQuZXhl.*
+.*d2hvYW1p.*
+.*AutoC2\.sh.*
+.*AutoC2/Wordlists.*
+.*AutoC2/Dependencies.*
+.*AutoC2/Recon.*
+.*AutoC2/Initial_Access.*
+.*AutoC2/Payload_Development.*
+.*AutoC2/C2.*
+.*AutoC2/Staging.*
+.*AutoC2/Situational_Awareness.*
+.*/Cred_Dump\.sh.*
+.* Cred_Dump\.sh.*
+.*/Priv_Esc\.sh.*
+.* Priv_Esc\.sh.*
+.*/Defense_Evasion\.sh.*
+.* Defense_Evasion\.sh.*
+.*AutoC2/Web\.sh.*
+.*AutoC2/Social\.sh.*
+.*/Phishing\.sh.*
+.*\./Phishing\.sh.*
+.*/Persistence\.sh.*
+.* Persistence\.sh.*
+.*AutoC2/Lateral\.sh.*
+.*\./Exfil\.sh.*
+.* Exfil\.sh.*
+.*/Hak5\.sh.*
+.* Hak5\.sh.*
+.*AutoC2/Wireless\.sh.*
+.*AutoC2/All\.sh.*
