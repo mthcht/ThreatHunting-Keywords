@@ -276,7 +276,73 @@ afrog -*
 *\autotimeline*
 *autotimeline *
 *autotimeliner.git*
-*govolution*avet*
+*source/avetsvc.c*
+*evasion/has_recycle_bin.*
+*\avetdbg.txt*
+*build_40xshikata_revhttpsunstaged_win32.sh*
+*build_50xshikata_quiet_revhttps_win32.sh*
+*build_50xshikata_revhttps_win32.sh*
+*build_asciimsf_fromcmd_revhttps_win32.sh*
+*build_asciimsf_revhttps_win32.sh*
+*build_avetenc_dynamicfromfile_revhttps_win32.sh*
+*build_avetenc_fopen_revhttps_win32.sh*
+*build_avetenc_mtrprtrxor_revhttps_win64.sh*
+*build_calcfromcmd_50xshikata_revhttps_win32.sh*
+*build_calcfrompowersh_50xshikata_revhttps_win32.sh*
+*build_checkdomain_rc4_mimikatz.sh*
+*build_disablewindefpsh_xorfromcmd_revhttps_win64.sh*
+*build_dkmc_downloadexecshc_revhttps_win32.sh*
+*build_downloadbitsadmin_mtrprtrxor_revhttps_win64.sh*
+*build_downloadbitsadmin_revhttps_win32.sh*
+*build_downloadcertutil_revhttps_win32.sh*
+*build_downloadcurl_mtrprtrxor_revhttps_win64.sh*
+*build_sleep_rc4_mimikatz.sh*
+*/avet_script_config.sh*
+*build_svc_20xshikata_bindtcp_win32.sh*
+*set_command_exec exec_via_powershell*
+*set_command_source download_bitsadmin*
+*add_evasion has_network_drive*
+*add_evasion has_recent_files*
+*add_evasion has_recycle_bin*
+*add_evasion has_public_desktop*
+*add_evasion has_folder *
+*add_evasion has_background_wp*
+*add_evasion computation_timed_fibonacci*
+*add_evasion computation_fibonacci *
+*add_evasion get_computer_domain *
+*add_evasion get_standard_browser *
+*add_evasion get_num_processes*
+*add_evasion get_install_date *
+*add_evasion hide_console*
+*add_evasion has_vm_regkey*
+*add_evasion has_vm_mac*
+*add_evasion get_cpu_cores *
+*add_evasion gethostbyname_sandbox_evasion*
+*add_evasion get_bios_info*
+*add_evasion fopen_sandbox_evasion*
+*add_evasion interaction_system_pause*
+*add_evasion interaction_getchar*
+*add_evasion has_username *
+*add_evasion get_tickcount*
+*add_evasion check_fast_forwarding*
+*add_evasion sleep_by_ping *
+*add_evasion evasion_by_sleep *
+*add_evasion is_debugger_present*
+*input/shellcode_enc_raw.txt*
+*input/shellcode_raw.txt*
+*encode_payload rc4 *.txt*
+*set_command_exec no_command*
+*set_payload_execution_method inject_dll*
+*set_payload_info_source from_command_line_raw*
+*set_decoder xor*
+*set_payload_execution_method exec_shellcode64*
+*set_payload_source download_powershell*
+*set_command_exec exec_via_cmd*
+*pe2shc_*.zip*
+*pe2shc.exe*
+*avet-master.zip*
+*/avet.git*
+*govolution/avet*
 *Awesome-Hacking*
 *Awesome-Hacking-Resources*
 *awesome-osint*
@@ -3386,7 +3452,13 @@ get-delegation *
 *get-delegation *All*
 *get-spns spns*
 *get-spns All*
-*demiguise*
+*Yh0Js82rIfFEbS6pR7oUkN0Use54pIZBa3fpYprAMuURNrZZGc6cM8dc+AC*
+* -k * -c *cmd.exe /c * -o *.hta -p ShellBrowserWindow*
+* -k * -c *.exe* -p Outlook.Application -o *.hta*
+*\demiguise.py*
+* demiguise.py*
+*/demiguise.py*
+*nccgroup/demiguise*
 *Dialupass.exe*
 *Dialupass.zip*
 */burp-Dirbuster*
@@ -3400,7 +3472,10 @@ get-delegation *
 * exiting (due to fatal error)*
 *dnscat*
 *dnsenum*
-*DNSExfiltrator*
+*DNSExfiltratorLib*
+*dnsexfiltrator.*
+*Invoke-DNSExfiltrator*
+*/DNSExfiltrator*
 *dnsmorph*
 * -d * -t zonewalk*
 *dnsrecon*
@@ -3524,9 +3599,115 @@ get-delegation *
 *%COMSPEC%*echo*\pipe\*
 *TH3xACE/EDR-Test*
 *EggShell.py*
-*Egress-Assess*
+*Yml0c3kubWl0LmVkdQ==*
+*c2VydmVyMS5jaWEuZ292*
+*ZXZpZGVuY2UuZmJpLmdvdg==*
+*ZGIuc3NhLmdvdg==*
+*cGlpLmZkYS5nb3Y=*
+*ZGF0YS5mZGEuZ292*
+*tester@egress-assess.com*
+*server@egress-asses.com*
+*Egress-Assess Exfil Data*
+*EgressAssess With Attachment*
+*New-PSDrive -Name T -PSProvider FileSystem -Root \\$IP\transfer *
+*Copy-Item -Path * -Destination \\$IP\transfer*
+*Egress-Assess Report*
+*putterpanda_whoami*
+* putterpanda.py*
+*apt/putterpanda.py*
+* etumbot.py*
+*apt/etumbot.py*
+*/commandcontrol/malware*.py*
+*\creditcards.py*
+*/creditcards.py*
+*MIIEoQIBAAKCAQEArJqP/6XFBa88x/DUootMmSzYa3MxcTV9FjNYUomqbQlGzuHa*
+* Egress-Assess's FTP server*
+*\servers\dns_server.py*
+*/servers/dns_server.py*
+*/servers/icmp_server.py*
+*\servers\icmp_server.py*
+*\servers\smb_server.py*
+*/servers/smb_server.py*
+*Egress-Assess transfer share*
+*ENDTHISFILETRANSMISSIONEGRESSASSESS*
+*b64encode*.:::-989-:::.*
+*smbclient \\\\\\\\*\\\\TRANSFER -N -p * -c \*put *
+*ENDTHISFILETRANSMISSIONEGRESSASSESS*
+*RU5EVEhJU0ZJTEVUUkFOU01JU1NJT05FR1JFU1NBU1NFU1M=*
+*TVqQAAMAAAAEAAAA*
+*/zejius/5GPR0iy9/fJsnC6G4sFg2wsyn4shb.bin*
+*/zejius/5GPR0iy9/6Vtmo6w4yQ5tnsBHms64.php*
+*/zejius/2HZG41Zw/fJsnC6G4sFg2wsyn4shb.bin*
+*/zejius/2HZG41Zw/6Vtmo6w4yQ5tnsBHms64.php*
+*function Use-Zeus*
+*notredamecheatstowin>*
+*YmpwZW5uaXNhbmF3ZXNvbWVmaWdodGVy*
+*dGhlU2VtaW5vbGVzYmVhdG5vcmVkYW1l*
+*bm90cmVkYW1lY2hlYXRzdG93aW4-*
+*dGhlYnJvbmNvc2FyZWJldHRlcnRoYW5yYXZlbnM-*
+*U2VtaW5vbGVzd291bGRkZXN0cm95cGVubnN0YXRl*
+*d2h5aXNwZW5uc3RhdGVzb2JhZGF0Zm9vdGJhbGw*
+*bHVrZXJlYWxseWlzdGhlbWFubXl0aGFuZGxlZ2VuZA*
+*Z29oYWxleWdvYW5kaGFja2F3YXl0aGVnaWJzb24*
+*gohaleygoandhackawaythegibson*
+*catchetumbotifyoucan>*
+*Y2F0Y2hldHVtYm90aWZ5b3VjYW4-*
+*thisisateststringdontcatchme*
+*dGhpc2lzYXRlc3RzdHJpbmdkb250Y2F0Y2htZQ--*
+* Use-DarkHotel*
+*DarkHotel C2*
+*darkhotel data exfil server*
+*micronaoko.jumpingcrab.com*
+*microchsse.strangled.net*
+*microbrownys.strangled.net*
+*microplants.strangled.net*
+*microlilics.crabdance.com*
+*darkhotel_headers*
+*darkhotel backdoor*
+*automachine.servequake.com*
+*autolace.twilightparadox.com*
+*/bin/read_i.php?a1=step2-down-j&a2=*
+*/bin/read_i.php?a1=step2-down-k&a2=*
+*/bin/read_i.php?a1=step2-down-c&a2=*
+*/bin/read_i.php?a1=step2-down-u&a2=*
+*/bin/read_i.php?a1=step2-down-r&a2=*
+*/bin/read_i.php?a1=step2-down-b&a2=*
+*/darkhotel.py*
+* -client icmp -ip * -Datatype ssn -Report -Verbose*
+* -client smb -ip * -Datatype *c:\*.* -Verbose*
+* -client ftp -ip * -Username * -Password * -Datatype ssn -Size * -Verbose*
+* -client http -ip * -Datatype cc -Size * -Port * -Loop * -Fast -Verbose*
+*\Egress-Assess*
+*EgressAssess.ps1*
+* -Client SMTPOutlook -IP * -NoPing -DataType *ssn*
+*Invoke-EssessAgress*
+*.py --client ftp --username * --password * --ip * --datatype ssn*
+*.py --client https --data-size * --ip * --datatype cc*
+*Egress-Assess.*
+*Egress-Assess-master*
+*/Egress-Assess*
 *egressbuster*
 *elite-proxy-finder*
+*/EmbedInHTML.git*
+*EmbedInHTML-master*
+*payloads_examples*calc.xll*
+*payloads_examples*calc.js*
+*.py  -k * -f *.ps1 -o *.html*
+*.py  -k * -f *.bat -o *.html*
+*.py  -k * -f *.js -o *.html*
+*.py  -k * -f *.exe -o *.html*
+*.py  -k * -f *.ppsx -o *.html*
+*.py  -k * -f *.pps -o *.html*
+*.py  -k * -f *.ppt -o *.html*
+*.py  -k * -f *.xll -o *.html*
+*.py  -k * -f *.xlsm -o *.html*
+*.py  -k * -f *.xlsx -o *.html*
+*.py  -k * -f *.xlsb -o *.html*
+*.py  -k * -f *.xls -o *.html*
+*.py  -k * -f *.docm -o *.html*
+*.py  -k * -f *.docx -o *.html*
+*.py -k * -f *.doc -o *.html*
+*/agent/stagers/dropbox.py*
 *embedInHTML.py*
 *Arno0x/EmbedInHTML*
 */EmbedInHTML/*
@@ -5043,7 +5224,30 @@ Impacket *
 *InternalMonologueExe*
 *Internal-Monologue.exe*
 *IntruderPayloads*
-*Inveigh*
+*Inveigh-FormInput.txt*
+*Inveigh-NTLMv2.txt*
+*Inveigh-NTLMv1.txt*
+*Inveigh-Log.txt*
+* -NBNSBruteForce*
+*Inveigh-Cleartext.txt*
+* -IP * -SpooferIP * -HTTP N*
+*Invoke-Inveigh*
+* -llmnrtypes AAAA*
+*\Inveigh\bin\*
+*\Inveigh.exe*
+* -p:AssemblyName=inveigh*
+*Inveigh-Relay.ps1*
+*Inveigh.sln*
+*Inveigh.ps1*
+*Inveigh.psd1*
+*Inveigh.psm1*
+*Inveigh-net*.zip*
+*Inveigh-master*
+* -mdns y -mdnsunicast n*
+*.exe -sniffer n*
+*dotnet Inveigh.dll*
+*/Inveigh.git*
+*Kevin-Robertson/Inveigh*
 *InvisibilityCloak.py*
 * -d * -n * -m rot13*
 * -d * -n * -m reverse*=
@@ -5072,6 +5276,13 @@ Impacket *
 *ReverseSocksProxyHandler.py*
 *Invoke-ReverseSocksProxy*
 *ReverseSocksProxyHandler.*
+* -Type SMBEnum -Target * -TargetExclude * -Username * -Hash *
+* -Type SMBClient -Target * -TargetExclude * -Username * -Hash *
+* -Type SMBExec -Target * -TargetExclude * -Username * -Hash *
+* -Type WMIExec -Target * -TargetExclude * -Username * -Hash *
+*Invoke-TheHash.psd1*
+*Invoke-TheHash.psm1*
+*Invoke-TheHash.ps1*
 *Invoke-TheHash*
 *Invoke-TmpDavFS*
 *Invoke-WCMDump*
@@ -15107,6 +15318,8 @@ inceptor*dotnet*
 *.exe  --b64 --path * --args 
 *U2VhdGJlbHQuZXhl*
 *d2hvYW1p*
+*/opt/Password_Cracking/*
+*Password_Cracking.sh*
 *AutoC2.sh*
 *AutoC2/Wordlists*
 *AutoC2/Dependencies*
@@ -15135,3 +15348,428 @@ inceptor*dotnet*
 * Hak5.sh*
 *AutoC2/Wireless.sh*
 *AutoC2/All.sh*
+*GetRektBoy724/SharpUnhooker*
+*/SharpUnhooker.git*
+*SharpUnhooker-main*
+*SharpUnhooker.*
+*bats3c/EvtMute*
+*/EvtMute.git*
+*EvtMute-master*
+*EvtMuteHook.dll*
+*SharpEvtMute.exe*
+*YaraFilters*lsassdump.yar*
+*SharpEvtMute.sln*
+*SharpEvtMute.cs*
+*SharpEvtMute.pdb*
+*ConvertToShellcode.py*
+*ShellcodeRDI.py*
+*EvtMuteHook.sln*
+*EvtMuteHook.pdb*
+*EvtMuteHook.ipdb*
+*EvtMuteHook.iobj*
+*EvtMuteHook.dll*
+*.exe* --Filter *rule disable { condition: true }*
+*SharpBlock -*
+*SharpBlock.exe*
+*execute-assembly SharpBlock*
+*\\.\pipe\mimi*
+* -d *Active Protection DLL for SylantStrike*
+* --disable-bypass-amsi*
+* --disable-bypass-cmdline*
+* --disable-bypass-etw*
+*SharpBlock.csproj*
+*SharpBlock.sln*
+*/SharpSploit/*
+*Signal-Labs/NtdllUnpatcher*
+*/NtdllUnpatcher.git*
+*NtdllUnpatcher-master*
+*NtdllUnpatcher_Injector*
+*NtdllUnpatcher.dll*
+*NtdllUnpatcher.lib*
+*NtdllUnpatcher.sln*
+*NtdllUnpatcher.cpp*
+*NtdllUnpatcher.log*
+*NtdllUnpatcher.obj*
+*bats3c/DarkLoadLibrary*
+*/DarkLoadLibrary.git*
+*DarkLoadLibrary-maser*
+*\DarkLoadLibrary.*
+*Soledge/BlockEtw*
+*/BlockEtw.git*
+*BlockEtw-master*
+*blocketw.bin*
+*blocketw.pdb*
+*blocketw.exe*
+*blocketw.csproj*
+*\KillDefender.c*
+*KillDefender.h*
+*/KillDefenderBOF*
+*KillDefenderBOF-main*
+*\KillDefender.o*
+*temp*KillDefender*
+*/AbandonedCOMKeys/*
+*\AbandonedCOMKeys.*
+*COMHunter.sln*
+*COMHunter.csproj*
+*COMHunter.exe*
+*COMHunter* -localserver*
+*COMHunter* -inproc*
+*github*/COMHunter/*
+*CredPhisher.csproj*
+*/CredPhisher/*
+*CredPhisher.exe*
+*namespace CredPhisher*
+*OffensiveCSharp*DriverQuery*
+*DriverQuery.exe no-msft*
+*[+] Enumerating driver services...*
+*EncryptedZIP.csproj*
+* decrypt *.aes.zip*
+*master/EncryptedZIP*
+*EncryptedZIP.exe*
+*Output.aes.zip*
+*OffensiveCSharp*ETWEventSubscription*
+*ETWEventSubscription*Program.cs*
+*ETWEventSubscription.exe* -UserLogon*
+*ETWEventSubscription.exe* -ProcStart *
+*DoEvil()*
+*GPSCoordinates.exe*
+*/master/GPSCoordinates/*
+*\master\GPSCoordinates\*
+*HijackHunter.csproj*
+*HijackHunter.exe*
+*dll* [HIJACKABLE]*
+*hijackProgDirMissingDll*
+*/HijackHunter/*
+*\HijackHunter\*
+*master/HookDetector*
+*\HookDetector.csproj*
+*\HookDetector.exe*
+* * 0x* - HOOK DETECTED*
+*/HookDetector.exe*
+*ImplantSSP.csproj*
+*[+] Safety checks passed. Implanting your DLL*
+*[+] Registry key set. DLL will be loaded on reboot*
+*[+] Adding your DLL to the LSA Security Packages registry key*
+*master/ImplantSSP/*
+*\ImplantSSP.exe*
+*/ImplantSSP.exe*
+* ImplantSSP.exe*
+*InspectAssembly.csproj*
+*InspectAssembly.exe*
+*/master/JunctionFolder/*
+*\JunctionFolder.csproj*
+*JunctionFolder.exe*
+*%APPDATA%/Indexing.*
+*C:\Users\*\AppData\Roaming\Indexing.*
+*MockDirUACBypass*
+*hijackDll*WINMM.dll*
+*TVqQAAMAAAAEAAAA*
+*[+] Attempting to call the target EXE from the mock directory*
+*[+] Creating mock directories*
+*PhantomService.csproj*
+*PhantomService.exe*
+*] Found non-ASCII service: *
+*/master/PhantomService/*
+*\SessionSearcher.csproj*
+*\SessionSearcher.exe*
+*/SessionSearcher.exe*
+*UnquotedPath.csproj*
+*UnquotedPath.exe*
+*master/UnquotedPath*
+*/OffensiveCSharp/*
+*/OffensiveCSharp.git*
+*OffensiveCSharp-master*
+*\OffensiveCSharp\*
+*Flangvik/SharpExfiltrate*
+*/SharpExfiltrate.git*
+*SharpExfiltrate-main*
+*/SharpExfiltrate/*
+*\SharpExfiltrate\*
+*SharpExfiltrate.sln*
+*SharpExfiltrate.exe*
+*.exe OneDrive --username * --password * --filepath *\*.exe*
+*.exe GoogleDrive --appname * --accesstoken * --filepath * --extensions * --memoryonly*
+*.exe AzureStorage --connectionstring * --filepath * --extensions *
+*SharpExfiltrateLootCache*
+*SharpExfiltrate.csproj*
+*using SharpExfiltrate*
+*3bb553cd-0a48-402d-9812-8daff60ac628*
+*hak5/omg-payloads*
+*/omg-payloads.git*
+*omg-payloads-master*
+*omg-payloads*/payloads/*
+*-OMG-Credz-Plz*
+*Credz-Plz.ps1*
+*Invoke-RestMethod -Uri https://content.dropboxapi.com/2/files/upload -Method Post  -InFile *  -Headers *
+*reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f*
+*Remove-Item (Get-PSreadlineOption).HistorySavePath*
+*Clear-RecycleBin -Force -ErrorAction SilentlyContinue*
+*Credz-Plz-Execute.txt*
+*REM Title: Harvester_OF_SORROW*
+* Pictures\Screenshots\loot.zip*
+*STRING firefox about:logins*
+*OMGLoggerDecoder*
+*unset HISTFILE && HISTSIZE=0 && rm -f $HISTFILE && unset HISTFILE*
+*wget*/drapl0n/DuckyLogger/blob/main/xinput\?raw=true*
+*fsockopen(*0.0.0.0*4444*exec(*
+*/tmmmp *
+*1337OMGsam*
+*1337OMGsys*
+*samdump2 *
+*install samdump2*
+*/samdump2*
+*samdump2.c*
+*cgBlAGcAIABzAGEAdgBlACAAaABrAGwAbQBcAHMAYQBtACAAMQ*
+*reg save hklm\sam 1337*
+*reg save hklm\system 1337*
+*OMGdump.zip*
+*/credentials/SudoSnatch*
+*nIFS=* read -s pass\necho -e *User=*$(whoami)*Password=*$pass*> /var/tmp*
+*\Windows-Passwords.ps1*
+* Windows-Passwords.ps1*
+*/Windows-Passwords.ps1*
+*WLAN-Windows-Passwords-Discord-Exfiltration*
+*netsh wlan show profile $wlan key=clear | Select-String *?<=Key Content\s+:\s*
+*Invoke-RestMethod -ContentType 'Application/Json' -Uri $discord -Method Post -Body ($Body | ConvertTo-Json)*
+* -InFile Wi-Fi-PASS*
+* > Wi-Fi-PASS*
+*String netsh wlan export profile key=clear*
+*/credentials/wifigrabber*
+*blacklanternsecurity/TREVORspray*
+*/TREVORspray.git*
+*TREVORspray-trevorspray*
+*TREVORspray-master*
+*TREVORspray-dev*
+*blacklanternsecurity/trevorproxy*
+*trevorspray -*
+*spray* --recon *.* -u *.txt --threads 10*
+*Your Moms Smart Vibrator*
+*import BaseSprayModule*
+*trevorspray.cli*
+*trevorspray.enumerators*
+*trevorspray.looters*
+*trevorproxy ssh*
+*trevorproxy subnet*
+*/trevorspray.log*
+*trevorspray.py*
+*/tried_logins.txt*
+*trevorspray/valid_logins.txt*
+*trevorspray/existent_users.txt*
+*trevorspray.sprayers*
+*TlRMTVNTUAABAAAABYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAA*
+*0xthirteen/SharpRDP*
+*/SharpRDP.git*
+*SharpRDP-master*
+*SharpRDP.exe*
+*.exe computername=* command=* username=* password=* exec=cmd*
+*.exe computername=* command=* username=* password=* connectdrive=true*
+*.exe computername=* command=* username=* password=* elevated=winr*
+*.exe computername=* command=* username=* password=* elevated=taskmgr*
+*.exe computername=* command=* username=* password=*  nla=true*
+*.exe computername=* command=* username=* password=*  takeover=true*
+*SharpRDP.sln*
+*SharpRDP.csproj*
+*SharpRDP.*.dll.bin*
+*0xthirteen/MoveKit*
+*github*/MoveKit.git*
+*MoveKit-master.zip*
+*move-msbuild * http move.csproj*
+*move-pre-custom-file *.exe *
+*Assemblies/SharpMove.exe*
+*\SharpMove.exe*
+*C:\Windows\Temp\move.exe*
+*C:\Windows\Temp\moveme.exe*
+*/SharpNoPSExec*
+*SharpNoPSExec-master*
+*SharpNoPSExec.sln*
+*SharpNoPSExec.exe*
+*SharpNoPSExec.csproj*
+*\SharpNoPSExec*
+* --target=* --payload=*cmd.exe /c*
+*-e ZQBjAGgAbwAgAEcAbwBkACAAQgBsAGUAcwBzACAAWQBvAHUAIQA=*
+*acf7a8a9-3aaf-46c2-8aa8-2d12d7681baf*
+*mdsecactivebreach/Farmer*
+*/Farmer.git*
+*Farmer-main.zip*
+*crop.exe \\*\*.lnk \\*\harvest \\*\harvest*
+*Fertiliser.exe \\*
+*farmer.exe *\windows\temp*
+*farmer.exe 8888 60*
+*harvestcrop.exe * *
+*Farmer\Farmer.csproj*
+*\Fertliser.exe*
+*\Fertliser.pdb*
+*c:\windows\temp\test.tmp farmer*
+*RedSiege/CIMplant*
+*FortyNorthSecurity/CIMplant*
+*/CIMplant.exe*
+*\CIMplant.exe*
+* CIMplant.exe*
+*/CIMplant.git*
+*CIMplant-main*
+*CIMplant.sln*
+*CIMplant.exe *
+* -s * -c command_exec --execute *
+* -s * -c disable_wdigest *
+* -s * -c enable_wdigest *
+* -s * -c disable_winrm *
+* -s * -c enable_winrm *
+* -s * -c remote_posh *
+*.exe -s * -c service_mod *
+* -c command_exec --execute tasklist*
+* -c ls --directory * -u * -p *
+* -c active_users -u *
+* -c upload --fileto * --file *
+* -c process_kill --process *
+* -c command_exec --execute whoami*
+* -c vacant_system * -u *
+* -c edr_query *
+* -c logon_events * -u *
+*%SystemRoot%\\MEMORY.DMP*
+* --service fortynorth*
+* -c service_mod --execute create -s *
+*C:\Windows\MEMORY.DMP*
+*/CIMplant/Commander.cs*
+*blackarrowsec/mssqlproxy*
+*/mssqlproxy.git*
+*mssqlproxy-master*
+*reciclador.dll*
+*reciclador.cpp*
+*reciclador.vcxproj*
+*/SharpRDPHijack*
+*\SharpRDPHijack*
+* SharpRDPHijack*
+*SharpRDPHijack.cs*
+*SharpRDPHijack.exe*
+*SharpRDPHijack-master*
+*klezVirus/CheeseTools*
+*/CheeseTools.git*
+*CheeseTools-master*
+*CheeseExec.exe*
+* --wldp-bypass=*
+* --reflective-injection *
+* --am-si-bypass=*
+*CheeseDCOM.exe*
+*CheesePS.exe*
+*CheeseRDP.exe*
+*CheeseSQL.exe*
+*CheeseTools.sln*
+*CheeseExec.csproj*
+*AmsiBypass.cs*
+*CheesePS.csproj*
+*WldpBypass.cs*
+*C526B877-6AFF-413C-BC03-1837FB63BC22*
+*0DD419E5-D7B3-4360-874E-5838A7519355*
+*A8FE1F5C-6B2A-4417-907F-4F6EDE9C15A3*
+*36F9C306-5F45-4946-A259-610C05BD90DF*
+*CD3578F6-01B7-48C9-9140-1AFA44B3A7C0*
+*C:\Users\Public\test.txt*
+*C:\Users\Public\perm.txt*
+*AS 'Login that can be impersonated'*
+*as 'Owner that can be impersonated'*
+*SELECT SYSTEM_USER as 'Logged in as'* CURRENT_USER as 'Mapped as'*
+*DanMcInerney/icebreaker*
+*/icebreaker.git*
+*icebreaker-master.zip*
+*/icebreaker.py*
+* icebreaker.py*
+*\icebreaker.py*
+*1mil-AD-passwords.txt*
+* --password-list *
+* --script smb-security-mode*smb-enum-shares *
+* -oA icebreaker-scan*
+*icebreaker-scan.xml*
+*.py*found-users.txt*
+*/smb-cmds.txt*
+* smb-cmds.txt*
+*logs/shares-with-SCF.txt*
+*logs/ridenum.log*
+*/ridenum/ridenum.py*
+*/theHarvester.py*
+*logs/theHarvester.py.log*
+*found-passwords.txt*
+*/Responder/Responder.conf*
+*--wordlist=*-passwords.txt*
+*/smb-signing-disabled-hosts.txt*
+*logs/Responder-Session.log*
+*icebreaker:P@ssword123456*
+*ntlmrelayx.py.log*
+*https://0.0.0.0:1337*
+*net user /add icebreaker *
+*net localgroup administrators icebreaker*
+*/DeathStar/DeathStar.py*
+*/shares-with-SCF.txt*
+*sudo tmux new -s icebreaker*
+*Invoke-Cats -pwds*
+*Invoke-Pwds.ps1*
+*Invoke-Cats.ps1*
+*/opt/icebreaker*
+*/virtualenvs/icebreaker*
+*DanMcInerney/Empire*
+*DanMcInerney/theHarvester*
+*byt3bl33d3r/DeathStar*
+*CoreSecurity/impacket/*
+*/lgandx/Responder*
+*/DanMcInerney/ridenum*
+*Invoke-HoneypotBuster*
+*Get-FakeServiceUsers*
+*\InactiveDomainAdmins.csv*
+*Get-InactiveDomainAdmins*
+*Fake Computer Objects Honey Pots*
+*Fake Service Accounts Honey Tokens*
+*Inactive Domain Admins Honey Tokens*
+*7L0LgBxFtTDc093TPe/dntnM7G6Sncm*
+*7H0LmBxFtXBPd0/3vHe7Z3dmdrPZmTzp3ZldQrJ5LOGxeZ*
+*InjectedCredentials.csv*
+*secretsquirrel/the-backdoor-factory*
+*/the-backdoor-factory.git*
+*\the-backdoor-factory\*
+*the-backdoor-factory-master*
+* install backdoor-factory*
+*/backdoor.py*
+* backdoor.py*
+* -f psexec.exe -H * -P * -s reverse_shell_tcp*
+* -f tcpview.exe -s iat_reverse_tcp_inline -H * -P * -m automatic -C*
+* -i -H * -P * -s reverse_shell_tcp -a -u .moocowwow*
+*\backdoored\*
+*/payloadtests.py*
+* payloadtests.py*
+*\payloadtests.py*
+* -f TeamViewer.exe -H * -P * -s *
+*loadliba_reverse_tcp.asm*
+*loadliba_shell.asm*
+*loadliba_single_shell_reverse_tcp.asm*
+*LinuxARMLELF32.py*
+* -f *.exe -m onionduke -b *.exe*
+* -f *.exe -m onionduke -b *.dll*
+*metatwin.ps1*
+*metatwin-master*
+*/metatwin.git*
+*Invoke-MetaTwin*
+* -Source c:\windows\system32\*.dll -Target *.exe -Sign*
+* -Source c:\windows\*.exe -Target *.exe -Sign*
+*\dist\sigthief.exe*
+*SigThief-master*
+*\sigthief.exe*
+*sigthief.exe.manifest*
+*PSAmsiClient.ps1*
+*cobbr/PSAmsi*
+*Find-AmsiSignatures.ps1*
+*Invoke-PSAmsiScan*
+*PSAmsiScanner.ps1*
+*Start-PSAmsiClient.ps1*
+*Start-PSAmsiServer.ps1*
+*PowerShellObfuscator.ps1*
+*Out-ObfuscatedStringCommand.ps1*
+*Out-ObfuscatedTokenCommand.ps1*
+*Out-ObfuscatedAst.ps1*
+* -ServerUri * -FindAmsiSignatures*
+* -ScriptString * -GetMinimallyObfuscated*
+* | Find-AmsiSignatures*
+* -ScriptString * -PSAmsiScanner *
+*Find-AmsiAstSignatures -*
+*Find-AmsiPSTokenSignatures -*
+* | Test-ContainsAmsiSignatures*
+*Test-ContainsAmsiPSTokenSignatures -*
+*New-PSAmsiScanner -*
+*?PSAmsi*PSReflect.ps1*
