@@ -15773,3 +15773,57 @@ inceptor.*dotnet.*
 .*Test-ContainsAmsiPSTokenSignatures -.*
 .*New-PSAmsiScanner -.*
 .*\?PSAmsi.*PSReflect\.ps1.*
+.*\\netscan\.exe.*
+.*/netscan\.exe.*
+.*netscan_setup\.exe.*
+.*\\SoftPerfect Network Scanner.*
+.*\\netscan\.xml.*
+.*\\netscan\.lic.*
+.*RouterScan\.exe.*
+.*Ivy-main\.zip.*
+.*optiv/Ivy\.git.*
+.*Ivy_1.*_darwin_amd64.*
+.*Ivy_1.*_linux_amd64.*
+.*Ivy_1.*_windows_amd64\.exe.*
+.*go build Ivy\.go.*
+.*\./Ivy -.*
+.* -Ix64 .*\.vba -Ix86 .*\.vba -P Inject -O .*
+.* -Ix64 .*\.c -Ix86 .*\.c -P Local -O .*\.js.*
+.* -stageless -Ix64 .*\.bin -Ix86 .*\.bin -P Local -O .*\.js.*
+.* -stageless -Ix64 .*\.bin -Ix86 .*\.bin -P Inject -O .*\.js.*
+.* -stageless -Ix64 .*\.bin -Ix86 .*\.bin -P Inject -process64 .*\.exe -O .*\.js.*
+.* -stageless -Ix64 .*\.bin -Ix86 .*\.bin -P Local -unhook -O .*\.js.*
+.* -stageless -Ix64 .*\.bin -Ix86 .*\.bin -P Inject -unhook -O .*\.js.*
+.* -Ix64 .*\.bin -Ix86 .*\.bin -P Inject -O .*\.png -stageless.*
+.* -Ix64 .*\.bin -Ix86 .*\.bin -P Local -O .*\.js -url http.* -delivery bits -stageless.*
+.* -Ix64 .*\.bin -Ix86 .*\.bin -P Local -O .*\.hta -url http:.* -delivery hta -stageless.*
+.* -Ix64 .*\.bin -Ix86 .*\.bin -P Local -O .*\.xsl -url http.* -delivery xsl -stageless.*
+.* -Ix64 .*\.bin -Ix86 .*\.bin -P Local -O .*\.txt -url http.* -delivery macro -stageless.*
+.*/Ivy/Cryptor.*
+.*\\Ivy\\Cryptor.*
+.*/Ivy/Loader/.*
+.*\\Ivy\\Loader\\.*
+.*FuzzySecurity/Dendrobate.*
+.*/Dendrobate\.git.*
+.*Dendrobate-master.*
+.*NativeEasyHook32\.dll.*
+.*NativeEasyHook64\.dll.*
+.*ManagedEasyHook\.dll.*
+.*P8CuaPrgwBjunvZxJcgq.*
+.*/Dendron\.bin.*
+.*\\Dendron\.bin.*
+.*\\Dendrobate\\.*
+.*/Dendron\.exe.*
+.*\\Dendron\.exe.*
+.* Dendron\.exe.*
+.*\\Dendron\.sln.*
+.*/Dendron\.sln.*
+.*/hDendron\.cs.*
+.*Bates\.exe --listen.*
+.*Bates\.exe --kill.*
+.*/Dendron\.csproj.*
+.*/Bates\.csproj.*
+.*EasyHook-Managed.*InjectionLoader\.cs.*
+.*EasyHook-Managed.*WOW64Bypass\..*
+.*EasyHook-Managed/LocalHook\.cs.*
+.*dendron.*FileMonInject\.dll.*
