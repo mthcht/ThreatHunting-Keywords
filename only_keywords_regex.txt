@@ -11553,13 +11553,17 @@ rawshark -.*
 .*produkey_setup\.exe.*
 .*/ProduKey\.exe.*
 .*Backdoor:Linux.*
+.*Backdoor:VBS/.*
+.*Backdoor:JS/.*
 .*Backdoor:Python.*
 .*Backdoor:Win32.*
 .*Hacktool:SH.*
 .*HackTool:Linux.*
 .*HackTool:MSIL.*
+.*HackTool:Python.*
 .*HackTool:PowerShell.*
 .*HackTool:VBS.*
+.*HackTool:Win64.*
 .*HackTool:Win32.*
 .*SupportScam:Win32.*
 .*TrojanDropper:Win32.*
@@ -15827,3 +15831,75 @@ inceptor.*dotnet.*
 .*EasyHook-Managed.*WOW64Bypass\..*
 .*EasyHook-Managed/LocalHook\.cs.*
 .*dendron.*FileMonInject\.dll.*
+.*chrome.* --headless .* --dump-dom http.*
+.*msedge.* --headless .* --dump-dom http.*
+.*brave.* --headless .* --dump-dom http.*
+.*opera.* --headless .* --dump-dom http.*
+.*vivaldi.* --headless .* --dump-dom http.*
+.*decoder-it/LocalPotato.*
+.*/LocalPotato\.git.*
+.*LocalPotato-master.*
+.*LocalPotato\.zip.*
+.*LocalPotato\.exe.*
+.*LocalPotato\.cpp.*
+.*LocalPotato\.sln.*
+.*LocalPotato\.vcxproj.*
+.*PotatoTrigger\.cpp.*
+.*\\evil\.dll.*
+.*/evil\.dll.*
+.*localpotato -i.*
+.*DCOMReflection\.cpp.*
+.*IUnknownObj\.cpp.*
+.*-c 854A20FB-2D44-457D-992F-EF13785D2B51.*
+.*jfjallid/go-secdump.*
+.*/go-secdump\.git.*
+.*go-secdump-main.*
+.*\./go-secdump.*
+.*go-secdump -.*
+.*\\go-secdump.*
+.*go-secdump\.exe.*
+.*unshackle-v1\.0\.iso.*
+.*/unshackle\.git.*
+.*unshackle-main.*
+.*Fadi002/unshackle.*
+.*/unshackle\.modules.*
+.*/bin/unshackle.*
+.*unshackle --.*
+.*hypobrychium\.exe.*
+.*foxlox/hypobrychium.*
+.*/hypobrychium\.git.*
+.*hypobrychium-main.*
+.*guida\.exe -.*
+.* -runaslsass.*
+.*GIUDA.* -askluids.*
+.*\.exe -gettgs -luid:.*
+.*\.exe -ptt ticket:.*\.kirbi.*
+.*GIUDA-main\.zip.*
+.*AlteredSecurity/365-Stealer.*
+.*/365-Stealer\.git.*
+.*365-Stealer-master.*
+.*365-Stealer\.py.*
+.* --custom-steal listusers.*
+.* --custom-steal outlook.*
+.* --custom-steal onedrive.*
+.* --custom-steal onenote.*
+.*o365-Attack-Toolkit.*
+.* --custom-steal
+.*cscript \.\.\\\\temp\.vbs.*
+.*MIIEowIBAAKCAQEAvZtOCbMyFKJN3n89nctTfYLSeiCTNG01rAFl06hMkobyzr0c.*
+.*darkarmour\.py.*
+.*bats3c/darkarmour.*
+.*/darkarmour\.git.*
+.*darkarmour-master.*
+.* -f .*\.exe --encrypt xor --jmp -o .*\.exe.*
+.*shellcode_dropper\.c.*
+.*avflagged\.exe.*
+.*reflct_dll_inject\.exe.*
+.*outflanknl/EvilClippy.*
+.*/EvilClippy\.git.*
+.*EvilClippy-master.*
+.*/evilclippy\.cs.*
+.*\\evilclippy\.cs.*
+.*EvilClippy\.exe.*
+.*_EvilClippy\..*
+.*eviloffice\.exe.*
