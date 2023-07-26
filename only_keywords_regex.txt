@@ -16159,3 +16159,17 @@ inceptor.*dotnet.*
 .*bloodyAD-main.*
 .*bloodyAD\.py.*
 .*bloodyAD -.*
+.*cnotin/SplunkWhisperer2.*
+.*/SplunkWhisperer2\.git.*
+.*SplunkWhisperer2-master.*
+.*SharpSplunkWhisperer2.*
+.*PySplunkWhisperer2.*
+.* --UserName .* --Password .* --Payload .*\.exe.*
+.* --payload-file pwn\.bat.*
+.*splunk_whisperer\.py.*
+.*airman604/splunk_whisperer.*
+.*/splunk_whisperer\.git.*
+.*splunk_whisperer-master.*
+.*ssh-putty-brute\.ps1.*
+.*SSH-PuTTY-login-bruteforcer.*
+.*ssh-putty-brute -.*
