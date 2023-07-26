@@ -5229,6 +5229,7 @@ Impacket .*
 .*Inveigh-NTLMv1\.txt.*
 .*Inveigh-Log\.txt.*
 .* -NBNSBruteForce.*
+.*inveighzero\.exe.*
 .*Inveigh-Cleartext\.txt.*
 .* -IP .* -SpooferIP .* -HTTP N.*
 .*Invoke-Inveigh.*
@@ -5642,7 +5643,7 @@ john .* --wordlist=.*
 .*kerbrute -.*
 .* bruteuser .*
 .*kerbrute.*bruteforce.*
-.* passwordspray .*
+.* passwordspray -d .*
 .*kerbrute_.*\.exe.*
 .*kerbrute_linux.*
 .*kerbrute_windows.*
@@ -5835,7 +5836,6 @@ set CMD .*
 .*lazypariah\.svg.*
 .*lazypariah .*
 .* lazypariah.*
-.*ldapdomaindump.*
 .*ldapdomaindump.*
 .*/john\.git.*
 .*dirkjan@sanoweb\.nl.*
@@ -9844,6 +9844,17 @@ RedGuard -.*
 .*reGeorg.*
 .*Rootkit\.Win64\..*
 .*Ransom\.Win32\..*
+.*BKDR_JSPSHELL\..*
+.*Backdoor\.ASP\.FUZZSHELL\.A.*
+.*Backdoor\.ASP\.WEBSHELL\..*
+.*Backdoor\.PHP\.WebShell\..*
+.*HKTL_NETCAT.*
+.*HackTool\.ASP\..*\..*
+.*HackTool\.HTML\..*\..*.*
+.*HackTool\.Java\..*\..*
+.*HackTool\.PHP\..*\..*
+.*TROJ_ZIPBOMB\..*
+.*Trojan\.Win32\..*\..*
 .*RemAdm.*
 .*yogeshojha/rengine.*
 .*SpiderLabs/Responder.*
@@ -14617,6 +14628,7 @@ inceptor.*dotnet.*
 .*Accenture/Spartacus.*
 .*Spartacus-main\.zip.*
 .*--mode dll --procmon .*
+.* --mode proxy --ghidra .*--dll .*
 .*--mode dll --existing --pml .*
 .*--mode com --procmon .*
 .*Data\\VulnerableCOM\.csv.*
@@ -15903,3 +15915,247 @@ inceptor.*dotnet.*
 .*EvilClippy\.exe.*
 .*_EvilClippy\..*
 .*eviloffice\.exe.*
+.*S3cur3Th1sSh1t/PowerSharpPack.*
+.*/PowerSharpPack\.git.*
+.*PowerSharpPack-master.*
+.*PowerSharpPack\.ps1.*
+.*/GzipB64\.exe.*
+.*\\GzipB64\.exe.*
+.*PowerSharpBinaries.*
+.*Invoke-BadPotato.*
+.*Invoke-BetterSafetyKatz.*
+.*Invoke-Carbuncle.*
+.*Invoke-Certify.*
+.*Invoke-DAFT\..*
+.*Invoke-DinvokeKatz.*
+.*Invoke-Eyewitness.*
+.*Invoke-FakeLogonScreen.*
+.*Invoke-Farmer.*
+.*Invoke-Get-RBCD-Threaded.*
+.*Invoke-Gopher.*
+.*Invoke-Grouper2.*
+.*Invoke-Grouper3.*
+.*Invoke-HandleKatz.*
+.*Invoke-Internalmonologue.*
+.*Invoke-KrbRelay.*
+.*Invoke-LdapSignCheck.*
+.*Invoke-Lockless.*
+.*Invoke-MITM6.*
+.*Invoke-MalSCCM.*
+.*Invoke-NanoDump.*
+.*Invoke-OxidResolver.*
+.*Invoke-P0wnedshell.*
+.*Invoke-P0wnedshellx86.*
+.*Invoke-PPLDump.*
+.*Invoke-Rubeus.*
+.*Invoke-SCShell.*
+.*Invoke-SafetyKatz.*
+.*Invoke-SauronEye.*
+.*Invoke-Seatbelt.*
+.*Invoke-ShadowSpray.*
+.*Invoke-SharPersist.*
+.*Invoke-SharpAllowedToAct.*
+.*Invoke-SharpBlock.*
+.*Invoke-SharpBypassUAC.*
+.*Invoke-SharpChromium.*
+.*Invoke-SharpClipboard.*
+.*Invoke-SharpCloud.*
+.*Invoke-SharpDPAPI.*
+.*Invoke-SharpDump.*
+.*Invoke-SharpGPO-RemoteAccessPolicies.*
+.*Invoke-SharpGPOAbuse.*
+.*Invoke-SharpHandler.*
+.*Invoke-SharpHide.*
+.*Invoke-SharpHound4.*
+.*Invoke-SharpImpersonation.*
+.*Invoke-SharpImpersonationNoSpace.*
+.*Invoke-SharpKatz.*
+.*Invoke-SharpLdapRelayScan.*
+.*Invoke-SharpLoginPrompt.*
+.*Invoke-SharpMove.*
+.*Invoke-SharpPrintNightmare.*
+.*Invoke-SharpPrinter.*
+.*Invoke-SharpRDP.*
+.*Invoke-SharpSCCM.*
+.*Invoke-SharpSSDP.*
+.*Invoke-SharpSecDump.*
+.*Invoke-SharpSniper.*
+.*Invoke-SharpSploit.*
+.*Invoke-SharpSpray.*
+.*Invoke-SharpStay.*
+.*Invoke-SharpUp.*
+.*Invoke-SharpWSUS.*
+.*Invoke-SharpWatson.*
+.*Invoke-Sharphound2.*
+.*Invoke-Sharphound3.*
+.*Invoke-Sharplocker.*
+.*Invoke-Sharpshares.*
+.*Invoke-Sharpsploit_nomimi.*
+.*Invoke-Sharpview.*
+.*Invoke-Sharpweb.*
+.*Invoke-Snaffler.*
+.*Invoke-Spoolsample.*
+.*Invoke-StandIn\..*
+.*Invoke-StickyNotesExtract.*
+.*Invoke-Thunderfox.*
+.*Invoke-Tokenvator.*
+.*Invoke-UrbanBishop.*
+.*Invoke-Whisker.*
+.*Invoke-WireTap.*
+.*Invoke-winPEAS.*
+.* -Rubeus -Command .*kerberoast.*
+.* -seatbelt -Command .*
+.*no Mimik@tz - loaded successfully.*
+.*\\windows\\temp\\pwned\.trx.*
+.* -sharpweb -Command .*
+.* -UrbanBishop -Command .*
+.* -SharpUp -Command .*
+.* -SharPersist .*
+.* -Sharpview .*
+.* -winPEAS .*
+.* -lockless -Command .*
+.* -SharpChromium .*
+.* -SharpDPAPI -Command .*
+.* -SharpShares .*
+.* -SharpSniper .*
+.* -SharpSpray .*
+.* -watson -Command .*
+.* -grouper2 -Command .*
+.* -Tokenvator -Command .*
+.* -SauronEye -Command .*
+.*Invoke-BlockETW.*
+.* -Internalmonologue  -Command .*
+.*0x09AL/IIS-Raid.*
+.*/IIS-Raid\.git.*
+.*IIS-Raid-master.*
+.*/iis_controller\.py.*
+.* iis_controller\.py.*
+.*\\iis_controller\.py.*
+.*IIS-Backdoor\..*
+.* --url --password SIMPLEPASS.*
+.*\\Windows\\Temp\\creds\.db.*
+.*Metro-Holografix/CSExec.*
+.*/CSExec\.py\.git.*
+.*/CSExec\.py.*
+.* CSExec\.py.*
+.*templates.*HIPS_LIPS_processes\.txt.*
+.*csexec/csexec_history.*
+.*~/\.csexec.*
+.*templates.*reflective_assembly_minified\.ps1.*
+.* --donut --rehash n --silent -o /tmp/.*
+.* --silent -obf NixImports -o /tmp/.*
+.*nanodump-pipes.*
+.* -pi \\\\\\\\\\\\\\\\\.\\\\\\\\pipe\\\\\\\\.*
+.*--noWAIT --noFUNC --donut --rehash n --silent -o /tmp/.*
+.*pypykatz lsa minidump .*
+.*Attempted to spawn a socks proxy server at 0\.0\.0\.0:.*
+.*rlwrap -cAr nc -lvnp .*
+.*reverse_shell_minified\.js.*
+.*reflective_assembly_minified\.ps1.*
+.* --syswhispers --jump.*
+.* -m venv csexec .*
+.* --shellcode .*--silent.*
+.* --shellcode .*--dc-ip .*
+.* --no-sigthief.*
+.* --no-ppid-spoof.*
+.* -sc SysWhispers3.*
+.* -sc GetSyscallStub .*
+.* --syscalls SysWhispers3.*
+.* --syscalls GetSyscallStub.*
+.*dinjector /i:.* /p:.*
+.*secretsdump .*--silent.*
+.*keethief-syscalls.*
+.*temp.*lsass_.*\.dmp.*
+.*tmp.*lsass_.*\.dmp.*
+.*sharpsecretsdump.*
+.*nanodump_pipe.*
+.*utils/payloads\.db.*
+.*SharpShot\.exe /.*
+.*bof_pack\.py .*
+.*beacon_generate\.py.*
+.*dll_generator\.py.*
+.*templates.*CSExec\.cs.*
+.* -s putty\.exe_sig .*
+.*NimSyscallLoader -.*
+.* --dll --dllhijack .*
+.* --shellcode --remoteinject.*
+.* --blockDLLs --ruy-lopez.*
+.*OPENCYBER-FR/RustHound.*
+.*/RustHound\.git.*
+.*RustHound-main.*
+.*usr/src/rusthound rusthound .*
+.*rusthound .*--domain.*
+.*rusthound -d .*
+.*rusthound .*--ldapfqdn .*
+.*rusthound .*-ldaps .*
+.*\\rusthound\.exe.*
+.*/rusthound\.exe.*
+.* rusthound\.exe.*
+.* --adcs --old-bloodhound .*
+.*rusthound.* --adcs --dc-only.*
+.*byt3bl33d3r/ItWasAllADream.*
+.*/ItWasAllADream\.git.*
+.*ItWasAllADream-master.*
+.*itwasalladream -u .* -p .* -d .*
+.*itwasalladream.*bogus\.dll.*
+.*Invoke-BuildAnonymousSMBServer\.ps1.*
+.*Invoke-BuildAnonymousSMBServer -.*
+.*/ly4k/Pachine.*
+.*\./pachine\.py.*
+.*python.* pachine\.py.*
+.* -dc-host .* -spn .* -impersonate .*
+.*pygpoabuse\.py.*
+.* -hashes lm:nt -gpo-id .* -powershell .*
+.*xFreed0m/RDPassSpray.*
+.*/RDPassSpray\.git.*
+.*RDPassSpray-master.*
+.*RDPassSpray\.py.*
+.*RDPassSpray\..*\.log.*
+.*xfreerdp /v.*SOCtest.*AllLegitHere.*
+.*RDPassSpray\.csv.*
+.*n00py/LAPSDumper.*
+.*/LAPSDumper\.git.*
+.*LAPSDumper-main.*
+.* laps\.py .*--ldapserver.*
+.*/laps\.py .*--ldapserver.*
+.*/laps\.py .*-u .* -p .*
+.* laps\.py .*-u .* -p .*
+.*\\LAPSDumper\\.*
+.*rvazarkar/GMSAPasswordReader.*
+.*/GMSAPasswordReader\.git.*
+.*GMSAPasswordReader-master.*
+.*GMSAPasswordReader\.exe.*
+.*Semperis/GoldenGMSA.*
+.*/GoldenGMSA\.git.*
+.*GoldenGMSA-main.*
+.*GoldenGMSA\.exe.*
+.*\.exe kdsinfo --guid .*
+.*\.exe gmsainfo --sid .*
+.*\.exe compute --sid .* --kdskey .*
+.*timeroast\.ps1.*
+.*timeroast\.py.*
+.*extra-scripts.*timecrack\.py.*
+.*kirbi_to_hashcat\.py.*
+.*pyrdp-mitm\.py.*
+.*gosecure/pyrdp.*
+.*/pyrdp:latest.*
+.*/pyrdp\.git.*
+.*pyrdp-player\.py.*
+.* --nla-redirection-host .* --nla-redirection-port .*
+.*pyrdp-clonecert\.py.*
+.*pyrdp-convert\.py.*
+.*pyrdp_output -.*
+.*test_mitm_initialization\.py.*
+.*bats3c/ADCSPwn.*
+.*/ADCSPwn\.git.*
+.*ADCSPwn-master.*
+.*\\ADCSPwn.*
+.*ADCSPwn\.sln.*
+.*ADCSPwn\.csproj.*
+.*ADCSPwn\.exe.*
+.*\.exe --adcs .* --remote .*
+.*CravateRouge/bloodyAD.*
+.*/bloodyAD\.git.*
+.*bloodyAD-main.*
+.*bloodyAD\.py.*
+.*bloodyAD -.*
