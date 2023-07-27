@@ -5578,6 +5578,8 @@ john .* --wordlist=.*
 .*joomscan.*
 .*jwt_tool.*
 .*kali-.*\.deb.*
+.*wsl kali-linux.*
+.*--install -d kali-linux.*
 .*archive-.*\.kali\.org/.*
 .*/kali/pool/main/.*
 .*/kali-tools-.*
@@ -9468,6 +9470,8 @@ runof .*\.o.*
 .*Invoke-DNSUpdate\.ps1.*
 .*PowerMemory.*
 .*PowerOPS.*
+.*5067F916-9971-47D6-BBCB-85FB3982584F.*
+.*36EBF9AA-2F37-4F1D-A2F1-F2A45DEEAF21.*
 .*PowerShdll.*
 Get-GPO -All
 .*Get-ADComputer .* -Properties PrincipalsAllowedToDelegateToAccount.*
@@ -9489,6 +9493,16 @@ Get-ADGroup -Filter .*Name -like .*admin.*
 .*\\powershell\.exe.* \+=hidden.*
 .*\\powershell\.exe.* \+= hidden.*
 .*powershell New-ItemProperty -Path .*HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender.* -Name DisableAntiSpyware -Value 1 -PropertyType DWORD -Force.*
+.*NetSh Advfirewall set allprofiles state off.*
+.*reg delete .*HKLM\\Software\\Policies\\Microsoft\\Windows Defender.* /f.*
+.*reg add .*HKLM\\Software\\Policies\\Microsoft\\Windows Defender.*.*/v .*DisableAntiSpyware.* /t REG_DWORD /d .*1.* /f.*
+.*reg add .*HKLM\\Software\\Policies\\Microsoft\\Windows Defender.* /v .*DisableAntiVirus.* /t REG_DWORD /d .*1.* /f.*
+.*reg add .*HKLM\\System\\CurrentControlSet\\Services\\SecurityHealthService.* /v .*Start.* /t REG_DWORD /d .*4.* /f.*
+.*Set-MpPreference -DisableIOAVProtection \$true.*
+.*reg add .*HKLM\\System\\CurrentControlSet\\Control\\WMI\\Autologger\\DefenderApiLogger.* /v .*Start.* /t REG_DWORD /d .*0.* /f.*
+.*MpCmdRun\.exe -RemoveDefinitions -All.*
+.*Set-MpPreference -DisableScriptScanning 1 .*
+.*Add-MpPreference -ExclusionProcess .*\\Windows\\System32\\WindowsPowerShell\\v1\.0\\powershell\.exe.*
 .*Set-MpPreference -DisableRealtimeMonitoring \$true.*
 Get-ADObject -SearchBase .*CN=Shadow Principal Configuration.*CN=Services.* \(Get-ADRootDSE\)\.configurationNamingContext\) \| select .*msDS-ShadowPrincipalSid.*
 Get-NetGroup -FullData.*
@@ -10244,6 +10258,9 @@ ScareCrow -.*
 .*execute-assembly.*sharpcookiemonster.*
 .* --dll .* --payload .*
 .*SharpDllProxy.*
+.*reg add .*HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server.* /v fDenyTSConnections /t REG_DWORD /d 0 /f.*
+.*REG ADD .*HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\sethc\.exe.* /t REG_SZ /v Debugger /d .*\\windows\\system32\\cmd\.exe.* /f.*
+.*REG ADD .*HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\utilman\.exe.* /t REG_SZ /v Debugger /d .*\\windows\\system32\\cmd\.exe.* /f.*
 .*SharPersist.*
 .*SharpGPOAbuse.*
 .*SharpGPOAbuse.*
@@ -10926,6 +10943,8 @@ sudomy -.*
 .*UserEnum.*
 .*/username-anarchy.*
 .*username-anarchy .*
+.*2D863D7A-A369-419C-B4B3-54BDB88B5816.*
+.*tcpClient\.connectTCP\(.*127\.0\.0\.1.*1337.*
 .*UsoDllLoader.*
 .*V3n0M-Scanner.*
 .*/TROUBLE-1/Vajra.*
@@ -11277,6 +11296,8 @@ sudomy -.*
 .*poor buffer accounting in str_netfd_alloc.*
 .*vsf_sysutil_read_loop.*
 .*vssadmin Delete Shadows /All /Quiet.*
+.*diskshadow list shadows all.*
+.*vssadmin list shadows.*
 .*vssadmin create shadow /for=C:.*
 .*vulmon.*Vulmap.*
 .*w3af_gui.*
@@ -11300,6 +11321,7 @@ sudomy -.*
 .*/Weevely.*
 .*/Weevely3.*
 .*wePWNise.*
+.*cmd.* wevtutil\.exe cl .*
 .*wevtutil cl .*
 .*wfuzz\.bat.*
 .*subdomains-top1million-20000\.txt.*
@@ -13169,11 +13191,18 @@ set shellcode .*
 .*findstr .*cpassword .*\\sysvol\\.*\.xml.*
 .*findstr /si secret .*\.docx.*
 .*findstr .*vnc\.ini.*
+.*echo .*APT::Update::Pre-Invoke .*nohup ncat -lvp .* -e /bin/bash .* > /etc/apt/apt\.conf\.d/.*
+.*echo .*bash -c .*bash -i >& /dev/tcp/.*/.* >> /etc/update-motd\.d/00-header.*
+.* ncat .* -e /bin/bash.*\|crontab.*
+find / -name id_rsa .*> /dev/null
+.*find / -name authorized_keys .*> /dev/null.*
+.*locate password \| more.*
 .*crontab.* sleep .*ncat .* -e /bin/bash.*crontab.*
 .*APT::Update::Pre-Invoke .*}.*
 .*cat /dev/null > /var/log/auth\.log.*
 .*cat /dev/null > ~/\.bash_history.*
 .*export HISTFILESIZE=0.*
+.*history -d -2 && history -d -1.*
 .*export HISTSIZE=0.*
 .*unset HISTFILE.*
 .*ncat .* -p 4444.*
@@ -15044,7 +15073,18 @@ inceptor.*dotnet.*
 .*/pyLAPS\.git.*
 .*pyLAPS-main.*
 .*gpg --list-keys.*
+.*cytool\.exe event_collection disable.*
+.*cytool\.exe runtime disable.*
+.*cytool\.exe protect disable.*
+.*cytool\.exe startup disable.*
+.*reg add HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\CryptSvc\\Parameters /t REG_EXPAND_SZ /v ServiceDll /d .*
+.*echo .* ALL=\(ALL\) NOPASSWD: ALL.* >>/etc/sudoers.*
+.*echo .* ALL=NOPASSWD: /bin/bash.* >>/etc/sudoers.*
+.*elastic-agent\.exe uninstall.*
+.*echo .*::0:0::/root:/bin/bash.* >>/etc/passwd.*
 .*find / -perm -u=s -type f 2>/dev/null.*
+.*find / -uid 0 -perm -4000 -type f .*
+.*find / -perm -4000 -type f .*
 .*find / -perm \+4000 -type f 2>/dev/null.*
 .*find / -perm /2000 -ls 2>/dev/null.*
 .*find / -perm \+8000 -ls 2>/dev/null.*
@@ -16173,3 +16213,114 @@ inceptor.*dotnet.*
 .*ssh-putty-brute\.ps1.*
 .*SSH-PuTTY-login-bruteforcer.*
 .*ssh-putty-brute -.*
+.*hasherezade/exe_to_dll.*
+.*/exe_to_dll\.git.*
+.*exe_to_dll-master.*
+.*exe_to_dll\.exe.*
+.*exe_to_dll_.*_32bit\.zip.*
+.*exe_to_dll_.*_64bit\.zip.*
+.*WinDefenderKiller.*
+.*RevWinDefKiller\.exe.*
+.*disableWinDef\.cpp.*
+.*reverseDisableWinDef\.cpp.*
+.*winDefKiller\.exe.*
+.* winDefKiller .*
+.*S12cybersecurity/Admin2Sys.*
+.*/Admin2Sys\.git.*
+.*Admin2Sys-main.*
+.*Admin2Sys\.exe.*
+.*S12cybersecurity/RDPCredentialStealer.*
+.*/RDPCredentialStealer\.git.*
+.*RDPCredentialStealer-main.*
+.*RDPCredentialStealer\.zip.*
+.*RDPCredsStealerDLL\.dll.*
+.*APIHookInjectorBin\.exe.*
+.*RDPCredsStealerDLL\..*
+.*\\RDPCredsStealerDLL.*
+.*\\Public\\Music\\RDPCreds\.txt.*
+.*APIHookInjectorBin\.log.*
+.*APIHookInjectorBin\.sln.*
+.*APIHookInjectorBin\.pdb.*
+.*:\\Users\\Public\\Music\\.*\.dll.*
+.*slemire/WSPCoerce.*
+.*/WSPCoerce\.git.*
+.*WSPCoerce-main.*
+.*WSPCoerce\.ex.*
+.*\\WSPCoerce\.cs.*
+.* WSPCoerce\.cs.*
+.*redhuntlabs/BucketLoot.*
+.*/BucketLoot\.git.*
+.*BucketLoot-master.*
+.*bucketloot-darwin64.*
+.*bucketloot-freebsd64.*
+.*bucketloot-openbsd64.*
+.*bucketloot-windows32\.exe.*
+.*bucketloot-windows64\.exe.*
+.*bucketloot https://.*
+.*bucketloot -.*
+.*bucketloot\.exe https://.*
+.*bucketloot\.exe -.*
+.*GhostPack/ForgeCert.*
+.*/ForgeCert\.git.*
+.*ForgeCert-main.*
+.*bd346689-8ee6-40b3-858b-4ed94f08d40a.*
+.* --CaCertPath .*\.pfx --CaCertPassword .*
+.* --NewCertPath .*\.pfx --NewCertPassword .*
+.*nheiniger/SnaffPoint.*
+.*/SnaffPoint\.git.*
+.*SnaffPoint-main.*
+.*GetBearerToken\.exe https://.*\.sharepoint\.com.*
+.*SnaffPoint\.exe.*
+.*879A49C7-0493-4235-85F6-EBF962613A76.*
+.*antonioCoco/RoguePotato.*
+.*/RoguePotato\.git.*
+.*RoguePotato-master.*
+.*RoguePotato\.zip.*
+.*RoguePotato\.sln.*
+.*RoguePotato\.exe.*
+.*RoguePotato\.cpp.*
+.*TokenKidnapping\.cpp.*
+.*RogueOxidResolver\.cpp.*
+.*105C2C6D-1C0A-4535-A231-80E355EFB112.*
+.*61CE6716-E619-483C-B535-8694F7617548.*
+.*csc\.exe EfsPotato\.cs .*
+.*EfsPotato.*lsarpc.*
+.*EfsPotato.*efsrpc.*
+.*EfsPotato.*lsarpc.*
+.*EfsPotato.*samr.*
+.*EfsPotato.*lsass.*
+.*EfsPotato.*netlogon.*
+.*/EfsPotato\.git.*
+.*EfsPotato-main.*
+.*antonioCoco/JuicyPotatoNG.*
+.*/JuicyPotatoNG\.git.*
+.*JuicyPotatoNG-main.*
+.*BruteforceCLSIDs\..*
+.*JuicyPotatoNG\.cpp.*
+.*JuicyPotatoNG\.sln.*
+.*PotatoTrigger\.cpp.*
+.*JuicyPotatoNG\.exe.*
+.*\\JuicyPotatoNG.*
+.*JuicyPotatoNG\.txt.*
+.*C73A4893-A5D1-44C8-900C-7B8850BBD2EC.*
+.*261f880e-4bee-428d-9f64-c29292002c19.*
+.*\.exe -l .* -c \{B91D5831-B1BD-4608-8198-D72E155020F7}.*
+.*\.exe -l .* -c \{F7FD3FD6-9994-452D-8DA7-9A8FD87AEEF4} -a.*
+.*binderlabs/DirCreate2System.*
+.*/DirCreate2System\.git.*
+.*DirCreate2System-main.*
+.*dircreate2system\.exe.*
+.*dir_create2system\.txt.*
+.*dircreate2system\.sln.*
+.*dircreate2system\.cpp.*
+.*dircreate2system\.vcxproj.*
+.*dll_spawn_cmd\.cpp.*
+.*iomoath/PowerShx.*
+.*/PowerShx\.git.*
+.*PowerShx-master.*
+.*PowerShx\.sln.*
+.*PowerShx\.dll.*
+.*PowerShx\.exe.*
+.*PowerShxDll\.csproj.*
+.*A17656B2-42D1-42CD-B76D-9B60F637BCB5.*
+.*1E70D62D-CC36-480F-82BB-E9593A759AF9.*
