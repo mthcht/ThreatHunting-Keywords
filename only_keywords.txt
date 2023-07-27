@@ -6909,6 +6909,7 @@ ldeep *
 *monkey-linux-32*
 *guardicore/monkey*
 *morphHTA*
+*mortar-main.zip*
 *0xsp-SRD/mortar*
 *./encryptor -f *.exe -o *.enc*
 *cmd.exe /c rundll32.exe agressor.dll*stealth*
@@ -10261,6 +10262,13 @@ ScareCrow -*
 *reg add *HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server* /v fDenyTSConnections /t REG_DWORD /d 0 /f*
 *REG ADD *HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe* /t REG_SZ /v Debugger /d *\windows\system32\cmd.exe* /f*
 *REG ADD *HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe* /t REG_SZ /v Debugger /d *\windows\system32\cmd.exe* /f*
+*SchTaskBackdoor.*
+*KeePassBackdoor.*
+*9D1B853E-58F1-4BA5-AEFC-5C221CA30E48*
+.exe -t keepass -f *
+*.exe -t tortoisesvn -c * -a * -m*
+*.exe -t startupfolder -c * -a * -f*
+* -t schtaskbackdoor *
 *SharPersist*
 *SharpGPOAbuse*
 *SharpGPOAbuse*
@@ -10349,6 +10357,24 @@ ScareCrow -*
 *SharpSocksImplant*
 *SharpSploit*
 *SharpSpray*
+*2963C954-7B1E-47F5-B4FA-2FC1F0D56AEA*
+*.exe action=GetScheduledTaskCOMHandler*
+*.exe action=ListRunningServices*
+*.exe action=ListScheduledTasks*
+*.exe action=ListTaskNames*
+* action=BackdoorLNK *
+* action=NewLNK filepath=*" lnkname=*
+* action=JunctionFolder dllpath=*.dll guid=*
+* action=WMIEventSub command=* eventname=*
+* action=CreateService servicename=* command=*
+* action=SchTaskCOMHijack clsid=*
+* action=ScheduledTaskAction taskname=* command=*
+* action=ScheduledTask taskname=* command=*runasuser*
+* action=ElevatedUserInitKey command=*
+* action=UserRegistryKey keyname=Debug keypath=HKCU:*
+* action=ElevatedRegistryKey keyname=Debug keypath*
+*SharpStay-master*
+*/SharpStay.git*
 *SharpStay.sln*
 */SharpStay/*
 *SharpStay.csproj*
@@ -16324,3 +16350,64 @@ inceptor*dotnet*
 *PowerShxDll.csproj*
 *A17656B2-42D1-42CD-B76D-9B60F637BCB5*
 *1E70D62D-CC36-480F-82BB-E9593A759AF9*
+*D00MFist/Mystikal*
+*/Mystikal.git*
+*Mystikal-main*
+*/mystikal.py*
+* mystikal.py*
+*\mystikal.py*
+*/PDF_Payload/script.txt*
+*/MacroWord_Payload/macro.txt*
+*PDF_Payload*Doomfist.pdf*
+*med0x2e/GadgetToJScript*
+*/GadgetToJScript.git*
+*GadgetToJScript-master*
+*GadgetToJScript.sln*
+*AF9C62A1-F8D2-4BE0-B019-0A7873E81EA9*
+*GadgetToJScript.csproj*
+*\shellcode_loader.dll*
+*mandiant/DueDLLigence*
+*/DueDLLigence.git*
+*DueDLLigence-master*
+*DueDLLigence.sln*
+*DueDLLigence.cs*
+*73948912-CEBD-48ED-85E2-85FCD1D4F560*
+*\duedlligence.dll*
+*rasta-mouse/RuralBishop*
+*/RuralBishop.git*
+*RuralBishop-master*
+*RuralBishop.exe*
+*RuralBishop.csproj*
+*RuralBishop.sln*
+*FE4414D9-1D7E-4EEB-B781-D278FE7A5619*
+*lengjibo/FourEye*
+*/FourEye.git*
+*FourEye-main*
+* BypassFramework.py*
+*/BypassFramework.py*
+*FourEye(shellcode_bypass*
+*/darkexe.py*
+* darkexe.py*
+*\darkexe.py*
+*/UUID_bypass.py*
+* UUID_bypass.py*
+*\UUID_bypass.py*
+*/root/shellcode.exe*
+*/root/shellcode.cpp*
+*/root/shellcode.c*
+*/module/darkexe/*
+*reveng007/DarkWidow*
+*/DarkWidow.git*
+*DarkWidow-main*
+*4D1B765D-1287-45B1-AEDC-C4B96CF5CAA2*
+*\x64\Release\indirect.exe *
+*\blindeventlog.exe*
+*/blindeventlog.exe*
+* blindeventlog.exe*
+*outflanknl/SharpHide*
+*SharpHide.sln*
+*SharpHide.exe*
+*/SharpHide.git*
+*SharpHide-master*
+*443D8CBF-899C-4C22-B4F6-B7AC202D4E37*
+*SharpHide.csproj*
