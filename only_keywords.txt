@@ -3489,7 +3489,14 @@ get-delegation *
 *dnstracer*
 *dnstwist*
 *DockerPwn*
-*domain_analyzer*
+*verovaleros/domain_analyzer*
+*/domain_analyzer:latest*
+* crawler.py -u http*
+*/crawler.py -u http*
+*domain_analyzer.py*
+*/domain_analyzer.git*
+*domain_analyzer-master*
+*eldraco/domain_analyzer*
 *TypeError/domained*
 *domainhunter*
 *DomainPasswordSpray*
@@ -16678,3 +16685,35 @@ inceptor*dotnet*
 *https://*/.htaccess?c=uname -a*
 *https://*/.htaccess?c=cmd*
 *http://*/.htaccess?c=cmd*
+*sed 's/#PermitRootLogin prohibit-password/PermitRootLogin Yes' /etc/ssh/sshd_config*
+*CroweCybersecurity/ad-ldap-enum*
+*ad-ldap-enum-main*
+*/ad-ldap-enum.git*
+*ad-ldap-enum.py*
+* -p 'aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0'*
+*SySS-Research/Seth*
+*Seth-master.zip*
+*Seth by SySS GmbH*
+*arpspoof -i *
+*Server enforces NLA; switching to 'fake server' mode*
+*./seth.sh * *
+*seth.py * -j INJECT*
+*.py *  --fake-server*
+*GoFetchAD/GoFetch*
+*/GoFetch.git*
+*GoFetch-master*
+*Invoke-GoFetch*
+* -PathToGraph *.json -PathToPayload *.exe*
+*BloodHoundGraphToGoFetchPath*
+*\GoFetchLog.log*
+*\PsExecLog.log*
+* -pathToBloodHoundGraph * -pathToOutputGoFetchPath *  -pathToAdditionalPayload *
+*nps_payload.py*
+*nps_payload-master*
+*/nps_payload.git*
+*msf_payload.ps1*
+*kaluche/bloodhound-quickwin*
+*/bhqc.py -*
+* bhqc.py -*
+*bloodhound-quickwin-main*
+*/bloodhound-quickwin.git*
