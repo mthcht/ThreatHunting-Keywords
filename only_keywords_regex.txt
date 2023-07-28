@@ -183,6 +183,13 @@
 .*MS-RPRN\.exe .*
 .*SharpBypassUAC.*
 .*Add-RemoteRegBackdoor.*
+.*Get-RemoteCachedCredential.*
+.*Get-RemoteLocalAccountHash.*
+.*RemoteHashRetrieval\.ps1.*
+.*/DAMP\.git.*
+.*DAMP-master\.zip
+.*HarmJ0y/DAMP.*
+.*Add-RemoteRegBackdoor.*
 .*Add-MpPreference -ExclusionPath .*
 .*ADACLScanner.*
 .*ADExplorerSnapshot\.py.*
@@ -9856,7 +9863,10 @@ RedGuard -.*
 .*reg add .*HKLM\\Software\\Policies\\Microsoft\\Windows Defender.* /v Disable.* /t REG_DWORD /d 1 /f.*
 .*reg save HKLM\\SAM c:.*
 .*reg save HKLM\\SYSTEM c:.*
-.*reGeorg.*
+.*reGeorgSocksProxy\.py.*
+.*reGeorg-master.*
+.*/reGeorg\.git.*
+.*sensepost/reGeorg.*
 .*Rootkit\.Win64\..*
 .*Ransom\.Win32\..*
 .*BKDR_JSPSHELL\..*
@@ -10667,7 +10677,19 @@ raw_keylogger .*
 .*SocialPwned\.git.*
 .*--tor-proxy.*--pwndb.*
 .*socialpwned_.*\.txt.*
-.*spiderfoot.*
+.*/SpiderFoot\.csv.*
+.*/SpiderFoot-.*\.log\.cs.*
+.*-SpiderFoot-correlations\.csv.*
+.*sfp_torexits\.py.*
+.*sfp_portscan_tcp\.py.*
+.*/sfp_openphish\.py.*
+.*/sfp_spider\.py.*
+.*dicts.*generic-usernames\.txt.*
+.*/subdomains-10000\.txt.*
+.* \./sf\.py -l 127\.0\.0\.1:5001.*
+.*spiderfoot-master.*
+.*/spiderfoot\.git.*
+.*smicallef/spiderfoot.*
 .*SpookFlare.*
 .*BeetleChunks/SpoolSploit.*
 .*spool_sploit\.py.*
@@ -13144,6 +13166,7 @@ set shellcode .*
 .*Invoke-AzurePasswordSpray.*
 .*Invoke-AzureEnum\.ps1.*
 .*/MSOLSpray.*
+.*MSOLSpray-master.*
 .*MSOLSpray\.git.*
 .*MSOLSpray\.ps1.*
 .*MSOLSpray .*
@@ -16411,3 +16434,247 @@ inceptor.*dotnet.*
 .*SharpHide-master.*
 .*443D8CBF-899C-4C22-B4F6-B7AC202D4E37.*
 .*SharpHide\.csproj.*
+.*blackarrowsec/pivotnacci.*
+.*/pivotnacci\.git.*
+.*pivotnacci-master.*
+.*install pivotnacci.*
+.*pivotnacci -.*
+.*pivotnacci  http.*
+.*pivotnacci .*--polling-interval.*
+.*pivotnacci/0\.0\.1.*
+.*/pivotnaccilib.*
+.*PowerShellMafia/PowerSCCM.*
+.*/PowerSCCM\.git.*
+.*PowerSCCM-master.*
+.*PowerSCCM\.ps1.*
+.*PowerSCCM\.psd1.*
+.*PowerSCCM\.psm1.*
+.*0ac82760-3e0d-4124-bd1c-92c8dab97171.*
+.*wh0amitz/BypassCredGuard.*
+.*/BypassCredGuard\.git.*
+.*BypassCredGuard-master.*
+.*BypassCredGuard\..*
+.*F1527C49-CA1F-4994-BB9D-E20DD2C607FD.*
+.*/Bashfuscator.*
+.*Bashfuscator-master.*
+.*bashfuscator -.*
+.*bashfuscator\.py.*
+.*command_obfuscator\.py.*
+.* -c .* --choose-mutators .* -s 1.*
+.*Bashfuscator Team.*
+.*hlldz/dazzleUP.*
+.*/dazzleUP\.git.*
+.*dazzleUP-master.*
+.*dazzleUP\.x64\.exe.*
+.*dazzleUP_Reflective_DLL.*
+.*dazzleUP\.cna.*
+.*dazzleUP\.sln.*
+.*dazzleUP\.vcxproj.*
+.*FE8F0D23-BDD1-416D-8285-F947BA86D155.*
+.*dazzleUP\.x32\.exe.*
+.*dazzleUP\.exe.*
+.*path_dll_hijack\.h.*
+.*S3cur3Th1sSh1t/MultiPotato.*
+.*/MultiPotato\.git.*
+.*MultiPotato-main.*
+.*MultiPotato\.exe.*
+.*PetitPotamModified\.exe.*
+.*\\\\\.\\pipe\\pwned/pipe/srvsvc.*
+.*localhost/pipe/pwned.*
+.* -t CreateProcessAsUserW -p .*pwned\\pipe\\spoolss.* -e .*\.exe.*
+.*MS-RPRN\.exe \\\\.* \\\\.*/pipe/pwned.*
+.* -t BindShell -p .*pwned\\pipe\\spoolss.*
+.*61CE6716-E619-483C-B535-8694F7617548.*
+.*MultiPotato\.cpp.*
+.*TokenKidnapping\.cpp.*
+.*TokenKidnapping\.exe.*
+.*S3cretP4ssw0rd!.*
+.*/SharpEfsPotato.*
+.*\\SharpEfsPotato.*
+.* SharpEfsPotato.*
+.*SharpEfsPotato-master.*
+.*SharpEfsPotato\.sln.*
+.*SharpEfsPotato\.exe.*
+.* C:\\temp\\w\.log.*
+.*AAB4D641-C310-4572-A9C2-6D12593AB28E.*
+.*SharpEfsPotato\.cs.*
+.*SharpEfsPotato by @bugch3ck.*
+.*/KRBUACBypass.*
+.*\\KRBUACBypass.*
+.* KRBUACBypass.*
+.*KRBUACBypass\.exe.*
+.*KRBUACBypass\.sln.*
+.*881D4D67-46DD-4F40-A813-C9D3C8BE0965.*
+.*KRBUACBypass\.csproj.*
+.*Copyright \(c\) 2023 whoamianony\.top.*
+.*KRBUACBypass 1.*
+.*lib/Bruteforcer\.cs.*
+.*MFASweep\.ps1.*
+.*dafthack/MFASweep.*
+.*/MFASweep\.git.*
+.*Invoke-MFASweep.*
+.*sa7mon/S3Scanner.*
+.*/S3Scanner\.git.*
+.*S3Scanner-master.*
+.*s3scanner scan .*
+.*s3scanner dump .*
+.*install s3scanner.*
+.*python3 -m S3Scanner.*
+.* --threads .* scan --buckets-file.* 
+.*s3scanner -.*
+.* dump --bucket .*--dump-dir.*
+.*initstring/cloud_enum.*
+.*/cloud_enum\.git.*
+.*cloud_enum-master\.zip.*
+.*/cloud_enum\.py.*
+.*\\cloud_enum\.py.*
+.* cloud_enum\.py.*
+.*/cloud_enum\.txt.*
+.*superhedgy/AttackSurfaceMapper.*
+.*/AttackSurfaceMapper\.git.*
+.*AttackSurfaceMapper-master.*
+.*bitquark_top100k_sublist\.txt.*
+.*commonspeak_sublist\.txt.*
+.*top1000_sublist\.txt.*
+.*top100_sublist\.txt.*
+.*/guessed_emails\.txt.*
+.*/email_spoof_checks\.txt.*
+.* asm\.py -t .* -ln -w resources/.*\.txt -o .*
+.*rbsec/dnscan.*
+.*/dnscan\.git.*
+.*dnscan-master.*
+.*subdomains-100\.txt.*
+.*subdomains-1000\.txt.*
+.*subdomains-10000\.txt.*
+.*subdomains-500\.txt.*
+.*subdomains-uk-1000\.txt.*
+.*subdomains-uk-500\.txt.*
+.*/subdomains\.txt.*
+.*/dnscan\.py.*
+.* dnscan\.py.*
+.*\\dnscan\.py.*
+.*/AzureC2Relay.*
+.*\\AzureC2Relay.*
+.*AzureC2Relay-main.*
+.*AzureC2Relay\.zip.*
+.*MalleableProfileB64.*
+.*cobaltstrike-dist\.tgz.*
+.*\\AzureC2Proxy\\.*
+.*GenericC2Relay\.cs.*
+.*dotnet ParseMalleable/ParseMalleable\.dll.*
+.*/ParsedMalleableData\.txt.*
+.*\\ParsedMalleableData\.txt.*
+.*mojo\.5688\.8052\.183894939787088877\#\#.*
+.*mojo\.5688\.8052\.35780273329370473\#\#.*
+.*/C2concealer.*
+.*\\C2concealer.*
+.*C2concealer-master.*
+.* -t C2concealer .*
+.*C2concealer -.*
+.*/cobaltstrike/c2lint.*
+.*/usr/share/cobaltstrike/.*
+.*malleable-c2-randomizer\.py.*
+.*kgretzky/pwndrop.*
+.*/pwndrop\.git.*
+.*pwndrop-master.*
+.*pwndrop-linux-amd64.*
+.*\./pwndrop .*
+.*pwndrop stop.*
+.*pwndrop install.*
+.*pwndrop start.*
+.*pwndrop status.*
+.*/pwndrop\.ini.*
+.*/usr/local/pwndrop/.*
+.*/ADFSpoof\.py.*
+.* ADFSpoof\.py.*
+.*\\ADFSpoof\.py.*
+.* -b .*\.bin .*\.bin dump.*
+.*EncryptedPfx\.py.*
+.*ADFSpoof-master.*
+.*JoelGMSec/EvilnoVNC.*
+.*/EvilnoVNC\.git.*
+.*EvilnoVNC-main.*
+.*\\Keylogger\.txt.*
+.*\\EvilnoVNC.*
+.*o365enum\.py.*
+.*dmFsaWRfdXNlckBjb250b3NvLmNvbTpQYXNzd29yZDE.*
+.*valid_user@contoso\.com:Password1.*
+.*d494a4bc-3867-436a-93ef-737f9e0522eb.*
+.*aW52YWxpZF91c2VyQGNvbnRvc28uY29tOlBhc3N3b3JkMQ.*
+.*2944dbfc-8a1e-4759-a8a2-e4568950601d.*
+.*1c50adeb-53ac-41b9-9c34-7045cffbae45.*
+.*23975ac9-f51c-443a-8318-db006fd83100.*
+.*c708b83f-4167-4b4c-a1db-d2011ecb3200.*
+.*fea01b74-7a60-4142-a54d-7aa8f6471c00.*
+.*o365enum-master.*
+.*gremwell/o365enum.*
+.*bigb0sss/goPassGen.*
+.*/goPassGen\.git.*
+.*goPassGen-master.*
+.*mttaggart/OffensiveNotion.*
+.*offensive_notion_darwin_.*
+.*offensive_notion_linux_.*
+.*offensive_notion_win_.*\.exe.*
+.*/OffensiveNotion\.git
+.*/OffensiveNotion/osxcross/target/bin.*
+.* /create /tn Notion /tr \\.*cmd\.exe.* -c .*\\.* /sc onlogon /ru System\\.*
+.*cddownloadelevategetprivsinjectpersistportscanpspwdrunassaveshellshutdownsleep.*
+.*/OffensiveNotion/agent.*
+.*offensive_notion\.exe.*
+.*/OffensiveNotion/utils.*
+.*\$FilterArgs = @\{ name='Notion'.*EventNameSpace='root\\\\CimV2'.*QueryLanguage=.*WQL.* Query=.*SELECT .* FROM __InstanceModificationE.*
+.*jpillora/chisel.*
+.*/chisel\.git.*
+.*\\chisel-master.*
+.*/chisel-master.*
+.*chisel-master\.zip.*
+.* install chisel.*
+.*/chisel@latest.*
+.*chisel server -.*
+.*chisel client http.*
+.*chisel -.*
+.*chisel client -.*
+.*--name chisel -p .*
+.*chisel_1.*_darwin_.*\.gz.*
+.*chisel_1.*_linux_.*\.gz.*
+.*/chisel-freebsd.*
+.*/chisel-linux_.*
+.*/chisel-windows_amd6.*
+.*/chisel-darwin_amd64.*
+.*chisel\.jpillora\.com.*
+.*-server=http://127\.0\.0\.1:4002.*
+.*-remote=127\.0\.0\.1:3000.*
+.*-local=0\.0\.0\.0:4001.*
+.*chisel\.exe client.*
+.*chisel\.exe server.*
+.*\\chisel\.exe.*
+.*/chisel\.exe.*
+.*chisel_windows_amd64\.exe.*
+.*chisel_linux_amd64.*
+.*wireghoul/htshells.*
+.*/htshells\.git.*
+.*htshells-master.*
+.*mod_sendmail\.rce\.htaccess.*
+.*mod_auth_remote\.phish\.htaccess.*
+.*/prepare\.sh shell/mod_.*\.htaccess.*
+.* prepare\.sh shell/mod_.*\.htaccess.*
+.*mod_ruby\.shell\.htaccess.*
+.*mod_rivet\.shell\.htaccess.*
+.*mod_python\.shell\.htaccess.*
+.*mod_php\.stealth-shell\.htaccess.*
+.*mod_php\.shell2\.htaccess.*
+.*mod_php\.shell\.htaccess.*
+.*mod_perl\.shell\.htaccess.*
+.*mod_perl\.embperl\.shell\.htaccess.*
+.*mod_perl\.Mason\.shell\.htaccess.*
+.*mod_perl\.IPP\.shell\.htaccess.*
+.*mod_multi\.shell\.htaccess.*
+.*mod_mono\.shell\.htaccess.*
+.*mod_cgi\.shell\.windows\.htaccess.*
+.*mod_cgi\.shell\.bind\.htaccess.*
+.*mod_cgi\.shell\.bash\.htaccess.*
+.*mod_caucho\.shell\.htaccess.*
+.*http://.*/\.htaccess\?c=uname -a.*
+.*https://.*/\.htaccess\?c=uname -a.*
+.*https://.*/\.htaccess\?c=cmd.*
+.*http://.*/\.htaccess\?c=cmd.*
