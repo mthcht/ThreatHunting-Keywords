@@ -16717,3 +16717,113 @@ inceptor.*dotnet.*
 .* bhqc\.py -.*
 .*bloodhound-quickwin-main.*
 .*/bloodhound-quickwin\.git.*
+.*mpgn/BackupOperatorToDA.*
+.*/BackupOperatorToDA\.git.*
+.*\\BackupOperatorToDA.*
+.*BackupOperatorToDA-master.*
+.*BackupOperatorToDA\.sln.*
+.*BackupOperatorToDA\.exe.*
+.*0971A047-A45A-43F4-B7D8-16AC1114B524.*
+.*BackupOperatorToDA\.cpp.*
+.*secredump\.exe.*
+.*S4UTomato-master.*
+.*wh0amitz/S4UTomato.*
+.*/S4UTomato\.git.*
+.*S4UTomato\.sln.*
+.*881D4D67-46DD-4F40-A813-C9D3C8BE0965.*
+.*S4UTomato\.csproj.*
+.*S4UTomato 1\.0\.0-beta.*
+.*Run the krbscm method for SYSTEM shell.*
+.*S4UTomato\.exe.*
+.*\.exe rbcd -m .* -p .* -c .*cmd\.exe.*
+.*\.exe shadowcred -c .* -f.*
+.*\.exe krbscm -c .*cmd\.exe.*
+.*reveng007/ReflectiveNtdll.*
+.*/ReflectiveNtdll\.git.*
+.*ReflectiveNtdll-main.*
+.*\\implant\.exe .*\.exe
+.*\\1\.Encrypt_shellcode.*
+.*\\enc_shellcode\.bin.*
+.*/enc_shellcode\.bin.*
+.*POC1.*implant\.cpp.*
+.*\\enc_shellcode\.h.*
+.*/enc_shellcode\.h.*
+.*POC2.*implant\.cpp.*
+.*reveng007/SharpGmailC2.*
+.*/SharpGmailC2\.git.*
+.*\\SharpGmailC2.*
+.*SharpGmailC2-main.*
+.*GmailC2\.csproj.*
+.*OrderFromC2 = ReadEmail\(\).*
+.*946D24E4-201B-4D51-AF9A-3190266E0E1B.*
+.*CE895D82-85AA-41D9-935A-9625312D87D0.*
+.*\\gmailC2\.exe.*
+.*/gmailC2\.exe.*
+.* gmailC2\.exe.*
+.*reveng007/Executable_Files.*
+.*/Executable_Files\.git.*
+.*Executable_Files-main\.zip.*
+.*mssgbox_shellcode_x64_with_hexsymbol\.txt.*
+.*mssgbox_shellcode_x64_without_hexsymbol\.txt.*
+.*exfiltrate_via_post\.exe.*
+.*\\exfiltrate\.exe.*
+.*/exfiltrate\.exe.*
+.* exfiltrate\.exe.*
+.*cpp_test_payload\.exe.*
+.*badger_x64_stealth_rtl\.txt.*
+.*Rubeus\.exe.*
+.*RegistryTinker\.exe.*
+.*HelloReflectionWorld\.exe.*
+.*https_revshell\.exe.*
+.*mssgbox_shellcode_x64\.b64.*
+.*mssgbox_shellcode_x64\.bin.*
+.*mssgbox_shellcode_arranged_x64\.b64.*
+.*mssgbox_shellcode_x64\.bin.*
+.*\\xorencrypt\.py.*
+.*\\XOR_b64_encrypted\\.*
+.*/XOR_b64_encrypted/.*
+.*mssgbox_shellcode_exitfunc_thread_x64\.bin.*
+.*rev_kali_192_168_0_110_1234.*
+.*XOR_b64_encrypted.*covenant\.txt.*
+.*XOR_b64_encrypted.*havoc\.txt.*
+.*XOR_b64_encrypted.*covenant2\.txt.*
+.*win_rev_http\.exe.*
+.*win_rev_https\.exe.*
+.*win_rev_tcp\.exe.*
+.*/Hades\.exe.*
+.*\\Hades\.exe.*
+.*SafetyKatz\.exe.*
+.*mimikatz\.exe.*
+.*reveng007/C2_Server.*
+.*/C2_Server\.git.*
+.*C2_Server-main.*
+.* rev_shell\.py.*
+.*/rev_shell\.py.*
+.*\\ rev_shell\.py.*
+.*chrome_creds\.txt.*
+.*C&C => .*
+.*\[\+] Back to C&C Console.*
+.*lnx_keylogger\.py.*
+.*win_chrome_password_extractor\.py.*
+.*win_keylogger\.py.*
+.*win_wlan_passwd_and_wanip_extractor\.py.*
+.*\[\+] Keylogger stopped.*
+.*\[\+] Keylogger started.*
+.*192\.168\.0\.110:1234.*
+.*\\Chrome_pass\.db.*
+.*Invoke-WebRequest ifconfig\.me/ip.*Content\.Trim\(\)
+Invoke-WebRequest https://tinyurl\.com/ .*
+.*spoof_wlan_creds.*
+.*spoof_wani.*
+.*keylog_on.*
+.*keylog_dump.*
+.*keylog_off.*
+.*/CloakNDaggerC2.*
+.*\\CloakNDaggerC2.*
+.*CloakNDaggerC2-main.*
+.*nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pz.*
+.*http://192\.168\.1\.179:8000/session.*
+.*ReversingID/Shellcode-Loader.*
+.*/Shellcode-Loader\.git.*
+.*Shellcode-Loader-master.*
+.*C:\\Windows\\DirectX\.log.*\\Windows\\Temp\\backup\.log.*
