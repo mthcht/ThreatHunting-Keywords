@@ -9,6 +9,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*  --GPOName .* --FilterEnabled --TargetDnsName .*
 .*  --list=hidden-options.*
 .*  mask\?a\?a\?a\?a\?.*
+.* - Sensitive Accounts\.csv.*
 .*  silver .* /domain.*
 .* \$exploit_oneliner.*
 .* \$FodHelperPath.*
@@ -550,6 +551,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .* exfiltrate\.exe.*
 .* exiting \(due to fatal error\).*
 .* Exrop\(.*/bin/.*
+.* extract --secrets --zsh.*
 .* --extra-verbose.*
 .* -f .*\.bin -e AMSI.*
 .* -f .*\.bin -e Defender.*
@@ -901,6 +903,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .* instainsane\.sh.*
 .* install .*masscan.*
 .* install armitage.*
+.* install autobloody.*
 .* install backdoor-factory.*
 .* install chisel.*
 .* install github .*merlin.*
@@ -1966,6 +1969,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\./Ninja\.py.*
 .*\./nmap.*
 .*\./pachine\.py.*
+.*\./Passdetective.*
 .*\./Pcredz .*
 .*\./Phishing\.sh.*
 .*\./pwndrop .*
@@ -1976,6 +1980,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\./ScareCrow .*
 .*\./ScareCrow -.*
 .*\./seth\.sh .* .*
+.*\./snake
 .*\./SourcePoint .*
 .*\./sudomy.*
 .*\./t14m4t .*
@@ -2151,6 +2156,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\.pptx\.js.*
 .*\.pptx\.sfx.*
 .*\.pptx\.vbs.*
+.*\.ps1 -Base .*OU=.*DC=.* -Credentials .* -Server .*
 .*\.py  -credz .*\.txt .* 
 .*\.py  -k .* -f .*\.bat -o .*\.html.*
 .*\.py  -k .* -f .*\.docm -o .*\.html.*
@@ -2282,13 +2288,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/0xthirteen/StayKit.*
 .*/1mxml/CVE-2022-23131.*
 .*/365-Stealer\.git.*
-.*/tracers_fuzzer\.cc.*
-.*/passwd_tracer\.c.*
-.*/sudo_tracer\.c.*
-.*\./snake
-.*3snake-master.*
 .*/3snake\.git.*
-.*blendin/3snake.*
 .*/4luc4rdr5290/CVE-2022-0847.*
 .*/78dc91f1A716DBBAA9E4E12C884C1CB1C27FFF2BEEED7DF1.*
 .*/78dc91f1A716DBBAA9E4E12C884C1CB1C27FFF2BEEED7DF1.*
@@ -2297,6 +2297,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/AceLdr\.cna.*
 .*/acheron\.git.*
 .*/acheron\.go.*
+.*/ACLight\.git.*
 .*/ACLight/.*
 .*/acltoolkit.*
 .*/acm_enum_cas_.*\.json.*
@@ -2305,6 +2306,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/acm_enum_certs_expired_.*\.json.*
 .*/acm_enum_certs_info_.*\.json.*
 .*/ActiveScanPlusPlus.*
+.*/ADACLScanner\.git.*
 .*/adalanche/modules/.*
 .*/adconnectdump\.git.*
 .*/adcs_enum/.*
@@ -2374,6 +2376,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/amass/wordlists.*
 .*/amqp-info\.nse.*
 .*/amsi\.py.*
+.*/Amsi_Bypass_In_2023.*
 .*/Analyzer-Session\.log.*
 .*/AndrewSpecial\.git.*
 .*/android/pupydroid/.*
@@ -2452,6 +2455,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/auth/cc2_auth\..*
 .*/auth-owners\.nse.*
 .*/auth-spoof\.nse.*
+.*/autobloody\.git.*
+.*/autobloody/archive.*
 .*/AutoBypass\.ps1.*
 .*/autotimeliner.*
 .*/auxiliary/scanner/.*
@@ -2898,6 +2903,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/CWoNaJLBo/VTNeWw11213/.*
 .*/Cybellum.*
 .*/CyDefUnicorn.*
+.*/D1rkInject\.git.*
 .*/d4em0n/exrop.*
 .*/daap-get-library\.nse.*
 .*/DAMP\.git.*
@@ -2919,6 +2925,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/db2-das-info\.nse.*
 .*/dbc2Loader.*
 .*/DCOM Lateral Movement/.*
+.*/dcomhijack\.git.*
 .*/DcRat\.git.*
 .*/DcRat\.sln.*
 .*/dcsync_.*\.txt
@@ -3911,6 +3918,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/main/exploit\.pdf
 .*/malleable-c2.*
 .*/malseclogon\..*
+.*/MalStuff\.cpp.*
 .*/man_in_the_browser/.*\.js.*
 .*/man_in_the_browser/.*\.rb.*
 .*/manage/exec_cmd.*
@@ -4245,8 +4253,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/parrotsec/.*
 .*/ParsedMalleableData\.txt.*
 .*/pass_gen\.pl.*
+.*/PassDetective\.git.*
 .*/passhash\.sl.*
 .*/passive_sqli\.txt.*
+.*/passwd_tracer\.c.*
 .*/password\.lst.*
 .*/password/mimipenguin/.*
 .*/password_brute\.txt.*
@@ -4525,6 +4535,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/regsvcs/meterpreter.*
 .*/regsvr\.cmd.*
 .*/regsvr32/shellcode_inject.*
+.*/releases/download/.*/abc\.exe.*
 .*/Remote/adcs_request/.*
 .*/Remote/office_tokens/.*
 .*/Remote/procdump/.*
@@ -4762,6 +4773,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/silentdump\.c.*
 .*/silentdump\.h.*
 .*/SilentHound\.git.*
+.*/SilentMoonwalk\.git.*
 .*/silentprocessexit\.py.*
 .*/silenttrinity/.*\.py.*
 .*/simple_hijacker/.*
@@ -4985,6 +4997,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/subdomains\.txt.*
 .*/subdomains-10000\.txt.*
 .*/Suborner\.git.*
+.*/sudo_tracer\.c.*
 .*/sudomy\.api.*
 .*/sullo/nikto.*
 .*/sunlogin_rce.*
@@ -5041,6 +5054,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/tests/test-bof\.ps1.*
 .*/tevora-threat/PowerView.*
 .*/tftp-enum\.nse.*
+.*/TGSThief\.git.*
+.*/TGSThief/.*
 .*/tgtParse\.py.*
 .*/tgtParse/tgtParse\..*
 .*/thc-hydra/.*
@@ -5105,6 +5120,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/tor-consensus-checker\.nse.*
 .*/tor-gencert\.exe.*
 .*/traceroute-geolocation\.nse.*
+.*/tracers_fuzzer\.cc.*
 .*/trackerjacker.*
 .*/Trackflaw/CVE.*\.py.*
 .*/transports/scramblesuit/.*\.py.*
@@ -5424,6 +5440,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\CrossC2\..*
 .*\\CROSSNET\\CROSSNET\\.*
 .*\\cryptolok.*
+.*\\D1rkInject\\.*
 .*\\darkexe\.py.*
 .*\\DarkLoadLibrary\..*
 .*\\DelegationBOF\..*
@@ -5543,6 +5560,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\MaccaroniC2.*
 .*\\macoffe\.pdb.*
 .*\\malseclogon\..*
+.*\\MalStuff\.cpp.*
 .*\\master\\GPSCoordinates\\.*
 .*\\mem_dll\.pdb.*
 .*\\mimi32\.exe.*
@@ -5637,6 +5655,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\rusthound\.exe.*
 .*\\SafetyKatz.*
 .*\\samantha\.txt
+.*\\scanACLsResults\.csv.*
 .*\\Seatbelt\.txt.*
 .*\\Seatbelt\\Commands\\.*
 .*\\servers\\dns_server\.py.*
@@ -5687,6 +5706,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\temp\\pwned\.trx.*
 .*\\Temp\\RTCore64\.sys.*
 .*\\tests\\beacon64\.bin.*
+.*\\TGSThief\\.*
 .*\\the-backdoor-factory\\.*
 .*\\TheThing\.exe.*
 .*\\TikiCompiler\.txt.*
@@ -5738,6 +5758,12 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\xorencrypt\.py.*
 .*\\ysoserial\\.*
 .*] Found non-ASCII service: .*
+.*_adAclOutput.*\.csv.*
+.*_adAclOutput.*\.csv.*
+.*_adAclOutput.*\.csv.*
+.*_adAclOutput.*\.csv.*
+.*_adAclOutput.*\.csv.*
+.*_adAclOutput.*\.xlsx.*
 .*_backdoor\.exe.*
 .*_backdoor\.rb.*
 .*_BloodHound\.zip.*
@@ -5852,18 +5878,22 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*36EBF9AA-2F37-4F1D-A2F1-F2A45DEEAF21.*
 .*36F9C306-5F45-4946-A259-610C05BD90DF.*
 .*3bb553cd-0a48-402d-9812-8daff60ac628.*
+.*3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84.*
 .*3kom-superhack\.txt.*
+.*3snake-master.*
 .*4\.5\.6\.7:1337.*
 .*40056/service-endpoint.*
 .*443D8CBF-899C-4C22-B4F6-B7AC202D4E37.*
 .*4D1B765D-1287-45B1-AEDC-C4B96CF5CAA2.*
 .*4d5350c8-7f8c-47cf-8cde-c752018af17e.*
+.*4E0CA74F5E074DFF389263D15E3913750EB437C1C3CD3B212C2998352023B980.*
 .*4g3nt47/Striker.*
 .*50050/SharpC2.*
 .*505152535657556A605A6863616C6354594883EC2865488B32488B7618488B761048AD488B30488B7E3003573C8B5C17288B741F204801FE8B541F240FB72C178D5202AD813C0757696E4575EF8B741F1C4801FE8B34AE4801F799FFD74883C4305D5F5E5B5A5958C3.*
 .*5067F916-9971-47D6-BBCB-85FB3982584F.*
 .*516280565958.*
 .*516280565959.*
+.*555662D4CCBB940D87869E6295EC7CC74BB85D8C8FC5916EC34D1226704578C5.*
 .*5a40f11a99d0db4a0b06ab5b95c7da4b1c05b55a99c7c443021bff02c2cf93145c53ff5b.*
 .*5b5b20242873746174202d632559202f62696e2f73682920213d20242873746174202d632559202e73736829205d5d202626207b203a3b746f756368202d72202f62696e2f7368202e7373683b6578706f7274204b45593d22223b62617368202d63202224286375726c202d6673534c207468632e6f72672f737368782922.*
 .*5E8106A6F89B053ED91C723D5D4CAE3FFC15F1CE.*
@@ -5876,6 +5906,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*6563686f2048656c6c6f204261636b646f6f72.*
 .*658C8B7F-3664-4A95-9572-A3E5871DFC06.*
 .*66e0681a500c726ed52e5ea9423d2654.*
+.*6973A4710FD88D32D47F4523E7EC098EF407F8ECED4B34AF6D3759CE1696EF19.*
+.*6BF82CF9845C649557FC02D1E3D0B6A9FB4F827CC7815BF477DD0CB51246DA45.*
 .*6e7645c4-32c5-4fe3-aabf-e94c2f4370e7.*
 .*7\.exe a -mx3 ad\.7z ad_.*\.txt.*
 .*73948912-CEBD-48ED-85E2-85FCD1D4F560.*
@@ -5897,6 +5929,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*91EA50CD-E8DF-4EDF-A765-75354643BD0D.*
 .*946D24E4-201B-4D51-AF9A-3190266E0E1B.*
 .*99\$1a7F1qr2HihoXfs/56u5XMdpDZ83N6hW/HI=.*
+.*9AC25A8825407CCB6089BC7A2DF530D1830795B7E71A981ECEE4C5F48387B37A.*
 .*9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45.*
 .*9D1B853E-58F1-4BA5-AEFC-5C221CA30E48.*
 .*9emin1/charlotte.*
@@ -5918,10 +5951,18 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ACBypassTest.*
 .*Accenture/Spartacus.*
 .*AccessTokenImpersonationAccount.*
+.*Accounts with extra permissions\.txt.*
 .*AceLdr\..*\.bin.*
 .*AceLdr\.zip.*
 .*acf7a8a9-3aaf-46c2-8aa8-2d12d7681baf.*
 .*acheron-master\.zip.*
+.*ACLight\.ps1.*
+.*ACLight\.psd1.*
+.*ACLight\.psm1.*
+.*ACLight2\.ps1.*
+.*ACLight2\.psd1.*
+.*ACLight2\.psm1.*
+.*ACLight-master.*
 .*aclpwn\.py.*
 .*ACLScanner\.exe.*
 .*acltoolkit .*
@@ -5933,26 +5974,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*action=SchTaskCOMHijack .*
 .*activedirectory/pwns\.go.*
 .*activeScan\+\+\.py.*
-.*_adAclOutput.*\.csv.*
-.*_adAclOutput.*\.csv.*
-.*_adAclOutput.*\.csv.*
-.*_adAclOutput.*\.csv.*
-.*_adAclOutput.*\.xlsx.*
-.*_adAclOutput.*\.csv.*
-.*\.ps1 -Base .*OU=.*DC=.* -Credentials .* -Server .*
-.*555662D4CCBB940D87869E6295EC7CC74BB85D8C8FC5916EC34D1226704578C5.*
-.*6BF82CF9845C649557FC02D1E3D0B6A9FB4F827CC7815BF477DD0CB51246DA45.*
-.*4E0CA74F5E074DFF389263D15E3913750EB437C1C3CD3B212C2998352023B980.*
-.*3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84.*
-.*9AC25A8825407CCB6089BC7A2DF530D1830795B7E71A981ECEE4C5F48387B37A.*
-.*B5A3FA5B3DA95F6AA7556EE2BC62E5D290F72453105EF88E170174994DDA2650.*
-.*6973A4710FD88D32D47F4523E7EC098EF407F8ECED4B34AF6D3759CE1696EF19.*
-.*F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2.*
+.*AD Privesc Automation.*
 .*ADACLScan\.ps1.*
-.*ADACLScanner-master.*
-.*/ADACLScanner\.git.*
-.*canix1/ADACLScanner.*
 .*ADACLScanner.*
+.*ADACLScanner-master.*
 .*adalanche analyze.*
 .*adalanche collect.*
 .*adalanche-.*\.exe.*
@@ -6215,6 +6240,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*applocker-enumerator.*
 .*apt install crunch.*
 .*apt install set -y.*
+.*APT stands for Advanced Persistence Tomato.*
 .*apt.* install john.*
 .*apt/etumbot\.py.*
 .*apt/putterpanda\.py.*
@@ -6342,6 +6368,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ATPMiniDump.*
 .*--attack nightmare.*
 .*--attack spoolsample.*
+.*Attack_AmsiOpenSession\.ps1.*
+.*Attack_AmsiScanBuffer\.ps1.*
 .*--attacker-page .*
 .*AttackerSetup\(windows\)\.exe.*
 .*AttackerSetup\.py.*
@@ -6361,6 +6389,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*auto_pass_the_hash\.rc.*
 .*auto_target_linux\.rb.*
 .*auto_target_windows\.rb.*
+.*autobloody -.*
+.*autobloody\.py.*
+.*autobloody-main.*
 .*AutoBypass\.ps1.*
 .*AutoC2\.sh.*
 .*AutoC2/All\.sh.*
@@ -6419,6 +6450,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*awk_reverse_tcp\.py.*
 .*awsloot\.py .*
 .*axcrypt2john\.py.*
+.*aydinnyunus/PassDetective.*
 .*Azure-AccessPermissions\.ps1.*
 .*Azure-AccessPermissions-master.*
 .*AzureAD AutoLogon Brute.*
@@ -6429,6 +6461,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*AzureC2Relay\.zip.*
 .*AzureC2Relay-main.*
 .*AzureHound\.ps1.*
+.*azurehound/v2.*
 .*-b bleeding-jumbo.*
 .*b23r0/Heroinn.*
 .*b2xtranslator\.xls\.csproj.*
@@ -6437,6 +6470,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*b4ldr/nse-scripts.*
 .*b4rtik/RedPeanut.*
 .*b4rtik/RedPeanut.*
+.*B5A3FA5B3DA95F6AA7556EE2BC62E5D290F72453105EF88E170174994DDA2650.*
 .*B64_ENCODED_PAYLOAD_UUID.*
 .*b64encode.*\.:::-989-:::\..*
 .*b64payloadgen\.sh.*
@@ -6545,6 +6579,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*bc-security/empire.*
 .*BC-SECURITY/Starkiller.*
 .*bd346689-8ee6-40b3-858b-4ed94f08d40a.*
+.*BD602C80-47ED-4294-B981-0119D2200DB8.*
 .*bdamele/icmpsh.*
 .*bdcsync.*
 .*bdllinject.*
@@ -6740,6 +6775,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*blacklanternsecurity/TREVORspray.*
 .*Blackout\.exe .*
 .*ble_recon\.go.*
+.*blendin/3snake.*
 .*blindSQLPayloads\.txt.*
 .*blockchain2john\.py.*
 .*blockdlls -.*
@@ -6841,6 +6877,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*BokuLoader\.cna.*
 .*BokuLoader\.exe.*
 .*BokuLoader\.x64.*
+.*bolt://localhost:7687.*
 .*Bonfee/CVE-2022-0995.*
 .*BooExecutorImpl\.cs.*
 .*bootkit-rs\.git.*
@@ -7138,6 +7175,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*CallbackDump\.exe.*
 .*can_flood_frames.*
 .*CandyPotato\.exe .*
+.*canix1/ADACLScanner.*
 .*Cannot enumerate antivirus.*
 .*capcom_sys_exec.*
 .*capcom_sys_exec\.x64\.dll.*
@@ -7642,11 +7680,16 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*cracf2john\.py.*
 .*crack_databases\.rb.*
 .*crack_windows\.rb.*
+.*Crack-allDBs\.git.*
+.*Crack-allDBs-main.*
+.*crack-allDBs-v1\.py.*
+.*crack-allDBs-v2\.py.*
 .*CrackMapExec.*
 .*crackmapexec.*
 .*crackmapexec\.py.*
 .*crackpkcs12.*
 .*crackTGS.*
+.*CravateRouge/autobloody.*
 .*CravateRouge/bloodyAD.*
 .*crawlLdrDllList.*
 .*create_dummy_dll_file.*
@@ -7844,28 +7887,6 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*cve-2023-21554\.nse.*
 .*CVE-2023-23397\.ps1.*
 .*cvescanner\.py.*
-.*Invoke-ACLScanner .* -Name .*
-.*Privileged Accounts - Layers Analysis\.txt.*
-.*Accounts with extra permissions\.txt.*
-.* - Sensitive Accounts\.csv.*
-.*Privileged Accounts Permissions - Irregular Accounts\.csv.*
-.*Privileged Accounts Permissions - Final Report\.csv.*
-.*Invoke-ACLcsvFileAnalysis.*
-.*Invoke-ACLScanner .* -Filter .*
-.*\\scanACLsResults\.csv.*
-.*Start-domainACLsAnalysis.*
-.*Start-ACLsAnalysis -Domain.*
-.*starting Multi-Layered ACLight scan.*
-.*Execute-ACLight\.bat.*
-.*ACLight\.psm1.*
-.*ACLight\.psd1.*
-.*ACLight\.ps1.*
-.*Execute-ACLight2\.bat.*
-.*ACLight2\.psm1.*
-.*ACLight2\.psd1.*
-.*ACLight2\.ps1.*
-.*ACLight-master.*
-.*/ACLight\.git.*
 .*cyberark/ACLight.*
 .*cytool\.exe event_collection disable.*
 .*cytool\.exe protect disable.*
@@ -7873,8 +7894,16 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*cytool\.exe startup disable.*
 .*-d kali-linux .*
 .*D00MFist/Mystikal.*
+.*D1rkInject\.cpp.*
+.*D1rkInject\.exe.*
+.*D1rkInject\.iobj.*
+.*D1rkInject\.log.*
+.*D1rkInject\.sln.*
+.*D1rkInject\.vcxproj.*
+.*D1rkInject-main.*
 .*d2h5aXNwZW5uc3RhdGVzb2JhZGF0Zm9vdGJhbGw.*
 .*d2hvYW1p.*
+.*d3ckx1/Crack-allDBs.*
 .*d494a4bc-3867-436a-93ef-737f9e0522eb.*
 .*D4Vinci.*
 .*daem0nc0re/PrivFu.*
@@ -7936,6 +7965,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*dcipher-cli.*
 .*dcomexec -.*
 .*dcomexec\.py.*
+.*dcomhijack\.cna.*
+.*dcomhijack\.py.*
+.*dcomhijack-main.*
 .*DCOMReflection\.cpp.*
 .*DcRat  1\.0\.7.*
 .*DcRat\.7z.*
@@ -8301,6 +8333,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*DotNetArtifactGenerator\.py.*
 .*DoubleAgent\.sln.*
 .*douknowwhoami\?d.*
+.*download .*bloodhound.*
 .*download .*Roaming\\mRemoteNG\\confCons\.xml.*
 .*download /etc/passwd.*
 .*Download:Cradle\.js.*
@@ -8445,6 +8478,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*dumpXor\.exe .*
 .*-e --enumerate google.*github.*k8s --github-only-org --k8s-get-secret-values --gcp-get-secret-values.*
 .*-e ZQBjAGgAbwAgAEcAbwBkACAAQgBsAGUAcwBzACAAWQBvAHUAIQA=.*
+.*E11DC25D-E96D-495D-8968-1BA09C95B673.*
 .*eaphammer.*
 .*eapmd5tojohn.*
 .*easinvoker\.exe.*System32.*
@@ -8486,6 +8520,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*EDRSandblast_LsassDump.*
 .*EDRSandblast_StaticLibrary.*
 .*EDRSandblast-master.*
+.*EEC35BCF-E990-4260-828D-2B4F9AC97269.*
 .*EfsPotato-.*\.exe.*
 .*EfsPotato.*efsrpc.*
 .*EfsPotato.*lsarpc.*
@@ -8717,6 +8752,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*execute_pe -PE.*
 .*execute_Pezor.*
 .*execute_shellcode .*
+.*Execute-ACLight\.bat.*
+.*Execute-ACLight2\.bat.*
 .*execute-assembly .*
 .*execute-assembly .*\.exe .*
 .*execute-assembly .*asreproast.*
@@ -8841,6 +8878,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*f1zm0/hades.*
 .*f4081a8e30f75d46\.js.*
 .*F5BIG-Scanner\.py.*
+.*F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2.*
 .*Fadi002/unshackle.*
 .*Fake Computer Objects Honey Pots.*
 .*Fake Service Accounts Honey Tokens.*
@@ -8921,8 +8959,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*-filter .*\(&\(objectClass=user\)\(servicePrincipalName=.*\)\(!\(cn=krbtgt\)\)\(!\(samaccounttype=805306369.*
 .*-filter .*\(&\(objectClass=User\)\(serviceprincipalname=.*\)\(samaccountname=.* -limit 0 -attr samaccountname serviceprincipalname.*
 .*-filter .*\(userAccountControl:1\.2\.840\.113556\.1\.4\.803:=524288\).*
+.*find \. -name spring-beans.*\.jar.*
 .*find / -name authorized_keys .*> /dev/null.*
 .*find / -name id_dsa 2>.*
+.*find / -name id_rsa .*> /dev/null.*
 .*find / -name id_rsa 2>.*
 .*find / -perm /2000 -ls 2>/dev/null.*
 .*find / -perm \+4000 -type f 2>/dev/null.*
@@ -10362,7 +10402,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Invoke-AccessCheckForGroup.*
 .*Invoke-AccessCheckForServicePrincipal.*
 .*Invoke-AccessCheckForUser.*
+.*Invoke-ACLcsvFileAnalysis.*
 .*Invoke-ACLPwn.*
+.*Invoke-ACLScanner .* -Filter .*
+.*Invoke-ACLScanner .* -Name .*
 .*invoke-aclscanner.*
 .*Invoke-ADCSTemplateRecon.*
 .*Invoke-ADSBackdoor.*
@@ -10998,6 +11041,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*JoelGMSec/PSRansom.*
 .*john .* --incremental.*
 .*john .* -w=.*
+.*john .* --wordlist=.*
 .*john .*-groups.*
 .*john .*htdigest.*
 .*john .*-inc .*
@@ -11246,6 +11290,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*KIWI_CLOUDAP_LOGON_LIST_ENTRY_21H2.*
 .*klezVirus/CheeseTools.*
 .*klezVirus/inceptor.*
+.*klezVirus/SilentMoonwalk.*
 .*klsecservices.*
 .*klsecservices/rpivot.*
 .*known_hosts2john\.py.*
@@ -12205,6 +12250,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*mythic-cli.*athena.*
 .*MythicClient\.cs.*
 .*mythic-docker.*
+.*MzHmO/TGSThief.*
 .*n00py/LAPSDumper.*
 .*n00py/Slackor.*
 .*n0de\.exe.*elevationstation.*
@@ -12798,6 +12844,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*parse_shellcode.*
 .*parser\.exe -a .*\.dmp.*
 .*parser\.exe -a .*\.dmp.*
+.*PassDetective extract.*
+.*PassDetective-main\..*
 .*passhunt\.exe.*
 .*passhunt\.exe.*
 .*passhunt\.py.*
@@ -13334,6 +13382,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*privexchange\.py.*
 .*privexchange\.py.*
 .*PrivExchange-master\.zip.*
+.*PrivFu-main\.zip.*
 .*PrivFu-master.*
 .*privilege::backup.*
 .*privilege::debug.*
@@ -13345,6 +13394,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*privilege::security.*
 .*privilege::sysenv.*
 .*privilege::tcb.*
+.*Privileged Accounts - Layers Analysis\.txt.*
+.*Privileged Accounts Permissions - Final Report\.csv.*
+.*Privileged Accounts Permissions - Irregular Accounts\.csv.*
 .*PrivilegeEscalation.*
 .*PrivilegeEscalation_BypassUserAccountControl_Windows\.py.*
 .*PrivilegeEscalation_EnumPatchExample_Windows\.py.*
@@ -13439,8 +13491,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*PROMPT_COMMAND=.*history -a.* tail .*\.bash_history > /dev/tcp/127\.0\.0\.1/.*
 .*prosody2john\.py.*
 .*Proxmark.*
+.*Proxy bypass enabled for Neo4j connection.*
 .*Proxy Shellcode Handler.*
 .*proxy\.py --dns .* --dns_port  .* --clients.*
+.*proxy_bypass\.py.*
 .*proxy_cmd_for_exec_by_sibling.*
 .*proxy_linux_amd64.*
 .*proxychains -.*
@@ -15096,6 +15150,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*silenthound_output_.*\.txt.*
 .*SilentHound-main.*
 .*silentLsassDump.*
+.*SilentMoonwalk\.cpp.*
+.*SilentMoonwalk\.exe.*
+.*SilentMoonwalk\.sln.*
+.*SilentMoonwalk-master.*
 .*SILENTTRINITY.*
 .*silenttrinity.*\.dll.*
 .*SillyRAT\.git.*
@@ -15501,9 +15559,12 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*start wmic /node:@C:\\.*\.txt /user:.*/password:.* process call create .*cmd\.exe /c bitsadmin /transfer .*\.exe .*
 .*start_mythic_server\.sh.*
 .*start_nbnsspoof.*
+.*Start-ACLsAnalysis -Domain.*
 .*startanotherimplant.*
 .*Start-CaptureServer\.ps1.*
 .*startdaisy.*
+.*Start-domainACLsAnalysis.*
+.*starting Multi-Layered ACLight scan.*
 .*-start-keylogger.*
 .*start-keystrokes.*
 .*start-keystrokes-writefile.*
@@ -15747,6 +15808,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*tgscrack\.go.*
 .*tgsrepcrack\..*
 .*tgsrepcrack\.py.*
+.*TGSThief-main.*
 .*tgtdelegation .*
 .*tgtdelegation\.cna.*
 .*tgtdelegation\.x64.*
@@ -15758,6 +15820,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*thc-hydra\.git.*
 .*thc-hydra\.git.*
 .*the-backdoor-factory-master.*
+.*TheD1rkMtr/D1rkInject.*
 .*TheGejr/SpringShell.*
 .*theHarvester.*
 .*thelinuxchoice/tweetshell.*
@@ -15854,6 +15917,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*token::revert.*
 .*token::run.*
 .*token::whoami.*
+.*TokenDump\.exe.*
 .*TokenKidnapping\.cpp.*
 .*TokenKidnapping\.cpp.*
 .*TokenKidnapping\.exe.*
@@ -16057,7 +16121,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*unshadow passwd shadow > .*
 .*unshadow passwd shadow.*
 .*untested_payloads\.rb.*
+.*UnwindInspector\.exe.*
 .*Update-ExeFunctions.*
+.*upload-dll .* .*\.dll.*
 .*UploadFileImplant.*
 .*UrbanBishop\.exe.*
 .*ursnif_IcedID\.profile.*
@@ -16144,6 +16210,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*venv wapiti3.*
 .*verovaleros/domain_analyzer.*
 .*victim_host_generator\.py.*
+.*VID_03EB&PID_2403 .*
+.*VID_0483&PID_5740.*
 .*viewdns-get-rootdomains-ip-ns .*
 .*viewdns-get-rootdomains-whois .*
 .*Villain\.git.*
@@ -16442,6 +16510,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*wiresocks-redsocks.*
 .*Witness\.py.*
 .*WitnessMe.*
+.*WKL-Sec/dcomhijack.*
 .*WKL-Sec/HiddenDesktop.*
 .*WKL-Sec/Winsocky.*
 .*wkssvc_\#\#.*
@@ -16754,13 +16823,10 @@ doc\.po\..*\\\..*
 doc\.tx\..*\\\..*
 doc-stg-prepend.*\..*
 doc-stg-sh.*\..*
-.*download .*bloodhound.*
 dumpwifi .*
 etw stop
 EVUAC .*
 exploit -j -z
-.*find \. -name spring-beans.*\.jar.*
-.*find / -name id_rsa .*> /dev/null.*
 fw_walk display.*
 fw_walk status.*
 fw_walk total.*
@@ -16783,7 +16849,6 @@ Impacket .*
 impersonate .*\\.*
 import boko.*
 inceptor.*dotnet.*
-.*john .* --wordlist=.*
 kerberoast .*
 koh exit.*
 koh list.*
@@ -16874,5 +16939,3 @@ uselistener http.*
 usemodule .*/.*
 usestager .*
 wapiti -.*
-.*VID_0483&PID_5740.*
-.*VID_03EB&PID_2403 .*
