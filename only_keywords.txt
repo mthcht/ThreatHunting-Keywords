@@ -2823,6 +2823,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 */CovenantUsers/*
 */Cracked5pider/*
 */Cracked5pider/*
+*/Crassus.git*
+*/Crassus-main*
 */crawler.py -u http*
 */createforestcache.py*
 */createstager.py*
@@ -5435,6 +5437,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\Coercer.py*
 *\common_pass.txt*
 *\Cooolis-ms-Loader\*
+*\Crassus-main*
 *\creditcards.py*
 *\CredsPhish.log*
 *\CrossC2.*
@@ -5915,6 +5918,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650*
 *7CFC52.dll*
 *7CFC52CD3F.dll*
+*7E9729AA-4CF2-4D0A-8183-7FB7CE7A5B1A*
 *7H0LmBxFtXBPd0/3vHe7Z3dmdrPZmTzp3ZldQrJ5LOGxeZ*
 *7L0LgBxFtTDc093TPe/dntnM7G6Sncm*
 *7z2john.pl*
@@ -7288,6 +7292,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Chachi-Enumerator.ps1*
 *ChaitanyaHaritash/kimi*
 *chameleon.py *
+*changepasswd.py*
 *charles-proxy*
 *charlotte-main.zip*
 *ChatLadon.exe*
@@ -7689,6 +7694,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *crackmapexec.py*
 *crackpkcs12*
 *crackTGS*
+*Crassus.csproj*
+*Crassus.exe*
+*Crassus.sln*
 *CravateRouge/autobloody*
 *CravateRouge/bloodyAD*
 *crawlLdrDllList*
@@ -8468,6 +8476,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *-DumpForest *
 *dumplsass*
 *dumpntlm.py*
+*DumpNTLMInfo.py*
 *DumpProcessByName*
 *DumpShellcode.*
 *DumpShellcode.exe*
@@ -16263,6 +16272,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *vulns/jrun.txt*
 *vulns/tomcat.txt*
 *vulnweb.com/FUZZ*
+*vu-ls/Crassus*
 *vyrus001/go-mimikatz*
 *vysecurity*
 *vysecurity/ANGRYPUPPY*
