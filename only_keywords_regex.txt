@@ -2921,6 +2921,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/data/empire\.db.*
 .*/data/exploits/.*
 .*/data/shellcode.*
+.*/DavRelayUp\.git.*
+.*/DavRelayUp/.*
 .*/daytime\.nse.*
 .*/dazzleUP\.git.*
 .*/db2_default_userpass\.txt.*
@@ -3808,6 +3810,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/Koadic.*
 .*/koadic\.git.*
 .*/Koh/.*\.cs.*
+.*/KrakenMask\.git.*
 .*/krb5/.*\.py
 .*/krb5-enum-users\.nse.*
 .*/KrbRelay.*
@@ -4164,6 +4167,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/ntlm\.py.*
 .*/ntlmquic.*
 .*/NTLMRecon.*
+.*/NTLMRelay2Self.*
 .*/ntlmrelayx/.*
 .*/ntlmrelayx/.*
 .*/ntlmscan\.git.*
@@ -4207,6 +4211,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/onesixtyone/dict\.txt.*
 .*/onex\.git.*
 .*/open_vas\.rb.*
+.*/openbullet\.git.*
+.*/OpenBullet2\.git.*
 .*/openflow-info\.nse.*
 .*/openlookup-info\.nse.*
 .*/openvas-otp-brute\.nse.*
@@ -4650,6 +4656,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/schtasksenum/.*\..*
 .*/ScreenshotInject.*
 .*/scripts/xor\.py.*
+.*/ScriptSentry\.git.*
+.*/ScriptSentry\.ps1.*
+.*/ScriptSentry\.psd1.*
+.*/ScriptSentry\.psm1.*
 .*/ScRunHex\.py.*
 .*/scshell.*
 .*/scshell\.py.*
@@ -5588,6 +5598,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\nopac\.exe.*
 .*\\NoPowerShell\..*
 .*\\ntlm\.py.*
+.*\\NTLMRelay2Self.*
 .*\\NtRights\\.*
 .*\\Nuages_Cli.*
 .*\\obfy-1\.0\.zip.*
@@ -5659,6 +5670,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\SafetyKatz.*
 .*\\samantha\.txt
 .*\\scanACLsResults\.csv.*
+.*\\ScriptSentry\.ps1.*
+.*\\ScriptSentry\.psd1.*
+.*\\ScriptSentry\.psm1.*
+.*\\ScriptSentry\.txt.*
 .*\\Seatbelt\.txt.*
 .*\\Seatbelt\\Commands\\.*
 .*\\servers\\dns_server\.py.*
@@ -5815,6 +5830,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*01_all_exploits_have_payloads_test.*
 .*0971A047-A45A-43F4-B7D8-16AC1114B524.*
 .*0ac82760-3e0d-4124-bd1c-92c8dab97171.*
+.*0B6D8B01-861E-4CAF-B1C9-6670884381DB.*
 .*0d1n .* --post .* --payloads .*
 .*0d1n --host.*
 .*0d1n.*kill_listener\.sh.*
@@ -5933,6 +5949,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*91EA50CD-E8DF-4EDF-A765-75354643BD0D.*
 .*946D24E4-201B-4D51-AF9A-3190266E0E1B.*
 .*99\$1a7F1qr2HihoXfs/56u5XMdpDZ83N6hW/HI=.*
+.*99E40E7F-00A4-4FB1-9441-B05A56C47C08.*
 .*9AC25A8825407CCB6089BC7A2DF530D1830795B7E71A981ECEE4C5F48387B37A.*
 .*9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45.*
 .*9D1B853E-58F1-4BA5-AEFC-5C221CA30E48.*
@@ -7155,6 +7172,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*C526B877-6AFF-413C-BC03-1837FB63BC22.*
 .*c708b83f-4167-4b4c-a1db-d2011ecb3200.*
 .*C73A4893-A5D1-44C8-900C-7B8850BBD2EC.*
+.*C7E4B529-6372-449A-9184-74E74E432FE8.*
+.*C8482002-F594-4C28-9C46-960B036540A8.*
 .*cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBFAHgAZQBjAHUAdABpAG8AbgBQAG8AbABpAGMAeQAgAEIAeQBwAGEAcwBzACAALQBGAGkAbABlACAAQwA6AFwAUAByAG8AZwByAGEAbQBEAGEAdABhAFwAUwBoAGUAbABsADMAZQByAC4AcABzADEA.*
 .*cache_activedirectory\.py.*
 .*cachedump\.exe.*
@@ -7947,6 +7966,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Data\\VulnerableCOM\.csv.*
 .*DataSploit.*
 .*datr=80ZzUfKqDOjwL8pauwqMjHTa.*
+.*DavRelayUp\.csproj.*
+.*DavRelayUp\.exe.*
+.*DavRelayUp\.sln.*
+.*DavRelayUp-master.*
 .*dazzleUP\.cna.*
 .*dazzleUP\.exe.*
 .*dazzleUP\.sln.*
@@ -8488,6 +8511,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*-e --enumerate google.*github.*k8s --github-only-org --k8s-get-secret-values --gcp-get-secret-values.*
 .*-e ZQBjAGgAbwAgAEcAbwBkACAAQgBsAGUAcwBzACAAWQBvAHUAIQA=.*
 .*E11DC25D-E96D-495D-8968-1BA09C95B673.*
+.*e1cd2b55-3b4f-41bd-a168-40db41e34349.*
 .*eaphammer.*
 .*eapmd5tojohn.*
 .*easinvoker\.exe.*System32.*
@@ -8992,6 +9016,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Find-4624Logons.*
 .*Find-4648Logons.*
 .*FindAdminAccessComputers.*
+.*Find-AdminLogonScripts\.ps1.*
 .*find-allvulns.*
 .*Find-AmsiAstSignatures -.*
 .*Find-AmsiPSTokenSignatures -.*
@@ -9020,6 +9045,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Find-LocalAdminAccess.*
 .*Find-LocalAdminAccess.*
 .*Find-LocalAdminAccess.*
+.*Find-LogonScriptCredentials -LogonScripts.*
+.*Find-LogonScriptCredentials\.ps1.*
 .*FindModule .*\.dll.*
 .*FindObjects-BOF.*
 .*Find-PathDLLHijack.*
@@ -9048,6 +9075,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*FindUncommonShares\.py .*
 .*FindUncommonShares-main.*
 .*finduncshar_scan.*
+.*Find-UnsafeLogonScriptPermissions\.ps1.*
+.*Find-UnsafeUNCPermissions -UNCScripts.*
+.*Find-UnsafeUNCPermissions\.ps1.*
 .*Find-UserField -SearchField .*
 .*Find-WMILocalAdminAccess.*
 .*FireBuster\.ps1.*
@@ -9354,6 +9384,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Get-DiscosdurosGet-PSDrive.*
 .*getdllbaseaddress.*
 .*get-dodgyprocesses.*
+.*Get-DomainAdmins\.ps1.*
 .*Get-DomainComputer -TrustedToAuth \| select name
 .*Get-DomainDFSShareV1.*
 .*Get-DomainDFSShareV2.*
@@ -9646,6 +9677,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*gophish\.go.*
 .*gophish/gophish.*
 .*gophish-send-mail\.py.*
+.*GoRelayServer\.dll.*
 .*gorsair -t .*
 .*go-secdump -.*
 .*go-secdump\.exe.*
@@ -10308,6 +10340,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*inline-execute .*
 .*inline-execute .*\.o.*
 .*inline-execute .*tokenprivileges\.o.*
+.*inline-execute StartWebClientSvc\.x64\.o.*
 .*inline-execute.*whereami\.x64.*
 .*inlineExecute\.nim.*
 .*InlineExecute-Assembly.*
@@ -10765,6 +10798,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Invoke-ScheduledTasksImagePermissionsCheck.*
 .*Invoke-ScheduledTasksUnquotedPathCheck.*
 .*Invoke-SCMPermissionsCheck.*
+.*Invoke-ScriptSentry.*
 .*Invoke-SCShell.*
 .*Invoke-SDCLTBypass.*
 .*Invoke-SDPropagator.*
@@ -11321,6 +11355,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Koh\.exe list.*
 .*Koh\.exe monitor.*
 .*krackattacks.*
+.*Kraken Mask by @DallasFR.*
+.*KrakenMask-main.*
 .*krb2john\.py.*
 .*krb5/kerberosv5\.py.*
 .*krb5decoder.*
@@ -12600,6 +12636,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ntlmrecon\.csv.*
 .*ntlmrecon-fromfile\.csv.*
 .*ntlmrecon-ranges\.csv.*
+.*NTLMRelay2Self\.git.*
 .*ntlmrelayx --.*
 .*ntlmrelayx\..*
 .*ntlmrelayx\.py\.log.*
@@ -12707,6 +12744,22 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*openBeaconConsole.*
 .*openBeaconConsole.*
 .*openbsd_softraid2john\.py.*
+.*OpenBullet\.csproj.*
+.*OpenBullet\.exe.*
+.*OpenBullet\.pdb.*
+.*OpenBullet\.sln.*
+.*OpenBullet\.zip.*
+.*openbullet/openbullet.*
+.*OpenBullet2\.Console\.zip.*
+.*OpenBullet2\.Native\.exe.*
+.*OpenBullet2\.Native\.zip.*
+.*OpenBullet2\.zip.*
+.*openbullet2:latest.*
+.*OpenBullet2-master.*
+.*OpenBulletApp\.cs.*
+.*OpenBulletCLI\.csproj.*
+.*OpenBulletCLI\.exe.*
+.*openbullet-master.*
 .*openBypassUACDialog.*
 .*openBypassUACDialog.*
 .*opencubicles/h8mail.*
@@ -14262,6 +14315,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*rsmudge/ElevateKit.*
 .*rsync -r .* .*@.*:.*
 .*rsync -r .*@.*:.* .*
+.*RtlDallas/KrakenMask.*
 .*RU5EVEhJU0ZJTEVUUkFOU01JU1NJT05FR1JFU1NBU1NFU1M=.*
 .*rubber_ducky\.py.*
 .*Rubeus.*currentluid.*
@@ -14514,6 +14568,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*scripthost_uac_bypass.*
 .*scripts.*Remote-WmiExecute\..*
 .*scripts.*Search-EventForUser\.ps1.*
+.*ScriptSentry-main\.zip.*
 .*ScRunBase32\.exe.*
 .*ScRunBase32\.py.*
 .*ScRunBase64\.exe.*
@@ -15121,6 +15176,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*shocknawe\.py.*
 .*Shodan\.io.*
 .*shodanp\.py.*
+.*ShorSec/DavRelayUp.*
 .*Show-TargetScreen\.ps1.*
 .*shred --remove.*
 .*shred -u.*
@@ -15775,6 +15831,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*TeamsPhisher-main\.zip.*
 .*teamviewer_passwords\..*
 .*teamviewer_passwords\.rb.*
+.*techspence/ScriptSentry.*
 .*tecknicaltom/dsniff.*
 .*Teensypreter\.ino.*
 .*telegram2john\.py.*
@@ -16326,6 +16383,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*webshell http.*/tomcatwar\.jsp\?cmd=.*
 .*webshell_execute.*
 .*weird status:.*
+.*Welcome to OpenBullet 2.*
 .*wePWNise.*
 .*werdhaihai/AtlasReaper.*
 .*werfault_shtinkering.*
@@ -16620,6 +16678,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*WriteDLLPermission\.txt.*
 .*Write-HijackDll.*
 .*Write-HijackDll.*
+.*Write-Output 127\.0\.0\.1:1111.*
 .*WritePayloadDllTransacted.*
 .*Write-PortscanOut.*
 .*Write-ServiceBinary.*
@@ -16773,6 +16832,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ZxKmz4hXp6XKmTPg9lzgYxXN4sFr2pzo.*
 .*ZXZpZGVuY2UuZmJpLmdvdg==.*
 .*zyn3rgy/LdapRelayScan.*
+.*Zzzz Zzzzz Zzzz\.\.\.\..*
 \./beef
 \./CVE-20.* -.*
 \./radare .*
