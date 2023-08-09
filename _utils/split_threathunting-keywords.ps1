@@ -1,5 +1,6 @@
 ﻿# Variables
-$csvFilePath = Join-Path $PSScriptRoot 'threathunting-keywords.csv'
+$csvFilePath = Join-Path (Join-Path $PSScriptRoot '..') 'threathunting-keywords.csv'
+
 
 # Load CSV data
 $data = Import-Csv -Path $csvFilePath
@@ -19,7 +20,8 @@ foreach ($type in $types) {
 }
 
 $keywords = $data | Select-Object -ExpandProperty keyword
-$outputFilePath = Join-Path $PSScriptRoot "only_keywords.txt"
+$outputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords.txt"
+
 $keywords | Out-File -FilePath $outputFilePath -Encoding UTF8
 
 # Add-Type method to use C#'s Regex.Escape method
@@ -47,4 +49,6 @@ $regexKeywords = foreach ($Keyword in $keywords) {
 
 # Write regex keywords to file
 $regexOutputFilePath = Join-Path $PSScriptRoot "only_keywords_regex.txt"
+$regexOutputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords_regex.txt"
+
 $regexKeywords | Out-File -FilePath $regexOutputFilePath -Encoding UTF8

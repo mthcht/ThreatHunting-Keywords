@@ -1,6 +1,8 @@
 ﻿# defining paths
-$csvFilePath = Join-Path $PSScriptRoot 'threathunting-keywords.csv'
-$releaseNotesPath = Join-Path $PSScriptRoot 'release_notes'
+$csvFilePath = Join-Path (Join-Path $PSScriptRoot '..') 'threathunting-keywords.csv'
+
+$releaseNotesPath = Join-Path (Join-Path $PSScriptRoot '..') 'release_notes'
+
 $date = Get-Date -Format "yyyyMMdd"
 $ReleaseFilePath = Join-Path $releaseNotesPath "Release_$date.csv"
 
