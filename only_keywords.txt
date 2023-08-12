@@ -96,6 +96,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * --AddUserScript --ScriptName * --ScriptContents * --GPOName *
 * --adfs-host * --krb-key * --krb-ticket *
 * ADFSpoof.py*
+* adhunt.py *
 * admin-panels.txt*
 * afp-brute.nse*
 * afp-ls.nse*
@@ -2323,6 +2324,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */AddUser-Bof/*
 */ADFSpoof.py*
 */ADFSpray*
+*/ADHunt.git*
 */ad-ldap-enum.git*
 */Admin2Sys.git*
 */admin-panels.txt*
@@ -2823,6 +2825,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */CovenantUsers/*
 */Cracked5pider/*
 */Cracked5pider/*
+*/cradle.ps1*
 */Crassus.git*
 */Crassus-main*
 */crawler.py -u http*
@@ -2968,6 +2971,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */dicom-brute.nse*
 */dicom-ping.nse*
 */dict-info.nse*
+*/DInjector.git*
 */DInvoke/*
 */DInvokeResolver/*
 */dir_brute.txt*
@@ -4319,6 +4323,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */phishing/*.html*
 */phishing/password_box*
 */PhishingServer/*
+*/pid:1337 */dll:*
 */ping6.py*
 */pitty_tiger.profile*
 */pivotnacci.git*
@@ -4360,6 +4365,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */powerglot/*
 */powerloader.py*
 */Powermad.git*
+*/power-pwn.git*
 */PowerSCCM.git*
 */PowerSharpPack.git*
 */powershell/process_injection/*
@@ -5447,6 +5453,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\Coercer.py*
 *\common_pass.txt*
 *\Cooolis-ms-Loader\*
+*\cradle.ps1*
 *\Crassus-main*
 *\creditcards.py*
 *\CredsPhish.log*
@@ -5462,6 +5469,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\Dendron.bin*
 *\Dendron.exe*
 *\Dendron.sln*
+*\DInjector.sln*
+*\DInjector\*
 *\dist\sigthief.exe*
 *\DllExport.bat*
 *\dnscan.py*
@@ -5574,6 +5583,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\macoffe.pdb*
 *\malseclogon.*
 *\MalStuff.cpp*
+*\malware_runner.py*
 *\master\GPSCoordinates\*
 *\mem_dll.pdb*
 *\mimi32.exe*
@@ -5617,6 +5627,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\PoshC2*
 *\powerglot\*
 *\Powermad*
+*\power-pwn\*
 *\powershell.exe* += hidden*
 *\powershell.exe* +=hidden*
 *\powershell.exe* = hidden*
@@ -5910,6 +5921,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *50050/SharpC2*
 *505152535657556A605A6863616C6354594883EC2865488B32488B7618488B761048AD488B30488B7E3003573C8B5C17288B741F204801FE8B541F240FB72C178D5202AD813C0757696E4575EF8B741F1C4801FE8B34AE4801F799FFD74883C4305D5F5E5B5A5958C3*
 *5067F916-9971-47D6-BBCB-85FB3982584F*
+*5086CE01-1032-4CA3-A302-6CFF2A8B64DC*
 *516280565958*
 *516280565959*
 *555662D4CCBB940D87869E6295EC7CC74BB85D8C8FC5916EC34D1226704578C5*
@@ -5996,6 +6008,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *activedirectory/pwns.go*
 *activeScan++.py*
 *AD Privesc Automation*
+*ad_dns_dump.txt*
 *ADACLScan.ps1*
 *ADACLScanner*
 *ADACLScanner-master*
@@ -6102,6 +6115,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *ADFSpray.csv*
 *adfspray.git*
 *ADFSpray.py*
+*ADHunt-main.zip*
 *adidnsdump*
 *ad-ldap-enum.py*
 *ad-ldap-enum-main*
@@ -7393,6 +7407,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *cirt-fuzzer*
 *cisco2john.pl*
 *cisco-phone-query.sh*
+*Cleanup-57BFF48E-24FB-48E9-A390-AC62ADF38B07.json*
 *clear_cmd
 *clear_command_history.py*
 *ClearEventlog.vbs*
@@ -7521,6 +7536,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *code_execution/*.dll*
 *code_execution/*.exe*
 *code_execution/*.ps1*
+*CodeExec-D37DA402-3829-492F-90D0-8EC3909514EB.json*
 *CodeLoad(shellcode)*
 *codeload.github.com/*
 *codeLoader/codeLoader.*
@@ -7759,6 +7775,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *credphisher.py*
 *cred-popper *
 *CredPrompt/CredPrompt.cna*
+*creds_hunt.exe*
 *CredsLeaker*
 *CredsPhish.ps1*
 *Credz-Plz.ps1*
@@ -7991,6 +8008,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *dbc2LoaderWrapperCLR_x86.dll*
 *DBC2-master.zip*
 *dbGetNimplant*
+*dcenum.run*
 *dchrastil*
 *--dc-ip *--check-user-access*
 *dcipher-cli*
@@ -8065,6 +8083,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *del *C:\Users\*\AppData\Roaming\AnyDesk\connection_trace.txt*
 *deleg_enum_imp*
 *Delegation/delegation.py*
+*delegation_constrained_objects.txt*
+*delegation_constrained_w_protocol_transition_objects.txt*
+*delegation_rbcd_objects.txt*
+*delegation_unconstrained_objects.txt*
 *DelegationBOF.*
 *deliver.exe -d -c * -f*.enc*
 *deliver.exe -d -f *.enc*
@@ -8096,6 +8118,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *dig * axfr *@*
 *dig *@* axfr*
 *dinjector /i:* /p:*
+*DInjector.csproj*
+*DInjector.Detonator*
+*DInjector.dll*
+*DInjector/Dinjector*
+*Dinjector-main*
 *Dionach*PassHunt*
 *dir C:\Users\*\AppData\Local\Microsoft\Credentials*
 *dir_create2system.txt*
@@ -8195,6 +8222,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *dll_inject.rb*
 *dll_spawn_cmd.cpp*
 *DLL_TO_HIJACK_WIN10*
+*DllCanUnloadNow*
 *dllexploit.*
 *DllExport -*
 *DLLHijackAuditKit*
@@ -8636,6 +8664,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *EncodeGroup/UAC-SilentClean*
 *encodeScriptPolyglot*
 *EncodeShellcode(*
+*encrypt.py *.bin -p * -o *.enc*
 *encrypt/encryptFile.go*
 *encrypt/encryptUrl.go*
 *Encrypt-Bytes*
@@ -8644,6 +8673,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *EncryptedZIP.csproj*
 *EncryptedZIP.exe*
 *EncryptShellcode(*
+*Endpoint-EE15B860-9EEC-EC11-BB3D-0022482CA4A7.json*
 *ENDTHISFILETRANSMISSIONEGRESSASSESS*
 *ENDTHISFILETRANSMISSIONEGRESSASSESS*
 *Enelg52/KittyStager*
@@ -8656,6 +8686,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *enpass5tojohn.py*
 *Enter-WmiShell *
 *Enter-WmiShell.ps1*
+*--entrypoint Dinjector*
 *enum_artifacts_list.txt*
 *enum_av_excluded.rb*
 *enum_avproducts.py*
@@ -8825,6 +8856,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *ExetoText.ps1*
 *ExfilDataToGitHub*
 *ExfilDataToGitHub*
+*Exfil-EC266392-D6BC-4F7B-A4D1-410166D30B55.json*
 *exfiltrate_via_post.exe*
 *existing_auto_target.rb*
 *exit_nimbo*
@@ -9980,6 +10012,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *http://*/FortyNorth/GetIt*
 *http://*/FortyNorth/PostIt*
 *http://*Microsoft.ActiveDirectory.Management.dll*
+*http://10.10.13.37*
 *http://127.0.0.1/CrossC2*
 *http://127.0.0.1/FUZZ*
 *http://127.0.0.1:3000/ui/panel*
@@ -11169,6 +11202,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *kalitorify*
 *kaluche/bloodhound-quickwin*
 *kancotdiq/wpaf*
+*karendm/ADHunt*
 *Karmaleon.py*
 *karmaSMB.py*
 *katoolin*toollist.py*
@@ -11188,6 +11222,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *kdstab * /STRIP*
 *kdstab * /UNLOAD*
 *kdstab.cna*
+*KeeFarceReborn.*
 *KeePass.sln*
 *keepass_common_plug.*
 *keepass_discover.py*
@@ -11915,6 +11950,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *matterpreter/Shhmon*
 *MattKeeley/Spoofy*
 *MayankPandey01/Jira-Lens*
+*mbrg/power-pwn*
 *mcafee_epo2john.py*
 *Md4-128.unverified.test-vectors.txt*
 *Md5-128.unverified.test-vectors.txt*
@@ -11975,6 +12011,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *MeteTool*
 *methodHash*528465795*
 *Metro-Holografix/CSExec*
+*Metro-Holografix/Dinjector*
 *metsrv.dll*
 *metterpreter*
 *MFASweep.ps1*
@@ -12610,6 +12647,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *nselib/data/passwords.lst*
 *ntcreatethread.x64*
 *ntcreatethread.x86*
+*NtCreateUserProcessShellcode*
 *NtdllUnpatcher.cpp*
 *NtdllUnpatcher.dll*
 *NtdllUnpatcher.lib*
@@ -12693,6 +12731,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *obfuscator.cpp*
 *obfuskittiedump*
 *objects.githubusercontent.com/github-production-release-asset-*
+*objects_constrained_delegation_full.txt*
+*objects_rbcd_delegation_full.txt*
+*objects_unconstrained_delegation_full.txt*
 *objexec *.o*
 *obscuritylabs*
 *obscuritylabs/ase:latest*
@@ -13137,6 +13178,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *phra/Pezor/*
 *phuip-fpizdam*
 *piata_ssh_userpass.txt*
+*PIC-Exec*runshellcode.asm*
+*PIC-Exec\addresshunter*
 *PIC-Get-Privileges*
 *-PID * -Assembly * -Arguments *
 *ping -n 10 localhost > nul*
@@ -13298,6 +13341,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *powerpick.py*
 *PowerPick.x64.dll*
 *Powerpreter.psm1*
+*powerpwn.powerdump*
+*powerpwn_tests*
+*power-pwn-main*
 *PowerSCCM.ps1*
 *PowerSCCM.psd1*
 *PowerSCCM.psm1*
@@ -13842,6 +13888,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Ransomware.pdb*
 *ransomware_config.py*
 *ransomware_payload.py*
+*Ransomware-E20F7CED-42AD-485E-BE4D-DE21DCE58EC0.json*
 *Rapid7*
 *rapid7.github.io/metasploit-framework/api/*
 *Rar a -v3g -k -r -s -m3 *
@@ -14402,6 +14449,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *RunasCs-master*
 *runas-netonly *
 *runasppl_check*
+*RunCleanup-77740706-9DEC-EC11-BB3D-0022482CA4A7.json*
+*RunCodeExec-75740706-9DEC-EC11-BB3D-0022482CA4A7.json*
 *run-dll SharpSploit*
 *rundll32 charlotte.dll*
 *rundll32*.dll*a*/p:*
@@ -14409,15 +14458,19 @@ Invoke-WebRequest https://tinyurl.com/ *
 *rundll32.exe agressor.dll*dec*
 *RunDLL32JSStager*
 *Run-EXEonRemote*
+*RunExfil-78740706-9DEC-EC11-BB3D-0022482CA4A7.json*
 *runFakeTerminal*
 *Running final exploit packet*
 *running SharpHound*
 *RunOF.exe -*
 *RunOF.Internals*
+*RunRansomware-76740706-9DEC-EC11-BB3D-0022482CA4A7.json*
 *runShellcode*
 *runshellcode.asm*
 *runshellcode.exe*
 *runshellcode.o*
+*RunStealCookie-8B5C57DA-F404-ED11-82E4-0022481BF843.json*
+*RunStealPowerAutomateToken-8C5C57DA-F404-ED11-82E4-0022481BF843.json*
 *RuralBishop.csproj*
 *RuralBishop.exe*
 *RuralBishop.sln*
@@ -15308,6 +15361,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *smbeagle_*_linux_amd64.zip*
 *smbeagle_*_linux_arm64.zip*
 *smbeagle_*_win_x64.zip*
+*smbenum.run*
 *SMBetray*
 *-SMBExec*
 *smbexec.py*
@@ -15657,6 +15711,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *steal_token.py*
 *steal_token_access_mask*
 *steal-cert.py*
+*StealCookie-28050355-D9DF-4CE7-BFBC-4F7DDE890C2A.json*
+*StealPowerAutomateToken-C4E7B7DA-54E4-49AB-B634-FCCD77C65025.json*
 *Sticky-Keys-Slayer*
 *StickyNotesExtract.exe*
 *stinger_client -*
@@ -16226,9 +16282,14 @@ Invoke-WebRequest https://tinyurl.com/ *
 *users\\usethis\\NewFile.txt*
 *users\public\example.bin*
 *users\public\temp.bin*
+*users_asreproast.txt*
+*users_dcsrp_full.txt*
+*users_kerberoasting.txt*
 *users_list_cme_ldap_nullsess_*
 *users_list_kerbrute_*
 *users_list_ridbrute_*
+*users_no_req_pass.txt*
+*users_no_req_pass_full.txt*
 *usestager *
 *usestager *backdoor*
 *usestager *ducky*
@@ -16553,6 +16614,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *WinShellcode-main*
 *Winsocky-main*
 *WINspect.ps1*
+*win-x64-DynamicKernelWinExecCalc*
 *wireghoul/htshells*
 *wireless/captures.py*
 *wireless/cracker.py*
@@ -16705,6 +16767,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *WytdIEluamVjdGVkIHRoZSA=*
 *-x *net group *Domain Admins* /domain*
 *x64PELoader/*.exe*
+*x64win-DynamicNoNull-WinExec-PopCalc-Shellcode*
 *x86_64-unknown-uefi*
 *x86PELoader/*.exe*
 *x86PELoader/test_agent_dll*
@@ -16838,6 +16901,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 ./radare *
 ./ScareCrow*
 .exe -t keepass -f *
+/adhunt.py
 \\demoagent_11
 \\demoagent_22
 \\DserNamePipe*
@@ -16868,6 +16932,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 \\winsock*
 \\Winsock2\CatalogChangeListener-*
 \\wkssvc_*
+\adhunt.py
 \jaccdpqnvbrrxlaf*
 \Posh*
 afrog -*

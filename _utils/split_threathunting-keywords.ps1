@@ -13,7 +13,7 @@ foreach ($type in $types) {
     $filteredData = $data | Where-Object {$_.metadata_keyword_type -eq $type}
 
     # Define output file path
-    $outputFilePath = Join-Path $PSScriptRoot "$type.csv"
+    $outputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "$type.csv"
 
     # Export filtered data to CSV
     $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
