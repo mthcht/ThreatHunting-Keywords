@@ -1,4 +1,5 @@
-﻿.* -Rhosts .* -Password .* -Directory .* -Dictionary .*
+﻿.* --copy-file --source-file .*\.docx --target-file .*\.docx --target-volume .*
+.* -Rhosts .* -Password .* -Directory .* -Dictionary .*
 .* -u .* -p .*--pass-pol.*
 .*DonutLoader\(.*
 .*empire --rest .*
@@ -2077,20 +2078,24 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\.exe NonstandardProcesses.*
 .*\.exe NTLMSettings.*
 .*\.exe OneDrive --username .* --password .* --filepath .*\\.*\.exe.*
+.*\.exe --override-file --source-file .*\.exe.*
 .*\.exe ptt /ticket:.*
 .*\.exe -ptt ticket:.*\.kirbi.*
 .*\.exe -q InterestingProcesses.*
 .*\.exe -q PowerShell.*
 .*\.exe -q WindowsDefender.*
 .*\.exe rbcd -m .* -p .* -c .*cmd\.exe.*
+.*\.exe --remove-reparse --source-file .*\.exe.*
 .*\.exe -s .* -c service_mod .*
 .*\.exe -s .*\\x.*\\x.*\\x.*
 .*\.exe s4u /ticket:.* /impersonateuser:.* /msdsspn:.* /ptt.*
 .*\.exe s4u /user:.* /impersonateuser:.* /msdsspn:.* /altservice:ldap /ptt /rc4.*
+.*\.exe --set-reparse override --source-file .*\.exe --target-file .*
 .*\.exe shadowcred -c .* -f.*
 .*\.exe -sniffer n.*
 .*\.exe -t startupfolder -c .* -a .* -f.*
 .*\.exe -t tortoisesvn -c .* -a .* -m.*
+.*\.exe -t wl-extract\.dll -d .*\.dat -r .*\.rsa -.*\.exe.*
 .*\.exe triage
 .*\.exe -uac
 .*\.exe --ui .*
@@ -2812,6 +2817,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/common/beacon\.go.*
 .*/common_pass\.txt.*
 .*/ConPtyShell/.*
+.*/ContainYourself\.git.*
 .*/CookieProcessor\.cs.*
 .*/Cooolis-ms/.*
 .*/core/browser_darwin\.go.*
@@ -2876,6 +2882,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/CS-Remote-OPs-BOF.*
 .*/cs-token-vault/.*
 .*/cube0x0/noPac.*
+.*/cuddlephish\.git.*
+.*/cuddlephish\.html.*
 .*/cups-info\.nse.*
 .*/cups-queue-info\.nse.*
 .*/curl\.cna
@@ -5182,6 +5190,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/upnp-info\.nse.*
 .*/uptime-agent-info\.nse.*
 .*/url-snarf\.nse.*
+.*/user_data/.*/keylog\.txt.*
 .*/userenum\.go.*
 .*/username-anarchy.*
 .*/UserNamespaceOverlayfsSetuidWriteExec/.*
@@ -5262,6 +5271,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/Weevely3.*
 .*/well_known_sids\.py.*
 .*/WerTrigger\.git.*
+.*/whatlicense\.git.*
 .*/WheresMyImplant/.*
 .*/WhoAmI\.task.*
 .*/whois-domain\.nse.*
@@ -5764,6 +5774,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\uTorrent\\.*
 .*\\utweb\.exe.*
 .*\\UUID_bypass\.py.*
+.*\\whatlicense-main\\.*
 .*\\WheresMyImplant.*
 .*\\while_dll_ms.*
 .*\\Windows\\Tasks\\Certipy.*
@@ -5773,6 +5784,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\Windows-Passwords\.ps1.*
 .*\\WindowsShareFinder\.cs.*
 .*\\Win-PS2EXE.*
+.*\\WiperPoc\.cpp.*
+.*\\wl_log\.txt.*
+.*\\wl-lic\.exe.*
+.*\\wl-lic\.pdb.*
 .*\\wmi_1\.dll.*
 .*\\wmi_2\.dll.*
 .*\\WritebleRegistryKeys\.txt.*
@@ -5917,6 +5932,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*4D1B765D-1287-45B1-AEDC-C4B96CF5CAA2.*
 .*4d5350c8-7f8c-47cf-8cde-c752018af17e.*
 .*4E0CA74F5E074DFF389263D15E3913750EB437C1C3CD3B212C2998352023B980.*
+.*4F2AD0E0-8C4D-45CB-97DE-CE8D4177E7BF.*
 .*4g3nt47/Striker.*
 .*50050/SharpC2.*
 .*505152535657556A605A6863616C6354594883EC2865488B32488B7618488B761048AD488B30488B7E3003573C8B5C17288B741F204801FE8B541F240FB72C178D5202AD813C0757696E4575EF8B741F1C4801FE8B34AE4801F799FFD74883C4305D5F5E5B5A5958C3.*
@@ -5933,6 +5949,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*5spider:password1234.*
 .*61CE6716-E619-483C-B535-8694F7617548.*
 .*61CE6716-E619-483C-B535-8694F7617548.*
+.*639EF517-FCFC-408E-9500-71F0DC0458DB.*
 .*-64 -format=reflective-dll .*
 .*6563686f2048656c6c6f204261636b646f6f72.*
 .*658C8B7F-3664-4A95-9572-A3E5871DFC06.*
@@ -5944,6 +5961,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*73948912-CEBD-48ED-85E2-85FCD1D4F560.*
 .*7443/new/payloads.*
 .*789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650.*
+.*79F54747-048D-4FD6-AEF4-7B098F923FD8.*
 .*7CFC52\.dll.*
 .*7CFC52CD3F\.dll.*
 .*7E9729AA-4CF2-4D0A-8183-7FB7CE7A5B1A.*
@@ -5971,6 +5989,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*A17656B2-42D1-42CD-B76D-9B60F637BCB5.*
 .*A3h1nt/gimmeSH.*
 .*A8FE1F5C-6B2A-4417-907F-4F6EDE9C15A3.*
+.*AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP39.*
 .*AAB4D641-C310-4572-A9C2-6D12593AB28E.*
 .*AAP-AddToHighPrivilegePrincipalMap.*
 .*AAP-CheckIfMemberOfPrivilegedDirectoryRole.*
@@ -6505,6 +6524,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*b4ldr/nse-scripts.*
 .*b4rtik/RedPeanut.*
 .*b4rtik/RedPeanut.*
+.*B5627919-4DFB-49C6-AC1B-C757F4B4A103.*
 .*B5A3FA5B3DA95F6AA7556EE2BC62E5D290F72453105EF88E170174994DDA2650.*
 .*B64_ENCODED_PAYLOAD_UUID.*
 .*b64encode.*\.:::-989-:::\..*
@@ -6939,6 +6959,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*brew install sniffer.*
 .*bropper\.py .*
 .*Bropper-main\.zip.*
+.*browser\.keylog_file\.write.*
 .*browser_\#\#.*
 .*browser_autopwn.*
 .*browser_autopwn.*
@@ -7249,6 +7270,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*cat > /dev/tcp/127\.0\.0\.1.*<<END.*
 .*catchetumbotifyoucan>.*
 .*catphish\.rb.*
+.*CC127443-2519-4E04-8865-A6887658CDE5.*
 .*cc2_keystrokes.*
 .*cc2_keystrokes_.*
 .*cc2_mimipenguin\..*
@@ -7326,6 +7348,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ChaitanyaHaritash/kimi.*
 .*chameleon\.py .*
 .*changepasswd\.py.*
+.*charlesnathansmith/whatlicense.*
 .*charles-proxy.*
 .*charlotte-main\.zip.*
 .*ChatLadon\.exe.*
@@ -7643,6 +7666,14 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*-consoleoutput -DomainRecon.*
 .*-consoleoutput -Localrecon.*
 .*contact_harvester.*
+.*ContainYourself\.cpp.*
+.*ContainYourself\.exe.*
+.*ContainYourself\.sln.*
+.*ContainYourself-main.*
+.*ContainYourselfPoc\.cpp.*
+.*ContainYourselfPoc\.exe.*
+.*ContainYourselfPoc\\.*
+.*ContainYourselfTempFile\.txt.*
 .*ContentHijacking\.swf.*
 .*ConvertFrom-LDAPLogonHours.*
 .*ConvertTo-LogonHoursArray.*
@@ -7878,6 +7909,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ctftool.*
 .*cube0x0/LdapSignCheck.*
 .*cube0x0/MiniDump.*
+.*cuddlephish.*stealer\.js
+.*cuddlephish-main.*
 .*curi0usJack.*
 .*curl http.*/handling-form-submission-complete/rce\.jsp.*
 .*curl --output .*http.*/tomcatwar\.jsp\?.*
@@ -8052,6 +8085,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*decryptteamviewer.*
 .*DecryptWinSCPPassword.*
 .*DeEpinGh0st/Erebus.*
+.*deepinstinct/ContainYourself.*
 .*deepsound2john\.py.*
 .*deepzec.*
 .*defanger exclusion.*
@@ -8944,6 +8978,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*f4081a8e30f75d46\.js.*
 .*F5BIG-Scanner\.py.*
 .*F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2.*
+.*FA0DAF13-5058-4382-AE07-65E44AFB5592.*
 .*Fadi002/unshackle.*
 .*Fake Computer Objects Honey Pots.*
 .*Fake Service Accounts Honey Tokens.*
@@ -9127,6 +9162,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Firesheep/.*
 .*Firewall_Walker_BOF.*
 .*fishing_with_hollowing.*
+.*fkasler/cuddlephish.*
 .*Flangvik/NetLoader.*
 .*Flangvik/SharpExfiltrate.*
 .*flashupdate\.ps1.*
@@ -10029,6 +10065,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*http://LhOsT/FiLNaMe\..*
 .*http://localhost:3000/ui/panel.*
 .*http://localhost:30662.*
+.*http://localhost:58082/broadcast\?id=.*
 .*http://localhost:7474/browser/.*
 .*http://localhost:8080.*
 .*http://localhost:9090/.*
@@ -11691,6 +11728,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ListDescriptionContainsPass.*
 .*ListDomainAdmins.*
 .*ListDomainGroupsLocalAdmin.*
+.*listen\(58082.* '0\.0\.0\.0'.*
 .*listen_http 0\.0\.0\.0 8080 .*\.php operation1.*
 .*ListMetasploitPayloads.*
 .*ListNeverLoggedInAccounts.*
@@ -12591,6 +12629,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*no_session_payload\.rb.*
 .*NoApiUser\.exe.*
 .*noclient: failed to execute %s: %s.*
+.*node stealer\.js .*
 .*NoFault\\NoFault\..*
 .*nop_shellcode\.bin.*
 .*noPac\..* -create-child.*
@@ -13884,11 +13923,15 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*randomize_sw2_seed\.py.*
 .*Ransom\.Win32\..*
 .*Ransom:Win32.*
+.*Ransomware POC tool that encrypts a given directory.*
 .*Ransomware\.dll.*
 .*Ransomware\.pdb.*
 .*ransomware_config\.py.*
 .*ransomware_payload\.py.*
 .*Ransomware-E20F7CED-42AD-485E-BE4D-DE21DCE58EC0\.json.*
+.*RansomwarePoc\.cpp.*
+.*RansomwarePoc\.exe.*
+.*RansomwarePoc\\RansomwarePoc.*
 .*Rapid7.*
 .*rapid7\.github\.io/metasploit-framework/api/.*
 .*Rar a -v3g -k -r -s -m3 .*
@@ -16477,6 +16520,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*wh0amitz/BypassCredGuard.*
 .*wh0amitz/S4UTomato.*
 .*WhatBreach.*
+.*whatlicense-main\.zip.*
 .*whereami\.cna.*
 .*whereami\.x64.*
 .*WheresMyImplant\.cs.*
@@ -16615,6 +16659,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Winsocky-main.*
 .*WINspect\.ps1.*
 .*win-x64-DynamicKernelWinExecCalc.*
+.*Wiper POC tool that wipes a given directory.*
+.*WiperPoc\.exe.*
+.*WiperPoc\\WiperPoc.*
 .*wireghoul/htshells.*
 .*wireless/captures\.py.*
 .*wireless/cracker\.py.*
@@ -16646,6 +16693,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*wkssvc_\#\#.*
 .*WLAN-Windows-Passwords-Discord-Exfiltration.*
 .*WldpBypass\.cs.*
+.*wl-lic -d .*\.dat -r .*\.rsa.*
+.*wl-lic -h HWID -m main_hash -d regkey2\.dat -r regkey2\.rsa.*
 .*wmap_crawler\.rb.*
 .*wmeye\.csproj.*
 .*wmeye\.exe .*
@@ -16744,6 +16793,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*WritePayloadDllTransacted.*
 .*Write-PortscanOut.*
 .*Write-ServiceBinary.*
+.*ws://localhost:58082.*
 .*wscript_elevator.*
 .*WScriptBypassUAC.*
 .*wsl kali-linux.*
