@@ -2268,6 +2268,11 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\.xlsx\.sfx.*
 .*\.xlsx\.vbs.*
 .*\.xp_dirtree .*\\.*
+.*kali-linux-.*\.vmdk.*
+.*kali-linux-.*\.vmx.*
+.*kali-linux-.*\.vmwarevm.*
+.*/kali-linux-2023.*
+\\kali-linux-2023.*
 .*/\#kali-installer-images.*
 .*/.*_priv_esc\..*
 .*/.*SandboxEscapes/.*
@@ -8343,6 +8348,22 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*dnsteal\.py.*
 .*dnsteal-master.*
 .*dnstracer.*
+.* --fuzzers addition.*
+.* --fuzzers bitsquatting.*
+.* --fuzzers cyrillic.*
+.* --fuzzers homoglyph.*
+.* --fuzzers hyphenation.*
+.* --fuzzers insertion.*
+.* --fuzzers omission.*
+.* --fuzzers repetition.*
+.* --fuzzers replacement.*
+.* --fuzzers subdomain.*
+.* --fuzzers vowel-swap.*
+.* --fuzzers transposition.*
+.* --fuzzers dictionary.*
+.*Mozilla/5\.0 \(.*-bit\) dnstwist.*
+.*randombob1986@.*
+.*randomalice1986@.*
 .*dnstwist.*
 .*do_attack\(.*
 .*do_bypassuac.*
@@ -12652,7 +12673,29 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*noPac\.csproj\.AssemblyReference\.cache.*
 .*noPac\.py.*
 .*noPac\.sln.*
-.*nopowershell.*
+.*NoPowerShell32\.dll.*
+.*NoPowerShell64\.dll.*
+.*NoPowerShell_trunk\.zip.*
+.*GetWhoamiCommand\.cs.*
+.*https://github\.com/bitsadmin/.*
+.*bofnet_execute\.cpp\.x86\.obj.*
+.*bofnet_execute\.cpp\.x64\.obj.*
+.*bofnet_load .*
+.*bofnet_execute .*
+.*bofnet\.cna.*
+.*BOFNET\.dll.*
+.*== NoPowerShell v.* ==.*
+.*NoPowerShell\.Commands.*
+.*\\NoPowerShell.*
+.*/NoPowerShell/.*
+.*555AD0AC-1FDB-4016-8257-170A74CB2F55.*
+.*NoPowerShell\.sln.*
+.*NoPowerShell\.dll.*
+.*nps whoami.*
+.*NoPowerShell\.exe.*
+.*NoPowerShell\.cna.*
+.*/nopowershell\.git.*
+.*bitsadmin/nopowershell.*
 .*NoPowerShell\.cna.*
 .*NoPowerShell\.dll.*
 .*nopowershell\.exe.*
@@ -12709,6 +12752,14 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ntlmquic\..*
 .*ntlmquic-go.*
 .*ntlmquic-master.*
+.*/ntlmrecon/.*\.py.*
+.*ntlmrecon:main.*
+.*TlRMTVNTUAABAAAAMpCI4gAAAAAoAAAAAAAAACgAAAAGAbEdAAAADw==.*
+.*\\ntlmutil\.py.*
+.*/ntlmutil\.py.*
+.*NTLMRecon-master.*
+.*/NTLMRecon\.git.*
+.*puzzlepeaches/NTLMRecon.*
 .*ntlmrecon .*
 .*ntlmrecon\.csv.*
 .*ntlmrecon-fromfile\.csv.*
@@ -17124,3 +17175,25 @@ uselistener http.*
 usemodule .*/.*
 usestager .*
 wapiti -.*
+.*n1k7l4i/goZulipC2.*
+.*/goZulipC2\.git.*
+.*goZulipC2-main.*
+.*goZulipC2\.go.*
+.*https://myexternalip\.com/raw.*
+.*/AntiSandbox\.go.*
+.*\\goZulipC2.*
+.*\\AntiSandbox\.go.*
+.*byt3bl33d3r/SpamChannel.*
+.*/SpamChannel\.git.*
+.*SpamChannel-main\.zip.*
+.*georgesotiriadis/Chimera.*
+.*/Chimera\.git.*
+.*Chimera-main\.zip.*
+.*\\Chimera-main\\.*
+.* chimera_automation .*\.exe.*
+.*/chimera\.py.*
+.* chimera\.py .*
+.*\\chimera\.py.*
+.*ms_teams_exports_usernev_dll\.txt.*
+.*onedrive_exports_version_dll\.txt.*
+.*\{process_to_inject}\.exe.*
