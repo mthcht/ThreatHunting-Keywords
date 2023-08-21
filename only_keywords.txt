@@ -4788,7 +4788,6 @@ Invoke-WebRequest https://tinyurl.com/ *
 */SharpUnhooker.git*
 */SharpWSUS*
 */SharPyShell*
-*/SharpZipLib.*
 */shell/password.go*
 */shell/shell_port.*
 */shell_exec.py*
@@ -10273,7 +10272,6 @@ Invoke-WebRequest https://tinyurl.com/ *
 *icmpsh-master*
 *icmpsh-s.*
 *icmptunnel*
-*ICSharpCode.SharpZipLib*
 *icyguider/LightsOut*
 *id::modify*
 *IDiagnosticProfileUAC.git*
@@ -15288,7 +15286,6 @@ Invoke-WebRequest https://tinyurl.com/ *
 *SharPyShell.py*
 *SharpZeroLogon*
 *SharpZeroLogon.exe*
-*SharpZipLib*
 *SharpZippo.exe*
 *ShawnDEvans/smbmap*
 *shell 'cmd.exe /c*
