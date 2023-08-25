@@ -17411,3 +17411,50 @@ uselistener http.*
 usemodule .*/.*
 usestager .*
 wapiti -.*
+.*nyxgeek/teamstracker.*
+.*/teamstracker\.git.*
+.*teamstracker-main.*
+.*/teamstracker\.py.*
+.* teamstracker\.py.*
+.*\\teamstracker\.py.*
+.*/teamstracker\.db.*
+.*/Reg-Restore-Persistence-Mole.*
+.*Reg-Restore-Persistence-Mole-main.*
+.*RegReeper\.sln.*
+.*RegReeper\.exe.*
+.*A7AD39B5-9BA1-48A9-B928-CA25FDD8F31F.*
+.*RegReeper\.cpp.*
+.*RegReeper\.vcxproj.*
+.*\\save_reg\.hive.*
+.*/regreeper\.jpg.*
+.*RegReeper\.7z.*
+.*/holehe\.git.*
+.*holehe-master\..*
+.* install holehe.*
+.*holehe .*@gmail\.com.*
+.*megadose@protonmail\.com.*
+.*megadose/holehe.*
+.*holehe\.core:main.*
+.*holehe\\holehe.*
+.*pornhub\.py.*
+.*from holehe\.core import.*
+.*OG-Sadpanda/SharpSword.*
+.*SharpSword-main\..*
+.*/SharpSword\.git.*
+.*SharpSword\.exe.*
+.*SharpSword\.sln.*
+.*9E357027-8AA6-4376-8146-F5AF610E14BB.*
+.*SharpSword\.csproj.*
+.*/AD_Enumeration_Hunt.*
+.*AD_Enumeration_Hunt-alperen_ugurlu_hack.*
+.*AD_Enumeration_Hunt\.ps1.*
+.*reg add HKCU\\software\\policies\\microsoft\\office\\16\.0\\excel\\security /v PythonFunctionWarnings /t REG_DWORD /d 0 /f\?.*
+.*ShorSec/DllNotificationInjection.*
+.*/DllNotificationInjection\.git.*
+.*DllNotificationInjection-master.*
+.*DllNotificationInjection\.sln.*
+.*0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF.*
+.*DllNotificationInjection\.cpp.*
+.*DllNotificationInjection\.exe.*
+.*DllNotificationInjection\.vcxproj.*
+.*ShellcodeTemplate\.x64\.bin.*
