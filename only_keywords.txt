@@ -931,6 +931,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * install chisel*
 * install github *merlin*
 * install hekatomb*
+* install holehe*
 * install nikto*
 * install wapiti3*
 * install wfuzz*
@@ -1787,6 +1788,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * --target-user * --dc-ip * -command *
 * tdotnet publish Athena *
 * teamspeak2-version.nse*
+* teamstracker.py*
 * telnet-brute.nse*
 * telnet-encryption.nse*
 * telnet-ntlm-info.nse*
@@ -1950,6 +1952,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *&& cat /etc/motd*exec -a -$(basename $SHELL) $SHELL*
 *&& telnet * 2>&1 </dev/console*
 *.*autodiscover\.json.*Powershell.*
+*...::$index_allocation*
 *../../../../../../etc/passwd*
 *../../../../../../etc/shadow*
 *./*octopus.py*
@@ -2123,6 +2126,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *.exe triage
 *.exe -uac
 *.exe --ui *
+*.exe* -d localhost * -u * -p */24*
 *.exe* -f *.bin -t queueuserapc*
 *.exe* --Filter *rule disable { condition: true }*
 *.exe* -t queueuserapc*
@@ -2131,6 +2135,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *.exe* --technique queueuserapc*
 *.exe* --technique remotethread*
 *.exe* --technique selfthread*
+*.exe* -u administrator -H :*--shares*
 *.exe*\Terminator.sys*
 *.exec*.interact.sh*
 *.feeds.123456.*
@@ -2338,6 +2343,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */acm_enum_certs_expired_*.json*
 */acm_enum_certs_info_*.json*
 */ActiveScanPlusPlus*
+*/AD_Enumeration_Hunt*
 */ADACLScanner.git*
 */adalanche/modules/*
 */adconnectdump.git*
@@ -3035,6 +3041,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */dll/inject/*
 */DllExport.bat*
 */DLL-Hijack*
+*/DllNotificationInjection.git*
 */DllProxy.git*
 */dlls/c2.c*
 */dns_grabber.*
@@ -3507,6 +3514,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */hnap-info.nse*
 */hoaxshell*
 */hoaxshell/*.py*
+*/holehe.git*
 */hollow.x64.*
 */HookDetector.exe*
 */hooks/spoof.c*
@@ -4618,6 +4626,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 */reGeorg.git*
 */RegistryPersistence.c*
 */Registry-Recon/*
+*/regreeper.jpg*
+*/Reg-Restore-Persistence-Mole*
 */regsvcs/meterpreter*
 */regsvr.cmd*
 */regsvr32/shellcode_inject*
@@ -4806,6 +4816,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */SharpSpoolTrigger*
 */SharpStay.git*
 */SharpStay/*
+*/SharpSword.git*
 */SharpSword/SharpSword*
 */SharpSystemTriggers*
 */SharpTerminator/*
@@ -5137,6 +5148,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 */teamserver-linux.tar.gz*
 */teamserver-win.zip*
 */teamspeak2-version.nse*
+*/teamstracker.db*
+*/teamstracker.git*
+*/teamstracker.py*
 */telnet_cdata_ftth_backdoor_userpass.txt*
 */telnet-brute.nse*
 */telnet-encryption.nse*
@@ -5509,6 +5523,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\beacon.exe*
 *\BeaconChannel.cs*
 *\BeaconConnector.cs*
+*\bin\cme.exe*
 *\bin\shepard\*
 *\BitTorrent.exe*
 *\Blackout.cpp*
@@ -5534,10 +5549,14 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\CIMplant.exe*
 *\CloakNDaggerC2*
 *\cloud_enum.py*
+*\cme.exe* -d * -u * -H *
+*\cme.exe* -d * -u * -p *
+*\cme.exe* --shares*
 *\codeloader.exe*
 *\Coercer.py*
 *\common_pass.txt*
 *\Cooolis-ms-Loader\*
+*\crackmapexecwin*
 *\cradle.ps1*
 *\Crassus-main*
 *\creditcards.py*
@@ -5695,6 +5714,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\NimBlackout*
 *\NimPlant.*
 *\Ninja.py*
+*\nmap.exe*/24*
 *\Nofault.exe*
 *\NoFilter.cpp*
 *\NoFilter.exe*
@@ -5783,6 +5803,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\rusthound.exe*
 *\SafetyKatz*
 *\samantha.txt
+*\save_reg.hive*
 *\scanACLsResults.csv*
 *\ScriptSentry.ps1*
 *\ScriptSentry.psd1*
@@ -5832,6 +5853,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\TakeMyRDP*
 *\TASKSHELL.EXE*
 *\teamserver-win.zip*
+*\teamstracker.py*
 *\Temp\*\ntds.dit*
 *\Temp\*\ntds.jfm*
 *\temp\dump.txt*
@@ -5953,6 +5975,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *01_all_exploits_have_payloads_test*
 *0472A393-9503-491D-B6DA-FA47CD567EDE*
 *0971A047-A45A-43F4-B7D8-16AC1114B524*
+*0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF*
 *0ac82760-3e0d-4124-bd1c-92c8dab97171*
 *0B6D8B01-861E-4CAF-B1C9-6670884381DB*
 *0d1n * --post * --payloads *
@@ -6101,11 +6124,13 @@ Invoke-WebRequest https://tinyurl.com/ *
 *9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45*
 *9D1B853E-58F1-4BA5-AEFC-5C221CA30E48*
 *9D365106-D7B8-4B5E-82CC-6D6ABCDCA2B8*
+*9E357027-8AA6-4376-8146-F5AF610E14BB*
 *9emin1/charlotte*
 *A La Vie* A L'Amour*
 *a0rtega/metame*
 *A17656B2-42D1-42CD-B76D-9B60F637BCB5*
 *A3h1nt/gimmeSH*
+*A7AD39B5-9BA1-48A9-B928-CA25FDD8F31F*
 *A8FE1F5C-6B2A-4417-907F-4F6EDE9C15A3*
 *aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.exe*
 *AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP39*
@@ -6149,6 +6174,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *activeScan++.py*
 *AD Privesc Automation*
 *ad_dns_dump.txt*
+*AD_Enumeration_Hunt.ps1*
+*AD_Enumeration_Hunt-alperen_ugurlu_hack*
 *ADACLScan.ps1*
 *ADACLScanner*
 *ADACLScanner-master*
@@ -7433,6 +7460,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *cckuailong/reapoc*
 *CCob/BOF.NET*
 *CCob/ThreadlessInject*
+*cd *.::$index_allocation*
 *cd ./whereami/*
 *cd ffuf*
 *cd inceptor*
@@ -7904,6 +7932,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *crack-allDBs-v2.py*
 *CrackMapExec*
 *crackmapexec*
+*crackmapexec.exe*
 *crackmapexec.py*
 *crackpkcs12*
 *crackTGS*
@@ -8425,6 +8454,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Dll-Loader -smb -path *
 *DllLoaderLoader.exe*
 *-DllName *-Module *
+*DllNotificationInjection.cpp*
+*DllNotificationInjection.exe*
+*DllNotificationInjection.sln*
+*DllNotificationInjection.vcxproj*
+*DllNotificationInjection-master*
 *dllproxy.py*
 *DllProxy-main*
 *dllsearcher *.dll*
@@ -9391,6 +9425,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *from burp import *
 *from burp import*
 *from Exrop import *
+*from holehe.core import*
 *from merlin import *
 *from pwn import *
 *from shellcodes import *
@@ -10145,6 +10180,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *hlldz/RefleXXion*
 *hoangprod/AndrewSpecial*
 *hoaxshell.py*
+*holehe *@gmail.com*
+*holehe.core:main*
+*holehe\holehe*
+*holehe-master.*
 *hollow *.exe *.bin*
 *hollower.Hollow(*
 *home/kali/Downloads*
@@ -12203,6 +12242,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *MayankPandey01/Jira-Lens*
 *mbrg/power-pwn*
 *mcafee_epo2john.py*
+*md *.::$index_allocation*
 *Md4-128.unverified.test-vectors.txt*
 *Md5-128.unverified.test-vectors.txt*
 *mDNSSpoofer*
@@ -12216,6 +12256,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *med0x2e/SigFlip*
 *media_variable_file_cryptography.py*
 *megacmd -conf * put *mega:*
+*megadose/holehe*
+*megadose@protonmail.com*
 *meliht/Mr.SIP*
 *Memcrashed-DDoS-Exploit*
 *memfd implant *.elf*
@@ -12986,6 +13028,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *nyxgeek*
 *nyxgeek/lyncsmash*
 *nyxgeek/ntlmscan*
+*nyxgeek/teamstracker*
 *-o  kitten.exe*
 *o_getprivs*
 *o365-Attack-Toolkit*
@@ -13036,6 +13079,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Offline_WinPwn.ps1*
 *offsecginger/koadic*
 *OG-Sadpanda/SharpCat*
+*OG-Sadpanda/SharpSword*
 *OG-Sadpanda/SharpSword*
 *OG-Sadpanda/SharpZippo*
 *Oh365UserFinder.git*
@@ -13530,6 +13574,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *poisontap*
 *pony-02.aftxt*
 *poor buffer accounting in str_netfd_alloc*
+*pornhub.py*
 *port and pasv both active*
 *port_forward_pivot.py*
 *PortBender backdoor*
@@ -14439,6 +14484,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *reg add *HKLM\System\CurrentControlSet\Control\WMI\Autologger\DefenderApiLogger* /v *Start* /t REG_DWORD /d *0* /f*
 *reg add *HKLM\System\CurrentControlSet\Services\SecurityHealthService* /v *Start* /t REG_DWORD /d *4* /f*
 *REG ADD *igfxCUIService*
+*reg add HKCU\software\policies\microsoft\office\16.0\excel\security /v PythonFunctionWarnings /t REG_DWORD /d 0 /f?*
 *reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CryptSvc\Parameters /t REG_EXPAND_SZ /v ServiceDll /d *
 *reg delete *HKLM\Software\Policies\Microsoft\Windows Defender* /f*
 *reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\RunMRU /va /f*
@@ -14468,6 +14514,12 @@ Invoke-WebRequest https://tinyurl.com/ *
 *RegistryImplant*
 *registry-read.py*
 *RegistryTinker.exe*
+*RegReeper.7z*
+*RegReeper.cpp*
+*RegReeper.exe*
+*RegReeper.sln*
+*RegReeper.vcxproj*
+*Reg-Restore-Persistence-Mole-main*
 *regsvr32.exe /s /n /u /i: * scrobj.dll*
 *regsvr32_command_delivery_server*
 *reinstall_original_pw.py*
@@ -15396,7 +15448,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *SharpStay-master*
 *Sharp-Suite.git*
 *SharpSvc.exe*
+*SharpSword.csproj*
 *SharpSword.exe*
+*SharpSword.exe*
+*SharpSword.sln*
+*SharpSword-main.*
 *SharpSystemTriggers.git*
 *SharpSystemTriggers.sln*
 *SharpSystemTriggers-main*
@@ -15502,6 +15558,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *ShellcodeRDI.py*
 *ShellcodeRDI.py*
 *shellcode-runner.py*
+*ShellcodeTemplate.x64.bin*
 *shellcodetester *
 *ShellCodeTester.csproj*
 *shellcodetester.exe*
@@ -15531,6 +15588,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Shodan.io*
 *shodanp.py*
 *ShorSec/DavRelayUp*
+*ShorSec/DllNotificationInjection*
 *Show-TargetScreen.ps1*
 *shred --remove*
 *shred -u*
@@ -16194,6 +16252,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *teamsphisher.log*
 *teamsphisher.py*
 *TeamsPhisher-main.zip*
+*teamstracker-main*
 *teamviewer_passwords.*
 *teamviewer_passwords.rb*
 *techspence/ScriptSentry*
@@ -17411,50 +17470,3 @@ uselistener http*
 usemodule */*
 usestager *
 wapiti -*
-*nyxgeek/teamstracker*
-*/teamstracker.git*
-*teamstracker-main*
-*/teamstracker.py*
-* teamstracker.py*
-*\teamstracker.py*
-*/teamstracker.db*
-*/Reg-Restore-Persistence-Mole*
-*Reg-Restore-Persistence-Mole-main*
-*RegReeper.sln*
-*RegReeper.exe*
-*A7AD39B5-9BA1-48A9-B928-CA25FDD8F31F*
-*RegReeper.cpp*
-*RegReeper.vcxproj*
-*\save_reg.hive*
-*/regreeper.jpg*
-*RegReeper.7z*
-*/holehe.git*
-*holehe-master.*
-* install holehe*
-*holehe *@gmail.com*
-*megadose@protonmail.com*
-*megadose/holehe*
-*holehe.core:main*
-*holehe\holehe*
-*pornhub.py*
-*from holehe.core import*
-*OG-Sadpanda/SharpSword*
-*SharpSword-main.*
-*/SharpSword.git*
-*SharpSword.exe*
-*SharpSword.sln*
-*9E357027-8AA6-4376-8146-F5AF610E14BB*
-*SharpSword.csproj*
-*/AD_Enumeration_Hunt*
-*AD_Enumeration_Hunt-alperen_ugurlu_hack*
-*AD_Enumeration_Hunt.ps1*
-*reg add HKCU\software\policies\microsoft\office\16.0\excel\security /v PythonFunctionWarnings /t REG_DWORD /d 0 /f?*
-*ShorSec/DllNotificationInjection*
-*/DllNotificationInjection.git*
-*DllNotificationInjection-master*
-*DllNotificationInjection.sln*
-*0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF*
-*DllNotificationInjection.cpp*
-*DllNotificationInjection.exe*
-*DllNotificationInjection.vcxproj*
-*ShellcodeTemplate.x64.bin*
