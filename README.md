@@ -11,6 +11,7 @@
   - [raw logs](#hunt-all-the-keywords-in-raw-logs-)
   - [specific fields](#hunt-the-keywords-in-other-fields--urlprocesscommandlinequery)
   - [speed](#speed)
+  - [dashboard example](#dashboard-example)
 - [Hunt without a SIEM](#dfir-hunt-for-keywords-in-files-no-siem)
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
 - [Website](#quick-datatable-to-search-for-keyword-can-be-improved-open-to-suggestions)
