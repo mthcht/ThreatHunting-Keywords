@@ -3,7 +3,6 @@
 * -u * -p *--pass-pol*
 *DonutLoader(*
 *empire --rest *
-*reg save hklm\system *.dat*
 get-delegation *
 Invoke-WebRequest https://tinyurl.com/ *
 *  --cve=* --command*
@@ -312,6 +311,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 * --collectallproperties*
 * --CollectionMethod All *ldap*
 * --CollectionMethod All *--ZipFileName *.zip*
+* -CollectionMethod All*loggedon*
+* -CollectionMethod LoggedOn -Verbose*
 * -CollectionMethod stealth*
 * --collectionmethods ACL*
 * --collectionmethods ComputerOnly*
@@ -1147,6 +1148,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * -M scuffy*
 * -M shadowcoerce *
 * -M shellcode_inject*
+* -m SimpleHTTPServer *
 * -M slinky
 * -M spider_plus *
 * -M teams_localdb *
@@ -1294,6 +1296,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * --ntlm-proxy-ip * --ntlm-proxy-port *
 * ntlmrecon*
 * NTLMv1 captured *
+* --nt-offsets *.csv*
 * ntp-info.nse*
 * ntp-monlist.nse*
 * nuages.formatImplantLastSeen*
@@ -2999,6 +3002,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */dcsync_*.txt
 */DeathStar/DeathStar.py*
 */deb.parrot.sh/*
+*/DebugAmsi.git*
 */decrypt-chrome-passwords*
 */defanger.go*
 */DefaultCreds_db.json*
@@ -4075,6 +4079,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */mitmAP*
 */mmouse-brute.nse*
 */mmouse-exec.nse*
+*/Mockingjay_BOF.git*
 */modbus-discover.nse*
 */Models/PowerShellLauncher.*
 */Models/Regsvr32Launcher.*
@@ -4674,6 +4679,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */responder/Responder.conf *
 */Responder/Responder.conf*
 */Responder-master.zip*
+*/returnvar/wce/*
 */rev_shell.py*
 */reverse-index.nse*
 */reverse-shell-generator*
@@ -4807,6 +4813,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */sh_executor/*.go*
 */s-h-3-l-l/*
 */ShadowForgeC2*
+*/share/windows-resources/wce*
 */share_enum.py*
 */ShareFinder.cs*
 */shares-with-SCF.txt*
@@ -5354,6 +5361,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 */wapitiCore/*
 */wapiti-scanner/*
 */Watson.exe*
+*/wce32.exe*
+*/wce64.exe*
+*/wce-beta.zip*
 */wdb-version.nse*
 */WdToggle.c*
 */WdToggle.h*
@@ -5726,6 +5736,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\mem_dll.pdb*
 *\mimi32.exe*
 *\mimi64.exe*
+*\Mockingjay_BOF.*
 *\modifiableautorun.o*
 *\monkey.exe *
 *\monkey32.exe*
@@ -5752,6 +5763,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\NoPowerShell*
 *\NoPowerShell.*
 *\ntdlll-unhooking-collection*
+*\ntdlol.txt*
 *\ntlm.py*
 *\NTLMRelay2Self*
 *\ntlmutil.py*
@@ -5919,6 +5931,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\uTorrent\*
 *\utweb.exe*
 *\UUID_bypass.py*
+*\wce32.exe*
+*\wce64.exe*
+*\wce-beta.zip*
 *\whatlicense-main\*
 *\WheresMyImplant*
 *\while_dll_ms*
@@ -6002,6 +6017,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *00_create_all_modules_test*
 *01_all_exploits_have_payloads_test*
 *0472A393-9503-491D-B6DA-FA47CD567EDE*
+*04DFB6E4-809E-4C35-88A1-2CC5F1EBFEBD*
 *0971A047-A45A-43F4-B7D8-16AC1114B524*
 *0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF*
 *0ac82760-3e0d-4124-bd1c-92c8dab97171*
@@ -6077,6 +6093,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *365-Stealer-master*
 *36EBF9AA-2F37-4F1D-A2F1-F2A45DEEAF21*
 *36F9C306-5F45-4946-A259-610C05BD90DF*
+*375D8508-F60D-4E24-9DF6-1E591D2FA474*
+*3A2FCB56-01A3-41B3-BDAA-B25F45784B23*
 *3bb553cd-0a48-402d-9812-8daff60ac628*
 *3C601672-7389-42B2-B5C9-059846E1DA88*
 *3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84*
@@ -6122,12 +6140,14 @@ Invoke-WebRequest https://tinyurl.com/ *
 *6e7645c4-32c5-4fe3-aabf-e94c2f4370e7*
 *7.exe a -mx3 ad.7z ad_*.txt*
 *70527328-DCEC-4BA7-9958-B5BC3E48CE99*
+*713724C3-2367-49FA-B03F-AB4B336FB405*
 *73948912-CEBD-48ED-85E2-85FCD1D4F560*
 *7443/new/payloads*
 *789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650*
 *79F54747-048D-4FD6-AEF4-7B098F923FD8*
 *7CFC52.dll*
 *7CFC52CD3F.dll*
+*7E3E2ECE-D1EB-43C6-8C83-B52B7571954B*
 *7E9729AA-4CF2-4D0A-8183-7FB7CE7A5B1A*
 *7H0LmBxFtXBPd0/3vHe7Z3dmdrPZmTzp3ZldQrJ5LOGxeZ*
 *7L0LgBxFtTDc093TPe/dntnM7G6Sncm*
@@ -6482,6 +6502,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *applocker-enumerator*
 *apt install crunch*
 *apt install set -y*
+*apt install wce*
 *APT stands for Advanced Persistence Tomato*
 *apt* install john*
 *apt/etumbot.py*
@@ -7457,12 +7478,18 @@ Invoke-WebRequest https://tinyurl.com/ *
 *cargo install glit*
 *carlospolop/PurplePanda*
 *cat *.atftp_history*
+*cat *.atftp_history*
+*cat *.bash_history*
 *cat *.bash_history*
 *cat *.bin | base64 -w 0 > *.txt*
 *cat *.mysql_history*
+*cat *.mysql_history*
+*cat *.nano_history*
 *cat *.nano_history*
 *cat *.ntds
 *cat *.php_history*
+*cat *.php_history*
+*cat *.zsh_history*
 *cat *.zsh_history*
 *cat *bash-history*
 *cat ./apache-tomcat-8.5.77/webapps/ROOT/tomcatwar.jsp
@@ -7919,6 +7946,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *copy *\legit.sys *Windows\System32\Drivers\*.sys*
 *copy *\NTDS\ntds.dit *\Temp\*.tmp*
 *copy *NTDS\NTDS.dit*Temp*
+*copy *sam.hive \\*
+*copy *system.hive \\*
 *copy \*\HarddiskVolumeShadowCopy1\windows\system32\config\sam C:\*
 *copy \*\HarddiskVolumeShadowCopy1\windows\system32\config\system C:\*
 *CopyAndPasteEnum.bat*
@@ -8290,6 +8319,12 @@ Invoke-WebRequest https://tinyurl.com/ *
 *dd if=/dev/zero*
 *DE7B9E6B-F73B-4573-A4C7-D314B528CFCB*
 *deb.torproject.org/torproject.org/*.asc*
+*DebugAmsi.exe*
+*DebugAmsi.sln*
+*DebugAmsi.vcxproj*
+*DebugAmsi-main*
+*DebugAmsix64.exe*
+*DebugAmsix86.exe*
 *debugfs /dev/*
 *decoder-it/LocalPotato*
 *Decode-RoutingPacket*
@@ -9045,6 +9080,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *EvtMuteHook.sln*
 *EvtMute-master*
 *EVUAC *.exe*
+*ewby/Mockingjay_BOF*
 *ewok -t *
 *example-bof.sln*
 *examples/netview.py*
@@ -9258,6 +9294,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *fee -c */* -w 64 | *
 *Fertiliser.exe \\*
 *ff_osx_extension-dropper*
+*FFA0FDDE-BE70-49E4-97DE-753304EF1113*
 *ffuf *-input-cmd*
 *ffuf *-u http*
 *ffuf -c *
@@ -9312,6 +9349,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *find / -perm -g=s
 *find / -perm -u=s
 *find / -perm -u=s -type f 2>/dev/null*
+*find / -perm -u=s -type f -group */dev/null*
 *find / -uid 0 -perm -4000 -type f *
 *find / -user root -perm -6000 -type f 2>*
 *find /* -perm -04000 -o -perm -02000*
@@ -9661,6 +9699,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *GetC2Server*
 *Get-CachedGPPPassword*
 *Get-CachedRDPConnection*
+*getcap -r / 2>*
 *getcap -r / 2>/dev/null*
 *Get-ChromeBookmarks*
 *Get-ChromeDump*
@@ -10437,6 +10476,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *hydra * mysql://*
 *hydra * ssh://*
 *hydra * telnet://*
+*hydra smtp-enum*
 *hydra.c*
 *hydra:x:10001:*
 *HYDRA_PROXY_HTTP*
@@ -10593,6 +10633,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *import PyInstaller*
 *import pypykatz*
 *import ShadowForgeHome*
+*import SimpleHTTPServer*
 *import Stager*
 *import udmp_parser*
 *import wapiti*
@@ -11584,6 +11625,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *kerberos-ldap-password-hunter.sh*
 *kerberosv5.py*
 *kerbrute -*
+*kerbrute userenum *
 *kerbrute*bruteforce*
 *kerbrute.go*
 *kerbrute/cmd*
@@ -12480,6 +12522,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Mobile-Security-Framework*
 *MockDirUACBypass*
 *MockDirUACBypassDll*
+*Mockingjay_BOF.sln*
+*Mockingjay_BOF-main*
 *mod_auth_remote.phish.htaccess*
 *mod_buster.py*
 *mod_caucho.shell.htaccess*
@@ -12687,6 +12731,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *mythic-cli*athena*
 *MythicClient.cs*
 *mythic-docker*
+*MzHmO/DebugAmsi*
 *MzHmO/Privileger*
 *MzHmO/TGSThief*
 *n00py/LAPSDumper*
@@ -12752,6 +12797,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *NBNSBruteForceTarget*
 *nbnsspoof.py*
 *NBNSSpoofer*
+*nbtscan -r */24*
 *nc * -e /bin/bash*
 *nc 127.0.0.1 4000*
 *nc -l -p * -e *.bat*
@@ -12860,6 +12906,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *netshrun.dll*
 *netsniff-ng*
 *netstat -ano*
+*netstat -ant*
 *NETSTAT.EXE* -ano*
 *nettitude/ETWHash*
 *netuser_enum*
@@ -13056,6 +13103,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *ntlmscan-master.zip*
 *ntlmv1.py*
 *ntlmv1_check*
+*NtoskrnlOffsets.csv*
 *ntrights.exe*
 *NtUserMNDragOverExploit*
 *NtWa1tF0rS1ngle0bj3ct Executed*
@@ -14205,6 +14253,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *pystinger_for_darkshadow*
 *python 3 st teamserver *
 *python -m orbitaldump *
+*python -m SimpleHTTPServer*
 *python noPac.*
 *python scshell*
 *python st.py*
@@ -14558,8 +14607,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *reg save hklm\sam *.dat*
 *reg save hklm\sam 1337*
 *reg save HKLM\SAM c:*
+*reg save hklm\sam sam*
+*reg save hklm\system *.dat*
 *reg save hklm\system 1337*
 *reg save HKLM\SYSTEM c:*
+*reg save hklm\system system*
 *reg.exe save HKLM\SAM sam_*
 *reg.exe save hklm\sam*
 *reg.exe save HKLM\SECURITY security_*
@@ -15228,6 +15280,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *seth.py * -j INJECT*
 *Seth-master.zip*
 *sET-ItEM ( 'V'+'aR' +  'IA' + 'blE:1q2'  + 'uZx'*
+*Set-ItemProperty *\excel\security*pythonfunctionwarnings*0*
 *set-killdate *
 *Set-Killdate*
 *setLoaderFlagZero*
@@ -15705,6 +15758,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *SilverPoision/Rock-ON*
 *SimoneLazzaris/ditty*
 *simple_dropper.ninja*
+*SimpleHTTPServer.SimpleHTTPRequestHandler*
 *simplekeylogger.*
 *SimplyEmail.py*
 *SimplyEmail-master*
@@ -15851,6 +15905,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *snmp_default_pass.txt*
 *snmp-check * -c public*
 *snmpwalk  -v1 -cpublic *
+*snmpwalk * public *1.3.6.1.*
+*snmpwalk -c public -v1 *
 *snmpwn *passwords.txt*
 *snmpwn.rb* --hosts *
 *socat *
@@ -16868,6 +16924,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *WazeHell/sam-the-admin*
 *wbadmin DELETE SYSTEMSTATEBACKUP -deleteOldest*
 *wbadmin DELETE SYSTEMSTATEBACKUP*
+*wce -i 3e5 -s *
+*wce*getlsasrvaddr.exe*
+*wce-master.zip*
+*wce-universal.exe*
 *wcfrelayserver.py*
 *wcfrelayserver.py*
 *WCMCredentials.txt*
@@ -16875,6 +16935,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *wdigest!g_IsCredGuardEnabled*
 *wdigest/decryptor.py*
 *--wdigest-offsets *.csv *
+*WdigestOffsets.csv*
 *We had a woodoo*
 *we.exe -s rssocks -d *
 *weak1337/Alcatraz*
