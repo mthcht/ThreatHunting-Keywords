@@ -554,6 +554,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * -exec-shellcode *
 * execute *NT AUTHORITY\SYSTEM*cmd /c *
 * execute NT AUTHORITY\SYSTEM* cmd true bypass*
+* --execution false --save True --output *.bin*
 * exe-selfdelete*
 * Exfil.sh*
 * exfiltrate.exe*
@@ -710,6 +711,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 * -hasbootstraphint *
 * -hashes * -spn * -impersonate *
 * -hashes lm:nt -gpo-id * -powershell *
+* hashview.py*
+* hashview-agent *
 * havoc-client*
 * hbase-master-info.nse*
 * hbase-region-info.nse*
@@ -947,8 +950,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 * invoke query *FROM SMS_Admin*
 * invoke_sessiongopher*
 * invoke_vnc*
+* --ip * --port * --type cmd --language *
 * -ip * -smb2support *lwpshare* 
 * -IP * -SpooferIP * -HTTP N*
+* --ip * --variable shellcode *
 * ip-forwarding.nse*
 * ip-geolocation-geoplugin.nse*
 * ip-geolocation-ipinfodb.nse*
@@ -1016,6 +1021,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * kalilinux/kali-rolling*
 * kdbof.cpp*
 * keepass /unprotect*
+* KeeTheft.exe*
 * kerberoast *
 * kerberoast *
 * kerberoast /spn:*
@@ -1976,11 +1982,13 @@ Invoke-WebRequest https://tinyurl.com/ *
 *./Exfil.sh*
 *./exploit /etc/passwd 1 *cat /etc/passwd*
 *./exploit /etc/passwd 1 ootz:*
+*./fake-sms*
 *./fee.py*
 *./gcr.py*
 *./getExploit*
 *./gimmeSH*
 *./go-secdump*
+*./hashview/*
 *./Havoc
 *./havoc *
 *./hoaxshell*
@@ -2417,6 +2425,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */amsi.py*
 */Amsi_Bypass_In_2023*
 */AMSI_patch.git*
+*/Amsi-Killer.git*
 */AmsiOpenSession.exe*
 */Analyzer-Session.log*
 */AndrewSpecial.git*
@@ -2454,6 +2463,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 */Apollo/Agent/*
 */ApolloInterop.*
 */ApolloInterop/*
+*/apollon-all-x64*
+*/apollon-main.zip*
+*/apollon-selective-x64*
 */ApolloTest.exe
 */aquasecurity/cloudsploit*
 */Ares.git
@@ -2566,6 +2578,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */BIFFRecordEncryption.cs*
 */bin/0d1n*
 */bin/AceLdr*
+*/bin/fake-sms*
 */bin/gorsair *
 */bin/hakrawler*
 */bin/posh*
@@ -2959,6 +2972,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 */daap-get-library.nse*
 */DAMP.git*
 */DanMcInerney/ridenum*
+*/daphne.git*
+*/daphne-x64*
 */darkarmour.git*
 */DarkCoderSc/*
 */darkexe.py*
@@ -3243,6 +3258,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */fake.html
 */FakeCmdLine*
 */fakelogonscreen*
+*/fake-sms.git*
 */Farmer.git*
 */fastfuz-chrome-ext*
 */fb_firstlast.7z*
@@ -3487,6 +3503,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */hashcat*
 */hashdump_dc*
 */Hashi0x/*
+*/hashview.py*
 */havex.profile*
 */Havoc.cpp*
 */Havoc.qss*
@@ -3835,6 +3852,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */KDStab.*
 */KDStab/*
 */keepass_discover_*.txt*
+*/KeeThief.git*
 */kerberoast.*
 */kerberoast.c*
 */kerberoast.c*
@@ -4023,6 +4041,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 */meterpreter/reverse_tcp*
 */MFASweep.git*
 */michaelweber/Macrome*
+*/micr0%20shell.py*
+*/micr0_shell.git*
 */MicroBurst.git*
 */mikrotik-routeros-brute.nse*
 */mimi32.exe*
@@ -4477,6 +4497,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */PrivExchange.git*
 */PrivFu.git*
 */PrivilegeEscalation/*
+*/Privileger.git*
 */PrivKit.git*
 */PrivKit/*
 */proberbyte.go*
@@ -4810,6 +4831,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */SharpRDP.git*
 */SharpRDPHijack*
 */SharpShares/Enums*
+*/SharpShellPipe.git*
 */SharpSocks*
 */SharpSploit*
 */SharpSploit/*
@@ -5459,8 +5481,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *?sample_sliver.json*
 *[-] failed to spawn shell: %s*
 *[-] kernel not vulnerable*
+*[-] Seems like we killed auditd. Ooopsie :D*
 *[+] Adding your DLL to the LSA Security Packages registry key*
 *[+] Attempting to call the target EXE from the mock directory*
+*[+] auditd patched successfully*
 *[+] Back to C&C Console*
 *[+] Creating mock directories*
 *[+] Enumerating driver services...*
@@ -5486,6 +5510,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\\\\127.0.0.1\\pipe\\warpzone8*
 *\\127.0.0.1\c$*
 *\\c$\Windows\Temp\*.dmp*
+*\\DCSC_stdInPipe*
+*\\DCSC_stdOutPipe*
 *\\GetWebDAVStatus.exe*
 *\\pipe\\DAV RPC SERVICE*
 *\1.Encrypt_shellcode*
@@ -5638,6 +5664,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\Hades.exe*
 *\hades.exe*
 *\hades-main.zip*
+*\hashview.py*
 *\HiddenDesktop\*
 *\hijackers\*
 *\HijackHunter\*
@@ -5667,6 +5694,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\JuicyPotatoNG*
 *\JunctionFolder.csproj*
 *\kdstab.exe*
+*\KeeTheft.exe*
 *\kerberoast.c*
 *\KernelTokens.sys*
 *\Keylogger.txt*
@@ -6056,6 +6084,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *3snake-master*
 *4.5.6.7:1337*
 *40056/service-endpoint*
+*43BB3C30-39D7-4B6B-972E-1E2B94D4D53A*
 *443D8CBF-899C-4C22-B4F6-B7AC202D4E37*
 *497CA37F-506C-46CD-9B8D-F9BB0DA34B95*
 *4D1B765D-1287-45B1-AEDC-C4B96CF5CAA2*
@@ -6392,12 +6421,17 @@ Invoke-WebRequest https://tinyurl.com/ *
 *amass-get-rootdomains*
 *amass-get-subdomains*
 *AMS1-Patch.exe*
+*AMSI patched in all powershells*
 *AMSI_Bypass.ps1*
 *AMSI_bypass_20*.ps1
 *AMSI_patch-main*
 *Amsi-Bypass*
 *amsi-bypass*
 *AmsiBypass.cs*
+*Amsi-Killer.exe*
+*Amsi-Killer.sln*
+*Amsi-Killer.vcxproj*
+*Amsi-Killer-master*
 *AmsiOpenSession.cpp*
 *AmsiOpenSession.sln*
 *AmsiOpenSession.vcxproj*
@@ -7740,6 +7774,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 *codeLoader/codeLoader.*
 *codewatchorg/bypasswaf*
 *codewatchorg/sqlipy*
+*codewhitesec/apollon*
+*codewhitesec/daphne*
 *Coercer coerce*
 *Coercer fuzz*
 *Coercer scan*
@@ -8175,8 +8211,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *DanMcInerney/icebreaker*
 *DanMcInerney/net-creds*
 *DanMcInerney/theHarvester*
+*daphne-main.zip*
+*daphne-x64 * pid=*
 *darkarmour.py*
 *darkarmour-master*
+*DarkCoderSc/SharpShellPipe*
 *darkhotel backdoor*
 *DarkHotel C2*
 *darkhotel data exfil server*
@@ -8584,6 +8623,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *dome.py *
 *DominicBreuker*
 *donapapi -pvk *
+*DoNotUseThisPassword123!*
 *donpapi -credz *
 *DonPAPI.py *
 *donpapi_dump*
@@ -8761,6 +8801,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *E09F4899-D8B3-4282-9E3A-B20EE9A3D463*
 *E11DC25D-E96D-495D-8968-1BA09C95B673*
 *e1cd2b55-3b4f-41bd-a168-40db41e34349*
+*E2E64E89-8ACE-4AA1-9340-8E987F5F142F*
 *E991E6A7-31EA-42E3-A471-90F0090E3AFD*
 *eaphammer*
 *eapmd5tojohn*
@@ -9194,6 +9235,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *FakeLogonScreen.sln*
 *fakepath31337*
 *FakePPID.*
+*fake-sms-main*
 *farmer.exe *\windows\temp*
 *farmer.exe 8888 60*
 *Farmer\Farmer.csproj*
@@ -10086,6 +10128,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *HashDumpSAMImplant*
 *hasherezade/exe_to_dll*
 *-hashes* --escalate-user*
+*hashview*@*localhost*
+*hashview/config.conf*
+*hashview/hashview*
+*hashview-agent.*.tgz*
+*hashview-agent.py*
 *HasSPNNoPreauth*
 *hatlord/snmpwn*
 *havoc client*
@@ -11500,9 +11547,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *KeePassConfig.ps1*
 *-KeePassConfigTrigger*
 *keepass-password-dumper*
+*KeeTheft/Dinvoke*
 *KeeThief*
 *KeeThief.*
 *KeeThief.ps1*
+*KeeThiefSyscalls*
 *keethief-syscalls*
 *kerberoast /*
 *kerberoast /*
@@ -12319,6 +12368,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *mgeeky/RedWarden*
 *mhaskar/Octopus*
 *micahvandeusen/gMSADumper*
+*micr0 shell.py*
+*micr0_shell-main*
+*micr0shell.py *
 *microbrownys.strangled.net*
 *MicroBurst.psm1*
 *MicroBurst-Az.psm1*
@@ -12635,6 +12687,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *mythic-cli*athena*
 *MythicClient.cs*
 *mythic-docker*
+*MzHmO/Privileger*
 *MzHmO/TGSThief*
 *n00py/LAPSDumper*
 *n00py/Slackor*
@@ -12690,6 +12743,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *nanorobeus86*
 *nanorobeus-main*
 *nanorubeus.*
+*Narasimha1997/fake-sms*
 *NativeEasyHook32.dll*
 *NativeEasyHook64.dll*
 *NBNSBruteForceHost*
@@ -13843,6 +13897,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *PrivilegeEscalation_ExploitationForPrivilegeEscalation_SweetPotato.py*
 *PrivilegeEscalation_ExploitationForPrivilegeEscalation_Windows.py*
 *PrivilegeEscalation_ProcessInjection_Getsystem.py*
+*Privileger.cpp*
+*Privileger.exe*
+*Privileger-main.*
+*Privilegerx64.exe*
+*Privilegerx86.exe*
 *PrivKit32*
 *PrivKit-main*
 *Probable-Wordlists*
@@ -14655,6 +14714,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *RobustPentestMacro*
 *ROCAVulnerabilityTester*
 *rockyou.txt.gz*
+*rockyou.txt.gz*
 *rockyou-30000.*
 *RogueOxidResolver.cpp*
 *RoguePotato.cpp*
@@ -15073,6 +15133,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *sensepost/wiresocks*
 *sensitive_files_win.txt*
 *Sensitivelocalfiles.txt*
+*senzee1984/micr0_shell*
 *seriously_nothing_shady_here*
 *serve_ps1_payload*
 *Server enforces NLA; switching to 'fake server' mode*
@@ -15415,6 +15476,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *SharpSecDump.exe*
 *sharpsecretsdump*
 *SharpShares.exe*
+*SharpShellPipe.exe*
+*SharpShellPipe.sln*
+*SharpShellPipe-main*
 *SharpShooter*
 *SharpShot.exe /*
 *Sharp-SMBExec.exe*
@@ -16114,6 +16178,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Sublist3r*
 *Suborner.exe*
 *Suborner-master.zip*
+*Successfully connected, spawning shell�*
 *Successfully cracked account password*
 *Successfully dumped SAM and SYSTEM*
 *sudo bloodhound*
@@ -17112,7 +17177,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *wordlist-probable.txt*
 *wordlists*rmg.txt*
 *wordlists*rmiscout.txt*
+*wordlists/dynamic-all.txt*
 *wordlists/fasttrack.txt*
+*wordlists/rockyou.txt'*
 *wordlists/subdomains-5000.txt*
 *wordlists/top1million.txt*
 *WorldWind Stealer.zip*
@@ -17266,6 +17333,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *zerologon_check*
 *ZeroLogon-BOF*
 *ZeroLogonScanner.*
+*ZeroMemoryEx/Amsi-Killer*
 *ZeroMemoryEx/Blackout*
 *zerosum0x0*
 *zerosum0x0*koadic*
