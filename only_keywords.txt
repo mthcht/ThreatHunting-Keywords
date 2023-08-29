@@ -364,6 +364,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * --custom-steal onedrive*
 * --custom-steal onenote*
 * --custom-steal outlook*
+* CVE-2023-38831-RaRCE*
 * cvs-brute.nse*
 * cvs-brute-repository.nse*
 * -d * -n * -m reverse*=
@@ -936,6 +937,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * install github *merlin*
 * install hekatomb*
 * install holehe*
+* install krbjack*
 * install nikto*
 * install wapiti3*
 * install wfuzz*
@@ -1047,6 +1049,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * klist * /service:*
 * knx-gateway-discover.nse*
 * knx-gateway-info.nse*
+* KRB hijacking module *
 * krb5-enum-users.nse*
 * --krbpass *--krbsalt*
 * KRBUACBypass*
@@ -1252,6 +1255,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * netbus-version.nse*
 * --netcat-port *
 * netripper*
+* netscan.exe *
 * --NewCertPath *.pfx --NewCertPassword *
 * NewLocalAdmin(*
 * nexpose-brute.nse*
@@ -1458,6 +1462,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * rai-attack-http*
 * --random_user_agent*
 * --random-agent *
+* rarce.py*
 * rasman.exe*
 * -ratel *
 * RCE.py -*
@@ -1784,6 +1789,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 * -Target * -Shellcode *
 * --target=* --payload=*cmd.exe /c*
 * -target-domain * -outputfile * -no-pass*
+* --target-name * --domain * --dc-ip * --executable *.exe*
 * targets-asn.nse*
 * targets-ipv6-map4to6.nse*
 * targets-ipv6-multicast-echo.nse*
@@ -2070,11 +2076,13 @@ Invoke-WebRequest https://tinyurl.com/ *
 *.exe  --b64 --path * --args 
 *.exe  certificates /pvk:*.pvk*
 *.exe  -group=remote -computername=*
+*.exe * /hide * /range:* /auto:*.*
 *.exe * -eventlog *Key Management Service*
 *.exe * --source Persistence*
 *.exe *-searchforest*-pwdlastset*
 *.exe /disableLSAProtection*
 *.exe /method:create /taskname:* /trigger:* /modifier:* /program:* /argument:*.dll /remoteserver:*
+*.exe /wakeall*
 *.exe action=GetScheduledTaskCOMHandler*
 *.exe action=ListRunningServices*
 *.exe action=ListScheduledTasks*
@@ -2336,6 +2344,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */0xthirteen/StayKit*
 */1mxml/CVE-2022-23131*
 */365-Stealer.git*
+*/3DESEncryptor.go*
 */3snake.git*
 */4luc4rdr5290/CVE-2022-0847*
 */78dc91f1A716DBBAA9E4E12C884C1CB1C27FFF2BEEED7DF1*
@@ -2376,6 +2385,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */ad-ldap-enum.git*
 */Admin2Sys.git*
 */admin-panels.txt*
+*/ADRecon*
 */ADSearch.git*
 */aerosol.py*
 */afp-brute.nse*
@@ -2509,6 +2519,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */attacks/*.py
 */AttackServers/*
 */AttackSurfaceMapper.git*
+*/Augustus.git*
 */auth/cc2_auth.*
 */auth-owners.nse*
 */auth-spoof.nse*
@@ -2885,6 +2896,8 @@ Invoke-WebRequest https://tinyurl.com/ *
 */CovenantUsers/*
 */Cracked5pider/*
 */Cracked5pider/*
+*/cracklord.git*
+*/cracklord/cmd/*
 */cradle.ps1*
 */Crassus.git*
 */Crassus-main*
@@ -2964,6 +2977,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */CVE-2022-26809-RCE*
 */CVE-2023-*.git*
 */CVE-2023-34362.git*
+*/CVE-2023-38831-RaRCE*
 */cvs-brute.nse*
 */cvs-brute-repository.nse*
 */CWoNaJLBo/VTNeWw11212/*
@@ -3235,6 +3249,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */ExcelDocWriter.cs*
 */exchanger.py*
 */exe_to_dll.git*
+*/exe2powershell*
 */exec_bin.c*
 */exec_dll.c*
 */exec_psexec*
@@ -3896,6 +3911,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */KrakenMask.git*
 */krb5/*.py
 */krb5-enum-users.nse*
+*/krbjack.git*
 */KrbRelay*
 */krbrelayx*
 */KRBUACBypass*
@@ -4191,6 +4207,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 */NetLoader.git*
 */netntlm.pl*
 */netscan.exe*
+*/netscan.exe*
+*/netscan_linux.tar.gz*
+*/netscan_portable.zip*
+*/netscan_setup.exe*
 */netshrun.c*
 */netsparker.rb*
 */netstat_windows.go*
@@ -4533,7 +4553,14 @@ Invoke-WebRequest https://tinyurl.com/ *
 */psexec.json*
 */psnuffle*
 */PSpersist.git*
+*/pspy -*
+*/pspy.git*
+*/pspy.go*
+*/pspy/cmd*
+*/pspy32*
+*/pspy64*
 */PSRansom -*
+*/psscanner.go*
 */PSSW100AVB*
 */pswRecovery4Moz.txt*
 */ptunnel-ng*
@@ -4604,6 +4631,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */rakjong/mimikatz_bypassAV/*
 */ramnit.profile*
 */random-robbie/cve-2022-23131-exp*
+*/rarce.py*
 */rasman.exe*
 */RasmanPotato*
 */Rat_Generator*
@@ -4817,6 +4845,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */share_enum.py*
 */ShareFinder.cs*
 */shares-with-SCF.txt*
+*/SharpBlackout.git*
 */SharpC2*
 */SharpCalendar/*.*
 */SharpCat/*
@@ -5367,6 +5396,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 */wdb-version.nse*
 */WdToggle.c*
 */WdToggle.h*
+*/weakpass.git*
 */Web/decouverte.txt*
 */Web/discovery.txt*
 */web/pwn.html*
@@ -5747,8 +5777,13 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\net*\ftpagent.exe*
 *\NetLoader.exe*
 *\netscan.exe*
+*\netscan.exe*
 *\netscan.lic*
 *\netscan.xml*
+*\netscan_linux.tar.gz*
+*\netscan_portable.zip*
+*\netscan_portable\*
+*\netscan_setup.exe*
 *\NewPhish.ps1*
 *\NimBlackout*
 *\NimPlant.*
@@ -5819,6 +5854,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *\py2exe*
 *\Quasar.v*.zip*
 *\Quasar-master*
+*\rarce.py*
 *\rasman.exe*
 *\RasmanPotato*
 *\RDPCredsStealerDLL*
@@ -6018,6 +6054,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *01_all_exploits_have_payloads_test*
 *0472A393-9503-491D-B6DA-FA47CD567EDE*
 *04DFB6E4-809E-4C35-88A1-2CC5F1EBFEBD*
+*07DFC5AA-5B1F-4CCC-A3D3-816ECCBB6CB6*
 *0971A047-A45A-43F4-B7D8-16AC1114B524*
 *0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF*
 *0ac82760-3e0d-4124-bd1c-92c8dab97171*
@@ -6340,7 +6377,6 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Admin2Sys-main*
 *Adminisme/ServerScan/*
 *adobe_top100_pass.txt*
-*ADRecon*
 *ADRecon.ps1*
 *adsearch* --domain-admins*
 *adsearch.exe*
@@ -6426,6 +6462,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *All_SubdomainTOP_Seclist.txt*
 *AllowDelegationUsers.txt*
 *AllowDelegationUsers_samaccountnames_only.txt*
+*almandin/krbjack*
 *ALPC-TaskSched-LPE*
 *ALPC-TaskSched-LPE.*
 *Alphabug_CS*
@@ -6644,6 +6681,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *AttifyOS*
 *attrib +s +h desktop.ini*
 *Auditcleaner.*
+*Augustus-main.zip*
 *ausecwa/bof-registry*
 *auth/cc2_ssh.*
 *auto_brute.rc*
@@ -7995,6 +8033,9 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Crack-allDBs-main*
 *crack-allDBs-v1.py*
 *crack-allDBs-v2.py*
+*cracklord-master.*
+*cracklord-queued*_amd64.deb*
+*cracklord-resourced*_amd64.deb*
 *CrackMapExec*
 *crackmapexec*
 *crackmapexec.exe*
@@ -8536,6 +8577,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *dllproxy.py*
 *DllProxy-main*
 *dllsearcher *.dll*
+*dmcxblue/SharpBlackout*
 *dmFsaWRfdXNlckBjb250b3NvLmNvbTpQYXNzd29yZDE*
 *dmg2john.py*
 *DNet-EnumerateAllDomainUserAccounts*
@@ -8657,6 +8699,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *domcachedump.py*
 *dome.py *
 *DominicBreuker*
+*DominicBreuker/pspy*
 *donapapi -pvk *
 *DoNotUseThisPassword123!*
 *donpapi -credz *
@@ -9096,6 +9139,11 @@ Invoke-WebRequest https://tinyurl.com/ *
 *exe_to_dll_*_32bit.zip*
 *exe_to_dll_*_64bit.zip*
 *exe_to_dll-master*
+*exe2bat.cpp*
+*exe2bat.exe*
+*exe2powershell.cpp*
+*exe2powershell.exe*
+*exe2powershell-master*
 *exec /bin/sh 0</dev/tcp/*/*1>&0 2>&0*
 *exec 5<>/dev/tcp/*/**cat <&5 | while read line* do $line 2>&5 >&5* done*
 *exec CMD=/bin/sh -f elf -o *.elf*
@@ -9508,6 +9556,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *from holehe.core import*
 *from merlin import *
 *from pwn import *
+*from rarce import exploit*
 *from shellcodes import *
 *from wapitiCore.*
 *frpc.exe -c frpc.in*
@@ -9938,6 +9987,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *github.com/rasta-mouse/*
 *github.com/sensepost*
 *github.com/SpiderLabs/*
+*github.io/weakpass/generator/*
 *GithubC2-main*
 *gitleaks detect*
 *gitleaks*
@@ -10411,6 +10461,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *httprelayserver.py*
 *http-request-smuggler-all.jar*
 *https://*.sendspace.com/upload*
+*https://*.use.devtunnels.ms*
 *https://*/.htaccess?c=cmd*
 *https://*/.htaccess?c=uname -a*
 *https://*Microsoft.ActiveDirectory.Management.dll*
@@ -10426,6 +10477,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *https://bashupload.com*
 *https://crackstation.net/*
 *https://cyseclabs.com/exploits/*
+*https://dnsdumpster.com/*
 *https://download.advanced-ip-scanner.com/download/files/*.exe*
 *https://ffuf.io.fi*
 *https://ffuf.io/FUZZ*
@@ -11462,6 +11514,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *jfjallid/go-secdump*
 *JGillam/burp-co2*
 *Jira-Lens.py*
+*jmmcatee/cracklord*
 *JMousqueton/PoC-CVE-2022-30190*
 *jndi_injection.rb*
 *JNDI-Injection-Exploit*
@@ -11510,6 +11563,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *JPCERTCC*
 *jpillora/chisel*
 *jquery-c2.*.profile*
+*js-cracker-client/cracker.js*
 *JScriptStager*
 *jtee43gt-6543-2iur-9422-83r5w27hgzaq*
 *juicycreds_dump*
@@ -11758,6 +11812,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *krb5-enum-users *
 *krb5-enum-users.*
 *krbcredccache.py*
+*krbjack -*
+*krbjack.tcpforward*
+*krbjacker.py*
+*krbjack-main*
 *KrbRelay*misc*
 *KrbRelay*smb*
 *KrbRelay*spoofing*
@@ -12898,6 +12956,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *netpass.zip*
 *netpass_x64.exe*
 *netpass-x64.zip*
+*netscan.exe /*
 *netscan_setup.exe*
 *NetSh Advfirewall set allprofiles state off*
 *netsh interface portproxy add v4tov4*listenaddress=* listenport=*connectaddress=*connectport*
@@ -13617,6 +13676,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *ping-sweep*
 *PinoyWH1Z/AoratosWin*
 *PinoyWH1Z/AoratosWin*
+*pip install rarce*
 *pip install --user fee
 *pip3 install -U pacu*
 *'pipename_stager'*
@@ -14101,6 +14161,14 @@ Invoke-WebRequest https://tinyurl.com/ *
 *PSObfucate.py*
 *Pspersist-main*
 *PSprofile.cpp*
+*pspy*psscanner
+*pspy32 -*
+*pspy64 -*
+*pspy-build:latest*
+*pspy-development:latest*
+*pspy-example:latest*
+*pspy-master*
+*pspy-testing:latest*
 *PSRansom.ps1*
 *PSRecon*
 *psreflect *
@@ -14253,6 +14321,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *pystinger_for_darkshadow*
 *python 3 st teamserver *
 *python -m orbitaldump *
+*python -m rarce *
 *python -m SimpleHTTPServer*
 *python noPac.*
 *python scshell*
@@ -14342,6 +14411,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *Rar a -v3g -k -r -s -m3 *
 *rar2john *
 *rar2john.*
+*rarce *.pdf *.rar*
+*rarce *.rar*
+*rarce-1.0.0.tar.gz*
+*rarce-1.0.0-py3-none-any.whl*
 *rasman*whoami*
 *RasMan.cpp*
 *RasMan.sln*
@@ -15343,6 +15416,12 @@ Invoke-WebRequest https://tinyurl.com/ *
 *SharpAllowedToAct.exe*
 *sharpapplocker*
 *SharpAppLocker.exe*
+*SharpBlackout* -p *
+*SharpBlackOut.csproj*
+*SharpBlackout.exe*
+*SharpBlackOut.pdb*
+*SharpBlackOut.sln*
+*SharpBlackout-main*
 *SharpBlock -*
 *SharpBlock.csproj*
 *SharpBlock.exe*
@@ -16391,6 +16470,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *templates*HIPS_LIPS_processes.txt*
 *templates*reflective_assembly_minified.ps1*
 *tenable.com/downloads/nessus*
+*Terminating Windows Defender�*
 *test.endpoint.rapid7.com*
 *test_beef_debugs_spec*
 *test_ccache_fromKirbi*
@@ -16598,6 +16678,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *--tor-proxy*--pwndb*
 *TorPylle*
 *TorServiceSetup*
+*totally legit pdf.pdf*
 *toteslegit.ps1*
 *touch -a*
 *touch -m*
@@ -16658,6 +16739,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *tshark -r *
 *tshark*.deb*
 *tspkg/decryptor.py*
+*TunnelGRE/Augustus*
 *turn_keylogger*
 *TVqQAAMAAAAEAAAA*
 *TVqQAAMAAAAEAAAA*
@@ -16939,6 +17021,10 @@ Invoke-WebRequest https://tinyurl.com/ *
 *We had a woodoo*
 *we.exe -s rssocks -d *
 *weak1337/Alcatraz*
+*weakpass.com/crack-js*
+*weakpass.com/generate*
+*weakpass/crack-js*
+*weakpass-main.*
 *web_cloner/interceptor*
 *WebBrowserPassView.exe*
 *WebBrowserPassView.zip*
@@ -17419,6 +17505,7 @@ Invoke-WebRequest https://tinyurl.com/ *
 *ZxKmz4hXp6XKmTPg9lzgYxXN4sFr2pzo*
 *ZXZpZGVuY2UuZmJpLmdvdg==*
 *zyn3rgy/LdapRelayScan*
+*zzzteph/weakpass*
 *Zzzz Zzzzz Zzzz....*
 ./beef
 ./CVE-20* -*
