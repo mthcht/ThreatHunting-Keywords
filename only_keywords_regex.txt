@@ -4,7 +4,6 @@
 .*DonutLoader\(.*
 .*empire --rest .*
 get-delegation .*
-Invoke-WebRequest https://tinyurl\.com/ .*
 .*  --cve=.* --command.*
 .*  --GPOName .* --FilterEnabled --TargetDnsName .*
 .*  --list=hidden-options.*
@@ -509,7 +508,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .* dumper\.ps1.*
 .* --dump-gmsa.*
 .* --dump-laps.*
+.* --dumpmode network --network raw --ip .* --port .*
+.* --dumpmode network --network smb .*
 .* --dump-name .*lsass.*
+.* --dumpname lsass\.dmp.*
 .* duplicates\.nse.*
 .* -e bat com vbs ps1 psd1 psm1 pem key rsa pub reg txt cfg conf config .*
 .* -e pfx p12 pkcs12 pem key crt cer csr jks keystore key keys der .*
@@ -1040,6 +1042,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .* kerberos kirbi parse .*
 .* kerberos spnroast .*
 .* kerberos\.py.*
+.* --key PPLBlade.*
 .* keylogger .*
 .* --keyword .* --check --ocr .* --alexa.*
 .* -KillDate .*
@@ -1187,6 +1190,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .* mmouse-brute\.nse.*
 .* mmouse-exec\.nse.*
 .* modbus-discover\.nse.*
+.* --mode decrypt --dumpname .*\.dmp --key .*
+.* --mode dump --name .*\.exe --handle procexp --obfuscate.*
+.* --mode dump --name lsass\.exe.*
 .* --mode proxy --ghidra .*--dll .*
 .* mongodb-brute\.nse.*
 .* mongodb-databases\.nse.*
@@ -3018,6 +3024,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/deb\.parrot\.sh/.*
 .*/DebugAmsi\.git.*
 .*/decrypt-chrome-passwords.*
+.*/decrypted\.dmp.*
 .*/defanger\.go.*
 .*/DefaultCreds_db\.json.*
 .*/defender-exclusions/.*defender.*
@@ -3072,6 +3079,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/distcc-cve2004-2687\.nse.*
 .*/distopia-test.*
 .*/dll/inject/.*
+.*/dllexploit\.cpp.*
+.*/dllexploit\.exe.*
 .*/DllExport\.bat.*
 .*/DLL-Hijack.*
 .*/DllNotificationInjection\.git.*
@@ -3248,6 +3257,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/Example_Payload_Type/.*
 .*/ExcelDocWriter\.cs.*
 .*/exchanger\.py.*
+.*/exe_to_dll\.git.*
 .*/exe_to_dll\.git.*
 .*/exe2powershell.*
 .*/exec_bin\.c.*
@@ -3713,6 +3723,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/http-xssed\.nse.*
 .*/huan\.exe .*
 .*/HuanLoader/.*
+.*/hyperion\.exe.*
+.*/Hypnos\.git.*
 .*/hypobrychium\.git.*
 .*/iam__backdoor_users_password.*
 .*/iam__bruteforce_permissions/.*
@@ -4412,6 +4424,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/pe/dll.*
 .*/PE/InjectPE\.cs.*
 .*/pe_to_shellcode.*
+.*/pe2shc\.exe.*
 .*/pe2shc/.*
 .*/PEASS-ng\.git.*
 .*/PEASS-ng/.*
@@ -4457,6 +4470,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/pkg/state/sudoers\.go.*
 .*/PKINITtools.*
 .*/PoC/PrivilegeEscalation.*
+.*/POC_DLL\.vcxproj.*
 .*/PoC-CVE-2023-21554.*
 .*/poisoners/.*\.py
 .*/pop3-brute\.nse.*
@@ -4502,6 +4516,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/PPEnum/.*
 .*/ppl/ppl\.c.*
 .*/ppl_dump\..*
+.*/PPLBlade\.git.*
 .*/ppldump\..*
 .*/PPLDump_BOF/.*
 .*/PPLFault/.*
@@ -4637,6 +4652,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/Rat_Generator.*
 .*/ratankba\.profile.*
 .*/RationalLove\.c
+.*/raw/kali/main/.*
+.*/raw/kali/master/.*
 .*/raw_shellcode_size\.txt.*
 .*/rawrpc\.py.*
 .*/RC4BinaryEncryption\.cs.*
@@ -4761,6 +4778,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/RunasCs\.git.*
 .*/RunasCs\.git.*
 .*/RunasCs\.zip.*
+.*/RunAsWinTcb\.git.*
+.*/RunAsWinTcb\.iml.*
 .*/runcalc\.dll.*
 .*/rundll32\.cmd.*
 .*/rundll32_js.*
@@ -4863,6 +4882,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/SharpGmailC2\.git.*
 .*/SharpHandler\.py.*
 .*/SharpHide\.git.*
+.*/SharpLDAP\.git.*
 .*/SharpNoPSExec.*
 .*/SharpRDP\.git.*
 .*/SharpRDPHijack.*
@@ -5171,6 +5191,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/suspendresume\.x86.*
 .*/svn-brute\.nse.*
 .*/SweetPotato_CS.*
+.*/Synergy-httpx\.git.*
 .*/syscalls/syscalls_windows\.go.*
 .*/syscalls/syswhispers/.*
 .*/syscalls/syswhispersv2.*
@@ -5209,6 +5230,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/teamstracker\.db.*
 .*/teamstracker\.git.*
 .*/teamstracker\.py.*
+.*/TelegramRAT\.git.*
 .*/telnet_cdata_ftth_backdoor_userpass\.txt.*
 .*/telnet-brute\.nse.*
 .*/telnet-encryption\.nse.*
@@ -5441,6 +5463,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*/windows-login-phish.*
 .*/windows-lpe-template.*
 .*/Windows-Passwords\.ps1.*
+.*/windows-resources/hyperion.*
 .*/WindowsVault\.cna.*
 .*/WindowsVault\.h.*
 .*/win-enum-resources.*
@@ -5527,6 +5550,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\[\+] auditd patched successfully.*
 .*\[\+] Back to C&C Console.*
 .*\[\+] Creating mock directories.*
+.*\[\+] Deobfuscated dump saved in file decrypted\.dmp.*
 .*\[\+] Enumerating driver services\.\.\..*
 .*\[\+] Keylogger started.*
 .*\[\+] Keylogger stopped.*
@@ -5634,6 +5658,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\D1rkInject\\.*
 .*\\darkexe\.py.*
 .*\\DarkLoadLibrary\..*
+.*\\decrypted\.dmp.*
 .*\\DelegationBOF\..*
 .*\\demiguise\.py.*
 .*\\Dendrobate\\.*
@@ -5643,6 +5668,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\DInjector\.sln.*
 .*\\DInjector\\.*
 .*\\dist\\sigthief\.exe.*
+.*\\dllexploit\.cpp.*
+.*\\dllexploit\.exe.*
 .*\\DllExport\.bat.*
 .*\\dnscan\.py.*
 .*\\DoHC2\.cs.*
@@ -5676,6 +5703,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\EvilClippy.*
 .*\\evilclippy\.cs.*
 .*\\EvilnoVNC.*
+.*\\exe_to_dll\\.*
 .*\\exfiltrate\.exe.*
 .*\\ExternalC2\\.*
 .*\\FakeCmdLine.*
@@ -5713,6 +5741,11 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\HookDetector\.exe.*
 .*\\HostEnum\.ps1.*
 .*\\huan\.exe .*
+.*\\hyperion\.exe.*
+.*\\Hypnos\.exe.*
+.*\\Hypnos\.sln.*
+.*\\Hypnos\.vcxproj.*
+.*\\Hypnos-main\\.*
 .*\\icebreaker\.py.*
 .*\\IDiagnosticProfileUAC.*
 .*\\iis_controller\.py.*
@@ -5821,6 +5854,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\PipeViewer\.sln.*
 .*\\PipeViewer\\Program\.cs.*
 .*\\PoC\\PrivilegeEscalation.*
+.*\\POC_DLL\.vcxproj.*
 .*\\portbender\..*
 .*\\PoshC2.*
 .*\\powerglot\\.*
@@ -5836,6 +5870,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*\\PowerView\.ps1.*
 .*\\PowerView3\..*
 .*\\ppl_dump\..*
+.*\\PPLBlade-main.*
 .*\\PPLFault.*
 .*\\PPLKiller.*
 .*\\PrivEditor\\.*
@@ -6126,6 +6161,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*2john\.lua.*
 .*2john\.pl.*
 .*2john\.py.*
+.*33BF8AA2-18DE-4ED9-9613-A4118CBFC32A.*
 .*365-Stealer\.py.*
 .*365-Stealer-master.*
 .*36EBF9AA-2F37-4F1D-A2F1-F2A45DEEAF21.*
@@ -6199,6 +6235,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*881D4D67-46DD-4F40-A813-C9D3C8BE0965.*
 .*881D4D67-46DD-4F40-A813-C9D3C8BE0965.*
 .*894a784e-e04c-483c-a762-b6c03e744d0b.*
+.*90F6244A-5EEE-4A7A-8C75-FA6A52DF34D3.*
 .*913d774e5cf0bfad4adfa900997f7a1a.*
 .*913d774e5cf0bfad4adfa900997f7a1a.*
 .*91EA50CD-E8DF-4EDF-A765-75354643BD0D.*
@@ -6538,6 +6575,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*applocker_enum.*
 .*applocker-enumerator.*
 .*apt install crunch.*
+.*apt install hyperion.*
 .*apt install set -y.*
 .*apt install wce.*
 .*APT stands for Advanced Persistence Tomato.*
@@ -7501,6 +7539,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Cannot enumerate antivirus.*
 .*capcom_sys_exec.*
 .*capcom_sys_exec\.x64\.dll.*
+.*CaptainNox/Hypnos.*
 .*captcha-killer\..*\.jar.*
 .*CapturedCredential\.cs.*
 .*CapturedCredential\.exe.*
@@ -7670,6 +7709,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*choco install .* common\.fireeye.*
 .*chocobo_root\.c
 .*chocolate\.kirbi.*
+.*Choosing DLL to hijack\..*
 .*chown root %s  chmod 4755 %s  %s.*
 .*chown root:root /tmp/\.scsi/dev/bin/.*
 .*chrismaddalena/SharpCloud.*
@@ -8194,6 +8234,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*cuddlephish.*stealer\.js
 .*cuddlephish-main.*
 .*curi0usJack.*
+.*curl --connect-timeout 3\.14 -s ifconfig\.me.*
 .*curl http.*/handling-form-submission-complete/rce\.jsp.*
 .*curl --output .*http.*/tomcatwar\.jsp\?.*
 .*curl -sk 'https://.*/tmui/login\.jsp/\.\. /tmui/util/getTabSet\.jsp\?tabId=Vulnerable.*
@@ -8262,6 +8303,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*D1rkInject\.sln.*
 .*D1rkInject\.vcxproj.*
 .*D1rkInject-main.*
+.*D210570B-F1A0-4B66-9301-F7A54978C178.*
 .*d2h5aXNwZW5uc3RhdGVzb2JhZGF0Zm9vdGJhbGw.*
 .*d2hvYW1p.*
 .*d3ckx1/Crack-allDBs.*
@@ -8434,6 +8476,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*details-c80a6994018b23dc\.js.*
 .*detect ntdll\.dll.*
 .*detect-hooksx64\..*
+.*devtunnel create .*
+.*devtunnel host -p .*
+.*devtunnel\.exe .*
 .*dfscoerce\.py.*
 .*dfscoerce_check.*
 .*DFSCoerce-main.*
@@ -8721,6 +8766,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*donut-shellcode.*
 .*donut-shellcode.*
 .*dos-over-tor.*
+.*dothatlsassthing.*
 .*dotnet \./Server\.dll.*
 .*dotnet inline-execute .*
 .*dotnet Inveigh\.dll.*
@@ -9136,8 +9182,11 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*exe_dll_shellcode genetic\.config.*
 .*exe_stager\.exe.*
 .*exe_to_dll\.exe.*
+.*exe_to_dll\.exe.*
+.*exe_to_dll_.*\.zip.*
 .*exe_to_dll_.*_32bit\.zip.*
 .*exe_to_dll_.*_64bit\.zip.*
+.*exe_to_dll-master.*
 .*exe_to_dll-master.*
 .*exe2bat\.cpp.*
 .*exe2bat\.exe.*
@@ -10216,6 +10265,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*HashDumpDCImplant.*
 .*HashDumpSAMImplant.*
 .*hasherezade/exe_to_dll.*
+.*hasherezade/exe_to_dll.*
 .*-hashes.* --escalate-user.*
 .*hashview.*@.*localhost.*
 .*hashview/config\.conf.*
@@ -10474,6 +10524,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*https://api\.anonfiles\.com/upload.*
 .*https://api\.dropboxapi\.com/.*
 .*https://api\.hunter\.io/.*
+.*https://api\.telegram\.org/bot.*/sendMessage.*
 .*https://bashupload\.com.*
 .*https://crackstation\.net/.*
 .*https://cyseclabs\.com/exploits/.*
@@ -10484,12 +10535,15 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*https://file\.io/.*
 .*https://file\.io/\?title=.*
 .*https://github\.com/bitsadmin/.*
+.*https://gitlab\.com/kalilinux/.*
 .*https://hunter\.io/.*
 .*https://ipv4\.myip\.wtf/text.*
 .*https://kali\.download/.*
 .*https://localhost:7443/.*
 .*https://myexternalip\.com/raw.*
 .*https://pastebin\.com/raw/fevFJe98.*
+.*https://t\.me/BotFather.*
+.*https://t\.me/machine1337.*
 .*https://temp\.sh/.*/.*
 .*https://temp\.sh/upload.*
 .*https://tempsend\.com/.*
@@ -10533,6 +10587,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*hydra:x:10001:.*
 .*HYDRA_PROXY_HTTP.*
 .*hydra-cobaltstrike.*
+.*Hyperion PE-Crypter.*
+.*hyperion\.exe .*
+.*hyperion_2\.0\.orig\.tar\.gz.*
+.*Hypnos-main\.zip.*
 .*hypobrychium\.exe.*
 .*hypobrychium-main.*
 .*i2pinstall.*
@@ -11425,6 +11483,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*Invoke-watson.*
 .*Invoke-WCMDump.*
 .*Invoke-WCMDump.*
+.*Invoke-WebRequest https://tinyurl\.com/.*
 .*Invoke-WebRequest ifconfig\.me/ip.*Content\.Trim\(\)
 .*Invoke-WebRev\.ps1.*
 .*Invoke-Whisker.*
@@ -12298,6 +12357,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*macchanger -r .*
 .*macchanger -r.*
 .*MaceTrap\.exe.*
+.*machine1337/TelegramRAT.*
 .*macro_pack.*
 .*MacroDetectSandbox\.vbs.*
 .*MacroExploit\.txt.*
@@ -12432,6 +12492,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*merlinserver_windows_x64\.exe.*
 .*merlinServer-Linux.*
 .*merlinServerLog\.txt.*
+.*mertdas/SharpLDAP.*
 .*mertdas/SharpTerminator.*
 .*MessageBox\.Show.*Pwned.*
 .*messagebox_reflective\.dll.*
@@ -13727,6 +13788,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*poc\.zsh.*
 .*POC_CloudFilter_ArbitraryFile_EoP.*
 .*POC_CloudFilter_ArbitraryFile_EoP\..*
+.*POC_DLL\.dll.*
 .*POC1.*implant\.cpp.*
 .*POC2.*implant\.cpp.*
 .*podalirius@protonmail\.com.*
@@ -13927,6 +13989,9 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*ppl.* --elevate-handle .*\.dmp.*
 .*ppl_dump\.x64.*
 .*ppl_medic_dll\..*
+.*PPLBlade\.dmp.*
+.*PPLBlade\.exe.*
+.*PPLBlade-main\..*
 .*ppldump .*
 .*PPLdump.*
 .*PPLdump\.exe.*
@@ -14987,6 +15052,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*RunasCs-master.*
 .*runas-netonly .*
 .*runasppl_check.*
+.*RunAsWinTcb\.exe.*
+.*RunAsWinTcb-master.*
 .*RunCleanup-77740706-9DEC-EC11-BB3D-0022482CA4A7\.json.*
 .*RunCodeExec-75740706-9DEC-EC11-BB3D-0022482CA4A7\.json.*
 .*run-dll SharpSploit.*
@@ -15567,6 +15634,10 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*SharpLAPS\..*
 .*SharpLAPS\.exe.*
 .*SharpLAPS-main.*
+.*SharpLDAP\.csproj.*
+.*SharpLDAP\.exe.*
+.*SharpLDAP\.sln.*
+.*SharpLDAP-main.*
 .*SharpLdapRelayScan.*
 .*SharpLdapRelayScan.*
 .*SharpMapExec\.exe.*
@@ -16359,6 +16430,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*SwitchPriv\.exe.*
 .*SxNade/Rudrastra.*
 .*sync-starkiller.*
+.*synergy_httpx\.py.*
+.*Synergy-httpx-main.*
 .*syscall .* out of bounds.*
 .*syscall not permitted:.*
 .*syscall validate failed:.*
@@ -16403,6 +16476,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*-t .* -x lfr -f /etc/passwd.*
 .*-t .* -x rce -a list\+auth\+user\+admin.*
 .*T0XlCv1\.rule.*
+.*t3l3machus/Synergy-httpx.*
 .*TailorScan\.exe .*
 .*TailorScan_darwin.*
 .*TailorScan_freebsd.*
@@ -16435,6 +16509,8 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*tasklist /fi .*Imagename eq lsass\.exe.* \| find .*lsass.*
 .*TaskShell\.exe .* -b .*\.exe.*
 .*TaskShell\.exe .* -s .*SYSTEM.*
+.*tastypepperoni/PPLBlade.*
+.*tastypepperoni/RunAsWinTcb.*
 .*tcp://0\.tcp\.ngrok\.io:.*
 .*tcpClient\.connectTCP\(.*127\.0\.0\.1.*1337.*
 .*tcpdump .*
@@ -16459,6 +16535,7 @@ Invoke-WebRequest https://tinyurl\.com/ .*
 .*tecknicaltom/dsniff.*
 .*Teensypreter\.ino.*
 .*telegram2john\.py.*
+.*TelegramRAT-main.*
 .*telnet .* \| /bin/bash \| telnet .*
 .*temp.*\\pp\.exe.*
 .*temp.*KillDefender.*
