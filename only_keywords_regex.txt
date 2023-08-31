@@ -543,6 +543,7 @@ get-delegation .*
 .* etumbot\.py.*
 .* EtwHash.*
 .* -eval .*caplets\.update.* ui\.update.*
+.* EventViewer-UACBypass.*
 .* evil\.corp .*
 .* EvilClippyManager.*
 .* evilginx.*
@@ -2111,6 +2112,7 @@ get-delegation .*
 .*\.exe computername=.* command=.* username=.* password=.* exec=cmd.*
 .*\.exe create /payload.* /kb.*
 .*\.exe -d .* -u .* -p .* -m LDAPS.*
+.*\.exe -d 3 -c .*powershell -ep bypass.*
 .*\.exe dump /luid:0x5379f2 /nowrap.*
 .*\.exe -gettgs -luid:.*
 .*\.exe gmsainfo --sid .*
@@ -2616,6 +2618,8 @@ get-delegation .*
 .*/bin/wapiti.*
 .*/bind_powershell\.rb.*
 .*/bin-sploits/.*\.zip.*
+.*/BITB\.git.*
+.*/BITB-main.*
 .*/bitcoin-getaddr\.nse.*
 .*/bitcoin-info\.nse.*
 .*/bitcoinrpc-info\.nse.*
@@ -3242,6 +3246,7 @@ get-delegation .*
 .*/evasion_windows\.go.*
 .*/EventViewerUAC/.*
 .*/EventViewerUAC/.*
+.*/EventViewer-UACBypass.*
 .*/evil\.cpp.*
 .*/evil\.dll.*
 .*/evil_pdf/.*
@@ -4529,6 +4534,7 @@ get-delegation .*
 .*/printerbug\.py.*
 .*/PrintMonitorDll\..*
 .*/PrintMonitorDll/.*
+.*/PrintSpoofer\.git.*
 .*/PrintSpoofer/.*
 .*/Priv_Esc\.sh.*
 .*/privesc/.*
@@ -5615,6 +5621,7 @@ get-delegation .*
 .*\\BeaconConnector\.cs.*
 .*\\bin\\cme\.exe.*
 .*\\bin\\shepard\\.*
+.*\\BITB-main.*
 .*\\BitTorrent\.exe.*
 .*\\Blackout\.cpp.*
 .*\\Blackout\.exe.*
@@ -5697,6 +5704,7 @@ get-delegation .*
 .*\\enc_shellcode\.h.*
 .*\\ES\.Alan\.Core.*
 .*\\ETWHash\..*
+.*\\EventViewer-UACBypass.*
 .*\\evil\.dll.*
 .*\\evil\.dll.*
 .*\\evil_pdf\\.*
@@ -6009,6 +6017,7 @@ get-delegation .*
 .*\\WheresMyImplant.*
 .*\\while_dll_ms.*
 .*\\Windows\\Tasks\\Certipy.*
+.*\\Windows\\Tasks\\p4yl0ad.*
 .*\\Windows\\Temp\\creds\.db.*
 .*\\windows\\temp\\ncat\.exe -nv .*
 .*\\windows\\temp\\pwned\.trx.*
@@ -6816,6 +6825,7 @@ get-delegation .*
 .*b64payloadgen\.sh.*
 .*b64stager.*
 .*B651A53C-FAE6-482E-A590-CA3B48B7F384.*
+.*B67143DE-321D-4034-AC1D-C6BB2D98563F.*
 .*Backdoor LNK.*
 .*Backdoor\..*
 .*backdoor\.asp.*
@@ -7095,6 +7105,7 @@ get-delegation .*
 .*binderlabs/DirCreate2System.*
 .*binwalk.*
 .*BishopFox/sliver.*
+.*bitb_server/phishing\.ini.*
 .*bitcoin2john\.py.*
 .*Bitmap-Elevate.*
 .*bitquark_top100k_sublist\.txt.*
@@ -9133,6 +9144,7 @@ get-delegation .*
 .*eventlog_fucker\.py.*
 .*eventspy\.cna.*
 .*EventSub-Aggressor\..*
+.*EventViewerRCE\.ps1.*
 .*EventViewerUAC\..*
 .*EventViewerUAC\..*
 .*EventViewerUAC\.x64.*
@@ -11045,6 +11057,8 @@ get-delegation .*
 .*Invoke-EssessAgress.*
 .*invoke-eternalblue.*
 .*invoke-eventhunter.*
+.*Invoke-EventViewer .*\.exe.*
+.*Invoke-EventViewer\.ps1.*
 .*Invoke-EventVwrBypass.*
 .*Invoke-EventVwrBypass.*
 .*Invoke-ExecuteMSBuild.*
@@ -11534,6 +11548,7 @@ get-delegation .*
 .*isShellcodeThread.*
 .*issue_shell_whoami.*
 .*Itay Migdal.*
+.*itm4n/PrintSpoofer.*
 .*itm4n/PrivescCheck.*
 .*itm4nprivesc.*
 .*its-a-feature/Apfell.*
@@ -11696,6 +11711,7 @@ get-delegation .*
 .*KeePass\.sln.*
 .*keepass_common_plug\..*
 .*keepass_discover\.py.*
+.*keepass2john .*\.kdbx.*
 .*KeePassBackdoor\..*
 .*KeePassConfig\.ps1.*
 .*KeePassConfig\.ps1.*
@@ -12727,6 +12743,7 @@ get-delegation .*
 .*mqtt_check\.py.*
 .*mr\.un1k0d3r@gmail\.com.*
 .*Mr-Cyb3rgh0st/Excel-Exploit.*
+.*mrd0x/BITB.*
 .*mremoteng_decrypt\.py.*
 .*mRemoteNG-local\.py.*
 .*Mr-Un1k0d3r.*
@@ -12928,6 +12945,7 @@ get-delegation .*
 .*nc -vlp 4444.*
 .*nc -vlp 4445.*
 .*nc\.exe 127\.0\.0\.1 4444.*
+.*nc\.exe -l -p 1337.*
 .*ncat .* -e /bin/bash.*
 .*ncat .* -p 4444.*
 .*ncat --udp .* -e /bin/bash.*
@@ -13300,6 +13318,7 @@ get-delegation .*
 .*Office-DDE-Payloads.*
 .*Offline_WinPwn\.ps1.*
 .*offsecginger/koadic.*
+.*OgBcAFcAaQBuAGQAbwB3AHMAXABUAGEAcwBrAHMAXABFAHYAZQBuAHQAVgBpAGUAdwBlAHIAUgBDAEUALgBwAHMAMQA=.*
 .*OG-Sadpanda/SharpCat.*
 .*OG-Sadpanda/SharpSword.*
 .*OG-Sadpanda/SharpSword.*
@@ -14028,8 +14047,14 @@ get-delegation .*
 .*printspoofer -Command.*
 .*PrintSpoofer-.*
 .*PrintSpoofer\..*
+.*PrintSpoofer\.cpp.*
+.*PrintSpoofer\.exe.*
 .*printspoofer\.py.*
+.*PrintSpoofer\.sln.*
 .*PrintSpoofer_x64\.exe.*
+.*PrintSpoofer32\.exe.*
+.*PrintSpoofer64\.exe.*
+.*PrintSpoofer-master.*
 .*Priv Esc Check Bof.*
 .*priv/priv_windows\.go.*
 .*privcheck\.cna.*
@@ -17507,6 +17532,7 @@ get-delegation .*
 .*xxd -p -c 4 /.* \| while read line.* do ping -c 1 -p .*
 .*XXEinjector.*
 .*xxePayloads\.ini.*
+.*XX-PHISHING-LINK-XX.*
 .*X-YSOSERIAL-NET.*
 .*xZF7fvaGD6p2yeLyf9i7O9gBBHk05B0u.*
 .*xzfbmR6MskR8J6Zr58RrhMc325kejLJE.*
