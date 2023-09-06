@@ -142,6 +142,8 @@ get-delegation *
 * --authmode ntlm --username * --password *
 * auth-owners.nse*
 * auth-spoof.nse*
+* avred.py *
+* avredweb.py *
 * awsloot.py*
 * -b *.bin *.bin dump*
 * --backdoor *
@@ -1578,6 +1580,8 @@ get-delegation *
 * ScareCrow.go*
 * ScareCrow.go*
 * -ScheduledTask -OnIdle *
+* scmuacbypass.cpp*
+* scmuacbypass.exe*
 * --script smb-security-mode*smb-enum-shares *
 * --script smb-vuln-*
 * --script=http-ntlm-info --script-args=http-ntlm-info.root=*
@@ -2115,6 +2119,8 @@ get-delegation *
 *.exe action=ListScheduledTasks*
 *.exe action=ListTaskNames*
 *.exe --adcs * --remote *
+*.exe app /create /name:* /uncpath:*\\*
+*.exe app /deploy /name:* /groupname:* /assignmentname:*
 *.exe asktgt /user:* /aes256:* /opsec /ptt*
 *.exe asktgt /user:* /rc4:* /createnetonly:*cmd.exe*
 *.exe asktgt /user:* /rc4:* /ptt*
@@ -2272,10 +2278,12 @@ get-delegation *
 *.py discover -H domain_list.txt*
 *.py enum -H * -U *.txt -P *.txt -*.txt*
 *.py -f *.exe -e -m 4
+*.py --file *.ps1 --server amsi*
 *.py -k * -f *.doc -o *.html*
 *.py lock -H * -u administrator -d *
 *.py -method BOTH -dc-ip *
 *.py -method LDAPS -dc-ip *
+*.py --server amsi --file *.exe*
 *.py spray -ep *
 *.py* --payload *.ps1*
 *.py* service -action create -service-name *
@@ -2556,12 +2564,16 @@ get-delegation *
 */autobloody.git*
 */autobloody/archive*
 */AutoBypass.ps1*
+*/AutoSmuggle.git*
 */autotimeliner*
 */auxiliary/scanner/*
 */avet.git*
 */avet_fabric.py*
 */avet_script_config.sh*
 */avoid_badchars.py*
+*/avred.git*
+*/avred.py*
+*/avredweb.py *
 */awesome-burp-extensions/*
 */awesome-pentest*
 */aws__enum_account*
@@ -3147,6 +3159,7 @@ get-delegation *
 */dns-update.nse*
 */dns-zeustracker.nse*
 */dns-zone-transfer.nse*
+*/dobin/avred*
 */docker-version.nse*
 */documentation-c2/*
 */documentation-payload/*
@@ -4073,6 +4086,8 @@ get-delegation *
 */main/exploit.js
 */main/exploit.pdf
 */malleable-c2*
+*/MalSCCM.git*
+*/MalSCCM.sln*
 */malseclogon.*
 */MalStuff.cpp*
 */man_in_the_browser/*.js*
@@ -4860,6 +4875,10 @@ get-delegation *
 */ScareCrow -I *
 */sccmhunter*
 */schtasksenum/*.*
+*/scmuacbypass.cpp*
+*/scmuacbypass.exe*
+*/SCMUACBypass.git*
+*/SCMUACBypass/*
 */ScreenshotInject*
 */scripts/xor.py*
 */ScriptSentry.git*
@@ -5591,6 +5610,8 @@ get-delegation *
 *?convert_kirbi_to_ccache*
 *?PSAmsi*PSReflect.ps1*
 *?sample_sliver.json*
+*[*] Smuggling in HTML*
+*[*] Smuggling in SVG*
 *[-] failed to spawn shell: %s*
 *[-] kernel not vulnerable*
 *[-] Seems like we killed auditd. Ooopsie :D*
@@ -5656,8 +5677,11 @@ get-delegation *
 *\Athena-*.zip*
 *\AtomLdr\x64*
 *\attrib.exe* +h*
+*\AutoSmuggle\*.cs*
 *\autotimeline*
 *\avetdbg.txt*
+*\avred.py*
+*\avredweb.py *
 *\AzureC2Proxy\*
 *\AzureC2Relay*
 *\backdoored\*
@@ -5678,6 +5702,9 @@ get-delegation *
 *\Blackout.sys*
 *\Blackout.vcxproj*
 *\blindeventlog.exe*
+*\BloodHound.exe*
+*\BloodHoundGui\*.exe*
+*\BloodHound-win32-X64*
 *\bootkit-rs*
 *\brc.zip*
 *\BrowserEnum.log*
@@ -5986,6 +6013,9 @@ get-delegation *
 *\samantha.txt
 *\save_reg.hive*
 *\scanACLsResults.csv*
+*\scmuacbypass.cpp*
+*\scmuacbypass.exe*
+*\SCMUACBypass\*
 *\ScriptSentry.ps1*
 *\ScriptSentry.psd1*
 *\ScriptSentry.psm1*
@@ -6052,6 +6082,7 @@ get-delegation *
 *\TikiSpawn.*
 *\tikispawn.xml*
 *\TikiTorch\Aggressor*
+*\tir_blanc_holiseum\*.exe*
 *\tmp\dll-collection*
 *\tokenprivileges.c*
 *\tokenprivileges.o*
@@ -6268,9 +6299,11 @@ get-delegation *
 *5086CE01-1032-4CA3-A302-6CFF2A8B64DC*
 *516280565958*
 *516280565959*
+*5439CECD-3BB3-4807-B33F-E4C299B71CA2*
 *555662D4CCBB940D87869E6295EC7CC74BB85D8C8FC5916EC34D1226704578C5*
 *555AD0AC-1FDB-4016-8257-170A74CB2F55*
 *55F0368B-63DA-40E7-A8A5-289F70DF9C7F*
+*57A893C7-7527-4B55-B4E9-D644BBDA89D1*
 *5A403F3C-9136-4B67-A94E-02D3BCD3162D*
 *5a40f11a99d0db4a0b06ab5b95c7da4b1c05b55a99c7c443021bff02c2cf93145c53ff5b*
 *5A6F942E-888A-4CE1-A6FB-1AB8AE22AFFA*
@@ -6371,6 +6404,8 @@ get-delegation *
 *acltoolkit-main*
 *acronis_trueimage_xpc_privesc*
 *AcroRd32.exe FUZZ*
+*Action: Locating SCCM Management Servers*
+*Action: Locating SCCM Servers in Registry*
 *action=SchTaskCOMHijack *
 *activedirectory/pwns.go*
 *activeScan++.py*
@@ -6842,6 +6877,10 @@ get-delegation *
 *AutoNSE*
 *autopwn*
 *AutoRDPwn*
+*AutoSmuggle.csproj*
+*AutoSmuggle.exe*
+*AutoSmuggle.sln*
+*AutoSmuggle-master*
 *autostart/ares.desktop*
 *autoTGS_NtlmCrack.py*
 *autotimeline *
@@ -6859,6 +6898,7 @@ get-delegation *
 *avast_memory_dump.md*
 *avet-master.zip*
 *avflagged.exe*
+*avred-main.zip*
 *av-update-urls.txt*
 *aW52YWxpZF91c2VyQGNvbnRvc28uY29tOlBhc3N3b3JkMQ*
 *awesome-cve-poc*
@@ -10644,6 +10684,7 @@ get-delegation *
 *https://api.dropboxapi.com/*
 *https://api.hunter.io/*
 *https://api.telegram.org/bot*/sendMessage*
+*https://avred.r00ted.ch/upload*
 *https://bashupload.com*
 *https://crackstation.net/*
 *https://cyseclabs.com/exploits/*
@@ -11940,6 +11981,7 @@ get-delegation *
 *kill-implant*
 *killprocess.py*
 *kimi_MDPC/kimi.py*
+*kindloader.exe* --extract kindlocker*
 *kintercept.py*
 *kintercept.py*
 *kirbi_to_hashcat.py*
@@ -12535,6 +12577,8 @@ get-delegation *
 *MalleableProfileB64*
 *MalleableProfiles.vue*
 *malleable-redirector-config*
+*MalSCCM.exe*
+*MalSCCM-main*
 *malware.NewConfig*
 *malwaredllc*
 *man_in_the_browser.json*
@@ -12700,6 +12744,7 @@ get-delegation *
 *mimikatz_dotnet2js*
 *mimikatz_dynwrapx*
 *mimikatz_tashlib*
+*mimikatz_trunk*
 *mimikatz_x64.exe*
 *mimikatz_x86.exe*
 *MimikatzByPowerShellForDomain.py*
@@ -13161,6 +13206,7 @@ get-delegation *
 *netstat -ant*
 *NETSTAT.EXE* -ano*
 *nettitude/ETWHash*
+*nettitude/MalSCCM*
 *netuser_enum*
 *netview.py*
 *netview_enum*
@@ -13930,6 +13976,7 @@ get-delegation *
 *POC1*implant.cpp*
 *POC2*implant.cpp*
 *podalirius@protonmail.com*
+*podman run * --name avred -d avred*
 *poison_ivy_c2*
 *Poisoners-Session.log*
 *poisonivy_bof.*
@@ -16552,6 +16599,7 @@ get-delegation *
 *Supernova.exe -*
 *Supernova-main.zip*
 *SupportScam:Win32*
+*surajpkhetani/AutoSmuggle*
 *suspended_run *
 *suspendresume.x64.*
 *suspendresume.x86.*
@@ -16990,6 +17038,7 @@ get-delegation *
 *UAC-bypass*
 *uacbypass_files*
 *UACBypass-BOF*
+*UACBypassedService.exe*
 *uacm4gic*
 *UACME*
 *uac-schtasks *
