@@ -73,6 +73,10 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - `metadata_popularity_score`: score from 1 to 10 (low to high popularity)
 - `metadata_severity_score`: score from 1 to 10 (low to high severity)
 - `metadata_comment`: This field may contain a useful comment added for the keyword.
+- `metadata_github_stars`: Number of stars on the github project (if the tool is on github, if elsewhere the value is N/A) this is used to calculate the popularity score 
+- `metadata_github_forks`: Number of forks on the github project (if the tool is on github, if elsewhere the value is N/A) can be used for dashboard stats of the most used tools
+- `metadata_github_created_at`: Creation date of the github project (if the tool is on github, if elsewhere the value is N/A) can be used for dashboard stats
+- `metadata_github_updated_at`: Last updated date of the github project (if the tool is on github, if elsewhere the value is N/A) can be used to track important offensive tools updates and adjust keywords detections
 
 ## Use the List to hunt with Splunk:
 - upload the list `threathunting-keywords.csv` on Splunk
