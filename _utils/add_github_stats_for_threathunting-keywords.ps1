@@ -53,7 +53,7 @@ foreach ($row in $csvData) {
 
                 if ($remainingCalls -le 10) {
                     Write-Host "Approaching rate limit. remaing calls: $remainingCalls ... Pausing for 5m (resetting at $githubapiresettimestamp)"
-                    Start-Sleep -Seconds 1080
+                    Start-Sleep -Seconds 360
                 }
                 
                 $starCount = $responsecontent.stargazers_count
