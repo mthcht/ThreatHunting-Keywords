@@ -43,7 +43,7 @@ foreach ($row in $csvData) {
                 $responsecontent.stargazers_count = 'N/A'
                 $responsecontent.forks = 'N/A'
                 $responsecontent.created_at = 'N/A'
-                $responsecontent.updated_at = 'N/A'
+                $responsecontent.pushed_at = 'N/A'
             }
             
             try {
@@ -68,7 +68,7 @@ foreach ($row in $csvData) {
                 $created_at[$ownerRepo] = $repo_created_at
                 $row."metadata_github_created_at"= $created_at[$ownerRepo]
 
-                $repo_updated_at = $responsecontent.updated_at
+                $repo_updated_at = $responsecontent.pushed_at
                 $updated_at[$ownerRepo] = $repo_updated_at
                 $row."metadata_github_updated_at" = $updated_at[$ownerRepo]
 
