@@ -1,10 +1,4 @@
-﻿* --copy-file --source-file *.docx --target-file *.docx --target-volume *
-* -Rhosts * -Password * -Directory * -Dictionary *
-* -u * -p *--pass-pol*
-*DonutLoader(*
-*empire --rest *
-get-delegation *
-*  --cve=* --command*
+﻿*  --cve=* --command*
 *  --GPOName * --FilterEnabled --TargetDnsName *
 *  --list=hidden-options*
 *  mask?a?a?a?a?*
@@ -280,6 +274,7 @@ get-delegation *
 * chimera_automation *.exe*
 * chrome logindata *
 * chrome masterkey *
+* chromium_based_browsers.py*
 * cics-enum.nse*
 * cics-info.nse*
 * cics-user-brute.nse*
@@ -344,6 +339,7 @@ get-delegation *
 * -consoleoutput -Localrecon*
 * -ConType bind *
 * -ConType reverse *
+* --copy-file --source-file *.docx --target-file *.docx --target-volume *
 * core.payload *
 * core.stager *
 * couchdb-databases.nse*
@@ -1520,6 +1516,7 @@ get-delegation *
 * rexec-brute.nse*
 * rfc868-time.nse*
 * -Rhost * -WARFile http*
+* -Rhosts * -Password * -Directory * -Dictionary *
 * -Rhosts * -Path *.txt -Port *
 * riak-http-info.nse*
 * --rid-brute 2>&1 *.txt*
@@ -1871,6 +1868,7 @@ get-delegation *
 * -u * -p * --lusers*
 * -u * -p * --sam
 * -u * -p * --shares*
+* -u * -p *--pass-pol*
 * -u *http* --dbs
 * -u *http* --os-shell*
 * -u FUZZ *
@@ -2842,6 +2840,7 @@ get-delegation *
 */chrisk44/*
 */chrome_decrypt.py*
 */ChromeDump/*
+*/chromium_based_browsers.py*
 */cics-enum.nse*
 */cics-info.nse*
 */cics-user-brute.nse*
@@ -5718,6 +5717,7 @@ get-delegation *
 *\chisel.exe*
 *\chisel-master*
 *\Chrome_pass.db*
+*\chromium_based_browsers.py*
 *\CIMplant.exe*
 *\CloakNDaggerC2*
 *\cloud_enum.py*
@@ -7398,6 +7398,8 @@ get-delegation *
 *browserexploitserver.rb*
 *BrowserGhost-N*.exe*
 *BrowserListener.py*
+*Browser-password-stealer.git*
+*Browser-password-stealer-master*
 *browserpivot *
 *brun_script_in_mem*
 *brunasadmin*
@@ -8892,6 +8894,7 @@ get-delegation *
 *DONUT_BYPASS_CONTINUE*
 *donut-loader -*
 *Donut-Loader -process_id*
+*DonutLoader(*
 *DonutLoader.cs*
 *donut-maker.py -*
 *donut-maker.py -i *.exe*
@@ -9157,6 +9160,7 @@ get-delegation *
 *EmbedInHTML-master*
 *empire AttackServers*
 *Empire Framework GUI*
+*empire --rest *
 *empire --server *
 *Empire.Agent.Coms.*
 *Empire.Agent.cs*
@@ -10274,6 +10278,14 @@ get-delegation *
 *GoldenGMSA-main*
 *goldenPac.py*
 *GooDork*
+*google-chrome/cookies.txt*
+*google-chrome/credit_cards.txt*
+*google-chrome/history.txt*
+*google-chrome/login_data.txt*
+*google-chrome\cookies.txt*
+*google-chrome\credit_cards.txt*
+*google-chrome\history.txt*
+*google-chrome\login_data.txt*
 *google-get-pdf-metadata *
 *google-get-rootdomains *
 *goPassGen-master*
@@ -10481,6 +10493,7 @@ get-delegation *
 *HellsGate.vcxproj*
 *help\dll.txt*
 *Henkru/cs-token-vault*
+*henry-richard7/Browser-password-stealer*
 *Heroinn FTP*
 *heroinn_client*
 *heroinn_core*
@@ -12717,6 +12730,14 @@ get-delegation *
 *microlilics.crabdance.com*
 *micronaoko.jumpingcrab.com*
 *microplants.strangled.net*
+*microsoft-edge/cookies.txt*
+*microsoft-edge/credit_cards.txt*
+*microsoft-edge/history.txt*
+*microsoft-edge/login_data.txt*
+*microsoft-edge\cookies.txt*
+*microsoft-edge\credit_cards.txt*
+*microsoft-edge\history.txt*
+*microsoft-edge\login_data.txt*
 *microsploit.git*
 *Midl2Bytes.exe*
 *--mifi-username * --mifi-password * --number +*
@@ -13997,8 +14018,8 @@ get-delegation *
 *PortBender.h*
 *PortBender.sln*
 *PortBender.zip*
+*portfwd add ?l *-p *-r *
 *portfwd add --bind *
-*portfwd add �l *-p *-r *
 *portfwd add -r *
 *portscan*
 *portscan.rc*
@@ -16582,7 +16603,7 @@ get-delegation *
 *Sublist3r*
 *Suborner.exe*
 *Suborner-master.zip*
-*Successfully connected, spawning shell�*
+*Successfully connected* spawning shell?*
 *Successfully cracked account password*
 *Successfully dumped SAM and SYSTEM*
 *sudo bloodhound*
@@ -16748,7 +16769,7 @@ get-delegation *
 *templates*HIPS_LIPS_processes.txt*
 *templates*reflective_assembly_minified.ps1*
 *tenable.com/downloads/nessus*
-*Terminating Windows Defender�*
+*Terminating Windows Defender?*
 *test.endpoint.rapid7.com*
 *test_beef_debugs_spec*
 *test_ccache_fromKirbi*
@@ -17866,6 +17887,7 @@ Get-ADObject -Filter {msDS-AllowedToDelegateTo * -Properties msDS-AllowedToDeleg
 Get-ADObject -SearchBase *CN=Shadow Principal Configuration*CN=Services* (Get-ADRootDSE).configurationNamingContext) | select *msDS-ShadowPrincipalSid*
 Get-ADUser -Filter {DoesNotRequirePreAuth -eq $True} -Properties DoesNotRequirePreAuth
 Get-ADUser -Filter {TrustedForDelegation -eq $True}
+get-delegation *
 get-delegation *
 Get-DomainComputer -TrustedToAuth
 Get-DomainUser -TrustedToAuth
