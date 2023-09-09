@@ -1,9 +1,4 @@
-﻿.*  --cve=.* --command.*
-.*  --GPOName .* --FilterEnabled --TargetDnsName .*
-.*  --list=hidden-options.*
-.*  mask\?a\?a\?a\?a\?.*
-.* - Sensitive Accounts\.csv.*
-.*  silver .* /domain.*
+﻿.* - Sensitive Accounts\.csv.*
 .* \$exploit_oneliner.*
 .* \$FodHelperPath.*
 .* \$payload_oneliner .*
@@ -363,6 +358,7 @@
 .* --custom-steal onedrive.*
 .* --custom-steal onenote.*
 .* --custom-steal outlook.*
+.* --cve=.* --command.*
 .* CVE-2023-38831-RaRCE.*
 .* cvs-brute\.nse.*
 .* cvs-brute-repository\.nse.*
@@ -698,6 +694,7 @@
 .* golden .* /user:.*
 .* gopher-ls\.nse.*
 .* gophish-.*\.zip.*
+.* --GPOName .* --FilterEnabled --TargetDnsName .*
 .* gpp_autologin.*
 .* gpp_password.*
 .* gpsd-info\.nse.*
@@ -1079,6 +1076,7 @@
 .* linpeas\.sh .*
 .* -linpeas=http://127\.0\.0\.1/linpeas\.sh.*
 .* linWinPwn.*
+.* --list=hidden-options.*
 .* --list-payloads.*
 .* live dpapi blobfile .*\.blob.*
 .* live dpapi cred .*
@@ -1170,6 +1168,7 @@
 .* -M zerologon .*
 .* malleable\.profile.*
 .* malleable-c2-randomizer.*
+.* mask\?a\?a\?a\?a\?.*
 .* --mask=\?1\?1\?1.* --min-len.*
 .* --max-attack-time.*
 .* maxdb-info\.nse.*
@@ -1638,6 +1637,7 @@
 .* --silent -obf NixImports -o /tmp/.*
 .* --silent-process-exit .*
 .* silenttrinity\..*
+.* silver .* /domain.*
 .* silver .* /ldap .*
 .* silver .* /passlastset .*
 .* silver .* /service:.*
