@@ -1290,6 +1290,7 @@
 .* -no-pass rid-hijack.*
 .* -no-pass -usersfile .*
 .* NoPowerShell\..*
+.* No-PowerShell\.cs.*
 .* --no-ppid-spoof.*
 .* -no-preauth .* -dc-ip .*
 .* -NoPRo -wIN 1 -nONi -eN Sh33L.*
@@ -1526,6 +1527,7 @@
 .* rmi-dumpregistry\.nse.*
 .* rmi-vuln-classloader\.nse.*
 .* rockyou\.txt .*
+.* root/SecurityCenter2 -ClassName AntiVirusProduct.*
 .* ropbuffers\.go.*
 .* ropfuscator.*
 .* rpcap-brute\.nse.*
@@ -3624,6 +3626,8 @@
 .*/HRShell\.git.*
 .*/HRShell/.*
 .*/hta_attack/.*
+.*/HTMLSmuggler\.git.*
+.*/HTMLSmuggler/.*
 .*/htshells\.git.*
 .*/http_payload\.ps1.*
 .*/http-adobe-coldfusion-apsa1301\.nse.*
@@ -4125,6 +4129,9 @@
 .*/meterpreter.*
 .*/meterpreter/reverse_tcp.*
 .*/MFASweep\.git.*
+.*/mhydeath\.git.*
+.*/mhydeath\.sln.*
+.*/mhydeath/main\.cpp.*
 .*/michaelweber/Macrome.*
 .*/micr0%20shell\.py.*
 .*/micr0_shell\.git.*
@@ -4333,6 +4340,8 @@
 .*/NoFilter\.sln.*
 .*/NoFilter\.vcxproj.*
 .*/nopac\.exe
+.*/No-PowerShell\.cs.*
+.*/No-PowerShell\.exe.*
 .*/nopowershell\.git.*
 .*/nopowershell/.*
 .*/NoPowerShell/.*
@@ -4599,6 +4608,7 @@
 .*/PrivKit/.*
 .*/proberbyte\.go.*
 .*/process_herpaderping/.*
+.*/process_killer\.cpp.*
 .*/processhacker-.*-bin\.zip.*
 .*/processhacker/files/latest/download.*
 .*/Process-Instrumentation-Syscall-Hook.*
@@ -5316,6 +5326,7 @@
 .*/theHarvester\.py.*
 .*/thief\.py.*
 .*/thirdparty/msf/.*
+.*/ThisIsNotRat\.git.*
 .*/thoth\.git.*
 .*/ThreadlessInject\.git.*
 .*/ThreatCheck\.git.*
@@ -5331,6 +5342,7 @@
 .*/timestomp\.py.*
 .*/timestomping\.ps1.*
 .*/timwr/CVE-2016-5195.*
+.*/tinar\.py.*
 .*/tls-alpn\.nse.*
 .*/tls-nextprotoneg\.nse.*
 .*/tls-ticketbleed\.nse.*
@@ -5416,6 +5428,9 @@
 .*/unused/locktest\.sh.*
 .*/unused/Yosemite\.patch.*
 .*/unusual-port\.nse.*
+.*/updog-.*\.tar\.gz.*
+.*/updog\.git.*
+.*/updog/archive/updog-.*
 .*/upnp-info\.nse.*
 .*/uptime-agent-info\.nse.*
 .*/url-snarf\.nse.*
@@ -5832,6 +5847,7 @@
 .*\\HookDetector\.csproj.*
 .*\\HookDetector\.exe.*
 .*\\HostEnum\.ps1.*
+.*\\HTMLSmuggler\\.*
 .*\\huan\.exe .*
 .*\\hyperion\.exe.*
 .*\\Hypnos\.exe.*
@@ -5890,6 +5906,7 @@
 .*\\manspider_.*\.log.*
 .*\\master\\GPSCoordinates\\.*
 .*\\mem_dll\.pdb.*
+.*\\mhydeath64.*
 .*\\mimi32\.exe.*
 .*\\mimi64\.exe.*
 .*\\Mockingjay_BOF\..*
@@ -5923,6 +5940,8 @@
 .*\\nopac\.exe.*
 .*\\NoPowerShell.*
 .*\\NoPowerShell\..*
+.*\\No-PowerShell\.cs.*
+.*\\No-PowerShell\.exe.*
 .*\\ntdlll-unhooking-collection.*
 .*\\ntdlol\.txt.*
 .*\\ntlm\.py.*
@@ -5974,6 +5993,7 @@
 .*\\PrivescCheck.*
 .*\\PrivKit\\.*
 .*\\Process Hacker 2\\.*
+.*\\process_killer\.cpp.*
 .*\\ProduKey\.exe.*
 .*\\ProgramData\\asrephashes\.txt.*
 .*\\ps2exe\.ps1.*
@@ -6093,6 +6113,7 @@
 .*\\TrustExec\.exe.*
 .*\\unDefender\.exe.*
 .*\\unquotedsvcpath\.o.*
+.*\\updog-master\\.*
 .*\\usbmon\.txt.*
 .*\\Users\\Public\\.*\.dmp.*
 .*\\Users\\Public\\.*ntds\.dit.*
@@ -6201,6 +6222,7 @@
 .*0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF.*
 .*0ac82760-3e0d-4124-bd1c-92c8dab97171.*
 .*0B6D8B01-861E-4CAF-B1C9-6670884381DB.*
+.*0D17A4B4-A7C4-49C0-99E3-B856F9F3B271.*
 .*0d1n .* --post .* --payloads .*
 .*0d1n --host.*
 .*0d1n.*kill_listener\.sh.*
@@ -7585,6 +7607,7 @@
 .*C:\\ProgramData\\SystemData\\microsoft_Windows\.dll.*
 .*C:\\Temp\\file\.exe.*
 .*C:\\Temp\\poc\.txt.*
+.*c:\\temp\\something\.ps1.*
 .*C:\\temp\\tmp\.tmp.*
 .*C:\\Uac\\results\.cab.*
 .*C:\\Users\\.*\\AppData\\Roaming\\Indexing\..*
@@ -8431,6 +8454,7 @@
 .*cytool\.exe startup disable.*
 .*-d kali-linux .*
 .*D00MFist/Mystikal.*
+.*D00Movenok/HTMLSmuggler.*
 .*D1rkInject\.cpp.*
 .*D1rkInject\.exe.*
 .*D1rkInject\.iobj.*
@@ -10216,6 +10240,7 @@
 .*glit-x86_64-pc-windows-msvc.*
 .*glit-x86_64-unknown-linux-gnu.*
 .*global\.rel\.tunnels\.api\.visualstudio\.com.*
+.*global\.rel\.tunnels\.api\.visualstudio\.com.*
 .*gloxec/CrossC2.*
 .*gloxec/CrossC2.*
 .*GmailC2\.csproj.*
@@ -10575,6 +10600,7 @@
 .*html/scripts/merlin\.js.*
 .*Html-Injection-Payloads\..*
 .*Html-Injection-Read-File-Payloads\..*
+.*HTMLSmuggler-main.*
 .*HTool.*
 .*HTool/WCE.*
 .*HTool-Lazagne.*
@@ -10681,6 +10707,7 @@
 .*httprelayserver\.py.*
 .*httprelayserver\.py.*
 .*http-request-smuggler-all\.jar.*
+.*https://.*\.brs\.devtunnels\.ms/.*
 .*https://.*\.euw\.devtunnels\.ms.*
 .*https://.*\.sendspace\.com/upload.*
 .*https://.*\.use\.devtunnels\.ms.*
@@ -12713,6 +12740,8 @@
 .*mgeeky/PackMyPayload.*
 .*mgeeky/RedWarden.*
 .*mhaskar/Octopus.*
+.*mhydeath\.exe.*
+.*mhydeath-master.*
 .*micahvandeusen/gMSADumper.*
 .*micr0 shell\.py.*
 .*micr0_shell-main.*
@@ -13944,6 +13973,7 @@
 .*PinoyWH1Z/AoratosWin.*
 .*pip install rarce.*
 .*pip install --user fee
+.*pip.* install updog.*
 .*pip3 install -U pacu.*
 .*'pipename_stager'.*
 .*PipeViewer\.csproj.*
@@ -14322,6 +14352,7 @@
 .*Process_Inject_Struct.*
 .*process_inject_transform_x.*
 .*process_inject_userwx.*
+.*process_killer\.exe.*
 .*process_memdump\.rb.*
 .*process_mimikatz.*
 .*process_protection_enum .*
@@ -14607,6 +14638,7 @@
 .*python noPac\..*
 .*python scshell.*
 .*python st\.py.*
+.*python tinar\.py.*
 .*python.* pachine\.py.*
 .*python.*charlotte\.py.*
 .*python.*http://.*:6970/ConfigFileCacheList\.txt.*
@@ -14649,6 +14681,7 @@
 .*quentinhardy.*msdat.*
 .*quser\.x64\.o.*
 .*quser\.x86\.o.*
+.*qwinsta /server:.*
 .*qwqdanchun.*
 .*qwqdanchun/DcRat.*
 .*QXh4OEF4eDhBeHg4QXh4OA==.*
@@ -14828,6 +14861,7 @@
 .*read_cs_teamserver.*
 .*readShellcode.*
 .*ReadyToPhish\.xls.*
+.*RealBey/ThisIsNotRat.*
 .*realgam3.*
 .*Real-Passwords.*
 .*Receive-AgentJob.*
@@ -15377,6 +15411,7 @@
 .*sc_inject_direct\.exe.*
 .*sc_inject_indirect\.exe.*
 .*sc0tfree.*
+.*sc0tfree/updog.*
 .*scada_default_userpass\.txt.*
 .*scan -T list_of_targets\.txt.*
 .*scanless.*
@@ -16446,6 +16481,7 @@
 .*srvsvc_\#\#.*
 .*ssf\.exe -D .* -p .* 127\.0\.0\.1.*
 .*ssfd\.exe -p .*
+.*ssh @ssh\..*\.devtunnels\.ms.*
 .*ssh -N -R 4567:localhost:.*root.*
 .*ssh2john .*
 .*ssh2john\.py.*
@@ -16828,6 +16864,7 @@
 .*third_party/SharpGen.*
 .*third-party.*winvnc.*\.dll.*
 .*thisisateststringdontcatchme.*
+.*ThisIsNotRat-main.*
 .*thoth\.py -.*
 .*thoth-master\.zip.*
 .*Thread_Hiijack_Inject_Load\..*
@@ -17129,6 +17166,10 @@
 .*untested_payloads\.rb.*
 .*UnwindInspector\.exe.*
 .*Update-ExeFunctions.*
+.*updog --.*
+.*updog -d /.*
+.*updog -p .*
+.*updog-master\.zip.*
 .*upload-dll .* .*\.dll.*
 .*UploadFileImplant.*
 .*UrbanBishop\.exe.*
@@ -17563,6 +17604,7 @@
 .*wmic SHADOWCOPY /nointeractive.*
 .*wmic shadowcopy call create Volume='C:\\'.*
 .*wmic useraccount get /ALL /format:csv.*
+.*wmic.*/Namespace:\\\\root\\SecurityCenter2 Path AntiVirusProduct Get displayName.*
 .*wmic\.exe process call create .*\.txt:.*\.exe.*
 .*wmic\.exe Shadowcopy Delete.*
 .*wmic/wmic\.cmd.*
@@ -17658,6 +17700,7 @@
 .*wsl kali-linux.*
 .*WSPCoerce\.ex.*
 .*WSPCoerce-main.*
+.*wss://.*\.tunnels\.api\.visualstudio\.com/api/v1/Connect/.*
 .*WSUSpendu.*
 .*wsuxploit.*
 .*wts_enum_remote_processes.*
@@ -17777,6 +17820,7 @@
 .*zed2john\.py.*
 .*zenmap\.exe.*
 .*zenoss_3x_command_execution.*
+.*zer0condition/mhydeath.*
 .*zeroday-powershell.*
 .*zerologon\.py.*
 .*zerologon\.x64.*
