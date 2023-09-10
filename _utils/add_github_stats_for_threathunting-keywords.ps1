@@ -11,7 +11,7 @@ $forkCounts = @{}
 $created_at = @{}
 $updated_at = @{}
 $popularity = @{}
-$newCsvPath = "tmp_updated_threathunting-keywords.csv" # new csv for verification before manual overwrite of threathunting-keywords.csv
+$newCsvPath = "..\threathunting-keywords.csv"
 
 Remove-Item $newCsvPath -ErrorAction SilentlyContinue
 
