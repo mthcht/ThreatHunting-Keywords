@@ -1,7 +1,7 @@
 *Help me populate this page with the expected false positives you've encountered during your hunt. If a keyword is not relevant, we will completely remove it from the hunting list.*
 
 ---
-### Keyword: `*DisableRealtimeMonitoring $true*`
+## Keyword: `*DisableRealtimeMonitoring $true*`
   - `*Set-MpPreference -DisableRealtimeMonitoring *true*`
   - `*DisableRealtimeMonitoring $true*`
 
@@ -31,3 +31,16 @@ Sysmon EventID 1
 recommandation: exclude the ParentImage + ParentUser + ParentCommandLine + CommandLine 
 
 ---
+
+## Keyword: `*\Ninja.py*`
+
+### Node module gyp
+
+Sysmon Event ID 11
+```xml
+        <Data Name="Image">C:\Program Files\nodejs\node.exe</Data>
+        <Data Name="TargetFilename">C:\Users\mthcht\AppData\Local\Yarn\Cache\v6\npm-node-gyp-9.4.0-integrity\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py</Data>
+```
+
+recommandation: exclude Image `*\Program Files\nodejs\node.exe` + TargetFilename `C:\Users\*\AppData\Local\Yarn\Cache\v6\npm-node-gyp-*-integrity\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py`
+
