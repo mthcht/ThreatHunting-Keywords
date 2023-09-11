@@ -2,5 +2,24 @@ Help me populate this page with the expected false positives you've encountered 
 
 ---
 
-### Keyword: `*scp *@*:* *`
+## Keyword: `*scp *@*:* *`
+  - `*scp *@*:* *`
+  - `*scp * *@*:*`
 
+MobaXterm default terminal
+
+```python
+Image: "C:\Users\cotero\DOCUME~1\MobaXterm\slash\bin\MobaSCP.exe"
+Description: Command-line SCP/SFTP client
+Product: MobaXterm terminal
+Company: Mobatek
+OriginalFileName: PSCP
+CommandLine: "C:\Users\mthcht\DOCUME~1\MobaXterm\slash\bin\MobaSCP.exe" -v -batch -scp -load "TERM40648083" -ls mobauser@mobaserver:"" "." "."
+CurrentDirectory: "C:\Users\mthcht\DOCUME~1\MobaXterm\slash\bin\"
+User: "thunting\mthcht"
+ParentImage: "C:\Program Files (x86)\Mobatek\MobaXterm\MobaXterm.exe"
+ParentCommandLine: "C:\Program Files (x86)\Mobatek\MobaXterm\MobaXterm.exe" 
+ParentUser: thunting\mthcht
+```
+
+exclude CommandLine = `"*\Users\*\MobaXterm\slash\bin\MobaSCP.exe" -v -batch -scp -load "TERM40648083" -ls mobauser@mobaserver*` with ParentImage = `C:\Program Files (x86)\Mobatek\MobaXterm\MobaXterm.exe`
