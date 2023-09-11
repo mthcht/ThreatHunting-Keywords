@@ -17,10 +17,10 @@ Sysmon EventID 1
         <Data Name="OriginalFileName">PowerShell.EXE</Data>
         <Data Name="CommandLine">-Command Set-MpPreference -DisableRealtimeMonitoring $true</Data>
         <Data Name="CurrentDirectory">C:\WINDOWS\system32\</Data>
-        <Data Name="User">AUTORITE NT\System</Data>
+        <Data Name="User">AUTORITY NT\System</Data>
         <Data Name="ParentImage">C:\Program Files\McAfee\Endpoint Security\Threat Prevention\mfetp.exe</Data>
         <Data Name="ParentCommandLine">"C:\Program Files\McAfee\Endpoint Security\Threat Prevention\mfetp.exe" -mms</Data>
-        <Data Name="ParentUser">AUTORITE NT\System</Data>
+        <Data Name="ParentUser">AUTORITY NT\System</Data>
 ```
 
 ---
