@@ -299,7 +299,7 @@ https://mthcht.github.io/ThreatHunting-Keywords/
 
 ## False positives
 
-Contribute and add your false positives to the expected false positives [list](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/_false_positives/false_positives_keywords.md)
+Contribute and add your false positives to the expected false positives [list](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/_false_positives/false_positives_offensive_keywords.md)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
