@@ -15,6 +15,7 @@
 - [Hunt without a SIEM](#dfir-hunt-for-keywords-in-files-no-siem)
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
 - [Website](#quick-datatable-to-search-for-keyword-can-be-improved-open-to-suggestions)
+- [Expected False positives](#false-positives)
 - [contribute](#-contributing)
 
 ## Files
@@ -295,6 +296,10 @@ Read-Host -Prompt "Press Enter to exit"
 ## Quick datatable to search for keyword (can be improved, open to suggestions)
 https://mthcht.github.io/ThreatHunting-Keywords/
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
+
+## False positives
+
+Contribute and add your false positives to the expected false positives [list](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/_false_positives/false_positives_keywords.md)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
