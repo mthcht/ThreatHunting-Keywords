@@ -1,3 +1,7 @@
+*Help me populate this page with the expected false positives you've encountered during your hunt. If a keyword is not relevant, we will completely remove it from the hunting list.*
+
+---
+
 ## Keyword: `*DisableRealtimeMonitoring $true*`
 
 Antivirus disabling Defender Real time protection
@@ -10,6 +14,7 @@ Security EventID 4688
         <Data Name="CommandLine">-Command Set-MpPreference -DisableRealtimeMonitoring $true</Data>
         <Data Name="ParentProcessName">C:\Program Files\McAfee\Endpoint Security\Threat Prevention\mfetp.exe</Data>
 ```
+recommandation: exclude the ParentProcessName + CommandLine
 
 Sysmon EventID 1
 ```xml
@@ -22,5 +27,6 @@ Sysmon EventID 1
         <Data Name="ParentCommandLine">"C:\Program Files\McAfee\Endpoint Security\Threat Prevention\mfetp.exe" -mms</Data>
         <Data Name="ParentUser">AUTORITY NT\System</Data>
 ```
+recommandation: exclude the ParentImage + ParentUser + ParentCommandLine + CommandLine 
 
 ---
