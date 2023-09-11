@@ -8338,7 +8338,6 @@
 .*compile_implant.*
 .*completedns-get-ns-history.*
 .*COMPlus_ETWEnabled=0\\0\\0\\0.*
-.*CompMgmtLauncher\.exe.*
 .*compress_encode_obfs.*
 .*computers_pwdnotreqd.*
 .*comsvcs_lsass.*
@@ -17898,7 +17897,6 @@
 .*vssadmin list shadows.*
 .*vssenum\.x64\..*
 .*vssenum\.x86\..*
-.*vswhere\.exe.*
 .*vtiger_crm_upload_exploit.*
 .*vulfocus/spring-core-rce-.*
 .*vulmon.*Vulmap.*
