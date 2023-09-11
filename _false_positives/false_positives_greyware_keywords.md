@@ -23,3 +23,9 @@ ParentUser: thunting\mthcht
 ```
 
 exclude CommandLine = `"*\Users\*\MobaXterm\slash\bin\MobaSCP.exe" -v -batch -scp -load "TERM40648083" -ls mobauser@mobaserver*` with ParentImage = `C:\Program Files (x86)\Mobatek\MobaXterm\MobaXterm.exe`
+
+---
+
+### Keyword: `*C:\Windows\MEMORY.DMP*`
+
+Windows default dump location after a crash, exclude Image `C:\windows\System32\smss.exe` OR `C:\windows\system32\WerFault.exe` with file_path `C:\Windows\MEMORY.DMP`
