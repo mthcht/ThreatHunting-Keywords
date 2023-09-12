@@ -49,7 +49,7 @@ To evade detection by simple keyword detection, it is critical to recompile and 
 However, if you're developing public "red team tools", consider aiding the blue team by using distinct names. Employ a default configuration with an exotic port, custom certificates, unique user-agents, specific function names and arguments that aren't common. This assists in creating a clear signature that can be used for simple keyword detections, so the blueteam can at least easily detect the script kiddies. 
 
 ## Content of the Threat Hunting Keywords File:
-- Header: `keyword,metadata_keyword_type,metadata_tool,metadata_description,metadata_tool_techniques,metadata_tool_tactics,metadata_malwares_name,metadata_groups_name,metadata_category,metadata_link,metadata_enable_endpoint_detection,metadata_enable_proxy_detection,metadata_comment,metadata_severity_score,metadata_popularity_score`
+- Header: `keyword,metadata_keyword_type,metadata_tool,metadata_description,metadata_tool_techniques,metadata_tool_tactics,metadata_malwares_name,metadata_groups_name,metadata_category,metadata_link,metadata_enable_endpoint_detection,metadata_enable_proxy_detection,metadata_comment,metadata_severity_score,metadata_popularity_score`,`metadata_github_stars`,`metadata_github_forks`,`metadata_github_created_at`,`metadata_github_updated_at`
 
 - `keyword`: The entries in this column represent non-case-sensitive keywords used for Threat Hunting. These keywords are flexible, allowing the use of wildcards to broaden or narrow your search parameters as needed.
 - `metadata_keyword_type`: Type of the keywords, Currently, there are three types::
@@ -83,6 +83,8 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - upload the list `threathunting-keywords.csv` on Splunk
 - create a lookup definition named `threathunting-keywords` for the lookup `threathunting-keywords.csv`
   - in the advanced options, add the Match type `WILDCARD(keyword)` and make sure `Case sensitive match` is not checked
+  ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/a49969f0-22ed-4f10-90f3-7fb7e3951a98)
+
 - now we can use our lookup definition to hunt 🏹
 
 ## Example use cases with `threathunting-keywords`:
