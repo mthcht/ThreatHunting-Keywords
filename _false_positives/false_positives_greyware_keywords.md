@@ -5,6 +5,7 @@ Help me populate this page with the expected false positives you've encountered 
 ## Keyword: `*scp *@*:* *`
   - `*scp *@*:* *`
   - `*scp * *@*:*`
+  - `*sftp *@*:* *`
 
 MobaXterm default terminal
 
