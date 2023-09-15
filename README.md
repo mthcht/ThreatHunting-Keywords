@@ -16,6 +16,7 @@
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
 - [Website](#quick-datatable-to-search-for-keyword-can-be-improved-open-to-suggestions)
 - [Expected False positives](#false-positives)
+- [SIGMA rules](#SIGMA-Rules)
 - [contribute](#-contributing)
 
 ## Files
@@ -302,6 +303,10 @@ https://mthcht.github.io/ThreatHunting-Keywords/
 ## False positives
 
 Contribute and add your false positives to the expected false positives [list](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/_false_positives/false_positives_offensive_keywords.md)
+
+## SIGMA Rules
+
+Check out the lookup translated in [SIGMA rules](https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules) i usually update it at the same time :) 
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
