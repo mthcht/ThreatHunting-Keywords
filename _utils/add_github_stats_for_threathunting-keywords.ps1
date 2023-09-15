@@ -13,7 +13,7 @@ $updated_at = @{}
 $popularity = @{}
 $newCsvPath = "..\threathunting-keywords.csv"
 
-Remove-Item $newCsvPath -ErrorAction SilentlyContinue
+#Remove-Item $newCsvPath -ErrorAction SilentlyContinue
 
 $updatedRows = @()
 
