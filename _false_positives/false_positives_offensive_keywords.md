@@ -68,6 +68,6 @@ ref: https://wtfbins.wtf/bin/13
 C:\Program Files (x86)\Silver Bullet Technology\Ranger\Logging\Bloodhound.exe
 ```
 
-recommandation: exclude this process path
+recommandation: exclude this process path along with the parent process
 
 ---
