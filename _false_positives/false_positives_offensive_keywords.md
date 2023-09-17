@@ -14,6 +14,8 @@ AND
 - process: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Add-MpPreference -ExclusionPath "\"C:\Users\mthcht\AppData\Local\ModOrganizer\""`
 - parent_process: `C:\Users\mthcht\AppData\Local\Temp\is-DFK6J.tmp\Mod Organizer 2-6194-2-4-4-1640622655.tmp`
 
+Recommandation: do not exclude this behavior and uninstall the software (not something we want to see on your enterprise workstation but not malicious)
+
 ---
 ## Keyword: `*DisableRealtimeMonitoring $true*`
   - `*Set-MpPreference -DisableRealtimeMonitoring *true*`
