@@ -44,3 +44,16 @@ Sysmon Event ID 11
 
 recommandation: exclude Image `*\Program Files\nodejs\node.exe` + TargetFilename `C:\Users\*\AppData\Local\Yarn\Cache\v6\npm-node-gyp-*-integrity\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py`
 
+---
+
+## keyword: `*bloodhound.exe*`
+
+ref: https://wtfbins.wtf/bin/13
+
+```
+C:\Program Files (x86)\Silver Bullet Technology\Ranger\Logging\Bloodhound.exe
+```
+
+recommandation: exclude this process path
+
+---
