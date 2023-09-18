@@ -9645,7 +9645,6 @@
 .*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
 .*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
 .*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
-.*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
 .*e3f9f33e0223371b74d1ce7049a52675ea7a7086f1901b753db3cd9c187246b2.*
 .*e54acaf84b54afaa2320803e0928ce9fbc19d8be3e8df4051b88f1b19cd836a5.*
 .*e56e67b10a67f0d5ef4128c7ab0c6cb9ba9966916720525edfa6abf3101dfe13.*
@@ -18084,6 +18083,7 @@
 .*Trojan:Win64/IceId.*
 .*TrojanDropper:Win32.*
 .*TrojanSpy:MSIL/JSSLoader.*
+.*TrojanSpy:MSIL/JSSLoader.*
 .*truecrypt2john\.py.*
 .*True-Demon.*
 .*trufflehog git .*
@@ -18512,13 +18512,17 @@
 .*win_wlan_passwd_and_wanip_extractor\.py.*
 .*Win32\.LaZagne.*
 .*Win32\.Trojan.*
+.*Win32/Goodkit.*
+.*Win32/IceId.*
 .*Win32/Mikatz.*
+.*Win32/Trickbot.*
 .*Win32:Trojan.*
 .*win32_stage_boot_reverse_shell_revert\.asm.*
 .*win32_stage_uploadexec\.asm.*
 .*win32_stage_winexec\.asm.*
 .*Win32kLeaker\..*
 .*Win64\.Lazagne.*
+.*Win64/IceId.*
 .*Win64/Mikatz.*
 .*Win7Elevate\..*
 .*Win7ElevateDll\..*
