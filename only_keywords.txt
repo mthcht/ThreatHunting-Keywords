@@ -15,6 +15,7 @@
 * /asrepkey*
 * /bin/nc * -e /bin/bash* > cron && crontab cron*
 * /bin/nc * -e /bin/bash*> * crontab cron*
+* /c sc query WinDefend*
 * /cmdtech:* /cmd:* /impuser:*
 * /cmdtech:* /cmd:* /query:*
 * /create /tn Notion /tr \*cmd.exe* -c *\* /sc onlogon /ru System\*
@@ -277,6 +278,7 @@
 * charlotte.cpp*
 * charlotte.dll *
 * CharSubroutine-Macro.xls*
+* -CheckShareAccess -Verbose*
 * --check-tor *
 * -ChildPath *fodhelper.exe*
 * -ChildPath *sdclt.exe*
@@ -436,6 +438,7 @@
 * dicom-ping.nse*
 * dict-info.nse*
 * DInvokeResolver.*
+* dir /s */ Microsoft.ActiveDirectory.Management.dll*
 * --dirnames bank financ payable payment reconcil remit voucher vendor eft swift *
 * dirty.c*
 * dirtycow.c *
@@ -1542,6 +1545,7 @@
 * PrincipalsAllowedToDelegateToAccount *
 * Priv_Esc.sh*
 * --priv-esc*
+* process call create *cmd.exe /c powershell.exe -nop -w hidden -c *IEX ((new-object net.webclient).downloadstring('https://*
 * Process spawned with stolen token!*
 * --propagated*
 * proxychains *
@@ -2069,6 +2073,7 @@
 * web-hacking-toolkit *
 * weblogic-t3-info.nse*
 * --werfault *\temp\*
+* where /r C:\Windows\WinSxS\ *Microsoft.ActiveDirectory.Management.dll*
 * whois-domain.nse*
 * whois-ip.nse*
 * winDefKiller *
@@ -2291,6 +2296,7 @@
 *.exe -d * -u * -p * -m LDAPS*
 *.exe -d 3 -c *powershell -ep bypass*
 *.exe dump /luid:0x5379f2 /nowrap*
+*.exe Get-DomainController -Domain * -Server * -Credential *
 *.exe -gettgs -luid:*
 *.exe gmsainfo --sid *
 *.exe GoogleDrive --appname * --accesstoken * --filepath * --extensions * --memoryonly*
@@ -2736,6 +2742,7 @@
 */avet_script_config.sh*
 */avoid_badchars.py*
 */avred.git*
+*/avred.py*
 */avred.py*
 */avredweb.py *
 */awesome-burp-extensions/*
@@ -4792,6 +4799,7 @@
 */PowerShx.git*
 */PowerTools*
 */PowerView.cna*
+*/PowerView.ps1*
 */PowerView3.cna*
 */PPEnum/*
 */ppl/ppl.c*
@@ -5166,6 +5174,7 @@
 */share/windows-resources/wce*
 */share_enum.py*
 */ShareFinder.cs*
+*/Sharefinder.ps1
 */shares-with-SCF.txt*
 */SharpBlackout.git*
 */SharpC2*
@@ -5177,6 +5186,7 @@
 */SharpCompile/*
 */sharpcompile_*.*
 */SharpCradle/*
+*/SharpDomainSpray.git*
 */SharpDoor.cs*
 */SharpDoor.git*
 */SharpDPAPI.git*
@@ -5197,6 +5207,7 @@
 */SharpSploit*
 */SharpSploit/*
 */SharpSpoolTrigger*
+*/SharpSpray.exe*
 */SharpStay.git*
 */SharpStay/*
 */SharpSword.git*
@@ -5204,6 +5215,7 @@
 */SharpSystemTriggers*
 */SharpTerminator/*
 */SharpUnhooker.git*
+*/SharpView.git*
 */SharpWSUS*
 */SharPyShell*
 */shell/password.go*
@@ -5927,12 +5939,40 @@
 *\\DCSC_stdOutPipe*
 *\\GetWebDAVStatus.exe*
 *\\pipe\\DAV RPC SERVICE*
+*\1.bat
+*\1.dll
 *\1.Encrypt_shellcode*
+*\1.exe
+*\2.bat
+*\2.dll
+*\2.exe
+*\3.bat
+*\3.dll
+*\3.exe
+*\4.bat
+*\4.dll
+*\4.exe
+*\5.bat
+*\5.dll
+*\5.exe
+*\6.bat
+*\6.dll
+*\6.exe
+*\7.bat
+*\7.dll
+*\7.exe
+*\8.bat
+*\8.dll
+*\8.exe
 *\8e8988b257e9dd2ea44ff03d44d26467b7c9ec16*
+*\9.bat
+*\9.dll
+*\9.exe
 *\AbandonedCOMKeys.*
 *\ADCSPwn*
 *\ADFSpoof.py*
 *\ADFSpray*
+*\ADGet.exe*
 *\adm2sys.py*
 *\admin-panels.txt*
 *\agent_exe.exe*
@@ -5946,6 +5986,7 @@
 *\AoratosWin*
 *\APCLdr.*
 *\Apollo.exe*
+*\AppData\Local\Microsoft\CLR_*\UsageLogs\*.exe.log*
 *\AppData\Local\Temp\Procmon.exe*
 *\AppData\Local\Temp\Procmon64.exe*
 *\asm\x64\alter_pe_sections*
@@ -5956,6 +5997,7 @@
 *\AutoSmuggle\*.cs*
 *\autotimeline*
 *\avetdbg.txt*
+*\avred.py*
 *\avred.py*
 *\avredweb.py *
 *\AzureC2Proxy\*
@@ -6037,6 +6079,7 @@
 *\dllexploit.cpp*
 *\dllexploit.exe*
 *\DllExport.bat*
+*\DllVoidFunction.txt*
 *\dnscan.py*
 *\DoHC2.cs*
 *\DomainRecon\*.txt
@@ -6145,6 +6188,7 @@
 *\Ivy\Loader\*
 *\JuicyPotatoNG*
 *\JunctionFolder.csproj*
+*\katz.ps1*
 *\kdstab.exe*
 *\KeeTheft.exe*
 *\kerberoast.c*
@@ -6166,6 +6210,7 @@
 *\ldap_search_bof.py*
 *\LibSnaffle*
 *\Loader\Loader.csproj*
+*\local_admins.csv*
 *\LocalPrivEsc\*
 *\LogonScreen.exe*
 *\lsass.DMP
@@ -6179,6 +6224,7 @@
 *\malware_runner.py*
 *\manspider_*.log*
 *\master\GPSCoordinates\*
+*\Mayhem.psm1*
 *\mem_dll.pdb*
 *\mhydeath64*
 *\mimi32.exe*
@@ -6192,6 +6238,7 @@
 *\mystikal.py*
 *\nanodump*
 *\net*\ftpagent.exe*
+*\net.exe" accounts*
 *\NetExec-main*
 *\NetLoader.exe*
 *\netscan.exe*
@@ -6256,7 +6303,9 @@
 *\powershell.exe* = hidden*
 *\powershell.exe* =hidden*
 *\PowershellKerberos*
+*\powerup.exe*
 *\Powerup.exe*
+*\PowerUp.ps1*
 *\PowerView.cna*
 *\PowerView.exe*
 *\Powerview.exe*
@@ -6273,6 +6322,7 @@
 *\process_killer.cpp*
 *\ProduKey.exe*
 *\ProgramData\asrephashes.txt*
+*\ProgramData\shares.txt*
 *\ps2exe.ps1*
 *\PS2EXE\*.ps1*
 *\PsExecLog.log*
@@ -6290,6 +6340,7 @@
 *\ratchatPT.go*
 *\ratchatPT.syso*
 *\RDPCredsStealerDLL*
+*\Recon.tests.ps1*
 *\RecycledGate.c*
 *\RemoteCamera.dll*
 *\Resources\Disks-NoEncryption.txt*
@@ -6330,7 +6381,9 @@
 *\SessionSearcher.exe*
 *\shadowcoerce.py*
 *\ShadowSpray\*.cs*
+*\Sharefinder.ps1*
 *\SharpC2*
+*\SharpDomainSpraty\*
 *\SharpDoor.cs*
 *\SharpEfsPotato*
 *\SharpExfiltrate\*
@@ -6339,6 +6392,7 @@
 *\SharpMove.exe*
 *\SharpNoPSExec*
 *\SharpRDPHijack*
+*\SharpSpray.exe*
 *\SharpTerminator.csproj*
 *\SharPyShell*
 *\shellcode_loader.dll*
@@ -6601,6 +6655,7 @@
 *207953846cc26417e163db3dc483a65e8e94bc9bd86c8928d59b078f1e72fcc7*
 *210A3DB2-11E3-4BB4-BE7D-554935DCCA43*
 *215a9f9095e89c79b342aed5625bbc6d660b910cd15a06ac4a072e8860c3e2c6*
+*22A156EA-2623-45C7-8E50-E864D9FC44D3*
 *23975ac9-f51c-443a-8318-db006fd83100*
 *23A2E629-DC9D-46EA-8B5A-F1D60566EA09*
 *23af06a7987966a7e51336b3cdd33b411fa05778ec14179a50a60fa0f6aee1af*
@@ -6720,6 +6775,7 @@
 *6973A4710FD88D32D47F4523E7EC098EF407F8ECED4B34AF6D3759CE1696EF19*
 *6BF82CF9845C649557FC02D1E3D0B6A9FB4F827CC7815BF477DD0CB51246DA45*
 *6c1434ff461372f8c6458ef072a32da96fc76f69f97f46fd975742b2ab5baa13*
+*6CAFC0C6-A428-4D30-A9F9-700E829FEA51*
 *6d40ed8b3a8d33fcfff627ead344afb1fda7f76099cb8ee4135ff1c8216e94f6*
 *6e738ced2705ddee02d2040d9c7c0b9e57e16758f44faa0d855975f1b5b6d3d5*
 *6e7645c4-32c5-4fe3-aabf-e94c2f4370e7*
@@ -6734,6 +6790,7 @@
 *750326700ffeeac7f34aa111af345fec1c221f519347e57e35b96454fcc044f6*
 *7565529119639cd275dc65b5290ad98bf4f4178f98d0b55368d337227c9ef085*
 *76faa46729e53c1204c1c6f4d51d9a0c2701cca1f7e927249cfb0bce71e60022*
+*76FFA92B-429B-4865-970D-4E7678AC34EA*
 *785ca1f83eab4185774f140b74d30823a69dec01ca06ccba4bfd8d1ddd3255d9*
 *789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650*
 *79F54747-048D-4FD6-AEF4-7B098F923FD8*
@@ -6913,6 +6970,7 @@
 *Add-MpPreference -ExclusionPath *
 *Add-MpPreference -ExclusionProcess *\Windows\System32\WindowsPowerShell\v1.0\powershell.exe*
 *Add-ObjectAcl -TargetADSprefix 'CN=AdminSDHolder*CN=System' -PrincipalSamAccountName * -Rights All*
+*Add-Persistence *
 *Add-Persistence*
 *Add-Persistence.ps1*
 *addpriv SeloadDrivePrivilege*
@@ -6922,6 +6980,7 @@
 *Add-RemoteRegBackdoor*
 *Add-RemoteRegBackdoor*
 *addresshunter.h*
+*Add-ServiceDacl *
 *Add-ServiceDacl*
 *addspn.py -u * -p * -t * -s * --additional *
 *addspn.py*
@@ -7108,12 +7167,14 @@
 *ansible2john.py*
 *anthemtotheego/Detect-Hooks*
 *antirez/hping*
+*AntivirusBypass.psm1*
 *antiword FUZZ*
 *antonioCoco/ConPtyShell*
 *antonioCoco/JuicyPotatoNG*
 *antonioCoco/RoguePotato*
 *antonioCoco/RunasCs*
 *antonioCoco/RunasCs*
+*anydesk.exe --set-password*
 *anypotato.exe*
 *AoratosWin*.zip*
 *AoratosWin.csproj*
@@ -7164,6 +7225,7 @@
 *ArchStrike*
 *ares.py runserver*
 *ares-master.zip*
+*Args_Invoke_Kerberoast*
 *armitage.exe*
 *armory install *
 *armory install .net-execute*
@@ -8448,9 +8510,11 @@
 *cmd*echo*\pipe\*
 *cmd.exe  /S /D /c* echo 123
 *cmd.exe /c *echo test > C:\Users\Public\test.txt*
+*cmd.exe /c chcp >&2*
 *cmd.exe /c rundll32.exe agressor.dll*stealth*
 *cmd.exe /c sc start plumber*
 *cmd.exe /c timeout /t 5 & del /f /q *%s* & exit*
+*cmd.exe /C wmic /node:* /user:* /password:* os get caption*
 *cmd.exe /c zoom1.msi*
 *cmd.exe /Q /c start *stage1.exe 1*
 *cmd/backdoor.go*
@@ -8656,6 +8720,7 @@
 *ContainYourselfTempFile.txt*
 *ContentHijacking.swf*
 *ConvertFrom-LDAPLogonHours*
+*Convert-NT4toCanonical*
 *ConvertTo-LogonHoursArray*
 *ConvertTo-Rc4ByteStream*
 *ConvertTo-ROT13.ps1*
@@ -9910,6 +9975,7 @@
 *evilmog/ntlmv1-multi*
 *EvilnoVNC-main*
 *eviloffice.exe*
+*EvilPayload.ps1*
 *evilqr-main*
 *evilqr-phishing*
 *evilqr-server*
@@ -10013,12 +10079,14 @@
 *ExegolProgress.py*
 *ExegolPrompt.py*
 *ExeStager.csproj*
+*ExeToInjectInTo.*
 *ExeToLaunch StringToBePutAsCmdline*
 *ExetoText.ps1*
 *ExfilDataToGitHub*
 *ExfilDataToGitHub*
 *Exfil-EC266392-D6BC-4F7B-A4D1-410166D30B55.json*
 *exfiltrate_via_post.exe*
+*Exfiltration.tests.ps1*
 *existing_auto_target.rb*
 *exit_nimbo*
 *--expected Bad --expected-stop Welcome*
@@ -10257,6 +10325,7 @@
 *Find-AmsiPSTokenSignatures -*
 *Find-AmsiSignatures.ps1*
 *Find-AppLockerLogs*
+*Find-AVSignature*
 *findDelegation.py -dc-ip *
 *findDelegation.py*
 *Find-DomainShare -*
@@ -10265,6 +10334,7 @@
 *Find-Fruit.ps1*
 *findgpocomputeradmin*
 *Find-GPOComputerAdmin*
+*Find-GPOComputerAdmin*
 *Find-InterestingDomainAcl*
 *Find-InterestingDomainAcl*
 *Find-InterestingDomainAcl*
@@ -10272,6 +10342,7 @@
 *Find-InterestingDomainShareFile*
 *Find-InterestingDomainShareFile*
 *find-interestingfile -*
+*Find-InterestingFile*
 *Find-KeePassconfig*
 *Find-KeePassconfig*
 *Find-LocalAdminAccess -Verbose*
@@ -10281,11 +10352,14 @@
 *Find-LocalAdminAccess*
 *Find-LocalAdminAccess*
 *Find-LocalAdminAccess*
+*Find-LocalAdminAccess*
 *Find-LogonScriptCredentials -LogonScripts*
 *Find-LogonScriptCredentials.ps1*
 *FindModule *.dll*
 *FindObjects-BOF*
 *Find-PathDLLHijack*
+*Find-PathDLLHijack*
+*Find-ProcessDLLHijack*
 *Find-ProcessDLLHijack*
 *FindProcessTokenAndDuplicate*
 *FindProcHandle *lsass*
@@ -10603,6 +10677,7 @@
 *GetC2Server*
 *Get-CachedGPPPassword*
 *Get-CachedRDPConnection*
+*Get-CachedRDPConnection*
 *getcap -r / 2>*
 *getcap -r / 2>/dev/null*
 *Get-ChromeBookmarks*
@@ -10633,6 +10708,7 @@
 *Get-DecryptedSitelistPassword*
 *get-delegation *All*
 *get-delegation *Unconstrained*
+*Get-DFSshare*
 *Get-DiscosdurosGet-PSDrive*
 *getdllbaseaddress*
 *get-dodgyprocesses*
@@ -10660,6 +10736,7 @@
 *getExploit.py*
 *getexploitablesystem*
 *Get-ExploitableSystem*
+*Get-ExploitableSystem*
 *Get-ExploitableUnquotedPath*
 *Get-FakeServiceUsers*
 *Get-FireFoxHistory*
@@ -10669,6 +10746,7 @@
 *Get-GPPInnerFields*
 *getgpppassword *
 *Get-GPPPassword -*
+*Get-GPPPassword*
 *Get-GPPPassword*
 *Get-GPPPassword.ps1*
 *Get-GPPPassword.py*
@@ -10687,25 +10765,45 @@
 *Get-KeePassINIFields*
 *Get-KeePassXMLFields*
 *Get-KeystrokeData*
+*Get-Keystrokes *
 *Get-Keystrokes*
 *get-keystrokes*
+*Get-Keystrokes*
 *Get-Killdate*
 *get-killdate*
 *Get-LastLoggedon -*
+*Get-LastLoggedOn*
 *getLocalAdm*
 *Get-LoggedOnLocal -*
 *Get-LoggedonLocal -ComputerName *
 *Get-LsaRunAsPPLStatus*
 *Get-LSASecret*
 *Get-ModifiableRegistryAutoRun*
+*Get-ModifiableRegistryAutoRun*
 *Get-ModifiableScheduledTaskFile*
+*Get-ModifiableScheduledTaskFile*
+*Get-ModifiableService*
+*Get-MpComputerStatus*
 *Get-NetComputer -Unconstrainuser*
+*Get-NetDomainController*
+*Get-NetDomainTrust*
 *get-netfileserver -domain *
 *Get-NetFileServer*
+*Get-NetFileServer*
+*Get-NetForestCatalog*
 *Get-NetForestDomain*
+*Get-NetForestDomain*
+*Get-NetForestTrust*
+*Get-NetGPOGroup*
 *Get-NetGroupMember -GroupName *DNSAdmins*
+*Get-NetLocalGroup*
 *Get-NetLoggedon -*
+*Get-NetLoggedon*
 *Get-NetRDPSession -*
+*Get-NetRDPSession*
+*Get-NetSession*
+*Get-NetShare*
+*Get-NetSubnet*
 *Get-NetUser -SPN*
 *Get-NetUser -SPN*
 *Get-NetUser -UACFilter NOT_ACCOUNTDISABLE*
@@ -10736,6 +10834,8 @@
 *get-process *amsi.dll*
 *Get-RBCD-Threaded*
 *Get-RegistryAlwaysInstallElevated*
+*Get-RegistryAlwaysInstallElevated*
+*Get-RegistryAutoLogon*
 *Get-RegistryAutoLogon*
 *GetRektBoy724/SharpUnhooker*
 *Get-RemoteCachedCredential*
@@ -10756,6 +10856,7 @@
 *Get-ShadowCopies*
 *GetShellcode(*
 *Get-SitelistFields*
+*Get-SiteListPassword*
 *Get-SiteListPassword*
 *Get-SiteListPassword*
 *Get-SiteListPassword*
@@ -10781,7 +10882,9 @@
 *gettgtpkinit.py -cert-pfx*
 *gettgtpkinit.py -pfx-base64 *
 *gettgtpkinit.py*
+*Get-TimedScreenshot*
 *Get-UnattendSensitiveData*
+*Get-UnquotedService*
 *Get-USBKeystrokes*
 *Get-UserBadPwdCount*
 *Get-UserPrivileges*
@@ -10789,8 +10892,10 @@
 *GetUserSPNs.*
 *GetUserSPNs.vbs*
 *Get-VaultCredential*
+*Get-VaultCredential*
 *Get-VaultCredential.ps1*
 *Get-VaultCreds*
+*Get-VolumeShadowCopy*
 *Get-WebCredentials*
 *GetWebDAVStatus.csproj*
 *GetWebDAVStatus.sln*
@@ -11167,6 +11272,7 @@
 *hd-launch-cmd *
 *headers/exploit.h*
 *headers/HandleKatz.h*
+*--headless --disable-gpu --disable-logging --dump-dom https://getip.pro*
 *HeapCrypt-main*
 *HeapEncryptDecrypt.cpp*
 *HeapEncryptDecrypt.exe*
@@ -11457,6 +11563,7 @@
 *Huan.vcxproj*
 *HuanLoader.vcxproj*
 *hub.docker.com/u/kalilinux/*
+*HunnicCyber/SharpDomainSpray*
 *HVNC Server.exe*
 *HVNC\ Server*
 *hydra -*
@@ -11902,6 +12009,7 @@
 *Invoke-ACLScanner * -Filter *
 *Invoke-ACLScanner * -Name *
 *invoke-aclscanner*
+*Invoke-ACLScanner*
 *Invoke-ADCSTemplateRecon*
 *Invoke-ADSBackdoor*
 *Invoke-ADSBackdoor*
@@ -11957,6 +12065,7 @@
 *Invoke-Certify*
 *invokechecklocaladminaccess*
 *Invoke-CheckLocalAdminAccess*
+*Invoke-CheckLocalAdminAccess*
 *invoke-checklocaladminaccess*
 *Invoke-ClipboardMonitor*
 *Invoke-ConPtyShell*
@@ -11969,6 +12078,9 @@
 *Invoke-CredentialGuardCheck*
 *Invoke-CredentialInjection*
 *Invoke-CredentialInjection*
+*Invoke-CredentialInjection*
+*Invoke-CredentialInjection.ps1*
+*Invoke-CredentialInjection.ps1*
 *Invoke-CredentialsPhish*
 *Invoke-DAFT.*
 *invoke-daisychain*
@@ -11979,6 +12091,7 @@
 *Invoke-DinvokeKatz*
 *Invoke-DllHijackingCheck*
 *Invoke-DllHijackingCheck*
+*Invoke-DllInjection*
 *Invoke-DllInjection*
 *Invoke-DNSExfiltrator*
 *Invoke-DNSUpdate.ps1*
@@ -12001,11 +12114,13 @@
 *invokeenumeratelocaladmin*
 *Invoke-EnumerateLocalAdmin*
 *Invoke-EnumerateLocalAdmin*
+*Invoke-EnumerateLocalAdmin*
 *Invoke-EnvBypass*
 *Invoke-EnvBypass.*
 *Invoke-EnvBypass.ps1*
 *Invoke-EssessAgress*
 *invoke-eternalblue*
+*Invoke-EventHunter*
 *invoke-eventhunter*
 *Invoke-EventViewer *.exe*
 *Invoke-EventViewer.ps1*
@@ -12018,6 +12133,7 @@
 *Invoke-FakeLogonScreen*
 *Invoke-Farmer*
 *invokefilefinder*
+*Invoke-FileFinder*
 *Invoke-FileFinder*
 *Invoke-FodHelperBypass*
 *Invoke-FodHelperBypass*
@@ -12093,10 +12209,12 @@
 *Invoke-MachineRoleCheck*
 *Invoke-MalSCCM*
 *Invoke-MalSCCM*
+*Invoke-MapDomainTrust*
 *Invoke-Merlin.ps1*
 *Invoke-MetaTwin*
 *InvokeMeter.bat*
 *Invoke-MFASweep*
+*Invoke-Mimikatz*
 *Invoke-Mimikatz*
 *Invoke-Mimikatz*
 *Invoke-Mimikatz.ps1*
@@ -12120,6 +12238,7 @@
 *Invoke-Nightmare -DLL *
 *Invoke-Nightmare -NewUser*
 *Invoke-Nightmare*
+*Invoke-NinjaCopy*
 *Invoke-NinjaCopy*
 *Invoke-NinjaCopy*
 *Invoke-noPac.*
@@ -12161,6 +12280,7 @@
 *Invoke-PortScan*
 *Invoke-Portscan*
 *Invoke-PortScan*
+*Invoke-Portscan*
 *Invoke-Portscan.ps1*
 *Invoke-Portscan.ps1*
 *Invoke-PoshRatHttp*
@@ -12195,10 +12315,12 @@
 *Invoke-PrintDemon*
 *Invoke-PrintNightmareCheck*
 *Invoke-Privesc*
+*Invoke-PrivescAudit*
 *Invoke-PrivescCheck*
 *Invoke-PrivescCheck*
 *Invoke-PrivescCheck.ps1*
 *invokeprocesshunter*
+*Invoke-ProcessHunter*
 *Invoke-ProcessHunter*
 *invoke-processhunter*
 *Invoke-ProcessScan*
@@ -12221,6 +12343,7 @@
 *Invoke-RBDC*
 *Invoke-RBDC-over-DAVRPC*
 *Invoke-RDPwrap.ps1*
+*Invoke-ReflectivePEInjection*
 *Invoke-ReflectivePEInjection*
 *Invoke-ReflectivePEInjection*
 *Invoke-ReflectivePEInjection*
@@ -12268,6 +12391,7 @@
 *Invoke-SensitiveHiveShadowCopyCheck*
 *Invoke-ServiceAbuse*
 *Invoke-ServiceAbuse*
+*Invoke-ServiceAbuse*
 *Invoke-Service-persistence.ps1*
 *Invoke-ServicesImagePermissionsCheck*
 *Invoke-ServicesImagePermissionsCheck*
@@ -12284,6 +12408,7 @@
 *Invoke-ShadowSpray*
 *invoke-sharefinder *
 *invokesharefinder*
+*Invoke-ShareFinder*
 *Invoke-ShareFinder*
 *Invoke-ShareFinder*
 *Invoke-ShareFinder*
@@ -12344,6 +12469,8 @@
 *Invoke-Shellcode -Shellcode*
 *Invoke-Shellcode*
 *Invoke-Shellcode*
+*Invoke-Shellcode*
+*Invoke-Shellcode.ps1*
 *Invoke-Shellcode.ps1*
 *Invoke-ShellcodeMSIL*
 *Invoke-ShellCommand*
@@ -12407,6 +12534,7 @@
 *Invoke-Thunderfox*
 *Invoke-TmpDavFS*
 *Invoke-TokenManipulation*
+*Invoke-TokenManipulation*
 *Invoke-TokenManipulation.ps1*
 *Invoke-Tokenvator*
 *Invoke-UacCheck*
@@ -12422,6 +12550,7 @@
 *Invoke-UserGroupsCheck*
 *Invoke-UserHunter -CheckAccess*
 *invokeuserhunter*
+*Invoke-UserHunter*
 *Invoke-UserHunter*
 *Invoke-UserHunter*
 *invoke-userhunter*
@@ -12461,6 +12590,7 @@
 *invoke-winrmsession*
 *Invoke-WireTap*
 *Invoke-WlanProfilesCheck*
+*Invoke-WmiCommand *
 *Invoke-WmiCommand*
 *invoke-wmiexec *
 *Invoke-WMIExec*
@@ -13738,6 +13868,7 @@
 *morphHTA*
 *mortar-main.zip*
 *mosquitto2john.py*
+*Mount-VolumeShadowCopy*
 *mousejack*
 *mouseshaker.*
 *movefile64.exe /nobanner *.dll C:\Windows\System32\amsi.dll*
@@ -13943,6 +14074,7 @@
 *Narasimha1997/fake-sms*
 *NativeEasyHook32.dll*
 *NativeEasyHook64.dll*
+*Naughty-Script.ps1*
 *NBNSBruteForceHost*
 *NBNSBruteForcePause*
 *NBNSBruteForceSpoofer*
@@ -13997,11 +14129,13 @@
 *nessuscli fix*
 *nessus-updates*.tar.gz*
 *net domain_controllers*
+*net group "Domain Admins" /domain*
 *net group *domain admins* /domain*
 *net group *Domain Controllers*/domain*
-*net group *Enterprise Admins* /domain*
+*net group *Enterprise Admins* /dom*
 *net group / domain *Domain Admins*
 *net group /domain *Domain Admins*
+*net group administrators /domain*
 *net localgroup administrators icebreaker*
 *net rpc group addmem 'Domain admins' *
 *net rpc group members 'Domain admins' -U *
@@ -14010,6 +14144,7 @@
 *net user /add icebreaker *
 *net user HackMe *
 *net user john H4x00r123*
+*net view /all /domain*
 *net* group Administrator* /add /domain*
 *net.fuzz *
 *net.fuzz.*
@@ -14090,6 +14225,7 @@
 *new session to 127.0.0.1:3000*
 *NewAdminAccountCreation.ps1*
 *New-ElevatedPersistenceOption*
+*New-ElevatedPersistenceOption*
 *New-HoneyHash*
 *New-HoneyHash.ps1*
 *New-InMemoryModule -ModuleName Win32*
@@ -14102,6 +14238,8 @@
 *New-PSDrive -Name T -PSProvider FileSystem -Root \\$IP\transfer *
 *New-RoutingPacket*
 *New-UserPersistenceOption*
+*New-UserPersistenceOption*
+*New-VolumeShadowCopy*
 *New-WmiSession.ps1*
 *Nexpose*
 *nextnet.exe*
@@ -14719,6 +14857,7 @@
 *perfdata.portswigger.net*
 *PerfExec.sln*
 *PerfExec-main.zip*
+*Perform password spraying for all active users on a domain*
 *Performing recursive ShadowSpray attack*
 *perl nikto.pl -h*
 *perl_no_sh_reverse_tcp.py*
@@ -14735,6 +14874,7 @@
 *PersistBOF.cna*
 *Persistence.cpp*
 *Persistence.exe*
+*Persistence.psm1*
 *Persistence.psm1*
 *Persistence.psm1*
 *Persistence/InstallWMI*
@@ -15027,6 +15167,7 @@
 *powershell Invoke-WebRequest http*.bat *
 *powershell New-ItemProperty -Path *HKLM:\SOFTWARE\Policies\Microsoft\Windows Defender* -Name DisableAntiSpyware -Value 1 -PropertyType DWORD -Force*
 *powershell -nop -exec bypass -EncodedCommand SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAGMAbABpAGUAbgB0ACkALgBEAG8AdwBuAGwAbwBhAGQAUwB0AHIAaQBuAGcAKAAnAGgAdAB0AHAAOgAvAC8AMQAyADcALgAwAC4AMAAuADEAOgAyADAANAAxADIALwAnACkAOwAgAC4AXAByAGMAbABvAG4AZQBtAGEAbgBhAGcAZQByAC4AcABzADEA*
+*powershell*Uninstall-WindowsFeature -Name Windows-Defender-GUI*
 *Powershell.exe  -windowstyle hidden -nop -ExecutionPolicy Bypass  -Commmand *C:\Users\*\AppData\Roaming\*
 *powershell.exe -exec bypass -noni -nop -w 1 -C*
 *powershell.exe -noni -nop -w 1 -enc *
@@ -15048,6 +15189,7 @@
 *powershell_encode_stager*
 *powershell_management_psinject*
 *powershell_management_spawn*
+*PowerShell_PoC.zip*
 *powershell_privesc_bypassuac_eventvwr*
 *powershell_privesc_sherlock*
 *powershell_reverse_shell.ps1*
@@ -15068,6 +15210,7 @@
 *PowershellKerberos-main*
 *PowerShellMafia*
 *PowerShellMafia/PowerSCCM*
+*PowerShellMafia/PowerSploit*
 *PowerShellObfuscator.ps1*
 *PowershellRunner.h*
 *PowerShellStager*
@@ -15078,6 +15221,9 @@
 *PowerShxDll.csproj*
 *PowerShx-master*
 *PowerSploit*
+*PowerSploit-*.zip*
+*PowerSploit.*
+*PowerSploit/releases*
 *powerstager*
 *PowerUp.ps1*
 *PowerUp.ps1*
@@ -15149,6 +15295,8 @@
 *privcheck.cna*
 *privcheck32*
 *PrivEditor.dll*
+*Privesc.psm1*
+*Privesc.tests.ps1*
 *privesc_checker*
 *privesc_checker.py*
 *privesc_juicy_potato.py*
@@ -15614,6 +15762,8 @@
 *Ransom:Win32*
 *Ransom:Win32*
 *Ransom:Win64*
+*Ransom_Petya*
+*Ransom_WCRY*
 *Ransomware POC tool that encrypts a given directory*
 *Ransomware.dll*
 *Ransomware.pdb*
@@ -15987,6 +16137,7 @@
 *Remove-PoshRat*
 *removeRegTrace*
 *Remove-Update.ps1*
+*Remove-VolumeShadowCopy*
 *ren C:\Windows\System32\amsi.dll *.dll
 *renameMachine.py -current-name * -new-name * -dc-ip * *:*
 *renameMachine.py -current-name * -new-name*
@@ -16034,6 +16185,7 @@
 *ReverseSocksProxyHandler.*
 *ReverseSocksProxyHandler.py*
 *ReversingID/Shellcode-Loader*
+*RevertToSelf was successful*
 *Revoke-Obfuscation*
 *RevWinDefKiller.exe*
 *RhinoSecurityLabs*
@@ -16753,6 +16905,9 @@
 *SharpDcomTrigger.exe*
 *SharpDir.exe*
 *SharpDllProxy*
+*SharpDomainSpray*
+*SharpDomainSpray.*
+*SharpDomainSpray-master*
 *SharpDoor.exe*
 *SharpDoor-master*
 *SharpDPAPI backupkey*
@@ -16916,6 +17071,7 @@
 *SharpSplunkWhisperer2*
 *SharpSpoolTrigger.exe*
 *SharpSpray*
+*SharpSpray.exe *
 *SharpSpray.exe*
 *SharpSQLPwn*
 *SharpSQLPwn.exe*
@@ -16960,6 +17116,9 @@
 *SharpUpManager*
 *SharpUpMenu(*
 *SharpView.exe*
+*SharpView.exe*
+*SharpView\SharpView*
+*SharpView-master*
 *sharpweb all*
 *SharpWebManager.cs*
 *SharpWebServer.exe*
@@ -17839,7 +17998,9 @@
 *testing* testing* 1* 2* 3 *
 *Test-ServiceDaclPermission*
 *Test-ServiceDaclPermission*
+*Test-ServiceDaclPermission*
 *TestWinRMMachines*
+*tevora-threat/SharpView/*
 *text_to_shellcode\*.exe*
 *TexttoExe.ps1*
 *tezos2john.py*
@@ -18264,6 +18425,7 @@
 *using donutCS*
 *using NixImports*
 *using SharpExfiltrate*
+*using SharpView.Enums*
 *using SMBeagle*
 *UsoDllLoader*
 *usr/bin/wget -O /tmp/a http* chmod 755 /tmp/cron*
@@ -18759,10 +18921,12 @@
 *WriteDLLPermission.txt*
 *Write-HijackDll*
 *Write-HijackDll*
+*Write-HijackDll*
 *Write-Output 127.0.0.1:1111*
 *WritePayloadDllTransacted*
 *Write-PortscanOut*
 *Write-ServiceBinary*
+*Write-UserAddMSI*
 *ws://localhost:58082*
 *wscript_elevator*
 *WScriptBypassUAC*
