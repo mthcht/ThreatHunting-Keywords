@@ -1650,7 +1650,6 @@
 * rockyou.txt *
 * --rogue-smbserver-ip *
 * --rogue-smbserver-share *
-* root/SecurityCenter2 -ClassName AntiVirusProduct*
 * ropbuffers.go*
 * ropfuscator*
 * rpcap-brute.nse*
@@ -2472,6 +2471,7 @@
 *.py* service -action create -service-name *
 *.py* -service-name * -hashes *
 *.py*found-users.txt*
+*.rclone.exe config*
 *.resources.123456.*
 *.rtf.bat*
 *.rtf.dll*
@@ -3603,6 +3603,9 @@
 */FourEye.git*
 */fox-info.nse*
 */fox-it/BloodHound*
+*/FreeFileSync.exe*
+*/FreeFileSync_*_Windows_Setup.exe*
+*/FreeFileSyncPortable_*.exe*
 */freelancer-info.nse*
 */Freeze.rs*
 */freyja.go*
@@ -3770,6 +3773,7 @@
 */goMatrixC2.git*
 */go-mimikatz*
 */GONET-Scanner/*
+*/GoodSync-vsub-Setup.exe*
 */goPassGen.git*
 */gopher-ls.nse*
 */gophish.db*
@@ -4356,6 +4360,7 @@
 */master/PhantomService/*
 */maxdb-info.nse*
 */mcafee-epo-agent.nse*
+*/megatools.exe*
 */membase-brute.nse*
 */membase-http-info.nse*
 */memcached-info.nse*
@@ -5011,6 +5016,7 @@
 */rdp-vuln-ms12-020.nse*
 */readfile_bof.*
 */Readfile_BoF/*
+*/RealTimeSync.exe*
 */realvnc-auth-bypass.nse*
 */recon-archy.git*
 */RecycledInjector*
@@ -5225,6 +5231,7 @@
 */ShareFinder.cs*
 */Sharefinder.ps1
 */shares-with-SCF.txt*
+*/SharpAzbelt.git*
 */SharpBlackout.git*
 */SharpC2*
 */SharpCalendar/*.*
@@ -5948,6 +5955,7 @@
 *?convert_kirbi_to_ccache*
 *?PSAmsi*PSReflect.ps1*
 *?sample_sliver.json*
+*[!]    Failed to enumerate Credman:*
 *[!] Failed to download legitimate GPO from SYSVOL (dc_ip:*
 *[!] Failed to write malicious scheduled task to downloaded GPO. Exiting*
 *[*] Downloading the legitimate GPO from SYSVOL*
@@ -5979,6 +5987,8 @@
 *[+] Successfully injected malicious scheduled task*
 *[+] Successfully spoofed GPC gPCFileSysPath attribute*
 *[+] The encrypted payload with *
+*[i] AAD Join:*enumerate*
+*[i] Credman:*Credential Blob Decrypted*
 *[Reflection.Assembly]::LoadWithPartialName('System.Core').GetType('System.Diagnostics.Eventing.EventProvider').GetField('m_enabled'*'NonPublic*Instance').SetValue([Ref].Assembly.GetType('System.Management.Automation.Tracing.PSEtwLogProvider').GetField('etwProvider'*'NonPublic*Static').GetValue($null)*0)*
 *['spawnto']*
 *[X] Your harvest exploded:*
@@ -6127,6 +6137,7 @@
 *\CrossC2.*
 *\CROSSNET\CROSSNET\*
 *\cryptolok*
+*\CurrentVersion\Uninstall\FreeFileSync_is1*
 *\CustomEncoding.cpp*
 *\D1rkInject\*
 *\darkexe.py*
@@ -6200,6 +6211,10 @@
 *\Fertliser.pdb*
 *\Files\ContainersFileUrls.txt*
 *\follina.py*
+*\FreeFileSync.exe*
+*\FreeFileSync\Logs\*
+*\FreeFileSync_*_Windows_Setup.exe*
+*\FreeFileSyncPortable_*.exe*
 *\freeze.go
 *\FtpC2\*
 *\FudgeC2*
@@ -6213,6 +6228,8 @@
 *\GodFault.*
 *\Godpotato\*
 *\GoFetchLog.log*
+*\GoodSync-2*-*.log*
+*\GoodSync-vsub-Setup.exe*
 *\go-secdump*
 *\goZulipC2*
 *\GPOddity\*
@@ -6305,6 +6322,8 @@
 *\manspider_*.log*
 *\master\GPSCoordinates\*
 *\Mayhem.psm1*
+*\megatools-*-win64\*
+*\megatools.exe*
 *\mem_dll.pdb*
 *\mhydeath64*
 *\mimi32.exe*
@@ -6377,6 +6396,7 @@
 *\portbender.*
 *\PoshC2*
 *\PostDump.exe*
+*\powerfun.ps1*
 *\powerglot\*
 *\Powermad*
 *\power-pwn\*
@@ -6405,6 +6425,7 @@
 *\Process Hacker 2\*
 *\process_killer.cpp*
 *\ProduKey.exe*
+*\Program Files\FreeFileSync*
 *\ProgramData\asrephashes.txt*
 *\ProgramData\shares.txt*
 *\ps2exe.ps1*
@@ -6425,6 +6446,7 @@
 *\ratchatPT.go*
 *\ratchatPT.syso*
 *\RDPCredsStealerDLL*
+*\RealTimeSync.exe*
 *\Recon.tests.ps1*
 *\RecycledGate.c*
 *\RemoteCamera.dll*
@@ -6453,6 +6475,11 @@
 *\scmuacbypass.cpp*
 *\scmuacbypass.exe*
 *\SCMUACBypass\*
+*\ScreenConnect.Client.exe*
+*\ScreenConnect.ClientService.exe*
+*\ScreenConnect.ClientSetup.exe*
+*\ScreenConnect.WindowsBackstageShell.exe*
+*\ScreenConnect.WindowsClient.exe*
 *\ScriptSentry.ps1*
 *\ScriptSentry.psd1*
 *\ScriptSentry.psm1*
@@ -6467,6 +6494,9 @@
 *\shadowcoerce.py*
 *\ShadowSpray\*.cs*
 *\Sharefinder.ps1*
+*\SharpAzbelt.csproj*
+*\SharpAzbelt.exe*
+*\SharpAzbelt.sln*
 *\SharpC2*
 *\SharpDomainSpraty\*
 *\SharpDoor.cs*
@@ -6484,6 +6514,7 @@
 *\shellcode_samples\*
 *\sherlock.exe*
 *\Shhmon.*
+*\Siber Systems\GoodSync\*
 *\SigFlip.exe*
 *\sigthief.exe*
 *\SilentClean.exe*
@@ -6520,11 +6551,13 @@
 *\teamstracker.py*
 *\Temp\*\ntds.dit*
 *\Temp\*\ntds.jfm*
+*\TEMP\AteraUpgradeAgentPackage\*
 *\temp\dump.txt*
 *\Temp\dumpert*
 *\temp\hollow.dll*
 *\temp\pwned.trx*
 *\Temp\RTCore64.sys*
+*\TEMP\ScreenConnect\*.ps1*
 *\Temp\whoami.txt*
 *\tests\beacon64.bin*
 *\TGSThief\*
@@ -6553,6 +6586,8 @@
 *\unquotedsvcpath.o*
 *\updog-master\*
 *\usbmon.txt*
+*\Users\*\AppData\Local\GoodSync*
+*\Users\*\AppData\Local\Temp\*.megatools.cache*
 *\Users\Public\*.dmp*
 *\Users\Public\*ntds.dit*
 *\Users\Public\*ntds.jfm*
@@ -6573,6 +6608,7 @@
 *\wdextract32.exe*
 *\wdextract64.exe*
 *\WdigestOffsets.csv*
+*\Werfault.exe -u -p * -s *
 *\WfpTokenDup.exe*
 *\whatlicense-main\*
 *\WheresMyImplant*
@@ -6858,6 +6894,7 @@
 *56843f0410f4c97e8d0809bf7fe4c3e7efaf0dcefd595da58da07794d1709f27*
 *574a8de72c4661a520afbcdbe4580335203d0f1b9da5d9ba3659d30d02b89466*
 *57A893C7-7527-4B55-B4E9-D644BBDA89D1*
+*57D4D4F4-F083-47A3-AE33-AE2500ABA3B6*
 *59744929cc3a6d02d9ec26cc2945b00eaa6079c32602f460558adb9e7146f824*
 *5994c2c930bf095841520a4e6859511485f6ad0eec0d660392462402c781a6ba*
 *5a27534e0361dc8dce940b8732c306443af9944e23aaac6865131e1eb7570687*
@@ -7441,6 +7478,7 @@
 *AsyncRAT/DCRat*
 *asyncssh_commander.py *
 *asyncssh_commander.py*
+*AteraAgent*AgentPackageRunCommandInteractive.exe*
 *atexec.py*
 *Athena.Forwarders.SMB*
 *athena/agent_code/*
@@ -7699,8 +7737,8 @@
 *bc3023b36063a7681db24681472b54fa11f0d4ec*
 *bcc2_setenv*
 *bcc2_spawn*
-*bcdedit /set {default} bootstatuspolicy ignoreallfailures*
-*bcdedit /set {default} recoveryenabled No*
+*bcdedit* /set {default} bootstatuspolicy ignoreallfailures*
+*bcdedit* /set {default} recoveryenabled No*
 *bcdedit.exe /set {default} recoveryenabled No*
 *BCHASH-Rijndael-128.unverified.test-vectors.txt*
 *BCHASH-Rijndael-256.unverified.test-vectors.txt*
@@ -8055,6 +8093,7 @@
 *bpsinject*
 *bpsinject*
 *brave* --headless * --dump-dom http*
+*brave.exe* --load-extension="*\Users\*\Appdata\Local\Temp\*
 *brc4_ldap_sentinel.py*
 *Brc4ConfigExtractor.exe*
 *Brc4DecodeString*
@@ -8556,6 +8595,7 @@
 *chrismaddalena/SharpCloud*
 *chrispetrou/HRShell*
 *chrome* --headless * --dump-dom http*
+*chrome.exe* --load-extension="*\Users\*\Appdata\Local\Temp\*
 *chrome_creds.txt*
 *chromecertbeggar.js*
 *chromecertbeggar2.js*
@@ -8647,7 +8687,15 @@
 *cmd.exe /c timeout /t 5 & del /f /q *%s* & exit*
 *cmd.exe /C wmic /node:* /user:* /password:* os get caption*
 *cmd.exe /c zoom1.msi*
+*cmd.exe /Q /c *.bat *> \\127.0.0.1\ADMIN$\* 2&*
+*cmd.exe /Q /c /start /min powershell.exe -nop -c*
+*cmd.exe /Q /c hostname1> *\\127.0.0.1\ADMIN$\* 2>*
+*cmd.exe /Q /c nslookup 1> *\\127.0.0.1\ADMIN$\* 2>*
+*cmd.exe /Q /c powershell.exe -nop -w -hidden -c*IEX*
+*cmd.exe /Q /c powershelll.exe 1> *\\127.0.0.1\ADMIN$\* 2>*
+*cmd.exe /Q /c quser 1 > \\127.0.0.1\ADMIN$\*
 *cmd.exe /Q /c start *stage1.exe 1*
+*cmd.exe*\TEMP\ScreenConnect\*.cmd*
 *cmd/backdoor.go*
 *cmd/ligolo*
 *cmd/ligolo*
@@ -8718,6 +8766,7 @@
 *cobalt-strike*
 *-cobaltstrike*
 *cobaltstrike.*
+*CobaltStrike.LJ!MTB*
 *cobaltstrike.store*
 *cobaltstrike/*
 *cobaltstrike_*
@@ -8779,6 +8828,7 @@
 *COM-Hunter_v*.zip*
 *COM-Hunter-main*
 *-command *.exe* -technique ccmstp*
+*-Command Add-MpPreference -ExclusionProcess *\Program Files\FreeFileSync\Bin\*
 *command_obfuscator.py*
 *command=*###---POWERSHELL---*eval $(echo *
 *CommandAndControl_*.py*
@@ -8889,6 +8939,8 @@
 *copy *system.hive \\*
 *copy \*\HarddiskVolumeShadowCopy1\windows\system32\config\sam C:\*
 *copy \*\HarddiskVolumeShadowCopy1\windows\system32\config\system C:\*
+*Copy New *gdrive://www.googleapis.com/GS_Sync/*
+*Copy New *sftp://*
 *CopyAndPasteEnum.bat*
 *CopyAndPasteFileDownloader.bat*
 *Copy-Item -Path * -Destination \\$IP\transfer*
@@ -11202,6 +11254,8 @@
 *goMatrixC2.go*
 *goMatrixC2-main*
 *GooDork*
+*GoodSync Server*
+*GoodSync-vsub-2Go-Setup.exe*
 *google-chrome/cookies.txt*
 *google-chrome/credit_cards.txt*
 *google-chrome/history.txt*
@@ -11652,6 +11706,7 @@
 *https://*.*.devtunnels.ms*
 *https://*.brs.devtunnels.ms/*
 *https://*.euw.devtunnels.ms*
+*https://*.screenconnect.com/Bin/*.exe*
 *https://*.sendspace.com/upload*
 *https://*.use.devtunnels.ms*
 *https://*/.htaccess?c=cmd*
@@ -13789,6 +13844,8 @@
 *megacmd -conf * put *mega:*
 *megadose/holehe*
 *megadose@protonmail.com*
+*megatools copy -l * -r *
+*megatools put *
 *meliht/Mr.SIP*
 *Memcrashed-DDoS-Exploit*
 *memfd implant *.elf*
@@ -14060,6 +14117,7 @@
 *mozilla2john.py*
 *mozlz4-win32.exe*
 *MpCmdRun.exe -RemoveDefinitions -All*
+*MpCmdRun.exe* -disable*
 *MpCmdRun.exe* -RemoveDefinitions -All*
 *mpgn/BackupOperatorToDA*
 *mqtt_check.py*
@@ -14086,6 +14144,7 @@
 *MScholtes/PS2EXE*
 *msedge* --headless * --dump-dom http*
 *msedge* --headless --disable-gpu --remote-debugging-port=*
+*msedge.exe* --load-extension="*\Users\*\Appdata\Local\Temp\*
 *msf_api_doc.rb*
 *msf_cve_extracter.py*
 *msf_exec.py*
@@ -14480,7 +14539,7 @@
 *NixImports.git*
 *NixImports.sln*
 *nltest /all_trusts*
-*nltest /dclist:*
+*nltest /dclist*
 *nltest /domain_trusts*
 *nmake inject_local *
 *nmap -*
@@ -14769,6 +14828,7 @@
 *openwall/john*
 *openWindowsExecutableStage*
 *opera* --headless * --dump-dom http*
+*opera.exe* --load-extension="*\Users\*\Appdata\Local\Temp\*
 *Operative Framework*
 *ophcrack*
 *optiv/Ivy.git*
@@ -14897,6 +14957,8 @@
 *parse_nessus_file*
 *parse_nmap_xml*
 *parse_shellcode*
+*ParseMSALCache*.azure\msal_token_cache.bin*
+*ParseMSALCache*Appdata\Local\.IdentityService\msal.cache*
 *parser.exe -a *.dmp*
 *parser.exe -a *.dmp*
 *PassDetective extract*
@@ -16093,6 +16155,10 @@
 *rbsec/dnscan*
 *rc4.py *.bin*
 *RCE-exploits*
+*rclone copy *:*
+*rclone.exe config create remote mega user *
+*rclone.exe* copy *:*
+*rclone.exe* -l * *:*
 *rdi_net_user.cpp*
 *rdp_check.py*
 *rdp_doublepulsar_rce.*
@@ -16188,6 +16254,7 @@
 *RedPeanutSpawnTikiTorch.cs*
 *RedPeanutVBAMacro.vba*
 *RedSiege/CIMplant*
+*redskal/SharpAzbelt*
 *redsocks-fw.sh stop*
 *Red-Team-Infrastructure-Wiki.*
 *Red-Teaming-Toolkit*
@@ -16235,6 +16302,7 @@
 *reg add *HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server* /v fDenyTSConnections /t REG_DWORD /d 0 /f*
 *REG ADD *HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe* /t REG_SZ /v Debugger /d *\windows\system32\cmd.exe* /f*
 *REG ADD *HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe* /t REG_SZ /v Debugger /d *\windows\system32\cmd.exe* /f*
+*reg add *HKLM\SOFTWARE\Policies\Microsoft\Windows Defender"* /v DisableAntiSpyware /t REG_DWORD /d 1 /f*
 *reg add *HKLM\Software\Policies\Microsoft\Windows Defender"*/v *DisableAntiSpyware* /t REG_DWORD /d *1* /f*
 *reg add *HKLM\Software\Policies\Microsoft\Windows Defender* /v *DisableAntiVirus* /t REG_DWORD /d *1* /f*
 *reg add *HKLM\Software\Policies\Microsoft\Windows Defender* /v Disable* /t REG_DWORD /d 1 /f*
@@ -16454,6 +16522,7 @@
 *RogueWinRM.c*
 *rookuu/BOFs/*
 *Root backdoor obtained!*
+*root/SecurityCenter2* -ClassName AntiVirusProduct*
 *root\cimv2:Win32_Implant*
 *root_userpass.txt*
 *Rootkit.cpp*
@@ -16898,6 +16967,7 @@
 *seriously_nothing_shady_here*
 *serve_ps1_payload*
 *Server enforces NLA; switching to 'fake server' mode*
+*server*-relay.screenconnect.com*
 *server.py generate --address * --port * --output * --source*
 *server/modules/csharp/*
 *server@egress-asses.com*
@@ -17060,6 +17130,7 @@
 *SharpAllowedToAct.exe*
 *sharpapplocker*
 *SharpAppLocker.exe*
+*SharpAzbelt-main*
 *SharpBlackout* -p *
 *SharpBlackOut.csproj*
 *SharpBlackout.exe*
@@ -17687,6 +17758,7 @@
 *socks5_exe.exe*
 *socks5h://127.0.0.1:9050*
 *socky whoami*
+*SOFTWARE\WOW6432Node\FreeFileSync*
 *Soledge/BlockEtw*
 *souravbaghz/RadareEye*
 *source/avetsvc.c*
@@ -17742,6 +17814,7 @@
 *SpiderLabs/Responder*
 *spindrift.py *--target *
 *spindrift.py --domain*
+*SplashtopStreamer3500.exe* prevercheck *
 *sploitus.com/exploit?id=6C1081C5-7938-5E83-9079-719C1B071FB5*
 *splunk/upload_app_exec/*
 *splunk_whisperer.py*
@@ -18709,6 +18782,7 @@
 *Visual-Studio-BOF-template*
 *VITE_STRIKER_API*
 *vivaldi* --headless * --dump-dom http*
+*vivaldi.exe* --load-extension="*\Users\*\Appdata\Local\Temp\*
 *VMSA-2023-0001.py*
 *vmware_view_planner*uploadlog_rce*
 *vmware_vrni_rce_cve_2023_20887.rb*
@@ -18730,8 +18804,8 @@
 *vsf_sysutil_read_loop*
 *vssadmin create shadow /for=C:*
 *vssadmin create shadow /for=C:* \Temp\*.tmp*
-*vssadmin Delete Shadows /All /Quiet*
 *vssadmin list shadows*
+*vssadmin* Delete Shadows /All /Quiet*
 *vssenum.x64.*
 *vssenum.x86.*
 *vtiger_crm_upload_exploit*
@@ -18909,6 +18983,7 @@
 *Win32/IceId*
 *Win32/Mikatz*
 *Win32/Trickbot*
+*Win32/UACBypass*
 *Win32:Trojan*
 *win32_stage_boot_reverse_shell_revert.asm*
 *win32_stage_uploadexec.asm*
@@ -19063,7 +19138,7 @@
 *wmic useraccount get /ALL /format:csv*
 *wmic*/Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName*
 *wmic.exe process call create *.txt:*.exe*
-*wmic.exe Shadowcopy Delete*
+*wmic.exe* Shadowcopy Delete*
 *wmic/wmic.cmd*
 *WMIcmd*
 *WMICStager*
@@ -19450,6 +19525,7 @@ onex install *
 polenum *:*
 posh -u *
 powerpick *
+powershell.exe -nop -c "start-job *Import-Module BitsTransfer*$env:temp*GetRandomFileName()*Start-BitsTransfer -Source 'http*Remove-Item*Receive-Job*
 ps_ex *
 psenum *
 psgrep *
