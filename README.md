@@ -16,7 +16,7 @@
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
 - [Website](#quick-datatable-to-search-for-keyword-can-be-improved-open-to-suggestions)
 - [Expected False positives](#false-positives)
-- [SIGMA rules](#SIGMA-Rules)
+- [SIGMA rules](#sigma-rules)
 - [contribute](#-contributing)
 
 ## Files
@@ -27,9 +27,6 @@
 - [All keywords only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords.txt)
 - [All keywords regex only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords_regex.txt)
 - [Powershell script to hunt in files](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/DFIR_hunt_in_file.ps1)
-
-![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/11223acf-ccd6-4a6c-8038-6afd336d3629)
-
 
 ### For the blueteam:
 This List can be valuable for ThreatHunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
@@ -217,7 +214,7 @@ You will get the matched lines like this with the line number (but without the m
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/9ecaefe3-82a0-4434-85ad-488067e43290)
 
 #### Better option for very large files (on windows):
-#### `powershell -ep Bypass -File .\DFIR_hunt_in_file.ps1 -patternFile "only_keywords_regex.txt" -targetFile "C:\Users\mthcht\collection\20230406154410_EvtxECmd_Output.csv" -rgPath "C:\Users\mthcht\Downloads\ripgrep-13.0.0-x86_64-pc-windows-msvc\ripgrep-13.0.0-x86_64-pc-windows-msvc\rg.exe"`
+`powershell -ep Bypass -File .\DFIR_hunt_in_file.ps1 -patternFile "only_keywords_regex.txt" -targetFile "C:\Users\mthcht\collection\20230406154410_EvtxECmd_Output.csv" -rgPath "C:\Users\mthcht\Downloads\ripgrep-13.0.0-x86_64-pc-windows-msvc\ripgrep-13.0.0-x86_64-pc-windows-msvc\rg.exe"`
 - `-targetFile`: specify the file to search in (in the example, a DFIR-ORC extract logs)
 - `-patternFile`: the file containing the regex patterns `only_keywords_regex.txt`
 - `-rgPath`: the path of the ripgrep executable
@@ -255,7 +252,7 @@ The result of the search will be in `result_search.log` in the same directory as
 `todo`
 
 
-#### Hunt for evil in file only with powershell and the 'only_keywords.txt ' list (slower)
+#### Hunt for evil in file only with powershell and the 'only_keywords.txt ' list (**slower** not recommmanded)
 
 In powershell it's much slower but if you still want to do it this way, you can use the script below, it will tell you the line number matched and the corresponding keyword: 
 
@@ -310,6 +307,9 @@ Contribute and add your false positives to the expected false positives [list](h
 ## SIGMA Rules
 
 Check out the lookup translated in [SIGMA rules](https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules) i usually update it at the same time :) 
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/11223acf-ccd6-4a6c-8038-6afd336d3629)
+
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
