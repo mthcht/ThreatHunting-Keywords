@@ -1,7 +1,7 @@
 # ThreatHunting-Keywords
 🎯 List of keywords for ThreatHunting sessions
 
-![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/11223acf-ccd6-4a6c-8038-6afd336d3629)
+![image](images/thk2.png)
 
 ## Table of Contents
 - [For the blueteam](#for-the-blueteam)
@@ -27,6 +27,9 @@
 - [All keywords only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords.txt)
 - [All keywords regex only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords_regex.txt)
 - [Powershell script to hunt in files](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/DFIR_hunt_in_file.ps1)
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/11223acf-ccd6-4a6c-8038-6afd336d3629)
+
 
 ### For the blueteam:
 This List can be valuable for ThreatHunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
