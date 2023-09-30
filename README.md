@@ -84,6 +84,7 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - upload the list `threathunting-keywords.csv` on Splunk
 - create a lookup definition named `threathunting-keywords` for the lookup `threathunting-keywords.csv`
   - in the advanced options, add the Match type `WILDCARD(keyword)` and make sure `Case sensitive match` is not checked
+
   ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/a49969f0-22ed-4f10-90f3-7fb7e3951a98)
 
 - now we can use our lookup definition to hunt 🏹
