@@ -351,6 +351,7 @@
 .* common_pass\.txt.*
 .* ComputerDefaults\.exe.*
 .* -ComputerName -ServiceEXE .*
+.* ComunicationC2\.cpp.*
 .* -config modlishka\.json .*
 .* Configuring Windows Firewall rules to block EDR network access.*
 .* ConPtyShell.*
@@ -3193,6 +3194,7 @@
 .*/common/beacon\.go.*
 .*/common_pass\.txt.*
 .*/completions/exegol\.fish.*
+.*/ComunicationC2\.cpp.*
 .*/config/doNmapScanWin\.bat .*
 .*/ConPtyShell/.*
 .*/ContainYourself\.git.*
@@ -3330,8 +3332,11 @@
 .*/dbc2Loader.*
 .*/DCOM Lateral Movement/.*
 .*/dcomhijack\.git.*
+.*/DCOMPotato\.git.*
 .*/DcRat\.git.*
 .*/DcRat\.sln.*
+.*/dcrypt\.exe.*
+.*/dcrypt_setup\.exe.*
 .*/dcsync_.*\.txt
 .*/DeathStar/DeathStar\.py.*
 .*/deb\.parrot\.sh/.*
@@ -3394,6 +3399,7 @@
 .*/dirtypipez-exploit/.*
 .*/disctopia\.py.*
 .*/disctopia-c2.*
+.*/DiskCryptor\.git.*
 .*/dist/fw_walk\..*
 .*/distcc-cve2004-2687\.nse.*
 .*/distopia-test.*
@@ -3437,6 +3443,9 @@
 .*/dns-zone-transfer\.nse.*
 .*/dobin/avred.*
 .*/docker-version\.nse.*
+.*/DocPlz\.git.*
+.*/DocsPLZ\.cpp.*
+.*/DocsPLZ\.exe.*
 .*/documentation-c2/.*
 .*/documentation-payload/.*
 .*/Doge-Loader/.*
@@ -4680,6 +4689,8 @@
 .*/NotQuite0DayFriday/zip/trunk.*
 .*/nowsecure/dirtycow.*
 .*/nping-brute\.nse.*
+.*/NPPSPY\.dll.*
+.*/NPPSpy\.exe.*
 .*/nps_payload\.git.*
 .*/nrpe-enum\.nse.*
 .*/nse_install/.*
@@ -4849,6 +4860,7 @@
 .*/perf_swevent64.*
 .*/persist\.tpl.*
 .*/PersistBOF/.*
+.*/Persistence\.cpp.*
 .*/Persistence\.sh.*
 .*/persistence/.*\.ps1
 .*/persistence/.*\.psm1
@@ -4991,6 +5003,7 @@
 .*/psnuffle.*
 .*/PSpersist\.git.*
 .*/pspy -.*
+.*/PSPY\.dll.*
 .*/pspy\.git.*
 .*/pspy\.go.*
 .*/pspy/cmd.*
@@ -5296,6 +5309,8 @@
 .*/SeriousSam\.sln.*
 .*/server/c2/.*
 .*/server/common/stagers\.py.*
+.*/ServerC2\.cpp.*
+.*/ServerC2\.exe.*
 .*/servers/dns_server\.py.*
 .*/servers/icmp_server\.py.*
 .*/servers/smb_server\.py.*
@@ -5310,6 +5325,7 @@
 .*/Services/TransitEXE\.exe.*
 .*/servicetags\.nse.*
 .*/SessionSearcher\.exe.*
+.*/SetProcessInjection\.git.*
 .*/setuserpass\.x64\..*
 .*/setuserpass\.x86\..*
 .*/sfp_openphish\.py.*
@@ -6090,12 +6106,14 @@
 .*\[\+] Successfully injected malicious scheduled task.*
 .*\[\+] Successfully spoofed GPC gPCFileSysPath attribute.*
 .*\[\+] The encrypted payload with .*
+.*\[\+] Your payload must be executed now !.*
 .*\[i] AAD Join:.*enumerate.*
 .*\[i] Credman:.*Credential Blob Decrypted.*
 .*\[i] Hooked Ntdll Base Address : .*
 .*\[i] Unhooked Ntdll Base Address: .*
 .*\[Reflection\.Assembly]::LoadWithPartialName\('System\.Core'\)\.GetType\('System\.Diagnostics\.Eventing\.EventProvider'\)\.GetField\('m_enabled'.*'NonPublic.*Instance'\)\.SetValue\(\[Ref]\.Assembly\.GetType\('System\.Management\.Automation\.Tracing\.PSEtwLogProvider'\)\.GetField\('etwProvider'.*'NonPublic.*Static'\)\.GetValue\(\$null\).*0\).*
 .*\['spawnto'].*
+.*\[x] Cannot load NTDLL\.DLL.*
 .*\[X] Your harvest exploded:.*
 .*\\ rev_shell\.py.*
 .*\\.*\.O365\.GroupMembership_AdminGroups\.txt.*
@@ -6172,7 +6190,7 @@
 .*\\asm\\x86\\alter_pe_sections.*
 .*\\Athena-.*\.zip.*
 .*\\AtomLdr\\x64.*
-.*\\attrib\.exe.* \+h.*
+.*\\attrib\.exe.* \+H .*
 .*\\AutoSmuggle\\.*\.cs.*
 .*\\autotimeline.*
 .*\\avetdbg\.txt.*
@@ -6236,6 +6254,7 @@
 .*\\COM-Hunter\.exe.*
 .*\\COM-Hunter\.sln.*
 .*\\common_pass\.txt.*
+.*\\ComunicationC2\.cpp.*
 .*\\Cooolis-ms-Loader\\.*
 .*\\crackmapexecwin.*
 .*\\cradle\.ps1.*
@@ -6251,6 +6270,10 @@
 .*\\D1rkInject\\.*
 .*\\darkexe\.py.*
 .*\\DarkLoadLibrary\..*
+.*\\dcrypt\.exe.*
+.*\\dcrypt\.sys.*
+.*\\DCrypt\\Bin.*
+.*\\dcrypt_setup\.exe.*
 .*\\decrypted\.dmp.*
 .*\\DelegationBOF\..*
 .*\\demiguise\.py.*
@@ -6271,6 +6294,8 @@
 .*\\DllExport\.bat.*
 .*\\DllVoidFunction\.txt.*
 .*\\dnscan\.py.*
+.*\\DocsPLZ\.cpp.*
+.*\\DocsPLZ\.exe.*
 .*\\DoHC2\.cs.*
 .*\\DomainRecon\\.*\.txt
 .*\\donut\.exe.*
@@ -6453,6 +6478,10 @@
 .*\\nanodump.*
 .*\\net.*\\ftpagent\.exe.*
 .*\\net\.exe.* accounts.*
+.*\\net\.exe.* localgroup admin.*
+.*\\net\.exe.* sessions.*
+.*\\net\.exe.* view .*/domain.*
+.*\\net1 sessions.*
 .*\\NetExec-main.*
 .*\\NetLoader\.exe.*
 .*\\netscan\.exe.*
@@ -6478,6 +6507,10 @@
 .*\\NoPowerShell\..*
 .*\\No-PowerShell\.cs.*
 .*\\No-PowerShell\.exe.*
+.*\\NPPSpy\.c.*
+.*\\NPPSPY\.dll.*
+.*\\NPPSpy\.exe.*
+.*\\NPPSpy\.txt.*
 .*\\ntdlll-unhooking-collection.*
 .*\\ntdlol\.txt.*
 .*\\ntlm\.py.*
@@ -6501,6 +6534,8 @@
 .*\\payloadtests\.py.*
 .*\\PEASS-ng.*
 .*\\PerfExec\.exe.*
+.*\\Persistence\.cpp.*
+.*\\Persistence\.exe.*
 .*\\pipe\\brutepipe.*
 .*\\PipeViewer\.exe.*
 .*\\PipeViewer\.sln.*
@@ -6546,7 +6581,10 @@
 .*\\ps2exe\.ps1.*
 .*\\PS2EXE\\.*\.ps1.*
 .*\\PsExecLog\.log.*
+.*\\PSPY\.dll.*
+.*\\PSPY\.exe.*
 .*\\PSRansom -.*
+.*\\Public\\dcapi\.dll.*
 .*\\public\\klogging\.log.*
 .*\\Public\\Music\\RDPCreds\.txt.*
 .*\\pwn\.exe.*
@@ -6609,6 +6647,9 @@
 .*\\ScriptSentry\.txt.*
 .*\\Seatbelt\.txt.*
 .*\\Seatbelt\\Commands\\.*
+.*\\ServerC2\.cpp.*
+.*\\ServerC2\.exe.*
+.*\\ServerC2\\ServerC2\..*
 .*\\servers\\dns_server\.py.*
 .*\\servers\\icmp_server\.py.*
 .*\\servers\\smb_server\.py.*
@@ -6662,6 +6703,7 @@
 .*\\stager\.ps1.*
 .*\\start_campaign\.py.*
 .*\\StayKit\.cna.*
+.*\\StolenPasswords\.txt.*
 .*\\Suborner\.sln.*
 .*\\Supernova\.exe.*
 .*\\Supershell\.tar\.gz.*
@@ -6737,6 +6779,7 @@
 .*\\whatlicense-main\\.*
 .*\\WheresMyImplant.*
 .*\\while_dll_ms.*
+.*\\Windows\\Prefetch\\PSEXEC.*
 .*\\Windows\\Tasks\\Certipy.*
 .*\\Windows\\Tasks\\p4yl0ad.*
 .*\\Windows\\Temp\\creds\.db.*
@@ -7007,6 +7050,7 @@
 .*4a548ba1be4de75a03af674d670ff10375700a18babc7cb3a4d1406045e2df04.*
 .*4aa24c1115cc3ed71027f760c7564357c162a09de58d75b5e9037cd869fb2a8a.*
 .*4c21f433ebb3a72668a36a707daed37afb5c3ed2402d60b1634a741c36f2ed10.*
+.*4C3B106C-8782-4374-9459-851749072123.*
 .*4C574B86-DC07-47EA-BB02-FD50AE002910.*
 .*4cec28b4c00002245dffc8346be0cc11.*
 .*4d15af5a22467795c5367c3956746d01424795784f62ca3f30e4619c063338a5.*
@@ -7052,6 +7096,7 @@
 .*5c96d6754fab5329173536f2a4b29997c1661927f28b9ddcb091e4652e0bb014.*
 .*5d1fc31a7caf39f1c766e15fb64d44f1417d3b6f2fe389f3e104218050c3746a.*
 .*5dec1cfe7c0c2ec55c17fb44b43f7d14.*
+.*5E0812A9-C727-44F3-A2E3-8286CDC3ED4F.*
 .*5E8106A6F89B053ED91C723D5D4CAE3FFC15F1CE.*
 .*5e98194a01c6b48fa582a6a9fcbb92d6.*
 .*5e98194a01c6b48fa582a6a9fcbb92d6.*
@@ -7115,6 +7160,7 @@
 .*835798995e6df38e12ef18fdcfda6dd1bb8fdffb567a03da46ed1ab7b66a0194.*
 .*83772aa217508279294d91af5cfabec9b5e00b836a2e2f5fe37cf1ebc2905a52.*
 .*847D29FF-8BBC-4068-8BE1-D84B1089B3C0.*
+.*854A20FB-2D44-457D-992F-EF13785D2B51.*
 .*866e5289337ab033f89bc57c5274c7ca.*
 .*8776cfacd0e7e409a5f5168261089e6386eeffacedc9158c19d86dfc78e0dc61.*
 .*87904247-C363-4F12-A13A-3DA484913F9E.*
@@ -7161,6 +7207,8 @@
 .*A La Vie.* A L'Amour.*
 .*a0rtega/metame.*
 .*A17656B2-42D1-42CD-B76D-9B60F637BCB5.*
+.*A38C04C7-B172-4897-8471-E3478903035E.*
+.*A38C04C7-B172-4897-8471-E3478903035E.*
 .*a3bc28e48c61afe31a0c986674ac145e773d616b2fafb49a090d50cc26ea4479.*
 .*A3h1nt/gimmeSH.*
 .*a6730ebb3e91961283f7a1cd95ace2a6d0d55e50531a64e57b03e61a8cf2d0e7.*
@@ -7754,6 +7802,7 @@
 .*awsloot\.py .*
 .*axcrypt2john\.py.*
 .*aydinnyunus/PassDetective.*
+.*azfvgayqKwtFApcvyRedpUXculaeCCGA.*
 .*Azure-AccessPermissions\.ps1.*
 .*Azure-AccessPermissions-master.*
 .*AzureAD AutoLogon Brute.*
@@ -8557,6 +8606,7 @@
 .*C8482002-F594-4C28-9C46-960B036540A8.*
 .*c90cec4c10cde815fd286d83601b4cd3738097e8e0b2e592dc28c1325c12918d.*
 .*ca0b7a38be2f3f63a69aca6da7b3a62a59fcefee92de00e9796f68d4a2a23158.*
+.*CA280845-1F10-4E65-9DE7-D9C6513BBD91.*
 .*cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBFAHgAZQBjAHUAdABpAG8AbgBQAG8AbABpAGMAeQAgAEIAeQBwAGEAcwBzACAALQBGAGkAbABlACAAQwA6AFwAUAByAG8AZwByAGEAbQBEAGEAdABhAFwAUwBoAGUAbABsADMAZQByAC4AcABzADEA.*
 .*cache_activedirectory\.py.*
 .*cachedump\.exe.*
@@ -9486,6 +9536,7 @@
 .*Data\\VulnerableCOM\.csv.*
 .*DataSploit.*
 .*datr=80ZzUfKqDOjwL8pauwqMjHTa.*
+.*DavidXanatos/DiskCryptor.*
 .*DavRelayUp\.csproj.*
 .*DavRelayUp\.exe.*
 .*DavRelayUp\.sln.*
@@ -9514,6 +9565,7 @@
 .*dbdbnchagbkhknegmhgikkleoogjcfge.*
 .*dbGetNimplant.*
 .*dc3d98a8e8c0b0944291f9b462f552f174261982c4507f2de1ee9503353d10e9.*
+.*dccon\.exe -encrypt2.*
 .*dcenum\.run.*
 .*dchrastil.*
 .*--dc-ip .*--check-user-access.*
@@ -9523,6 +9575,8 @@
 .*dcomhijack\.cna.*
 .*dcomhijack\.py.*
 .*dcomhijack-main.*
+.*DCOMPotato\..*
+.*DCOMPotato-master.*
 .*DCOMReflection\.cpp.*
 .*DcRat  1\.0\.7.*
 .*DcRat\.7z.*
@@ -9530,6 +9584,10 @@
 .*DcRat\.zip.*
 .*DcRat_png\.png.*
 .*DcRat-main\.zip.*
+.*dcrypt_bartpe\.zip.*
+.*dcrypt_install\.iss.*
+.*dcrypt_setup_.*\.exe.*
+.*dcrypt_winpe\.zip.*
 .*dcsync -Domain.*
 .*dcsync\.py.*
 .*dcsync\.py.*
@@ -9734,7 +9792,11 @@
 .*Disctopia Backdoor.*
 .*disctopia-c2\.git.*
 .*disctopia-c2-main\.zip.*
+.*DiskCryptor Device Installation Disk.*
+.*DiskCryptor driver.*
+.*DISKCRYPTOR_MUTEX.*
 .*diskcryptor2john\.py.*
+.*DiskCryptor-master.*
 .*diskshadow list shadows all.*
 .*dist.*_brc4\.x64\.o.*
 .*dist.*_brc4\.x86\.o.*
@@ -9874,6 +9936,8 @@
 .*docker.* donut .*
 .*docker-compose logs wiresocks.*
 .*DockerPwn.*
+.*DocPlz-main\.zip.*
+.*DocsPLZ\\DocsPLZ\..*
 .*DoEvil\(\).*
 .*Do-Exfiltration\.ps1.*
 .*Doge-Loader.*xor\.go.*
@@ -14117,6 +14181,7 @@
 .*MayankPandey01/Jira-Lens.*
 .*mbrg/power-pwn.*
 .*mcafee_epo2john\.py.*
+.*McpManagementPotato\..*
 .*md .*\.::\$index_allocation.*
 .*Md4-128\.unverified\.test-vectors\.txt.*
 .*Md5-128\.unverified\.test-vectors\.txt.*
@@ -14683,7 +14748,7 @@
 .*net group / domain .*Domain Admins.*
 .*net group /domain .*Domain Admins.*
 .*net group administrators /domain.*
-.*net locagroup admin.*
+.*net localgroup admin.*
 .*net localgroup administrators icebreaker.*
 .*net rpc group addmem 'Domain admins' .*
 .*net rpc group members 'Domain admins' -U .*
@@ -14716,6 +14781,7 @@
 .*net_localgroup_member -Group.*
 .*net_portscan\.py.*
 .*net_recon\..*
+.*net1 localgroup admin.*
 .*netCat.*
 .*net-creds.*
 .*netdiscover -i .* -r .*/24.*
@@ -15173,6 +15239,7 @@
 .*osmedeus utils.*
 .*osx/dump_keychain.*
 .*osx_gatekeeper_bypass\..*
+.*OtterHacker/SetProcessInjection.*
 .*ourtn-ftshell-upcommand.*
 .*-out.*\.exe -r:.*System\.Drawing\.dll.*System\.Management\.Automation.*\.dll.*
 .*--out=nimcrypt.*
@@ -15348,6 +15415,7 @@
 .*payload\.c .*
 .*payload\.csproj.*
 .*payload\.sct .*
+.*payload/encryptor_remote\.py.*
 .*payload_bootstrap_hint.*
 .*payload_creator\.py.*
 .*payload_encryption\.py.*
@@ -15870,6 +15938,8 @@
 .*PrimusC2-main\.zip.*
 .*print_shtinkering_crash_location.*
 .*printerbug\.py .*:.*@.* .*
+.*PrinterNotifyPotato .*
+.*PrinterNotifyPotato\..*
 .*PrintNightmare\..*
 .*printnightmare_check.*
 .*printspoofer -Command.*
@@ -16149,6 +16219,7 @@
 .*ptunnel-ng-x86\.exe.*
 .*ptunnel-ng-x86-dbg\.exe.*
 .*ptunnel-server\.log.*
+.*Public\\dcinst\.exe.*
 .*pupy.*/checkvm\.py.*
 .*pupy/payload_.*
 .*PupyCmdLoop.*
@@ -17426,6 +17497,8 @@
 .*Set-MpPreference -DisableScriptScanning 1 .*
 .*Set-OabVirtualDirectory -ExternalUrl 'http.*://.*function Page_Load\(\)\{.*}</script>.*
 .*setoolkit .*
+.*SetProcessInjection.*encryptor\.py.*
+.*SetProcessInjection-main.*
 .*set-pushover-applicationtoken.*
 .*set-pushover-userkeys.*
 .*Set-RemotePSRemoting.*
@@ -18548,6 +18621,7 @@
 .*SySS-Research/Seth.*
 .*system rm -f /current/tmp/ftshell\.latest.*
 .*System\.DirectoryServices\.AccountManagement\.GroupPrincipal.*FindByIdentity.*D
+.*SYSTEM\\CurrentControlSet\\Services\\dcrypt.*
 .*System32fileWritePermissions\.txt.*
 .*systemctl disable cbdaemon.*
 .*systemctl disable falcon-sensor\.service.*
@@ -18688,6 +18762,7 @@
 .*the-backdoor-factory-master.*
 .*TheD1rkMtr/AMSI_patch.*
 .*TheD1rkMtr/D1rkInject.*
+.*TheD1rkMtr/DocPlz.*
 .*TheD1rkMtr/GithubC2.*
 .*TheD1rkMtr/HeapCrypt.*
 .*TheD1rkMtr/NTDLLReflection.*
@@ -19751,6 +19826,7 @@
 .*zarp\.py.*
 .*zblurx/certsync.*
 .*zblurx/dploot.*
+.*zcgonvh/DCOMPotato.*
 .*zed2john\.py.*
 .*zenmap\.exe.*
 .*zenoss_3x_command_execution.*
