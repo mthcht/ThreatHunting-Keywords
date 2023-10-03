@@ -2,6 +2,16 @@ Help me populate this page with the expected false positives you've encountered 
 
 ---
 
+## Keyword: `*MpCmdRun.exe* -disable*`
+
+LogMeIn (RMM tool - not really a false positive if you want to detect the RMM tools)
+
+  - `C:\ProgramData\Microsoft\Windows Defender\Platform\*\MpCmdRun.exe" -DisableService`
+  - executed after the uninstall process of LogMeIn `C:\Program Files (x86)\LogMeIn\x64\rainst.exe" uninstall` (same process_id)
+
+
+---
+
 ## Keyword: `*scp *@*:* *`
   - `*scp *@*:* *`
   - `*scp * *@*:*`
