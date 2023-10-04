@@ -2604,6 +2604,7 @@
 */.manspider/loot*
 */.msf4/*
 */.ntdissector*
+*/.nxc/obfuscated_scripts/*
 */.sliver/logs*
 */.ssh/RAI.pub*
 *//:ptth*
@@ -2646,6 +2647,7 @@
 */ADACLScanner.git*
 */adalanche/modules/*
 */adconnectdump.git*
+*/adcs.py*
 */adcs_enum/*
 */adcs_request/adcs_request.*
 */adcs_request/CertCli.*
@@ -2654,6 +2656,7 @@
 */adcs-enum.py*
 */ADCSKiller*
 */ADCSPwn.git*
+*/add_computer.py*
 */add_groupmember.py*
 */address-info.nse*
 */AddUser-Bof.*
@@ -2885,13 +2888,16 @@
 */BesoToken.exe*
 */BesoToken.git*
 */bettercap*
+*/bh_owned.py*
 */bhqc.py -*
 */BIFFRecordEncryption.cs*
 */bin/0d1n*
 */bin/AceLdr*
+*/bin/bash -c 'bash -i >& /dev/tcp/*/* 0>&1'*
 */bin/fake-sms*
 */bin/gorsair *
 */bin/hakrawler*
+*/bin/nxcdb*
 */bin/posh*
 */bin/pupysh*
 */bin/read_i.php?a1=step2-down-b&a2=*
@@ -3307,6 +3313,7 @@
 */D1rkInject.git*
 */d4em0n/exrop*
 */daap-get-library.nse*
+*/daclread.py*
 */DAMP.git*
 */DanMcInerney/ridenum*
 */daphne.git*
@@ -3322,6 +3329,7 @@
 */data/auxiliary/gather*
 */data/empire.db*
 */data/exploits/*
+*/data/nxc.conf*
 */data/shellcode*
 */DavRelayUp.git*
 */DavRelayUp/*
@@ -3375,6 +3383,7 @@
 */detect-hooks.h*
 */Detect-Hooks/*
 */DFSCoerce.git*
+*/dfscoerce.py*
 */dhcp-discover.nse*
 */Dialogs/Payload.hpp*
 */dicom-brute.nse*
@@ -3480,6 +3489,7 @@
 */drda-brute.nse*
 */drda-info.nse*
 */Drones/SleepDialogue.razor*
+*/drop-sc.py*
 */drunkpotato*
 */dsniff.c*
 */dsniff.services*
@@ -3535,6 +3545,7 @@
 */Empire.git
 */empire/client/*
 */empire:latest*
+*/empire_exec.py*
 */EmpireProject*
 */enable-user.py*
 */enableuser/enableuser.x64.*
@@ -3545,7 +3556,9 @@
 */enum__secrets/*.py*
 */enum_av.md*
 */enum_av.py*
+*/enum_av.py*
 */enum_cisco.md*
+*/enum_dns.py*
 */enum_domain_info*
 */enum_f5.md*
 */enum_juniper.md*
@@ -3653,6 +3666,7 @@
 */FilelessPELoader*
 */final_shellcode_size.txt*
 */find_domain.sh*
+*/find-computer.py*
 */FindModule.c*
 */FindObjects.cna*
 */FindSQLSrv.py*
@@ -3720,6 +3734,7 @@
 */Gemail-Hack.git*
 */GetBrowsers.ps1*
 */get-clipboard.py*
+*/get-desc-users.py*
 */getLegit/cdnl*
 */getLegit/grkg*
 */getLegit/prvw*
@@ -3864,6 +3879,8 @@
 */goZulipC2.git*
 */GPOddity.git*
 */GPOddity/*
+*/gpp_autologin.py*
+*/gpp_password.py*
 */gpp-decrypt*
 */gpsd-info.nse*
 */GreatSCT/*
@@ -3895,9 +3912,11 @@
 */Hak5.sh*
 */hakrawler.git*
 */hancitor.profile*
+*/handlekatz.py*
 */HandleKatz_BOF*
 */HarmJ0y*
 */HaryyUser.exe*
+*/hash_spider.py*
 */hashcat*
 */hashdump_dc*
 */Hashi0x/*
@@ -4122,6 +4141,7 @@
 */imfiver/CVE-2022-0847*
 */impacket.*
 */impacket/*
+*/impersonate.py*
 */impersonate-rs*
 */imperun * *cmd.exe /c whoami*
 */Imperva_gzip_WAF_Bypass*
@@ -4173,6 +4193,7 @@
 */instabrute.py*
 */instainsane.git*
 */instainsane.sh*
+*/install_elevated.py*
 */install-sb.sh*
 */insTof.py*
 */interactive_shell.py*
@@ -4189,6 +4210,7 @@
 */Invoke-HostEnum.ps1*
 */Invoke-RunAs.ps1*
 */Invoke-SMBRemoting.git*
+*/IOXIDResolver.py*
 */ip_spoof.rb*
 */IPayloadService.*
 */ip-forwarding.nse*
@@ -4261,7 +4283,9 @@
 */kdstab.*
 */KDStab.*
 */KDStab/*
+*/keepass_discover.py*
 */keepass_discover_*.txt*
+*/keepass_trigger.py*
 */KeeThief.git*
 */kerberoast.*
 */kerberoast.c*
@@ -4325,6 +4349,7 @@
 */lansearch.exe*
 */laps.py *--ldapserver*
 */laps.py *-u * -p *
+*/laps.py*
 */laps_dump_*.txt*
 */LAPSDumper.git*
 */lastpass.py*
@@ -4337,6 +4362,7 @@
 */ldap_injection.txt*
 */ldap_search_bof.py*
 */ldap-brute.nse*
+*/ldap-checker.py*
 */ldap-novell-getpass.nse*
 */LdapRelayScan.git*
 */ldap-rootdse.nse*
@@ -4398,6 +4424,7 @@
 */LSASSProtectionBypass/CredGuard.c*
 */LsassSilentProcessExit.git*
 */lsassy*
+*/lsassy_dump.py*
 */lucksec/CVE-2022-0847*
 */lu-enum.nse*
 */luijait/arpspoofing*
@@ -4436,6 +4463,7 @@
 */manspider_*.log*
 */manspider_output*.txt
 */manspiderDump*
+*/masky.py*
 */master/GPSCoordinates/*
 */master/JunctionFolder/*
 */master/PhantomService/*
@@ -4455,6 +4483,7 @@
 */merlin.js*
 */merlin.py*
 */merlin/agent_code/*
+*/met_inject.py*
 */Metasploit*
 */metasploit/*
 */metasploit-framework/embedded/framework*
@@ -4525,6 +4554,7 @@
 */Mr-Un1k0d3r/*
 */Mr-xn/cve-2022-23131*
 */MS15-034.nse*
+*/ms17-010.py*
 */msf.go
 */msf.swf*
 */msfcrawler*
@@ -4536,9 +4566,13 @@
 */Mshikaki.git*
 */mshta.cmd*
 */mshtajs.cmd*
+*/msi_search.ps1*
+*/msi-search.git*
 */msLDAPDump*
+*/msol.py*
 */MSOLSpray*
 */msrpc-enum.nse*
+*/mssql_priv.py*
 */ms-sql-brute.nse*
 */ms-sql-config.nse*
 */ms-sql-dac.nse*
@@ -4581,6 +4615,7 @@
 */n1nj4sec/pupy*
 */nanodump*
 */nanodump.*
+*/nanodump.py*
 */nanorobeus.git*
 */nanorubeus/*
 */Native/SigFlip/*
@@ -4612,6 +4647,7 @@
 */netbus-version.nse*
 */netcreds.py*
 */NetExec.git*
+*/netexec.py*
 */NetExec-main*
 */Net-GPPPassword.git*
 */nethunter-images/*
@@ -4680,6 +4716,7 @@
 */NoFilter.sln*
 */NoFilter.vcxproj*
 */nopac.exe
+*/nopac.py*
 */No-PowerShell.cs*
 */No-PowerShell.exe*
 */nopowershell.git*
@@ -4702,6 +4739,7 @@
 */NTDLLReflection.git*
 */NtdllUnpatcher.git*
 */ntds_dump_*.txt*
+*/ntdsutil.py*
 */ntlm.py*
 */ntlmquic*
 */NTLMRecon*
@@ -4716,6 +4754,7 @@
 */ntlmutil.py*
 */ntlmutil.py*
 */ntlmv1.py*
+*/ntlmv1.py*
 */ntp-info.nse*
 */ntp-monlist.nse*
 */NtQuerySystemInformation.md*
@@ -4726,6 +4765,10 @@
 */Nuages_Cli*
 */nuagesAPI.js*
 */nxc --help*
+*/nxc.exe*
+*/nxc/parsers/ip.py*
+*/nxc/parsers/nmap.py*
+*/nxc-ubuntu-latest*
 */nysm bash*
 */nysm -dr socat TCP4-LISTEN*
 */nysm -r ssh *@*
@@ -4818,6 +4861,7 @@
 */parrot-on-docker/*
 */parrotsec/*
 */ParsedMalleableData.txt*
+*/parsers/nessus.py*
 */pass_gen.pl*
 */PassDetective.git*
 */passhash.sl*
@@ -4868,6 +4912,7 @@
 */persistence2.rc*
 */peterspbr/dirty-pipe-otw*
 */PetitPotam.git*
+*/petitpotam.py*
 */PEzor.cna*
 */PEzor.git*
 */PEzor.sh *
@@ -4960,6 +5005,7 @@
 */printerbug.py*
 */PrintMonitorDll.*
 */PrintMonitorDll/*
+*/printnightmare.py*
 */PrintSpoofer.git*
 */PrintSpoofer.git*
 */PrintSpoofer/*
@@ -4974,6 +5020,7 @@
 */PrivKit.git*
 */PrivKit/*
 */proberbyte.go*
+*/procdump.py*
 */process_herpaderping/*
 */process_killer.cpp*
 */processhacker-*-bin.zip*
@@ -5103,9 +5150,12 @@
 */rawrpc.py*
 */RC4BinaryEncryption.cs*
 */RC4Payload32.txt*
+*/rcat-v*-win-x86_64.exe*
 */RCStep/CSSG/*
+*/rdcman.py*
 */RDE1.git*
 */rdll_template*
+*/rdp.py*
 */RDPassSpray.git*
 */RDPCredentialStealer.git*
 */rdp-enum-encryption.nse*
@@ -5150,6 +5200,7 @@
 */reGeorg.git*
 */RegistryPersistence.c*
 */Registry-Recon/*
+*/reg-query.py*
 */regreeper.jpg*
 */Reg-Restore-Persistence-Mole*
 */regsvcs/meterpreter*
@@ -5241,6 +5292,7 @@
 */RunasCs.git*
 */RunasCs.git*
 */RunasCs.zip*
+*/runasppl.py*
 */RunAsWinTcb.git*
 */RunAsWinTcb.iml*
 */runcalc.dll*
@@ -5250,6 +5302,7 @@
 */runshellcode.*
 */RuralBishop.git*
 */rusers.nse*
+*/rustcat/releases/latest/download/*
 */rusthound.exe*
 */RustHound.git*
 */rvrsh3ll/*
@@ -5278,6 +5331,7 @@
 */scanner/portscan*
 */scanner/winrm*
 */scannerPort.go*
+*/scan-network.py*
 */Scans/servers_all_smb*.txt*
 */ScareCrow -I *
 */sccmhunter*
@@ -5295,6 +5349,7 @@
 */ScRunHex.py*
 */scshell*
 */scshell.py*
+*/scuffy.py*
 */searchsploit*
 */Seatbelt.txt*
 */Seatbelt/Commands*
@@ -5332,6 +5387,7 @@
 */sfp_spider.py*
 */sh_executor/*.go*
 */s-h-3-l-l/*
+*/shadowcoerce.py*
 */shadowcoerce.py*
 */ShadowForgeC2*
 */ShadowSpray.git*
@@ -5461,6 +5517,7 @@
 */sleep_python_bridge/*
 */Sleeper/Sleeper.cna*
 */sleepmask.cna*
+*/slinky.py*
 */SlinkyCat.git*
 */sliver.git*
 */sliver.pb.go*
@@ -5574,6 +5631,7 @@
 */spellgen.py *
 */spellstager.py *
 */spider.yaml*
+*/spider_plus.py*
 */SpiderFoot-*.log.cs*
 */SpiderFoot.csv*
 */spiderfoot.git*
@@ -5584,6 +5642,7 @@
 */spoof/mdns*
 */spoof/spoof_windows.*
 */SpookFlare.git*
+*/spooler.py*
 */spoolsystem/SpoolTrigger/*
 */spray/spray.py*
 */Spray365*
@@ -5622,6 +5681,7 @@
 */src/nysm.c*
 */src/RecycledGate.h*
 */src/Sleeper.cpp*
+*/src/unixshell.rs*
 */srdi-shellcode.go*
 */ssh2-enum-algos.nse*
 */ssh-auth-methods.nse*
@@ -5722,6 +5782,7 @@
 */tcpshell.py*
 */Teamphisher.txt*
 */Teamphisher/targets.txt*
+*/teams_localdb.py*
 */teamserver-linux.tar.gz*
 */teamserver-win.zip*
 */teamspeak2-version.nse*
@@ -5836,6 +5897,7 @@
 */tso-enum.nse*
 */tweetshell.sh*
 */twittor.git*
+*/uac.py*
 */UACBypasses/*
 */UACME.git*
 */UAC-SilentClean/*
@@ -5884,6 +5946,7 @@
 */vajra/phishApp.py*
 */var/lib/ptunnel*
 */var/log/exegol/*.log*
+*/veeam_dump.py*
 */Vegile.git*
 */venom.git*
 */venom.sh *
@@ -5937,14 +6000,17 @@
 */WDExtract.git*
 */wdextract32.exe*
 */wdextract64.exe*
+*/wdigest.py*
 */WdToggle.c*
 */WdToggle.h*
 */weakpass.git*
 */Web/decouverte.txt*
 */Web/discovery.txt*
 */web/pwn.html*
+*/web_delivery.py*
 */web_rce.py*
 */WebC2.cs*
+*/webdav.py*
 */WebDavC2.git*
 */web-hacking-toolkit*
 */weblistener.py*
@@ -5963,6 +6029,7 @@
 */WfpTokenDup.exe*
 */whatlicense.git*
 */WheresMyImplant/*
+*/whoami.py*
 */WhoAmI.task*
 */whois-domain.nse*
 */whois-ip.nse*
@@ -5998,7 +6065,9 @@
 */winrm.py*
 */winrmdll*
 */winrm-reflective-dll/*
+*/winscp_dump.py*
 */Winsocky.git*
+*/wireless.py*
 */wiresocks.git*
 */wmeye/*
 */WMI Lateral Movement/*
@@ -6053,6 +6122,7 @@
 */zejius/5GPR0iy9/fJsnC6G4sFg2wsyn4shb.bin*
 */zerologon.cna*
 */zerologon.py*
+*/zerologon.py*
 */zhzyker/CVE-2020-5902*
 */zsh_executor/*.go*
 */zwjjustdoit/cve-2022-23131*
@@ -6070,6 +6140,7 @@
 *?PSAmsi*PSReflect.ps1*
 *?sample_sliver.json*
 *[!]    Failed to enumerate Credman:*
+*[!] Dumping the ntds can crash the DC on Windows Server 2019. Use the option*
 *[!] Failed to download legitimate GPO from SYSVOL (dc_ip:*
 *[!] Failed to write malicious scheduled task to downloaded GPO. Exiting*
 *[#] Ready For ETW Patch.*
@@ -6165,7 +6236,9 @@
 *\9.dll
 *\9.exe
 *\AbandonedCOMKeys.*
+*\adcs.py*
 *\ADCSPwn*
+*\add_computer.py*
 *\ADFSpoof.py*
 *\ADFSpray*
 *\ADGet.exe*
@@ -6211,6 +6284,7 @@
 *\BesoToken.cpp*
 *\BesoToken.exe*
 *\BesoToken.vcxproj*
+*\bh_owned.py*
 *\bin\cme.exe*
 *\bin\shepard\*
 *\BITB-main*
@@ -6268,6 +6342,7 @@
 *\CurrentVersion\Uninstall\FreeFileSync_is1*
 *\CustomEncoding.cpp*
 *\D1rkInject\*
+*\daclread.py*
 *\darkexe.py*
 *\DarkLoadLibrary.*
 *\dcrypt.exe*
@@ -6286,6 +6361,7 @@
 *\Dendron.bin*
 *\Dendron.exe*
 *\Dendron.sln*
+*\dfscoerce.py*
 *\DInjector.sln*
 *\DInjector\*
 *\dist\sigthief.exe*
@@ -6301,6 +6377,7 @@
 *\donut.exe*
 *\donut\VanillaProgram.bin*
 *\Doraemon*
+*\drop-sc.py*
 *\duedlligence.dll*
 *\dumper.ps1*
 *\dumpert.*
@@ -6319,8 +6396,11 @@
 *\Elite.csproj*
 *\Elite.sln*
 *\emailall.py*
+*\empire_exec.py*
 *\enc_shellcode.bin*
 *\enc_shellcode.h*
+*\enum_av.py*
+*\enum_dns.py*
 *\ES.Alan.Core*
 *\EternalHushCore.dll*
 *\EternalHushCore\*
@@ -6346,6 +6426,7 @@
 *\Fertliser.exe*
 *\Fertliser.pdb*
 *\Files\ContainersFileUrls.txt*
+*\find-computer.py*
 *\follina.py*
 *\FreeFileSync.exe*
 *\FreeFileSync\Logs\*
@@ -6354,7 +6435,9 @@
 *\freeze.go
 *\FtpC2\*
 *\FudgeC2*
+*\get_netconnections.py*
 *\GetBrowsers.ps1*
+*\get-desc-users.py*
 *\Get-SpoolStatus.ps1*
 *\GetWebDAVStatus\
 *\GetWebDAVStatus_x64*
@@ -6371,15 +6454,21 @@
 *\go-secdump*
 *\goZulipC2*
 *\GPOddity\*
+*\gpp_autologin.py*
+*\gpp_password.py*
+*\group_members.py*
 *\Group3r.exe*
 *\Grouper2.exe*
+*\groupmembership.py*
 *\GzipB64.exe*
 *\HackBrowserData*
 *\Hades.exe*
 *\hades.exe*
 *\hades-main.zip*
 *\handlekatz.exe*
+*\handlekatz.py*
 *\harvest.cmb*
+*\hash_spider.py*
 *\hashview.py*
 *\HiddenDesktop\*
 *\hijackers\*
@@ -6401,6 +6490,7 @@
 *\IDiagnosticProfileUAC*
 *\iis_controller.py*
 *\impacket.*
+*\impersonate.py*
 *\Implant.exe *
 *\implant.exe *.exe
 *\ImplantSSP.exe*
@@ -6408,9 +6498,11 @@
 *\inceptor.py*
 *\injector.ps1 1 *
 *\injector.ps1 2 *
+*\install_elevated.py*
 *\Inveigh.exe*
 *\inveigh.exe*
 *\Inveigh\bin\*
+*\IOXIDResolver.py*
 *\IPfuscation.cpp*
 *\IPfuscation.exe*
 *\ipscan-*-setup.exe*
@@ -6423,6 +6515,8 @@
 *\JunctionFolder.csproj*
 *\katz.ps1*
 *\kdstab.exe*
+*\keepass_discover.py*
+*\keepass_trigger.py*
 *\KeeTheft.exe*
 *\kerberoast.c*
 *\KernelTokens.sys*
@@ -6440,8 +6534,10 @@
 *\Ladon.exe*
 *\Ladon.ps1*
 *\lansearch.exe*
+*\laps.py*
 *\LAPSDumper\*
 *\ldap_search_bof.py*
+*\ldap-checker.py*
 *\LibSnaffle*
 *\Loader\Loader.csproj*
 *\local_admins.csv*
@@ -6452,18 +6548,22 @@
 *\lsass.dmp*
 *\LSASSProtectionBypass\*
 *\LsassSilentProcessExit*
+*\lsassy_dump.py*
 *\m3-gen.py*
 *\MaccaroniC2*
+*\MachineAccountQuota.py*
 *\macoffe.pdb*
 *\malseclogon.*
 *\MalStuff.cpp*
 *\malware_runner.py*
 *\manspider_*.log*
+*\masky.py*
 *\master\GPSCoordinates\*
 *\Mayhem.psm1*
 *\megatools-*-win64\*
 *\megatools.exe*
 *\mem_dll.pdb*
+*\met_inject.py*
 *\mhydeath64*
 *\mimi32.exe*
 *\mimi64.exe*
@@ -6472,17 +6572,29 @@
 *\monkey.exe *
 *\monkey32.exe*
 *\monkey64.exe*
+*\ms17-010.py*
 *\Mshikaki.cpp*
+*\msi_search.c*
+*\msi_search.exe*
+*\msi_search.ps1*
+*\msi_search.x64.o*
+*\msi_search.x86.o*
+*\msol.py*
 *\MSOL\DomainCompanyInfo.txt*
+*\mssql_priv.py*
 *\mystikal.py*
 *\nanodump*
+*\nanodump.py*
 *\net*\ftpagent.exe*
 *\net.exe" accounts*
 *\net.exe* localgroup admin*
 *\net.exe* sessions*
 *\net.exe* view */domain*
 *\net1 sessions*
+*\netexec.py*
+*\netexec.yml*
 *\NetExec-main*
+*\NetExec-main\*
 *\NetLoader.exe*
 *\netscan.exe*
 *\netscan.exe*
@@ -6503,6 +6615,7 @@
 *\NoFilter.sln*
 *\NoFilter.vcxproj*
 *\nopac.exe*
+*\nopac.py*
 *\NoPowerShell*
 *\NoPowerShell.*
 *\No-PowerShell.cs*
@@ -6513,13 +6626,18 @@
 *\NPPSpy.txt*
 *\ntdlll-unhooking-collection*
 *\ntdlol.txt*
+*\ntdsutil.py*
 *\ntlm.py*
 *\NTLMRelay2Self*
 *\ntlmutil.py*
+*\ntlmv1.py*
 *\NtoskrnlOffsets.csv*
 *\NtRemoteLoad.sln*
 *\NtRights\*
 *\Nuages_Cli*
+*\nxc.exe*
+*\nxc\parsers\ip.py*
+*\nxc\parsers\nmap.py*
 *\obfy-1.0.zip*
 *\OffensiveCSharp\*
 *\out_pe.exe*
@@ -6527,6 +6645,7 @@
 *\papacat.ps1*
 *\papacat.zip*
 *\ParsedMalleableData.txt*
+*\parsers\nessus.py*
 *\password.lst*
 *\Passwordfiles.txt*
 *\PatchingAPI.cpp*
@@ -6536,6 +6655,7 @@
 *\PerfExec.exe*
 *\Persistence.cpp*
 *\Persistence.exe*
+*\petitpotam.py*
 *\pipe\brutepipe*
 *\PipeViewer.exe*
 *\PipeViewer.sln*
@@ -6567,11 +6687,13 @@
 *\PPLBlade-main*
 *\PPLFault*
 *\PPLKiller*
+*\printnightmare.py*
 *\PrintSpoofer.cs*
 *\PrintSpoofer-1.0.zip*
 *\PrivEditor\*
 *\PrivescCheck*
 *\PrivKit\*
+*\procdump.py*
 *\Process Hacker 2\*
 *\process_killer.cpp*
 *\ProduKey.exe*
@@ -6598,6 +6720,9 @@
 *\RasmanPotato*
 *\ratchatPT.go*
 *\ratchatPT.syso*
+*\rcat-v*-win-x86_64.exe*
+*\rdcman.py*
+*\rdp.py*
 *\RDPCredsStealerDLL*
 *\RealTimeSync.exe*
 *\Reaper\Reaper.cpp*
@@ -6609,6 +6734,7 @@
 *\RedPersist.pdb*
 *\RedPersist.sln*
 *\RedPersist-main\*
+*\reg-query.py*
 *\RemoteCamera.dll*
 *\Resources\Disks-NoEncryption.txt*
 *\resources\PROCEXP.sys*
@@ -6625,6 +6751,7 @@
 *\run\john\*.pl*
 *\run\john\*.py*
 *\RunasCs.cs*
+*\runasppl.py*
 *\RunBOF.exe*
 *\RunOF.exe*
 *\RunOF\bin\*
@@ -6633,6 +6760,7 @@
 *\samantha.txt
 *\save_reg.hive*
 *\scanACLsResults.csv*
+*\scan-network.py*
 *\scmuacbypass.cpp*
 *\scmuacbypass.exe*
 *\SCMUACBypass\*
@@ -6645,6 +6773,7 @@
 *\ScriptSentry.psd1*
 *\ScriptSentry.psm1*
 *\ScriptSentry.txt*
+*\scuffy.py*
 *\Seatbelt.txt*
 *\Seatbelt\Commands\*
 *\ServerC2.cpp*
@@ -6655,6 +6784,7 @@
 *\servers\smb_server.py*
 *\SessionSearcher.csproj*
 *\SessionSearcher.exe*
+*\shadowcoerce.py*
 *\shadowcoerce.py*
 *\ShadowSpray\*.cs*
 *\Sharefinder.ps1*
@@ -6687,6 +6817,7 @@
 *\SimpleLoader.cpp*
 *\SimpleLoader.exe*
 *\sitadel.log*
+*\slinky.py*
 *\SMB_RPC\*.py
 *\smuggler.py*
 *\sniff.py*
@@ -6695,7 +6826,9 @@
 *\spellbound-main*
 *\spellgen.py *
 *\spellstager.py *
+*\spider_plus.py*
 *\SpoofCmdLine\TheThing*
+*\spooler.py*
 *\SprayAD.cna*
 *\SprayAD.exe*
 *\SQLInfoDumps*
@@ -6713,6 +6846,7 @@
 *\systemic.txt
 *\TakeMyRDP*
 *\TASKSHELL.EXE*
+*\teams_localdb.py*
 *\teamserver-win.zip*
 *\teamstracker.py*
 *\Temp\*\ntds.dit*
@@ -6747,6 +6881,7 @@
 *\Tor\torrc*
 *\TorBrowser*
 *\TrustExec.exe*
+*\uac.py*
 *\UACME-*.zip*
 *\uberfile.py*
 *\unDefender.exe*
@@ -6766,6 +6901,7 @@
 *\uTorrent\*
 *\utweb.exe*
 *\UUID_bypass.py*
+*\veeam_dump.py*
 *\wce32.exe*
 *\wce64.exe*
 *\wce-beta.zip*
@@ -6774,11 +6910,15 @@
 *\wdextract.vcxproj*
 *\wdextract32.exe*
 *\wdextract64.exe*
+*\wdigest.py*
 *\WdigestOffsets.csv*
+*\web_delivery.py*
+*\webdav.py*
 *\WfpTokenDup.exe*
 *\whatlicense-main\*
 *\WheresMyImplant*
 *\while_dll_ms*
+*\whoami.py*
 *\Windows\Prefetch\PSEXEC*
 *\Windows\Tasks\Certipy*
 *\Windows\Tasks\p4yl0ad*
@@ -6789,7 +6929,9 @@
 *\WindowsShareFinder.cs*
 *\Win-PS2EXE*
 *\WinRing0x64.sys*
+*\winscp_dump.py*
 *\WiperPoc.cpp*
+*\wireless.py*
 *\wl_log.txt*
 *\wl-lic.exe*
 *\wl-lic.pdb*
@@ -6810,6 +6952,7 @@
 *\XOR_b64_encrypted\*
 *\xorencrypt.py*
 *\ysoserial\*
+*\zerologon.py*
 *] Eventviewer Persistence created*
 *] Extension Hijacking Persistence created*
 *] Found non-ASCII service: *
@@ -7322,6 +7465,7 @@
 *Add-Exfiltration.ps1*
 *Add-KeePassConfigTrigger*
 *AddKeePassTrigger.ps1*
+*AddKeePassTrigger.ps1*
 *Add-MpPreference -ExclusionPath *
 *Add-MpPreference -ExclusionProcess *\Windows\System32\WindowsPowerShell\v1.0\powershell.exe*
 *Add-ObjectAcl -TargetADSprefix 'CN=AdminSDHolder*CN=System' -PrincipalSamAccountName * -Rights All*
@@ -7605,6 +7749,7 @@
 *arp.spoof on*
 *arp.spoof.*
 *arp.spoof.targets*
+*arp_mitm.py*
 *arp_spoof.*
 *arpspoof -i *
 *ArpSpoofer*
@@ -7825,6 +7970,7 @@
 *B374K*index.php*
 *b3rito*yodo*
 *b419f6b7b8d24dc61e7473092a8326720ef54e1f65cc185da0c6e080c9debb94*
+*B473B9A4135DE247C6D76510B40F63F8F1E5A2AB*
 *b4ldr/nse-scripts*
 *b4rtik/RedPeanut*
 *b4rtik/RedPeanut*
@@ -8169,6 +8315,7 @@
 *bkeylogger*
 *bkkgdjpomdnfemhhkalfkogckjdkcjkg*
 *bks2john.py*
+*blackarch/tree/master/packages/rustcat*
 *blackarrowsec/mssqlproxy*
 *blackarrowsec/pivotnacci*
 *blackhat-arsenal-tools*
@@ -8768,6 +8915,7 @@
 *ChaitanyaHaritash/kimi*
 *chameleon.py *
 *changepasswd.py*
+*change-windows10-mac-address.py*
 *charlesnathansmith/whatlicense*
 *charles-proxy*
 *charlotte-main.zip*
@@ -10193,6 +10341,7 @@
 *EasyHook-Managed/LocalHook.cs*
 *EasyPersistent.cna*
 *Ebowla-master.zip*
+*EC235B9DDBCA83FD5BE2B80E2D543B07BE7E1052*
 *echo * .bash_history*
 *echo * /home/*/.bash_history*
 *echo * /root/.bash_history*
@@ -10495,6 +10644,8 @@
 *exec /bin/sh 0</dev/tcp/*/*1>&0 2>&0*
 *exec 5<>/dev/tcp/*/**cat <&5 | while read line* do $line 2>&5 >&5* done*
 *exec CMD=/bin/sh -f elf -o *.elf*
+*Exec_Command_Silent.vbs*
+*Exec_Command_WithOutput.vbs*
 *exec_payload_msi*
 *exec_shellcode.rb*
 *ExecCmdImplant*
@@ -11874,7 +12025,9 @@
 *hook-lsassy.py*
 *hook-lsassy.py*
 *hook-lsassy.py*
+*hook-lsassy.py*
 *hook-pypsrp.py*
+*hook-pypykatz.py*
 *HOST/EXEGOL-01.*
 *Host: FUZZ.machine.org*
 *HostEnum.ps1*
@@ -12775,7 +12928,9 @@
 *Invoke-noPac.*
 *Invoke-NTLMAuth.ps1*
 *Invoke-Ntsd.ps1*
+*Invoke-Obfuscation -ScriptPath *
 *Invoke-Obfuscation*
+*Invoke-Obfuscation.psd1*
 *Invoke-OpenInboxFinder*
 *Invoke-OpenOWAMailboxInBrowser*
 *Invoke-OxidResolver*
@@ -12866,6 +13021,7 @@
 *Invoke-PsGcatAgent*
 *Invoke-PSImage*
 *Invoke-PSInject*
+*Invoke-PSInject.ps1*
 *Invoke-PSInject.ps1*
 *Invoke-PsUACme*
 *Invoke-PsUACme*
@@ -13692,6 +13848,7 @@
 *lan_sw_port_scan.json*
 *lanjelot*
 *LANs.py*
+*lanscan_arp.py*
 *lansearch.exe *
 *lansearchpro_portable.zip*
 *lansearchpro_setup.exe*
@@ -14146,6 +14303,7 @@
 *manager/mRemoteNG.py*
 *mandiant/DueDLLigence*
 *mandiant/gocrack*
+*mandiant/msi-search*
 *mandllinject *
 *manspider * -d * -u * -p *
 *manspider */24 -f *
@@ -14549,9 +14707,11 @@
 *Mshikaki-main*
 *mshta/shellcode_inject*
 *MSHTAStager*
+*msi-search-main.zip*
 *msLDAPDump.py*
 *MSOfficeManipulator.cs*
 *msol_dump*
+*msol_dump.ps1*
 *MSOLSpray *
 *MSOLSpray.git*
 *MSOLSpray.ps1*
@@ -14742,9 +14902,19 @@
 *nessus-updates*.tar.gz*
 *net domain_controllers*
 *net group "Domain Admins" /domain*
+*net group *Account Operators* /domain*
+*net group *Backup Operators* /domain*
 *net group *domain admins* /domain*
+*net group *Domain Computers* /domain*
+*net group *Domain Controllers* /domain*
 *net group *Domain Controllers*/domain*
 *net group *Enterprise Admins* /dom*
+*net group *Enterprise Admins* /domain*
+*net group *Exchange Trusted Subsystem* /domain*
+*net group *Microsoft Exchange Servers* /domain*
+*net group *Print Operators* /domain*
+*net group *Schema Admins* /domain*
+*net group *Server Operators* /domain*
 *net group / domain *Domain Admins*
 *net group /domain *Domain Admins*
 *net group administrators /domain*
@@ -14759,6 +14929,16 @@
 *net user john H4x00r123*
 *net view /all /domain*
 *net* group Administrator* /add /domain*
+*net.exe* group *Account Operators* /domain*
+*net.exe* group *Backup Operators* /domain*
+*net.exe* group *Domain Computers* /domain*
+*net.exe* group *Domain Controllers* /domain*
+*net.exe* group *Enterprise Admins* /domain*
+*net.exe* group *Exchange Trusted Subsystem* /domain*
+*net.exe* group *Microsoft Exchange Servers* /domain*
+*net.exe* group *Print Operators* /domain*
+*net.exe* group *Schema Admins* /domain*
+*net.exe* group *Server Operators* /domain*
 *net.fuzz *
 *net.fuzz.*
 *net.probe on
@@ -14781,7 +14961,27 @@
 *net_localgroup_member -Group*
 *net_portscan.py*
 *net_recon.*
+*net1 group *Account Operators* /domain*
+*net1 group *Backup Operators* /domain*
+*net1 group *Domain Computers* /domain*
+*net1 group *Domain Controllers* /domain*
+*net1 group *Enterprise Admins* /domain*
+*net1 group *Exchange Trusted Subsystem* /domain*
+*net1 group *Microsoft Exchange Servers* /domain*
+*net1 group *Print Operators* /domain*
+*net1 group *Schema Admins* /domain*
+*net1 group *Server Operators* /domain*
 *net1 localgroup admin*
+*net1.exe* group *Account Operators* /domain*
+*net1.exe* group *Backup Operators* /domain*
+*net1.exe* group *Domain Computers* /domain*
+*net1.exe* group *Domain Controllers* /domain*
+*net1.exe* group *Enterprise Admins* /domain*
+*net1.exe* group *Exchange Trusted Subsystem* /domain*
+*net1.exe* group *Microsoft Exchange Servers* /domain*
+*net1.exe* group *Print Operators* /domain*
+*net1.exe* group *Schema Admins* /domain*
+*net1.exe* group *Server Operators* /domain*
 *netCat*
 *net-creds*
 *netdiscover -i * -r */24*
@@ -14792,6 +14992,7 @@
 *NetExec ldap * --dc-ip*
 *NetExec ldap * -M enum_trusts*
 *NetExec winrm *--*
+*NetExec-main.zip*
 *NetExec-main.zip*
 *Net-GPPPassword.cs*
 *Net-GPPPassword.exe*
@@ -14923,6 +15124,8 @@
 *nmap -Pn -v -sS -F*
 *nmap-*-setup.exe*
 *nmap/ncrack*
+*nmap_port_scanner.py*
+*nmap_port_scanner_ip_obj.py*
 *nmap_smb_scan_custom_*.txt*
 *nmapAnswerMachine.py*
 *nmap-elasticsearch-nse*
@@ -15082,6 +15285,8 @@
 *nxc mssql *--local-auth*
 *nxc ssh *
 *nxc winrm * -X *
+*nxc*nxcdb.py*
+*nxcdb-zipapp-*
 *nysm.skel.h*
 *nysm-master.zip*
 *nyxgeek*
@@ -15324,6 +15529,7 @@
 *package=impacket*
 *PackMyPayload.py*
 *PackMyPayload-master*
+*pacman -S rustcat*
 *pacu --exec *
 *pacu --list-modules*
 *pacu --module-args=*
@@ -15702,6 +15908,8 @@
 *pornhub.py*
 *port and pasv both active*
 *port_forward_pivot.py*
+*port_scanner_ip_obj.py*
+*port_scanner_regex.py*
 *PortBender backdoor*
 *PortBender redirect*
 *PortBender.cna*
@@ -16257,6 +16465,7 @@
 *pwn_jenkins*
 *pwn1sher/CS-BOFs*
 *pwn1sher/WMEye*
+*pwn3d_label = Pwn3d!*
 *pwnagotchi*
 *pwnat.exe*
 *pwncat-cs *:*
@@ -16305,6 +16514,7 @@
 *pyherion.py*
 *pyhon3 poc.py * curl http://*/shell.sh -o /tmp/shell.sh*
 *pyinstaller *.py*
+*pyinstaller netexec.spec*
 *pyinstaller.exe*
 *pyinstaller/tarball*
 *pyinstaller-script.py*
@@ -16563,6 +16773,15 @@
 *RBCD_Petitpotam_VulnerableServers.txt*
 *rbsec/dnscan*
 *rc4.py *.bin*
+*rcan listen -ib *
+*rcat c -s bash *
+*rcat connect -s bash*
+*rcat listen 55660*
+*rcat listen -ie *
+*rcat listen -l *
+*rcat-v3.*darwin-aarch64*
+*rcat-v3.*-darwin-x86_64*
+*rcat-v3.*-linux-x86_64*
 *RCE-exploits*
 *rclone copy *:*
 *rclone.exe config create remote mega user *
@@ -16820,6 +17039,7 @@
 *Remove-Item *C:\Users\*\AppData\Roaming\AnyDesk\connection_trace.txt*
 *Remove-KeePassConfigTrigger*
 *RemoveKeePassTrigger.ps1*
+*RemoveKeePassTrigger.ps1*
 *remove-persistence*
 *Remove-Persistence.ps1*
 *remove-persistence-cron*
@@ -16853,6 +17073,7 @@
 *responder-smb-off*
 *responder-smb-on*
 *Responder-Windows*
+*RestartKeePass.ps1*
 *RestartKeePass.ps1*
 *restic2john.py*
 *restore_signature.sh *.dmp*
@@ -17119,6 +17340,7 @@
 *RuralBishop.sln*
 *RuralBishop-master*
 *rustbof.cna*
+*rustcat-3.0.0.zip*
 *rusthound * --zip --ldaps --adcs --old-bloodhound*
 *rusthound *--domain*
 *rusthound *--ldapfqdn *
@@ -17297,6 +17519,7 @@
 *scshellbof.o*
 *scshellbofx64*
 *scumjr*dirtycow-vdso*
+*Search cached MSI files in C:/Windows/Installer/*
 *search_for_secrets(*
 *Search-cpassword*
 *SearchOutlook.exe*
@@ -18674,6 +18897,7 @@
 *targetver.h*
 *tarunkant/Gopherus*
 *tas389.ps1*
+*taskkill /F /T /IM keepass.exe /FI*
 *tasklist /fi *Imagename eq lsass.exe* | find *lsass*
 *tasklist /svc | findstr /i "vmtoolsd.exe"*
 *TaskShell.exe * -b *.exe*
@@ -19207,6 +19431,8 @@
 *vectra-ai-research/MAAD-AF*
 *veeam_credential_dump.*
 *veeam_dump*
+*veeam_dump_mssql.ps1*
+*veeam_dump_postgresql.ps1*
 *Vegile -*
 *venv wapiti3*
 *Verified Merlin server *
@@ -19402,6 +19628,8 @@
 *WhoamiGetTokenInfo*
 *wifi/airpwn*
 *wifi/dnspwn*
+*wifi_dos_own.py*
+*wifi_dos3.py*
 *wifi_dump_linux*
 *wifi_fake_auth.*
 *WiFi_Hacker.ino*
@@ -19797,6 +20025,7 @@
 *Yay! No SYSMON here!*
 *YDHCUI/csload.net*
 *YDHCUI/manjusaka*
+*yeelight_discover.py*
 *Yh0Js82rIfFEbS6pR7oUkN0Use54pIZBa3fpYprAMuURNrZZGc6cM8dc+AC*
 *ylAo2kAlUS2kYkala!*
 *Yml0c3kubWl0LmVkdQ==*
@@ -19999,6 +20228,7 @@ pupysh
 python3 start_campaign.py
 raw_keylogger *
 rawshark -*
+rcat listen *
 RedGuard -*
 remotereg *
 rev2self*
