@@ -20,7 +20,8 @@ hcxdumptool.exe
 beelogger.exe
 proxyshell.exe
 arpspoofing.exe
-phoenix miner.exe
+phoenix.exe
+miner.exe
 afrog.exe
 pyexec.exe
 darkarmour.exe
@@ -257,7 +258,8 @@ credphisher.exe
 tokenvator.exe
 pplkiller.exe
 fakecmdline.exe
-eqgrp tools.exe
+eqgrp.exe
+tools.exe
 attifyos.exe
 sudosnatch.exe
 githubc2.exe
@@ -296,7 +298,8 @@ srdi.exe
 tetanus.exe
 sqlninja.exe
 donpapi.exe
-mars stealer.exe
+mars.exe
+stealer.exe
 sshlooterc.exe
 deathstar.exe
 prt.exe
@@ -627,7 +630,7 @@ modproble.exe
 unhookingpatch.exe
 cobaltstrike.exe
 nc.exe
-pipeviewer .exe
+pipeviewer.exe
 spring4shell.exe
 vscode.exe
 sharpcollection.exe
@@ -822,7 +825,7 @@ bulletpassview.exe
 inspectassembly.exe
 linuxprivchecker.exe
 bypassclm.exe
-modlishka .exe
+modlishka.exe
 ruby.exe
 wdextract.exe
 brutesploit.exe
