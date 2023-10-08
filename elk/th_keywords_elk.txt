@@ -138,6 +138,7 @@ collectionmethod
 sharpmove
 eviltwinserver
 dcom
+dcip
 ms16
 eventhunter
 wce64
