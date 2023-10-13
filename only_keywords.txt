@@ -20011,8 +20011,8 @@
 *WorldWind-Stealer*
 *wpapcap2john.*
 *wp-exploitable-plugins.txt*
-*wpscan --api-token *
 *wpscan ?url*
+*wpscan --api-token *
 *wpscanteam/wpscan*
 *wrap_execute_assembly*
 *wrap_execute_encoded_powershell*
