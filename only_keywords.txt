@@ -1,5 +1,4 @@
-﻿*  --coin=monero*
-* - Sensitive Accounts.csv*
+﻿* - Sensitive Accounts.csv*
 * - ShadowSpray*
 * $exploit_oneliner*
 * $FodHelperPath*
@@ -325,6 +324,7 @@
 * Coercer.py*
 * CoffeeExecuteFunction*
 * --coin *--nicehash *
+* --coin=monero*
 * collect activedirectory --*
 * --collectallproperties*
 * --CollectionMethod All *ldap*
@@ -2262,6 +2262,7 @@
 *./rpcrt.py*
 *./rsocx -*
 *./scan4all *
+*./scan4all*
 *./ScareCrow *
 *./ScareCrow -*
 *./ScareCrow*
@@ -5352,7 +5353,10 @@
 */samruser.py*
 */sap_default.txt*
 */sc_inject/inject/*
+*/scan4all.exe*
 */scan4all.git*
+*/scan4all.git*
+*/scan4all.rb*
 */scan4all/lib/api*
 */scan4all/lib/util*
 */scanner/discovery*
@@ -6808,6 +6812,8 @@
 *\SafetyKatz*
 *\samantha.txt
 *\save_reg.hive*
+*\scan4all.exe*
+*\scan4all-main*
 *\scanACLsResults.csv*
 *\scan-network.py*
 *\scmuacbypass.cpp*
@@ -12080,6 +12086,7 @@
 *history -d -2 && history -d -1*
 *history_cmd
 *HiveJack-Console.exe*
+*hktalent/scan4all*
 *hktalent/scan4all*
 *HKTL*
 *HKTL_NETCAT*
@@ -17534,14 +17541,18 @@
 *sc0tfree/updog*
 *scada_default_userpass.txt*
 *scan -T list_of_targets.txt*
+*scan4all -*
 *scan4all -*.xml*
 *scan4all -h*
 *scan4all -tp *
 *scan4all.51pwn.com*
+*scan4all.51pwn.com/*
 *scan4all_*.*_linux_amd64.zip*
 *scan4all_*.*_macOS_amd64.zip*
 *scan4all_*.*_macOS_arm64.zip*
 *scan4all_*.*_windows_amd64.zip*
+*scan4all_*_linux_amd64.zip*
+*scan4all_*_windows_amd64.zip*
 *scan4all_windows_386.exe*
 *scan4all_windows_amd64.exe*
 *scan4all-main*
