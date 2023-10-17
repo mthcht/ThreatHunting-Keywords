@@ -12,6 +12,7 @@
   - [specific fields](#hunt-the-keywords-in-other-fields--urlprocesscommandlinequery)
   - [speed](#speed)
   - [dashboard example](#dashboard-example)
+  - [With ELK it's different](#With-ELK) 
 - [Hunt without a SIEM](#dfir-hunt-for-keywords-in-files-no-siem)
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
 - [Website](#quick-datatable-to-search-for-keyword-can-be-improved-open-to-suggestions)
@@ -90,6 +91,9 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - now we can use our lookup definition to hunt 🏹
 
 ## Example use cases with `threathunting-keywords`:
+![Splunk-Logo](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/420525b4-c4b8-4784-a858-041b67ae20b1)
+
+
 
 ### Hunt all the keywords in raw logs 😱
 
@@ -187,18 +191,17 @@ If the speed is a concern or you're planning to implement this as a scheduled de
 
 Note that filtering using the search command after the `|lookup` doesn't expedite the search process. If you want to concentrate on a specific portion of the lookup without dividing it, you should use the `|inputlookup` command along with the where clause. While this method may consume more CPU resources, it generally results in faster execution. For more details, check out the Splunk documentation on inputlookup: https://docs.splunk.com/Documentation/Splunk/latest/SearchReference/Inputlookup
 
+#### With ELK:
+
+![pngwing com](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/ba6c2a3d-15c4-4a32-9d25-e8a8eaaae927)
+
+If you are working with the Elastic Stack, there is a lot of restrictions for lists (you cannot use special caracters, spaces ...), you have two options:
+- Use another list available here in the same repo https://github.com/mthcht/ThreatHunting-Keywords/tree/main/elk (it's not a direct extract of threathunting-keywords.csv, it's modified for ELK)
+- Use Sigma "hunting" rules, directly extracted from this project https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules with pysigma for the convertion
+
 ### Dashboard Example
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/804c74c1-c50e-4e50-93d4-507e202d8773)
 
-
-### Update 2023/05/26
-In order to improve navigation and specificity, the primary CSV file threathunting-keywords.csv is now automatically partitioned based on each keyword type following an update. This leads to the creation of four distinct files, which can be seamlessly loaded onto the site:
-- **threathunting-keywords.csv** (the main file with all the keywords types)
-- **signature_keyword.csv** (specific to signature keywords)
-- **offensive_tool_keyword.csv** (dedicated to offensive tool keywords)
-- **greyware_tool_keyword.csv** (targeting greyware tool keywords)
-
-![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/bc55fa3f-3ce8-4485-8e01-aabbfc5fb12a)
 
 ## DFIR Hunt for keywords in files (No SIEM)
 After conducting a thorough review of various tools, I discovered that [ripgrep](https://github.com/BurntSushi/ripgrep) significantly outperforms its competitors when it comes to rapidly matching an extensive list of regex patterns against each line of a large log file or even multiple files simultaneously. It proved to be the most efficient solution for handling massive amounts of data, providing unparalleled speed and flexibility.
@@ -300,6 +303,15 @@ Read-Host -Prompt "Press Enter to exit"
 ## Quick datatable to search for keyword (can be improved, open to suggestions)
 https://mthcht.github.io/ThreatHunting-Keywords/
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
+
+### Update 2023/05/26
+In order to improve navigation and specificity, the primary CSV file threathunting-keywords.csv is now automatically partitioned based on each keyword type following an update. This leads to the creation of four distinct files, which can be seamlessly loaded onto the site:
+- **threathunting-keywords.csv** (the main file with all the keywords types)
+- **signature_keyword.csv** (specific to signature keywords)
+- **offensive_tool_keyword.csv** (dedicated to offensive tool keywords)
+- **greyware_tool_keyword.csv** (targeting greyware tool keywords)
+
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/bc55fa3f-3ce8-4485-8e01-aabbfc5fb12a)
 
 ## False positives
 
