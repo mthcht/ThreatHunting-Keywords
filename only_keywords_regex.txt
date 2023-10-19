@@ -1,7 +1,9 @@
-﻿.* - Sensitive Accounts\.csv.*
+﻿.* - Removed disabled accounts from spraying.*
+.* - Sensitive Accounts\.csv.*
 .* - ShadowSpray.*
 .* \$exploit_oneliner.*
 .* \$FodHelperPath.*
+.* \$KerbDump.*
 .* \$lse_find_opts .*
 .* \$payload_oneliner .*
 .* .* 0x.* - HOOK DETECTED.*
@@ -1302,6 +1304,12 @@
 .* metasploit-msgrpc-brute\.nse.*
 .* metasploit-xmlrpc-brute\.nse.*
 .* -method .* -nthash .*
+.* -Method GenRelayList.*
+.* -Method SessionHunter.*
+.* -Method Spray -AccountAsPassword.*
+.* -Method Spray -EmptyPassword.*
+.* -Method Spray -Hash .*
+.* -Method Spray -Password .*
 .* Microsploit\.sh.*
 .* mikrotik-routeros-brute\.nse.*
 .* mimikittenz.*
@@ -1312,6 +1320,7 @@
 .* --mode dump --name .*\.exe --handle procexp --obfuscate.*
 .* --mode dump --name lsass\.exe.*
 .* --mode proxy --ghidra .*--dll .*
+.* -Module kerbdump.*
 .* mongodb-brute\.nse.*
 .* mongodb-databases\.nse.*
 .* mongodb-info\.nse.*
@@ -1360,6 +1369,7 @@
 .* mythic_payloadtype_container.*
 .* mythic-cli.*
 .* -n .*TotallyLegitTool.*
+.* -Name .*Test\.PME.* .*
 .* --name covenant .*
 .* nanodump.*
 .* nanodump/.*
@@ -1418,6 +1428,7 @@
 .* --no-prop.*
 .* --no-prop-servers.*
 .* --no-sigthief.*
+.* -notcontains .* -notlike .*ntuser\.dat.*.* -and \$_\.Extension -ne .*\.tm.*
 .* --no-vm-kill.*
 .* --no-vm-snapshot-kill.*
 .* --no-wall.*
@@ -2004,6 +2015,9 @@
 .* -target-domain .* -outputfile .* -no-pass.*
 .* targetedKerberoast\.py .*
 .* --target-name .* --domain .* --dc-ip .* --executable .*\.exe.*
+.* -Targets .* -Method .* -LocalAuth.*
+.* -Targets All -Method WMI.*
+.* -Targets DCs.*
 .* targets-asn\.nse.*
 .* targets-ipv6-map4to6\.nse.*
 .* targets-ipv6-multicast-echo\.nse.*
@@ -2131,6 +2145,7 @@
 .* where /r C:\\Windows\\WinSxS\\ .*Microsoft\.ActiveDirectory\.Management\.dll.*
 .* whois-domain\.nse.*
 .* whois-ip\.nse.*
+.* will be written to PME\\.*
 .* winDefKiller .*
 .* windows/csharp_exe.*
 .* windows/shell/bind_tcp .*
@@ -2183,13 +2198,21 @@
 .*!use .*aes256_py.*
 .*!use .*reflected_assembly.*
 .*!wPkgPath!.*!ak!.*
+.*.*Successful Connection PME.*.*
 .*\$attacker_IPlist.*
+.*\$BaseTicket \| Select-String -Pattern 'doI\..*
 .*\$C2_SERVER.*
 .*\$DummyServiceName.*
 .*\$env:COMPlus_ETWEnabled=0.*
 .*\$FilterArgs = @\{ name='Notion'.*EventNameSpace='root\\\\CimV2'.*QueryLanguage=.*WQL.* Query=.*SELECT .* FROM __InstanceModificationE.*
+.*\$FQDNDomainPlusAccountOperators.*
+.*\$FQDNDomainPlusDomainAdmins.*
+.*\$FQDNDomainPlusEnterpriseAdmins.*
+.*\$FQDNDomainPlusServerOperators.*
 .*\$KeePassBinaryPath.*
 .*\$KeePassUser.*
+.*\$MimiTickets.*
+.*\$newClass\[.*__CLASS.*] = .*PMEClass.*.*
 .*%APPDATA%/Indexing\..*
 .*%comspec% /k .*\.bat.*
 .*%COMSPEC%.*echo.*\\pipe\\.*
@@ -4335,6 +4358,7 @@
 .*/killav\.rb.*
 .*/KillDefenderBOF.*
 .*/kimi\.py.*
+.*/Kirby\.ps1.*
 .*/kismet.*
 .*/kismetwireless/.*
 .*/kitrap0d\..*
@@ -5075,6 +5099,8 @@
 .*/PS2EXE/.*
 .*/ps-empire.*
 .*/psexec\.json.*
+.*/PsMapExec\.git.*
+.*/PsMapExec/.*
 .*/psnuffle.*
 .*/PSpersist\.git.*
 .*/pspy -.*
@@ -6225,13 +6251,17 @@
 .*\[i] Unhooked Ntdll Base Address: .*
 .*\[Reflection\.Assembly]::LoadWithPartialName\('System\.Core'\)\.GetType\('System\.Diagnostics\.Eventing\.EventProvider'\)\.GetField\('m_enabled'.*'NonPublic.*Instance'\)\.SetValue\(\[Ref]\.Assembly\.GetType\('System\.Management\.Automation\.Tracing\.PSEtwLogProvider'\)\.GetField\('etwProvider'.*'NonPublic.*Static'\)\.GetValue\(\$null\).*0\).*
 .*\['spawnto'].*
+.*\[string]\$Class = .*PMEClass.*.*
 .*\[x] Cannot load NTDLL\.DLL.*
 .*\[X] Your harvest exploded:.*
 .*\\ rev_shell\.py.*
 .*\\.*\.O365\.GroupMembership_AdminGroups\.txt.*
 .*\\.*\.O365\.GroupMembership_VPNGroups\.txt.*
 .*\\.*\.O365\.Roles_Admins\.txt.*
+.*\\\.eKeys-Parsed\.txt.*
 .*\\:MLKH.*
+.*\\\\\$ComputerName delete \$ServiceName.*
+.*\\\\.* create Service_.* binpath= `.*C:\\Windows\\System32\\cmd\.exe /c powershell\.exe -enc .*
 .*\\\\\.\\pipe\\mimi.*
 .*\\\\\.\\pipe\\pwned/pipe/srvsvc.*
 .*\\\\:C.*
@@ -6574,6 +6604,7 @@
 .*\\Keylogger\.txt.*
 .*\\KillDefender\.c.*
 .*\\KillDefender\.o.*
+.*\\Kirby\.ps1.*
 .*\\kitten\.exe.*
 .*\\KittyStager.*
 .*\\Koh\.exe.*
@@ -6711,6 +6742,20 @@
 .*\\PipeViewer\.exe.*
 .*\\PipeViewer\.sln.*
 .*\\PipeViewer\\Program\.cs.*
+.*\\PME\\.*-ConsoleHistory\.txt.*
+.*\\PME\\Console History\\.*
+.*\\PME\\eKeys\\.*
+.*\\PME\\LogonPasswords.*
+.*\\PME\\LSA\\.*
+.*\\PME\\MSSQL\\.*
+.*\\PME\\SAM\\.*
+.*\\PME\\Sessions\\.*
+.*\\PME\\SMB\\.*
+.*\\PME\\Spraying\\.*
+.*\\PME\\Tickets\\Kerbdump.*
+.*\\PME\\Tickets\\MimiTickets.*
+.*\\PME\\User Files\\.*
+.*\\PME\\VNC\\.*
 .*\\PoC\\PrivilegeEscalation.*
 .*\\POC_DLL\.vcxproj.*
 .*\\polenum\.py.*
@@ -6810,6 +6855,7 @@
 .*\\RunOF\\bin\\.*
 .*\\rusthound\.exe.*
 .*\\SafetyKatz.*
+.*\\SAM\\\.Sam-Full\.txt.*
 .*\\samantha\.txt
 .*\\save_reg\.hive.*
 .*\\scan4all\.exe.*
@@ -6837,6 +6883,7 @@
 .*\\servers\\dns_server\.py.*
 .*\\servers\\icmp_server\.py.*
 .*\\servers\\smb_server\.py.*
+.*\\Sessions\\SH-MatchedGroups-.*\.txt.*
 .*\\SessionSearcher\.csproj.*
 .*\\SessionSearcher\.exe.*
 .*\\shadowcoerce\.py.*
@@ -6915,6 +6962,7 @@
 .*\\Temp\\RTCore64\.sys.*
 .*\\TEMP\\ScreenConnect\\.*\.ps1.*
 .*\\Temp\\whoami\.txt.*
+.*\\Test\.PME
 .*\\tests\\beacon64\.bin.*
 .*\\TGSThief\\.*
 .*\\the-backdoor-factory\\.*
@@ -6922,6 +6970,7 @@
 .*\\ThemeBleed\.sln.*
 .*\\TheThing\.exe.*
 .*\\ticket_converter\.py.*
+.*\\Tickets\\KerbDump.*
 .*\\TikiCompiler\.txt.*
 .*\\TikiService\.exe.*
 .*\\TikiSpawn\..*
@@ -6958,6 +7007,7 @@
 .*\\utweb\.exe.*
 .*\\UUID_bypass\.py.*
 .*\\veeam_dump\.py.*
+.*\\VNC\\\.VNC-Non-Auth\.txt.*
 .*\\wce32\.exe.*
 .*\\wce64\.exe.*
 .*\\wce-beta\.zip.*
@@ -7055,6 +7105,7 @@
 .*\| favfreak.*
 .*\| hakrawler.*
 .*\|base64 -d > /tmp/traitor.*
+.*\|IEX}DumpSAM.*
 .*~/\.csexec.*
 .*< /dev/console \| uudecode && uncompress.*
 .*<3 eo\.oe.*
@@ -7854,6 +7905,7 @@
 .*ASBBypass\.ps1.*
 .*ASBBypass\.ps1.*
 .*ASBBypass\.ps1.*
+.*asktgt /user.* /domain:.* /password:.* /opsec /force /ptt.*
 .*ASRenum-BOF\..*
 .*asrep_attack.*
 .*asrep2kirbi.*
@@ -7869,6 +7921,7 @@
 .*Assemblies/SharpMove\.exe.*
 .*assembly .*\.asm .*
 .*assembly .*\.exe .*
+.*Assembly\.GetType\(.*System\.Management\.Automation\.AmsiUtils.*\)\.getField\(.*amsiInitFailed.*.*'NonPublic.*Static'\)\.SetValue\(\$null.*\$true\).*
 .*Assembly\.GetType\('System\.Management\.Automation\.AmsiUtils'\)\.GetField\('amsiInitFailed'.*'NonPublic.*Static'\)\.SetValue\(\$null.*\$true\).*
 .*assembly_inject -.*
 .*--assemblyargs AntiVirus AppLocker.*
@@ -9332,6 +9385,7 @@
 .*completedns-get-ns-history.*
 .*COMPlus_ETWEnabled=0\\0\\0\\0.*
 .*compress_encode_obfs.*
+.*ComputerDirectory\\.*\.FullDump\.txt.*
 .*computers_pwdnotreqd.*
 .*comsvcs_lsass.*
 .*ComsvcsLSASS.*
@@ -9483,6 +9537,7 @@
 .*create-aws-instance\.py.*
 .*CreateC2Dialog\..*
 .*CreateC2Server.*
+.*Created directory for PME at .*
 .*createdaisypayload.*
 .*createlinuxpayload.*
 .*Create-MultipleSessions\.ps1.*
@@ -10337,6 +10392,7 @@
 .*DueDLLigence\.cs.*
 .*DueDLLigence\.sln.*
 .*DueDLLigence-master.*
+.*dump /service:krbtgt .*
 .*dump_chrome_user.*
 .*dump_CREDENTIAL_MSOFFICE.*
 .*dump_CREDENTIAL_TASKSCHEDULER.*
@@ -10417,6 +10473,7 @@
 .*eaphammer -i eth0 --channel 4 --auth wpa-eap --essid .* --creds.*
 .*eaphammer.*
 .*eapmd5tojohn.*
+.*earching for systems where privileged users' credentials might be in running memory.*
 .*easinvoker\.exe.*System32.*
 .*EasyHook-Managed.*InjectionLoader\.cs.*
 .*EasyHook-Managed.*WOW64Bypass\..*
@@ -10500,6 +10557,7 @@
 .*eidnihaadmmancegllknfbliaijfmkgo.*
 .*ejabberd2john\.py.*
 .*ejkaocphofnobjdedneohbbiilggdlbi.*
+.*eKeys\\.*-eKeys\.txt.*
 .*elastic-agent\.exe uninstall.*
 .*eldraco/domain_analyzer.*
 .*electrum2john\.py.*
@@ -10547,6 +10605,7 @@
 .*Empire-Sponsors\.git.*
 .*empire-test-kalirolling.*
 .*emptybowl\.py.*
+.*-EmptyPassword-Users\.txt.*
 .*enable_persistence\.py.*
 .*Enable_Privilege /Process:.* /Privilege:.*
 .*EnableAllParentPrivileges\.c.*
@@ -11233,7 +11292,10 @@
 .*FULLSHADE/WindowsExploitationResources.*
 .*func_get_powershell_dll.*
 .*func_install_wine_dotnettojscript.*
+.*function DumpSAM.*
+.*function GNLPH.*Get-ItemProperty .*HKLM:SAM\\SAM\\Domains\\Account\\Users\\.*
 .*function psenum.*
+.*Function PsMapExec.*
 .*function Use-Zeus.*
 .*FunnyWolf/pystinger.*
 .*fuse_evil\..*
@@ -11483,6 +11545,10 @@
 .*Get-GPPPassword.*
 .*Get-GPPPassword\.ps1.*
 .*Get-GPPPassword\.py.*
+.*Get-GroupMembers -GroupName .*Account Operators.*.*
+.*Get-GroupMembers -GroupName .*Domain Admins.*.*
+.*Get-GroupMembers -GroupName .*Enterprise Admins.*.*
+.*Get-GroupMembers -GroupName .*Server Operators.*.*
 .*Get-HeadersWithPrtCookies.*
 .*GetHijackableDllName.*
 .*Get-ImageNtHeaders.*
@@ -11890,6 +11956,9 @@
 .*-H 'NTHASH'.*
 .*h2csmuggler --scan-list .*
 .*h2csmuggler -x .* --test.*
+.*H4sIAAAAAAAEACVQ30vDMBB.*
+.*H4sIAAAAAAAEANy9CZwcRfU43tPd093Tc.*
+.*H4sIAAAAAAAEAOx9CVhTR9fw3CQkYScgqyAILsgm.*
 .*h8mail -.*
 .*h8mail -t .*@.*\..*
 .*h8mail.*
@@ -12289,6 +12358,7 @@
 .*https://file\.io/.*
 .*https://file\.io/\?title=.*
 .*https://github\.com/bitsadmin/.*
+.*https://github\.com/The-Viper-One.*
 .*https://github-com\.translate\.goog/.*
 .*https://gitlab\.com/kalilinux/.*
 .*https://hunter\.io/.*
@@ -12358,6 +12428,8 @@
 .*iam__enum_assume_role/default-word-list\.txt.*
 .*iAmAnIndependentStrongPassswordThatNeedsToBeSecure.*
 .*iammaguire/Gotato.*
+.*IAS -Process .*aad3b435b51404eeaad3b435b51404ee.*
+.*IAS -Process \{GNLPH}.*\$excludedUsernames=@\(.*Guest.*DefaultAccount.*WDAGUtilityAccount.*
 .*ibmiscanner2john\.py.*
 .*IBurpExtender\.java.*
 .*IBurpExtenderCallbacks\.java.*
@@ -12599,6 +12671,7 @@
 .*InjectShellCodeRemote\.cs.*
 .*InjectShellCodeWMIFSB64.*
 .*injectsu\.dll.*
+.*InjectTicket.*ptt /ticket:.*
 .*inligpkjkhbpifecbdjhmdpcfhnlelja.*
 .*inline_assembly -Assembly .*
 .*inlineAssembly.*/execmethod.*
@@ -12998,6 +13071,7 @@
 .*Invoke-Mimikatz-old.*
 .*Invoke-MITM6.*
 .*Invoke-ModifiableProgramsCheck.*
+.*Invoke-Mongoose.*
 .*Invoke-MonitorCredSniper.*
 .*Invoke-MS16.*
 .*Invoke-MS16032.*
@@ -13030,6 +13104,8 @@
 .*Invoke-P0wnedshell.*
 .*Invoke-P0wnedshellx86.*
 .*Invoke-PacketKnock.*
+.*Invoke-Pandemonium -Command.*
+.*Invoke-Pandemonium\.ps1.*
 .*Invoke-Paranoia.*
 .*Invoke-Paranoia.*
 .*Invoke-PasswordSpray.*
@@ -13140,6 +13216,8 @@
 .*invokereverttoself.*
 .*Invoke-RevertToSelf.*
 .*Invoke-RevShellServer\.ps1.*
+.*Invoke-Rubeus .*
+.*Invoke-Rubeus.*
 .*Invoke-Rubeus.*
 .*Invoke-Rubeus.*
 .*Invoke-RunAs\.ps1.*
@@ -13224,6 +13302,7 @@
 .*Invoke-SharpPrinter.*
 .*Invoke-SharpPrinter.*
 .*Invoke-SharpPrintNightmare.*
+.*Invoke-SharpRDP.*
 .*Invoke-SharpRDP.*
 .*Invoke-SharpRDP\.ps1.*
 .*Invoke-SharpSCCM.*
@@ -13621,6 +13700,7 @@
 .*KeeThiefSyscalls.*
 .*keethief-syscalls.*
 .*keodbianoliadkoelloecbhllnpiocoi.*
+.*KerbDump\\.*-Tickets-KerbDump\.txt.*
 .*kerberoast /.*
 .*kerberoast /.*
 .*Kerberoast\..*
@@ -14218,6 +14298,8 @@
 .*log4shell\.py.*
 .*LoGiC\.NET\.exe.*
 .*loginsight\.thrift.*
+.*LogonPasswords\\.*-LogonPasswords\.txt.*
+.*LogonPasswords\\\.AllUniqueNTLM\.txt.*
 .*LogonTracer.*
 .*logs/Responder-Session\.log.*
 .*logs/ridenum\.log.*
@@ -14606,6 +14688,7 @@
 .*mimiRatz.*
 .*mimishim\..*
 .*mimispool\.dll.*
+.*MimiTickets\\.*-Tickets\.txt.*
 .*minidump.*minikerberos.*
 .*minidump\..* lsass\.dmp.*
 .*Minidump\.exe.*
@@ -15149,6 +15232,7 @@
 .*New-InMemoryModule.*
 .*New-InMemoryModule.*
 .*New-MailBoxExportRequest -Mailbox .*@.* -FilePath .*\.aspx.*
+.*New-Object System\.Management\.ManagementClass\(.*\\\\\\\$env:computername\\root\\cimv2.*\[.*__CLASS.*] = .*PMEClass.*.*
 .*New-Object System\.Net\.Sockets\.TCPClient\(.*\$stream = \$client\.GetStream\(\).*\[byte\[]]\$bytes = 0\.\.65535.*
 .*new-operator --name .* --lhost .*
 .*New-PSAmsiScanner -.*
@@ -15977,6 +16061,8 @@
 .*Plugins\\SendMemory\.dll.*
 .*plummm/CVE-2022-27666.*
 .*pm3 -p /dev/ttyACM0.*
+.*PME\\LSA\\.*-LSA\.txt.*
+.*PME\\UserFiles\\.*-UserFiles\.txt.*
 .*poc\.bash.*
 .*poc\.bat.*
 .*poc\.bin.*
@@ -16481,6 +16567,10 @@
 .*pslo .*\.ps1.*
 .*PsLoggedon\.exe.*
 .*PsLoggedon64\.exe.*
+.*PsMapExec -.*
+.*PsMapExec will continue in the current users context.*
+.*PsMapExec\.ps1.*
+.*PsMapExec-main.*
 .*pSNIRFgTuZnCdHN.*
 .*PSObfucate\.py.*
 .*Pspersist-main.*
@@ -17512,6 +17602,9 @@
 .*SafetyKatz-master.*
 .*sailay1996.*
 .*Salsa-tools.*
+.*SAM\\.*-SAMHashes\.txt.*
+.*SAM\\.*-SAMHashes\.txt.*
+.*SAM\\\.Sam-Full\.txt.*
 .*sam_the_admin\.py.*
 .*SamAdduser\.exe.*
 .*sambaPipe\.py.*
@@ -18403,6 +18496,7 @@
 .*smb\.dcsync.*
 .*smb/impacket.*
 .*smb/relay/ntlm.*
+.*SMB\\SigningNotRequired-.*\.txt.*
 .*smb_doublepulsar_rce\..*
 .*smb_doublepulsar_rce\.rb.*
 .*smb_enumshares.*
@@ -18580,6 +18674,8 @@
 .*'spawnto_x86'.*
 .*spawnto_x86\.py.*
 .*specialtokengroupprivs\.py.*
+.*Specified user is a Domain Admin\. Use the -Force switch to override.*
+.*Specified user is a Enterprise Admin\. Use the -Force switch to override.*
 .*Spel_RCE_Bash_EXP\.py.*
 .*Spel_RCE_POC\.py.*
 .*spiderfoot -l 127\.0\.0\.1:.*
@@ -18641,6 +18737,10 @@
 .*sprayhound -.*
 .*sprayhound -d .*
 .*sprayhound-master\.zip.*
+.*Spraying empty passwords.*
+.*Spraying usernames as passwords.*
+.*Spraying\\.*-AccountAsPassword-Users\.txt.*
+.*Spraying\\.*-Password-Users\.txt.*
 .*SprayingToolkit\.git.*
 .*SprayingToolkit-master.*
 .*SprayingToolkit-master\.zip.*
@@ -18893,6 +18993,7 @@
 .*Supernova-main\.zip.*
 .*supershell.*winpty\.dll.*
 .*supershell.*winpty-agent\.exe.*
+.*Supply either a 32-character RC4/NT hash or a 64-character AES256 hash.*
 .*SupportScam:Win32.*
 .*surajpkhetani/AutoSmuggle.*
 .*suspended_run .*
@@ -19093,6 +19194,7 @@
 .*tgsrepcrack\..*
 .*tgsrepcrack\.py.*
 .*TGSThief-main.*
+.*tgtdeleg /nowrap.*
 .*tgtdelegation .*
 .*tgtdelegation\.cna.*
 .*tgtdelegation\.x64.*
@@ -19120,6 +19222,8 @@
 .*ThemeBleed\.exe  .*
 .*ThePorgs/Exegol-images.*
 .*therealwover@protonmail\.com.*
+.*The-Viper-One/PME-Scripts.*
+.*The-Viper-One/PsMapExec.*
 .*thewover/donut.*
 .*thief\.py -.*
 .*third_party/SharpGen.*
@@ -19202,6 +19306,7 @@
 .*tmp.*lsass_.*\.dmp.*
 .*Tmprovider\.dll.*
 .*TMVB6XJWzuz4KsqUCnwxrtooQV9LmP6R4IX62HeQ7OZzhxgsahsxNzf05dJNkntl.*
+.*to \$LogonPasswords.*
 .*to_powershell\.ducky_script.*
 .*toggle_privileges\.cna.*
 .*toggle_privileges_bof\..*
@@ -19426,6 +19531,7 @@
 .*undertheradar-main.*
 .*unexpected bytes remain after decoding.*
 .*unexpected internal error.*
+.*Unhandled Rubeus exception:.*
 .*unhide-implant.*
 .*unhook kernel32.*
 .*unhook wldp amsi.*
@@ -19595,6 +19701,7 @@
 .*vnc_passwords\.txt.*
 .*vncdumpdll.*
 .*vncinject\.rb.*
+.*VNC-NoAuth -ComputerName .* -Port .*
 .*vncpcap2john\..*
 .*vncpwdump\..*
 .*vncviewer .*\..*:5901.*
