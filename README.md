@@ -91,7 +91,7 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - now we can use our lookup definition to hunt 🏹
 
 ## Example use cases with `threathunting-keywords`:
-![Splunk-Logo](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/420525b4-c4b8-4784-a858-041b67ae20b1)
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/07813e37-62de-4582-a784-2875ed0a2525)
 
 
 
