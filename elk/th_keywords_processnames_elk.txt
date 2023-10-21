@@ -148,6 +148,7 @@ ghostpack.exe
 netexec.exe
 fakelogonscreen.exe
 sharpldap.exe
+sharpldapmonitor.exe
 secretfinder.exe
 mystikal.exe
 dsquery.exe
