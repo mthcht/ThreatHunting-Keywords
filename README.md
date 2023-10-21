@@ -300,6 +300,19 @@ Read-Host -Prompt "Press Enter to exit"
 ```
 </details>
 
+### YARA Rules
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/34001df3-a489-40c0-a1cf-a0a9b63d9944)
+
+All the detection patterns of this project are automatically exported to yara rules in [ThreatHunting-Keywords-yara-rules](https://github.com/mthcht/ThreatHunting-Keywords-yara-rules)
+
+Some hunting example with the yara rules:
+![2023-10-20 20_23_59-(1) mthcht on X_ _The #ThreatHunting Keywords project is slowly progressing, alm](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/d90efb5b-8611-4e08-9d8e-fdab7b5d7483)
+ 
+![2023-10-20 20_14_17-C__Users_Public_Pictures](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/29ad8916-d7d4-482d-a8bf-90df25e400f3)
+
+![2023-10-21 11_14_15-Editing ThreatHunting-Keywords-yara-rules_README md at main · mthcht_ThreatHunti](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/7d992c46-28f0-4eb3-a0d7-f65fd37d6db6)
+![2023-10-21 11_12_44-](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/8f41f0de-48e8-435d-afda-1268dedad34f)
+
 ## Quick datatable to search for keyword (can be improved, open to suggestions)
 https://mthcht.github.io/ThreatHunting-Keywords/
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
