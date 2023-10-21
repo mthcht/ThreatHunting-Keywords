@@ -33,7 +33,7 @@ Different lists to work with the Elastic Stack without using sigma rules by http
 15. Go on and finish your rule creating according to your routines.
 
 
-You can do the same with th_keywords_processnames_elk.txt.
+You can do the same with th_keywords_processnames_elk.txt and the other files **as long as the field type is text**
 Upload it and follow the same steps, at number 12 change the list_id to th_keywords_processnames_elk.txt
 Then change the indicator mapping field to process.name instead.
 
