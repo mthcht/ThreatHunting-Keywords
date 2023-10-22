@@ -19,6 +19,59 @@ foreach ($type in $types) {
     $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
 }
 
+# Creating csv for each tool
+$dirMapping = @{
+    "A" = "A-C";
+    "B" = "A-C";
+    "C" = "A-C";
+    "D" = "D-F";
+    "E" = "D-F";
+    "F" = "D-F";
+    "G" = "E-H";
+    "H" = "E-H";
+    "I" = "I-K";
+    "J" = "I-K";
+    "K" = "I-K";
+    "L" = "L-N";
+    "M" = "L-N";
+    "N" = "L-N";
+    "O" = "O-Q";
+    "P" = "O-Q";
+    "Q" = "O-Q";
+    "R" = "R-T";
+    "S" = "R-T";
+    "T" = "R-T";
+    "U" = "U-W";
+    "V" = "U-W";
+    "W" = "U-W";
+    "X" = "X-Z";
+    "Y" = "X-Z";
+    "Z" = "X-Z"
+}
+
+# Get unique metadata_tool values
+$tools = $data | Select-Object -ExpandProperty metadata_tool -Unique
+
+# Create main 'tools' directory
+$mainDir = Join-Path $PSScriptRoot '..\tools\'
+New-Item -ItemType Directory -Force -Path $mainDir
+
+foreach ($tool in $tools) {
+    # Find the appropriate subdirectory
+    $firstLetter = $tool.Substring(0, 1).ToUpper()
+	$subDir = $dirMapping[$firstLetter]
+	if (-not $subDir) { $subDir = "_Others" }
+	
+    # Create subdirectory if it doesn't exist
+    $subDirPath = Join-Path $mainDir $subDir
+    New-Item -ItemType Directory -Force -Path $subDirPath
+
+    # Filter and export data
+    $filteredData = $data | Where-Object {$_.metadata_tool -eq $tool}
+    $outputFilePath = Join-Path $subDirPath "$tool.csv"
+    $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
+}
+
 $keywords = $data | Select-Object -ExpandProperty keyword
 $outputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords.txt"
 
