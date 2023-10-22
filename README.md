@@ -15,6 +15,7 @@
   - [With ELK it's different](#With-ELK) 
 - [Hunt without a SIEM](#dfir-hunt-for-keywords-in-files-no-siem)
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
+  - [YARA Rules](#YARA-Rules)
 - [Website](#quick-datatable-to-search-for-keyword-can-be-improved-open-to-suggestions)
 - [Expected False positives](#false-positives)
 - [SIGMA rules](#sigma-rules)
