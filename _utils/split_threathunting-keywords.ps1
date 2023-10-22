@@ -49,28 +49,38 @@ $dirMapping = @{
     "Z" = "X-Z"
 }
 
-# Get unique metadata_tool values
-$tools = $data | Select-Object -ExpandProperty metadata_tool -Unique
+# Initialize a dictionary for storing grouped data
+$groupedData = @{}
 
 # Create main 'tools' directory
 $mainDir = Join-Path $PSScriptRoot '..\tools\'
 New-Item -ItemType Directory -Force -Path $mainDir
 
-foreach ($tool in $tools) {
-    # Find the appropriate subdirectory
+# Group data by tool in a single pass
+$data | ForEach-Object {
+    $tool = $_.metadata_tool
     $firstLetter = $tool.Substring(0, 1).ToUpper()
-	$subDir = $dirMapping[$firstLetter]
-	if (-not $subDir) { $subDir = "_Others" }
-	
-    # Create subdirectory if it doesn't exist
+    $subDir = $dirMapping[$firstLetter]
+    if (-not $subDir) { $subDir = "_Others" }
+
     $subDirPath = Join-Path $mainDir $subDir
     New-Item -ItemType Directory -Force -Path $subDirPath
 
-    # Filter and export data
-    $filteredData = $data | Where-Object {$_.metadata_tool -eq $tool}
     $outputFilePath = Join-Path $subDirPath "$tool.csv"
-    $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
+
+    if (-not $groupedData[$outputFilePath]) {
+        $groupedData[$outputFilePath] = @()
+    }
+
+    $groupedData[$outputFilePath] += $_
 }
+
+# Export data to CSV
+$groupedData.Keys | ForEach-Object {
+    $outputFilePath = $_
+    $groupedData[$outputFilePath] | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
+}
+
 
 $keywords = $data | Select-Object -ExpandProperty keyword
 $outputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords.txt"
