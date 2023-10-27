@@ -1,0 +1,8 @@
+auth
+secret
+passphrase
+password
+userpwd
+passw
+pw
+username
