@@ -38,5 +38,7 @@ Upload it and follow the same steps, at number 12 change the list_id to th_keywo
 Then change the indicator mapping field to process.name instead.
 
 
+
 **Reference list**
-rmm_domain_names_elk.txt is a custom list from https://github.com/jischell-msft/RemoteManagementMonitoringTools/blob/main/Network%20Indicators/RMM_SummaryNetworkURI.csv
+rmm_domain_names_elk.txt is a custom list from 
+https://github.com/jischell-msft/RemoteManagementMonitoringTools/blob/main/Network%20Indicators/RMM_SummaryNetworkURI.csv
