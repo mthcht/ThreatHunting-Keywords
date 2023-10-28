@@ -19,6 +19,69 @@ foreach ($type in $types) {
     $filteredData | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
 }
 
+# Creating csv for each tool
+$dirMapping = @{
+    "A" = "A-C";
+    "B" = "A-C";
+    "C" = "A-C";
+    "D" = "D-F";
+    "E" = "D-F";
+    "F" = "D-F";
+    "G" = "E-H";
+    "H" = "E-H";
+    "I" = "I-K";
+    "J" = "I-K";
+    "K" = "I-K";
+    "L" = "L-N";
+    "M" = "L-N";
+    "N" = "L-N";
+    "O" = "O-Q";
+    "P" = "O-Q";
+    "Q" = "O-Q";
+    "R" = "R-T";
+    "S" = "R-T";
+    "T" = "R-T";
+    "U" = "U-W";
+    "V" = "U-W";
+    "W" = "U-W";
+    "X" = "X-Z";
+    "Y" = "X-Z";
+    "Z" = "X-Z"
+}
+
+# Initialize a dictionary for storing grouped data
+$groupedData = @{}
+
+# Create main 'tools' directory
+$mainDir = Join-Path $PSScriptRoot '..\tools\'
+New-Item -ItemType Directory -Force -Path $mainDir
+
+# Group data by tool in a single pass
+$data | ForEach-Object {
+    $tool = $_.metadata_tool
+    $firstLetter = $tool.Substring(0, 1).ToUpper()
+    $subDir = $dirMapping[$firstLetter]
+    if (-not $subDir) { $subDir = "_Others" }
+
+    $subDirPath = Join-Path $mainDir $subDir
+    New-Item -ItemType Directory -Force -Path $subDirPath
+
+    $outputFilePath = Join-Path $subDirPath "$tool.csv"
+
+    if (-not $groupedData[$outputFilePath]) {
+        $groupedData[$outputFilePath] = @()
+    }
+
+    $groupedData[$outputFilePath] += $_
+}
+
+# Export data to CSV
+$groupedData.Keys | ForEach-Object {
+    $outputFilePath = $_
+    $groupedData[$outputFilePath] | Export-Csv -Path $outputFilePath -NoTypeInformation -Encoding UTF8
+}
+
+
 $keywords = $data | Select-Object -ExpandProperty keyword
 $outputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords.txt"
 

@@ -1,8 +1,9 @@
-﻿.*  --coin=monero.*
+﻿.* - Removed disabled accounts from spraying.*
 .* - Sensitive Accounts\.csv.*
 .* - ShadowSpray.*
 .* \$exploit_oneliner.*
 .* \$FodHelperPath.*
+.* \$KerbDump.*
 .* \$lse_find_opts .*
 .* \$payload_oneliner .*
 .* .* 0x.* - HOOK DETECTED.*
@@ -55,6 +56,7 @@
 .* > Wi-Fi-PASS.*
 .* 0\.0\.0\.0:8080 --threads.*
 .* 1\.2\.3\.4:8080.*
+.* 365-Stealer .*
 .* 4444 meter
 .* 4444 shell
 .* '46993522-7D77-4B59-9B77-F82082DE9D81' .*
@@ -235,6 +237,7 @@
 .* --brute-ratel.*
 .* Brutesploit.*
 .* bruteuser .*
+.* bruteuser -d .*
 .* build Dent\.go.*
 .* -Build -NoAttackPaths.*
 .* build_letmeout.*
@@ -244,6 +247,7 @@
 .* BypassUac.*\.exe.*
 .* -c .* --choose-mutators .* -s 1.*
 .* -c .* -o payload\.ser.*
+.* -c .* -s .* -o share_listing -m 150.*
 .* -c .*ExploitClass\.cs.*System\.dll.*
 .* -c .*OBFUSCATION=.*\.ps1.*
 .* -c '/accepteula /s calc\.exe' -e PsExec64\.exe.*
@@ -264,6 +268,7 @@
 .* -c -w users\.txt --hs .*
 .* -c -z file.*users\.txt -z file.*pass\.txt .*
 .* -c -z range.*1-10 --hc=BBB http.*
+.* c:\\\\Temp\\\\lua\.log.*
 .* C:\\ProgramData\\sh\.txt.*
 .* C:\\temp\\w\.log.*
 .* C:\\Users\\Public\\build\.bat.*
@@ -271,10 +276,12 @@
 .* C:\\Users\\Public\\DtcInstall\.txt.*
 .* c2 add .*
 .* c2 start http .*
+.* c2_server\.py.*
 .* -c2server .*
 .* --CaCertPath .*\.pfx --CaCertPassword .*
 .* CallDirect\.py.*
 .* CallStranger\.py.*
+.* Can search all Teams messages in all channels that are readable by the current user.*
 .* -caplet .*\.cap
 .* cassandra-brute\.nse.*
 .* cassandra-info\.nse.*
@@ -313,6 +320,7 @@
 .* client\.py -s http.*:5000 --cert /.*\.pem.*
 .* clock-skew\.nse.*
 .* Clone_Token /Process:.* /Command:.*
+.* Clones a security group while using an identical name and member list but can inject another user as well.*
 .* cloud_enum\.py.*
 .* cloudsploit.*
 .* cmedb
@@ -324,6 +332,7 @@
 .* Coercer\.py.*
 .* CoffeeExecuteFunction.*
 .* --coin .*--nicehash .*
+.* --coin=monero.*
 .* collect activedirectory --.*
 .* --collectallproperties.*
 .* --CollectionMethod All .*ldap.*
@@ -644,6 +653,7 @@
 .* -f passw -e xlsx csv .*
 .* -f passw user admin account network login logon cred .*
 .* -f psexec\.exe -H .* -P .* -s reverse_shell_tcp.*
+.* -f raw -e none -o Nova_MSG\.bin.*
 .* -f shells/generic1\.ps1 .*
 .* -f tcpview\.exe -s iat_reverse_tcp_inline -H .* -P .* -m automatic -C.*
 .* -f TeamViewer\.exe -H .* -P .* -s .*
@@ -750,6 +760,7 @@
 .* getprivs\.o .*
 .* Get-SpoolStatus\.ps1.*
 .* --get-syscallstub .*
+.* Ghauri is going to use the current database to enumerate table\(s\) entries.*
 .* -GHUser .* -GHRepo .*
 .* giop-info\.nse.*
 .* github repos list --org.*
@@ -772,6 +783,8 @@
 .* gpp_autologin.*
 .* gpp_password.*
 .* gpsd-info\.nse.*
+.*--------------------- GraphRunner Module ----------------------.*
+.* GraphRunner\.ps1.*
 .* GreatSCT/.*
 .* --greeting .* --personalize .*--securelink.*
 .* -grouper2 -Command .*
@@ -962,6 +975,7 @@
 .* -I .*\.bin .* -Loader dll.*
 .* -i -H .* -P .* -s reverse_shell_tcp -a -u \.moocowwow.*
 .* -i havex\.profile .*
+.* -i portscan445\.gnmap -o shares_found\.txt.*
 .* -i snmp-ips\.txt -c community\.txt.*
 .* iax2-brute\.nse.*
 .* iax2-version\.nse.*
@@ -993,6 +1007,7 @@
 .* -ImpersonateUser .*
 .* ImplantSSP\.exe.*
 .* import Exrop.*
+.* Import tokens from other tools for use in GraphRunner.*
 .* -ImportDllPathPtr .*
 .* impress-remote-discover\.nse.*
 .* -inc -u=0 .*\.pwd.*
@@ -1132,6 +1147,7 @@
 .* kerberos spnroast .*
 .* kerberos tgt .*kerberos\+rc4://.*:.*@.*
 .* kerberos\.py.*
+.* kerbrute\.py.*
 .* --key examples/conspicuous\.priv --isconspicuous.*
 .* --key PPLBlade.*
 .* keylogger .*
@@ -1300,6 +1316,12 @@
 .* metasploit-msgrpc-brute\.nse.*
 .* metasploit-xmlrpc-brute\.nse.*
 .* -method .* -nthash .*
+.* -Method GenRelayList.*
+.* -Method SessionHunter.*
+.* -Method Spray -AccountAsPassword.*
+.* -Method Spray -EmptyPassword.*
+.* -Method Spray -Hash .*
+.* -Method Spray -Password .*
 .* Microsploit\.sh.*
 .* mikrotik-routeros-brute\.nse.*
 .* mimikittenz.*
@@ -1310,6 +1332,7 @@
 .* --mode dump --name .*\.exe --handle procexp --obfuscate.*
 .* --mode dump --name lsass\.exe.*
 .* --mode proxy --ghidra .*--dll .*
+.* -Module kerbdump.*
 .* mongodb-brute\.nse.*
 .* mongodb-databases\.nse.*
 .* mongodb-info\.nse.*
@@ -1358,6 +1381,7 @@
 .* mythic_payloadtype_container.*
 .* mythic-cli.*
 .* -n .*TotallyLegitTool.*
+.* -Name .*Test\.PME.* .*
 .* --name covenant .*
 .* nanodump.*
 .* nanodump/.*
@@ -1416,6 +1440,7 @@
 .* --no-prop.*
 .* --no-prop-servers.*
 .* --no-sigthief.*
+.* -notcontains .* -notlike .*ntuser\.dat.*.* -and \$_\.Extension -ne .*\.tm.*
 .* --no-vm-kill.*
 .* --no-vm-snapshot-kill.*
 .* --no-wall.*
@@ -1491,6 +1516,7 @@
 .* -p shellcode -i .*\.bin -o .*\.vba.*
 .* -p test_passwords\.txt.*
 .* -p TransactionManagerReenlist.*
+.* -p windows/x64/messagebox TITLE=NovaLdr .*
 .*' p::d '.*
 .* -p:AssemblyName=inveigh.*
 .* p2p-conficker\.nse.*
@@ -1500,10 +1526,12 @@
 .* parrot\.run/.*
 .* parrot-backports .*
 .* parrot-security .*
+.* --password wordlists/.*\.txt.*
 .* password\.lst.*
 .* -PasswordList .*
 .* --password-list .*
 .* --password-not-required --kdcHost .*cme.*
+.* passwordspray -d .*
 .* passwordspray -d .*
 .* path-mtu\.nse.*
 .* -pathToBloodHoundGraph .* -pathToOutputGoFetchPath .*  -pathToAdditionalPayload .*
@@ -1548,6 +1576,7 @@
 .* pgsql-brute\.nse.*
 .* -pi \\\\\\\\\\\\\\\\\.\\\\\\\\pipe\\\\\\\\.*
 .* Pictures\\Screenshots\\loot\.zip.*
+.*----------------------- Pillage Modules -----------------------.*
 .* --pinject .*
 .* -PipeName .* -ServiceName .* -Command whoami.*
 .* pipename_stager .*
@@ -1595,6 +1624,7 @@
 .* pupyx64\.lin.*
 .* push_payload.*
 .* putterpanda\.py.*
+.* pwcrack\.sh.*
 .* Pwn3d!.*
 .* py2exe.*
 .* pyasn1 .*
@@ -1632,6 +1662,8 @@
 .* realvnc-auth-bypass\.nse.*
 .* rec2 crde_linux.*
 .* rec2 crde_macos.*
+.*----------------- Recon & Enumeration Modules -----------------.*
+.* Redirect Url After Stealing ==> .*
 .* redis-brute\.nse.*
 .* redis-info\.nse.*
 .* redsocks\.sh.*
@@ -1690,6 +1722,8 @@
 .* ruler\.exe.*
 .* --rules:Jumbo .*
 .* run donpapi.*
+.* run netexec .*
+.* run nxc smb .*
 .* RunasCs\.cs.*
 .* -runaslsass.*
 .* rusers\.nse.*
@@ -1853,6 +1887,9 @@
 .* smb-enum-users\.nse.*
 .* smbexec\.py.*
 .* smb-flood\.nse.*
+.* SMBGrab\.pl.*
+.* SMBHunt\.pl.*
+.* SMBList\.pl.*
 .* smb-ls\.nse.*
 .* smb-mbenum\.nse.*
 .* smb-os-discovery\.nse.*
@@ -1971,6 +2008,7 @@
 .* stun-info\.nse.*
 .* stun-version\.nse.*
 .* stuxnet-detect\.nse.*
+.* Successful authentication\. Access and refresh tokens have been written to the global \$apptokens variable\. To use them with other GraphRunner modules use the Tokens flag .*
 .* supermicro-ipmi-conf\.nse.*
 .* Supershell\.tar\.gz.*
 .* -sV --script vulners .*
@@ -2000,6 +2038,9 @@
 .* -target-domain .* -outputfile .* -no-pass.*
 .* targetedKerberoast\.py .*
 .* --target-name .* --domain .* --dc-ip .* --executable .*\.exe.*
+.* -Targets .* -Method .* -LocalAuth.*
+.* -Targets All -Method WMI.*
+.* -Targets DCs.*
 .* targets-asn\.nse.*
 .* targets-ipv6-map4to6\.nse.*
 .* targets-ipv6-multicast-echo\.nse.*
@@ -2017,6 +2058,7 @@
 .* telnet-brute\.nse.*
 .* telnet-encryption\.nse.*
 .* telnet-ntlm-info\.nse.*
+.* Test different CLientID's against MSGraph to determine permissions.*
 .* tftp-enum\.nse.*
 .* tgssub .* /ticket:.*
 .* tgtdeleg /nowrap.*
@@ -2026,6 +2068,7 @@
 .* theHarvester\.py .*
 .* thief\.py.*
 .* --threads .* scan --buckets-file.* 
+.* ticket_converter\.py.*
 .* ticketsplease\..*
 .* TikiLoader.*
 .* tls-alpn\.nse.*
@@ -2091,7 +2134,9 @@
 .* url-snarf\.nse.*
 .* Use-DarkHotel.*
 .* -user .* --passwordlist .*
+.* --user-as-pass.*
 .* userenum .* --dc .*
+.* userenum -d .* .*\.txt.*
 .* -Username .* -Hash .* -Command .*
 .* -Username .* -Password .* -Command .* -LogonType .*
 .* --UserName .* --Password .* --Payload .*\.exe.*
@@ -2124,6 +2169,7 @@
 .* where /r C:\\Windows\\WinSxS\\ .*Microsoft\.ActiveDirectory\.Management\.dll.*
 .* whois-domain\.nse.*
 .* whois-ip\.nse.*
+.* will be written to PME\\.*
 .* winDefKiller .*
 .* windows/csharp_exe.*
 .* windows/shell/bind_tcp .*
@@ -2148,6 +2194,7 @@
 .* ws-files\.txt.*
 .* WSPCoerce\.cs.*
 .* -X '\$PSVersionTable' .*
+.* -x .* --exec-method .*
 .* -X '\[System\.Environment]::Is64BitProcess'.*
 .* -X FUZZ http.*
 .* -X whoami --obfs.*
@@ -2176,13 +2223,22 @@
 .*!use .*aes256_py.*
 .*!use .*reflected_assembly.*
 .*!wPkgPath!.*!ak!.*
+.*.*Successful Connection PME.*.*
+.*\# Perform the HTTP POST request to search emails.*
 .*\$attacker_IPlist.*
+.*\$BaseTicket \| Select-String -Pattern 'doI\..*
 .*\$C2_SERVER.*
 .*\$DummyServiceName.*
 .*\$env:COMPlus_ETWEnabled=0.*
 .*\$FilterArgs = @\{ name='Notion'.*EventNameSpace='root\\\\CimV2'.*QueryLanguage=.*WQL.* Query=.*SELECT .* FROM __InstanceModificationE.*
+.*\$FQDNDomainPlusAccountOperators.*
+.*\$FQDNDomainPlusDomainAdmins.*
+.*\$FQDNDomainPlusEnterpriseAdmins.*
+.*\$FQDNDomainPlusServerOperators.*
 .*\$KeePassBinaryPath.*
 .*\$KeePassUser.*
+.*\$MimiTickets.*
+.*\$newClass\[.*__CLASS.*] = .*PMEClass.*.*
 .*%APPDATA%/Indexing\..*
 .*%comspec% /k .*\.bat.*
 .*%COMSPEC%.*echo.*\\pipe\\.*
@@ -2231,6 +2287,7 @@
 .*\./hydra .*
 .*\./inceptor\.py.*
 .*\./Ivy -.*
+.*\./kerbrute .*
 .*\./koadic.*
 .*\./Lalin\.sh.*
 .*\./litefuzz\.py.*
@@ -2254,12 +2311,14 @@
 .*\./rpcrt\.py.*
 .*\./rsocx -.*
 .*\./scan4all .*
+.*\./scan4all.*
 .*\./ScareCrow .*
 .*\./ScareCrow -.*
 .*\./ScareCrow.*
 .*\./seth\.sh .* .*
 .*\./snake
 .*\./SourcePoint .*
+.*\./sshimpanzee.*
 .*\./sudomy.*
 .*\./t14m4t .*
 .*\./teamserver .*
@@ -2364,7 +2423,9 @@
 .*\.exe -group=system .*
 .*\.exe -group=user .*
 .*\.exe hash /password:.*
+.*\.exe host -p .* - allow-anonymous.*
 .*\.exe -i -c powershell\.exe.*
+.*\.exe -i -s cmd\.exe.*
 .*\.exe kdsinfo --guid .*
 .*\.exe krbscm -c .*cmd\.exe.*
 .*\.exe -l .* -c \{B91D5831-B1BD-4608-8198-D72E155020F7}.*
@@ -2377,7 +2438,9 @@
 .*\.exe NTLMSettings.*
 .*\.exe OneDrive --username .* --password .* --filepath .*\\.*\.exe.*
 .*\.exe --override-file --source-file .*\.exe.*
+.*\.exe port create -p .*
 .*\.exe ptt /ticket:.*
+.*\.exe ptt /ticket:.*\.kirbi
 .*\.exe -ptt ticket:.*\.kirbi.*
 .*\.exe --pwsh .*\.ps1 .*\.exe.*
 .*\.exe -q InterestingProcesses.*
@@ -2401,6 +2464,7 @@
 .*\.exe -t wl-extract\.dll -d .*\.dat -r .*\.rsa -.*\.exe.*
 .*\.exe triage
 .*\.exe triage /password:.*
+.*\.exe -u .* -s 2 -c cmd\.exe.*
 .*\.exe -uac
 .*\.exe --ui .*
 .*\.exe --winlogon .* .*:\\.*\.exe.*
@@ -2495,6 +2559,7 @@
 .*\.py .* --burp .*
 .*\.py .* -debug -dnstcp.*
 .*\.py .* -k -no-pass.*
+.*\.py .* --sql-shell.*
 .*\.py .* --teamserver .*
 .*\.py .*\.cs cs ms.*
 .*\.py .*\.exe .*NormalDLL\.dll.*
@@ -2526,6 +2591,8 @@
 .*\.py.* --payload .*\.ps1.*
 .*\.py.* service -action create -service-name .*
 .*\.py.* -service-name .* -hashes .*
+.*\.py.*\.ccache .*\.kirbi .*
+.*\.py.*\.kirbi .*\.ccache.*
 .*\.py.*found-users\.txt.*
 .*\.rclone\.exe config.*
 .*\.resources\.123456\..*
@@ -2622,6 +2689,9 @@
 .*/0xIronGoat/dirty-pipe.*
 .*/0xthirteen/.*
 .*/0xthirteen/StayKit.*
+.*/1/all_in_one\.7z\.torrent.*
+.*/1/all_in_one_p\.7z.*
+.*/1/all_in_one_w\.7z.*
 .*/1mxml/CVE-2022-23131.*
 .*/365-Stealer\.git.*
 .*/3DESEncryptor\.go.*
@@ -2644,6 +2714,7 @@
 .*/acm_enum_certs_info_.*\.json.*
 .*/ActiveScanPlusPlus.*
 .*/AD_Enumeration_Hunt.*
+.*/AD_Miner\.git.*
 .*/ADACLScanner\.git.*
 .*/adalanche/modules/.*
 .*/adconnectdump\.git.*
@@ -2805,6 +2876,7 @@
 .*/attacks/.*\.py
 .*/AttackServers/.*
 .*/AttackSurfaceMapper\.git.*
+.*/audio/exfiltrator\.py.*
 .*/Augustus\.git.*
 .*/auth/cc2_auth\..*
 .*/auth-owners\.nse.*
@@ -2888,6 +2960,7 @@
 .*/BesoToken\.exe.*
 .*/BesoToken\.git.*
 .*/bettercap.*
+.*/bgp_exfil\.py.*
 .*/bh_owned\.py.*
 .*/bhqc\.py -.*
 .*/BIFFRecordEncryption\.cs.*
@@ -2899,6 +2972,7 @@
 .*/bin/hakrawler.*
 .*/bin/nxcdb.*
 .*/bin/posh.*
+.*/bin/proxy_cli\.py.*
 .*/bin/pupysh.*
 .*/bin/read_i\.php\?a1=step2-down-b&a2=.*
 .*/bin/read_i\.php\?a1=step2-down-c&a2=.*
@@ -2911,7 +2985,9 @@
 .*/bin/Sleeper\.o.*
 .*/bin/unshackle.*
 .*/bin/wapiti.*
+.*/bin2hex\.lua.*
 .*/bind_powershell\.rb.*
+.*/bindshell\.lua.*
 .*/bin-sploits/.*\.zip.*
 .*/BITB\.git.*
 .*/BITB-main.*
@@ -3059,6 +3135,7 @@
 .*/c2_code/server.*
 .*/C2_Profiles/.*
 .*/C2_Server\.git.*
+.*/c2_server\.py.*
 .*/c2_server/resources.*
 .*/c2_test\.go.*
 .*/C2concealer.*
@@ -3153,6 +3230,8 @@
 .*/cmd_executor/.*\.go.*
 .*/cmd_log\.txt.*
 .*/cmd_stager.*
+.*/CmdLineSpoofer\.git.*
+.*/CmdLineSpoofer/.*\.cs.*
 .*/cmdstager/.*
 .*/cme smb .*
 .*/cme winrm .*
@@ -3176,6 +3255,7 @@
 .*/cobalt-strike.*
 .*/cobaltstrike/c2lint.*
 .*/CodeBuildLooter\.py.*
+.*/CoercedPotato\.git.*
 .*/coercer\.egg-info.*
 .*/Coercer\.git.*
 .*/Coercer\.py.*
@@ -3206,6 +3286,7 @@
 .*/ContainYourself\.git.*
 .*/CookieProcessor\.cs.*
 .*/Cooolis-ms/.*
+.*/Cordyceps\.git.*
 .*/core/browser_darwin\.go.*
 .*/core/browser_linux\.go.*
 .*/core/browser_windows\.go.*
@@ -3338,6 +3419,7 @@
 .*/db2_default_userpass\.txt.*
 .*/db2-das-info\.nse.*
 .*/dbc2Loader.*
+.*/dbms/fingerprint\.py.*
 .*/DCOM Lateral Movement/.*
 .*/dcomhijack\.git.*
 .*/DCOMPotato\.git.*
@@ -3386,6 +3468,7 @@
 .*/dfscoerce\.py.*
 .*/dhcp-discover\.nse.*
 .*/Dialogs/Payload\.hpp.*
+.*/dicassassin\.7z.*
 .*/dicom-brute\.nse.*
 .*/dicom-ping\.nse.*
 .*/dict-info\.nse.*
@@ -3420,6 +3503,7 @@
 .*/DllNotificationInjection\.git.*
 .*/DllProxy\.git.*
 .*/dlls/c2\.c.*
+.*/DLL-Spoofer\.git.*
 .*/dns_grabber\..*
 .*/dns_spoof.*
 .*/dns-blacklist\.nse.*
@@ -3482,6 +3566,8 @@
 .*/donutmodule\.c.*
 .*/DonutTest/.*
 .*/DotNet/SigFlip.*
+.*/download/fiddler/fiddler-everywhere-windows.*
+.*/downloadexec\.lua.*
 .*/download-stager\.js.*
 .*/dpap-brute\.nse.*
 .*/dpipe\.sh.*
@@ -3608,6 +3694,8 @@
 .*/EvilnoVNC\.git.*
 .*/evilqr\.git.*
 .*/evilSignatures\.db.*
+.*/EvilSln\.git.*
+.*/EvilSln/.*\.suo.*
 .*/EvilTwinServer.*
 .*/EvtMute\.git.*
 .*/Example_C2_Profile.*
@@ -3661,6 +3749,7 @@
 .*/fern-wifi-cracker/.*
 .*/ffuf\.git.*
 .*/ffuf/ffufrc.*
+.*/Fiddler Everywhere .*\..*\..*\.exe.*
 .*/fiesta\.profile.*
 .*/fiesta2\.profile.*
 .*/FilelessPELoader.*
@@ -3746,6 +3835,9 @@
 .*/getST\.py.*
 .*/get-system/getsystem\.c.*
 .*/GetWebDAVStatus_BOF/.*
+.*/ghauri\.git.*
+.*/ghauri\.py.*
+.*/ghauri/ghauri/.*
 .*/ghidra.*
 .*/ghostfile\.aspx.*
 .*/GhostInTheNet\.git.*
@@ -3883,6 +3975,9 @@
 .*/gpp_password\.py.*
 .*/gpp-decrypt.*
 .*/gpsd-info\.nse.*
+.*/GraphRunner\.git.*
+.*/GraphRunner\.ps1.*
+.*/GraphRunner-main.*
 .*/GreatSCT/.*
 .*/GreatSCT/GreatSCT.*
 .*/greatsct-output.*
@@ -3918,7 +4013,9 @@
 .*/HaryyUser\.exe.*
 .*/hash_spider\.py.*
 .*/hashcat.*
+.*/hashcat-rule\.git.*
 .*/hashdump_dc.*
+.*/hashesorg2019\.gz.*
 .*/Hashi0x/.*
 .*/hashview\.py.*
 .*/havex\.profile.*
@@ -3965,6 +4062,7 @@
 .*/HTMLSmuggler\.git.*
 .*/HTMLSmuggler/.*
 .*/htshells\.git.*
+.*/http_exfiltration\.py.*
 .*/http_payload\.ps1.*
 .*/http-adobe-coldfusion-apsa1301\.nse.*
 .*/http-affiliate-id\.nse.*
@@ -4126,6 +4224,7 @@
 .*/icap-info\.nse.*
 .*/icebreaker\.git.*
 .*/icebreaker\.py.*
+.*/icmp_exfiltration\.py.*
 .*/IDiagnosticProfileUAC.*
 .*/iec-identify\.nse.*
 .*/ielocalserver\.dll.*
@@ -4201,6 +4300,7 @@
 .*/interactsh-client.*
 .*/interactsh-collaborator.*
 .*/interactsh-server.*
+.*/interesting-teamsmessages\.csv.*
 .*/internal/C2/.*\.go.*
 .*/internal/pipe/pipe\.go.*
 .*/Internals/Coff\.cs.*
@@ -4297,6 +4397,9 @@
 .*/kerberos\.py.*
 .*/kerberos-ldap-password-hunter.*
 .*/kerberosticket\.py.*
+.*/kerbrute\.git.*
+.*/kerbrute\.go.*
+.*/kerbrute\.py.*
 .*/kerbrute/.*
 .*/KernelMii\.c.*
 .*/keygen\.exe.*
@@ -4309,6 +4412,7 @@
 .*/killav\.rb.*
 .*/KillDefenderBOF.*
 .*/kimi\.py.*
+.*/Kirby\.ps1.*
 .*/kismet.*
 .*/kismetwireless/.*
 .*/kitrap0d\..*
@@ -4371,6 +4475,8 @@
 .*/LDAPWordlistHarvester\.git.*
 .*/ldeep/.*
 .*/ldeepDump.*
+.*/legba\.git.*
+.*/legba/target/release/legba.*
 .*/LetMeOutSharp/.*
 .*/lexmark-config\.nse.*
 .*/lgandx/Responder.*
@@ -4385,6 +4491,8 @@
 .*/ligolo-ng.*
 .*/LinEnum\.git.*
 .*/LinEnum/.*
+.*/linikatz\.git.*
+.*/LinikatzV2/.*
 .*/linpeas\.sh.*
 .*/linpeas\.sh.*
 .*/linux_ldso_dynamic\.c.*
@@ -4393,6 +4501,7 @@
 .*/linux_offset2lib\.c.*
 .*/linux-smart-enumeration\.git.*
 .*/linWinPwn.*
+.*/listProxyPool\?k=.*
 .*/llmnr-resolve\.nse.*
 .*/lltd-discovery\.nse.*
 .*/load-assembly\.py.*
@@ -4724,12 +4833,16 @@
 .*/NoPowerShell/.*
 .*/noseyparker\.git.*
 .*/NotQuite0DayFriday/zip/trunk.*
+.*/NovaLdr\.exe
+.*/NovaLdr\.git.*
+.*/NoveLdr\.exe
 .*/nowsecure/dirtycow.*
 .*/nping-brute\.nse.*
 .*/NPPSPY\.dll.*
 .*/NPPSpy\.exe.*
 .*/nps_payload\.git.*
 .*/nrpe-enum\.nse.*
+.*/nsa-rules\.git.*
 .*/nse_install/.*
 .*/nse-install\.git.*
 .*/ntapphelpcachecontrol.*
@@ -4786,6 +4899,7 @@
 .*/octopusx64\.asm.*
 .*/OffensiveCSharp\.git.*
 .*/OffensiveCSharp/.*
+.*/OffensiveLua\.git.*
 .*/OffensiveNotion\.git
 .*/OffensiveNotion/agent.*
 .*/OffensiveNotion/osxcross/target/bin.*
@@ -4870,6 +4984,8 @@
 .*/password\.lst.*
 .*/password/mimipenguin/.*
 .*/password_brute\.txt.*
+.*/password_ruled\.txt.*
+.*/Passwords\.docx.*
 .*/patchfinder64\..*
 .*/PatchingAPI\.cpp.*
 .*/PatchingAPI\.exe.*
@@ -4902,6 +5018,9 @@
 .*/pentest.*
 .*/PE-Obfuscator.*
 .*/perf_swevent64.*
+.*/Perfusion\.exe.*
+.*/Perfusion\.git.*
+.*/PerfusionDll\.dll.*
 .*/persist\.tpl.*
 .*/PersistBOF/.*
 .*/Persistence\.cpp.*
@@ -4945,6 +5064,8 @@
 .*/PoC-CVE-2023-21554.*
 .*/poisoners/.*\.py
 .*/polenum\.py.*
+.*/pop_exfil_client\.py.*
+.*/pop_exfil_server\.py.*
 .*/pop3-brute\.nse.*
 .*/pop3-capabilities\.nse.*
 .*/pop3-ntlm-info\.nse.*
@@ -5047,6 +5168,8 @@
 .*/PS2EXE/.*
 .*/ps-empire.*
 .*/psexec\.json.*
+.*/PsMapExec\.git.*
+.*/PsMapExec/.*
 .*/psnuffle.*
 .*/PSpersist\.git.*
 .*/pspy -.*
@@ -5082,6 +5205,7 @@
 .*/PupyTriggers\.py.*
 .*/PupyWeb\.py.*
 .*/putter\.profile.*
+.*/pwcrack\.sh.*
 .*/PwnDB\.py.*
 .*/pwndrop\.git.*
 .*/pwndrop\.ini.*
@@ -5096,6 +5220,8 @@
 .*/pycobalt-.*
 .*/pycobalt/.*
 .*/PyExec\.git.*
+.*/PyExfil\.git.*
+.*/PyExfil/pyexfil/.*
 .*/pyinstaller/.*
 .*/pykiller/CVE-2022-23131.*
 .*/pyLAPS\.git.*
@@ -5201,11 +5327,14 @@
 .*/RegistryPersistence\.c.*
 .*/Registry-Recon/.*
 .*/reg-query\.py.*
+.*/regread\.lua.*
 .*/regreeper\.jpg.*
 .*/Reg-Restore-Persistence-Mole.*
 .*/regsvcs/meterpreter.*
 .*/regsvr\.cmd.*
 .*/regsvr32/shellcode_inject.*
+.*/regwrite\.lua.*
+.*/regwritedel\.lua.*
 .*/releases/download/.*/abc\.exe.*
 .*/releases/latest/download/lse\.sh.*
 .*/Remote/adcs_request/.*
@@ -5283,6 +5412,8 @@
 .*/rtsp-methods\.nse.*
 .*/rtsp-url-brute\.nse.*
 .*/Rubeus.*
+.*/Rubeus\.exe.*
+.*/Rubeus\.git.*
 .*/Rubeus/.*
 .*/Rudrastra\.git.*
 .*/rulerforms\.go.*
@@ -5296,10 +5427,13 @@
 .*/RunAsWinTcb\.git.*
 .*/RunAsWinTcb\.iml.*
 .*/runcalc\.dll.*
+.*/runcmd\.lua.*
+.*/runcmd2\.lua.*
 .*/rundll32\.cmd.*
 .*/rundll32_js.*
 .*/RunOF/RunOF/.*
 .*/runshellcode\..*
+.*/runswhide\.lua.*
 .*/RuralBishop\.git.*
 .*/rusers\.nse.*
 .*/rustcat/releases/latest/download/.*
@@ -5322,7 +5456,10 @@
 .*/samruser\.py.*
 .*/sap_default\.txt.*
 .*/sc_inject/inject/.*
+.*/scan4all\.exe.*
 .*/scan4all\.git.*
+.*/scan4all\.git.*
+.*/scan4all\.rb.*
 .*/scan4all/lib/api.*
 .*/scan4all/lib/util.*
 .*/scanner/discovery.*
@@ -5357,6 +5494,7 @@
 .*/secinject\.c.*
 .*/SecretFinder\.git.*
 .*/secretsdump_.*\.txt.*
+.*/SecScanC2\.git.*
 .*/sec-tools/litefuzz.*
 .*/SeeYouCM-Thief.*
 .*/self_delete\.cna.*
@@ -5366,6 +5504,7 @@
 .*/server/common/stagers\.py.*
 .*/ServerC2\.cpp.*
 .*/ServerC2\.exe.*
+.*/ServerlessRedirector\.git.*
 .*/servers/dns_server\.py.*
 .*/servers/icmp_server\.py.*
 .*/servers/smb_server\.py.*
@@ -5419,6 +5558,8 @@
 .*/SharpGmailC2\.git.*
 .*/SharpHandler\.py.*
 .*/SharpHide\.git.*
+.*/SharpKiller\.git.*
+.*/Sharp-Killer\.sln.*
 .*/SharpLDAP\.git.*
 .*/SharpNoPSExec.*
 .*/SharpRDP\.git.*
@@ -5442,6 +5583,7 @@
 .*/SharPyShell.*
 .*/shell/password\.go.*
 .*/shell/shell_port\..*
+.*/shell\?k=.*&ip=.*&cmd=.*
 .*/shell_exec\.py.*
 .*/Shell3er/.*
 .*/shellcode.*loader\.bin.*
@@ -5534,6 +5676,7 @@
 .*/smb3\.py.*
 .*/smb-brute\.nse.*
 .*/smb-cmds\.txt.*
+.*/SMBCrunch\.git.*
 .*/smb-double-pulsar-backdoor\.nse.*
 .*/SMBeagle.*
 .*/smb-enum-domains\.nse.*
@@ -5549,7 +5692,10 @@
 .*/SMBForwarder\.txt.*
 .*/SMBGhost/scanner\.py.*
 .*/SMBGhost_RCE.*
+.*/SMBGrab\.pl.*
+.*/SMBHunt\.pl.*
 .*/smbldap\.py.*
+.*/SMBList\.pl.*
 .*/smb-ls\.nse.*
 .*/smbmap\.git.*
 .*/smbmapDump.*
@@ -5641,6 +5787,7 @@
 .*/spoof/dns.*
 .*/spoof/mdns.*
 .*/spoof/spoof_windows\..*
+.*/spoofIPs_client\.py.*
 .*/SpookFlare\.git.*
 .*/spooler\.py.*
 .*/spoolsystem/SpoolTrigger/.*
@@ -5687,6 +5834,7 @@
 .*/ssh-auth-methods\.nse.*
 .*/ssh-brute\.nse.*
 .*/ssh-hostkey\.nse.*
+.*/sshimpanzee\.git.*
 .*/ssh-publickey-acceptance\.nse.*
 .*/ssh-run\.nse.*
 .*/sshv1\.nse.*
@@ -5714,6 +5862,8 @@
 .*/stagers/.*\.ps1.*
 .*/stagers/CSharpPS.*
 .*/start_campaign\.py.*
+.*/startProxyPool\?k=.*&random=n&number=2&ip=.*
+.*/startProxyPool\?k=.*&random=y&number=2.*
 .*/StaticSyscallsAPCSpawn/.*
 .*/StaticSyscallsInject/.*
 .*/StayKit\.cna.*
@@ -5818,6 +5968,7 @@
 .*/ThreadlessInject\.git.*
 .*/ThreatCheck\.git.*
 .*/ThunderDNS.*
+.*/ticket_converter\.py.*
 .*/ticketConverter\.exe.*
 .*/ticketer\.py -.*
 .*/ticketer\.py.*
@@ -5853,11 +6004,13 @@
 .*/tmp/p0f\.log.*
 .*/tmp/payload\.ps1.*
 .*/tmp/scanrepo\.tar\.gz.*
+.*/tmp/smb_auth_temp_.*\.txt.*
 .*/tmp/truffleHog\.tar\.gz.*
 .*/tmp/vt-post-.*\.txt.*
 .*/tmp/vt-results-.*\.txt.*
 .*/tmp/wordlist\.txt.*
 .*/tn3270-screen\.nse.*
+.*/TokenStealer\.git.*
 .*/TokenStealing.*
 .*/TokenStripBOF.*
 .*/TokenTactics\.git.*
@@ -5928,16 +6081,19 @@
 .*/url-snarf\.nse.*
 .*/user_data/.*/keylog\.txt.*
 .*/userenum\.go.*
+.*/userenum\.go.*
 .*/UserlandBypass/.*\.c.*
 .*/username-anarchy.*
 .*/UserNamespaceOverlayfsSetuidWriteExec/.*
 .*/usniper\.py.*
+.*/usr/bin/legba.*
 .*/usr/bin/pkexec.*
 .*/usr/bin/polenum.*
 .*/usr/local/bin/exegol.*
 .*/usr/local/pwndrop/.*
 .*/usr/share/cobaltstrike/.*
 .*/usr/share/wordlists/.*\.txt.*
+.*/usr/src/netexec.*
 .*/utils/addcomputer\.py.*
 .*/utils/obfuscate\.py.*
 .*/UTWOqVQ132/.*
@@ -5946,6 +6102,7 @@
 .*/vajra/phishApp\.py.*
 .*/var/lib/ptunnel.*
 .*/var/log/exegol/.*\.log.*
+.*/vas/fuzzers/fuzz/.*
 .*/veeam_dump\.py.*
 .*/Vegile\.git.*
 .*/venom\.git.*
@@ -6004,6 +6161,8 @@
 .*/WdToggle\.c.*
 .*/WdToggle\.h.*
 .*/weakpass\.git.*
+.*/weakpass_2a\.gz.*
+.*/weakpass_3a\.7z.*
 .*/Web/decouverte\.txt.*
 .*/Web/discovery\.txt.*
 .*/web/pwn\.html.*
@@ -6037,6 +6196,8 @@
 .*/wifi_hopping\..*
 .*/WiFiBroot.*
 .*/wifidump\.c.*
+.*/wifiPayload/client\.py.*
+.*/wifiPayload/server\.py.*
 .*/wifite -c .*
 .*/wifite2.*
 .*/wikipedia_fr\.7z.*
@@ -6049,6 +6210,7 @@
 .*/windapsearch_.*\.txt.*
 .*/windows/dcerpc.*
 .*/windows_autologin\.rb.*
+.*/Windows_MSKSSRV_LPE_CVE-2023-36802\.git.*
 .*/windows-login-phish.*
 .*/windows-lpe-template.*
 .*/Windows-Passwords\.ps1.*
@@ -6073,6 +6235,7 @@
 .*/WMI Lateral Movement/.*
 .*/wmi\.dropper.*
 .*/WMI/wmi\.py.*
+.*/wmiexec\.py.*
 .*/wmiexec\.py.*
 .*/wmiexec/.*
 .*/wmiexec2\.git.*
@@ -6141,42 +6304,66 @@
 .*\?sample_sliver\.json.*
 .*\[!]    Failed to enumerate Credman:.*
 .*\[!] Dumping the ntds can crash the DC on Windows Server 2019\. Use the option.*
+.*\[!] Failed to delete Performance registry key\..*
 .*\[!] Failed to download legitimate GPO from SYSVOL \(dc_ip:.*
 .*\[!] Failed to write malicious scheduled task to downloaded GPO\. Exiting.*
+.*\[!] Looks like Victim .* doesn't have office365 Licence!.*
+.*\[!] Stealing processes delayed with .*
+.*\[!] Swithed to custom stealing\. .*
+.*\[!] Unable to read PEB address!.*
 .*\[\#] Ready For ETW Patch\..*
+.*\[.*] Appending access tokens to access_tokens\.txt.*
+.*\[.*] Checking access to mailboxes for each email address\?.*
 .*\[.*] Downloading the legitimate GPO from SYSVOL.*
 .*\[.*] Injecting malicious scheduled task into downloaded GPO.*
+.*\[.*] Overall compromised accounts: .*
 .*\[.*] Smuggling in HTML.*
 .*\[.*] Smuggling in SVG.*
 .*\[.*] Updating downloaded GPO version number to ensure automatic GPO application.*
+.*\[-] Failed to delete Performance DLL.*
 .*\[-] failed to spawn shell: %s.*
 .*\[-] kernel not vulnerable.*
 .*\[-] Seems like we killed auditd\. Ooopsie :D.*
+.*\[-] Shellcode is larger than RX section.*
 .*\[\+] Adding your DLL to the LSA Security Packages registry key.*
 .*\[\+] Attack aborted\. Exiting.*
 .*\[\+] Attempting to call the target EXE from the mock directory.*
 .*\[\+] auditd patched successfully.*
 .*\[\+] Back to C&C Console.*
 .*\[\+] Bof replay:.*
+.*\[\+] Connected to \\\\\\\\.*\\\\IPC\$.*
 .*\[\+] Creating mock directories.*
 .*\[\+] Deobfuscated dump saved in file decrypted\.dmp.*
+.*\[\+] Encrypting The Stack\.\.\.\. .*
 .*\[\+] Enumerating driver services\.\.\..*
-.*\[\+] ETW Patched, No Logs No Crime !.*
+.*\[\+] ETW Patched.* No Logs No Crime !.*
+.*\[\+] Exploit completed\. Got a SYSTEM token! :\).*
 .*\[\+] Generated XOR key: .*
 .*\[\+] Generating base64 encoded PowerShell script.*
 .*\[\+] Keylogger started.*
 .*\[\+] Keylogger stopped.*
 .*\[\+] keystrokes dump from agent.*
+.*\[\+] My personal simple and stupid  Token Stealer\.\.\. .*
 .*\[\+] Opened Process Token Sucessufully!.*
+.*\[\+] Pipe listing:.*
 .*\[\+] Registry key set\. DLL will be loaded on reboot.*
+.*\[\+] RUNNING ALL KNOWN EXPLOITS.*
+.*\[\+] RX Injection address: .*
 .*\[\+] Safety checks passed\. Implanting your DLL.*
 .*\[\+] Save encrypted shellcode to .*
+.*\[\+] Seems like the creds are valid: .* :: .* on .*
 .*\[\+] SeImpersonatePrivilege enabled.*
 .*\[\+] Stole token from.*
 .*\[\+] Successfully downloaded legitimate GPO from SYSVOL to .*
 .*\[\+] Successfully injected malicious scheduled task.*
 .*\[\+] Successfully spoofed GPC gPCFileSysPath attribute.*
 .*\[\+] The encrypted payload with .*
+.*\[\+] Thread hijacking successful.*
+.*\[\+] Thread hijacking successful.*
+.*\[\+] Unhooking the NTDLL for Process with PID .*
+.*\[\+] Unhooking the NTDLL from PID .* completed successfully\..*
+.*\[\+] v1\.0 @decoder_it 2023.*
+.*\[\+] Victim .* have office365 Licence!.*
 .*\[\+] Your payload must be executed now !.*
 .*\[i] AAD Join:.*enumerate.*
 .*\[i] Credman:.*Credential Blob Decrypted.*
@@ -6184,19 +6371,30 @@
 .*\[i] Unhooked Ntdll Base Address: .*
 .*\[Reflection\.Assembly]::LoadWithPartialName\('System\.Core'\)\.GetType\('System\.Diagnostics\.Eventing\.EventProvider'\)\.GetField\('m_enabled'.*'NonPublic.*Instance'\)\.SetValue\(\[Ref]\.Assembly\.GetType\('System\.Management\.Automation\.Tracing\.PSEtwLogProvider'\)\.GetField\('etwProvider'.*'NonPublic.*Static'\)\.GetValue\(\$null\).*0\).*
 .*\['spawnto'].*
+.*\[string]\$Class = .*PMEClass.*.*
+.*\[System\.Reflection\.Assembly]::Load\(\(Invoke-WebRequest .*\.exe.*while \(\$true\)\{Start-Sleep -s 1000}.*
 .*\[x] Cannot load NTDLL\.DLL.*
 .*\[X] Your harvest exploded:.*
 .*\\ rev_shell\.py.*
+.*\\.*-SecureString\\.* OR \\.*-AsPlainText\\.* OR \\.*Net\.NetworkCredential\\.*.*
 .*\\.*\.O365\.GroupMembership_AdminGroups\.txt.*
 .*\\.*\.O365\.GroupMembership_VPNGroups\.txt.*
 .*\\.*\.O365\.Roles_Admins\.txt.*
+.*\\\.eKeys-Parsed\.txt.*
 .*\\:MLKH.*
+.*\\\\\$ComputerName delete \$ServiceName.*
+.*\\\\.* create Service_.* binpath= `.*C:\\Windows\\System32\\cmd\.exe /c powershell\.exe -enc .*
 .*\\\\\.\\pipe\\mimi.*
 .*\\\\\.\\pipe\\pwned/pipe/srvsvc.*
 .*\\\\:C.*
 .*\\\\\?\?\\\\Jormungandr.*
 .*\\\\\\\\.*\\\\.*\\\\Get-FileLockProcess\.ps1.*
 .*\\\\\\\\\.\\\\aswSP_Avar.*
+.*\\\\\\\\\.\\\\pipe\\\\coerced\\\\pipe\\\\spoolss.*
+.*\\\\\\\\\.\\\\pipe\\\\coerced\\\\pipe\\\\srvsvc.*
+.*\\\\\\\\\.\\\\pipe\\\\innocent.*
+.*\\\\\\\\\.\\\\pipe\\\\ioring_in.*
+.*\\\\\\\\\.\\\\pipe\\\\ioring_out.*
 .*\\\\\\\\\.\\\\pipe\\\\mal.*
 .*\\\\\\\\\.\\\\pipe\\\\warpzone8.*
 .*\\\\\\\\127\.0\.0\.1\\\\pipe\\\\warpzone8.*
@@ -6206,6 +6404,7 @@
 .*\\\\DCSC_stdOutPipe.*
 .*\\\\GetWebDAVStatus\.exe.*
 .*\\\\pipe\\\\DAV RPC SERVICE.*
+.*\\\\Users\\\\Fantastic\\\\Desktop\\\\DEMO\\\\plugins\\\\scripts\\\\.*
 .*\\1\.bat
 .*\\1\.dll
 .*\\1\.Encrypt_shellcode.*
@@ -6236,6 +6435,7 @@
 .*\\9\.dll
 .*\\9\.exe
 .*\\AbandonedCOMKeys\..*
+.*\\AD_Miner-.*
 .*\\adcs\.py.*
 .*\\ADCSPwn.*
 .*\\add_computer\.py.*
@@ -6249,6 +6449,7 @@
 .*\\Alan\.v.*\.zip.*
 .*\\Alcatraz\.exe.*
 .*\\All_attack\.txt.*
+.*\\AMSIPatcher\.cs.*
 .*\\Andrew\.dmp.*
 .*\\Angry IP Scanner\.app.*
 .*\\AntiSandbox\.go.*
@@ -6264,6 +6465,7 @@
 .*\\Athena-.*\.zip.*
 .*\\AtomLdr\\x64.*
 .*\\attrib\.exe.* \+H .*
+.*\\audio\\exfiltrator\.py.*
 .*\\AutoSmuggle\\.*\.cs.*
 .*\\autotimeline.*
 .*\\avetdbg\.txt.*
@@ -6284,9 +6486,12 @@
 .*\\BesoToken\.cpp.*
 .*\\BesoToken\.exe.*
 .*\\BesoToken\.vcxproj.*
+.*\\bgp_exfil\.py.*
 .*\\bh_owned\.py.*
 .*\\bin\\cme\.exe.*
 .*\\bin\\shepard\\.*
+.*\\bin2hex\.lua.*
+.*\\bindshell\.lua.*
 .*\\BITB-main.*
 .*\\BitTorrent\.exe.*
 .*\\Blackout\.cpp.*
@@ -6304,6 +6509,7 @@
 .*\\BrowserEnum\.log.*
 .*\\Bruteforcer\..*
 .*\\bypassuac\.txt.*
+.*\\c2_server\.py.*
 .*\\C2concealer.*
 .*\\certipy\.pfx.*
 .*\\charlotte\.cpp.*
@@ -6345,6 +6551,7 @@
 .*\\daclread\.py.*
 .*\\darkexe\.py.*
 .*\\DarkLoadLibrary\..*
+.*\\dbms\\fingerprint\.py.*
 .*\\dcrypt\.exe.*
 .*\\dcrypt\.sys.*
 .*\\DCrypt\\Bin.*
@@ -6377,6 +6584,7 @@
 .*\\donut\.exe.*
 .*\\donut\\VanillaProgram\.bin.*
 .*\\Doraemon.*
+.*\\downloadexec\.lua.*
 .*\\drop-sc\.py.*
 .*\\duedlligence\.dll.*
 .*\\dumper\.ps1.*
@@ -6415,16 +6623,20 @@
 .*\\evilclippy\.cs.*
 .*\\EvilnoVNC.*
 .*\\evilSignatures\.db.*
+.*\\EvilSln\\.*\.suo.*
 .*\\exe_to_dll\\.*
 .*\\Exegol-.*\.zip.*
 .*\\exegol\.py.*
 .*\\Exegol-images-.*\.zip.*
 .*\\Exegol-images-.*\\.*docker.*
 .*\\exfiltrate\.exe.*
+.*\\exploit\.c
+.*\\exploit\.exe.*
 .*\\ExternalC2\\.*
 .*\\FakeCmdLine.*
 .*\\Fertliser\.exe.*
 .*\\Fertliser\.pdb.*
+.*\\Fiddler Everywhere .*\..*\..*\.exe.*
 .*\\Files\\ContainersFileUrls\.txt.*
 .*\\find-computer\.py.*
 .*\\follina\.py.*
@@ -6441,6 +6653,8 @@
 .*\\Get-SpoolStatus\.ps1.*
 .*\\GetWebDAVStatus\\
 .*\\GetWebDAVStatus_x64.*
+.*\\ghauri\\ghauri\\.*
+.*\\ghauri-1.*\\ghauri\\.*
 .*\\glit\.exe.*
 .*\\glit-cli.*
 .*\\gmailC2\.exe.*
@@ -6456,6 +6670,8 @@
 .*\\GPOddity\\.*
 .*\\gpp_autologin\.py.*
 .*\\gpp_password\.py.*
+.*\\GraphRunner\.ps1.*
+.*\\GraphRunner-main.*
 .*\\group_members\.py.*
 .*\\Group3r\.exe.*
 .*\\Grouper2\.exe.*
@@ -6478,6 +6694,7 @@
 .*\\HookDetector\.exe.*
 .*\\HostEnum\.ps1.*
 .*\\HTMLSmuggler\\.*
+.*\\http_exfiltration\.py.*
 .*\\huan\.exe .*
 .*\\HWSyscalls\.cpp.*
 .*\\HWSyscalls-Example\..*
@@ -6487,6 +6704,7 @@
 .*\\Hypnos\.vcxproj.*
 .*\\Hypnos-main\\.*
 .*\\icebreaker\.py.*
+.*\\icmp_exfiltration\.py.*
 .*\\IDiagnosticProfileUAC.*
 .*\\iis_controller\.py.*
 .*\\impacket\..*
@@ -6499,6 +6717,7 @@
 .*\\injector\.ps1 1 .*
 .*\\injector\.ps1 2 .*
 .*\\install_elevated\.py.*
+.*\\interesting-teamsmessages\.csv.*
 .*\\Inveigh\.exe.*
 .*\\inveigh\.exe.*
 .*\\Inveigh\\bin\\.*
@@ -6519,11 +6738,13 @@
 .*\\keepass_trigger\.py.*
 .*\\KeeTheft\.exe.*
 .*\\kerberoast\.c.*
+.*\\kerbrute\.py.*
 .*\\KernelTokens\.sys.*
 .*\\keygen\.exe.*
 .*\\Keylogger\.txt.*
 .*\\KillDefender\.c.*
 .*\\KillDefender\.o.*
+.*\\Kirby\.ps1.*
 .*\\kitten\.exe.*
 .*\\KittyStager.*
 .*\\Koh\.exe.*
@@ -6539,6 +6760,7 @@
 .*\\ldap_search_bof\.py.*
 .*\\ldap-checker\.py.*
 .*\\LibSnaffle.*
+.*\\LinikatzV2\\.*
 .*\\Loader\\Loader\.csproj.*
 .*\\local_admins\.csv.*
 .*\\LocalPrivEsc\\.*
@@ -6549,6 +6771,7 @@
 .*\\LSASSProtectionBypass\\.*
 .*\\LsassSilentProcessExit.*
 .*\\lsassy_dump\.py.*
+.*\\luajit\.exe.*
 .*\\m3-gen\.py.*
 .*\\MaccaroniC2.*
 .*\\MachineAccountQuota\.py.*
@@ -6620,6 +6843,8 @@
 .*\\NoPowerShell\..*
 .*\\No-PowerShell\.cs.*
 .*\\No-PowerShell\.exe.*
+.*\\NovaLdr\.exe
+.*\\NoveLdr\.exe
 .*\\NPPSpy\.c.*
 .*\\NPPSPY\.dll.*
 .*\\NPPSpy\.exe.*
@@ -6640,6 +6865,7 @@
 .*\\nxc\\parsers\\nmap\.py.*
 .*\\obfy-1\.0\.zip.*
 .*\\OffensiveCSharp\\.*
+.*\\online_brute\.gz.*
 .*\\out_pe\.exe.*
 .*\\padre\\pkg\\exploit.*
 .*\\papacat\.ps1.*
@@ -6648,11 +6874,18 @@
 .*\\parsers\\nessus\.py.*
 .*\\password\.lst.*
 .*\\Passwordfiles\.txt.*
+.*\\Passwords\.docx.*
 .*\\PatchingAPI\.cpp.*
 .*\\PatchingAPI\.exe.*
 .*\\payloadtests\.py.*
 .*\\PEASS-ng.*
 .*\\PerfExec\.exe.*
+.*\\Perfusion\.cpp.*
+.*\\Perfusion\.exe.*
+.*\\Perfusion\.sln.*
+.*\\PerfusionDll\.cpp.*
+.*\\PerfusionDll\.dll.*
+.*\\PerfusionDll\.log.*
 .*\\Persistence\.cpp.*
 .*\\Persistence\.exe.*
 .*\\petitpotam\.py.*
@@ -6660,9 +6893,25 @@
 .*\\PipeViewer\.exe.*
 .*\\PipeViewer\.sln.*
 .*\\PipeViewer\\Program\.cs.*
+.*\\PME\\.*-ConsoleHistory\.txt.*
+.*\\PME\\Console History\\.*
+.*\\PME\\eKeys\\.*
+.*\\PME\\LogonPasswords.*
+.*\\PME\\LSA\\.*
+.*\\PME\\MSSQL\\.*
+.*\\PME\\SAM\\.*
+.*\\PME\\Sessions\\.*
+.*\\PME\\SMB\\.*
+.*\\PME\\Spraying\\.*
+.*\\PME\\Tickets\\Kerbdump.*
+.*\\PME\\Tickets\\MimiTickets.*
+.*\\PME\\User Files\\.*
+.*\\PME\\VNC\\.*
 .*\\PoC\\PrivilegeEscalation.*
 .*\\POC_DLL\.vcxproj.*
 .*\\polenum\.py.*
+.*\\pop_exfil_client\.py.*
+.*\\pop_exfil_server\.py.*
 .*\\portbender\..*
 .*\\PoshC2.*
 .*\\PostDump\.exe.*
@@ -6702,6 +6951,7 @@
 .*\\ProgramData\\shares\.txt.*
 .*\\ps2exe\.ps1.*
 .*\\PS2EXE\\.*\.ps1.*
+.*\\PsExec\.exe.*
 .*\\PsExecLog\.log.*
 .*\\PSPY\.dll.*
 .*\\PSPY\.exe.*
@@ -6711,6 +6961,7 @@
 .*\\Public\\Music\\RDPCreds\.txt.*
 .*\\pwn\.exe.*
 .*\\py2exe.*
+.*\\PyExfil\\pyexfil\\.*
 .*\\pywsus\.py.*
 .*\\Quasar\.v.*\.zip.*
 .*\\Quasar-master.*
@@ -6735,6 +6986,9 @@
 .*\\RedPersist\.sln.*
 .*\\RedPersist-main\\.*
 .*\\reg-query\.py.*
+.*\\regread\.lua.*
+.*\\regwrite\.lua.*
+.*\\regwritedel\.lua.*
 .*\\RemoteCamera\.dll.*
 .*\\Resources\\Disks-NoEncryption\.txt.*
 .*\\resources\\PROCEXP\.sys.*
@@ -6743,6 +6997,7 @@
 .*\\rpt_win\.exe
 .*\\rsocx\.exe.*
 .*\\Rubeus\..*
+.*\\Rubeus\.exe.*
 .*\\Rubeus\\.*
 .*\\ruler\.exe.*
 .*\\run\\john .*
@@ -6753,12 +7008,18 @@
 .*\\RunasCs\.cs.*
 .*\\runasppl\.py.*
 .*\\RunBOF\.exe.*
+.*\\runcmd\.lua.*
+.*\\runcmd2\.lua.*
 .*\\RunOF\.exe.*
 .*\\RunOF\\bin\\.*
+.*\\runswhide\.lua.*
 .*\\rusthound\.exe.*
 .*\\SafetyKatz.*
+.*\\SAM\\\.Sam-Full\.txt.*
 .*\\samantha\.txt
 .*\\save_reg\.hive.*
+.*\\scan4all\.exe.*
+.*\\scan4all-main.*
 .*\\scanACLsResults\.csv.*
 .*\\scan-network\.py.*
 .*\\scmuacbypass\.cpp.*
@@ -6782,6 +7043,7 @@
 .*\\servers\\dns_server\.py.*
 .*\\servers\\icmp_server\.py.*
 .*\\servers\\smb_server\.py.*
+.*\\Sessions\\SH-MatchedGroups-.*\.txt.*
 .*\\SessionSearcher\.csproj.*
 .*\\SessionSearcher\.exe.*
 .*\\shadowcoerce\.py.*
@@ -6798,6 +7060,7 @@
 .*\\SharpExfiltrate\\.*
 .*\\SharpGmailC2.*
 .*\\SharpHoundCommon\\.*
+.*\\Sharp-Killer\.sln.*
 .*\\SharpMove\.exe.*
 .*\\SharpNoPSExec.*
 .*\\SharpRDPHijack.*
@@ -6819,6 +7082,9 @@
 .*\\sitadel\.log.*
 .*\\slinky\.py.*
 .*\\SMB_RPC\\.*\.py
+.*\\SMBGrab\.pl.*
+.*\\SMBHunt\.pl.*
+.*\\SMBList\.pl.*
 .*\\smuggler\.py.*
 .*\\sniff\.py.*
 .*\\SoftPerfect Network Scanner.*
@@ -6827,7 +7093,9 @@
 .*\\spellgen\.py .*
 .*\\spellstager\.py .*
 .*\\spider_plus\.py.*
+.*\\spoof\.py.*
 .*\\SpoofCmdLine\\TheThing.*
+.*\\spoofIPs_client\.py.*
 .*\\spooler\.py.*
 .*\\SprayAD\.cna.*
 .*\\SprayAD\.exe.*
@@ -6860,12 +7128,15 @@
 .*\\Temp\\RTCore64\.sys.*
 .*\\TEMP\\ScreenConnect\\.*\.ps1.*
 .*\\Temp\\whoami\.txt.*
+.*\\Test\.PME
 .*\\tests\\beacon64\.bin.*
 .*\\TGSThief\\.*
 .*\\the-backdoor-factory\\.*
 .*\\ThemeBleed\.exe .*
 .*\\ThemeBleed\.sln.*
 .*\\TheThing\.exe.*
+.*\\ticket_converter\.py.*
+.*\\Tickets\\KerbDump.*
 .*\\TikiCompiler\.txt.*
 .*\\TikiService\.exe.*
 .*\\TikiSpawn\..*
@@ -6902,6 +7173,7 @@
 .*\\utweb\.exe.*
 .*\\UUID_bypass\.py.*
 .*\\veeam_dump\.py.*
+.*\\VNC\\\.VNC-Non-Auth\.txt.*
 .*\\wce32\.exe.*
 .*\\wce64\.exe.*
 .*\\wce-beta\.zip.*
@@ -6919,6 +7191,8 @@
 .*\\WheresMyImplant.*
 .*\\while_dll_ms.*
 .*\\whoami\.py.*
+.*\\wifiPayload\\client\.py.*
+.*\\wifiPayload\\server\.py.*
 .*\\Windows\\Prefetch\\PSEXEC.*
 .*\\Windows\\Tasks\\Certipy.*
 .*\\Windows\\Tasks\\p4yl0ad.*
@@ -6942,6 +7216,7 @@
 .*\\ws-files\.txt.*
 .*\\WSPCoerce\.cs.*
 .*\\x44\\x8b\\x01\\x44\\x39\\x42.*
+.*\\x4d\\x5a\\x90\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\xff\\xff\\x00\\x00\\xb8\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x40\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\xf8\\x00\\x00\\x00\\x0e\\x1f\\xba\\x0e\\x00\\xb4\\x09\\xcd\\x21\\xb8\\x01\\x4c\\xcd\\x21\\x54\\x68\\x69\\x73\\x20\\x70\\x72.*
 .*\\x64\\Release\\indirect\.exe .*
 .*\\x83\\x64\\x24\\x30\\x00\\x48\\x8d\\x45\\xe0\\x44\\x8b\\x4d\\xd8\\x48\\x8d\\x15.*
 .*\\x8b\\x31\\x39\\x72\\x10\\x75.*
@@ -6956,9 +7231,11 @@
 .*] Eventviewer Persistence created.*
 .*] Extension Hijacking Persistence created.*
 .*] Found non-ASCII service: .*
+.*] Listing GraphRunner modules\?.*
 .*] Powershell Persistence created.*
 .*] Screensaver Persistence created.*
 .*] Startup Persistence created.*
+.*] Token does NOT have SE_ASSIGN_PRIMARY_NAME.* using CreateProcessAsWithToken\(\) for launching:.*
 .*] UserInitMprLogonScript Persistence created.*
 .*_adAclOutput.*\.csv.*
 .*_adAclOutput.*\.csv.*
@@ -6999,10 +7276,12 @@
 .*\| favfreak.*
 .*\| hakrawler.*
 .*\|base64 -d > /tmp/traitor.*
+.*\|IEX}DumpSAM.*
 .*~/\.csexec.*
 .*< /dev/console \| uudecode && uncompress.*
 .*<3 eo\.oe.*
 .*<CoffeLdr\.h>.*
+.*<SessionId>: list/steal token from specific session.*
 .*== NoPowerShell v.* ==.*
 .*=== GENERATING MALICIOUS GROUP POLICY TEMPLATE ===.*
 .*=Administrator\.ccache.*
@@ -7017,21 +7296,14 @@
 .*00_create_all_modules_test.*
 .*00000000000000000041d00000041d9535d5979f591ae8e547c5e5743e5b64.*
 .*00000000000000000043d43d00043de2a97eabb398317329f027c66e4c1b01.*
-.*0041d09d62db1cfe06bcb45c6b007af3b6d8c6cb419948e49141188f453a329b.*
 .*01_all_exploits_have_payloads_test.*
-.*01c5aada277c3a7a138ab7c31beda0decee8ec28fe7525e43ca524b2b0270213.*
-.*02238b1720b8514de36ae80fa3d07c377d22e6befe99a7b87d4da9d60d23be02.*
-.*0434d69daa20fbf87d829ffc17e43dcc2db3386aff434af888011fdec2f645a4.*
 .*0472A393-9503-491D-B6DA-FA47CD567EDE.*
-.*04845492-BD9E-4EC6-ACA4-4A0A460B3508.*
 .*04b99fb5cc1d91b1752fbcb2446db71083ab87af59dd9e0d940cc2ed5a65ef49.*
 .*04ca7e137e1e9feead96a7df45bb67d5ab3de190.*
 .*04DFB6E4-809E-4C35-88A1-2CC5F1EBFEBD.*
 .*04DFB6E4-809E-4C35-88A1-2CC5F1EBFEBD.*
 .*04FC654C-D89A-44F9-9E34-6D95CE152E9D.*
-.*05a2c8c165e431e852c4bcafbfccb27b9e8c0428d2c975ceef94c98639f1c7d8.*
 .*07DFC5AA-5B1F-4CCC-A3D3-816ECCBB6CB6.*
-.*07EF7652-1C2D-478B-BB4B-F9560695A387.*
 .*08384f3f05ad85b2aa935dbd2e46a053cb0001b28bbe593dde2a8c4b822c2a7d.*
 .*086e302c10b4dc16180cdb87a84844a9b49b633ea6e965ad0db2319adb2af86e.*
 .*08AEC00F-42ED-4E62-AE8D-0BFCE30A3F57.*
@@ -7040,16 +7312,15 @@
 .*0A1C2C46-33F7-4D4C-B8C6-1FC9B116A6DF.*
 .*0ac82760-3e0d-4124-bd1c-92c8dab97171.*
 .*0B6D8B01-861E-4CAF-B1C9-6670884381DB.*
-.*0c6faff9d363f76f723c52ae8796bf7d37913c7117eaaeb9416728ca958975d4.*
 .*0D17A4B4-A7C4-49C0-99E3-B856F9F3B271.*
 .*0d1n .* --post .* --payloads .*
 .*0d1n --host.*
 .*0d1n.*kill_listener\.sh.*
-.*0da59496e173b30d19c4f6c3ca62f2be8ef5b5e790c4952ac0d27f987577488f.*
 .*0DD419E5-D7B3-4360-874E-5838A7519355.*
 .*0evilpwfilter.*
 .*0evilpwfilter\.dll.*
 .*0fa31c8c34a370931d8ffe8097e998f778db63e2e036fbd7727a71a0dcf5d28c.*
+.*0FE0D049-F352-477D-BCCD-ACBF7D4F6F15.*
 .*0vercl0k/udmp-parser.*
 .*0x00-0x00.*
 .*0x09AL/DNS-Persist.*
@@ -7067,16 +7338,13 @@
 .*0xthirteen/StayKit.*
 .*1_FindDomain\.sh.*
 .*105C2C6D-1C0A-4535-A231-80E355EFB112.*
-.*10979d6665292065b840f8d95366201a686146e949908cdd41331699b331ab9c.*
-.*10b06fce5935839c3978cd7fe130355be750cfa03986adff5c33bd9f7922871e.*
-.*10f5885eb8ecc5ecbbea6717ba163761b34a416c7beff36276e7b590f39161b9.*
 .*10k-worst-pass\.txt.*
 .*11385CC1-54B7-4968-9052-DF8BB1961F1E.*
 .*119\.45\.104\.153:8848.*
-.*12372473c8b8cc25108b254a5ed994ee3895687236f8ad062006c1d8f6916475.*
 .*123abcbde966780cef8d9ec24523acac.*
 .*124e6ada27ffbe0ff97f51eb9d7caaf86b531bcff90ed5a075ff89b45b00cba5.*
 .*127\.0\.0\.1 is not advisable as a source\. Use -l 127\.0\.0\.1 to override this warning.*
+.*127\.0\.0\.1/pipe/coerced\\\\C\$.*
 .*127\.0\.0\.1:1080.*
 .*127\.0\.0\.1:1337.*
 .*127\.0\.0\.1:2222.*
@@ -7093,16 +7361,11 @@
 .*1337.*infernal-twin.*
 .*1337OMGsam.*
 .*1337OMGsys.*
-.*133f71bd8d6d4ca80a9a542c2492ba9a65e05b0cfa681a85dd05d9cf998a1bb4.*
-.*1424fde08d6994062fc8a795ff8d80d30060c4991103c4af59228dcf60171eca.*
 .*1617117C-0E94-4E6A-922C-836D616EC1F5.*
-.*16726c4330d7db5d56a5a11503314533b170783441c3f8282b66f126295a289e.*
-.*175c9fc0c7046d006a6db698144fab3b40bd191e15617e7fba417a466c3a0b6f.*
 .*192\.168\.0\.110:1234.*
 .*192\.168\.1\.229 Passw0rd!.*
-.*1939a69f717d4baa13d558c11e1fc7dee1e8ce8fcc5f0fe0dea11845e22ce4c8.*
-.*195a6712e204e1d01dc1d36b9d43a2a477b0833019294b37512d8baaa98e524e.*
 .*1a279f5df4103743b823ec2a6a08436fdf63fe30.*
+.*1B1F64B3-B8A4-4BBB-BB66-F020E2D4F288.*
 .*1BACEDDC-CD87-41DC-948C-1C12F960BECB.*
 .*1c50adeb-53ac-41b9-9c34-7045cffbae45.*
 .*1C5EDA8C-D27F-44A4-A156-6F863477194D.*
@@ -7116,40 +7379,24 @@
 .*1N73LL1G3NC3x/Nightmangle.*
 .*1password2john\.py.*
 .*2_lyncbrute\.sh.*
-.*207953846cc26417e163db3dc483a65e8e94bc9bd86c8928d59b078f1e72fcc7.*
-.*210A3DB2-11E3-4BB4-BE7D-554935DCCA43.*
 .*21582b3a68e8753322a1b1c7e550ae7fd305de4935de68fbde9f87570f484d00.*
 .*21582b3a68e8753322a1b1c7e550ae7fd305de4935de68fbde9f87570f484d00.*
-.*215a9f9095e89c79b342aed5625bbc6d660b910cd15a06ac4a072e8860c3e2c6.*
 .*22A156EA-2623-45C7-8E50-E864D9FC44D3.*
 .*23975ac9-f51c-443a-8318-db006fd83100.*
-.*23A2E629-DC9D-46EA-8B5A-F1D60566EA09.*
-.*23af06a7987966a7e51336b3cdd33b411fa05778ec14179a50a60fa0f6aee1af.*
 .*23E06BF12C5BE7641EF89F557C3F6600E1F3881F8DCE7279C2112279E7EC3B988E1A85EC350149007DE78CE5566FCBD18F630D2CDB78C76AA06F2B121F0B3701.*
 .*2419CEDC-BF3A-4D8D-98F7-6403415BEEA4.*
 .*261f880e-4bee-428d-9f64-c29292002c19.*
-.*27159b8ff67d3f8e6c7fdb4b57b9f57f899bdfedf92cf10276269245c6f4e066.*
-.*273987ab3fcc9a7e9976a73ff8c6986e6e397fc3b9f179ce23991814f694a843.*
-.*27b89ba25c1620f7f46af4a239d6a18b71b9b689ea33eb7ab099e0b039cdf21f.*
-.*282383cd8223cd0d36f4bf09501830ae1dd01aacaf483e9e95fa4938345453b7.*
 .*29446C11-A1A5-47F6-B418-0D699C6C3339.*
 .*2944dbfc-8a1e-4759-a8a2-e4568950601d.*
 .*2963C954-7B1E-47F5-B4FA-2FC1F0D56AEA.*
-.*2a08385892845104b4f07d693ca395eba3a09e4aa89ad791be3807919316ed67.*
-.*2a63a2c3f43afb1f3fb091ffa71bd4d67b64e6d0b220e97057542883bce246f5.*
-.*2a67c7690ec6df8e233207116b0e4fe76c02ae43595d9e606e123572b6ac88a1.*
-.*2aa21c51a100de781b6647b04bb0371a6205a7b1dc22a3eeae058ec4cb80fd5f.*
 .*2CFB9E9E-479D-4E23-9A8E-18C92E06B731.*
 .*2D863D7A-A369-419C-B4B3-54BDB88B5816.*
-.*2e64396f0b5cc2f6e59f5d329ffbb1ef0e6dd5e0547bd6fff5567f72cca6ace9.*
-.*2ee6204d65c00011c64b84383bfd8a3dc04149ff681df8ee86acbbea4ba73aa1.*
 .*2john\.c
 .*2john\.lua.*
 .*2john\.pl.*
 .*2john\.py.*
-.*304D5A8A-EF98-4E21-8F4D-91E66E0BECAC.*
-.*3058dea6894b1ca7bcff8896b35080c0ddfa1c541e7e505792cbac65dea9d0d9.*
 .*30f7ba049eab00673ae6b247199ec4f6af533d9ba46482159668fd23f484bdc6.*
+.*337ED7BE-969A-40C4-A356-BE99561F4633.*
 .*33BF8AA2-18DE-4ED9-9613-A4118CBFC32A.*
 .*365-Stealer\.py.*
 .*365-Stealer-master.*
@@ -7161,46 +7408,28 @@
 .*3A2FCB56-01A3-41B3-BDAA-B25F45784B23.*
 .*3b5cbf0dddc3ef7e3af7d783baef315bf47be6ce11ff83455a2165befe6711f5.*
 .*3bb553cd-0a48-402d-9812-8daff60ac628.*
-.*3BEF8A16-981F-4C65-8AE7-C612B46BE446.*
 .*3C601672-7389-42B2-B5C9-059846E1DA88.*
 .*3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84.*
-.*3f399d7d08d61d4ab7d5188e893b0f2a06b5a5a00f0ce00db2d234463280540c.*
-.*3fa76458e017f2d04544d809a7be81e180c3132ad2254279812e27d5d20ce97e.*
 .*3fd21b20d00000021c43d21b21b43d41226dd5dfc615dd4a96265559485910.*
 .*3fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e.*
 .*3kom-superhack\.txt.*
 .*3snake-master.*
 .*4\.5\.6\.7:1337.*
 .*40056/service-endpoint.*
-.*4006ba7005ca2873a5acbd2755ba1965e62bf0bd8783882f874bea2c80d45e1d.*
 .*40B05F26-6A2F-40BC-88DE-F40D4BC77FB0.*
 .*40E7714F-460D-4CA6-9A5A-FB32C6769BE4.*
-.*421ccf38c0f8216c69a74bb9f0ff4a08dae88c02958829c104198b9bca715bcb.*
-.*4390571ef12a934fbfc0191b789a48c8e61f690ba930f4659f3960e4ec22706a.*
 .*43BB3C30-39D7-4B6B-972E-1E2B94D4D53A.*
 .*-443\.devtunnels\.ms.*
 .*443D8CBF-899C-4C22-B4F6-B7AC202D4E37.*
-.*44626fa65358f14a41bbc8c850b482f61eb64e1e0636df93320d1cca6caa0483.*
-.*4479c31a428b0672245b2eff026be202998a4f146ab90cd06ce44412a20bf462.*
 .*449CE476-7B27-47F5-B09C-570788A2F261.*
-.*44c2e8c3e25b9d75d319a256eaaca3d195d789209a6491795696b5e33b142513.*
-.*45D748AC-9B16-426E-808D-94662B0417F7.*
-.*46ce4d9e34f8845b17c5a9b87891b5ace6dca83427377029ee1d06af5af6d637.*
-.*47c05b996b2831e39c05190b62fb25558a8a05173eb4b5f5b263b841e0bed3f2.*
-.*48da9c5487412fa708a6d7fb753a238a9258fd1bad88d564ad07178d278a7b8d.*
 .*497CA37F-506C-46CD-9B8D-F9BB0DA34B95.*
-.*49d94561eee009acc25c36857bb0260dd8d8a38e6cdf0286a49463d90724b9b1.*
-.*4a548ba1be4de75a03af674d670ff10375700a18babc7cb3a4d1406045e2df04.*
-.*4aa24c1115cc3ed71027f760c7564357c162a09de58d75b5e9037cd869fb2a8a.*
-.*4c21f433ebb3a72668a36a707daed37afb5c3ed2402d60b1634a741c36f2ed10.*
 .*4C3B106C-8782-4374-9459-851749072123.*
 .*4C574B86-DC07-47EA-BB02-FD50AE002910.*
 .*4cec28b4c00002245dffc8346be0cc11.*
-.*4d15af5a22467795c5367c3956746d01424795784f62ca3f30e4619c063338a5.*
 .*4D1B765D-1287-45B1-AEDC-C4B96CF5CAA2.*
 .*4d262988fe9d252191947ab780535d496ed24fa27668cf76c6cb9b6474a391c4.*
 .*4d5350c8-7f8c-47cf-8cde-c752018af17e.*
-.*4d870a821d4104536f0ae7d1920748e9a6ea2dc828103470516a9a2f0b9601ff.*
+.*4DD3206C-F14A-43A3-8EA8-88676810B8CD.*
 .*4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8.*
 .*4DE43724-3851-4376-BB6C-EA15CF500C44.*
 .*4E0CA74F5E074DFF389263D15E3913750EB437C1C3CD3B212C2998352023B980.*
@@ -7214,30 +7443,20 @@
 .*516280565958.*
 .*516280565959.*
 .*526f652d4d9e20a19374817eac75b914b75f3bfaecc16b65f979e5758ea62476.*
-.*52a696ae714eb81033c477d1ec6c01389eef56c847609e89d360c2fb6899b4b6.*
-.*53b83ef74e74ea230eeb916254753d886e8ec04e09cd8823af9f94660bdbc43b.*
 .*5439CECD-3BB3-4807-B33F-E4C299B71CA2.*
 .*555662D4CCBB940D87869E6295EC7CC74BB85D8C8FC5916EC34D1226704578C5.*
 .*555AD0AC-1FDB-4016-8257-170A74CB2F55.*
 .*5575c76987333427f74263e090910eae45817f0ede6b452d645fd5f9951210c9.*
 .*55A48A19-1A5C-4E0D-A46A-5DB04C1D8B03.*
 .*55F0368B-63DA-40E7-A8A5-289F70DF9C7F.*
-.*56843f0410f4c97e8d0809bf7fe4c3e7efaf0dcefd595da58da07794d1709f27.*
-.*574a8de72c4661a520afbcdbe4580335203d0f1b9da5d9ba3659d30d02b89466.*
 .*57A893C7-7527-4B55-B4E9-D644BBDA89D1.*
 .*57D4D4F4-F083-47A3-AE33-AE2500ABA3B6.*
-.*59744929cc3a6d02d9ec26cc2945b00eaa6079c32602f460558adb9e7146f824.*
-.*5994c2c930bf095841520a4e6859511485f6ad0eec0d660392462402c781a6ba.*
-.*5a27534e0361dc8dce940b8732c306443af9944e23aaac6865131e1eb7570687.*
 .*5A403F3C-9136-4B67-A94E-02D3BCD3162D.*
 .*5a40f11a99d0db4a0b06ab5b95c7da4b1c05b55a99c7c443021bff02c2cf93145c53ff5b.*
 .*5a6e7d5c10789763b0b06442dbc7f723f8ea9aec1402abedf439c6801a8d86f2.*
 .*5A6F942E-888A-4CE1-A6FB-1AB8AE22AFFA.*
-.*5adad6349711b6f30ce8f37c24b7db4201c2002b7b2fec5093f81e1c3c50761f.*
-.*5b20f14c3b8322a354bf374d9cb463359c57d07f4031d788c7bc88bda6f833ee.*
 .*5b5b20242873746174202d632559202f62696e2f73682920213d20242873746174202d632559202e73736829205d5d202626207b203a3b746f756368202d72202f62696e2f7368202e7373683b6578706f7274204b45593d22223b62617368202d63202224286375726c202d6673534c207468632e6f72672f737368782922.*
-.*5c96d6754fab5329173536f2a4b29997c1661927f28b9ddcb091e4652e0bb014.*
-.*5d1fc31a7caf39f1c766e15fb64d44f1417d3b6f2fe389f3e104218050c3746a.*
+.*5D03EFC2-72E9-4410-B147-0A1A5C743999.*
 .*5dec1cfe7c0c2ec55c17fb44b43f7d14.*
 .*5E0812A9-C727-44F3-A2E3-8286CDC3ED4F.*
 .*5E8106A6F89B053ED91C723D5D4CAE3FFC15F1CE.*
@@ -7245,116 +7464,81 @@
 .*5e98194a01c6b48fa582a6a9fcbb92d6.*
 .*5F4DC47F-7819-4528-9C16-C88F1BE97EC5.*
 .*5spider:password1234.*
-.*60f19c6b805801e13824c4d9d44748da8245cd936971411d3d36b873121888eb.*
 .*61CE6716-E619-483C-B535-8694F7617548.*
 .*61CE6716-E619-483C-B535-8694F7617548.*
-.*6290ab47924ca529c75a3598e7fe6ccf121f1aac4eb7035bf65895cbab9c6ab0.*
-.*62cb177a65b5ac7e84d6619e16004424182d79c5f5f3dbc5f40c15f63aa089fa.*
 .*639EF517-FCFC-408E-9500-71F0DC0458DB.*
 .*-64 -format=reflective-dll .*
 .*6563686f2048656c6c6f204261636b646f6f72.*
 .*658C8B7F-3664-4A95-9572-A3E5871DFC06.*
+.*658C8B7F-3664-4A95-9572-A3E5871DFC06.*
 .*66e0681a500c726ed52e5ea9423d2654.*
-.*695f6fc13c134fb9506720ff19b403a4cbeab39888c7eaaebc1adc51ed23881a.*
 .*6973A4710FD88D32D47F4523E7EC098EF407F8ECED4B34AF6D3759CE1696EF19.*
 .*6b95cd81ca4f309ac9f243ae73d2e8099634aaffead5b7b214bfcd14b6d604f6.*
 .*6BF82CF9845C649557FC02D1E3D0B6A9FB4F827CC7815BF477DD0CB51246DA45.*
-.*6c1434ff461372f8c6458ef072a32da96fc76f69f97f46fd975742b2ab5baa13.*
 .*6CAFC0C6-A428-4D30-A9F9-700E829FEA51.*
-.*6d40ed8b3a8d33fcfff627ead344afb1fda7f76099cb8ee4135ff1c8216e94f6.*
 .*6e537702f0e29ddd6c134a1020396f42c30cd69da213d3fddfa645fc77c2449d.*
-.*6e738ced2705ddee02d2040d9c7c0b9e57e16758f44faa0d855975f1b5b6d3d5.*
 .*6e7645c4-32c5-4fe3-aabf-e94c2f4370e7.*
 .*6F99CB40-8FEF-4B63-A35D-9CEEC71F7B5F.*
 .*7\.exe a -mx3 ad\.7z ad_.*\.txt.*
 .*70527328-DCEC-4BA7-9958-B5BC3E48CE99.*
+.*70BCFFDB-AE25-4BEA-BF0E-09DF06B7DBC4.*
 .*713724C3-2367-49FA-B03F-AB4B336FB405.*
-.*7180e3ad80a06a52e84d9b530b7a27016f7dd20842d832726c96366e399ee85a.*
 .*73948912-CEBD-48ED-85E2-85FCD1D4F560.*
-.*73d30bd3b8d21a552b8b0c00a7412120db13b3ce0ce8884ed270842863b01a36.*
-.*73e735426c5fab97a7289a7a57bc8bb21bce7b2b1995ae076c41027780ed88c9.*
 .*7443/new/payloads.*
-.*750326700ffeeac7f34aa111af345fec1c221f519347e57e35b96454fcc044f6.*
-.*7565529119639cd275dc65b5290ad98bf4f4178f98d0b55368d337227c9ef085.*
-.*76faa46729e53c1204c1c6f4d51d9a0c2701cca1f7e927249cfb0bce71e60022.*
 .*76FFA92B-429B-4865-970D-4E7678AC34EA.*
 .*77b78b6e16972c318fcbba39976858787cc31038f82952d2a94f844f5847a61e.*
-.*785ca1f83eab4185774f140b74d30823a69dec01ca06ccba4bfd8d1ddd3255d9.*
 .*789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650.*
 .*79F54747-048D-4FD6-AEF4-7B098F923FD8.*
-.*7be72ada31cc042e7dea712308f59235516a6ae1d434b24645cd4726a12b5d64.*
+.*7C5C471B-9630-4DF5-A099-405D86553ECA.*
 .*7CFC52\.dll.*
 .*7CFC52CD3F\.dll.*
 .*7E3E2ECE-D1EB-43C6-8C83-B52B7571954B.*
 .*7E3E2ECE-D1EB-43C6-8C83-B52B7571954B.*
 .*7E47D586-DDC6-4382-848C-5CF0798084E1.*
-.*7e8e77d67c76bdf7bf34f0aef7cb3f18f51efb0b2ab20ffe600240824331986e.*
 .*7E9729AA-4CF2-4D0A-8183-7FB7CE7A5B1A.*
 .*7H0LmBxFtXBPd0/3vHe7Z3dmdrPZmTzp3ZldQrJ5LOGxeZ.*
 .*7L0LgBxFtTDc093TPe/dntnM7G6Sncm.*
 .*7z2john\.pl.*
-.*802d51a4b440e079020103c46a56967fb6e32f95188600388ef7c8b91dc746e8.*
-.*8172069709954a5616b75306e565cbc5cd5baada00c15cba084420e61bebcdaf.*
 .*81E60DC6-694E-4F51-88FA-6F481B9A4208.*
 .*82277B35-D159-4B44-8D54-FB66EDD58D5C.*
-.*82928d0a1d3263a9676b6587feba86e1716c1a2c20294c6c2210d4557975ff69.*
 .*83035080-7788-4EA3-82EE-6C06D2E6891F.*
 .*8304a65e6096bcf63f30592b8049d47883c3c755600796c60a36c4c492f7af37.*
-.*835798995e6df38e12ef18fdcfda6dd1bb8fdffb567a03da46ed1ab7b66a0194.*
-.*83772aa217508279294d91af5cfabec9b5e00b836a2e2f5fe37cf1ebc2905a52.*
 .*847D29FF-8BBC-4068-8BE1-D84B1089B3C0.*
 .*854A20FB-2D44-457D-992F-EF13785D2B51.*
 .*866e5289337ab033f89bc57c5274c7ca.*
-.*8776cfacd0e7e409a5f5168261089e6386eeffacedc9158c19d86dfc78e0dc61.*
 .*87904247-C363-4F12-A13A-3DA484913F9E.*
 .*879A49C7-0493-4235-85F6-EBF962613A76.*
-.*87a210d7a7ed8cd635437bfe6d79bd9ee9ca8d6ef9079f9b30b4162e3843ad37.*
-.*87cc72bb8e3f1534bee09ee278ecd928d975ebb94aeffc767b67249815a0bf3a.*
 .*881D4D67-46DD-4F40-A813-C9D3C8BE0965.*
 .*881D4D67-46DD-4F40-A813-C9D3C8BE0965.*
-.*893b90b942372928009bad64f166c7018701497e4f7cd1753cdc44f76da06707.*
 .*894a784e-e04c-483c-a762-b6c03e744d0b.*
-.*8ac147d1db55cbfaaa3a7cd3c7ae1da147c9add049e8150dab26609a22a53a10.*
-.*8d41849fa260b5a4a6a05db8312b60b3f6f2b5efe4f4d4fdd05c70701c7aabed.*
-.*8f25cacb678c008ff3f205dc9d66f4411902b867df8656ea758c0c6d2141e18f.*
 .*90F6244A-5EEE-4A7A-8C75-FA6A52DF34D3.*
-.*912bbb35787c58046da31f1608d07a68753fa4bd8782e29ef80eb51e65e887d2.*
 .*913d774e5cf0bfad4adfa900997f7a1a.*
 .*913d774e5cf0bfad4adfa900997f7a1a.*
 .*91EA50CD-E8DF-4EDF-A765-75354643BD0D.*
-.*9209af6bfe87a818df00297bed5517be70c1d931523b71e25813365699df749a.*
 .*928097a924168caad66fead2633e4d44e4f585e0d33d05deb50b9c2d34cda246.*
-.*9434096968402430d1ace03ffbb13ba28c2e4fcb23e59ed353eac70aa02b5b25.*
 .*946D24E4-201B-4D51-AF9A-3190266E0E1B.*
-.*969b35213fa23ff50a169e5498a97f28bc6f5820b447b78ec9dc6910dd8cc3e8.*
-.*97e0720ed22d2d99e8148aab7ab2cb2cc3df278225669828b2d8d4d9ef856d94.*
-.*9877129f209f0c3faf146ab725442b614c49942b7b888e3aabf5903217cb0503.*
 .*99\$1a7F1qr2HihoXfs/56u5XMdpDZ83N6hW/HI=.*
 .*99e3e313b62bb8b55e2637fc14a78adb6f33632a3c722486416252e2630cfdf6.*
 .*99E40E7F-00A4-4FB1-9441-B05A56C47C08.*
-.*9a4b0023e443b33d85280eedb510864c42b4146c8e6e5f742444b3eff0aae55f.*
 .*9AA32BBF-90F3-4CE6-B210-CBCDB85052B0.*
 .*9AC25A8825407CCB6089BC7A2DF530D1830795B7E71A981ECEE4C5F48387B37A.*
 .*9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45.*
-.*9b9dad8b40daf87f796c91a0538198921acebd13d47515e0e27b18eaad6906f4.*
-.*9bd3b7a206ced26ce5e03a4002bbd41e4f57b8c8c9ce4467f54221ad68e55a58.*
 .*9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360.*
-.*9c71ab720c5589739b70ecd7f5bae0bb6ab2ac043bac1a24aec50864f3037719.*
-.*9cbedf9b92abaef3ea28de28dd523ac44079592178ef727c7003c339a5a54712.*
-.*9ccf0c8c7eef918c9dd7b89dd94f0dfa7dc8779b1f9e862908b09b47b75f7d1f.*
 .*9D1B853E-58F1-4BA5-AEFC-5C221CA30E48.*
 .*9D365106-D7B8-4B5E-82CC-6D6ABCDCA2B8.*
 .*9E357027-8AA6-4376-8146-F5AF610E14BB.*
-.*9e3f1386bfb64dbaa3cbb12fd3bf51c734872c2fdf15cf1aaeca52a515767519.*
 .*9emin1/charlotte.*
+.*A cross-platform python based advanced sql injections detection & exploitation tool.*
+.*A fast multi protocol credential bruteforcer/sprayer/enumerator.*
 .*A La Vie.* A L'Amour.*
+.*A Python package for data exfiltration\..*
 .*a0rtega/metame.*
 .*A17656B2-42D1-42CD-B76D-9B60F637BCB5.*
 .*A38C04C7-B172-4897-8471-E3478903035E.*
 .*A38C04C7-B172-4897-8471-E3478903035E.*
-.*a3bc28e48c61afe31a0c986674ac145e773d616b2fafb49a090d50cc26ea4479.*
 .*A3h1nt/gimmeSH.*
 .*a6730ebb3e91961283f7a1cd95ace2a6d0d55e50531a64e57b03e61a8cf2d0e7.*
+.*A7397316-0AEF-4379-B285-C276DE02BDE1.*
 .*a7469955bff5e489d2270d9b389064e1.*
 .*a78983b009b688a82458abac952516db57dc7eb3118a35cc737dde29c7b87ec4.*
 .*A7AD39B5-9BA1-48A9-B928-CA25FDD8F31F.*
@@ -7370,6 +7554,7 @@
 .*AAP-DisplayHighPrivilegePrincipalMap.*
 .*AAP-DisplayNonHighPrivilegedRoleAssignments.*
 .*AAP-GetHighPrivilegedDirectoryRoleTemplateMap.*
+.*ABC32DBD-B697-482D-A763-7BA82FE9CEA2.*
 .*abopscript\.txt.*
 .*aboul3la.*
 .*AbuseGithubAPI.*\.cpp.*
@@ -7408,6 +7593,8 @@
 .*ad_dns_dump\.txt.*
 .*AD_Enumeration_Hunt\.ps1.*
 .*AD_Enumeration_Hunt-alperen_ugurlu_hack.*
+.*ad_miner\.sources\.modules\..*
+.*AD_Miner-main.*
 .*ADACLScan\.ps1.*
 .*ADACLScanner.*
 .*ADACLScanner-master.*
@@ -7529,6 +7716,7 @@
 .*admin\.kirbi.*
 .*Admin2Sys\.exe.*
 .*Admin2Sys-main.*
+.*AD-miner -.*
 .*Adminisme/ServerScan/.*
 .*adobe_top100_pass\.txt.*
 .*ADRecon -OutputDir .*
@@ -7550,6 +7738,7 @@
 .*advantech_iview_networkservlet_cmd_inject\..*
 .*adxcsouf2john\.py.*
 .*ADZero\.py.*
+.*AE373FC4409EDA1B5F41D5CE3CA9290B3C7E8363.*
 .*aem2john\.py.*
 .*AES_cryptor\.py .*
 .*AesEncryptor\.py.*
@@ -7590,8 +7779,8 @@
 .*aggressor\.py.*
 .*Aggressor/TikiTorch.*
 .*AggressorScripts.*
-.*aggressor-scripts.*
 .*Aggressor-Scripts.*
+.*aggressor-scripts.*
 .*ahmedkhlief/Ninja.*
 .*ahmedkhlief/Ninja.*
 .*AhMyth-Android-RAT.*
@@ -7622,6 +7811,7 @@
 .*AlessandroZ/LaZagne.*
 .*alexa-top-20000-sites\.txt.*
 .*al-khaser.*
+.*---All Azure AD User Principal Names---.*
 .*All EDR drivers were successfully removed from Kernel callbacks!.*
 .*All_SubdomainTOP_Seclist\.txt.*
 .*AllowDelegationUsers\.txt.*
@@ -7702,6 +7892,7 @@
 .*APIHookInjectorBin\.sln.*
 .*apokryptein/secinject.*
 .*apop2john\.py.*
+.*app\.pentest-tools\.com.*
 .*appdata.*\\Windows:svchost\.exe.*
 .*appdata.*\\Windows:winrm\.vbs.*
 .*AppData\\Roaming\\uTorrent.*
@@ -7792,6 +7983,7 @@
 .*ASBBypass\.ps1.*
 .*ASBBypass\.ps1.*
 .*ASBBypass\.ps1.*
+.*asktgt /user.* /domain:.* /password:.* /opsec /force /ptt.*
 .*ASRenum-BOF\..*
 .*asrep_attack.*
 .*asrep2kirbi.*
@@ -7807,6 +7999,7 @@
 .*Assemblies/SharpMove\.exe.*
 .*assembly .*\.asm .*
 .*assembly .*\.exe .*
+.*Assembly\.GetType\(.*System\.Management\.Automation\.AmsiUtils.*\)\.getField\(.*amsiInitFailed.*.*'NonPublic.*Static'\)\.SetValue\(\$null.*\$true\).*
 .*Assembly\.GetType\('System\.Management\.Automation\.AmsiUtils'\)\.GetField\('amsiInitFailed'.*'NonPublic.*Static'\)\.SetValue\(\$null.*\$true\).*
 .*assembly_inject -.*
 .*--assemblyargs AntiVirus AppLocker.*
@@ -7869,6 +8062,8 @@
 .*AttifyOS.*
 .*attrib \+s \+h desktop\.ini.*
 .*Auditcleaner\..*
+.*aue\.rel\.tunnels\.api\.visualstudio\.com.*
+.*aue-data\.rel\.tunnels\.api\.visualstudio\.com.*
 .*Augustus-main\.zip.*
 .*ausecwa/bof-registry.*
 .*auth/cc2_ssh\..*
@@ -7960,16 +8155,11 @@
 .*AzureHound\.ps1.*
 .*azurehound/v2.*
 .*-b bleeding-jumbo.*
-.*b12885f92d7691b2823d2b921b7dda440cbcc4c6aa5a3b7c3e9e6f7af4772397.*
-.*b1b79e79880d60412e41d43b5e9ef936fdb3e66ad85e47fc0e1261ed07322d06.*
-.*b22c6d2722fa9e917746502fd4615d28b9c889d7288fc737315150e0ae40ee6f.*
 .*b23r0/Heroinn.*
 .*b23r0/rsocx.*
-.*b289e30ce698eb0402babc2788ac7022b6a7db161296182e0e13fd021a3bee03.*
 .*b2xtranslator\.xls\.csproj.*
 .*B374K.*index\.php.*
 .*b3rito.*yodo.*
-.*b419f6b7b8d24dc61e7473092a8326720ef54e1f65cc185da0c6e080c9debb94.*
 .*B473B9A4135DE247C6D76510B40F63F8F1E5A2AB.*
 .*b4ldr/nse-scripts.*
 .*b4rtik/RedPeanut.*
@@ -7984,9 +8174,6 @@
 .*B67143DE-321D-4034-AC1D-C6BB2D98563F.*
 .*B67143DE-321D-4034-AC1D-C6BB2D98563F.*
 .*b7671f125bb2ed21d0476a00cfaa9ed6.*
-.*b774446d2f110ce954fb0a710f4693c5562ddbd8d56fe84106f2ee80db8b50a2.*
-.*b7dec074f463b0be08dd3a707495e45c7a629502fa6dd7ef972a74a2aff72632.*
-.*ba8fe35020bcd560c0f100bda43c2311bfdbb97aafbe367ac5077cebca59287f.*
 .*babelstrike\.py -.*
 .*BabelStrike-main.*
 .*Backdoor LNK.*
@@ -8002,6 +8189,7 @@
 .*Backdoor:JS/.*
 .*Backdoor:Linux.*
 .*Backdoor:Python.*
+.*Backdoor:Python/.*
 .*Backdoor:VBS/.*
 .*Backdoor:Win32.*
 .*Backdoor:Win64.*
@@ -8079,8 +8267,6 @@
 .*bawait_upload.*
 .*bawait_upload_raw.*
 .*bb3b1a1f-0447-42a6-955a-88681fb88499.*
-.*bbcd54496dca975abf6089526023446984238d464e2df7485230b76072ff2ea1.*
-.*bbce2e4fa4cbb392974e7276108f1f9091f31e806a2c81964c996953e0770125.*
 .*bblcccknbdbplgmdjnnikffefhdlobhp.*
 .*bblockdlls.*
 .*bbrowserpivot.*
@@ -8101,10 +8287,8 @@
 .*BC-SECURITY/Starkiller.*
 .*bd346689-8ee6-40b3-858b-4ed94f08d40a.*
 .*BD602C80-47ED-4294-B981-0119D2200DB8.*
-.*bd6fe82852c4fcdfab559defa33ea394b752a4e4a5ac0653ae20c4a94b0175ed.*
 .*BD745A5E-A1E9-4FDD-A15B-E9F303A625AE.*
 .*bd745a5e-a1e9-4fdd-a15b-e9f303a625ae.*
-.*bd7f1ebd11ed2313bef81c4701b2444ab37d9723493bfeb9de5db2063a5213e2.*
 .*bdamele/icmpsh.*
 .*bdcsync.*
 .*bdlcnpceagnkjnjlbbbcepohejbheilk.*
@@ -8114,7 +8298,6 @@
 .*bdllload.*
 .*bdllspawn.*
 .*bdllspawn.*
-.*be93e59137554e3f45e8c6fbc22f0fbe42a1dfa8e457e60894bfda1388d61a1e.*
 .*Beacon Payload Generator.*
 .*beacon\..*winsrv\.dll.*
 .*beacon\.CommandBuilder.*
@@ -8135,6 +8318,7 @@
 .*beacon_bottom .*
 .*Beacon_Com_Struct.*
 .*beacon_command_describe.*
+.*beacon_command_detail\(.*remotepipelist.*.*
 .*beacon_command_detail.*
 .*beacon_command_detail.*
 .*beacon_command_register.*
@@ -8225,8 +8409,8 @@
 .*BeaconTool -.*
 .*BeaconTool/lib/sleep\.jar.*
 .*BeaconUseToken.*
+.*Beau Bullock \(@dafthack\).*
 .*beb285e40caf95bcc1552fc293194fa29275e3cdb9c62ef752b62257f6480aaf.*
-.*beb7d48597345d0109ce51c7452292ba6e970eb8ed5f716ec035087aa3f045b3.*
 .*beef:beef.*
 .*beef_bind_tcp-stage\.asm.*
 .*beef_bind_tcp-stager\.asm.*
@@ -8323,6 +8507,7 @@
 .*blacklanternsecurity/trevorproxy.*
 .*blacklanternsecurity/TREVORspray.*
 .*Blackout\.exe .*
+.*BlackSnufkin/NovaLdr.*
 .*ble_recon\.go.*
 .*blendin/3snake.*
 .*blindSQLPayloads\.txt.*
@@ -8339,6 +8524,7 @@
 .*BlockOpenHandle\.exe.*
 .*BlockOpenHandle\.vcxproj.*
 .*BlockOpenHandle-main.*
+.*blog\.lexfo\.fr/sshimpanzee\.html.*
 .*bloginuser.*
 .*blogonpasswords.*
 .*bloodhound &> /dev/null &.*
@@ -8448,6 +8634,7 @@
 .*bolt://localhost:7687.*
 .*Bonfee/CVE-2022-0995.*
 .*BooExecutorImpl\.cs.*
+.*book\.hacktricks\.xyz/.*
 .*bootkit-rs\.git.*
 .*bootkit-rs-master.*
 .*BorjaMerino.*Pazuzu.*
@@ -8673,6 +8860,8 @@
 .*-c unquotedsvcpath\.c -o unquotedsvcpath\.o.*
 .*C&C => .*
 .*c:/users/public/creds\.log.*
+.*C:\\\\temp\\\\test\.txt.*
+.*C:\\\\Users\\\\L\.Ackerman=.*
 .*C:\\aab\.txt.*
 .*c:\\agent\.exe.*
 .*C:\\dsc_hello\.txt.*
@@ -8683,6 +8872,7 @@
 .*c:\\temp\\something\.ps1.*
 .*C:\\temp\\tmp\.tmp.*
 .*C:\\Uac\\results\.cab.*
+.*C:\\Users\\.*\\AppData\\Local\\Temp\\performance_636_3000_1\.dll.*
 .*C:\\Users\\.*\\AppData\\Roaming\\Indexing\..*
 .*C:\\Users\\.*\\AppData\\Roaming\\svchost\.exe.*
 .*C:\\Users\\Public\\.*\.dmp.*
@@ -8697,9 +8887,7 @@
 .*C:\\Windows\\Temp\\moveme\.exe.*
 .*c:\\windows\\temp\\test\.tmp farmer.*
 .*C\?\?/generator\.cpp.*
-.*c0ddb8ed4e267153cd7fd2fb858e0a18fd8fa88ddc3f748bcee35372f41bec46.*
 .*c1090dbc-f2f7-4d90-a241-86e0c0217786.*
-.*c1405b280bacc7566ccd041a74461de3f8496128fd71e39368905cf8d95268f6.*
 .*C2 Client.*
 .*C2 Framework for villains.*
 .*C2 Nimplant Server.*
@@ -8710,14 +8898,15 @@
 .*C2/C2Server\..*
 .*C2_RPC_functions\.py.*
 .*c2_server.*\.py.*
+.*c2_server\.py .*
 .*c2_server\.resources.*
 .*C2_Server-main.*
 .*c2_service\.sh.*
-.*c204e44cffb51d95128971ec8b31e668e3b4f50ba3f4082c36ced76c2b30bc63.*
 .*C2concealer -.*
 .*C2concealer-master.*
 .*'C2Default'.*
 .*c2endpoint\.php.*
+.*C2FunctionAgent.*
 .*c2hlbGxjb2Rl.*
 .*c2lint .*
 .*C2ListenerPort.*
@@ -8740,19 +8929,18 @@
 .*c2server_macos.*
 .*c2server_release.*
 .*c2server_windows.*
+.*c2-sessions ping.*
+.*c2-sessions quit.*
 .*C2TaskMessage\..*
 .*c2VydmVyMS5jaWEuZ292.*
 .*C2WebSocketHandler\..*
-.*c4d57f02dd8276fb3df81442bda345d4c3004dfc2842b2140ac9e71b30fd743b.*
-.*c51beca480d6e6f88174698503c0856c56488a59101d259c068dccb0902b01ec.*
+.*C34208EA-8C33-473D-A9B4-53FB40347EA0.*
 .*C526B877-6AFF-413C-BC03-1837FB63BC22.*
 .*c708b83f-4167-4b4c-a1db-d2011ecb3200.*
 .*c725919e6357126d512c638f993cf572112f323da359645e4088f789eb4c7b8c.*
 .*C73A4893-A5D1-44C8-900C-7B8850BBD2EC.*
 .*C7E4B529-6372-449A-9184-74E74E432FE8.*
 .*C8482002-F594-4C28-9C46-960B036540A8.*
-.*c90cec4c10cde815fd286d83601b4cd3738097e8e0b2e592dc28c1325c12918d.*
-.*ca0b7a38be2f3f63a69aca6da7b3a62a59fcefee92de00e9796f68d4a2a23158.*
 .*CA280845-1F10-4E65-9DE7-D9C6513BBD91.*
 .*cABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBFAHgAZQBjAHUAdABpAG8AbgBQAG8AbABpAGMAeQAgAEIAeQBwAGEAcwBzACAALQBGAGkAbABlACAAQwA6AFwAUAByAG8AZwByAGEAbQBEAGEAdABhAFwAUwBoAGUAbABsADMAZQByAC4AcABzADEA.*
 .*cache_activedirectory\.py.*
@@ -8777,6 +8965,7 @@
 .*CALLBACK_TOKEN_STOLEN.*
 .*CallBackDump.*dumpXor.*
 .*CallbackDump\.exe.*
+.*calling MySQL shell\. To quit type 'x' or 'q' and press ENTER.*
 .*can_flood_frames.*
 .*CandyPotato\.exe .*
 .*canix1/ADACLScanner.*
@@ -8824,8 +9013,8 @@
 .*cat domains\.txt \| dnsx -silent -w jira.*grafana.*jenkins -d -.*
 .*catchetumbotifyoucan>.*
 .*catphish\.rb.*
-.*cb1bf87f2976eb49c5560b16a69c742b39706c48314bcc0bdeeaf545910bd380.*
 .*CB561720-0175-49D9-A114-FE3489C53661.*
+.*cbe60ddb0c22d6a5743901dd06d855958a68a90ab0820665acd1e7b53f0a9c71.*
 .*CC127443-2519-4E04-8865-A6887658CDE5.*
 .*cc2_keystrokes.*
 .*cc2_keystrokes_.*
@@ -8839,7 +9028,6 @@
 .*cc2_udp_server.*
 .*cc2FilesColor\..*
 .*cc2ProcessColor\..*
-.*ccac7cdcbd419f3184c3886f5c36669ff9f7714b57a1249e2bb4be07b492c8ac.*
 .*ccache2john\.py.*
 .*ccache2john\.py.*
 .*CCHOST=127\.0\.0\.1.*/tmp/c2.*
@@ -8855,6 +9043,7 @@
 .*cd koadic.*
 .*cd ligolo.*
 .*cd PurplePanda.*
+.*cd PyExfil.*
 .*CD3578F6-01B7-48C9-9140-1AFA44B3A7C0.*
 .*cd40dbcdae84b1c8606f29342066547069ed5a33.*
 .*cddownloadelevategetprivsinjectpersistportscanpspwdrunassaveshellshutdownsleep.*
@@ -8869,7 +9058,6 @@
 .*Cdn-Proxy-Origin.*
 .*cdn-scanner -.*
 .*CE895D82-85AA-41D9-935A-9625312D87D0.*
-.*cef0c644e3203b086519fbb77ccc50589b59d5b9a44adfb72a7f2bc6924e9878.*
 .*celerystalk.*
 .*cerbrutus\.py.*
 .*Cerbrutus-BruteForcer.*
@@ -8970,6 +9158,7 @@
 .*choco install .* common\.fireeye.*
 .*chocobo_root\.c
 .*chocolate\.kirbi.*
+.*chompie1337/Windows_MSKSSRV_LPE_CVE-2023-36802.*
 .*Choosing DLL to hijack\..*
 .*chown root %s  chmod 4755 %s  %s.*
 .*chown root:root /tmp/\.scsi/dev/bin/.*
@@ -9003,7 +9192,9 @@
 .*cirt-default-usernames\.txt.*
 .*cirt-fuzzer.*
 .*cisco2john\.pl.*
+.*CiscoCXSecurity/linikatz.*
 .*cisco-phone-query\.sh.*
+.*cjm00n/EvilSln.*
 .*ckiahbcmlmkpfiijecbpflfahoimklke.*
 .*Cleanup-57BFF48E-24FB-48E9-A390-AC62ADF38B07\.json.*
 .*clear_cmd
@@ -9011,6 +9202,11 @@
 .*ClearEventlog\.vbs.*
 .*Clearlogs.*
 .*Clear-RecycleBin -Force -ErrorAction SilentlyContinue.*
+.*clem9669/hashcat-rule.*
+.*clem9669_case\.rule.*
+.*clem9669_large\.rule.*
+.*clem9669_medium\.rule.*
+.*clem9669_small\.rule.*
 .*clem9669_wordlist_medium\.7z.*
 .*clem9669_wordlist_small\.7z.*
 .*-cli install github .*
@@ -9079,6 +9275,8 @@
 .*cmd\.exe /Q /c start .*stage1\.exe 1.*
 .*cmd\.exe.*\\TEMP\\ScreenConnect\\.*\.cmd.*
 .*cmd/backdoor\.go.*
+.*cmd/bruteforce\.go.*
+.*cmd/bruteuser\.go.*
 .*cmd/ligolo.*
 .*cmd/ligolo.*
 .*cmd/localrelay.*
@@ -9093,6 +9291,9 @@
 .*Cmd-Inline-Execute\..*
 .*cmdinspector OFF.*
 .*cmdinspector ON.*
+.*CmdLineSpoofer\.exe.*
+.*CmdLineSpoofer\.sln.*
+.*CmdLineSpoofer-master.*
 .*cmdshell .*
 .*Cmd-Shinject\..*
 .*Cmd-Upload\..*
@@ -9169,6 +9370,10 @@
 .*codewatchorg/sqlipy.*
 .*codewhitesec/apollon.*
 .*codewhitesec/daphne.*
+.*CoercedPotato\.cpp.*
+.*CoercedPotato\.exe.*
+.*CoercedPotato\.sln.*
+.*CoercedPotato-master.*
 .*Coercer coerce.*
 .*coercer -d .* -u .*
 .*Coercer fuzz.*
@@ -9255,10 +9460,13 @@
 .*completedns-get-ns-history.*
 .*COMPlus_ETWEnabled=0\\0\\0\\0.*
 .*compress_encode_obfs.*
+.*ComputerDefaultsUACBypass\.lua.*
+.*ComputerDirectory\\.*\.FullDump\.txt.*
 .*computers_pwdnotreqd.*
 .*comsvcs_lsass.*
 .*ComsvcsLSASS.*
 .*config/51pwn/CVE-.*
+.*config_steal /etc/krb5\.conf /etc/krb5\.keytab.*
 .*Confuser\.CLI\.Exe.*
 .*Confuser\.CLI\.exe.*
 .*Confuser\.DynCipher\.dll.*
@@ -9324,11 +9532,14 @@
 .*copy \\.*\\HarddiskVolumeShadowCopy1\\windows\\system32\\config\\system C:\\.*
 .*Copy New .*gdrive://www\.googleapis\.com/GS_Sync/.*
 .*Copy New .*sftp://.*
+.*copy Tsutsuji_x64\.dll %appdata%.*Local\\Microsoft\\WindowsApps\\BluetoothDiagnosticUtil\.dll.*
 .*CopyAndPasteEnum\.bat.*
 .*CopyAndPasteFileDownloader\.bat.*
 .*Copy-Item -Path .* -Destination \\\\\$IP\\transfer.*
 .*Copyright \(c\) 2007 - 2021 gentilkiwi \(Benjamin DELPY\).*
 .*Copyright \(c\) 2023 whoamianony\.top.*
+.*cordyceps\.exe.*
+.*Cordyceps-main\.zip.*
 .*core/handler/reverse.*
 .*core/sprayers/lync\.py.*
 .*core/teamserver/stagers/.*
@@ -9378,8 +9589,8 @@
 .*cracklord-master\..*
 .*cracklord-queued.*_amd64\.deb.*
 .*cracklord-resourced.*_amd64\.deb.*
-.*crackmapexec.*
 .*CrackMapExec.*
+.*crackmapexec.*
 .*crackmapexec\.exe.*
 .*crackmapexec\.py.*
 .*crackmapexec\.py.*
@@ -9389,7 +9600,7 @@
 .*Crassus\.csproj.*
 .*Crassus\.exe.*
 .*Crassus\.sln.*
-.*crate::modules::\{rec2mastodon,rec2virustotal}.*
+.*crate::modules::\{rec2mastodon.*rec2virustotal}.*
 .*CravateRouge/autobloody.*
 .*CravateRouge/bloodyAD.*
 .*crawlLdrDllList.*
@@ -9404,6 +9615,7 @@
 .*create-aws-instance\.py.*
 .*CreateC2Dialog\..*
 .*CreateC2Server.*
+.*Created directory for PME at .*
 .*createdaisypayload.*
 .*createlinuxpayload.*
 .*Create-MultipleSessions\.ps1.*
@@ -9608,15 +9820,16 @@
 .*cyberark/ACLight.*
 .*cyberark/kubesploit.*
 .*cyberark/PipeViewer.*
+.*cyclone\.hashesorg\.hashkiller\.combined.*
 .*cypheroth -u neo4j -p .*
 .*cytool\.exe event_collection disable.*
 .*cytool\.exe protect disable.*
 .*cytool\.exe runtime disable.*
 .*cytool\.exe startup disable.*
+.*-d .* bruteforce -.*
 .*-d kali-linux .*
 .*D00MFist/Mystikal.*
 .*D00Movenok/HTMLSmuggler.*
-.*d090766c75d998b019d651fbb0c04112c6feb0f754628751682708e13baf2744.*
 .*d091e408c0c5068b86bb69d17e91c5a7d6da46c0bd4101aa14f136246aed7f51.*
 .*d09ccee4-pass-word-0000-98677e2356fd.*
 .*d0ebb728926cce530040e046a8ea2f47e01158581cb0b5cccddc91007b421f6c.*
@@ -9633,14 +9846,11 @@
 .*d38210acb6d0568559041036abd033953c4080170e1ea9cf5d4d8499b54141b7.*
 .*d3ckx1/Crack-allDBs.*
 .*d494a4bc-3867-436a-93ef-737f9e0522eb.*
-.*d4acf557a541579d5a8992b9514169fc05c40f26144ad8a560d8ef8d0a3cce0e.*
 .*D4Vinci.*
-.*d7fbfd69df3840022dab1f8f2d529ce04abac8cee0234448bfd0a67feb6aea22.*
 .*DA230B64-14EA-4D49-96E1-FA5EFED9010B.*
-.*da26a5e6b6a29023ee4ab6b54fd24ab13bebed4bcaaac910379119463bba62fa.*
-.*da50f691771c3694ae8821095113a29cf3333e728a31a56f25d08c1a43c9e173.*
 .*dacledit\.py -action write -rights DCSync -principal .* -target-dn .*
 .*daem0nc0re/PrivFu.*
+.*dafthack/GraphRunner.*
 .*dafthack/HostRecon.*
 .*dafthack/MailSniper.*
 .*dafthack/MFASweep.*
@@ -9749,7 +9959,6 @@
 .*dcsyncclient\.py.*
 .*dd if=/dev/nul.*
 .*dd if=/dev/zero.*
-.*dd310c7a9d558083387ae42d137624df205051094b619f59edf7899af42104c8.*
 .*dd7fef5e3594eb18dd676e550e128d4b64cc5a469ff6954a677dc414265db468.*
 .*DE7B9E6B-F73B-4573-A4C7-D314B528CFCB.*
 .*deb\.torproject\.org/torproject\.org/.*\.asc.*
@@ -9760,7 +9969,9 @@
 .*DebugAmsix64\.exe.*
 .*DebugAmsix86\.exe.*
 .*debugfs /dev/.*
+.*deckard@tyrellcorporation\.io.*
 .*decoder-it/LocalPotato.*
+.*decoder-it/TokenStealer.*
 .*Decode-RoutingPacket.*
 .*decoy_document\.xls.*
 .*decrypt\.py \.\\.*\.txt utf-16-le.*
@@ -9831,9 +10042,8 @@
 .*detect-hooksx64\..*
 .*devtunnel create .*
 .*devtunnel host -p .*
-.*devtunnel.* user login -d.*
+.*devtunnel.* user login -.*
 .*devtunnel\.exe .*
-.*df64a3f4eb1348cba026ff85a86f39e11a979ce50a4b4af0b9cbd2acdfc90bf0.*
 .*dfkdflfgjdajbhocmfjolpjbebdkcjog.*
 .*dfscoerce\.py -d .*
 .*dfscoerce\.py.*
@@ -9897,6 +10107,7 @@
 .*dirtypipe-exploit/blob/main/dirtypipe\.c.*
 .*-DirtyPipe-Exploits.*
 .*dirwalk\.py.*
+.*'Disable all http access logs'.*
 .*disable_clamav\..*
 .*disable_clamav\.rb.*
 .*Disable_Privilege /Process:.* /Privilege:.*
@@ -9994,6 +10205,7 @@
 .*dllproxy\.py.*
 .*DllProxy-main.*
 .*dllsearcher .*\.dll.*
+.*DLL-Spoofer-main.*
 .*dmcxblue/SharpBlackout.*
 .*dmFsaWRfdXNlckBjb250b3NvLmNvbTpQYXNzd29yZDE.*
 .*dmg2john\.py.*
@@ -10002,6 +10214,7 @@
 .*DNet-ListDomainUserAccountsWithCompletedADDescription.*
 .*DNet-ListUsersInDomainAdminsGroup.*
 .*dnf install tor -y.*
+.*dns\.lexfo\.fr.*
 .*dns\.spoof on.*
 .*dns\.spoof\.address.*
 .*dns\.spoof\.all.*
@@ -10066,6 +10279,8 @@
 .*dnstwist.*
 .*dnsx -silent -d .* -w dns_worldlist\.txt.*
 .*dnsx -silent -d domains\.txt -w jira.*grafana.*jenkins.*
+.*Do you want Ghauri set it for you \? \[Y/n].*
+.*Do you want to skip test payloads specific for other DBMSes\?.*
 .*do_attack\(.*
 .*do_bypassuac.*
 .*do_pyinject.*
@@ -10075,10 +10290,12 @@
 .*docker .* covenant.*
 .*docker .* --name elite .*
 .*docker .* -t elite .*
+.*docker build -t legba \..*
 .*docker build -t rmg \..*
 .*docker run .*/pacu:latest.*
 .*docker run .*/usr/src/rde1.*
 .*docker run .*/usr/src/rec2.*
+.*docker run legba.*
 .*docker run -p .* spring4shell
 .*docker run sitadel.*
 .*docker.* donut .*
@@ -10132,6 +10349,7 @@
 .*DonPAPI\.py .*
 .*donpapi_dump.*
 .*donpapi-master\.zip.*
+.*DON'T RUN THIS IN YOUR WEB ROOT AS IT WILL OUTPUT ACCESS TOKENS.*
 .*donut -f .*\.dll -c .* -m RunProcess.*
 .*donut -f c2\.dll.*
 .*donut.* \\DemoCreateProcess\.dll .*
@@ -10161,12 +10379,14 @@
 .*download .*bloodhound.*
 .*download .*Roaming\\mRemoteNG\\confCons\.xml.*
 .*download /etc/passwd.*
+.*download\.weakpass\.com/.*
 .*Download:Cradle\.js.*
 .*Download_Cradles\..*
 .*Download_Execute.*
 .*DownloadAndExtractFromRemoteRegistry.*
 .*DownloadAndExtractFromRemoteRegistry.*
 .*Download-Cradles\.cmd.*
+.*downloadexec_UACbypass\.lua.*
 .*Download-Execute-PS.*
 .*DownloadFileImplant.*
 .*Downloading .*/.*\.tar to /tmp/.*\.pak.*
@@ -10255,6 +10475,7 @@
 .*DueDLLigence\.cs.*
 .*DueDLLigence\.sln.*
 .*DueDLLigence-master.*
+.*dump /service:krbtgt .*
 .*dump_chrome_user.*
 .*dump_CREDENTIAL_MSOFFICE.*
 .*dump_CREDENTIAL_TASKSCHEDULER.*
@@ -10309,32 +10530,17 @@
 .*-e --enumerate google.*github.*k8s --github-only-org --k8s-get-secret-values --gcp-get-secret-values.*
 .*-e ZQBjAGgAbwAgAEcAbwBkACAAQgBsAGUAcwBzACAAWQBvAHUAIQA=.*
 .*E09F4899-D8B3-4282-9E3A-B20EE9A3D463.*
-.*e0be14373098896893f34e02dfe84d3eb64e11d9d9f7f70a15101b41cf9ae5bd.*
 .*E11DC25D-E96D-495D-8968-1BA09C95B673.*
 .*e1cd2b55-3b4f-41bd-a168-40db41e34349.*
 .*e1ff2208b3786cac801ffb470b9475fbb3ced74eb503bfde7aa7f22af113989d.*
 .*E2E64E89-8ACE-4AA1-9340-8E987F5F142F.*
-.*e333ccfe9c22eab91abd3ca224c70741e8619bb00353ea3bc4ea9d9f007cdf85.*
-.*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
-.*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
-.*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
-.*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
-.*e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.*
-.*e3f9f33e0223371b74d1ce7049a52675ea7a7086f1901b753db3cd9c187246b2.*
 .*E54195F0-060C-4B24-98F2-AD9FB5351045.*
-.*e54acaf84b54afaa2320803e0928ce9fbc19d8be3e8df4051b88f1b19cd836a5.*
-.*e56e67b10a67f0d5ef4128c7ab0c6cb9ba9966916720525edfa6abf3101dfe13.*
-.*e67d285ac080ed3a22453a79f4390dfb1b5b131569aa53a2cd2502c4b5a69221.*
-.*e6b96e43c3a1a8de682f16086ea8639cfe4649092fc2f47e26fb5baa42a70caf.*
-.*e732850b9f1b5432e5e75ac1ff4312f65e283ee9833b45b390633ea21a99b94a.*
-.*e7cb9e5eaca549d918f5f048f55cf67c46e745aeccebc578eb848e46c1915719.*
 .*E82BCAD1-0D2B-4E95-B382-933CF78A8128.*
 .*E991E6A7-31EA-42E3-A471-90F0090E3AFD.*
-.*e99aa4997bda14b534c614c3d8cb78a72c4aca91a1212c8b03ec605d1d75e36e.*
-.*ea23a31a0ec1fa3ae2ff1a0bad75421cbd8d74bcfbb7abd2749eb625c918b518.*
 .*eaphammer -i eth0 --channel 4 --auth wpa-eap --essid .* --creds.*
 .*eaphammer.*
 .*eapmd5tojohn.*
+.*earching for systems where privileged users' credentials might be in running memory.*
 .*easinvoker\.exe.*System32.*
 .*EasyHook-Managed.*InjectionLoader\.cs.*
 .*EasyHook-Managed.*WOW64Bypass\..*
@@ -10361,6 +10567,7 @@
 .*echo -n 'cmd /c start rundll32 .*\.dll.* \| base64.*
 .*echo nc -l -p .* > .*\.bat.*
 .*echo 'PEzor!!.*
+.*echo start > \\\\\.\\pipe\\winreg.*
 .*echoac-poc-main.*
 .*echowrecker.*
 .*ecryptfs2john\.py.*
@@ -10391,9 +10598,7 @@
 .*EDRSandblast-GodFault.*
 .*EDRSandblast-master.*
 .*EEC35BCF-E990-4260-828D-2B4F9AC97269.*
-.*eeddce39694b2f054aa86a7c37b2b56427209f775d27438a9427410550a2740b.*
 .*eeriedusk/nysm.*
-.*ef1b18997ea473ac8d516ef60efc64b9175418b8f078e088d783fdaef2544969.*
 .*EfsPotato-.*\.exe.*
 .*EfsPotato.*efsrpc.*
 .*EfsPotato.*lsarpc.*
@@ -10418,6 +10623,7 @@
 .*eidnihaadmmancegllknfbliaijfmkgo.*
 .*ejabberd2john\.py.*
 .*ejkaocphofnobjdedneohbbiilggdlbi.*
+.*eKeys\\.*-eKeys\.txt.*
 .*elastic-agent\.exe uninstall.*
 .*eldraco/domain_analyzer.*
 .*electrum2john\.py.*
@@ -10465,6 +10671,7 @@
 .*Empire-Sponsors\.git.*
 .*empire-test-kalirolling.*
 .*emptybowl\.py.*
+.*-EmptyPassword-Users\.txt.*
 .*enable_persistence\.py.*
 .*Enable_Privilege /Process:.* /Privilege:.*
 .*EnableAllParentPrivileges\.c.*
@@ -10477,6 +10684,7 @@
 .*Enable-SeDebugPrivilege.*
 .*encdatavault2john\.py.*
 .*encfs2john\.py.*
+.*encode baseImage\.jpg /etc/passwd newImage\.jpg.*
 .*encode_payload rc4 .*\.txt.*
 .*EncodeGroup/AggressiveProxy.*
 .*EncodeGroup/UAC-SilentClean.*
@@ -10487,6 +10695,7 @@
 .*encrypt/encryptUrl\.go.*
 .*Encrypt-Bytes.*
 .*encrypted_payload.*
+.*encrypted_sleep\(ms:.*
 .*EncryptedPfx\.py.*
 .*EncryptedZIP\.csproj.*
 .*EncryptedZIP\.exe.*
@@ -10538,7 +10747,9 @@
 .*env_var_spoofing_poc\.cpp.*
 .*eo\.oe\.kiwi.*
 .*eppiocemhmnlbhjplcgkofciiegomcon.*
+.*erase_dos_magic_bytes\(.*
 .*Erebus/.*spacerunner.*
+.*ERPScan-tockenchpoken\.zip.*
 .*error in libcrypto.*
 .*eRv6yTYhShell.*
 .*ES\.Alan\.Core/.*
@@ -10604,7 +10815,9 @@
 .*evilqr-main.*
 .*evilqr-phishing.*
 .*evilqr-server.*
+.*EvilSln-main.*
 .*evilsocket.*
+.*evilsocket/legba.*
 .*EvilTwin\.dmp.*
 .*EvilTwinServer\.nim.*
 .*evil-winrm -.*
@@ -10740,7 +10953,7 @@
 .*exploit\.vbs.*
 .*exploit\.vbscript.*
 .*exploit\.zsh.*
-.*Exploit:Python/CVE.*
+.*Exploit:Python/.*
 .*exploit_frameworks\.py.*
 .*exploit_fuse\.c.*
 .*exploit_kctf\.c.*
@@ -10804,27 +11017,22 @@
 .*-f BinaryFormatter -g PSObject -o base64 -c .*
 .*-f Json\.Net -g ObjectDataProvider -o raw -c .*
 .*-f payloads_examples/calc\..*
-.*f0432754020470baca5728aa59790267492406f847c1210fc6f1ba1b1466047b.*
-.*f0b8b0d1d5b85c4324c8cbb21d94dd8db69fd21bb5e37491bbd6aa2297fa0fc7.*
 .*F1527C49-CA1F-4994-BB9D-E20DD2C607FD.*
 .*f1zm0/acheron.*
 .*f1zm0/hades.*
-.*f243a7dcea8584d55890ae0b2e01c1137b923ae6ea9bdd8ae97c14f9da79b788.*
-.*f3900a5064d5ec0c58e1da8f1a83b1cd84bab30ac4d79737cd74ada3803de0f8.*
 .*F3C62326-E221-4481-AC57-EF7F76AAF27B.*
 .*f4081a8e30f75d46\.js.*
-.*f41690990d738d243f75d60ffe7a585027c0b379735b7d9d6df9cba7c7ad4c2c.*
 .*f5a45c4aa478a7ba9b44654a929bddc2f6453cd8d6f37cd893dda47220ad9870.*
 .*F5BIG-Scanner\.py.*
-.*f648515a31961e39a4395e42689b3fba1f86e0b4a724361c4ea383f50098556c.*
-.*f66280e29c2116d4b83f2c6899d8caf432f7a4d1ccc4e4cf4e72b05d0fbd1f25.*
-.*f81c975acd016c97776dd3a8e3218e148682b0336ff3fcd77fad6d9b86ddf107.*
 .*F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2.*
-.*f8e6a0be357726bee35c7247b57408b54bb38d94e8324a6bb84b91c462b2be30.*
 .*FA0DAF13-5058-4382-AE07-65E44AFB5592.*
-.*fa0df73ca48d6e73c1e57b6630d09ec86f04f9a1f8cfaec88d7938b2d97403ef.*
-.*fa20d8ff56109734866c6baed5d8be316d4d24a5dbf074e0e90d7e458978de1c.*
 .*Fadi002/unshackle.*
+.*Failed to allocate memory for shellcode:.*
+.*Failed to change shellcode memory protection.*
+.*Failed to find rx section offset.*
+.*Failed to hijack thread:.*
+.*Failed to overwrite the \.text section of ntdll\.dll.*
+.*Failed to write shellcode to target process.*
 .*Fake Computer Objects Honey Pots.*
 .*Fake Service Accounts Honey Tokens.*
 .*fake_ap\.py.*
@@ -10861,7 +11069,6 @@
 .*fasttrack/wordlist\.txt.*
 .*fatal: buffer_get_string: bad string.*
 .*favfreak-http.*
-.*fb5dc2d637faab73729d65323fcc7d4b7edf43bf9f3de8d8e65ea55670229815.*
 .*fb8b5d212f449a8ba61ab9ed9b44853315c33d12a07f8ce4642892750e251530.*
 .*fcfhplploccackoneaefokcmbjfbkenj.*
 .*fcrackzip .*
@@ -10880,7 +11087,6 @@
 .*feroxbuster -w .*fzf-wordlists.* -u .*
 .*Fertiliser\.exe \\\\.*
 .*ff_osx_extension-dropper.*
-.*ff3f6b103b45ea48c5fa447854a35950378ce7558868d4975fd5b11202d0a991.*
 .*ff6e67d725ee64b4607dc6490a706dc9234c708cff814477de52d3beb781c6a1.*
 .*FFA0FDDE-BE70-49E4-97DE-753304EF1113.*
 .*FFA0FDDE-BE70-49E4-97DE-753304EF1113.*
@@ -10907,6 +11113,7 @@
 .*FiercePhish.*
 .*Fiesta Exploit Kit.*
 .*File_Smuggler_Http_Handler.*
+.*FILE_TO_EXFIL = .*.*
 .*FileControler/FileControler_x64\.dll.*
 .*FileControler/FileControler_x86\.dll.*
 .*File-Extensions-Wordlist\.txt.*
@@ -10923,6 +11130,10 @@
 .*--file-read=/etc/passwd.*
 .*files/BindShell\.exe.*
 .*files/team-edward\.py.*
+.*filetype:credentials.* AND \(\(client_id OR clientID\) AND \(tenant\) AND \(secret\)\).*
+.*filetype:credentials.* AND \(\\.*AWS_ACCESS_KEY_ID\\.* OR \\.*AWS_SECRET_ACCESS_KEY\\.*.*
+.*filetype:credentials.* AND \(begin NEAR\(n=1\) \(RSA OR OPENSSH OR DSA OR EC OR PGP\) NEAR\(n=1\) KEY\).*
+.*filetype:pem.*AND \(\\.*BEGIN RSA PRIVATE KEY\\.* OR \\.*BEGIN DSA PRIVATE KEY\\.* OR \\.*BEGIN EC PRIVATE KEY\\.*
 .*filezilla2john\.py.*
 .*-filter .*\(&\(objectCategory=person\)\(objectClass=user\)\(userAccountControl:1\.2\.840\.113556\.1\.4\.803:=32.*
 .*-filter .*\(&\(objectCategory=person\)\(objectClass=user\)\(userAccountControl:1\.2\.840\.113556\.1\.4\.803:=4194304.*
@@ -11150,7 +11361,10 @@
 .*FULLSHADE/WindowsExploitationResources.*
 .*func_get_powershell_dll.*
 .*func_install_wine_dotnettojscript.*
+.*function DumpSAM.*
+.*function GNLPH.*Get-ItemProperty .*HKLM:SAM\\SAM\\Domains\\Account\\Users\\.*
 .*function psenum.*
+.*Function PsMapExec.*
 .*function Use-Zeus.*
 .*FunnyWolf/pystinger.*
 .*fuse_evil\..*
@@ -11159,6 +11373,7 @@
 .*fuxploider.*
 .*fuzz_option\.pl.*
 .*fuzzdb.*
+.*fuzzers/rippackets\.pl.*
 .*fuzzfactory\.py.*
 .*fuzzrequest\.py.*
 .*FuzzySecurity/Dendrobate.*
@@ -11315,6 +11530,7 @@
 .*Get-AZStorageKeysREST\.ps1.*
 .*Get-AzureADDomainInfo.*
 .*Get-AzureADDomainInfo\.ps1.*
+.*Get-AzureADUsers .*
 .*Get-AzurePasswords.*
 .*Get-AzUserAssignedIdentity.*
 .*Get-BaseLineResponseTimeEAS.*
@@ -11400,6 +11616,11 @@
 .*Get-GPPPassword.*
 .*Get-GPPPassword\.ps1.*
 .*Get-GPPPassword\.py.*
+.*Get-GraphTokens.*
+.*Get-GroupMembers -GroupName .*Account Operators.*.*
+.*Get-GroupMembers -GroupName .*Domain Admins.*.*
+.*Get-GroupMembers -GroupName .*Enterprise Admins.*.*
+.*Get-GroupMembers -GroupName .*Server Operators.*.*
 .*Get-HeadersWithPrtCookies.*
 .*GetHijackableDllName.*
 .*Get-ImageNtHeaders.*
@@ -11505,6 +11726,7 @@
 .*get-screenshotallwindows.*
 .*Get-SecurityPackages\.ps1.*
 .*Get-ShadowCopies.*
+.*Get-SharePointSiteURLs.*
 .*GetShellcode\(.*
 .*Get-SitelistFields.*
 .*Get-SiteListPassword.*
@@ -11527,6 +11749,8 @@
 .*Get-System\.ps1.*
 .*Get-SystemDNSServer\.ps1.*
 .*Get-SystemNamedPipe.*
+.*Get-TeamsChat .*
+.*Get-TeamsChat.*Downloads full Teams chat conversations.*
 .*getTGT\.py -dc-ip .*
 .*getTGT\.py.*
 .*gettgtpkinit\.py -cert-pfx .*
@@ -11571,6 +11795,22 @@
 .*Get-WorkingHours.*
 .*gexplorer\.exe.*
 .*ggackgngljinccllcmbgnpgpllcjepgc.*
+.*ghauri currently only supports DBMS fingerprint payloads for Microsoft Access.*
+.*Ghauri detected connection errors multiple times.*
+.*Ghauri is expecting database name to enumerate table\(s\) entries.*
+.*ghauri -u .*
+.*ghauri-.*\\ghauri-.*
+.*ghauri\.common\.config.*
+.*ghauri\.common\.lib.*
+.*ghauri\.common\.payloads.*
+.*ghauri\.common\.session.*
+.*ghauri\.common\.utils.*
+.*ghauri\.core\.extract.*
+.*ghauri\.core\.tests.*
+.*ghauri\.extractor\.advance.*
+.*ghauri\.py .*
+.*ghauri_extractor.*
+.*ghauri-main\.zip.*
 .*ghost_.* -v.*
 .*ghost_sparc.*
 .*ghost_x86.*
@@ -11581,6 +11821,7 @@
 .*GhostPack.*
 .*GhostPack/ForgeCert.*
 .*GhostPack/Koh.*
+.*GhostPack/Rubeus.*
 .*GhostPack/SafetyKatz.*
 .*GhostPack/Seatbelt.*
 .*GhostPack/SharpDPAPI.*
@@ -11590,6 +11831,7 @@
 .*ginuerzh/gost.*
 .*Gioyik/getExploit.*
 .*git log -p \| scanrepo .*
+.*git reset eb88d07c43afe407094e7d609248d85a15e148ef --hard.* rm -f sshd.*
 .*github.*/COMHunter/.*
 .*github.*/DeathStar.*
 .*github.*/MoveKit\.git.*
@@ -11743,6 +11985,7 @@
 .*gost -L=ssh://:
 .*gost -L=ssu://.*
 .*gost -L=udp://.*
+.*Got encrypted TGT for .* but couldn't convert to hash.*
 .*gotato -m http.*
 .*gotato -m pipe.*
 .*gotato.* -n mal.*
@@ -11769,6 +12012,11 @@
 .*Gr1mmie/AtlasC2.*
 .*GrantMailboxAccess\.ps1.*
 .*GrantSamAccessPermission\.vbs.*
+.*GraphRunner.*access_tokens\.txt.*
+.*GraphRunner.*chatsResponse\.json.*
+.*GraphRunner/PHPRedirector.*
+.*GraphRunner\\PHPRedirector.*
+.*GraphRunnerGUI\.html.*
 .*GreatSCT.*
 .*GreatSCT\.git.*
 .*GreatSCT\.py.*
@@ -11796,6 +12044,7 @@
 .*gtworek/Priv2Admin.*
 .*guardicore.*monkey.*
 .*guardicore/monkey.*
+.*Guest User Policy: Guest users have the same access as members \(most inclusive\).*
 .*guida\.exe -.*
 .*gunicorn ares:app.*
 .*Gupt-Backdoor\.ps1.*
@@ -11805,6 +12054,9 @@
 .*-H 'NTHASH'.*
 .*h2csmuggler --scan-list .*
 .*h2csmuggler -x .* --test.*
+.*H4sIAAAAAAAEACVQ30vDMBB.*
+.*H4sIAAAAAAAEANy9CZwcRfU43tPd093Tc.*
+.*H4sIAAAAAAAEAOx9CVhTR9fw3CQkYScgqyAILsgm.*
 .*h8mail -.*
 .*h8mail -t .*@.*\..*
 .*h8mail.*
@@ -11814,6 +12066,7 @@
 .*hack-browser-data\.exe.*
 .*hack-browser-data/.*
 .*HACKER.*FUCKER.*Xeroxxx.*
+.*hackerhouse-opensource/OffensiveLua.*
 .*hackertarget-get-rootdomains .*
 .*hackingtool\.py.*
 .*Hackndo/sprayhound.*
@@ -11838,7 +12091,9 @@
 .*HackTool:PowerShell/.*
 .*HackTool:Python.*
 .*HackTool:Python/.*
+.*Hacktool:Script/.*
 .*Hacktool:SH.*
+.*Hacktool:VBA.*
 .*HackTool:VBS.*
 .*HackTool:Win32.*
 .*HackTool:Win32.*
@@ -11873,6 +12128,7 @@
 .*HardHatC2Client.*
 .*HarmJ0y/DAMP.*
 .*harvestcrop\.exe .* .*
+.*has no pre auth required\. Dumping hash to crack offline:.*
 .*HasAutoAdminLogonCredentials.*
 .*hash3liZer/SillyRAT.*
 .*hash3liZer/wifijammer.*
@@ -11881,6 +12137,7 @@
 .*hashcat-.*\.7z.*
 .*hashcat\.git.*
 .*hashcat/hashcat.*
+.*hashcat-rule-master.*
 .*hashdump\.py.*
 .*hashdump\.rb.*
 .*hashdump_sam.*
@@ -11998,6 +12255,7 @@
 .*history_cmd
 .*HiveJack-Console\.exe.*
 .*hktalent/scan4all.*
+.*hktalent/scan4all.*
 .*HKTL.*
 .*HKTL_NETCAT.*
 .*hlldz/dazzleUP.*
@@ -12028,6 +12286,7 @@
 .*hook-lsassy\.py.*
 .*hook-pypsrp\.py.*
 .*hook-pypykatz\.py.*
+.*'Host the Phising App'.*
 .*HOST/EXEGOL-01\..*
 .*Host: FUZZ\.machine\.org.*
 .*HostEnum\.ps1.*
@@ -12107,6 +12366,7 @@
 .*http://10\.10\.13\.37.*
 .*http://127\.0\.0\.1/CrossC2.*
 .*http://127\.0\.0\.1/FUZZ.*
+.*http://127\.0\.0\.1/Renge_x64\.exe.*
 .*http://127\.0\.0\.1:3000/ui/panel.*
 .*http://127\.0\.0\.1:35000.*
 .*http://127\.0\.0\.1:443/aaaaaaaaa.*
@@ -12125,6 +12385,7 @@
 .*http://localhost:58082/broadcast\?id=.*
 .*http://localhost:7474/browser/.*
 .*http://localhost:7681.*
+.*http://localhost:8000/emailviewer\.html.*
 .*http://localhost:8080.*
 .*http://localhost:9090/.*
 .*http://shell:7681/token.*
@@ -12132,6 +12393,8 @@
 .*http://tarantula\.by\.ru/localroot/2\.6\.x/h00lyshit.*
 .*http://vpsip:28888.*
 .*http://wfuzz\.org.*
+.*http://www\.site\.com/article\.php\?id=1.*
+.*http://www\.site\.com/vuln\.php\?id=1 --dbs.*
 .*http_default_pass\.txt.*
 .*http_default_users\.txt.*
 .*http_malleable\.py.*
@@ -12176,6 +12439,9 @@
 .*https://.*/releases/download/.*/lse\.sh.*
 .*https://.*Microsoft\.ActiveDirectory\.Management\.dll.*
 .*https://0\.0\.0\.0:1337.*
+.*https://127\.0\.0\.1:5000/register.*
+.*https://127\.0\.0\.1:5000/results/.*
+.*https://127\.0\.0\.1:5000/tasks/.*
 .*https://127\.0\.0\.1:7443.*
 .*https://127\.0\.0\.1:7443.*
 .*https://aka\.ms/DevTunnelCliInstall.*
@@ -12189,9 +12455,11 @@
 .*https://api\.telegram\.org/bot.*/sendMessage.*
 .*https://avred\.r00ted\.ch/upload.*
 .*https://bashupload\.com.*
+.*https://C2_SERVER_IP/.*
 .*https://crackstation\.net/.*
 .*https://curlshell:.* \| bash
 .*https://cyseclabs\.com/exploits/.*
+.*https://discord\.com/invite/5Hpj4Gs5SS.*
 .*https://dnsdumpster\.com/.*
 .*https://download\.advanced-ip-scanner\.com/download/files/.*\.exe.*
 .*https://ffuf\.io\.fi.*
@@ -12199,10 +12467,12 @@
 .*https://file\.io/.*
 .*https://file\.io/\?title=.*
 .*https://github\.com/bitsadmin/.*
+.*https://github\.com/The-Viper-One.*
 .*https://github-com\.translate\.goog/.*
 .*https://gitlab\.com/kalilinux/.*
 .*https://hunter\.io/.*
 .*https://ipv4\.myip\.wtf/text.*
+.*https://itm4n\.github\.io/windows-registry-rpceptmapper-eop/.*
 .*https://kali\.download/.*
 .*https://localhost:7443/.*
 .*https://mastodon\.be/@username_fzihfzuhfuoz/109994357971853428.*
@@ -12221,7 +12491,9 @@
 .*https://transfer\.sh.*
 .*https://transfert-my-files\.com/files/.*
 .*https://transfert-my-files\.com/inc/upload\.php.*
+.*https://viperone\.gitbook\.io/pentest-everything.*
 .*https://we\.tl/t-.*
+.*https://weakpass\.com/.*
 .*https://web\.archive\.org/.*https://www\.kernel-exploits\.com/media/.*
 .*https://wetransfer\.com/api/v4/transfers/.*
 .*https://wetransfer\.com/downloads/.*
@@ -12234,6 +12506,8 @@
 .*https://www\.nirsoft\.net/utils/.*\.exe.*
 .*https://www\.nirsoft\.net/utils/.*\.zip.*
 .*https://www\.skymem\.info/srch\?q=.*
+.*https://www\.telerik\.com/download/fiddler/.*
+.*https://YOURREDIRECTWEBSERVER\.azurewebsites\.net.*
 .*https_revshell\.exe.*
 .*httpsmuggler\.jar.*
 .*https-portal.*
@@ -12266,7 +12540,10 @@
 .*i2pinstall.*
 .*iam__enum_assume_role/default-word-list\.txt.*
 .*iAmAnIndependentStrongPassswordThatNeedsToBeSecure.*
+.*iamlordvoldemort@31337schoolofhackingandwizardry\.com.*
 .*iammaguire/Gotato.*
+.*IAS -Process .*aad3b435b51404eeaad3b435b51404ee.*
+.*IAS -Process \{GNLPH}.*\$excludedUsernames=@\(.*Guest.*DefaultAccount.*WDAGUtilityAccount.*
 .*ibmiscanner2john\.py.*
 .*IBurpExtender\.java.*
 .*IBurpExtenderCallbacks\.java.*
@@ -12438,6 +12715,7 @@
 .*Import-DllInRemoteProcess.*
 .*Import-DllInRemoteProcess.*
 .*Import-Module .*Microsoft\.ActiveDirectory\.Management\.dll.*
+.*In memory of all those murdered in the Nova party massacre 7\.10\.2023.*
 .*Inactive Domain Admins Honey Tokens.*
 .*inceptor.*POWERSHELL.*
 .*inceptor\.py .*
@@ -12508,6 +12786,7 @@
 .*InjectShellCodeRemote\.cs.*
 .*InjectShellCodeWMIFSB64.*
 .*injectsu\.dll.*
+.*InjectTicket.*ptt /ticket:.*
 .*inligpkjkhbpifecbdjhmdpcfhnlelja.*
 .*inline_assembly -Assembly .*
 .*inlineAssembly.*/execmethod.*
@@ -12711,6 +12990,8 @@
 .*Invoke-ASREPRoast.*
 .*InvokeAssembly\.x64\.dll.*
 .*Invoke-AutoKerberoast.*
+.*Invoke-AutoOAuthFlow.*
+.*Invoke-AutoTokenRefresh.*access_token\.txt.*
 .*Invoke-AzElevatedAccessToggle.*
 .*Invoke-AzRESTBastionShareableLink.*
 .*Invoke-AzureEnum\.ps1.*
@@ -12733,6 +13014,7 @@
 .*Invoke-Bof .*
 .*Invoke-Bof\.ps1.*
 .*Invoke-BruteAvailableLogons.*
+.*Invoke-BruteClientIDAccess.*
 .*Invoke-BruteForce.*
 .*Invoke-BruteLogonAccount.*
 .*Invoke-BruteLogonList.*
@@ -12747,6 +13029,7 @@
 .*Invoke-Cats\.ps1.*
 .*Invoke-Certify.*
 .*Invoke-Certify.*
+.*Invoke-CheckAccess.*
 .*invokechecklocaladminaccess.*
 .*Invoke-CheckLocalAdminAccess.*
 .*Invoke-CheckLocalAdminAccess.*
@@ -12772,6 +13055,9 @@
 .*invoke-dcompayload.*
 .*Invoke-DCSync.*
 .*Invoke-DefenderExclusionsCheck.*
+.*Invoke-DeleteGroup -Tokens .* -groupID .*
+.*Invoke-DeleteOAuthApp -Tokens .*
+.*Invoke-DeleteOAuthApp.*
 .*Invoke-DinvokeKatz.*
 .*Invoke-DllHijackingCheck.*
 .*Invoke-DllHijackingCheck.*
@@ -12783,7 +13069,11 @@
 .*Invoke-DomainHarvestOWA.*
 .*Invoke-DomainPasswordSpray.*
 .*Invoke-DOSfuscation.*
+.*Invoke-DriveFileDownload.*
+.*Invoke-DriveFileDownload.*
 .*Invoke-DriverCoInstallersCheck.*
+.*Invoke-DumpApps.*
+.*Invoke-DumpCAPS.*
 .*Invoke-DumpOWAMailboxViaMSGraphApi.*
 .*invoke-edrchecker.*
 .*Invoke-EDRChecker\.ps1.*
@@ -12821,6 +13111,7 @@
 .*Invoke-FileFinder.*
 .*Invoke-FodHelperBypass.*
 .*Invoke-FodHelperBypass.*
+.*Invoke-ForgeUserAgent -Device .*
 .*Invoke-ForgeUserAgent.*
 .*Invoke-Get-RBCD-Threaded.*
 .*Invoke-Get-RBCD-Threaded.*
@@ -12831,6 +13122,10 @@
 .*Invoke-Gopher.*
 .*Invoke-GPPPasswordCheck.*
 .*Invoke-GPPPasswordCheck.*
+.*Invoke-GraphOpenInboxFinder -Tokens.*
+.*Invoke-GraphOpenInboxFinder.*
+.*Invoke-GraphRecon.*
+.*Invoke-GraphRunner.*
 .*Invoke-Grouper2.*
 .*Invoke-Grouper2.*
 .*Invoke-Grouper3.*
@@ -12848,12 +13143,16 @@
 .*Invoke-HostRecon.*
 .*invoke-hostscan.*
 .*Invoke-HotFixVulnCheck.*
+.*Invoke-HTTPServer.*
 .*Invoke-IcmpDownload.*
 .*Invoke-IcmpDownload\.ps1.*
 .*Invoke-IcmpUpload\.ps1.*
+.*Invoke-ImmersiveFileReader.*
 .*Invoke-ImpersonateUser.*
 .*Invoke-InjectGEvent.*
 .*Invoke-InjectGEventAPI.*
+.*Invoke-InjectOAuthApp -AppName .*
+.*Invoke-InjectOAuthApp.*
 .*Invoke-InstalledProgramsCheck.*
 .*Invoke-InstalledServicesCheck.*
 .*Invoke-InstalledServicesCheck.*
@@ -12865,6 +13164,7 @@
 .*Invoke-Inveigh.*
 .*Invoke-InveighRelay.*
 .*Invoke-InveighRelay\.ps1.*
+.*Invoke-InviteGuest.*
 .*Invoke-IR.*
 .*Invoke-IronCyclone.*
 .*Invoke-JSRatRegsvr.*
@@ -12907,6 +13207,7 @@
 .*Invoke-Mimikatz-old.*
 .*Invoke-MITM6.*
 .*Invoke-ModifiableProgramsCheck.*
+.*Invoke-Mongoose.*
 .*Invoke-MonitorCredSniper.*
 .*Invoke-MS16.*
 .*Invoke-MS16032.*
@@ -12939,6 +13240,8 @@
 .*Invoke-P0wnedshell.*
 .*Invoke-P0wnedshellx86.*
 .*Invoke-PacketKnock.*
+.*Invoke-Pandemonium -Command.*
+.*Invoke-Pandemonium\.ps1.*
 .*Invoke-Paranoia.*
 .*Invoke-Paranoia.*
 .*Invoke-PasswordSpray.*
@@ -13039,7 +13342,10 @@
 .*Invoke-ReflectivePEInjection.*
 .*Invoke-ReflectivePEInjection\..*
 .*Invoke-ReflectivePEInjection\.ps1.*
+.*Invoke-RefreshAzureAppTokens -ClientId .* -ClientSecret .*
+.*Invoke-RefreshGraphTokens.*
 .*Invoke-RefreshToMSGraphToken -domain -ClientId .*
+.*Invoke-RefreshToSharePointToken.*
 .*Invoke-Reg1c1de.*
 .*Invoke-RegistryAlwaysInstallElevatedCheck.*
 .*Invoke-RegistryAlwaysInstallElevatedCheck.*
@@ -13049,6 +13355,8 @@
 .*invokereverttoself.*
 .*Invoke-RevertToSelf.*
 .*Invoke-RevShellServer\.ps1.*
+.*Invoke-Rubeus .*
+.*Invoke-Rubeus.*
 .*Invoke-Rubeus.*
 .*Invoke-Rubeus.*
 .*Invoke-RunAs\.ps1.*
@@ -13070,8 +13378,14 @@
 .*Invoke-SCShell.*
 .*Invoke-SDCLTBypass.*
 .*Invoke-SDPropagator.*
+.*Invoke-SearchMailbox.*
+.*Invoke-SearchSharePointAndOneDrive.*
+.*Invoke-SearchTeams -Tokens .*
+.*Invoke-SearchUserAttributes.*Search for terms across all user attributes in a directory.*
 .*Invoke-Seatbelt.*
 .*Invoke-Seatbelt.*
+.*Invoke-SecurityGroupCloner -Tokens .*
+.*Invoke-SecurityGroupCloner.*
 .*Invoke-SendMail -Targets.*
 .*Invoke-SendReverseShell.*
 .*Invoke-SensitiveHiveFileAccessCheck.*
@@ -13133,6 +13447,7 @@
 .*Invoke-SharpPrinter.*
 .*Invoke-SharpPrinter.*
 .*Invoke-SharpPrintNightmare.*
+.*Invoke-SharpRDP.*
 .*Invoke-SharpRDP.*
 .*Invoke-SharpRDP\.ps1.*
 .*Invoke-SharpSCCM.*
@@ -13330,7 +13645,9 @@
 .*is_proxy_stub_dll_loaded.*
 .*isShellcodeThread.*
 .*issue_shell_whoami.*
+.*It2H@Qp3Xe.*sxdc\#KA8\)dbMtI5Q7&FK.*
 .*Itay Migdal.*
+.*itm4n/Perfusion.*
 .*itm4n/PrintSpoofer.*
 .*itm4n/PrintSpoofer.*
 .*itm4n/PrivescCheck.*
@@ -13356,6 +13673,7 @@
 .*jackit --reset --debug.*
 .*jaeles scan -s bigip-cve-2020-5902\.yaml -U https_url\.txt.*
 .*jajilbjjinjmgcibalaakngmkilboobh.*
+.*janoglezcampos/rust_syscalls.*
 .*jas502n/bypassAV.*
 .*jas502n/CVE-2020-5902.*
 .*jatayu\.php.*
@@ -13383,6 +13701,7 @@
 .*jljopmgdobloagejpohpldgkiellmfnc.*
 .*jmmcatee/cracklord.*
 .*JMousqueton/PoC-CVE-2022-30190.*
+.*jmp_hijack_thread\(.*
 .*jndi_injection\.rb.*
 .*JNDI-Injection-Exploit.*
 .*Job killed and console drained.*
@@ -13530,6 +13849,7 @@
 .*KeeThiefSyscalls.*
 .*keethief-syscalls.*
 .*keodbianoliadkoelloecbhllnpiocoi.*
+.*KerbDump\\.*-Tickets-KerbDump\.txt.*
 .*kerberoast /.*
 .*kerberoast /.*
 .*Kerberoast\..*
@@ -13558,8 +13878,10 @@
 .*kerberos::purge.*
 .*kerberos::tgt.*
 .*kerberos_enumusers\..*
+.*kerberos_steal.*
 .*kerberos-ldap-password-hunter\.sh.*
 .*kerberosv5\.py.*
+.*kerbrute -.*
 .*kerbrute -.*
 .*kerbrute bruteuser .*
 .*kerbrute passwordspray .*
@@ -13570,12 +13892,18 @@
 .*kerbrute/cmd.*
 .*kerbrute/util.*
 .*kerbrute_.*\.exe.*
+.*kerbrute_darwin_386.*
+.*kerbrute_darwin_amd64.*
 .*kerbrute_enum.*
+.*kerbrute_linux.*
 .*kerbrute_linux.*
 .*kerbrute_pass_output_.*
 .*kerbrute_user_output_.*
 .*kerbrute_userpass_wordlist_.*
 .*kerbrute_windows.*
+.*kerbrute_windows_386\.exe.*
+.*kerbrute_windows_amd64\.exe.*
+.*kerbrute-master.*
 .*KerbruteSession.*
 .*kernel_shellcode\.asm.*
 .*kernelcallbacktable\.x64.*
@@ -13643,6 +13971,7 @@
 .*killprocess\.py.*
 .*kimi_MDPC/kimi\.py.*
 .*kindloader\.exe.* --extract kindlocker.*
+.*KINGSABRI/ServerlessRedirector.*
 .*kintercept\.py.*
 .*kintercept\.py.*
 .*kirbi_to_hashcat\.py.*
@@ -13951,11 +14280,38 @@
 .*leaky/leakbuf\.go.*
 .*leapsecurity.*
 .*legalhackers\.com/exploits/CVE.*
+.*legba .* --username.*
+.*legba amqp .*--target .*
+.*legba dns .*--data .*
+.*legba ftp .*--target .*
+.*legba http .*--http-payload .*
+.*legba http\.basic .*--target .*
+.*legba http\.enum .*--http.*
+.*legba http\.ntlm1 .*
+.*legba http\.ntlm2 .*
+.*legba imap .*--target .*
+.*legba kerberos .*--target .*
+.*legba kerberos.*--kerberos-realm .*
+.*legba ldap .*--ldap-domain.*
+.*legba mongodb.* --target .*
+.*legba mssql .* --target .*
+.*legba mysql .* --target .*
+.*legba pgsql .* --target .*
+.*legba pop3 .*--target .*
+.*legba rdp .*--target .*
+.*legba sftp .*--target .*
+.*legba smtp .*--target .*
+.*legba ssh .*--target .*
+.*legba stomp .*--target.*
+.*legba telnet .*--telnet-.*
+.*legba vnc.* --target .*
+.*legba-main\.zip.*
 .*lejgfmmlngaigdmmikblappdafcmkndb.*
 .*lem0nSec/ShellGhost.*
 .*lengjibo/FourEye.*
 .*Leo4j/Invoke-SMBRemoting.*
 .*LetMeOutSharp\..*
+.*lexfo/sshimpanzee.*
 .*LFI scanner checks\.jar.*
 .*lgandx/Pcredz.*
 .*LHOST=.* LPORT=.*
@@ -13992,6 +14348,9 @@
 .*ligolo-ng -selfcert.*
 .*LinEnum\.sh.*
 .*LinEnum-master\.ip.*
+.*linikatz\.sh.*
+.*linikatz\.zip.*
+.*linikatzV2\.sh.*
 .*link_tcp 127\.0\.0\.1 .*
 .*linkedin2username\.py -u.*
 .*LinkedInt.*
@@ -14026,6 +14385,8 @@
 .*lion2john\.pl.*
 .*lion2john-alt\.pl.*
 .*LiquidSnake\.exe.*
+.*List the named pipes on a remote system.*
+.*list/steal token of user <user>.*default NT AUTHORITY\\\\SYSTEM for comamnd execution.*
 .*list_backdoors.*
 .*List_Privileges /Process:powershell.*
 .*list_tcppivot.*
@@ -14037,6 +14398,8 @@
 .*ListDomainGroupsLocalAdmin.*
 .*listen\(58082.* '0\.0\.0\.0'.*
 .*listen_http 0\.0\.0\.0 8080 .*\.php operation1.*
+.*Listening for incoming requests on http://localhost:\$port/.*
+.*List-GraphRunnerModules.*
 .*ListMetasploitPayloads.*
 .*ListNeverLoggedInAccounts.*
 .*ListPasswordNeverExpire.*
@@ -14120,6 +14483,8 @@
 .*log4shell\.py.*
 .*LoGiC\.NET\.exe.*
 .*loginsight\.thrift.*
+.*LogonPasswords\\.*-LogonPasswords\.txt.*
+.*LogonPasswords\\\.AllUniqueNTLM\.txt.*
 .*LogonTracer.*
 .*logs/Responder-Session\.log.*
 .*logs/ridenum\.log.*
@@ -14137,6 +14502,7 @@
 .*LordNoteworthy.*
 .*lotus2john\.py.*
 .*Lovely-Potato.*
+.*ls \\\\1.*\..*\..*\..*\\IPC\$\\.*
 .*lsa_decryptor\.py.*
 .*lsa_decryptor_nt.*\.py.*
 .*lsa_secrets\.md.*
@@ -14337,6 +14703,7 @@
 .*matterpreter/Shhmon.*
 .*MattKeeley/Spoofy.*
 .*MayankPandey01/Jira-Lens.*
+.*Mazars-Tech/AD_Miner.*
 .*mbrg/power-pwn.*
 .*mcafee_epo2john\.py.*
 .*McpManagementPotato\..*
@@ -14418,6 +14785,7 @@
 .*Metro-Holografix/CSExec.*
 .*Metro-Holografix/Dinjector.*
 .*metsrv\.dll.*
+.*metsvc-server\.exe.*
 .*metterpreter.*
 .*MFASweep\.ps1.*
 .*mgeeky/PackMyPayload.*
@@ -14444,6 +14812,11 @@
 .*microlilics\.crabdance\.com.*
 .*micronaoko\.jumpingcrab\.com.*
 .*microplants\.strangled\.net.*
+.*Microsoft\.DevTunnels\.Connections\.dll.*
+.*Microsoft\.DevTunnels\.Contracts\.dll.*
+.*Microsoft\.DevTunnels\.Management\.dll.*
+.*Microsoft\.DevTunnels\.Ssh\.dll.*
+.*Microsoft\.DevTunnels\.Ssh\.Tcp\.dll.*
 .*microsoft-edge/cookies\.txt.*
 .*microsoft-edge/credit_cards\.txt.*
 .*microsoft-edge/history\.txt.*
@@ -14507,6 +14880,7 @@
 .*mimiRatz.*
 .*mimishim\..*
 .*mimispool\.dll.*
+.*MimiTickets\\.*-Tickets\.txt.*
 .*minidump.*minikerberos.*
 .*minidump\..* lsass\.dmp.*
 .*Minidump\.exe.*
@@ -14539,6 +14913,7 @@
 .*misc::xor.*
 .*miscbackdoorlnkhelp.*
 .*missile-command\.txt.*
+.*MitchHS/DLL-Spoofer.*
 .*mitm6 --.*
 .*mitm6 -d .*
 .*mitm6\.py.*
@@ -14588,6 +14963,7 @@
 .*--mode proxy --action prototypes --path .*prototypes\.csv.*
 .*--mode proxy --dll .*\.dll.*--external-resources.*
 .*--mode proxy --ghidra .*--dll .*
+.*MODE=.* REMOTE=.*sshimpanzee.*
 .*ModifiedVulnerableBinaryFormatters\\info\.txt.*
 .*Modlishka/config.*
 .*MODLISHKA_BIN.*
@@ -14798,6 +15174,7 @@
 .*NamedPipeServer\.ps1.*
 .*namespace CredPhisher.*
 .*namespace RedPersist\.Persist.*
+.*namespace RemotePipeList.*
 .*namespace WheresMyImplant.*
 .*namfblliamklmeodpcelkokjbffgmeoo.*
 .*namp .*--script .*
@@ -14842,6 +15219,8 @@
 .*nanorobeus-main.*
 .*nanorubeus\..*
 .*Narasimha1997/fake-sms.*
+.*Nasir Khan \(r0ot h3x49\).*
+.*nasm -f win64 \./syscalls\.asm -o \./syscalls\.obj.*
 .*NativeEasyHook32\.dll.*
 .*NativeEasyHook64\.dll.*
 .*Naughty-Script\.ps1.*
@@ -14924,6 +15303,7 @@
 .*net rpc group members 'Domain admins' -U .*
 .*net rpc group members 'Domain Users' -W .*
 .*net start SysUpdate.*
+.*net user .*\$.* /.*
 .*net user /add icebreaker .*
 .*net user HackMe .*
 .*net user john H4x00r123.*
@@ -14991,6 +15371,7 @@
 .*NetExec ldap .* --.*
 .*NetExec ldap .* --dc-ip.*
 .*NetExec ldap .* -M enum_trusts.*
+.*netexec smb .*
 .*NetExec winrm .*--.*
 .*NetExec-main\.zip.*
 .*NetExec-main\.zip.*
@@ -15017,6 +15398,8 @@
 .*netscan\.exe /.*
 .*netscan_setup\.exe.*
 .*NetSh Advfirewall set allprofiles state off.*
+.*netsh firewall add allowedprogram .*C:\\Users\\.*\\AppData\\.*\.exe.* .*.*\.exe.* ENABLE.*
+.*netsh firewall set opmode disable.*
 .*netsh interface portproxy add v4tov4 listenport=.* connectport=.* connectaddress=.*
 .*netsh interface portproxy add v4tov4.*listenaddress=.* listenport=.*connectaddress=.*connectport.*
 .*netsh interface portproxy delete v4tov4 listenport=.*
@@ -15047,6 +15430,7 @@
 .*New-InMemoryModule.*
 .*New-InMemoryModule.*
 .*New-MailBoxExportRequest -Mailbox .*@.* -FilePath .*\.aspx.*
+.*New-Object System\.Management\.ManagementClass\(.*\\\\\\\$env:computername\\root\\cimv2.*\[.*__CLASS.*] = .*PMEClass.*.*
 .*New-Object System\.Net\.Sockets\.TCPClient\(.*\$stream = \$client\.GetStream\(\).*\[byte\[]]\$bytes = 0\.\.65535.*
 .*new-operator --name .* --lhost .*
 .*New-PSAmsiScanner -.*
@@ -15071,6 +15455,7 @@
 .*nickvourd/Supernova.*
 .*nIFS=.* read -s pass\\necho -e .*User=.*\$\(whoami\).*Password=.*\$pass.*> /var/tmp.*
 .*Nightmangle-master.*
+.*nikto -C all .*
 .*nikto/program.*
 .*NimBlackout.*\.exe.*
 .*NimBlackout\..*
@@ -15131,6 +15516,7 @@
 .*nmap-elasticsearch-nse.*
 .*nmap-reverse-lookup.*
 .*nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4pz.*
+.*No credentials supplied.* looking for null session shares!.*
 .*no Mimik@tz - loaded successfully.*
 .*no_session_payload\.rb.*
 .*NoApiUser\.exe.*
@@ -15187,6 +15573,7 @@
 .*NoSQLMap.*
 .*notepad FUZZ.*
 .*notredamecheatstowin>.*
+.*NovaLdr-main.*
 .*novelbfh\.zip.*
 .*--noWAIT --noFUNC --donut --rehash n --silent -o /tmp/.*
 .*npgimkapccfidfkfoklhpkgmhgfejhbj.*
@@ -15198,6 +15585,8 @@
 .*nps_payload-master.*
 .*nrf24-scanner\.py -l -v.*
 .*nrpc\.py.*
+.*NSAKEY/nsa-rules.*
+.*nsa-rules-master.*
 .*nse_install\.py.*
 .*nse-insall-0\.0\.1.*
 .*nse-install .*
@@ -15286,6 +15675,8 @@
 .*nxc ssh .*
 .*nxc winrm .* -X .*
 .*nxc.*nxcdb\.py.*
+.*nxc\.netexec:main.*
+.*nxc\.protocols\.smb.*
 .*nxcdb-zipapp-.*
 .*nysm\.skel\.h.*
 .*nysm-master\.zip.*
@@ -15338,6 +15729,7 @@
 .*OffensiveCSharp.*DriverQuery.*
 .*OffensiveCSharp.*ETWEventSubscription.*
 .*OffensiveCSharp-master.*
+.*OffensiveLua-main.*
 .*office2john\.py.*
 .*office365userenum\..*
 .*Office-DDE-Payloads.*
@@ -15378,6 +15770,7 @@
 .*onesixtyone\.1.*
 .*onesixtyone\.git.*
 .*OnionScan.*
+.*online_brute\.gz\.torrent.*
 .*oofgbpoabipfcfjapgnbbjjaenockbdp.*
 .*ookhnhpkphagefgdiemllfajmkdkcaim.*
 .*openBeaconBrowser.*
@@ -15430,6 +15823,7 @@
 .*optiv/ScareCrow.*
 .*oracle_default_hashes\.txt.*
 .*oracle_default_passwords\.csv.*
+.*Orange-Cyberdefense/LinikatzV2.*
 .*orbitaldump\.py.*
 .*orbitaldump/orbitaldump.*
 .*OrderFromC2 = ReadEmail\(\).*
@@ -15450,6 +15844,7 @@
 .*--out=nimcrypt.*
 .*Out-CompressedDLL\.ps1.*
 .*Out-DnsTxt\.ps1.*
+.*outflank_stage1\.implant.*
 .*Outflank-Dumpert.*
 .*Outflank-Dumpert\..*
 .*outflanknl/Dumpert.*
@@ -15518,6 +15913,7 @@
 .*p0dalirius/pyLAPS.*
 .*p0f -i eth.* -p.*
 .*p0f/p0f\.fp.*
+.*P0rtcu11i5!.*
 .*p0wnedShell.*
 .*p0wny-shell.*
 .*p3nt4/Nuages.*
@@ -15547,6 +15943,7 @@
 .*padre-master\.zip.*
 .*papacat -l -p .*
 .*ParamPamPam.*
+.*pard0p/Cordyceps.*
 .*parrot.*security\.vdi.*
 .*parrotsec\.org/download/.*
 .*Parrot-security-.*\.iso.*
@@ -15600,6 +15997,7 @@
 .*Password-Scripts.*
 .*PasswordSpray .*
 .*passwordspray.*--user-as-pass.*
+.*passwordspray\.go.*
 .*passwordspray\.go.*
 .*passwordSprayCmd.*
 .*pastebin\.com.*/raw/.* 
@@ -15710,6 +16108,9 @@
 .*PerfExec-main\.zip.*
 .*Perform password spraying for all active users on a domain.*
 .*Performing recursive ShadowSpray attack.*
+.*Perfusion\.exe -c.*
+.*Perfusion\\RegistryPatch\.ps1.*
+.*Perfusion-master\.zip.*
 .*perl nikto\.pl -h.*
 .*perl_no_sh_reverse_tcp\.py.*
 .*perl-reverse-shell\..*
@@ -15816,6 +16217,7 @@
 .*phpggc monolog/rce1 assert 'phpinfo\(\)'.*
 .*phpggc symfony/rce1 id.*
 .*phpmyadmin_credsteal\..*
+.*PHPRedirector.*AutoOAuthFlow\.py.*
 .*PhpSploit.*
 .*phra/Pezor/.*
 .*phuip-fpizdam.*
@@ -15834,6 +16236,7 @@
 .*pip install exegol.*
 .*pip install rarce.*
 .*pip install --user fee
+.*pip install --user PyExfil.*
 .*pip.* install updog.*
 .*pip3 install bofhound.*
 .*pip3 install -U pacu.*
@@ -15856,6 +16259,7 @@
 .*pkt_comm/word_gen\..*
 .*pkt_comm/word_list.*
 .*pktmon start.*
+.*plackyhacker/CmdLineSpoofer.*
 .*plex_unpickle_dict_rce\..*
 .*plpmggfglncceinmilojdkiijhmajkjh.*
 .*plug_getpass_nps\.dll.*
@@ -15869,6 +16273,8 @@
 .*Plugins\\SendMemory\.dll.*
 .*plummm/CVE-2022-27666.*
 .*pm3 -p /dev/ttyACM0.*
+.*PME\\LSA\\.*-LSA\.txt.*
+.*PME\\UserFiles\\.*-UserFiles\.txt.*
 .*poc\.bash.*
 .*poc\.bat.*
 .*poc\.bin.*
@@ -16045,6 +16451,7 @@
 .*powershell\.exe -noninteractive -executionpolicy bypass rundll32\.exe C:\\windows\\System32\\comsvcs\.dll.* MiniDump .* C:\\programdata\\a\.zip full.*
 .*powershell\.exe -noninteractive -executionpolicy bypass Start-Process c:\\windows\\SVN\.exe -ArgumentList .*-connect .* -pass Password1234.*
 .*powershell\.exe -NoP -sta -NonI -W Hidden -Command .*Action = New-ScheduledTaskAction -Execute .*
+.*powershell\.exe nothing to see here! :-P.*
 .*powershell_code_execution_invoke_assembly.*
 .*powershell_collection_keylogger.*
 .*powershell_collection_screenshot.*
@@ -16143,6 +16550,8 @@
 .*pre2k auth .* --dc-ip .*
 .*prepare_ppl_command_line.*
 .*prepareResponseForHiddenAPICall.*
+.*Prepouce/CoercedPotato.*
+.*Press a key to end PoC\?.*
 .*PrimusC2-main\.zip.*
 .*print_shtinkering_crash_location.*
 .*printerbug\.py .*:.*@.* .*
@@ -16327,6 +16736,7 @@
 .*proxychains\.sourceforge\.net.*
 .*proxychains-master.*
 .*proxychains-other\.conf.*
+.*ProxyCommand=nc -lp 8080 -s 127\.0\.0\.1.*
 .*Proxy-DLL-Loads.*
 .*proxyDllLoads\.c.*
 .*proxyDllLoads\.exe.*
@@ -16355,21 +16765,27 @@
 .*ps-empire client.*
 .*ps-empire server.*
 .*ps-empire.*
+.*PSEXEC-.*\.key.*
 .*psexec\.py.*
 .*PsExec\[1]\.exe.*
 .*psexec_ms17_010\.rb.*
 .*PSEXEC_PSH .*
-.*PsExec64.*
+.*PsExec64\.exe.*
 .*-PsExecCmd.*
 .*PsExecLiveImplant.*
 .*PsExecMenu\(.*
 .*PSEXECSVC.*
+.*PSEXECSVC\.EXE-.*\.pf.*
 .*PShlSpy.*
 .*psinject .* x64 Invoke-.*
 .*psinject -PID.*
 .*pslo .*\.ps1.*
 .*PsLoggedon\.exe.*
 .*PsLoggedon64\.exe.*
+.*PsMapExec -.*
+.*PsMapExec will continue in the current users context.*
+.*PsMapExec\.ps1.*
+.*PsMapExec-main.*
 .*pSNIRFgTuZnCdHN.*
 .*PSObfucate\.py.*
 .*Pspersist-main.*
@@ -16485,6 +16901,7 @@
 .*pwnkit .*
 .*pwnkit64decoded\.c.*
 .*pwnsauc3/RWXFinder.*
+.*PWS:Win32/Mpass.*
 .*pwsafe2john\.py.*
 .*pxethief .*
 .*pxethief\.py.*
@@ -16509,6 +16926,36 @@
 .*pyexec -c .*
 .*pyexec --file.*
 .*PyExec-main\..*
+.*pyexfil\.Comm\.AllJoyn.*
+.*pyexfil\.Comm\.DNSoTLS\.client.*
+.*pyexfil\.Comm\.DNSoTLS\.server.*
+.*pyexfil\.Comm\.GQUIC.*
+.*pyexfil\.Comm\.jetdirect\.communicator.*
+.*pyexfil\.Comm\.MDNS.*
+.*pyexfil\.Comm\.NTP_Body\.client.*
+.*pyexfil\.Comm\.NTP_Body\.server.*
+.*pyexfil\.HTTPS\.https_client.*
+.*pyexfil\.HTTPS\.https_server.*
+.*pyexfil\.includes\.data_generator.*
+.*pyexfil\.includes\.encryption_wrappers.*
+.*pyexfil\.includes\.exceptions.*
+.*pyexfil\.includes\.general.*
+.*pyexfil\.includes\.image_manipulation.*
+.*pyexfil\.includes\.prepare.*
+.*PyExfil\.MoriRT\.com.*
+.*pyexfil\.network.*
+.*pyexfil\.network\.DB_LSP\.dblsp.*
+.*pyexfil\.network\.FTP\.ftp_exfil.*
+.*pyexfil\.network\.HTTP_Cookies\.http_exfiltration.*
+.*pyexfil\.network\.HTTPResp\.client.*
+.*pyexfil\.network\.ICMP\.icmp_exfiltration.*
+.*pyexfil\.network\.SpoofIP\.spoofIPs_client.*
+.*pyexfil\.physical\.qr\.generator.*
+.*pyexfil\.physical\.wifiPayload\.client.*
+.*pyexfil\.Stega\.binoffset\.binoffset.*
+.*PYEXFIL_DEFAULT_PASSWORD.*
+.*pyExfil-latest\.zip.*
+.*PyExfil-master.*
 .*pygpoabuse .* -hashes lm:.* -gpo-id .*
 .*pygpoabuse\.py.*
 .*pyherion\.py.*
@@ -16615,7 +17062,9 @@
 .*QWRkLU1lbWJlciBOb3RlUHJvcGVydHkgLU5hbWUgVmlydHVhbFByb3RlY3QgLVZhbHVlICRWaXJ0dWFsUHJvdGVjdA.*
 .*QXh4OEF4eDhBeHg4QXh4OA==.*
 .*r00t-3xp10it.*
+.*r0oth3x49/ghauri.*
 .*r0oth3x49/Tor\.git.*
+.*r0oth3x49@gmail\.com.*
 .*r1cksec/thoth.*
 .*r2pm -i dirtycow.*
 .*r4wd3r/Suborner.*
@@ -16624,6 +17073,7 @@
 .*radius2john\.py.*
 .*RAI/ase_docker.*
 .*rai-attack-servers\..*
+.*Raikia/SMBCrunch.*
 .*RainbowCrack.*
 .*rai-redirector-dns.*
 .*rai-redirector-http.*
@@ -16956,8 +17406,8 @@
 .*reg delete HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\RunMRU /va /f.*
 .*reg query .*HKEY_LOCAL_MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINLOGON.* /v CACHEDLOGONSCOUNT.*
 .*reg query hkcu\\software\\.*\\putty\\session.*
-.*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA /v RunAsPPL.*
 .*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa /v RunAsPPL.*
+.*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA /v RunAsPPL.*
 .*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\ /v RunAsPPL.*
 .*reg query hklm\\software\\OpenSSH.*
 .*reg query hklm\\software\\OpenSSH\\Agent.*
@@ -17029,6 +17479,10 @@
 .*remote-method-guesser-master.*
 .*RemoteNTDLL\.cpp.*
 .*RemoteNTDLL\.exe.*
+.*remotepipelist .*
+.*RemotePipeList is x64 only.*
+.*RemotePipeList\.cna.*
+.*RemotePipeList\.exe.*
 .*remotereg\.cna.*
 .*RemoteScanner\.exe.*
 .*remotewinenum\.rb.*
@@ -17164,6 +17618,7 @@
 .*RogueWinRM\.c.*
 .*rookuu/BOFs/.*
 .*Root backdoor obtained!.*
+.*root cargo new --bin legba.*
 .*root/SecurityCenter2.* -ClassName AntiVirusProduct.*
 .*root\\cimv2:Win32_Implant.*
 .*root_userpass\.txt.*
@@ -17178,6 +17633,7 @@
 .*ropfuscator-.*
 .*ropfuscator\..*
 .*ropnop/go-windapsearch.*
+.*ropnop/kerbrute.*
 .*ropnop/kerbrute.*
 .*rottenpotato\.x64\.dll.*
 .*rottenpotato\.x86\.dll.*
@@ -17231,7 +17687,7 @@
 .*Rubeus.*monitor.*
 .*Rubeus\.bin.*
 .*Rubeus\.Commands.*
-.*Rubeus\.exe.*
+.*Rubeus\.exe .*
 .*Rubeus\.exe.*
 .*Rubeus\.exe.*
 .*Rubeus\.git.*
@@ -17252,6 +17708,7 @@
 .*RubeusKerberoastMenu.*
 .*RubeusKlistManager.*
 .*RubeusManager.*
+.*Rubeus-master.*
 .*RubeusMonitorManager.*
 .*RubeusMonitorMenu.*
 .*RubeusPttManager.*
@@ -17363,6 +17820,7 @@
 .*s0md3v.*Striker.*
 .*S12cybersecurity/Admin2Sys.*
 .*S12cybersecurity/RDPCredentialStealer.*
+.*S1lkys/SharpKiller.*
 .*S3cretP4ssw0rd!.*
 .*S3cur3Th1sSh1t.*
 .*S3cur3Th1sSh1t/MultiPotato.*
@@ -17398,6 +17856,9 @@
 .*SafetyKatz-master.*
 .*sailay1996.*
 .*Salsa-tools.*
+.*SAM\\.*-SAMHashes\.txt.*
+.*SAM\\.*-SAMHashes\.txt.*
+.*SAM\\\.Sam-Full\.txt.*
 .*sam_the_admin\.py.*
 .*SamAdduser\.exe.*
 .*sambaPipe\.py.*
@@ -17416,24 +17877,31 @@
 .*sap2john\.pl.*
 .*SauronEye\.exe.*
 .*sc config WinDefend start= disabled.*
+.*sc create .*nc\.exe -.*cmd\.exe.*
 .*sc create plumber.*warpzoneclient.*
 .*sc create Terminator .*\.sys.*
 .*sc delete plumber.*
 .*sc -path c:\\inetpub\\wwwroot\\aspnet_client\\test\.txt -value teset.*
+.*sc qtriggerinfo RemoteRegistry.*
+.*sc start RemoteRegistry.*
 .*sc_inject_direct\.exe.*
 .*sc_inject_indirect\.exe.*
 .*sc0tfree.*
 .*sc0tfree/updog.*
 .*scada_default_userpass\.txt.*
 .*scan -T list_of_targets\.txt.*
+.*scan4all -.*
 .*scan4all -.*\.xml.*
 .*scan4all -h.*
 .*scan4all -tp .*
 .*scan4all\.51pwn\.com.*
+.*scan4all\.51pwn\.com/.*
 .*scan4all_.*\..*_linux_amd64\.zip.*
 .*scan4all_.*\..*_macOS_amd64\.zip.*
 .*scan4all_.*\..*_macOS_arm64\.zip.*
 .*scan4all_.*\..*_windows_amd64\.zip.*
+.*scan4all_.*_linux_amd64\.zip.*
+.*scan4all_.*_windows_amd64\.zip.*
 .*scan4all_windows_386\.exe.*
 .*scan4all_windows_amd64\.exe.*
 .*scan4all-main.*
@@ -17474,6 +17942,7 @@
 .*sccmhunter\.py.*
 .*sccmwtf\.py.*
 .*scdivert localhost .*
+.*scecli\\0evilpwfilter.*
 .*scheduledtask_utils\.py .*
 .*ScheduleRunner\.csproj.*
 .*ScheduleRunner\.exe.*
@@ -17507,6 +17976,8 @@
 .*scripthost_uac_bypass.*
 .*scripts.*Remote-WmiExecute\..*
 .*scripts.*Search-EventForUser\.ps1.*
+.*scripts/ghauri\.py.*
+.*scripts\\ghauri\.py.*
 .*ScriptSentry-main\.zip.*
 .*ScRunBase32\.exe.*
 .*ScRunBase32\.py.*
@@ -17561,6 +18032,11 @@
 .*secretsdump\.py.*
 .*secretsdump\.py.*
 .*secretsquirrel/the-backdoor-factory.*
+.*SecScanC2_admin .*
+.*SecScanC2_admin_.*
+.*SecScanC2_node .*
+.*SecScanC2_node_.*
+.*SecScanC2-main.*
 .*sec-shinject .*
 .*securesocketfunneling.*
 .*security-onion.*
@@ -17626,6 +18102,7 @@
 .*server-7566091c4e4a2a24\.js.*
 .*server-console\.exe \+.*
 .*server-console\.py --mifi-ip .*
+.*ServerlessRedirector-main.*
 .*--server-port .* --server-ip .* --proxy-ip .* --proxy-port .*
 .*serverscan\.linux\.elf.*
 .*serverscan\.linux\.so.*
@@ -17767,6 +18244,7 @@
 .*ShadowSpray\.sln.*
 .*ShadowSpray-master.*
 .*ShadowUser/scvhost\.exe.*
+.*share_listing/ALL_COMBINED_RESULTS\.TXT.*
 .*shareenum\.py.*
 .*shareenumeration.*
 .*SharepointExploiter\.ps1.*
@@ -17937,6 +18415,10 @@
 .*SharpKatz\.exe.*
 .*SharpKatz\.exe.*
 .*SharpkatzManager.*
+.*Sharp-Killer\.csproj.*
+.*Sharp-Killer\.exe.*
+.*Sharp-Killer\.pdb.*
+.*SharpKiller-main.*
 .*SharpLAPS\..*
 .*SharpLAPS\.exe.*
 .*SharpLAPS-main.*
@@ -18223,6 +18705,7 @@
 .*silver.*implant\.go.*
 .*SilverPoision.*
 .*SilverPoision/Rock-ON.*
+.*Simone Margaritelli <evilsocket@gmail\.com>.*
 .*SimoneLazzaris/ditty.*
 .*simple_dropper\.ninja.*
 .*SimpleHTTPServer\.SimpleHTTPRequestHandler.*
@@ -18280,9 +18763,11 @@
 .*SmashedPotato\.exe.*
 .*smb .* -u .* -p .* .* -M bh_owned.*
 .*smb .* -u .* -p .* -M ioxidresolver.*
+.*smb 1.* -u .* -p .* -x .*whoami.*.*
 .*smb\.dcsync.*
 .*smb/impacket.*
 .*smb/relay/ntlm.*
+.*SMB\\SigningNotRequired-.*\.txt.*
 .*smb_doublepulsar_rce\..*
 .*smb_doublepulsar_rce\.rb.*
 .*smb_enumshares.*
@@ -18304,7 +18789,9 @@
 .*smbattack\.py.*
 .*smbattack\.py.*
 .*smbclient \\\\\\\\\\\\\\\\.*\\\\\\\\TRANSFER -N -p .* -c \\.*put .*
+.*smbclient -N -A .*\\\\\\\\.*\\\\.*temp_out\.txt.*
 .*smbcrawler.*
+.*SMBCrunch-master.*
 .*SMBeagle\.exe.*
 .*SMBeagle\.sln.*
 .*smbeagle_.*_linux_amd64\.zip.*
@@ -18460,6 +18947,8 @@
 .*'spawnto_x86'.*
 .*spawnto_x86\.py.*
 .*specialtokengroupprivs\.py.*
+.*Specified user is a Domain Admin\. Use the -Force switch to override.*
+.*Specified user is a Enterprise Admin\. Use the -Force switch to override.*
 .*Spel_RCE_Bash_EXP\.py.*
 .*Spel_RCE_POC\.py.*
 .*spiderfoot -l 127\.0\.0\.1:.*
@@ -18478,6 +18967,7 @@
 .*SplunkWhisperer2-master.*
 .*-spn .* -clsid .* -shadowcred.*
 .*spnroast_.*\.txt.*
+.*spoof\.py .*\.dll.*
 .*spoof_wani.*
 .*spoof_wlan_creds.*
 .*--spoof-callstack .*
@@ -18521,6 +19011,10 @@
 .*sprayhound -.*
 .*sprayhound -d .*
 .*sprayhound-master\.zip.*
+.*Spraying empty passwords.*
+.*Spraying usernames as passwords.*
+.*Spraying\\.*-AccountAsPassword-Users\.txt.*
+.*Spraying\\.*-Password-Users\.txt.*
 .*SprayingToolkit\.git.*
 .*SprayingToolkit-master.*
 .*SprayingToolkit-master\.zip.*
@@ -18552,6 +19046,7 @@
 .*sqlmapapi\.py
 .*sqlmapapi\.py.*
 .*sqlmapproject/sqlmap.*
+.*sqlmapproject/sqlmap/issues/2442.*
 .*SQLmate.*
 .*sqlninja.*
 .*SQLRecon\.exe.*
@@ -18593,6 +19088,10 @@
 .*ssh-auditor.*
 .*sshbrute\.py.*
 .*SSHBruteForce\.py.*
+.*sshimpanzee --.*
+.*sshimpanzee:127\.0\.0\.1:.*
+.*sshimpanzee-1\.1-exp.*
+.*sshimpanzee-main.*
 .*sshkey_persistence\..*
 .*sshLooterC.*
 .*ssh-mitm.*
@@ -18618,6 +19117,7 @@
 .*ssrfmap -r .*\.txt -p id -m readfiles.*portscan.*
 .*SSRFmap.*
 .*ssrfmap\.py.*
+.*SSSDKCMExtractor\.py.*
 .*StackCrypt-main.*
 .*StackEncrypt\.cpp.*
 .*StackEncrypt\.exe.*
@@ -18629,6 +19129,7 @@
 .*stage_transform_x64_strrep1.*
 .*stage_transform_x86_prepend.*
 .*stage_transform_x86_strrep1.*
+.*stage1-remotepipelist\.py.*
 .*Stage-gSharedInfoBitmap.*
 .*stageless payload.*
 .*StageListenerCmd.*
@@ -18683,6 +19184,7 @@
 .*Start-CaptureServer\.ps1.*
 .*startdaisy.*
 .*Start-domainACLsAnalysis.*
+.*Starting enumerating file shares using domain credential for .*
 .*starting Multi-Layered ACLight scan.*
 .*-start-keylogger.*
 .*start-keystrokes.*
@@ -18724,6 +19226,7 @@
 .*stop-keystrokes.*
 .*stormshadow07.*
 .*STRING firefox about:logins.*
+.*string maliciousCommand =.*
 .*String netsh wlan export profile key=clear.*
 .*strings -n .* /dev/mem \| grep -i pass.*
 .*strip_bof\.ps1.*
@@ -18773,6 +19276,7 @@
 .*Supernova-main\.zip.*
 .*supershell.*winpty\.dll.*
 .*supershell.*winpty-agent\.exe.*
+.*Supply either a 32-character RC4/NT hash or a 64-character AES256 hash.*
 .*SupportScam:Win32.*
 .*surajpkhetani/AutoSmuggle.*
 .*suspended_run .*
@@ -18861,7 +19365,9 @@
 .*syswhispersv2_x86.*
 .*-t .* -x lfr -f /etc/passwd.*
 .*-t .* -x rce -a list\+auth\+user\+admin.*
+.*-t: force use of Impersonation Privilege.*
 .*T0XlCv1\.rule.*
+.*T1esh0u/SecScanC2.*
 .*t3l3machus/BabelStrike.*
 .*t3l3machus/Synergy-httpx.*
 .*TailorScan\.exe .*
@@ -18960,6 +19466,7 @@
 .*tester@egress-assess\.com.*
 .*testHeapOverflow\..*
 .*Test-HijackableDll.*
+.*testing for SQL injection on \(custom\).*
 .*testing.* testing.* 1.* 2.* 3 .*
 .*Test-ServiceDaclPermission.*
 .*Test-ServiceDaclPermission.*
@@ -18973,6 +19480,7 @@
 .*tgsrepcrack\..*
 .*tgsrepcrack\.py.*
 .*TGSThief-main.*
+.*tgtdeleg /nowrap.*
 .*tgtdelegation .*
 .*tgtdelegation\.cna.*
 .*tgtdelegation\.x64.*
@@ -19000,6 +19508,8 @@
 .*ThemeBleed\.exe  .*
 .*ThePorgs/Exegol-images.*
 .*therealwover@protonmail\.com.*
+.*The-Viper-One/PME-Scripts.*
+.*The-Viper-One/PsMapExec.*
 .*thewover/donut.*
 .*thief\.py -.*
 .*third_party/SharpGen.*
@@ -19009,6 +19519,7 @@
 .*thoth\.py -.*
 .*thoth-master\.zip.*
 .*Thread_Hiijack_Inject_Load\..*
+.*Threadless injection failed.*
 .*ThreadlessInject.* -p .* -d .*
 .*ThreadlessInject\.exe.*
 .*ThreadlessInject-master.*
@@ -19082,6 +19593,7 @@
 .*tmp.*lsass_.*\.dmp.*
 .*Tmprovider\.dll.*
 .*TMVB6XJWzuz4KsqUCnwxrtooQV9LmP6R4IX62HeQ7OZzhxgsahsxNzf05dJNkntl.*
+.*to \$LogonPasswords.*
 .*to_powershell\.ducky_script.*
 .*toggle_privileges\.cna.*
 .*toggle_privileges_bof\..*
@@ -19106,6 +19618,11 @@
 .*TokenKidnapping\.exe.*
 .*tokenprivs\.cpp.*
 .*tokenprivs\.exe.*
+.*TokenStealer\.cpp.*
+.*TokenStealer\.exe.*
+.*TokenStealer\.sln.*
+.*TokenStealer\.vcxproj.*
+.*TokenStealer-master.*
 .*TokenStealing\.cs.*
 .*TokenStealing\.exe.*
 .*TokenStomp\.exe.*
@@ -19161,6 +19678,7 @@
 .*--tor-proxy.*--pwndb.*
 .*TorPylle.*
 .*TorServiceSetup.*
+.*Total number of passwords to test: .*
 .*totally legit pdf\.pdf.*
 .*toteslegit\.ps1.*
 .*touch -a.*
@@ -19202,6 +19720,7 @@
 .*Trojan\.Lazagne.*
 .*Trojan\.Linux.*
 .*Trojan\.Win32\..*\..*
+.*Trojan\.Win64.*
 .*Trojan\.WinGo.*
 .*Trojan/Win32.*
 .*Trojan/Win64.*
@@ -19212,6 +19731,7 @@
 .*Trojan:Win64.*
 .*Trojan:Win64/IceId.*
 .*TrojanDropper:Win32.*
+.*TrojanSpy\.Win64.*
 .*TrojanSpy:MSIL/JSSLoader.*
 .*TrojanSpy:MSIL/JSSLoader.*
 .*truecrypt2john\.py.*
@@ -19258,6 +19778,7 @@
 .*uac fodhelper .*
 .*uac sdclt .*
 .*uac_bypass.*
+.*uac_bypass_bluetooth_win10\.lua.*
 .*uac_easinvoker\..*
 .*UACBypass -.*
 .*UAC-bypass.*
@@ -19304,15 +19825,19 @@
 .*undertheradar-main.*
 .*unexpected bytes remain after decoding.*
 .*unexpected internal error.*
+.*Unhandled Rubeus exception:.*
 .*unhide-implant.*
 .*unhook kernel32.*
 .*unhook wldp amsi.*
+.*unhook_ntdll\(remote_process.*
 .*UnhookingKnownDlls\..*
 .*UnhookingNtdll_disk\..*
 .*UnhookingPatch-main.*
 .*UniByAv.*
 .*unicorn\.py .*
 .*unicorn-master\.zip.*
+.*unix_cached_ad_hashes\.rb.*
+.*unix_kerberos_tickets\.rb.*
 .*unixpickle.*
 .*unknown or unsupported key type.*
 .*unkvolism/Fuck-Etw.*
@@ -19359,6 +19884,7 @@
 .*useplugin csharpserver.*
 .*UsePrtAdminAccount.*
 .*UsePrtImperonsationAccount.*
+.*user aborted during DBMS fingerprint\..*
 .*user Inveigh.*
 .*--user orbitaldump.*
 .*user_eq_pass_valid_cme_.*\.txt.*
@@ -19454,6 +19980,8 @@
 .*viperzip\.exe.*
 .*virajkulkarni14.*
 .*Viralmaniar.*
+.*VirTool:MSIL.*
+.*VirTool:Win32.*
 .*VirTool:Win32/RemoteExec.*
 .*virusscan_bypass\.rb.*
 .*VirusTotalC2\..*
@@ -19471,13 +19999,16 @@
 .*vnc_passwords\.txt.*
 .*vncdumpdll.*
 .*vncinject\.rb.*
+.*VNC-NoAuth -ComputerName .* -Port .*
 .*vncpcap2john\..*
 .*vncpwdump\..*
 .*vncviewer .*\..*:5901.*
 .*vnperistence\.py.*
 .*volatility2 --profile=.*
 .*volatility3 -f .*\.dmp.*
+.*voukatas/Commander.*
 .*VPNPivot.*
+.*v-Q8Q~fEXAMPLEEXAMPLEDsmKpQw_Wwd57-albMZ.*
 .*vRealizeLogInsightRCE.*
 .*vsf_sysutil_read_loop.*
 .*vssadmin create shadow /for=C:.*
@@ -19551,7 +20082,10 @@
 .*weak1337/Alcatraz.*
 .*weakpass\.com/crack-js.*
 .*weakpass\.com/generate.*
+.*weakpass\.com/wordlist/.*
 .*weakpass/crack-js.*
+.*weakpass_3\.7z.*
+.*weakpass_3a\.7z\.torrent.*
 .*weakpass-main\..*
 .*web_cloner/interceptor.*
 .*WebBrowserPassView\.exe.*
@@ -19815,9 +20349,11 @@
 .*wmi_persistence\.rb.*
 .*wmic /.* /user:administrator process call create .*cmd\.exe /c .*
 .*wmic process call create.*ntdsutil .*ac i ntds.* ifm.*create full.*
+.*wmic service brief.*
 .*wmic SHADOWCOPY /nointeractive.*
 .*wmic shadowcopy call create Volume='C:\\'.*
 .*wmic useraccount get /ALL /format:csv.*
+.*wmic volume list brief.*
 .*wmic.*/Namespace:\\\\root\\SecurityCenter2 Path AntiVirusProduct Get displayName.*
 .*wmic\.exe process call create .*\.txt:.*\.exe.*
 .*wmic\.exe.* Shadowcopy Delete.*
@@ -19883,6 +20419,7 @@
 .*--wordlist=.*-passwords\.txt.*
 .*wordlist-nthash-reversed.*
 .*wordlist-probable\.txt.*
+.*wordlists.*all_in_one\.7z.*
 .*wordlists.*rmg\.txt.*
 .*wordlists.*rmiscout\.txt.*
 .*wordlists/dynamic-all\.txt.*
@@ -19894,8 +20431,9 @@
 .*WorldWind-Stealer.*
 .*wpapcap2john\..*
 .*wp-exploitable-plugins\.txt.*
+.*wpscan \?url.*
 .*wpscan --api-token .*
-.*WPScan.*
+.*wpscanteam/wpscan.*
 .*wrap_execute_assembly.*
 .*wrap_execute_encoded_powershell.*
 .*wrap_get_clipboard.*
@@ -19911,6 +20449,7 @@
 .*Write-HijackDll.*
 .*Write-HijackDll.*
 .*Write-Output 127\.0\.0\.1:1111.*
+.*WritePayloadDll\(LPWSTR pwszDllPath\).*
 .*WritePayloadDllTransacted.*
 .*Write-PortscanOut.*
 .*Write-ServiceBinary.*
@@ -19926,6 +20465,7 @@
 .*wsuxploit.*
 .*wts_enum_remote_processes.*
 .*wumb0/rust_bof.*
+.*WwBTAHkAcwB0AGUAbQAuAFIAZQBmAGwAZQBjAHQAaQBvAG4ALgBBAHMAcwBlAG0AYgBsAHkAXQA.*
 .*WwBTAHkAcwB0AGUAbQAuAFMAZQBjAHUAcgBpAHQAeQAuAFAAcgBpAG4AYwBpAHAAYQBsAC4AVwBpAG4AZABvAHcAcwBJAGQAZQBuAHQAaQB0AHkAXQA6ADoARwBlAHQAQwB1AHIAcgBlAG4AdAAoACkALgBuAGEAbQBlAAoA.*
 .*www\.exploit-db\.com/download/.*
 .*www\.ip-api\.com.*
@@ -19981,6 +20521,7 @@
 .*XOR_b64_encrypted.*covenant\.txt.*
 .*XOR_b64_encrypted.*covenant2\.txt.*
 .*XOR_b64_encrypted.*havoc\.txt.*
+.*xor_encrypt\(.*
 .*xor_payload.*
 .*xor-bin\.py .*\.exe.*
 .*xoreaxeaxeax.*
@@ -20008,6 +20549,7 @@
 .*xssraysdetail\.rb.*
 .*xssraysscan\.rb.*
 .*XSStrike.*
+.*xsukax-Wordlist-All\.7z.*
 .*xxd -p -c 4 /.* \| while read line.* do ping -c 1 -p .*
 .*XXEinjector.*
 .*xxePayloads\.ini.*
@@ -20044,6 +20586,7 @@
 .*ysoserial\.exe.*
 .*ysoserial\.net.*
 .*ysoserial\.sln.*
+.*ytisf/PyExfil.*
 .*yunuscadirci/CallStranger.*
 .*Yuuup!! Pass Cracked.*
 .*YwBhAGwAYwA=.*
@@ -20099,7 +20642,7 @@
 \./beef
 \./CVE-20.* -.*
 \./radare .*
-\.exe -t keepass -f .*
+.*\.exe -t keepass -f .*
 /adhunt\.py
 \\\\demoagent_11
 \\\\demoagent_22
@@ -20133,13 +20676,26 @@
 \\\\wkssvc_.*
 \\adhunt\.py
 \\jaccdpqnvbrrxlaf.*
-\\kali-linux-2023.*
-\\NtRemoteLoad\.exe.*
+.*\\kali-linux-2023.*
+.*\\NtRemoteLoad\.exe.*
 \\Posh.*
+12e9256bbb969343cc20fa9e259c0af1bf12d6c7bd0263bd7b2a60575b73cf62
+4681186a8bcaff98f0d2513d30add67345491b95f7f743883e6ca2506ba7aaaf
+612789c90ec1040d821a985265ea3b2f57e2c8df90b3880752dcb869e45256bc
+66c368f799227a9b571f841057e2d5f12c862360d5f7f564da9936acd67c66a0
+691f577714a4ae22bc22ec49edec5a15bf546a9827e8e1cf4e9e688b2ba9f72e
+8672d46e879f704b4b41a401c1a0aae5e6365f18a798a1fbaa4b1a8e711db34b
+9a3a44c544cd596ebf94583614035575e746f57315e20ec56a819c7152ba3fe9
+a0101bdeeb3f99c0640c203716381ef9f6bad8e89973eaa608c801ed3f6ccace
+a1b3d36a9cc4bc118c646ae5430a6e0fc811f2ec3614a3de9682b5c07eaade2d
+adf6d464ce449914110607706da329993186f52f99074af1b7b1734a46dd4fcf
 afrog -.*
+b2363d2b238f9336bb270fe96db258243668a916d7ddf94bf3a3126ed7cae508
+b8ad30b89d6cabe30501ed963b21dcaec70b3283608682678629feae2c1b2235
 BypassUAC .*
 capinfos -.*
 captype -.*
+cbeecb2981c75b8f066b1f04f19f2095bdcf22f19d0d3f1099b83963547c00cb
 cd PayGen
 certipy .*
 chkconfig off ip6tables
@@ -20160,9 +20716,12 @@ doc\.tx\..*\\\..*
 doc-stg-prepend.*\..*
 doc-stg-sh.*\..*
 dumpwifi .*
+e69a6f8e45f8dd8ee977b6aed73cac25537c39f6fb74cf9cc225f2af1d9e4cd7
 etw stop
 EVUAC .*
 exploit -j -z
+f1696fdc28bdb9e757a14b2ba9e698af8f70bb928d3c9e9fb524249f20231d08
+f3aacbbaacceb0bdcac49d9b5e1da52d6883b7d736ca68f0a98f5a1d4838b995
 fw_walk display.*
 fw_walk status.*
 fw_walk total.*
@@ -20262,7 +20821,7 @@ sleeper on
 sniffer -.*
 spawn .*\.exe .*\.bin.*
 SprayAD .* .* 
-SprayAD\.exe .*
+.*SprayAD\.exe .*
 ss -lntp.*
 sudomy -.*
 SwampThing\.csproj

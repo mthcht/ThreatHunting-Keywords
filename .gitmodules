@@ -1,3 +1,6 @@
 [submodule "sigma/ThreatHunting-Keywords-sigma-rules"]
 	path = sigma/ThreatHunting-Keywords-sigma-rules
 	url = https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules.git
+[submodule "sigma/ThreatHunting-Keywords-yara-rules"]
+	path = yara/ThreatHunting-Keywords-yara-rules
+	url = https://github.com/mthcht/ThreatHunting-Keywords-yara-rules.git
