@@ -47,7 +47,7 @@ https://github.com/jischell-msft/RemoteManagementMonitoringTools/blob/main/Netwo
 
 *Observere that the field types you want to match words on must be a text field type.*
 
-creds_catcher.txt, use on process.command_line AND powershellscriptblock to catch bad password usage
+creds_catcher.txt, use on process.command_line AND powershell scriptblock to catch bad password usage
 
 rmm_domain_names_elk.txt, use on events where you have domain names to catch suspicious activity to RMM domains
 
