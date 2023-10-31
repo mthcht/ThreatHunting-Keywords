@@ -15,7 +15,7 @@ Different lists to work with the Elastic Stack without using sigma rules by http
 7. Select "Indicator Match"
 ![image](https://github.com/Ekitji/ThreatHunting-Keywords/assets/41170494/7f13d07c-bf3a-4f07-b415-44ff1bd62ba1)
 
-8. NOTICE! Provided screenshot is only a example (documentation) https://www.elastic.co/guide/en/security/7.17/rules-ui-create.html#indicator-value-lists **change values as shown below (number 9-14)
+8. NOTICE! Provided screenshot is only a example (documentation) https://www.elastic.co/guide/en/security/7.17/rules-ui-create.html#indicator-value-lists **change values as shown below (number 9-14)**
 ![image](https://github.com/Ekitji/ThreatHunting-Keywords/assets/41170494/a8daaa41-44ee-434b-803a-8263ad1370cd)
 
 9. **Source:** Choose your index for where you have your windows logs
@@ -35,7 +35,7 @@ Different lists to work with the Elastic Stack without using sigma rules by http
 
 You can do the same with th_keywords_processnames_elk.txt and the other files **as long as the field type is text**
 Upload it and follow the same steps, at number 12 change the list_id to th_keywords_processnames_elk.txt
-Then change the indicator mapping field to process.name instead.
+Then change the indicator mapping field to process.name instead (field type must be text).
 
 
 
