@@ -25,7 +25,6 @@ antivirus
 antivirxp
 anycleaner
 anydesk
-app4
 apropos
 arachni
 arch
@@ -40,7 +39,6 @@ auctionplusup
 autodl
 autohotkey
 ayayayay
-b5c3d0b28619de70bf5588505f4061f2
 backdor
 bash
 bbos
@@ -50,7 +48,8 @@ bits
 blah
 blahrx
 bnddriveloader
-bndveano4getdownldr
+bndveano
+getdownldr
 bobrowser
 boostsoftware
 brandthunderhelper
@@ -107,7 +106,7 @@ dirbuster
 dirhunt
 diva
 docker
-doctorpro1
+doctorpro
 doctorvaccine
 doshowmeanad
 double
@@ -256,7 +255,6 @@ logevents
 loki
 lsosss
 lunar
-m0zilla
 madebylc
 magic
 malwarewipe
@@ -276,7 +274,6 @@ mirar
 momentum
 moonlight
 morpheus
-mozil1a
 mozillar
 mozzzzzzzzzzz
 mrgud
@@ -292,7 +289,6 @@ myway
 mywebsearch
 mz
 mzapp
-n1
 natefinder
 navhelper
 ndes
@@ -360,7 +356,7 @@ report
 rescue
 revolution
 rfrudokop
-rhyno321
+rhyno
 richcasino
 rogue
 rood
@@ -395,7 +391,7 @@ skypee
 slayer
 smartinstaller
 smartloader
-sme32
+sme
 smileware
 snatch
 snoopstick
@@ -424,7 +420,7 @@ sunshinemoonlight
 sureseeker
 surferplugin
 svchost
-swizz03r
+swizz
 sznotifyident
 takemypainback
 talwininethttpclient
@@ -496,7 +492,7 @@ winproxy
 winrm
 winsoftware
 wintouch
-wireshark/
+wireshark
 worm
 wpscan
 wshrat
@@ -504,7 +500,6 @@ wta
 wtinstaller
 wtrecover
 wyzo
-x11
 xehanort
 xiehongwei
 xmlst
