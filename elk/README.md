@@ -44,12 +44,20 @@ rmm_domain_names_elk.txt is a custom list from
 https://github.com/jischell-msft/RemoteManagementMonitoringTools/blob/main/Network%20Indicators/RMM_SummaryNetworkURI.csv
 
 **Files**
+
 *Observere that the field types you want to match words on must be a text field type.*
+
 creds_catcher.txt, use on process.command_line AND powershellscriptblock to catch bad password usage
+
 rmm_domain_names_elk.txt, use on events where you have domain names to catch suspicious activity to RMM domains
+
 suspicious_named_pipe_elk.txt, use on events with named pipes.
+
 suspicious_windows_services_names_elk.txt, use on events with service names.
+
 th_keywords_elk.txt, use on process.command_line AND powershell scriptblock to catch malicious activity
+
 th_keywords_processnames_elk.txt, use on events where you have process.names OR parent.process.names
+
 user_agent_elk.txt, use on events where you have user_agent fields to catch malicious activity
 
