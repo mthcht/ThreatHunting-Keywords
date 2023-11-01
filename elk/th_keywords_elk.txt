@@ -469,7 +469,6 @@ kernelmii
 keylogger
 keystrokes
 keytab
-keywords
 killdefender
 kirbi
 kismet
