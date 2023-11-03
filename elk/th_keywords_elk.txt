@@ -80,6 +80,7 @@ asyncssh
 atexec
 atlasc
 atlasreaper
+attack
 authmode
 autobloody
 autobypass
@@ -134,6 +135,7 @@ brutesploit
 bruteuser
 bsod
 buildanonymoussmbserver
+bypass
 bypassframework
 bypassuac
 cacertpassword
@@ -254,6 +256,7 @@ domainharvestowa
 domainhunter
 domainpassspray
 domainpasswordspray
+domainrecon
 domainreconmodules
 dome
 donut
@@ -272,6 +275,7 @@ dumper
 dumpert
 dumpfile
 dumplsass
+dumpmode
 dumpname
 dumpowamailboxviamsgraphapi
 dumpprocess
@@ -464,6 +468,7 @@ kernelexploits
 kernelmii
 keylogger
 keystrokes
+keytab
 killdefender
 kirbi
 kismet
@@ -566,6 +571,7 @@ microsploit
 mimidog
 mimikatz
 mimiload
+mimipenguin
 minidump
 mitm
 modifiableprogramscheck
@@ -614,6 +620,7 @@ ntdsutil
 nthash
 ntlm
 ntlmrecon
+ntlmscan
 ntlmv
 ntmapviewofsection
 obfuscate
@@ -926,6 +933,7 @@ silver
 simplehttpserver
 simpleloader
 sitelistfilepath
+sitelistpassword
 skeleton
 skippasswordcheck
 skipregistryloggedon
@@ -1001,6 +1009,7 @@ tcpreplay
 tcpserver
 tcpshell
 teamserver
+technique
 test
 tgssub
 tgtdeleg

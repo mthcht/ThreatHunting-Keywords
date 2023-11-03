@@ -42,6 +42,7 @@ Then change the indicator mapping field to process.name instead (field type must
 **Reference list**
 rmm_domain_names_elk.txt is a custom list from 
 https://github.com/jischell-msft/RemoteManagementMonitoringTools/blob/main/Network%20Indicators/RMM_SummaryNetworkURI.csv
+and from https://github.com/0x706972686f/RMM-Catalogue/blob/main/rmm.csv
 
 **Files**
 
