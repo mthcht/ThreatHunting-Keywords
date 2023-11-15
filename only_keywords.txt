@@ -498,6 +498,7 @@
 * dnscan.py*
 * dns-check-zone.nse*
 * dns-client-subnet-scan.nse*
+* dnscrypt-proxy*
 * dns-fuzz.nse*
 * dns-ip6-arpa-scan.nse*
 * dnslog-cn.nse*
@@ -1043,10 +1044,12 @@
 * install autobloody*
 * install backdoor-factory*
 * install chisel*
+* install dnscrypt-proxy*
 * install evil-winrm*
 * install github *merlin*
 * install hekatomb*
 * install holehe*
+* install iodine*
 * install krbjack*
 * install nikto*
 * install wapiti3*
@@ -1696,6 +1699,7 @@
 * -request -format hashcat -outputfile *
 * --requirement *Exegol/requirements.txt*
 * resolveall.nse*
+* restart dnscrypt-proxy*
 * resu ten*
 * rev_shell.py*
 * -Reverse -IPAddress * -Port *
@@ -2301,6 +2305,7 @@
 *./hping *
 *./hydra *
 *./inceptor.py*
+*./iodined*
 *./Ivy -*
 *./kerbrute *
 *./koadic*
@@ -3556,6 +3561,8 @@
 */dns-check-zone.nse*
 */dns-client-subnet-scan.nse*
 */dnscnc.py*
+*/dnscrypt-proxy*
+*/dnscrypt-proxy.git*
 */DNSExfiltrator*
 */dns-fuzz.nse*
 */dns-ip6-arpa-scan.nse*
@@ -4010,7 +4017,10 @@
 */gocrack_worker*
 */gocrack-1.0.zip*
 */goDoH.git*
+*/godoh.git*
 */godoh/*
+*/goDoH/releases*
+*/godoh-master.zip*
 */GoFetch.git*
 */golang_c2.git*
 */GoldenGMSA.git*
@@ -4374,6 +4384,10 @@
 */Invoke-HostEnum.ps1*
 */Invoke-RunAs.ps1*
 */Invoke-SMBRemoting.git*
+*/iodine-*-windows.zip*
+*/iodine.exe*
+*/iodine.git*
+*/iodine-master/*
 */IOXIDResolver.py*
 */ip_spoof.rb*
 */IPayloadService.*
@@ -4852,6 +4866,7 @@
 */nfs-showmount.nse*
 */nfs-statfs.nse*
 */nginxed-root.sh*
+*/ngrok.exe*
 */nidem/kerberoast*
 */Nightmangle.git*
 */nikto.git*
@@ -4995,6 +5010,7 @@
 */opt/chimera*
 */opt/cobaltstrike/logs*
 */opt/Covenant/Covenant/*
+*/opt/dnscrypt-proxy*
 */opt/gocrack/files/engine*
 */opt/gocrack/files/task*
 */opt/icebreaker*
@@ -5300,6 +5316,14 @@
 */pykiller/CVE-2022-23131*
 */pyLAPS.git*
 */pyLAPS.py*
+*/Pyobfadvance*
+*/Pyobfexecute*
+*/pyobfgood*
+*/Pyobflite*
+*/Pyobfpremium*
+*/Pyobftoexe*
+*/Pyobfuse*
+*/Pyobfusfile*
 */pypykatz*
 */pypykatz.py*
 */pyrdp.git*
@@ -5351,6 +5375,7 @@
 */RC4BinaryEncryption.cs*
 */RC4Payload32.txt*
 */rcat-v*-win-x86_64.exe*
+*/rclone.exe*
 */RCStep/CSSG/*
 */rdcman.py*
 */RDE1.git*
@@ -5987,6 +6012,7 @@
 */syscalls/syswhispers/*
 */syscalls/syswhispersv2*
 */SyscallsInject/*
+*/sysconfig/iodine-server*
 */SysmonQuiet*
 */SysWhispers2*
 */SysWhispers3*
@@ -6163,6 +6189,7 @@
 */unittest.nse*
 */unshackle.git*
 */unshackle.modules*
+*/unstable/net/iodine*
 */unused/locktest.sh*
 */unused/Yosemite.patch*
 */unusual-port.nse*
@@ -6704,6 +6731,7 @@
 *\DllExport.bat*
 *\DllVoidFunction.txt*
 *\dnscan.py*
+*\dnscrypt-proxy*
 *\dnsrecon.py*
 *\dnsrecon-subdomain-bruteforce.py*
 *\dns-zone-transfer.py*
@@ -6852,6 +6880,11 @@
 *\gocrack-1.0.zip*
 *\gocrack-master.*
 *\GodFault.*
+*\godoh\cmd\*
+*\godoh\dnsclient\*
+*\godoh\dnsserver*
+*\godoh\lib\*
+*\godoh\protocol\*
 *\Godpotato\*
 *\GoFetchLog.log*
 *\GoodSync-2*-*.log*
@@ -6917,6 +6950,9 @@
 *\Inveigh\bin\*
 *\InvokeWebRequestCommand.cs
 *\InvokeWmiMethodCommand.cs
+*\iodine-*-windows.zip*
+*\iodine.exe*
+*\iodine-master\*
 *\IOXIDResolver.py*
 *\IPfuscation.cpp*
 *\IPfuscation.exe*
@@ -7033,6 +7069,7 @@
 *\netscan_portable\*
 *\netscan_setup.exe*
 *\NewPhish.ps1*
+*\ngrok.exe*
 *\nikto.py*
 *\NimBlackout*
 *\NimPlant.*
@@ -7214,6 +7251,14 @@
 *\pwn.exe*
 *\py2exe*
 *\PyExfil\pyexfil\*
+*\Pyobfadvance*
+*\Pyobfexecute*
+*\pyobfgood*
+*\Pyobflite*
+*\Pyobfpremium*
+*\Pyobftoexe*
+*\Pyobfuse*
+*\Pyobfusfile*
 *\pywsus.py*
 *\Quasar.v*.zip*
 *\Quasar-master*
@@ -7224,6 +7269,7 @@
 *\ratchatPT.go*
 *\ratchatPT.syso*
 *\rcat-v*-win-x86_64.exe*
+*\rclone.exe*
 *\rdcman.py*
 *\rdp.py*
 *\RDPCredsStealerDLL*
@@ -7598,6 +7644,7 @@
 *00_create_all_modules_test*
 *00000000000000000041d00000041d9535d5979f591ae8e547c5e5743e5b64*
 *00000000000000000043d43d00043de2a97eabb398317329f027c66e4c1b01*
+*00cce05cfc7ac3c284be62e98c8ffb25*
 *01_all_exploits_have_payloads_test*
 *0472A393-9503-491D-B6DA-FA47CD567EDE*
 *04b99fb5cc1d91b1752fbcb2446db71083ab87af59dd9e0d940cc2ed5a65ef49*
@@ -7643,6 +7690,7 @@
 *10k-worst-pass.txt*
 *11385CC1-54B7-4968-9052-DF8BB1961F1E*
 *119.45.104.153:8848*
+*11f51e1a8f1a630390533599cfbcb78133d680f6*
 *123abcbde966780cef8d9ec24523acac*
 *124e6ada27ffbe0ff97f51eb9d7caaf86b531bcff90ed5a075ff89b45b00cba5*
 *127.0.0.1 is not advisable as a source. Use -l 127.0.0.1 to override this warning*
@@ -7689,7 +7737,10 @@
 *23975ac9-f51c-443a-8318-db006fd83100*
 *23E06BF12C5BE7641EF89F557C3F6600E1F3881F8DCE7279C2112279E7EC3B988E1A85EC350149007DE78CE5566FCBD18F630D2CDB78C76AA06F2B121F0B3701*
 *2419CEDC-BF3A-4D8D-98F7-6403415BEEA4*
+*2589213f0c51583dcbaacbe0005e5908*
 *261f880e-4bee-428d-9f64-c29292002c19*
+*26953f6a9ae961392ed1484e9c7ace1211f5f962*
+*27e71eebac244f803d825159fe3b1971c9bfb169*
 *29446C11-A1A5-47F6-B418-0D699C6C3339*
 *2944dbfc-8a1e-4759-a8a2-e4568950601d*
 *2963C954-7B1E-47F5-B4FA-2FC1F0D56AEA*
@@ -7699,7 +7750,9 @@
 *2john.lua*
 *2john.pl*
 *2john.py*
+*300875180931c7f9f62908e72395f992510eea9e*
 *30f7ba049eab00673ae6b247199ec4f6af533d9ba46482159668fd23f484bdc6*
+*3318d1dd3fcab5f3e4ab3cc5b690a3f4*
 *337ED7BE-969A-40C4-A356-BE99561F4633*
 *33BF8AA2-18DE-4ED9-9613-A4118CBFC32A*
 *365-Stealer.py*
@@ -7713,6 +7766,7 @@
 *3b5cbf0dddc3ef7e3af7d783baef315bf47be6ce11ff83455a2165befe6711f5*
 *3bb553cd-0a48-402d-9812-8daff60ac628*
 *3C601672-7389-42B2-B5C9-059846E1DA88*
+*3e3fcf025697ee80f044716eee053848*
 *3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84*
 *3fd21b20d00000021c43d21b21b43d41226dd5dfc615dd4a96265559485910*
 *3fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e*
@@ -7720,9 +7774,11 @@
 *3snake-master*
 *4.5.6.7:1337*
 *40056/service-endpoint*
+*4045eef04cb934ac996942d0d51e80420b2ba985*
 *40B05F26-6A2F-40BC-88DE-F40D4BC77FB0*
 *40E7714F-460D-4CA6-9A5A-FB32C6769BE4*
 *42 3C 8B AC 10 88 00 00 00 44 8B 54 15 20 44 8B 5C 15 24 4C*
+*438bf6db9eece197ef8d3e133a7e229086b5682d*
 *43BB3C30-39D7-4B6B-972E-1E2B94D4D53A*
 *-443.devtunnels.ms*
 *443D8CBF-899C-4C22-B4F6-B7AC202D4E37*
@@ -7731,6 +7787,7 @@
 *497CA37F-506C-46CD-9B8D-F9BB0DA34B95*
 *4C3B106C-8782-4374-9459-851749072123*
 *4C574B86-DC07-47EA-BB02-FD50AE002910*
+*4caedf29083d75d0d6687f56981fda77cce0849f*
 *4cec28b4c00002245dffc8346be0cc11*
 *4D1B765D-1287-45B1-AEDC-C4B96CF5CAA2*
 *4d262988fe9d252191947ab780535d496ed24fa27668cf76c6cb9b6474a391c4*
@@ -7754,24 +7811,30 @@
 *555AD0AC-1FDB-4016-8257-170A74CB2F55*
 *555AD0AC-1FDB-4016-8257-170A74CB2F55*
 *5575c76987333427f74263e090910eae45817f0ede6b452d645fd5f9951210c9*
+*558df705dd4b6213c11e858b7c32960eaec39360*
 *55A48A19-1A5C-4E0D-A46A-5DB04C1D8B03*
 *55F0368B-63DA-40E7-A8A5-289F70DF9C7F*
 *57A893C7-7527-4B55-B4E9-D644BBDA89D1*
 *57D4D4F4-F083-47A3-AE33-AE2500ABA3B6*
+*58d82bca11a41a01d0ddfa7d105e6a48*
 *5A403F3C-9136-4B67-A94E-02D3BCD3162D*
 *5a40f11a99d0db4a0b06ab5b95c7da4b1c05b55a99c7c443021bff02c2cf93145c53ff5b*
 *5a6e7d5c10789763b0b06442dbc7f723f8ea9aec1402abedf439c6801a8d86f2*
 *5A6F942E-888A-4CE1-A6FB-1AB8AE22AFFA*
 *5b5b20242873746174202d632559202f62696e2f73682920213d20242873746174202d632559202e73736829205d5d202626207b203a3b746f756368202d72202f62696e2f7368202e7373683b6578706f7274204b45593d22223b62617368202d63202224286375726c202d6673534c207468632e6f72672f737368782922*
+*5bb0b56e047e1453a3695ec0b9478b84*
 *5D03EFC2-72E9-4410-B147-0A1A5C743999*
 *5dec1cfe7c0c2ec55c17fb44b43f7d14*
 *5E0812A9-C727-44F3-A2E3-8286CDC3ED4F*
+*5e5a0618107570e45d2d2559d13658fb0e08f732*
 *5E8106A6F89B053ED91C723D5D4CAE3FFC15F1CE*
 *5e98194a01c6b48fa582a6a9fcbb92d6*
 *5e98194a01c6b48fa582a6a9fcbb92d6*
 *5F4DC47F-7819-4528-9C16-C88F1BE97EC5*
 *5spider:password1234*
+*61254294a879235560c1bcf796ff256bc48d2d90*
 *612789c90ec1040d821a985265ea3b2f57e2c8df90b3880752dcb869e45256bc*
+*61c0af74e23b91ced41254e8d701482a157464d4*
 *61CE6716-E619-483C-B535-8694F7617548*
 *61CE6716-E619-483C-B535-8694F7617548*
 *639EF517-FCFC-408E-9500-71F0DC0458DB*
@@ -7782,23 +7845,27 @@
 *66c368f799227a9b571f841057e2d5f12c862360d5f7f564da9936acd67c66a0*
 *66e0681a500c726ed52e5ea9423d2654*
 *691f577714a4ae22bc22ec49edec5a15bf546a9827e8e1cf4e9e688b2ba9f72e*
+*6952343cc4614857f83dbb81247871e7*
 *6973A4710FD88D32D47F4523E7EC098EF407F8ECED4B34AF6D3759CE1696EF19*
 *6b95cd81ca4f309ac9f243ae73d2e8099634aaffead5b7b214bfcd14b6d604f6*
 *6BF82CF9845C649557FC02D1E3D0B6A9FB4F827CC7815BF477DD0CB51246DA45*
 *6CAFC0C6-A428-4D30-A9F9-700E829FEA51*
 *6e537702f0e29ddd6c134a1020396f42c30cd69da213d3fddfa645fc77c2449d*
 *6e7645c4-32c5-4fe3-aabf-e94c2f4370e7*
+*6f2a53476cbc09bbffe7e07d6e9dd19d*
 *6F99CB40-8FEF-4B63-A35D-9CEEC71F7B5F*
 *7.exe a -mx3 ad.7z ad_*.txt*
 *70527328-DCEC-4BA7-9958-B5BC3E48CE99*
 *70BCFFDB-AE25-4BEA-BF0E-09DF06B7DBC4*
 *713724C3-2367-49FA-B03F-AB4B336FB405*
 *73948912-CEBD-48ED-85E2-85FCD1D4F560*
+*7423162b1a3b77b3cb5f76173204dd5983b683ae*
 *7443/new/payloads*
 *76FFA92B-429B-4865-970D-4E7678AC34EA*
 *77b78b6e16972c318fcbba39976858787cc31038f82952d2a94f844f5847a61e*
 *784F8029-4D72-4363-9638-5A8D11545494*
 *789CF3CBCC0DC849CC2B51703652084E2D2A4B2D02003B5C0650*
+*795f2e9d0314898ba5a63bd1fdc5fa18*
 *79F54747-048D-4FD6-AEF4-7B098F923FD8*
 *7C5C471B-9630-4DF5-A099-405D86553ECA*
 *7CFC52.dll*
@@ -7812,19 +7879,24 @@
 *7z2john.pl*
 *81E60DC6-694E-4F51-88FA-6F481B9A4208*
 *82277B35-D159-4B44-8D54-FB66EDD58D5C*
+*82d331f75a99d1547e0ccc3c3efd0a7a*
 *83035080-7788-4EA3-82EE-6C06D2E6891F*
 *8304a65e6096bcf63f30592b8049d47883c3c755600796c60a36c4c492f7af37*
 *847D29FF-8BBC-4068-8BE1-D84B1089B3C0*
 *854A20FB-2D44-457D-992F-EF13785D2B51*
+*86445d7ef450ddcb190f14c6f7fc8a1a33945c45*
 *866e5289337ab033f89bc57c5274c7ca*
 *8672d46e879f704b4b41a401c1a0aae5e6365f18a798a1fbaa4b1a8e711db34b*
 *87904247-C363-4F12-A13A-3DA484913F9E*
 *879A49C7-0493-4235-85F6-EBF962613A76*
 *881D4D67-46DD-4F40-A813-C9D3C8BE0965*
 *881D4D67-46DD-4F40-A813-C9D3C8BE0965*
+*890f13ab9ee7ea722baf0ceb3ee561c0*
 *894a784e-e04c-483c-a762-b6c03e744d0b*
 *8F018213-4136-4D97-9084-F0346BBED04F*
+*8fc21bc6c4a11583b4db44e3dad0980bdb5c7ace*
 *90F6244A-5EEE-4A7A-8C75-FA6A52DF34D3*
+*911be80c0cbcc8c3bc351a3e60db0d7494858603*
 *913d774e5cf0bfad4adfa900997f7a1a*
 *913d774e5cf0bfad4adfa900997f7a1a*
 *91EA50CD-E8DF-4EDF-A765-75354643BD0D*
@@ -7837,19 +7909,23 @@
 *9AA32BBF-90F3-4CE6-B210-CBCDB85052B0*
 *9AC25A8825407CCB6089BC7A2DF530D1830795B7E71A981ECEE4C5F48387B37A*
 *9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45*
+*9bd15de627aa46533968e0f7fae19e8b855d0a40*
 *9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360*
 *9D1B853E-58F1-4BA5-AEFC-5C221CA30E48*
 *9D365106-D7B8-4B5E-82CC-6D6ABCDCA2B8*
 *9E357027-8AA6-4376-8146-F5AF610E14BB*
 *9emin1/charlotte*
 *A cross-platform python based advanced sql injections detection & exploitation tool*
+*A DNS (over-HTTPS) C2*
 *A fast multi protocol credential bruteforcer/sprayer/enumerator*
 *A La Vie* A L'Amour*
 *A Python package for data exfiltration.*
 *a0101bdeeb3f99c0640c203716381ef9f6bad8e89973eaa608c801ed3f6ccace*
 *a0rtega/metame*
+*a15bb4faba020d217016fde6e231074a*
 *A17656B2-42D1-42CD-B76D-9B60F637BCB5*
 *a1b3d36a9cc4bc118c646ae5430a6e0fc811f2ec3614a3de9682b5c07eaade2d*
+*a201bc3c2d47775b39cd90b32eb390e7*
 *A38C04C7-B172-4897-8471-E3478903035E*
 *A38C04C7-B172-4897-8471-E3478903035E*
 *A3h1nt/gimmeSH*
@@ -7864,6 +7940,7 @@
 *aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.exe*
 *AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP39*
 *AAB4D641-C310-4572-A9C2-6D12593AB28E*
+*aacf6ed6e4b999a6338d5a025350ea5a*
 *aakchaleigkohafkfjfjbblobjifikek*
 *AAP-AddToHighPrivilegePrincipalMap*
 *AAP-CheckIfMemberOfPrivilegedDirectoryRole*
@@ -7881,6 +7958,7 @@
 *Accenture/Spartacus*
 *AccessTokenImpersonationAccount*
 *Accounts with extra permissions.txt*
+*acda6b715fc3fdeed1f43c73e5467f5824093ac0*
 *AceLdr.*.bin*
 *AceLdr.zip*
 *acf7a8a9-3aaf-46c2-8aa8-2d12d7681baf*
@@ -7967,6 +8045,7 @@
 *addcomputer.py -delete -computer-name * -dc-host * -domain-netbios *
 *addcomputer.py*
 *Add-ConstrainedDelegationBackdoor*
+*Add-DnsClientDohServerAddress *-ServerAddress *
 *Add-Exfiltration.ps1*
 *Add-KeePassConfigTrigger*
 *AddKeePassTrigger.ps1*
@@ -8066,9 +8145,11 @@
 *adxcsouf2john.py*
 *ADZero.py*
 *AE373FC4409EDA1B5F41D5CE3CA9290B3C7E8363*
+*ae84192b77cec541a088d563dc5f20723123e096*
 *aem2john.py*
 *AES_cryptor.py *
 *AesEncryptor.py*
+*af2d9062b7788fc47385d8c6c645dfa0*
 *AF9C62A1-F8D2-4BE0-B019-0A7873E81EA9*
 *ag_load_script*
 *agent*DNSCommunication.cpp*
@@ -8108,6 +8189,7 @@
 *AggressorScripts*
 *Aggressor-Scripts*
 *aggressor-scripts*
+*AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA*
 *ahmedkhlief/Ninja*
 *ahmedkhlief/Ninja*
 *AhMyth-Android-RAT*
@@ -8325,6 +8407,7 @@
 *asreproast_output_*.txt*
 *ASreproasting.txt*
 *ASRepToHashcat*
+*asse.rel.tunnels.api.visualstudio.com*
 *Assemblies/SharpMove.exe*
 *assembly *.asm *
 *assembly *.exe *
@@ -8390,7 +8473,9 @@
 *Attempting connection from 0.0.0.0:*
 *AttifyOS*
 *attrib +s +h desktop.ini*
+*auc1.rel.tunnels.api.visualstudio.com*
 *Auditcleaner.*
+*aue.rel.tunnels.api.visualstudio.com*
 *aue.rel.tunnels.api.visualstudio.com*
 *aue-data.rel.tunnels.api.visualstudio.com*
 *Augustus-main.zip*
@@ -8458,6 +8543,7 @@
 *avred-main.zip*
 *av-update-urls.txt*
 *aW52YWxpZF91c2VyQGNvbnRvc28uY29tOlBhc3N3b3JkMQ*
+*Aw8KAw4LDgvZDgLUz2rLC2rPBMC*
 *awesome-cve-poc*
 *Awesome-Hacking*
 *Awesome-Hacking-Resources*
@@ -8486,10 +8572,12 @@
 *AzureHound.ps1*
 *azurehound/v2*
 *-b bleeding-jumbo*
+*b18aca1b9e2a9e72cb77960c355d288b*
 *b23r0/Heroinn*
 *b23r0/rsocx*
 *b2xtranslator.xls.csproj*
 *B374K*index.php*
+*b37eeeceb6addc2243bca9c408ee13554726772d*
 *b3rito*yodo*
 *B473B9A4135DE247C6D76510B40F63F8F1E5A2AB*
 *b4ldr/nse-scripts*
@@ -8597,6 +8685,7 @@
 *bats3c/EvtMute*
 *bawait_upload*
 *bawait_upload_raw*
+*bb141fb92bcd492552d5d6c09fbf39f7f674eb49*
 *bb3b1a1f-0447-42a6-955a-88681fb88499*
 *bblcccknbdbplgmdjnnikffefhdlobhp*
 *bblockdlls*
@@ -8621,6 +8710,7 @@
 *BD602C80-47ED-4294-B981-0119D2200DB8*
 *BD745A5E-A1E9-4FDD-A15B-E9F303A625AE*
 *bd745a5e-a1e9-4fdd-a15b-e9f303a625ae*
+*bd976ca9268513e6cc4a58b85574f62b8a76cc92*
 *bdamele/icmpsh*
 *bdcsync*
 *bdlcnpceagnkjnjlbbbcepohejbheilk*
@@ -8796,6 +8886,7 @@
 *bin/bof_nim.o*
 *bin/dll/merlin.c*
 *bin/icmpsh/*
+*bin/iodine*
 *bin/ldd2pretty*
 *bin/ligolo*
 *bin/localrelay*
@@ -9013,6 +9104,7 @@
 *Browser-password-stealer.git*
 *Browser-password-stealer-master*
 *browserpivot *
+*brs.rel.tunnels.api.visualstudio.com*
 *brun_script_in_mem*
 *brunasadmin*
 *Brute/Brute.cs*
@@ -9225,6 +9317,7 @@
 *C:\Windows\Temp\moveme.exe*
 *c:\windows\temp\test.tmp farmer*
 *C??/generator.cpp*
+*c01fb08dabbd24b151fe5dfbb0742f7a*
 *c1090dbc-f2f7-4d90-a241-86e0c0217786*
 *C2 Client*
 *C2 Framework for villains*
@@ -9367,6 +9460,7 @@
 *cc2_udp_server*
 *cc2FilesColor.*
 *cc2ProcessColor.*
+*cc9f09bbdb9277265fd71b7575b1fdda3bc2f946*
 *ccache2john.py*
 *ccache2john.py*
 *CCHOST=127.0.0.1*/tmp/c2*
@@ -9385,6 +9479,7 @@
 *cd PyExfil*
 *CD3578F6-01B7-48C9-9140-1AFA44B3A7C0*
 *cd40dbcdae84b1c8606f29342066547069ed5a33*
+*cdaee04229c5aefdb806af27910f34d3*
 *cddownloadelevategetprivsinjectpersistportscanpspwdrunassaveshellshutdownsleep*
 *cdimage.kali.org/*
 *cdn_proxy cloudflare 
@@ -10179,6 +10274,7 @@
 *d091e408c0c5068b86bb69d17e91c5a7d6da46c0bd4101aa14f136246aed7f51*
 *d09ccee4-pass-word-0000-98677e2356fd*
 *d0ebb728926cce530040e046a8ea2f47e01158581cb0b5cccddc91007b421f6c*
+*d162d2e96da627fac5a93d5e6faf379aff092bbd*
 *D1rkInject.cpp*
 *D1rkInject.exe*
 *D1rkInject.iobj*
@@ -10193,6 +10289,8 @@
 *d3ckx1/Crack-allDBs*
 *d494a4bc-3867-436a-93ef-737f9e0522eb*
 *D4Vinci*
+*d67c342b9ffebd2350cb81d6dbbb35071246fb19*
+*d9fd35586f323c9990b3da5c7c1f07c05ff88bc7*
 *DA230B64-14EA-4D49-96E1-FA5EFED9010B*
 *dacledit.py -action write -rights DCSync -principal * -target-dn *
 *daem0nc0re/PrivFu*
@@ -10393,6 +10491,7 @@
 *devtunnel host -p *
 *devtunnel* user login -*
 *devtunnel.exe *
+*dfbc5037fe0229e15f6f15775117aef5*
 *dfkdflfgjdajbhocmfjolpjbebdkcjog*
 *dfscoerce.py -d *
 *dfscoerce.py*
@@ -10611,6 +10710,42 @@
 *dnschef --fakeip 127.0.0.1 -q*
 *dnscmd . /enumrecords /zone *
 *dnscmd . /enumzones*
+*DNSCrypt client proxy*
+*DNSCrypt/dnscrypt-proxy*
+*dnscrypt-autoinstall*
+*dnscrypt-proxy -resolve*
+*dnscrypt-proxy -service*
+*dnscryptproxy.exe*
+*dnscrypt-proxy.exe*
+*dnscrypt-proxy.socket*
+*dnscrypt-proxy.toml*
+*dnscrypt-proxy-android_arm-*.zip*
+*dnscrypt-proxy-android_arm64-*.zip*
+*dnscrypt-proxy-android_i386-*.zip*
+*dnscrypt-proxy-android_x86_64-*.zip*
+*dnscrypt-proxy-dragonflybsd_amd64-*.tar.gz*
+*dnscrypt-proxy-freebsd_amd64-*.tar.gz*
+*dnscrypt-proxy-freebsd_arm-*.tar.gz*
+*dnscrypt-proxy-freebsd_i386-*.tar.gz*
+*dnscrypt-proxy-linux_arm-*.tar.gz*
+*dnscrypt-proxy-linux_arm64-*.tar.gz*
+*dnscrypt-proxy-linux_i386-*.tar.gz*
+*dnscrypt-proxy-linux_mips-*.tar.gz*
+*dnscrypt-proxy-linux_mips64-*.tar.gz*
+*dnscrypt-proxy-linux_mips64le-*.tar.gz*
+*dnscrypt-proxy-linux_mipsle-*.tar.gz*
+*dnscrypt-proxy-linux_riscv64-*.tar.gz*
+*dnscrypt-proxy-linux_x86_64-*.tar.gz*
+*dnscrypt-proxy-macos_arm64-*.zip*
+*dnscrypt-proxy-macos_x86_64-*.zip*
+*dnscrypt-proxy-master*
+*dnscrypt-proxy-netbsd_amd64-*.tar.gz*
+*dnscrypt-proxy-netbsd_i386-*.tar.gz*
+*dnscrypt-proxy-openbsd_amd64-*.tar.gz*
+*dnscrypt-proxy-openbsd_i386-*.tar.gz*
+*dnscrypt-proxy-solaris_amd64-*.tar.gz*
+*dnscrypt-proxy-win32-*.zip*
+*dnscrypt-proxy-win64-*.zip*
 *dnsenum*
 *DNS-Enum-*-*.log*
 *dnsexfiltrator.*
@@ -10621,6 +10756,7 @@
 *dnsmorph*
 *dnspayload.bin*
 *DNS-Persist.git*
+*dnsproxy start scripts*
 *dnsrecon -*
 *dnsrecon*
 *dnsrecon-zonetransfer*
@@ -10891,6 +11027,7 @@
 *e1cd2b55-3b4f-41bd-a168-40db41e34349*
 *e1ff2208b3786cac801ffb470b9475fbb3ced74eb503bfde7aa7f22af113989d*
 *E2E64E89-8ACE-4AA1-9340-8E987F5F142F*
+*e4f33ee9ba4d86685f8df4a89e192a354139edcf*
 *E54195F0-060C-4B24-98F2-AD9FB5351045*
 *e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a*
 *E82BCAD1-0D2B-4E95-B382-933CF78A8128*
@@ -11131,6 +11268,8 @@
 *EtwHash.git*
 *ETWHash.sln*
 *etwti-hook.*
+*eun1.rel.tunnels.api.visualstudio.com*
+*euw.rel.tunnels.api.visualstudio.com*
 *evasion/has_recycle_bin.*
 *evasion_shellcode.js*
 *event::clear*
@@ -11380,8 +11519,11 @@
 *F1527C49-CA1F-4994-BB9D-E20DD2C607FD*
 *f1zm0/acheron*
 *f1zm0/hades*
+*f27479a8728d9126cc055daeb5cddd01cabfa37d*
+*f2a64b4fce0d07eafded5c2125d7d80b*
 *F3C62326-E221-4481-AC57-EF7F76AAF27B*
 *f4081a8e30f75d46.js*
+*f59e403b62053c785de7df979c5cb7b0f426cbeb*
 *f5a45c4aa478a7ba9b44654a929bddc2f6453cd8d6f37cd893dda47220ad9870*
 *F5BIG-Scanner.py*
 *F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2*
@@ -11436,6 +11578,7 @@
 *fcrackzip *
 *fcrackzip *
 *fcrackzip -u -v -D -p *.zip*
+*fdbf3b81cd69caf5230d76a8b039fd99*
 *fdcgdnkidjaadafnichfpabhfomcebme*
 *fde1b109f9704ff7.css*
 *FE4414D9-1D7E-4EEB-B781-D278FE7A5619*
@@ -11713,6 +11856,7 @@
 *frps_windows_amd64.exe*
 *frps_windows_arm64.exe*
 *fsockopen(*0.0.0.0*4444*exec(*
+*fsutil devdrv enable /disallowAv*
 *FtpC2.exe*
 *FtpC2.Tasks*
 *ftp-server -u * -P * -p 2121*
@@ -12302,14 +12446,24 @@
 *godoh -*
 *godoh agent*
 *godoh c2*
+*godoh --domain*
 *godoh help*
 *godoh receive*
 *godoh send*
+*godoh test --*
 *godoh test*
+*godoh* --agent-name *--poll-time*
+*godoh* --domain * c2*
+*godoh* --domain * receive*
+*godoh* --domain *send --file *
+*godoh-darwin64*
 *godoh-darwin64*
 *godoh-linux64*
+*godoh-linux64*
 *godoh-windows32.*
+*godoh-windows32.exe*
 *godoh-windows64.*
+*godoh-windows64.exe*
 *go-donut/*.exe*
 *go-donut/*.go*
 *GodPotato -*
@@ -12839,6 +12993,7 @@
 *https://*/releases/download/*/lse.sh*
 *https://*Microsoft.ActiveDirectory.Management.dll*
 *https://0.0.0.0:1337*
+*https://127.0.0.1/dns-query*
 *https://127.0.0.1:5000/register*
 *https://127.0.0.1:5000/results/*
 *https://127.0.0.1:5000/tasks/*
@@ -12857,10 +13012,13 @@
 *https://avred.r00ted.ch/upload*
 *https://bashupload.com*
 *https://C2_SERVER_IP/*
+*https://code.kryo.se/iodine/iodine-*
 *https://crackstation.net/*
 *https://curlshell:* | bash
 *https://cyseclabs.com/exploits/*
 *https://discord.com/invite/5Hpj4Gs5SS*
+*https://dns.blokada.org/dns-query*
+*https://dns10.quad9.net:5053/dns-query*
 *https://dnsdumpster.com/*
 *https://download.advanced-ip-scanner.com/download/files/*.exe*
 *https://ffuf.io.fi*
@@ -12868,9 +13026,11 @@
 *https://file.io/*
 *https://file.io/?title=*
 *https://github.com/bitsadmin/*
+*https://github.com/curl/curl/wiki/DNS-over-HTTPS*
 *https://github.com/The-Viper-One*
 *https://github-com.translate.goog/*
 *https://gitlab.com/kalilinux/*
+*https://googleweblight.com/i?u=*ipfs.*.html*
 *https://hunter.io/*
 *https://ipv4.myip.wtf/text*
 *https://itm4n.github.io/windows-registry-rpceptmapper-eop/*
@@ -13122,6 +13282,7 @@
 *Import-Module *Microsoft.ActiveDirectory.Management.dll*
 *In memory of all those murdered in the Nova party massacre 7.10.2023*
 *Inactive Domain Admins Honey Tokens*
+*inc1.rel.tunnels.api.visualstudio.com*
 *inceptor*POWERSHELL*
 *inceptor.py *
 *inceptor/obfuscators*
@@ -14047,7 +14208,20 @@
 *io_dirtycow.so*
 *iocnglnmfkgfedpcemdflhkchokkfeii*
 *iodine -*
+*iodine -f *
+*iodine IP over DNS tunneling client*
+*iodine IP over DNS tunneling server*
+*iodine -v*
 *iodined -*
+*iodined -c*
+*iodined -f *
+*iodined -v*
+*iodine-latest/*
+*iodine-latest-android.zip*
+*iodine-latest-win32*
+*iodine-latest-windows*
+*iodine-server.service*
+*iodinetestingtesting*
 *iolonopooapdagdemdoaihahlfkncfgg*
 *iomoath/PowerShx*
 *ionide *
@@ -15903,6 +16077,7 @@
 *Nexpose*
 *nextnet.exe*
 *NextronSystems*
+*nfxwi0lomv0gk21unfxgo3dfon0gs1th*
 *nginx/striker.log*
 *ngrok authtoken AUTHTOKEN:::https://dashboard.ngrok.com/get-started/your-authtoken*
 *ngrok tcp *
@@ -17763,6 +17938,7 @@
 *rec2mastodon.rs*
 *rec2virustotal*
 *rec2virustotal.rs*
+*Receive a file via DoH*
 *Receive-AgentJob*
 *reciclador.cpp*
 *reciclador.dll*
@@ -18292,6 +18468,7 @@
 *rusthound *-ldaps *
 *rusthound -d *
 *rusthound* --adcs --dc-only*
+*rusthound.exe *
 *RustHound-main*
 *rvazarkar/GMSAPasswordReader*
 *Rvn0xsy/Cooolis-ms*
@@ -18564,6 +18741,7 @@
 *SeManageVolumeExploit-main
 *Semperis/GoldenGMSA*
 *send \*\[ \\*\$BASH\\* = \\*/bin/bash\\* -o \\*\$SHELL\\* = \\*/bin/bash\\* \]*
+*Send a file via DoH.*
 *Send the payload with the grooms*
 *send_ps1_payload*
 *send_shellcode_via_pipe*
@@ -18572,6 +18750,7 @@
 *sendmail -osendmail chmod +x sendmail*
 *sense2john.py*
 *sensepost/goDoH*
+*sensepost/godoh*
 *sensepost/reGeorg*
 *sensepost/ruler*
 *sensepost/wiresocks*
@@ -19197,6 +19376,7 @@
 *SilentProcessExitRegistrySetter.exe*
 *SILENTTRINITY*
 *silenttrinity*.dll*
+*silly.host.of.iodine.code.kryo.se*
 *SillyRAT.git*
 *sillyrat.py*
 *silver*/beacon.go*
@@ -19703,6 +19883,8 @@
 *StartProcessFake(*
 *Start-PSAmsiClient.ps1*
 *Start-PSAmsiServer.ps1*
+*Starts the godoh C2 server*
+*Starts the godoh C2 server*
 *Start-TCPMonitor*
 *startupfolderperistence.py*
 *Start-WebServer.ps1*
@@ -19774,6 +19956,7 @@
 *Successfully dumped SAM and SYSTEM*
 *sudo apache2 -f /etc/shadow*
 *sudo bloodhound*
+*sudo iodine *
 *sudo LD_LIBRARY_PATH=. apache2*
 *sudo LD_PRELOAD=/tmp/preload.so find*
 *sudo -nS id' && lse_sudo=true*
@@ -19987,6 +20170,8 @@
 *Test-HijackableDll*
 *testing for SQL injection on (custom)*
 *testing* testing* 1* 2* 3 *
+*test-iodine.log*
+*Tests communications to all of the known DNS-over-HTTPS communications providers*
 *Test-ServiceDaclPermission*
 *Test-ServiceDaclPermission*
 *Test-ServiceDaclPermission*
@@ -20008,6 +20193,7 @@
 *tgtParse.py *
 *th3rd/heroinn*
 *TH3xACE/EDR-Test*
+*Thank you for using DNSCrypt-Proxy!*
 *thc-hydra*
 *thc-hydra.git*
 *thc-hydra.git*
@@ -20319,6 +20505,7 @@
 *UACTokenManipulationManager.cs*
 *uaf2john.*
 *uberfile --lhost* --lport * --target-os * --downloader *
+*ubuntu:dnscrypt-msi*
 *UCCAPI/16.0.13328.20130 OC/16.0.13426.20234*
 *udmp-parser-main*
 *UDVC-Server.exe -c * -i 127.0.0.1*
@@ -20328,6 +20515,7 @@
 *UGF5bG9hZCBvcHRpb25zLCBlLmcuIExIT1NUPTEuMS4xLjEsTFBPUlQ9ODg2Ng==*
 *uhttpsharp.*
 *uknowsec/TailorScan*
+*uks1.rel.tunnels.api.visualstudio.com*
 *UlBDIFNlcnZlciBIb3N0*
 *UlBDIFNlcnZlciBQb3J0*
 *Ullaakut/Gorsair*
@@ -20401,6 +20589,8 @@
 *use powershell_stageless*
 *use safetykatz*
 *use stager/*
+*use.rel.tunnels.api.visualstudio.com*
+*use2.rel.tunnels.api.visualstudio.com*
 *UseBeaconCmd*
 *uselistener dbx*
 *uselistener onedrive*
@@ -20455,6 +20645,8 @@
 *usr/bin/wget -O /tmp/a http* chmod 755 /tmp/cron*
 *usr/share/seclists*
 *usr/src/rusthound rusthound *
+*usw2.rel.tunnels.api.visualstudio.com*
+*usw3.rel.tunnels.api.visualstudio.com*
 *util.nimplant*
 *util/dot_net_deserialization/*
 *utils/payloads.db*
@@ -21098,6 +21290,7 @@
 *Y2F0Y2hldHVtYm90aWZ5b3VjYW4-*
 *yanncam/ShuckNT*
 *YaraFilters*lsassdump.yar*
+*yarrick/iodine*
 *yasserbdj96/hiphp*
 *yasserjanah/CVE-2020-5902*
 *YaWNdpwplLwycqWQDCyruhAFsYjWjnBA*
@@ -21271,6 +21464,8 @@ Get-NetGroup -FullData*
 getprivs
 get-spns *
 grab_token *
+https://transfer.sh/get/*/*.py*
+https://www.nirsoft.net/utils/webcamimagesave.zip
 hydra -*
 Impacket *
 impersonate *\*
@@ -21295,6 +21490,7 @@ masscan *
 memdump *
 memex /*.exe*
 memhunt *
+MTE2NTc2MDM5MjY5NDM1NDA2MA.GRSNK7.OHxJIpJoZxopWpF_S3zy5v2g7k2vyiufQ183Lo
 na.exe *
 nanodump*
 nc -vz *
