@@ -238,6 +238,7 @@
 .* broadcast-xdmcp-discover\.nse.*
 .* bropper\.py.*
 .* brute .* /password.*
+.* --bruteforce .*\.kdbx.*
 .* BruteForce\(.*
 .* --brute-ratel.*
 .* Brutesploit.*
@@ -497,6 +498,8 @@
 .* dns-cache-snoop\.nse.*
 .* dnscan\.py.*
 .* dns-check-zone\.nse.*
+.* dnschef\.exe.*
+.* dnschef\.py.*
 .* dns-client-subnet-scan\.nse.*
 .* dnscrypt-proxy.*
 .* dns-fuzz\.nse.*
@@ -559,6 +562,7 @@
 .* dropping source port zero packet from .*
 .* dump .* /service:.*
 .* dump --bucket .*--dump-dir.*
+.* --dump_file Keepass\.exe\.dmp.*
 .* dump_memory64.*
 .* --dump-adcs.*
 .* -DumpCerts .*
@@ -570,6 +574,7 @@
 .* --dumpmode network --network smb .*
 .* --dump-name .*lsass.*
 .* --dumpname lsass\.dmp.*
+.* DumpS1\.ps1.*
 .* duplicates\.nse.*
 .* -e bat com vbs ps1 psd1 psm1 pem key rsa pub reg txt cfg conf config .*
 .* -e pfx p12 pkcs12 pem key crt cer csr jks keystore key keys der .*
@@ -609,6 +614,7 @@
 .* evil\.corp .*
 .* EvilClippyManager.*
 .* evilginx.*
+.* EvilnoVNC.*
 .* EvilTwinServer .*
 .* -ExchHostname .* -Password .*
 .* --excludedcs.*
@@ -665,9 +671,14 @@
 .* -f shells/generic1\.ps1 .*
 .* -f tcpview\.exe -s iat_reverse_tcp_inline -H .* -P .* -m automatic -C.*
 .* -f TeamViewer\.exe -H .* -P .* -s .*
+.* --fakealias www\.fake\.com.*
 .* -FakeCmdLine .*
 .* -FakeCmdLine .*
 .* -FakeDC .* -SamAccountName .* -Username .*
+.* --fakedomains .*
+.* --fakeip .*
+.* --fakeipv6 .*
+.* --fakemail .*
 .* fcrdns\.nse.*
 .* --file ownedusers\.txt.*
 .* --file-smuggler-port .*
@@ -1052,6 +1063,7 @@
 .* install iodine.*
 .* install krbjack.*
 .* install nikto.*
+.* install tailscale.*
 .* install wapiti3.*
 .* install wfuzz.*
 .* install wordlists.*
@@ -1142,6 +1154,7 @@
 .* kalilinux/kali-rolling.*
 .* kdbof\.cpp.*
 .* keepass /unprotect.*
+.* KeePwn\.py.*
 .* KeeTheft\.exe.*
 .* kerberoast .*
 .* kerberoast .*
@@ -1421,6 +1434,7 @@
 .* --netcat-port .*
 .* netripper.*
 .* netscan\.exe .*
+.* net-vpn/tailscale.*
 .* --NewCertPath .*\.pfx --NewCertPassword .*
 .* NewLocalAdmin\(.*
 .* nexpose-brute\.nse.*
@@ -1598,6 +1612,7 @@
 .* pjl-info-config\.nse.*
 .* pjl-ready-message\.nse.*
 .* --plugin KeeFarceRebornPlugin\.dll.*
+.* --plugin KeeFarceRebornPlugin\.dll.*
 .* polenum\.py.*
 .* pop3-brute\.nse.*
 .* pop3-capabilities\.nse.*
@@ -1744,6 +1759,7 @@
 .* rusers\.nse.*
 .* rustbof .*
 .* rusthound\.exe.*
+.* rwf\.py .*
 .* -s .* -c command_exec --execute .*
 .* -s .* -c disable_wdigest .*
 .* -s .* -c disable_winrm .*
@@ -2049,6 +2065,8 @@
 .* -t donut .*
 .* -t pe2sh.*
 .* -t schtaskbackdoor .*
+.* tailscale\.exe.*
+.* tailscale-archive-keyring.*
 .* -Target .* -AllDomain .*
 .* -Target .* -InitialGrooms .*
 .* -Target .* -Shellcode .*
@@ -2331,6 +2349,7 @@
 .*\./redirector\.py .*
 .*\./rpcrt\.py.*
 .*\./rsocx -.*
+.*\./rwf\.py.*
 .*\./scan4all .*
 .*\./scan4all.*
 .*\./ScareCrow .*
@@ -2375,6 +2394,7 @@
 .*\.com/SecureAuthCorp.*
 .*\.com/SpiderLabs.*
 .*\.dev\.123456\..*
+.*\.dns2tcpdrc.*
 .*\.doc\.bat.*
 .*\.doc\.dll.*
 .*\.doc\.exe.*
@@ -2651,6 +2671,7 @@
 .*\.store\.123456\..*
 .*\.striker\.local.*
 .*\.support\.123456\..*
+.*\.tailscale-keyring\.list.*
 .*\.torproject\.org/.*/download/tor/.*
 .*\.txt shellcode hta.*
 .*\.txt shellcode macro.*
@@ -2694,6 +2715,7 @@
 .*/\.\./\.\./\.\./\.\./\.\./boot\.ini.*
 .*/\.aggressor\.prop.*
 .*/\.cme/cme\.conf.*
+.*/\.dns2tcprc.*
 .*/\.exegol/.*
 .*/\.local/share/pacu/.*
 .*/\.manspider/logs.*
@@ -3001,6 +3023,7 @@
 .*/BIFFRecordEncryption\.cs.*
 .*/bin/0d1n.*
 .*/bin/AceLdr.*
+.*/bin/bash -c .*php -q -S 0\.0\.0\.0:80 &.* > /dev/null 2>&1.*
 .*/bin/bash -c 'bash -i >& /dev/tcp/.*/.* 0>&1'.*
 .*/bin/fake-sms.*
 .*/bin/gorsair .*
@@ -3218,6 +3241,8 @@
 .*/chimera\.sh.*
 .*/chisel\.exe.*
 .*/chisel\.git.*
+.*/chisel/client/.*
+.*/chisel/server/.*
 .*/chisel@latest.*
 .*/chisel-darwin_amd64.*
 .*/chisel-freebsd.*
@@ -3267,6 +3292,7 @@
 .*/clown-newuser\.c.*
 .*/cmd/c2\.go.*
 .*/cmd/hades/.*
+.*/cmd/tailscaled.*
 .*/cmd_executor/.*\.go.*
 .*/cmd_log\.txt.*
 .*/cmd_stager.*
@@ -3473,6 +3499,7 @@
 .*/dcsync_.*\.txt
 .*/DeathStar/DeathStar\.py.*
 .*/deb\.parrot\.sh/.*
+.*/debian/dns2tcp.*
 .*/DebugAmsi\.git.*
 .*/decrypt-chrome-passwords.*
 .*/decrypted\.dmp.*
@@ -3496,6 +3523,7 @@
 .*/Dendron\.csproj.*
 .*/Dendron\.exe.*
 .*/Dendron\.sln.*
+.*/DeNiSe\.git.*
 .*/Dent/.*/Loader/Loader\.go.*
 .*/Dent/Dent\.go.*
 .*/Dent/Loader.*
@@ -3551,6 +3579,10 @@
 .*/DLL-Spoofer\.git.*
 .*/dns_grabber\..*
 .*/dns_spoof.*
+.*/dns2tcp\.git.*
+.*/dns2tcp/client/.*
+.*/dns2tcp/common/.*
+.*/dns2tcp/server.*
 .*/dns-blacklist\.nse.*
 .*/dns-brute\.nse.*
 .*/dns-cache-snoop\.nse.*
@@ -3559,6 +3591,12 @@
 .*/dnscat\.c.*
 .*/dnscat2\.git.*
 .*/dns-check-zone\.nse.*
+.*/dnschef\.exe.*
+.*/dnschef\.ini.*
+.*/dnschef\.log.*
+.*/dnschef\.py.*
+.*/dnschef-ng\.git.*
+.*/dnschef-ng/.*
 .*/dns-client-subnet-scan\.nse.*
 .*/dnscnc\.py.*
 .*/dnscrypt-proxy.*
@@ -3638,6 +3676,7 @@
 .*/dumpert\.c.*
 .*/Dumpert/.*
 .*/dumpmethod/.*\.py
+.*/DumpS1\.ps1.*
 .*/DumpShellcode/.*
 .*/DumpsterFire/.*
 .*/dumpweb\.log.*
@@ -3743,6 +3782,7 @@
 .*/evilginx.*
 .*/evilhost:.*
 .*/EvilLsassTwin/.*
+.*/EvilnoVNC\.git.*
 .*/EvilnoVNC\.git.*
 .*/evilqr\.git.*
 .*/evilscript\.ps1.*
@@ -4464,6 +4504,12 @@
 .*/keepass_discover\.py.*
 .*/keepass_discover_.*\.txt.*
 .*/keepass_trigger\.py.*
+.*/keepwn\.core.*
+.*/KeePwn\.git.*
+.*/KeePwn\.py.*
+.*/keepwn\.utils.*
+.*/KeePwn/keepwn/.*
+.*/KeePwn-0\.3/.*
 .*/KeeThief\.git.*
 .*/kekeo\.exe.*
 .*/kerberoast\..*
@@ -4491,6 +4537,7 @@
 .*/killav\.rb.*
 .*/KillDefenderBOF.*
 .*/kimi\.py.*
+.*/Kirby\.ps1.*
 .*/Kirby\.ps1.*
 .*/kismet.*
 .*/kismetwireless/.*
@@ -4895,11 +4942,21 @@
 .*/nje-node-brute\.nse.*
 .*/nje-pass-brute\.nse.*
 .*/nmap\.py.*
+.*/Nmap/folder/check15.*
+.*/Nmap/folder/check16.*
+.*/Nmap/folder/check17.*
 .*/nmap_smb_scan_all_.*\.txt.*
+.*/nmaplowercheck15.*
+.*/nmaplowercheck16.*
+.*/nmaplowercheck17.*
 .*/nmap-nse-scripts.*
 .*/nmap-scada.*
+.*/NmapUpperCheck15.*
+.*/NmapUpperCheck16.*
+.*/NmapUpperCheck17.*
 .*/nmap-vulners.*
 .*/nntp-ntlm-info\.nse.*
+.*/No-Consolation\.git.*
 .*/Nofault\.exe.*
 .*/NoFilter\.cpp.*
 .*/NoFilter\.exe.*
@@ -5483,6 +5540,7 @@
 .*/RogueWinRMdll.*
 .*/RogueWinRMexe.*
 .*/root/\.mozilla/firefox/.*\.Exegol.*
+.*/root/dns2tcp.*
 .*/root/output/ratchatPT.*
 .*/root/shellcode\.c.*
 .*/root/shellcode\.cpp.*
@@ -5876,6 +5934,7 @@
 .*/socks-auth-info\.nse.*
 .*/socks-brute\.nse.*
 .*/socks-open-proxy\.nse.*
+.*/sources\.list\.d/tailscale\.list.*
 .*/spacerunner\.exe.*
 .*/SpaceRunner\.git.*
 .*/SpamChannel\.git.*
@@ -5968,6 +6027,7 @@
 .*/stager/powershell/payload\.ps1.*
 .*/stagers/.*\.ps1.*
 .*/stagers/CSharpPS.*
+.*/start\.sh dynamic .*
 .*/start_campaign\.py.*
 .*/startProxyPool\?k=.*&random=n&number=2&ip=.*
 .*/startProxyPool\?k=.*&random=y&number=2.*
@@ -6020,6 +6080,19 @@
 .*/syswhispersv2.*
 .*/t3l3machus/Villain.*
 .*/taidoor\.profile.*
+.*/tailscale update.*
+.*/tailscale\.exe.*
+.*/tailscale/cli/.*
+.*/tailscale/client/.*
+.*/tailscale/clientupdate/.*\.go.*
+.*/tailscale:unstable.*
+.*/tailscale_.*_.*\.deb.*
+.*/tailscale_.*_.*\.tgz.*
+.*/tailscaled\.defaults.*
+.*/tailscaled\.go.*
+.*/tailscaled\.sock.*
+.*/tailscale-setup-.*-.*\.msi.*
+.*/tailscale-setup-.*\.exe.*
 .*/TakeMyRDP.*
 .*/Talon\.py.*
 .*/Talon/.*Agent/Source.*
@@ -6056,6 +6129,7 @@
 .*/telnet-encryption\.nse.*
 .*/telnet-ntlm-info\.nse.*
 .*/terminate/Terminator\.sys.*
+.*/test_tailscale\.sh.*
 .*/test32\.dll.*
 .*/test64\.dll.*
 .*/tests/NIST_CAVS/.*\.rsp.*
@@ -6114,6 +6188,7 @@
 .*/tmp/metasploit_install.*
 .*/tmp/p0f\.log.*
 .*/tmp/payload\.ps1.*
+.*/tmp/resolution\.txt.*server\.sh.*
 .*/tmp/scanrepo\.tar\.gz.*
 .*/tmp/smb_auth_temp_.*\.txt.*
 .*/tmp/truffleHog\.tar\.gz.*
@@ -6223,6 +6298,8 @@
 .*/var/lib/ptunnel.*
 .*/var/log/exegol/.*\.log.*
 .*/vas/fuzzers/fuzz/.*
+.*/VDR\.git.*
+.*/VDR-main\.zip
 .*/veeam_dump\.py.*
 .*/Vegile\.git.*
 .*/venom\.git.*
@@ -6515,6 +6592,8 @@
 .*\\\\.* create Service_.* binpath= `.*C:\\Windows\\System32\\cmd\.exe /c powershell\.exe -enc .*
 .*\\\\\.\\pipe\\mimi.*
 .*\\\\\.\\pipe\\pwned/pipe/srvsvc.*
+.*\\\\\.\\pipe\\tailscale-test.*
+.*\\\\\.\\pipe\\win-sux-no-async-anon-pipe-.*-.*
 .*\\\\:C.*
 .*\\\\\?\?\\\\Jormungandr.*
 .*\\\\\\\\.*\\\\.*\\\\Get-FileLockProcess\.ps1.*
@@ -6662,12 +6741,15 @@
 .*\\chimera\.py.*
 .*\\Chimera-main\\.*
 .*\\chisel\.exe.*
+.*\\chisel\\client\\.*
+.*\\chisel\\server\\.*
 .*\\chisel-master.*
 .*\\Chrome_pass\.db.*
 .*\\chromium_based_browsers\.py.*
 .*\\CIMplant\.exe.*
 .*\\CloakNDaggerC2.*
 .*\\cloud_enum\.py.*
+.*\\cmd\\tailscaled.*
 .*\\cme\.exe.* -d .* -u .* -H .*
 .*\\cme\.exe.* -d .* -u .* -p .*
 .*\\cme\.exe.* --shares.*
@@ -6730,7 +6812,15 @@
 .*\\DllExport\.bat.*
 .*\\DllExport\.bat.*
 .*\\DllVoidFunction\.txt.*
+.*\\dns2tcp\\.*
+.*\\dns2tcp\\server.*
+.*\\dns2tcp-0\..*
 .*\\dnscan\.py.*
+.*\\dnschef\.exe.*
+.*\\dnschef\.ini.*
+.*\\dnschef\.log.*
+.*\\dnschef\.py.*
+.*\\dnschef-ng\\.*
 .*\\dnscrypt-proxy.*
 .*\\dnsrecon\.py.*
 .*\\dnsrecon-subdomain-bruteforce\.py.*
@@ -6752,6 +6842,7 @@
 .*\\dumper\.ps1.*
 .*\\dumpert\..*
 .*\\Dumpert\\.*
+.*\\DumpS1\.ps1.*
 .*\\DumpShellcode.*
 .*\\dumpXor\.exe.*
 .*\\dumpXor\\x64\\.*
@@ -6787,6 +6878,7 @@
 .*\\EvilClippy.*
 .*\\evilclippy\.cs.*
 .*\\EvilnoVNC.*
+.*\\EvilnoVNC\\.*
 .*\\evilscript\.ps1.*
 .*\\evilSignatures\.db.*
 .*\\EvilSln\\.*\.suo.*
@@ -6969,6 +7061,10 @@
 .*\\kdstab\.exe.*
 .*\\keepass_discover\.py.*
 .*\\keepass_trigger\.py.*
+.*\\KeePwn\.py.*
+.*\\KeePwn\\keepwn\\.*
+.*\\KeePwn-0\.3\\.*
+.*\\KeePwn-main\\.*
 .*\\KeeTheft\.exe.*
 .*\\kekeo\.exe.*
 .*\\kerberoast\.c.*
@@ -6979,6 +7075,7 @@
 .*\\Keylogger\.txt.*
 .*\\KillDefender\.c.*
 .*\\KillDefender\.o.*
+.*\\Kirby\.ps1.*
 .*\\Kirby\.ps1.*
 .*\\kitten\.exe.*
 .*\\KittyStager.*
@@ -7110,6 +7207,7 @@
 .*\\nmap-telnet\.py.*
 .*\\nmap-tftp\.py.*
 .*\\nmap-vnc\.py.*
+.*\\No-Consolation\\source\\.*
 .*\\Nofault\.exe.*
 .*\\NoFilter\.cpp.*
 .*\\NoFilter\.exe.*
@@ -7425,6 +7523,15 @@
 .*\\Supershell\\rssh\\pkg\\.*
 .*\\system32\.zip.*
 .*\\systemic\.txt
+.*\\tailscale\.exe.*
+.*\\tailscale\\cli\\.*
+.*\\tailscale\\client\\.*
+.*\\tailscale\\clientupdate\\.*
+.*\\tailscale\\cmd\\.*
+.*\\tailscale_.*_.*\.deb.*
+.*\\tailscale_.*_.*\.tgz.*
+.*\\tailscaled\.go.*
+.*\\tailscale-setup-.*\.exe.*
 .*\\TakeMyRDP.*
 .*\\TASKSHELL\.EXE.*
 .*\\teams_localdb\.py.*
@@ -7432,6 +7539,8 @@
 .*\\teamstracker\.py.*
 .*\\Temp\\.*\\ntds\.dit.*
 .*\\Temp\\.*\\ntds\.jfm.*
+.*\\temp\\__SentinelAgentKernel\.dmp.*
+.*\\temp\\__SentinelAgentUser\.dmp.*
 .*\\TEMP\\AteraUpgradeAgentPackage\\.*
 .*\\temp\\dump\.txt.*
 .*\\Temp\\dumpert.*
@@ -7444,6 +7553,7 @@
 .*\\Temp\\tor\\torrc-.*
 .*\\Temp\\whoami\.txt.*
 .*\\Test\.PME
+.*\\test_tailscale\.sh.*
 .*\\TestNetConnectionCommand\.cs
 .*\\tests\\beacon64\.bin.*
 .*\\TGSThief\\.*
@@ -7500,6 +7610,7 @@
 .*\\uTorrent\\.*
 .*\\utweb\.exe.*
 .*\\UUID_bypass\.py.*
+.*\\VDR-main\.zip
 .*\\veeam_dump\.py.*
 .*\\VNC\\\.VNC-Non-Auth\.txt.*
 .*\\vncdll\.x64\.dll.*
@@ -7627,6 +7738,7 @@
 .*< /dev/console \| uudecode && uncompress.*
 .*<3 eo\.oe.*
 .*<CoffeLdr\.h>.*
+.*<h1>Hello from Tailscale</h1>.*
 .*<h2>Why pay us\?</h2>.*
 .*<SessionId>: list/steal token from specific session.*
 .*== NoPowerShell v.* ==.*
@@ -8219,6 +8331,7 @@
 .*AlessandroZ/BeRoot.*
 .*AlessandroZ/LaZagne.*
 .*alexa-top-20000-sites\.txt.*
+.*alex-sector/dns2tcp.*
 .*al-khaser.*
 .*---All Azure AD User Principal Names---.*
 .*All EDR drivers were successfully removed from Kernel callbacks!.*
@@ -8299,6 +8412,7 @@
 .*APIHookInjectorBin\.log.*
 .*APIHookInjectorBin\.pdb.*
 .*APIHookInjectorBin\.sln.*
+.*apk add tailscale.*
 .*apokryptein/secinject.*
 .*apop2john\.py.*
 .*app\.pentest-tools\.com.*
@@ -8311,6 +8425,7 @@
 .*applocker_enum.*
 .*applocker-enumerator.*
 .*apt install crunch.*
+.*apt install dns2tcp.*
 .*apt install gpp-decrypt.*
 .*apt install hyperion.*
 .*apt install polenum.*
@@ -9276,10 +9391,12 @@
 .*byt3bl33d3r.*
 .*byt3bl33d3r/BOF-Nim.*
 .*byt3bl33d3r/DeathStar.*
+.*byt3bl33d3r/dnschef-ng.*
 .*byt3bl33d3r/gcat.*
 .*byt3bl33d3r/ItWasAllADream.*
 .*byt3bl33d3r/pth-toolkit.*
 .*byt3bl33d3r/SpamChannel.*
+.*byt3bl33d3r@pm\.me.*
 .*-c /tmp/redsocks\.conf.*
 .*-c 854A20FB-2D44-457D-992F-EF13785D2B51.*
 .*-c BOF\.cpp -o BOF\.o.*
@@ -9721,6 +9838,7 @@
 .*cmd/merlinagent/.*
 .*cmd/merlinagentdll/.*
 .*cmd/setuid\.go.*
+.*cmd/tailscale.*
 .*cmd_executor .*
 .*cmd_powershell\.cpp.*
 .*cmd_shellcodex64\..*
@@ -9909,7 +10027,9 @@
 .*Confuser\.CLI\.exe.*
 .*Confuser\.DynCipher\.dll.*
 .*Confuser\.Renamer\.dll.*
+.*conhost\.exe .* --headless.*
 .*Connect-AzureAD -AadAccessToken -AccountId .*
+.*connected via tailscaled.*
 .*Connection refused: tcp_wrappers denial\..*
 .*Connection refused: too many sessions for this address\..*
 .*connormcgarr/tgtdelegation.*
@@ -9947,6 +10067,16 @@
 .*cookie-graber_x64\.exe.*
 .*Cookie-Graber-BOF.*
 .*CookieProcessor\.exe.*
+.*cooking A replies to point to .* matching: .*
+.*cooking AAAA replies to point to .* matching: .*
+.*cooking all A replies to point to .*
+.*cooking all AAAA replies to point to .*
+.*cooking all CNAME replies to point to .*
+.*cooking all MX replies to point to .*
+.*cooking all NS replies to point to .*
+.*cooking CNAME replies to point to .* matching: .*
+.*cooking MX replies to point to .* matching: .*
+.*cooking NS replies to point to .* matching: .*
 .*cool.*/cool\.zip.*
 .*CoolerVoid/0d1n.*
 .*coolv0\.1\.exe.*
@@ -10477,6 +10607,8 @@
 .*demo-controller\.exe .*
 .*Dendrobate-master.*
 .*dendron.*FileMonInject\.dll.*
+.*DeNiSe-master\.zip.*
+.*DeNiSePkg\.py.*
 .*deploycaptureserver\.ps1.*
 .*DeployPrinterNightmare\.exe.*
 .*DesertNut\.csproj.*
@@ -10692,6 +10824,16 @@
 .*dns_stager_subhost.*
 .*'dns_stager_subhost'.*
 .*DNS_TXT_Pwnage\.ps1.*
+.*dns2tcp-.*\.zip.*
+.*dns2tcp\.exe.*
+.*dns2tcp\.hsc\.fr.*
+.*dns2tcp\.kali\.org.*
+.*dns2tcp\.pid.*
+.*dns2tcpc -z .*
+.*dns2tcpc\.exe.*
+.*dns2tcpd --.*
+.*dns2tcpd -f .*
+.*dns2tcp-master.*
 .*dnsadmin_serverlevelplugindll\..*
 .*DNSAES256Handler\..*
 .*dns-beacon .*
@@ -10708,6 +10850,11 @@
 .*dnscat2-server.*
 .*dnscat2-win32\.exe.*
 .*dnschef --fakeip 127\.0\.0\.1 -q.*
+.*dnschef\.exe .*
+.*dnschef\.logger.*
+.*dnschef\.py .*
+.*dnschef\.utils.*
+.*dnschef-ng-main.*
 .*dnscmd \. /enumrecords /zone .*
 .*dnscmd \. /enumzones.*
 .*DNSCrypt client proxy.*
@@ -10751,6 +10898,7 @@
 .*dnsexfiltrator\..*
 .*DNSExfiltratorLib.*
 .*DNSListener\.py.*
+.*dnslog--airvent\.txt.*
 .*dnslytics-get-rootdomains.*
 .*dnsmastermind\.rb.*
 .*dnsmorph.*
@@ -11014,6 +11162,8 @@
 .*dumpntlm\.py.*
 .*DumpNTLMInfo\.py.*
 .*DumpProcessByName.*
+.*DumpProcessPid -targetPID .* -outputFile.*
+.*DumpSAM\.ps1.*
 .*DumpShellcode\..*
 .*DumpShellcode\.exe.*
 .*DumpShellcode\\.*
@@ -11178,6 +11328,8 @@
 .*Enable-SeAssignPrimaryTokenPrivilege.*
 .*Enable-SeDebugPrivilege.*
 .*Enable-SeDebugPrivilege.*
+.*EnableTailscaleDNSSettings.*
+.*EnableTailscaleSubnets.*
 .*encdatavault2john\.py.*
 .*encfs2john\.py.*
 .*encode baseImage\.jpg /etc/passwd newImage\.jpg.*
@@ -11242,6 +11394,12 @@
 .*Enumeration\\DesktopAC.*
 .*env_var_spoofing_poc\.cpp.*
 .*eo\.oe\.kiwi.*
+.*EoP PoC exploiting the AMD driver .*
+.*EoP PoC exploiting the Intel driver .*
+.*eop_pdfwkrnl\.py.*
+.*eop_pdfwkrnl_loop\.py.*
+.*eop_rtport\.py.*
+.*eop_stdcdrvws64\.py.*
 .*eppiocemhmnlbhjplcgkofciiegomcon.*
 .*erase_dos_magic_bytes\(.*
 .*Erebus/.*spacerunner.*
@@ -11307,6 +11465,9 @@
 .*EvilLsassTwin\.exe.*
 .*EvilLsassTwin\.nim.*
 .*evilmog/ntlmv1-multi.*
+.*EvilnoVNC by @JoelGMSec.*
+.*EvilnoVNC Server.*
+.*EvilnoVNC-main.*
 .*EvilnoVNC-main.*
 .*eviloffice\.exe.*
 .*EvilPayload\.ps1.*
@@ -11617,6 +11778,7 @@
 .*fierce --domain.* --dns-servers .*
 .*FiercePhish.*
 .*Fiesta Exploit Kit.*
+.*--file dnschef\.ini .*
 .*File_Smuggler_Http_Handler.*
 .*FILE_TO_EXFIL = .*.*
 .*FileControler/FileControler_x64\.dll.*
@@ -11800,6 +11962,7 @@
 .*--format-string ziiiiizzzib .*
 .*fortalice/bofhound.*
 .*fortra/impacket.*
+.*fortra/No-Consolation.*
 .*FortyNorthSecurity.*
 .*FortyNorthSecurity/CIMplant.*
 .*FortyNorthSecurity/FunctionalC2.*
@@ -12381,6 +12544,7 @@
 .*github\.com/rasta-mouse/.*
 .*github\.com/sensepost.*
 .*github\.com/SpiderLabs/.*
+.*github\.com/tailscale.*
 .*github\.io/weakpass/generator/.*
 .*GithubC2-main.*
 .*gitleaks detect.*
@@ -12922,6 +13086,7 @@
 .*http://127\.0\.0\.1/Renge_x64\.exe.*
 .*http://127\.0\.0\.1:3000/ui/panel.*
 .*http://127\.0\.0\.1:35000.*
+.*http://127\.0\.0\.1:4000.*
 .*http://127\.0\.0\.1:443/aaaaaaaaa.*
 .*http://127\.0\.0\.1:443/bbbbbbbbb.*
 .*http://127\.0\.0\.1:7444.*
@@ -12941,6 +13106,7 @@
 .*http://localhost:8000/emailviewer\.html.*
 .*http://localhost:8080.*
 .*http://localhost:9090/.*
+.*http://local-tailscaled\.sock.*
 .*http://shell:7681/token.*
 .*http://tarantula\.by\.ru/localroot/.*
 .*http://tarantula\.by\.ru/localroot/2\.6\.x/h00lyshit.*
@@ -13008,7 +13174,9 @@
 .*https://api\.hunter\.io/.*
 .*https://api\.my-ip\.io/ip.*
 .*https://api\.openai\.com/v1/files.*
+.*https://api\.tailscale\.com/api/v2/.*
 .*https://api\.telegram\.org/bot.*/sendMessage.*
+.*https://apps\.apple\.com/us/app/tailscale/id.*
 .*https://avred\.r00ted\.ch/upload.*
 .*https://bashupload\.com.*
 .*https://C2_SERVER_IP/.*
@@ -13036,6 +13204,7 @@
 .*https://itm4n\.github\.io/windows-registry-rpceptmapper-eop/.*
 .*https://kali\.download/.*
 .*https://localhost:7443/.*
+.*https://login\.tailscale\.com/admin/settings/keys.*
 .*https://mastodon\.be/@username_fzihfzuhfuoz/109994357971853428.*
 .*https://mastodon\.be/username_fzihfzuhfuoz/109743339821428173.*
 .*https://matrix\.org/_matrix/client/r0/rooms/.*/send/m\.room\.message.*
@@ -13043,6 +13212,7 @@
 .*https://pastebin\.com/raw/fevFJe98.*
 .*https://t\.me/BotFather.*
 .*https://t\.me/machine1337.*
+.*https://tailscale\.com/s/resolvconf-overwrite.*
 .*https://temp\.sh/.*/.*
 .*https://temp\.sh/upload.*
 .*https://tempsend\.com/.*
@@ -13264,6 +13434,7 @@
 .*import ShadowForgeHome.*
 .*import SimpleHTTPServer.*
 .*import Stager.*
+.*Import stealed session to Chromium\.\..*
 .*import udmp_parser.*
 .*import wapiti.*
 .*import wfuzz.*
@@ -13410,6 +13581,7 @@
 .*install tshark.*
 .*install udmp_parser.*
 .*install wapiti.*
+.*install -y tailscale.*
 .*install_aclpwn.*
 .*install_ad_apt_tools.*
 .*install_adidnsdump.*
@@ -13788,9 +13960,11 @@
 .*Invoke-MS16032.*
 .*Invoke-MS16135.*
 .*Invoke-MS16135\.ps1.*
+.*Invoke-MSSQLup.*
 .*Invoke-NamedPipePermissionsCheck.*
 .*Invoke-NanoDump.*
 .*Invoke-NanoDump.*
+.*Invoke-NETMongoose.*
 .*Invoke-NetRipper.*
 .*Invoke-NetworkAdaptersCheck.*
 .*Invoke-NetworkRelay.*
@@ -13802,6 +13976,7 @@
 .*Invoke-NinjaCopy.*
 .*Invoke-NinjaCopy.*
 .*Invoke-noPac\..*
+.*Invoke-NTDS\.ps1.*
 .*Invoke-NTLMAuth\.ps1.*
 .*Invoke-Ntsd\.ps1.*
 .*Invoke-Obfuscation -ScriptPath .*
@@ -13974,6 +14149,7 @@
 .*Invoke-SearchUserAttributes.*Search for terms across all user attributes in a directory.*
 .*Invoke-Seatbelt.*
 .*Invoke-Seatbelt.*
+.*Invoke-SecretsDump\.ps1.*
 .*Invoke-SecurityGroupCloner -Tokens .*
 .*Invoke-SecurityGroupCloner.*
 .*Invoke-SendMail -Targets.*
@@ -14041,6 +14217,7 @@
 .*Invoke-SharpRDP.*
 .*Invoke-SharpRDP.*
 .*Invoke-SharpRDP\.ps1.*
+.*Invoke-SharpRDPTest.*
 .*Invoke-SharpSCCM.*
 .*Invoke-SharpSCCM.*
 .*Invoke-SharpSecDump.*
@@ -14317,6 +14494,7 @@
 .*JNDI-Injection-Exploit.*
 .*Job killed and console drained.*
 .*JoelGMSec/EvilnoVNC.*
+.*JoelGMSec/EvilnoVNC.*
 .*JoelGMSec/PSRansom.*
 .*Joey is the best hacker in Hackers.*
 .*john .* --incremental.*
@@ -14452,8 +14630,21 @@
 .*KeePassConfig\.ps1.*
 .*-KeePassConfigTrigger.*
 .*keepass-password-dumper.*
+.*keepass-password-dumper.*
+.*KeePwn --.*
+.*KeePwn parse_dump .*
+.*KeePwn plugin .*
 .*KeePwn plugin add -u .* -p .* -d .* -t .*
 .*KeePwn plugin check -u .*
+.*KeePwn trigger .*
+.*KeePwn v.* - by Julien BEDEL.*
+.*keepwn\.__main__:main.*
+.*keepwn\.core\.parse_dump.*
+.*keepwn\.core\.plugin.*
+.*keepwn\.core\.search.*
+.*keepwn\.core\.trigger.*
+.*KeePwn\.py .*
+.*KeePwn-main\.zip.*
 .*KeeTheft/Dinvoke.*
 .*KeeThief.*
 .*KeeThief\..*
@@ -14550,6 +14741,7 @@
 .*Keylogger\.pdb.*
 .*Keylogger\.ps1.*
 .*keylogger\.py.*
+.*keylogger\.py.*
 .*keylogrecorder\.rb.*
 .*keylooger\.ps1.*
 .*keyring2john\.py.*
@@ -14587,6 +14779,7 @@
 .*KINGSABRI/ServerlessRedirector.*
 .*kintercept\.py.*
 .*kintercept\.py.*
+.*kiosk\.sh.*startVNC\.sh.*
 .*kirbi_to_hashcat\.py.*
 .*kirbi2john\..*
 .*kirbi2john\.py.*
@@ -14997,6 +15190,7 @@
 .*linux-exploit-suggester.*
 .*linux-exploit-suggester.*
 .*linux-exploit-suggester\.sh.*
+.*linuxfw\.TailscaleSubnetRouteMark.*
 .*linuxprivchecker.*
 .*linuxprivchecker.*
 .*linux-rds-exploit\.c.*
@@ -15098,6 +15292,7 @@
 .*LocalPotato-master.*
 .*localreconmodules.*
 .*localrelay_linux_amd64.*
+.*local-tailscaled\.sock.*
 .*locate password \| more.*
 .*LocateBrc4Config.*
 .*lochiccbgeohimldjooaakjllnafhaid.*
@@ -15108,6 +15303,7 @@
 .*log4shell.*\.nessus\.org.*
 .*log4shell\.py.*
 .*LoGiC\.NET\.exe.*
+.*login\.tailscale\.com.*
 .*loginsight\.thrift.*
 .*LogonPasswords\\.*-LogonPasswords\.txt.*
 .*LogonPasswords\\\.AllUniqueNTLM\.txt.*
@@ -15339,6 +15535,7 @@
 .*Md4-128\.unverified\.test-vectors\.txt.*
 .*Md5-128\.unverified\.test-vectors\.txt.*
 .*mDNSSpoofer.*
+.*mdornseif/DeNiSe.*
 .*MDSDLL_x64\.dll.*
 .*MDSDLL_x86\.dll.*
 .*mdsecactivebreach.*
@@ -15809,7 +16006,7 @@
 .*namespace SharpShares.*
 .*namespace WheresMyImplant.*
 .*namfblliamklmeodpcelkokjbffgmeoo.*
-.*namp .*--script .*
+.*nandydark/Linux-keylogger.*
 .*nanodump .*
 .*nanodump -.*
 .*nanodump\..*
@@ -16144,6 +16341,7 @@
 .*nmake inject_local .*
 .*nmap -.*
 .*nmap .* --script=.*\.nse.*
+.*nmap .*--script .*
 .*nmap -Pn -v -sS -F.*
 .*nmap-.*-setup\.exe.*
 .*nmap/ncrack.*
@@ -16159,6 +16357,13 @@
 .*no_session_payload\.rb.*
 .*NoApiUser\.exe.*
 .*noclient: failed to execute %s: %s.*
+.*noconsolation /tmp/.*
+.*noconsolation --local .*cmd\.exe.*
+.*noconsolation --local .*powershell\.exe.*
+.*No-Consolation\.cna.*
+.*NoConsolation\.x64\.o.*
+.*NoConsolation\.x86\.o.*
+.*No-Consolation-main.*
 .*node stealer\.js .*
 .*NoFault\\NoFault\..*
 .*NoFilter\.exe .*
@@ -16466,6 +16671,7 @@
 .*optiv/ScareCrow.*
 .*oracle_default_hashes\.txt.*
 .*oracle_default_passwords\.csv.*
+.*Orange-Cyberdefense/KeePwn.*
 .*Orange-Cyberdefense/LinikatzV2.*
 .*orbitaldump\.py.*
 .*orbitaldump/orbitaldump.*
@@ -16569,6 +16775,7 @@
 .*PackMyPayload\.py.*
 .*PackMyPayload-master.*
 .*pacman -S rustcat.*
+.*pacman -S tailscale.*
 .*pacu --exec .*
 .*pacu --list-modules.*
 .*pacu --module-args=.*
@@ -16878,6 +17085,7 @@
 .*ping-sweep.*
 .*PinoyWH1Z/AoratosWin.*
 .*PinoyWH1Z/AoratosWin.*
+.*pip install dnschef.*
 .*pip install exegol.*
 .*pip install hiphp.*
 .*pip install rarce.*
@@ -16904,6 +17112,8 @@
 .*pivots/named-pipe_windows\.go.*
 .*-pk8gege\.org.*
 .*pkexec64\.tar\.gz.*
+.*pkgctl-Tailscale\.service.*
+.*pkgs\.tailscale\.com/.*/.*
 .*PKINITtools\.git.*
 .*pkt_comm/word_gen\..*
 .*pkt_comm/word_list.*
@@ -17893,6 +18103,7 @@
 .*rclone\.exe config create remote mega user .*
 .*rclone\.exe.* copy .*:.*
 .*rclone\.exe.* -l .* .*:.*
+.*rc-update add tailscale.*
 .*RDE1-main\.zip.*
 .*rdi_net_user\.cpp.*
 .*rdp_check\.py.*
@@ -18169,6 +18380,8 @@
 .*replace_video_fake_plugin.*
 .*RequestAsPython-PowerShell\.py.*
 .*reshacker_setup\.exe.*
+.*resolv\.pre-tailscale-backup\.conf.*
+.*resolv\.tailscale\.conf.*
 .*ResourceDevelopment_EstablishAccounts_RGPerson\.py.*
 .*ResourceDevelopment_Server_DNSLog\.py.*
 .*ResourceDevelopment_Server_LDAPServer\.py.*
@@ -18788,6 +19001,7 @@
 .*serverscan64 .*tcp.*
 .*serverscan86 .*
 .*Server-Side-Request-Forgery-Payloads\..*
+.*service tailscaled .*
 .*service/executable/
 .*service/executable/compile\.exe.*
 .*service::me.*
@@ -18801,6 +19015,7 @@
 .*service_permissions_escalate\.rb.*
 .*ServiceHavoc\.exe
 .*servicemove.*hid\.dll.*
+.*Serving Tailscale web client on http://.*
 .*servpw\.exe.*
 .*servpw64\.exe.*
 .*SessionGopher.*
@@ -19321,6 +19536,7 @@
 .*shinject .*
 .*shinject\.nim.*
 .*shinject_ex .*
+.*shit\.fuck\.org.*
 .*shocknawe\.py.*
 .*Shodan\.io.*
 .*shodanp\.py.*
@@ -19586,6 +19802,7 @@
 .*SOFTWARE\\WOW6432Node\\FreeFileSync.*
 .*Soledge/BlockEtw.*
 .*solo_mine_example\.cmd.*
+.*something\.wattahog\.org.*
 .*souravbaghz/RadareEye.*
 .*source/avetsvc\.c.*
 .*source/byakugan.*
@@ -19875,6 +20092,7 @@
 .*starting Multi-Layered ACLight scan.*
 .*Starting port scan for .*
 .*Starting share enumeration against .* hosts.*
+.*Starting tailscaled.*
 .*-start-keylogger.*
 .*start-keystrokes.*
 .*start-keystrokes-writefile.*
@@ -19961,6 +20179,7 @@
 .*sudo LD_PRELOAD=/tmp/preload\.so find.*
 .*sudo -nS id' && lse_sudo=true.*
 .*sudo rmmod -r.*
+.*sudo tailscale up.*
 .*sudo tmux new -s icebreaker.*
 .*sudo_inject.*
 .*SUDO_KILLER.*
@@ -20048,11 +20267,13 @@
 .*SySS-Research.*
 .*SySS-Research/Seth.*
 .*system rm -f /current/tmp/ftshell\.latest.*
+.*System token is copied to the current process\. Executing cmd\.exe\.\..*
 .*System\.DirectoryServices\.AccountManagement\.GroupPrincipal.*FindByIdentity.*D
 .*SYSTEM\\CurrentControlSet\\Services\\dcrypt.*
 .*System32fileWritePermissions\.txt.*
 .*systemctl disable cbdaemon.*
 .*systemctl disable falcon-sensor\.service.*
+.*systemctl enable --now tailscaled.*
 .*systemctl start nessusd.*
 .*systemctl stop cbdaemon.*
 .*systemctl stop falcon-sensor\.service.*
@@ -20078,9 +20299,39 @@
 .*TailorScan_netbsd_.*
 .*TailorScan_openbsd_.*
 .*TailorScan_windows_.*\.exe.*
+.*tailscale ip -4.*
+.*Tailscale is not running.*
+.*tailscale ping -.*
+.*tailscale serve -.*
+.*tailscale set --auto-update.*
+.*Tailscale SSH is .*
 .*tailscale up --advertise-routes=.*/24.*
+.*tailscale up --login-server=.*
+.*Tailscale was already stopped.*
+.*tailscale\.com/install\.sh.*
+.*tailscale\.com/logger\.Logf.*
+.*tailscale\.exe .*
+.*tailscale/go/releases/download/.*
+.*tailscale/net/dns/
+.*tailscale/tailscale\.go.*
+.*tailscale\\net\\dns.*
+.*tailscale\\scripts\\installer\.sh.*
+.*tailscale\\tailscale\.go.*
+.*Tailscaled exited.*
 .*tailscaled --tun=userspace-networking --socks5-server=.*
+.*tailscaled\.exe.*
+.*tailscaled\.log.*
+.*tailscaled\.openrc.*
+.*tailscaled\.sh.*
+.*tailscaled\.stdout\.log.*
+.*tailscaled_notwindows\.go.*
+.*tailscale-ipn\.exe.*
+.*tailscale-ipn\.log\.conf.*
+.*tailscale-setup-.*\.exe .*
+.*tailscale-setup-full-.*\.exe.*
+.*TakahiroHaruyama/VDR.*
 .*take_shellcode\.bat.*
+.*TakeDump -SentinelHelper .* -ProcessId .* -User .* -Kernel .*
 .*TakeMyRDP.*logfile\.txt.*
 .*TakeMyRDP\.cpp.*
 .*TakeMyRDP\.exe.*
@@ -20456,6 +20707,7 @@
 .*trustedsec/unicorn.*
 .*TryCatchHCF.*
 .*Trying anon RCE using .* for .*
+.*Trying to dump SentinelAgent to .*
 .*ts\.php.*vi\.txt.*
 .*ts::logonpasswords.*
 .*ts::mstsc.*
@@ -20573,6 +20825,7 @@
 .*untested_payloads\.rb.*
 .*UnwindInspector\.exe.*
 .*Update-ExeFunctions.*
+.*Updating Tailscale from .*
 .*updog --.*
 .*updog -d /.*
 .*updog -p .*
@@ -21319,6 +21572,7 @@
 .*ysoserial\.net.*
 .*ysoserial\.sln.*
 .*ytisf/PyExfil.*
+.*yum\.repos\.d/tailscale\.repo.*
 .*yunuscadirci/CallStranger.*
 .*Yuuup!! Pass Cracked.*
 .*YwBhAGwAYwA=.*
