@@ -59,7 +59,6 @@ However, if you're developing public "red team tools", consider aiding the blue 
   - 🛠️ `offensive tool keyword`: These keywords relate to offensive tools or exhibit high confidence of malicious intent. It's crucial that these terms hold relevance and reliability in detecting potential threats (low false positive rate)
   - 🛠️ `greyware tool keyword`: Keywords in this category correspond to 'legitimate' tools that are abused by malicious actors. As these tools also have legitimate uses, the potential for false positives is inherently higher. It's important to interpret these results with the understanding that not all detections may signify malicious activity
   - 🛠️ `signature keyword`: These keywords may not directly associate with tools but may include security product signature names, specific strings, or words significant in threat detection.
-  - `lolbas keyword`: `work in progress, not included in the public lookup` will include all lolbas commands exploitations techniques that can fit in the lookup without the correlation of multiple fields or events.
 - `metadata_tool`: Name of the tool we want to detect
 - `metadata_description`: description of the tool we want to detect
 - `metadata_tool_techniques`: MITRE techniques related to the tool we want to detect
