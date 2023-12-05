@@ -30,6 +30,8 @@
 - [All keywords only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords.txt)
 - [All keywords regex only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords_regex.txt)
 - [Powershell script to hunt in files](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/DFIR_hunt_in_file.ps1)
+- [Yara Rules](https://github.com/mthcht/ThreatHunting-Keywords-yara-rules/tree/main/yara_rules)
+- [Sigma Rules](https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules)
 
 ### For the blueteam:
 This List can be valuable for ThreatHunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
