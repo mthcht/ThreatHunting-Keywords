@@ -26,9 +26,12 @@
 - [Greyware tools keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/greyware_tool_keyword.csv)
 - [Offensive tools keywords](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv)
 - [Signature keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv)
+- [individual tools (one csv file by tool)](https://github.com/mthcht/ThreatHunting-Keywords/tree/main/tools)
 - [All keywords only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords.txt)
 - [All keywords regex only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords_regex.txt)
 - [Powershell script to hunt in files](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/DFIR_hunt_in_file.ps1)
+- [Yara Rules](https://github.com/mthcht/ThreatHunting-Keywords-yara-rules/tree/main/yara_rules)
+- [Sigma Rules](https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules)
 
 ### For the blueteam:
 This List can be valuable for ThreatHunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
@@ -59,7 +62,6 @@ However, if you're developing public "red team tools", consider aiding the blue 
   - 🛠️ `offensive tool keyword`: These keywords relate to offensive tools or exhibit high confidence of malicious intent. It's crucial that these terms hold relevance and reliability in detecting potential threats (low false positive rate)
   - 🛠️ `greyware tool keyword`: Keywords in this category correspond to 'legitimate' tools that are abused by malicious actors. As these tools also have legitimate uses, the potential for false positives is inherently higher. It's important to interpret these results with the understanding that not all detections may signify malicious activity
   - 🛠️ `signature keyword`: These keywords may not directly associate with tools but may include security product signature names, specific strings, or words significant in threat detection.
-  - `lolbas keyword`: `work in progress, not included in the public lookup` will include all lolbas commands exploitations techniques that can fit in the lookup without the correlation of multiple fields or events.
 - `metadata_tool`: Name of the tool we want to detect
 - `metadata_description`: description of the tool we want to detect
 - `metadata_tool_techniques`: MITRE techniques related to the tool we want to detect
