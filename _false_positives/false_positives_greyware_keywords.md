@@ -48,5 +48,5 @@ Windows default dump location after a crash, exclude Image `C:\windows\System32\
 Kaspersky kavfswp.exe changed whoami.exe file creation time
 - Sysmon EventID 2
 - process: `C:\Program Files (x86)\Kaspersky Lab\Kaspersky Security for Windows Server\kavfswp.exe`
-- target file_path: `C:\Windows\SysWOW64\whoami.exe`
+- target file_path: `C:\Windows\SysWOW64\whoami.exe` OR `C:\Windows\System32\whoami.exe`
 - user: `NT AUTHORITY\SYSTEM`
