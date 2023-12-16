@@ -40,3 +40,13 @@ exclude CommandLine = `"*\Users\*\MobaXterm\slash\bin\MobaSCP.exe" -v -batch -sc
 ### Keyword: `*C:\Windows\MEMORY.DMP*`
 
 Windows default dump location after a crash, exclude Image `C:\windows\System32\smss.exe` OR `C:\windows\system32\WerFault.exe` with file_path `C:\Windows\MEMORY.DMP`
+
+---
+
+### Keyword: `*whoami*`
+
+Kaspersky kavfswp.exe changed whoami.exe file creation time
+- Sysmon EventID 2
+- process: `C:\Program Files (x86)\Kaspersky Lab\Kaspersky Security for Windows Server\kavfswp.exe`
+- target file_path: `C:\Windows\SysWOW64\whoami.exe` OR `C:\Windows\System32\whoami.exe`
+- user: `NT AUTHORITY\SYSTEM`
