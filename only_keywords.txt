@@ -751,6 +751,9 @@ afrog -*
 *TrojanSpy.Win64*
 *TrojanSpy:MSIL/JSSLoader*
 *TrojanSpy:MSIL/JSSLoader*
+*VirTool*RemoteExec*
+*impacket*
+*MSFPsExeCommand*
 *VirTool:MSIL*
 *VirTool:PowerShell/Dipadz.*
 *VirTool:Win32*
@@ -782,6 +785,7 @@ afrog -*
 *\Prefetch\ANYDESK.EXE*
 *HKCR\.anydesk\*
 *\adprinterpipe*
+*boot.net.anydesk.com*
 *https://anymailfinder.com/search/*
 */AoratosWin/*
 *\AoratosWin*
@@ -858,6 +862,11 @@ afrog -*
 *http*/agent-api-*.atera.com*
 *Monitoring & Management Agent by ATERA*
 *SOFTWARE\ATERA Networks\AlphaAgent*
+*AgentPackageRunCommandInteractive\log.txt*
+*AgentPackageInternalPooler\log.txt*
+*AteraSetupLog.txt*
+*\Program Files\Atera Networks*
+*\Program Files (x86)\Atera Networks*
 *AtlasC2*APIModels*
 *AtlasC2*Client*
 *AtlasC2*implant*
@@ -13131,6 +13140,9 @@ nc -vz *
 * -p test_passwords.txt*
 * rdp * -u * -p * --nla-screenshot*
 * run netexec *
+*nxc smb *.txt -u *
+*nxc smb *.csv -u *
+*nxc smb * -x whoami*
 * run nxc smb *
 * smb * -M lsassy*
 * smb * -M masky -o CA=*
@@ -13341,6 +13353,11 @@ nc -vz *
 *taskkill /F /T /IM keepass.exe /FI*
 *veeam_dump_mssql.ps1*
 *veeam_dump_postgresql.ps1*
+*ldap as ldap_impacket*
+*No unixUserPassword Found*
+*impacket.ldap*
+*get-userPassword.py*
+*get-unixUserPassword.py*
 */Net-GPPPassword.git*
 *Net-GPPPassword.cs*
 *Net-GPPPassword.exe*
@@ -16859,6 +16876,7 @@ Get-ADUser -Filter {TrustedForDelegation -eq $True}
 Get-DomainComputer -TrustedToAuth
 Get-DomainUser -TrustedToAuth
 Get-GPO -All
+*Get-DhcpServerv4Scope | Set-DhcpServerv4OptionValue -DnsServer *
 Get-NetGroup -FullData*
 powershell.exe -nop -c "start-job *Import-Module BitsTransfer*$env:temp*GetRandomFileName()*Start-BitsTransfer -Source 'http*Remove-Item*Receive-Job*
 Set-ADObject -SamAccountName * -PropertyName scriptpath -PropertyValue *\*.exe*
@@ -17179,6 +17197,20 @@ Set-ADObject -SamAccountName * -PropertyName scriptpath -PropertyValue *\*.exe*
 *PrivescCheckAsciiReport*
 *Test-DllExists*
 *Test-HijackableDll*
+*PointAndPrint.ps1*
+*\src\check\Credentials.ps1*
+*Get-LolDrivers *
+*Password*S3cr3tS3rvic3*
+*Password*S0urce0fThePr0blem*
+*$LolDriversVulnerable*
+*Invoke-CcmNaaCredentialsCheck*
+*MISC_HIJACKABLE_DLL*
+*Invoke-RegistryAlwaysInstallElevatedCheck*
+*Invoke-AirstrikeAttackCheck*
+* Get-ServiceFromRegistry -Name Spooler*
+*\PrivescCheck_*
+* -Report PrivescCheck_*
+*Microsoft\Windows\Recent\PrivescCheck*
 * --attacker-host *
 * --attacker-port *
 */PrivExchange*
@@ -20463,6 +20495,17 @@ sniffer -*
 *Splashtop-Splashtop Streamer-*
 *SplashtopStreamer3500.exe* prevercheck *
 *www.splashtop.com/remotecaRemoveVRootsISCHECKFORPRODUCTUPDATES*
+*\Splashtop\Temp\log\FTCLog.txt*
+*Splashtop Remote\Server\log\agent_log.txt*
+*Splashtop Remote\Server\log\SPLog.txt*
+*Splashtop Remote\Server\log\svcinfo.txt*
+*Splashtop Remote\Server\log\sysinfo.txt*
+*Program Files (x86)\Splashtop*
+*/SplashtopStreamer/SPLog.txt*
+*/Library/Logs/SPLog.txt*
+*SplashtopStreamer.*.exe*
+*\WOW6432Node\Splashtop Inc.\Splashtop Remote Server*
+*\Splashtop\Temp\*
 * --payload-file pwn.bat*
 * --UserName * --Password * --Payload *.exe*
 */splunk_whisperer.git*
@@ -23009,3 +23052,254 @@ rawshark -*
 * s3://sshx/*
 * --bin sshx-server*
 *.vm.sshx.internal:8051*
+*https://sshx.io/s/*
+*\wstunnel\certs\*
+*/wstunnel/certs/*
+*wstunnel*cert.pem*
+*wstunnel*key.pem*
+*erebe/wstunnel*
+*/wstunnel.git*
+*wstunnel/pkgs/container/wstunnel*
+*wstunnel_*_windows_amd64.tar.gz*
+*wstunnel_*_windows_386.tar.gz*
+*wstunnel_*_linux_armv7.tar.gz*
+*wstunnel_*_linux_arm64.tar.gz*
+*wstunnel_*_linux_amd64.tar.gz*
+*wstunnel_*_darwin_amd64.tar.gz*
+*7a51ed902fc804066c4617af21d0325cceebce588ca66709c697916ce5214e64*
+*7cda14dc04bb731f09880db6310c9d9d4ee96176931627f322ec725cde6bd18b*
+*f7267a8880e45961219a6204a3a8ae5fff31e495f3f930e487f80cf89850f16f*
+*2ab5af4a7fa7d14b4a4facef9b4d80bd3ada7e20c36712ece61ce9c294107745*
+*9ad6daccfd1d3d349a93950f599eed59280268431d76bad7fc624d4cd4c565a5*
+*4e6e01948bbd969f58b1535f30efc9b75c63e0d362b9487b9ea8ebe768ce893e*
+*\wstunnel.exe
+*/wstunnel.exe
+*wstunnel.exe *
+* wstunnel.exe*
+*wstunnel client *
+* --local-to-remote tcp://*
+* --local-to-remote udp://*
+* --local-to-remote socks5://*
+* --local-to-remote tproxy+tcp://*
+* --local-to-remote tproxy+udp://*
+* --local-to-remote stdio://*
+* --remote-to-local tcp://*
+* --remote-to-local udp://*
+* --remote-to-local socks://*
+*wstunnel server *
+* wss://0.0.0.0:*
+* ws://[::]:*
+*/wstunnel:latest*
+* client -L socks5://*
+* --connection-min-idle * ws://*
+*curl -x socks5h://127.0.0.1:*
+*ssh -o ProxyCommand="wstunnel*
+* client -L stdio://* ws:/*
+* server wss://[::]:*
+*wstunnel* --restrict-to 127.0.0.1:22*
+* client -L tcp://* wss://*
+* --restrict-to localhost:* wss://*
+* client -L 'udp://* wss://*
+* client -L 'tproxy+tcp://* -L 'tproxy+udp://*
+* client -R 'tcp://[::]:*
+*h3GywpDrP6gJEdZ6xbJbZZVFmvFZDCa4KcRd*
+* client --http-upgrade-path-prefix *wss*
+* server --restrict-http-upgrade-path-prefix *wss*
+*target/debug/wstunnel*
+*/wstunnel wstunnel*
+*/home/app/wstunnel*
+*://wstunnel.server.com*
+*Cannot start wstunnel server:*
+*Starting wstunnel server v*
+*https://app.action1.com/agent/*/Windows/*.msi*
+*action1_agent.exe*
+*C:\Windows\Action1\*
+*\ACTION1_AGENT.EXE-*
+*\Action1\scripts\Run_PowerShell_*
+*_renamed_by_Action1*
+*'Company'>Action1 Corporation*
+*\Action1\CrashDumps*
+*\Action1\7z.dll*
+*action1_agent.exe.connection*
+*Action1\batch_data\Run_Script__*
+*Action1\first_install.tmp*
+*\action1_log_*.log*
+*Action1\what_is_this.txt*
+*C:\Windows\System32\config\systemprofile\AppData\Local\Action1*
+*\Windows\Action1\scripts\*
+*server.action1.com*
+*/action1_agent(My_Organization).msi*
+*\action1_agent(My_Organization).msi*
+*Action1 Endpoint Security*
+*Action1 Corporation*
+*action1_remote.exe*
+*action1_update.exe*
+*\Action1\Agent\Certificate*
+*CurrentControlSet\Services\A1Agent*
+*InventoryApplicationFile\action1_agent.ex*
+*InventoryApplicationFile\action1_remote.e*
+*Action1*'DestinationPort'>22543*
+*\Action1\package_downloads*
+*a1-server-prod-even.action1.com*
+*Unit-259/DataBouncing*
+*/DataBouncing.git*
+*DataBouncing-main.zip*
+*/nightCrawler.ps1*
+*\nightCrawler.ps1*
+* nightCrawler.ps1*
+*nightCrawler.ps1 *
+* wget "https://*/interactshbuild*
+*irm unit259.fyi/dbgui | iex*
+*exfil -regex* -domain*-url * -filepath *
+*/deadPool.ps1*
+*\deadPool.ps1*
+* deadPool.ps1*
+*Find-Secret -FilePath ./logs.txt -Regex *
+*bash ./bounce.sh*
+*https://unit259.fyi/db*
+*\exfilGui.ps1*
+*/exfilGui.ps1*
+* exfilGui.ps1*
+*clndh3qilvdv6403g1n0hs3rhd6xpfmjn.oast.online*
+*EFIGUARD_BACKDOOR_VARIABLE_NAME*
+*roodkcaBdrauGifE*
+*Protocol/EfiGuard.h*
+*\EfiGuardDxe.h*
+*/UefiShell.iso*
+*\UefiShell.iso*
+* UefiShell.iso*
+*\EfiGuardDxe.c*
+*/EfiGuardDxe.c*
+*/EfiDSEFix.exe*
+*\EfiDSEFix.exe*
+*EfiDSEFix.exe *
+*/EfiDSEFix.cpp*
+*\EfiDSEFix.cpp*
+* EfiDSEFix.cpp*
+*\EfiGuard.sln*
+*/EfiGuard.sln*
+*\EfiGuardDxe\X64\*
+*D7484EBA-6357-4D81-B355-066E28D5DF72*
+*0E4BAB8F-E6E0-47A8-8E99-8D451839967E*
+*B2924789-9912-4B6F-8F7B-53240AC3BA0E*
+*EfiGuard-v1.4.zip*
+*\Boot\EfiGuardDxe.efi*
+*EfiGuard-v1.3.zip*
+*EfiGuard-v1.2.zip*
+*EfiGuard-v1.1.zip*
+*EfiGuard-v1.5.zip*
+*Wra7h/SingleDose*
+*/SingleDose.git*
+*\SingleDose-main.zip*
+*5FAC3991-D4FD-4227-B73D-BEE34EB89987*
+*C0E67E76-1C78-4152-9F79-FA27B4F7CCCA*
+*4D7AEF0B-5AA6-4AE5-971E-7141AA1FDAFC*
+*PoisonTendy.dll*
+*\SingleDose.sln*
+*\SingleDose.csproj*
+*\PoisonTendy\Invokes\*
+*\Payloads\*.bin*
+*\SingleDose.exe*
+*GoTo MyPC Installer.exe*
+*\Citrix\GoToMyPc\FileTransfer\history*
+*\Citrix\GoToMyPc\GuestInvite*
+*\WOW6432Node\Citrix\GoToMyPc*
+*\GoTo\Logs\goto.log*
+*G2MScrUtil64.exe*/cr*
+*g2mui.exe*/cr*
+*GoToScrUtils.exe*/cr*
+*ApplicationName'>GoToMyPC Viewer*
+*cf3de8f800852490f39fdacbe74627564494235f*
+*api-telemetry.servers.getgo.com*
+*launcher-rest-new.live.corecollab.ucc-prod.eva.goto.com*
+*ApplicationName'>GoTo Opener*
+*ApplicationName'>GoToMyPC Communications*
+*ApplicationName'>GoToMyPC Host Launcher*
+*\GoTo Opener.exe*
+* gotoopener://launch.getgo.com/*
+*\gotomypc_3944.exe*
+*\AppData\Local\GoToMyPC\*
+* DownloadServer=https://www.gotomypc.com *
+* LoggingServer=logging.getgo.com ProxyHost=*
+*=http://www.gotomypc.com/downloads/viewer *
+*\AppData\Local\Temp\*\gosetup.exe*
+*PollServer poll.gotomypc.com*
+*\AppData\Local\Temp\*\GoToOpener.msi*
+*\Local\Temp\LogMeInLogs\GoToOpenerMsi\*
+*GoTo Opener.exe *
+*\GoToOpener[1].msi*
+*\gosetup[1].exe*
+*\goLoader.exe*
+*\GoToOpener.log*
+*\LogMeInLogs\GoToOpenerMsi*
+*GOTO MYPC INSTALLER.EXE-*.pf*
+*GOTO OPENER.EXE-*.pf*
+*ServiceName'>GoToMyPC*
+*\program files (x86)\gotomypc\g2tray.exe*
+*\GoToMyPC\g2svc.exe*
+*\gotomypc\g2pre.exe*
+*Goto.exe*?type=crashpad-handler*
+*\GoToMyPC\*\*\g2ldr.log*
+*\gotomon_x64.dll*
+*\gotomon.dll*
+*\GoToMyPCCrashHandler.exe*
+*\ICON_ID_GOTOMYPC*
+*\Programs\GoToMyPC.lnk*
+*\x64\monblanking.sys*
+*\novaPDF11OEM(x64).msi*
+*novaPDF11PrinterDriver(x64).msi*
+*\GoToMyPC.cab*
+*GoToMyPC_Setup.log*
+*GoToMyPCSetup_x64.msi*
+*GoToMyPC_Installation.log*
+*<Data>Installed GoToMyPC</Data>*
+*HKLM\SOFTWARE\TeamViewer*
+*download.teamviewer.com.cdn.cloudflare.net*
+*client.teamviewer.com*
+*\TeamViewer_Service.exe*
+*\Program Files\TeamViewer*
+*\TeamViewer.exe*
+*TeamViewer VPN Adapter*
+*TeamViewerMeetingAddinShim64.dll*
+*TeamViewerMeetingAddIn.dll*
+*TeamViewerMeetingAddinShim.dll*
+*\TvGetVersion.dll*
+*TeamViewer\tv_x64.exe*
+*TeamViewer\tv_x64.dll*
+*TeamViewer_Hooks.log*
+*TeamViewer15_Logfile.log*
+*TEAMVIEWER.EXE-*.pf*
+*TEAMVIEWER_.EXE-*.pf*
+*TEAMVIEWER_DESKTOP.EXE-*.pf*
+*TEAMVIEWER_SERVICE.EXE-*.pf*
+*TEAMVIEWER_SETUP_X64.EXE-*.pf*
+*\Windows\Temp\TeamViewer*
+*\AppData\Roaming\TeamViewer*
+*\RemoteSupport\127.0.0.1.tvc*
+*\TVNetwork.log*
+*TeamViewer_XPSDriverFilter*
+*\TVWebRTC.dll*
+*TeamViewer_Setup_x64.exe*
+*\TeamViewer.exe*
+*\TeamViewerTermsOfUseAccepted*
+*\CurrentControlSet\Services\TeamViewer*
+*TeamViewer_Desktop.exe*
+*TeamViewer\tv_w32.exe*
+*\Software\TeamViewer\Temp*
+*\teamviewer_note.exe*
+*TeamViewer_VirtualDeviceDriver*
+*\TeamViewerSession\shell\open*
+*TeamViewer\TVNetwork.log*
+*\TVExtractTemp\TeamViewer_Resource_*
+*TeamViewer15_Logfile.log*
+*AppData\Local\Temp\TeamViewer*
+*\TV15Install.log*
+*teamviewervpn.sys*
+*AppData\Roaming\Microsoft\Windows\SendTo\TeamViewer.lnk*
+*MRU\RemoteSupport\127.0.0.1.tvc*
+*\TeamViewer\Connections.txt*
+*\Users\Public\Desktop\TVTest.tmp*
+*\TeamViewer_.ex*
+*\TVExtractTemp\tvfiles.7z*
+*\TeamViewer\Connections_incoming.txt*
+*.router.teamviewer.com*
