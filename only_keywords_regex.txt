@@ -21416,8 +21416,8 @@
 .*SigPloit.*
 .*sigthief\.exe\.manifest.*
 .*SigThief\.py.*
-.*sigthief\.py.*
 .*Sigthief\.py.*
+.*sigthief\.py.*
 .*SigThief-master.*
 .*sigwhatever\.exe.*
 .*SilenceDefender\.ps1.*
