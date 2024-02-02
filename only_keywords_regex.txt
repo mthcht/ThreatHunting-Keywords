@@ -2634,6 +2634,7 @@
 .*\.doc\.dll.*
 .*\.doc\.exe.*
 .*\.doc\.htm.*
+.*\.doc\.iso.*
 .*\.doc\.jar.*
 .*\.doc\.js.*
 .*\.doc\.sfx.*
@@ -2642,6 +2643,7 @@
 .*\.docx\.dll.*
 .*\.docx\.exe.*
 .*\.docx\.htm.*
+.*\.docx\.iso.*
 .*\.docx\.jar.*
 .*\.docx\.js.*
 .*\.docx\.sfx.*
@@ -2794,6 +2796,8 @@
 .*\.imap\.123456\..*
 .*\.img\.123456\..*
 .*\.interactsh\.com
+.*\.jpg\.exe.*
+.*\.jpg\.iso.*
 .*\.kb\.123456\..*
 .*\.kerberoast\.txt.*
 .*\.kirbi .*
@@ -2814,6 +2818,7 @@
 .*\.pdf\.dll.*
 .*\.pdf\.exe.*
 .*\.pdf\.htm.*
+.*\.pdf\.iso.*
 .*\.pdf\.jar.*
 .*\.pdf\.js.*
 .*\.pdf\.sfx.*
@@ -2826,6 +2831,7 @@
 .*\.ppt\.dll.*
 .*\.ppt\.exe.*
 .*\.ppt\.htm.*
+.*\.ppt\.iso.*
 .*\.ppt\.jar.*
 .*\.ppt\.js.*
 .*\.ppt\.sfx.*
@@ -2834,6 +2840,7 @@
 .*\.pptx\.dll.*
 .*\.pptx\.exe.*
 .*\.pptx\.htm.*
+.*\.pptx\.iso.*
 .*\.pptx\.jar.*
 .*\.pptx\.js.*
 .*\.pptx\.sfx.*
@@ -2904,6 +2911,8 @@
 .*\.py.*\.ccache .*\.kirbi .*
 .*\.py.*\.kirbi .*\.ccache.*
 .*\.py.*found-users\.txt.*
+.*\.rar\.exe.*
+.*\.rar\.iso.*
 .*\.rclone\.exe config.*
 .*\.relay\.splashtop\.com.*
 .*\.resources\.123456\..*
@@ -2943,8 +2952,9 @@
 .*\.txt\.dll.*
 .*\.txt\.exe.*
 .*\.txt\.htm.*
+.*\.txt\.iso.*
 .*\.txt\.jar.*
-.*\.txt\.js.*
+.*\.txt\.js
 .*\.txt\.sfx.*
 .*\.txt\.vbs.*
 .*\.unconstrained\.txt.*
@@ -2961,6 +2971,7 @@
 .*\.xls\.dll.*
 .*\.xls\.exe.*
 .*\.xls\.htm.*
+.*\.xls\.iso.*
 .*\.xls\.jar.*
 .*\.xls\.js.*
 .*\.xls\.sfx.*
@@ -2969,11 +2980,14 @@
 .*\.xlsx\.dll.*
 .*\.xlsx\.exe.*
 .*\.xlsx\.htm.*
+.*\.xlsx\.iso.*
 .*\.xlsx\.jar.*
 .*\.xlsx\.js.*
 .*\.xlsx\.sfx.*
 .*\.xlsx\.vbs.*
 .*\.xp_dirtree .*\\.*
+.*\.zip\.exe.*
+.*\.zip\.iso.*
 .*/\#kali-installer-images.*
 .*/.*_priv_esc\..*
 .*/.*SandboxEscapes/.*
@@ -4014,6 +4028,7 @@
 .*/Drones/SleepDialogue\.razor.*
 .*/drop-sc\.py.*
 .*/drunkpotato.*
+.*/Drupwn.*
 .*/DSInternals\.psd1.*
 .*/dsniff\.c.*
 .*/dsniff\.services.*
@@ -4313,6 +4328,7 @@
 .*/geacon/.*beacon.*
 .*/geacon_pro.*
 .*/Gemail-Hack\.git.*
+.*/genHTA.*
 .*/GetBrowsers\.ps1.*
 .*/get-clipboard\.py.*
 .*/get-desc-users\.py.*
@@ -5757,7 +5773,6 @@
 .*/PowershellKerberos\.git.*
 .*/PowershellTools\.git.*
 .*/PowerShx\.git.*
-.*/PowerTools.*
 .*/PowerTools\.ps1.*
 .*/PowerView\.cna.*
 .*/PowerView\.ps1.*
@@ -6569,6 +6584,7 @@
 .*/src/unixshell\.rs.*
 .*/srdi-shellcode\.go.*
 .*/ssh2-enum-algos\.nse.*
+.*/sshame.*
 .*/ssh-auth-methods\.nse.*
 .*/ssh-brute\.nse.*
 .*/ssh-hostkey\.nse.*
@@ -7139,6 +7155,7 @@
 .*:9090.*/api/v1\.0/relays.*
 .*\?convert_ccache_to_kirbi.*
 .*\?convert_kirbi_to_ccache.*
+.*\?function Invoke-CylanceDisarm.*
 .*\?PSAmsi.*PSReflect\.ps1.*
 .*\?sample_sliver\.json.*
 .*@Re@mov@e-@MpTh@re@at.*
@@ -7522,6 +7539,7 @@
 .*\\BeaconChannel\.cs.*
 .*\\BeaconConnector\.cs.*
 .*\\beacon-in-go\.exe.*
+.*\\BeRoot.*
 .*\\BesoToken\.cpp.*
 .*\\BesoToken\.exe.*
 .*\\BesoToken\.vcxproj.*
@@ -9154,6 +9172,7 @@
 .*0d1n .* --post .* --payloads .*
 .*0d1n --host.*
 .*0d1n.*kill_listener\.sh.*
+.*0DBF152DEAF0B981A8A938D53F769DB8.*
 .*0DD419E5-D7B3-4360-874E-5838A7519355.*
 .*0DE8DA5D-061D-4649-8A56-48729CF1F789.*
 .*0DF38AD4-60AF-4F93-9C7A-7FB7BA692017.*
@@ -9483,8 +9502,10 @@
 .*9bd15de627aa46533968e0f7fae19e8b855d0a40.*
 .*9c0087f31cd45fe4bfa0ca79b51df2c69d67c44f2fbb2223d7cf9ab8d971c360.*
 .*9CCE5C71-14B4-4A08-958D-4E593975658B.*
+.*9CD1DDB78ED05282353B20CDFE8FA0A4FB6C1ECE.*
 .*9D1B853E-58F1-4BA5-AEFC-5C221CA30E48.*
 .*9D365106-D7B8-4B5E-82CC-6D6ABCDCA2B8.*
+.*9D7620A4CEBA92370E8828B3CB1007AEFF63AB36A2CBE5F044FDDE14ABAB1EBF.*
 .*9E357027-8AA6-4376-8146-F5AF610E14BB.*
 .*9E5A6F99-0A26-4959-847D-A4221CF4441B.*
 .*9EFFFF7A-DC03-4D52-BB8F-F0140FAD26E7.*
@@ -10557,7 +10578,6 @@
 .*BeichenDream/GodPotato.*
 .*BeichenDream/SharpToken.*
 .*benjamin@gentilkiwi\.com.*
-.*BeRoot.*
 .*beRoot\.exe.*
 .*beroot\.py -.*
 .*beRoot\.zip.*
@@ -12911,7 +12931,6 @@
 .*drunkpotato\.x86\.dll.*
 .*drupal_enum\.py.*
 .*drupwn --mode exploit --target .*
-.*Drupwn.*
 .*DSInternals_v4\..*\.zip.*
 .*dsquery .* -filter .*\(objectClass=trustedDomain\).* -attr .*
 .*dswmiexec\.exe.*
@@ -13974,7 +13993,6 @@
 .*function BXOR_Obfuscation.*
 .*function DumpSAM.*
 .*function GNLPH.*Get-ItemProperty .*HKLM:SAM\\SAM\\Domains\\Account\\Users\\.*
-.*\?function Invoke-CylanceDisarm.*
 .*function psenum.*
 .*Function PsMapExec.*
 .*function Use-Zeus.*
@@ -14095,7 +14113,6 @@
 .*GeneratesShellcodeFromPEorDll.*
 .*GenericC2Relay\.cs.*
 .*Genetic-Malware/Ebowla.*
-.*genHTA.*
 .*genie -c '/bin/sh'.*
 .*genmkvpwd .*
 .*gentilkiwi \(Benjamin DELPY\).*
@@ -15102,6 +15119,9 @@
 .*http.*localhost:9631.*
 .*http\.title:.*BIG-IP&reg.*- Redirect.*
 .*HTTP/EXEGOL-01\..*
+.*http://.*\.onion.*
+.*http://.*\.tor2web.*
+.*http://.*\.torlink.*
 .*http://.*/\.htaccess\?c=cmd.*
 .*http://.*/\.htaccess\?c=uname -a.*
 .*http://.*/FortyNorth/GetIt.*
@@ -15180,10 +15200,13 @@
 .*https://.*\..*\.devtunnels\.ms.*
 .*https://.*\.brs\.devtunnels\.ms/.*
 .*https://.*\.euw\.devtunnels\.ms.*
+.*https://.*\.onion.*
 .*https://.*\.screenconnect\.com/Bin/.*\.exe.*
 .*https://.*\.screenconnect\.com/Host.*
 .*https://.*\.sendspace\.com/upload.*
 .*https://.*\.tacticalrmm\.com/.*
+.*https://.*\.tor2web.*
+.*https://.*\.torlink.*
 .*https://.*\.use\.devtunnels\.ms.*
 .*https://.*/\.htaccess\?c=cmd.*
 .*https://.*/\.htaccess\?c=uname -a.*
@@ -15228,6 +15251,7 @@
 .*https://ffuf\.io/FUZZ.*
 .*https://file\.io/.*
 .*https://file\.io/\?title=.*
+.*https://files\.catbox\.moe/.*
 .*https://github\.com/bitsadmin/.*
 .*https://github\.com/curl/curl/wiki/DNS-over-HTTPS.*
 .*https://github\.com/m0nad/Diamorphine.*
@@ -15249,6 +15273,7 @@
 .*https://ntlm\.pw/.*
 .*https://pastebin\.com/raw/fevFJe98.*
 .*https://proxy\.duckduckgo\.com/iu/\?u=https://pdxkmdcepvahysnnxe\.pythonanywhere\.com/image\.jpg\?cmd=.*
+.*https://qu\.ax/.*\..*
 .*https://s3\.amazonaws\.com/sshx/sshx-.*
 .*https://sshx\.io/get.*
 .*https://sshx\.io/s/.*
@@ -17172,7 +17197,6 @@
 .*kuhl_m_sekurlsa_utils\.c.*
 .*kuhl_m_sekurlsa_utils\.h.*
 .*kwallet2john\.py.*
-.*kwetza.*
 .*kyleavery/AceLdr.*
 .*kyleavery/inject-assembly.*
 .*kyleavery/pendulum.*
@@ -21727,6 +21751,7 @@
 .*sensepost/goDoH.*
 .*sensepost/godoh.*
 .*sensepost/impersonate.*
+.*sensepost/kwetza.*
 .*sensepost/reGeorg.*
 .*sensepost/ruler.*
 .*sensepost/wiresocks.*
@@ -22865,7 +22890,6 @@
 .*ssh -o ProxyCommand=.*wstunnel.*
 .*ssh2john .*
 .*ssh2john\.py.*
-.*sshame.*
 .*ssh-auditor.*
 .*sshbrute\.py.*
 .*SSHBruteForce\.py.*
@@ -24855,6 +24879,7 @@ Get-NetGroup -FullData.*
 getprivs
 get-spns .*
 grab_token .*
+https://.*\.xyz/.*\.ps1
 https://transfer\.sh/get/.*/.*\.py.*
 https://www\.nirsoft\.net/utils/webcamimagesave\.zip
 hydra -.*
@@ -24895,7 +24920,6 @@ noclient-3\..*
 onex install .*
 polenum .*:.*
 posh -u .*
-powerpick .*
 powershell\.exe -nop -c .*start-job .*Import-Module BitsTransfer.*\$env:temp.*GetRandomFileName\(\).*Start-BitsTransfer -Source 'http.*Remove-Item.*Receive-Job.*
 ps_ex .*
 psenum .*
