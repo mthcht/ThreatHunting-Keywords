@@ -82,10 +82,18 @@ $groupedData.Keys | ForEach-Object {
 }
 
 
-$keywords = $data | Select-Object -ExpandProperty keyword
+$keywords = $data | 
+    Select-Object -ExpandProperty keyword | 
+    Sort-Object -Unique
 $outputFilePath = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords.txt"
-
 $keywords | Out-File -FilePath $outputFilePath -Encoding UTF8
+
+$keywords_regex_better_perf = $data | 
+    Where-Object { $_.metadata_keyword_regex -ne 'N/A' -and $_.metadata_keyword_regex -ne $null } | 
+    Select-Object -ExpandProperty metadata_keyword_regex | 
+    Sort-Object -Unique
+$outputFilePath2 = Join-Path (Join-Path $PSScriptRoot '..') "only_keywords_regex_better_perf.txt"
+$keywords_regex_better_perf | Out-File -FilePath $outputFilePath2 -Encoding UTF8
 
 # Add-Type method to use C#'s Regex.Escape method
 Add-Type -TypeDefinition @"
