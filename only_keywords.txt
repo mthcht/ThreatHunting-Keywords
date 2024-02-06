@@ -2967,6 +2967,10 @@
 */*SandboxEscapes/*
 */../../../../../boot.ini*
 */.aggressor.prop*
+*/.anydesk/.anydesk.trace*
+*/.anydesk/service.conf*
+*/.anydesk/system.conf*
+*/.anydesk/user.conf*
 */.cme/cme.conf*
 */.dns2tcprc*
 */.exegol/*
@@ -3131,6 +3135,7 @@
 */anthemtotheego/CredBandit*
 */AntiSandbox.go*
 */antx-code/CVE-2022-0847*
+*/Anydesk.exe
 */AoratosWin/*
 */APCLdr.*
 */api/admin/shutdown?token=*
@@ -3164,6 +3169,7 @@
 */apollon-selective-x64*
 */ApolloTest.exe
 */AppFiles/ipscan.exe*
+*/Applications/Anydesk.app/*
 */aquasecurity/cloudsploit*
 */Ares.git
 */ares.py *
@@ -4086,6 +4092,7 @@
 */Erebus-email.*
 */etc/3proxy/conf*
 */etc/passwd*/.sudo_as_admin_successful*
+*/etc/systemd/system/anydesk.service*
 */etc/systemd/system/IMDS.service*
 */etc/systemd/system/rshell.service*
 */EternalHushCore.dll*
@@ -4525,6 +4532,7 @@
 */hoaxshell/*.py*
 */holehe.git*
 */hollow.x64.*
+*/home/*/.anydesk/*
 */home/app/wstunnel*
 */home/daddyShark/BabySh4rk/*
 */home/user/rustdesk*
@@ -5042,6 +5050,7 @@
 */localroot/2.6.x/elflbl*
 */localroot/2.6.x/h00lyshit*
 */Locksmith.git*
+*/log/anydesk.trace*
 */log4shell.py*
 */login_scanner*
 */login-securite/DonPAPI*
@@ -6805,9 +6814,12 @@
 */username-anarchy*
 */UserNamespaceOverlayfsSetuidWriteExec/*
 */usniper.py*
+*/usr/bin/anydesk*
 */usr/bin/legba*
 */usr/bin/pkexec*
 */usr/bin/polenum*
+*/usr/lib64/anydesk*
+*/usr/libexec/anydesk*
 */usr/local/bin/cloudflared tunnel*
 */usr/local/bin/exegol*
 */usr/local/pwndrop/*
@@ -7355,6 +7367,9 @@
 *\AntiSandbox.go*
 *\AnyDesk (1).exe*
 *\AnyDesk.exe*
+*\AnyDesk.lnk*
+*\AnyDesk\ad.trace*
+*\AnyDesk\ad_svc.trace*
 *\AnyDesk\connection_trace.txt*
 *\anydesk\printer_driver*
 *\AnyDesk\service.conf*
@@ -7526,6 +7541,7 @@
 *\ConfuserEx\Obfuscated.exe*
 *\Control\SafeBoot\Network\SupremoService*
 *\ControlSet001\Control\SafeBoot\Network\AmmyyAdmin_*
+*\ControlSet001\Services\AnyDesk*
 *\Convert-ROT47.ps1*
 *\CookieHijack.ps1*
 *\Cooolis-ms-Loader\*
@@ -8596,6 +8612,7 @@
 *\SOAPHound-master*
 *\SoftPerfect Network Scanner*
 *\SOFTWARE\Ammyy\Admin*
+*\SOFTWARE\Clients\Media\AnyDesk*
 *\SOFTWARE\ORL\VNCHooks\Application_Prefs\WinVNC*
 *\SOFTWARE\Supremo\*
 *\Software\Supremo\Printer\*
