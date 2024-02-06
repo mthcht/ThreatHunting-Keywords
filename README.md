@@ -317,18 +317,9 @@ Some hunting example with the yara rules:
 ![2023-10-21 11_14_15-Editing ThreatHunting-Keywords-yara-rules_README md at main · mthcht_ThreatHunti](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/7d992c46-28f0-4eb3-a0d7-f65fd37d6db6)
 ![2023-10-21 11_12_44-](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/8f41f0de-48e8-435d-afda-1268dedad34f)
 
-## Quick datatable to search for keyword (can be improved, open to suggestions)
+## Quick datatable to search for keyword 
 https://mthcht.github.io/ThreatHunting-Keywords/
-![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/b5f80a9f-d0e2-47df-9df6-fc3f21c667d4)
-
-### Update 2023/05/26
-In order to improve navigation and specificity, the primary CSV file threathunting-keywords.csv is now automatically partitioned based on each keyword type following an update. This leads to the creation of four distinct files, which can be seamlessly loaded onto the site:
-- **threathunting-keywords.csv** (the main file with all the keywords types)
-- **signature_keyword.csv** (specific to signature keywords)
-- **offensive_tool_keyword.csv** (dedicated to offensive tool keywords)
-- **greyware_tool_keyword.csv** (targeting greyware tool keywords)
-
-![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/bc55fa3f-3ce8-4485-8e01-aabbfc5fb12a)
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/9a300d0a-5efa-4449-b044-a00f3f1d8a26)
 
 ## False positives
 
