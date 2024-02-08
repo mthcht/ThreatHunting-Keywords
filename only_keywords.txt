@@ -3,6 +3,7 @@
 * - Removed disabled accounts from spraying*
 * - Sensitive Accounts.csv*
 * - ShadowSpray*
+*  xmrig.exe*
 * $exploit_oneliner*
 * $FodHelperPath*
 * $KerbDump*
@@ -300,6 +301,7 @@
 * c2 start http *
 * c2_server.py*
 * -c2server *
+* c3pool_miner*
 * --CaCertPath *.pfx --CaCertPassword *
 * CallDirect.py*
 * CallStranger.py*
@@ -398,6 +400,7 @@
 * -ComputerName -ServiceEXE *
 * ComunicationC2.cpp*
 * -config modlishka.json *
+* --config=*c3pool*config_background.json*
 * Configuring Windows Firewall rules to block EDR network access*
 * --connection-min-idle * ws://*
 * ConPtyShell*
@@ -567,6 +570,7 @@
 * domcon-cmd.nse*
 * dome.py*
 * domino-enum-users.nse*
+* --donate-level=*
 * -DoNotPersistImmediately *
 * --dont-enumerate-acls *
 * --dont-enumerate-acls * -e *
@@ -875,6 +879,9 @@
 * GreatSCT/*
 * --greeting * --personalize *--securelink*
 * -grouper2 -Command *
+* gs-netcat *
+* gsocket.io/x*
+* GSOCKET_SOCKS_IP*
 * -H * -u * -p * -r *C$/Users*
 * -h *-p * -c cypher.bin -k key.bin*
 * hack.py*
@@ -1122,10 +1129,12 @@
 * install armitage*
 * install autobloody*
 * install backdoor-factory*
+* install c3pool_miner *
 * install chisel*
 * install dnscrypt-proxy*
 * install evil-winrm*
 * install github *merlin*
+* install gsocket*
 * install hekatomb*
 * install holehe*
 * install iodine*
@@ -2265,6 +2274,7 @@
 * tokenvator *
 * -Tokenvator -Command *
 * --tor *
+* tor:amd64 *
 * tor-consensus-checker.nse*
 * --tor-port*
 * --tor-type*
@@ -2473,6 +2483,7 @@
 *%SystemRoot%\\MEMORY.DMP*
 *%SYSTEMROOT%\PAExec-*
 *%tmp%\void.zip*
+*%USERPROFILE%\\nssm.zip*
 *&& cat /etc/motd*exec -a -$(basename $SHELL) $SHELL*
 *&& telnet * 2>&1 </dev/console*
 *(not launching GPOddity SMB server)*
@@ -3314,6 +3325,7 @@
 */bin/bash -c 'bash -i >& /dev/tcp/*/* 0>&1'*
 */bin/fake-sms*
 */bin/gorsair *
+*/bin/gs-netcat*
 */bin/hakrawler*
 */bin/nxcdb*
 */bin/posh*
@@ -3328,6 +3340,7 @@
 */bin/sh | nc*
 */bin/sh -i <&3 >&3 2>&3*
 */bin/Sleeper.o*
+*/bin/torify*
 */bin/unshackle*
 */bin/wapiti*
 */bin2hex.lua*
@@ -3977,6 +3990,7 @@
 */dpap-brute.nse*
 */Dpapi.ps1*
 */dpipe.sh*
+*/dpkg/info/tor.list*
 */dploot.git*
 */DragonCastle.git*
 */DragonCastle.pdb*
@@ -4091,10 +4105,16 @@
 */Erebus/*.exe*
 */Erebus-email.*
 */etc/3proxy/conf*
+*/etc/cron.weekly/tor*
+*/etc/default/tor
+*/etc/init.d/tor*
 */etc/passwd*/.sudo_as_admin_successful*
+*/etc/sv/tor/log*
+*/etc/systemd/gsc*
 */etc/systemd/system/anydesk.service*
 */etc/systemd/system/IMDS.service*
 */etc/systemd/system/rshell.service*
+*/etc/tor/*.conf*
 */EternalHushCore.dll*
 */EternalHushFramework.git*
 */etumbot.profile*
@@ -4460,6 +4480,13 @@
 */Group3r.exe*
 */Grouper2.exe*
 */GruntHTTP.exe*
+*/gs-netcat 
+*/gsocket.1*
+*/gsocket.git*
+*/gsocket-ssl.h*
+*/gsocket-tor*
+*/gsocket-util.c*
+*/gs-sftp*
 */gtfobins.go*
 */gtfobins.py*
 */guervild/BOFs*
@@ -4804,6 +4831,7 @@
 */Internals/Coff.cs*
 */Inveigh.git*
 */Inveigh.txt*
+*/invocation:tor.service*
 */Invoke-Bof/*
 */Invoke-HostEnum.ps1*
 */Invoke-RunAs.ps1*
@@ -5240,6 +5268,7 @@
 */ms-sql-xp-cmdshell.nse*
 */mtrace.nse*
 */MultiPotato.git*
+*/multi-user.target.wants/tor.service*
 */murmur-version.nse*
 */mushishi.h*
 */mysql-audit.nse*
@@ -6047,6 +6076,8 @@
 */Rudrastra.git*
 */rulerforms.go*
 */run/leet.pl*
+*/run/tor/socks*
+*/run/tor/tor.pid*
 */run_as_psh.*
 */RunasCs.cs*
 */RunasCs.git*
@@ -6742,7 +6773,10 @@
 */Tool-X.git*
 */top_mots_combo.7z*
 */top-usernames-shortlist.txt*
+*/tor -mindepth 1 -maxdepth 1 -type f *
+*/tor/torrc*
 */tor-0.*.tar.gz*
+*/tor-archive-keyring*
 */ToRat.git*
 */torbrowser-install-*.exe  *
 */tor-browser-linux*.*
@@ -6751,7 +6785,10 @@
 */tor-browser-win64*.*
 */tor-consensus-checker.nse*
 */tor-gencert.exe*
+*/tor-geoipdb.list*
 */tor-package-archive/*
+*/torsocks.conf
+*/torsocks.list*
 */tor-static-windows-amd64.zip*
 */traceroute-geolocation.nse*
 */tracers_fuzzer.cc*
@@ -6823,6 +6860,7 @@
 */usr/local/bin/cloudflared tunnel*
 */usr/local/bin/exegol*
 */usr/local/pwndrop/*
+*/usr/sbin/tor*
 */usr/share/cobaltstrike/*
 */usr/share/wordlists/*.txt*
 */usr/src/netexec*
@@ -6833,7 +6871,9 @@
 */vainject.c*
 */vajra/phishApp.py*
 */var/lib/ptunnel*
+*/var/lib/tor/*
 */var/log/exegol/*.log*
+*/var/log/tor/*
 */var/tmp/.memory/diamorphine.c*
 */var/tmp/.memory/diamorphine.h*
 */var/www/html/dynasty_rce*
@@ -7486,6 +7526,8 @@
 *\c2_server.py*
 *\C2concealer*
 *\C2Prank.ps1*
+*\c3pool\\miner.bat*
+*\c3pool\config.json*
 *\capcom_sys_exec.x64.dll*
 *\catspin-main\*
 *\certipy.pfx*
@@ -7875,6 +7917,8 @@
 *\Group3r.exe*
 *\Grouper2.exe*
 *\groupmembership.py*
+*\gs-netcat 
+*\gs-sftp*
 *\GzipB64.exe*
 *\HackBrowserData*
 *\hades.exe*
@@ -8269,6 +8313,7 @@
 *\petitpotam.py*
 *\PhishCreds.ps1*
 *\PickleC2\Core\*.py*
+*\Pictures\AnyDesk*
 *\PingRAT\*
 *\PingSweep.ps1*
 *\PInject.ps1*
@@ -8364,6 +8409,7 @@
 *\ProgramData\shares.txt*
 *\ProgramData\SupremoRemoteDesktop*
 *\ProgramData\TacticalRMM\*
+*\ProgramFile*\previous-version
 *\Programs\Advanced IP Scanner Portable\*
 *\Programs\GoToMyPC.lnk*
 *\Programs\StartUp\XenoUpdateManager*
@@ -8711,6 +8757,7 @@
 *\temp\__SentinelAgentKernel.dmp*
 *\temp\__SentinelAgentUser.dmp*
 *\Temp\2\Advanced Port Scanner 2\*
+*\Temp\AnyDeskUninst*
 *\TEMP\AteraUpgradeAgentPackage\*
 *\Temp\clipboard.log*
 *\Temp\cme_hosted*
@@ -8818,6 +8865,7 @@
 *\VDR-main.zip
 *\veeam_dump.py*
 *\veeam-creds\*
+*\Videos\AnyDesk*
 *\VNC\.VNC-Non-Auth.txt*
 *\vncdll.x64.dll*
 *\vncdll.x86.dll*
@@ -8903,6 +8951,8 @@
 *\xeno-rat-main*
 *\xmrig-*-gcc-win64.zip*
 *\xmrig.exe*
+*\xmrig.log*
+*\xmrig_setup\*
 *\xmrig-6.20.0*
 *\xmrig-master*
 *\XOR_b64_encrypted\*
@@ -8911,6 +8961,7 @@
 *\zerologon.py*
 *] Attempting to enumerate logged on users on *
 *] Cleared all rat command queues!*
+*] Creating c3pool_miner service*
 *] DHCP sniffer identified potential spoofing target:*
 *] DHCP Sniffer identified previously sniffed name: *
 *] Dumping browsers credentials ..*
@@ -8924,7 +8975,10 @@
 *] Listing GraphRunner modules?*
 *] LLMNR sniffer identified potential spoofing target:*
 *] LLMNR Sniffer identified previously sniffed name*
+*] Looking for the latest version of Monero miner*
 *] Powershell Persistence created*
+*] Removing previous c3pool miner *
+*] Running miner in the background*
 *] Screensaver Persistence created*
 *] Sending credentials to pastebin ..*
 *] Starting share enumeration with thread limit of *
@@ -9047,6 +9101,7 @@
 *0evilpwfilter.dll*
 *0fa31c8c34a370931d8ffe8097e998f778db63e2e036fbd7727a71a0dcf5d28c*
 *0FE0D049-F352-477D-BCCD-ACBF7D4F6F15*
+*0tZG9uYXRlLWxldmVsP*
 *0vercl0k/udmp-parser*
 *0x00-0x00*
 *0x09AL/DNS-Persist*
@@ -9838,6 +9893,7 @@
 *apt install polenum*
 *apt install seclists*
 *apt install set -y*
+*apt install tor *
 *apt install wce*
 *APT stands for Advanced Persistence Tomato*
 *apt* install john*
@@ -10453,6 +10509,9 @@
 *ble_recon.go*
 *blendin/3snake*
 *blindSQLPayloads.txt*
+*blitz /* */etc/*
+*blitz -l
+*blitz -s *
 *blockchain2john.py*
 *blockdlls -*
 *blockdlls start*
@@ -10898,6 +10957,13 @@
 *C346B912-51F2-4A2E-ACC3-0AC2D28920C6*
 *C373A937-312C-4C8D-BD04-BAAF568337E7*
 *C3C49F45-2589-4E04-9C50-71B6035C14AE*
+*C3Pool mining setup script v*
+*C3Pool/xmrig_setup*
+*c3pool_miner service*
+*c3pool_miner.bat*
+*c3pool_miner.service*
+*c3pool_miner.sh*
+*c3pool_miner\*
 *C526B877-6AFF-413C-BC03-1837FB63BC22*
 *c5bcfd00d0b8fda7c4b20cdc9649713d9f01dd12f61ce8ee9c45ec424a6bbdf2*
 *c708b83f-4167-4b4c-a1db-d2011ecb3200*
@@ -11097,6 +11163,9 @@
 *ChatLadon.rar*
 *chattr +i $HISTFILE*
 *chattr +i *.bash_history*
+*chattr -ia */etc/passwd*
+*chattr -ia */etc/shadow*
+*chattr -ia */etc/sudoers*
 *chaudharyarjun/LooneyPwner*
 *check_all*.c*
 *check_all*.go*
@@ -11266,6 +11335,7 @@
 *cmd smb *-u*-p*
 *cmd* wevtutil.exe cl *
 *cmd*echo*\pipe\*
+*cmd.cat/chattr*
 *cmd.exe  /S /D /c* echo 123
 *cmd.exe /c *echo test > C:\Users\Public\test.txt*
 *cmd.exe /c chcp >&2*
@@ -11622,6 +11692,7 @@
 *cp -i /bin/sh */crond*
 *cp sliver-* /opt/tools/bin*
 *cpp_test_payload.exe*
+*cpulimit -e xmrig *
 *cpulimit -l 100 -f -- /bin/sh -p*
 *Cr3dOv3r*
 *cracf2john.py*
@@ -12004,6 +12075,7 @@
 *dBCSPwd*aad3b435b51404eeaad3b435b51404ee*
 *dbdbnchagbkhknegmhgikkleoogjcfge*
 *dbGetNimplant*
+*dc3c1af9-ea3d-4401-9158-eb6dda735276*
 *dc3d98a8e8c0b0944291f9b462f552f174261982c4507f2de1ee9503353d10e9*
 *DC6187CB-D5DF-4973-84A2-F92AAE90CDA9*
 *dc76f7c6b506d3ec4a92d9a0cda9678c3cb58a9096587dde15897709c7b23a33*
@@ -12046,7 +12118,10 @@
 *DDSpoof\spoofer_config.py*
 *DDSpoof-main*
 *DE7B9E6B-F73B-4573-A4C7-D314B528CFCB*
+*deb.torproject.org/torproject.org/*
 *deb.torproject.org/torproject.org/*.asc*
+*deb.torproject.org-keyring*
+*debian-tor:x*
 *DebugAmsi.exe*
 *DebugAmsi.sln*
 *DebugAmsi.vcxproj*
@@ -12147,6 +12222,7 @@
 *DeNiSePkg.py*
 *deploycaptureserver.ps1*
 *DeployPrinterNightmare.exe*
+*Description=Monero miner service*
 *Description'>IE Passwords Viewer*
 *Description'>PAExec Application*
 *'Description'>VNC server</Data>*
@@ -12500,6 +12576,7 @@
 *docker run -v /:/mnt --rm -it alpine chroot /mnt sh*
 *docker* donut *
 *docker*/hiphp:latest*
+*docker/gsocket*
 *docker-compose logs wiresocks*
 *DockerPwn*
 *DocPlz-main.zip*
@@ -12592,6 +12669,7 @@
 *Download-Execute-PS*
 *DownloadFileImplant*
 *Downloading */*.tar to /tmp/*.pak*
+*Downloading*%MINER_LOCATION%*
 *downloadMalwareDomains*
 *downloads/wapiti-code*
 *downloadshellcodebin.c*
@@ -14415,6 +14493,41 @@
 *GruntInjection.exe*
 *gruntstager.cs*
 *GruntStager.exe*
+*GS_NETCAT_BIN*
+*gs-helloworld gs-pipe gs-full-pipe*
+*gs-mount ~/*
+*gs-mount -s*
+*gs-netcat &*
+*gs-netcat -*
+*gs-netcat.1*
+*gsocket /usr/sbin/sshd*
+*gsocket openvpn *
+*gsocket ssh *
+*gsocket*/gsocket.h*
+*GSOCKET*Lclient_gs.log*
+*gsocket.1.html*
+*gsocket.io/deploy*
+*gsocket.io/install.sh*
+*gsocket_1.*.deb*
+*GSOCKET_ARGS=*
+*gsocket_linux-aarch64.tar.gz*
+*gsocket_linux-arm.tar.gz*
+*gsocket_linux-armv6.tar.gz*
+*gsocket_linux-armv7l.tar.gz*
+*gsocket_linux-i686.tar.gz*
+*gsocket_linux-mips32.tar.gz*
+*gsocket_linux-mips64.tar.gz*
+*gsocket_linux-mipsel.tar.gz*
+*gsocket_linux-x86_64.tar.gz*
+*gsocket_macOS.tar.gz*
+*gsocket_openbsd-x86_x64.tar.gz*
+*GSOCKET_SOCKS_IP=*
+*GSOCKET_SOCKS_PORT=*
+*gsocket-1.*.tar.gz*
+*gsocket-tor/*
+*gsocket-tor\*
+*gs-root-shell-key.txt*
+*gs-sftp -*
 *gtfobins*
 *GTFOBLookup*
 *gtworek/Priv2Admin*
@@ -14449,6 +14562,8 @@
 *HACKER*FUCKER*Xeroxxx*
 *hackerhouse-opensource/OffensiveLua*
 *hackerhouse-opensource/SignToolEx*
+*hackerschoice/gsocket*
+*hackerschoice/gsocket-relay*
 *hackertarget-get-rootdomains *
 *hackingtool.py*
 *Hackndo/sprayhound*
@@ -14877,6 +14992,7 @@
 *https://avred.r00ted.ch/upload*
 *https://bashupload.com*
 *https://C2_SERVER_IP/*
+*https://c3pool.com/#/*
 *https://cloud.screenconnect.com/#/trialtoinstance?cookieValue=*
 *https://code.kryo.se/iodine/iodine-*
 *https://crackstation.net/*
@@ -16222,6 +16338,7 @@
 *kali-linux-*-raspberry-pi-armhf.img.xz*
 *kali-linux-*-virtualbox-amd64.ova*
 *kali-linux-*-vmware-amd64.7z*
+*kalilinux/kali-rolling*
 *kalitorify*
 *kaluche/bloodhound-quickwin*
 *kancotdiq/wpaf*
@@ -16395,6 +16512,7 @@
 *khast3x/h8mail*
 *Kicking off download cradle in a new process*
 *kick-operator -n *
+*killall xmrig*
 *killAllNimplants*
 *killav.py*
 *killdefender check*
@@ -17000,6 +17118,7 @@
 *Lovely-Potato*
 *ls \\1*.*.*.*\IPC$\*
 *ls env:USERNAME*
+*LS1kb25hdGUtbGV2ZWw9*
 *lsa_decryptor.py*
 *lsa_decryptor_nt*.py*
 *lsa_secrets.md*
@@ -17396,6 +17515,8 @@
 *minidump_add_memory64_block*
 *MiniDumpWriteDump*
 *minikerberos.zip*
+*mining in background will be started using your startup directory script and only work when your are logged in this host*
+*Mining will happen to * wallet*
 *mirrors.aliyun.com/parrot*
 *misc::aadcookie*
 *misc::clip*
@@ -17495,6 +17616,7 @@
 *mojo.5688.8052.183894939787088877##*
 *mojo.5688.8052.35780273329370473##*
 *mojo_##*
+*Monero miner is already running in the background*
 *monero2john.py*
 *money2john.py*
 *mongodb2john.js*
@@ -17940,6 +18062,7 @@
 *netsh firewall set opmode disable*
 *netsh interface portproxy add v4tov4 listenport=* connectport=* connectaddress=*
 *netsh interface portproxy add v4tov4*listenaddress=* listenport=*connectaddress=*connectport*
+*netsh interface portproxy delete v4tov4 listenaddress=0.0.0.0 listenport=*
 *netsh interface portproxy delete v4tov4 listenport=*
 *netsh interface portproxy show v4tov4*
 *netsh wlan show profile $wlan key=clear | Select-String *?<=Key Content\s+:\s*
@@ -18359,6 +18482,7 @@
 *office2john.py*
 *office365userenum.*
 *Office-DDE-Payloads*
+*offline_miner_setup.zip*
 *Offline_WinPwn.ps1*
 *offsecginger/koadic*
 *OgBcAFcAaQBuAGQAbwB3AHMAXABUAGEAcwBrAHMAXABFAHYAZQBuAHQAVgBpAGUAdwBlAHIAUgBDAEUALgBwAHMAMQA=*
@@ -21083,6 +21207,7 @@
 *Setting up GFlags & SilentProcessExit settings in registry?*
 *Settings for Radmin Server.lnk*
 *setuid_setgid.py*
+*setup and run in background Monero CPU miner*
 *setup_apfell.sh*
 *setup_obfuscate_xor_key*
 *setup_reflective_loader*
@@ -22121,6 +22246,7 @@
 *Starkiller*
 *StarkillerSnackbar.vue*
 *staroffice2john.py*
+*start doing stuff: preparing miner*
 *Start Menu\Programs\Startup\Loader.exe*
 *start PsExec.exe -d *
 *start stinger 
@@ -22258,6 +22384,7 @@
 *supershell*winpty.dll*
 *supershell*winpty-agent.exe*
 *Supply either a 32-character RC4/NT hash or a 64-character AES256 hash*
+*support@c3pool.com*
 *SupportScam:Win32*
 *supremo remote control*
 *Supremo.00.Client.log*
@@ -22754,6 +22881,7 @@
 *topotam/PetitPotam*
 *top-usernames-shortlist.txt*
 *tor --DataDirectory *
+*tor@default.service*
 *tor_hiddenservices.rb*
 *tor_services.py*
 *TORAnonymizer.ps1*
@@ -22762,11 +22890,18 @@
 *torbrowser-install-win*.exe*
 *tor-browser-linux*_ALL.tar.xz*
 *torEd25519*
+*tor-geoipdb:all*
+*tor-geoipdb:amd64*
+*torify curl *
+*torify ghaur *
+*torify nuclei *
+*torify sqlmap *
 *torproject*
 *torproject.org/dist/torbrowser/*.*
 *--tor-proxy*--pwndb*
 *TorPylle*
 *TorServiceSetup*
+*torsocks:amd64*
 *Total number of passwords to test: *
 *totally legit pdf.pdf*
 *toteslegit.ps1*
@@ -23184,6 +23319,7 @@
 *vssadmin delete shadows*
 *vssadmin list shadows*
 *vssadmin* Delete Shadows /All /Quiet*
+*vssadmin.exe Create Shadow /for=*
 *vssenum.x64.*
 *vssenum.x86.*
 *vtiger_crm_upload_exploit*
@@ -23739,6 +23875,8 @@
 *xmrig-*-macos-x64.tar.gz*
 *xmrig-*-msvc-win64.zip*
 *xmrig.exe -*
+*xmrig.tar.gz*
+*xmrig.zip*
 *xmrpool.eu:3333*
 *xor.exe *.txt*
 *xor.py *.dll*
