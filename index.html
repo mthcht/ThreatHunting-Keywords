@@ -1,132 +1,243 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-    <head>
-        <link rel="icon" type="image/png" href="/images/Zoom-icon.png">
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <title>ThreatHunting-Keywords</title>
-		<style>
-			.dataTables_wrapper .dataTables_length select,
-			.dataTables_wrapper .dataTables_filter input {
-				background-color: white;
-			}
-			.centered-title {
-				text-align: center;
-				margin-top: 1px;
-				color: white;
-			}
-			.dataTables_wrapper .dataTables_filter {
-				text-align: left !important;
-				display: flex;
-				justify-content: flex-start;
-				align-items: center;
-				width: 100%;
-				margin-bottom: 10px;
-			}
-			.dataTables_wrapper .dataTables_filter label {
-				margin-right: 10px;
-				width: 100% !important;
-				color: white !important;
-			}
-			.dataTables_wrapper .dataTables_filter input {
-				width: 100% !important;
-			}
-			.ui-widget-header {
-				border: 1px solid #e78f08;
-				background: #161b22;
-				color: #fff;
-				font-weight: bold
-			}
-			body {
-				background-color: #333333;
-				font-family: "Consolas", monospace;
-				color: #15202b;
-			}
-			table.dataTable tbody td {
-				background-color: #f6f6f6;
-			}
-			table.dataTable tbody tr td:first-child {
-				background-color: #f6f6f6 !important;
-			}
-			.dataTables_wrapper .dataTables_length select option {
-				color: black;
-			}
-			.dataTables_wrapper .dataTables_length label {
-			    color: white;
-			}
-			.dataTables_wrapper .dataTables_length select option:first-child {
-				color: white;
-			}
-			.dataTables_wrapper .dataTables_info {
-				color: white !important;
-			}
-			.dataTables_wrapper .dataTables_filter label, .dataTables_wrapper .dataTables_paginate .paginate_button {
-				color: white !important;
-			}
-			#csv-title {
-			  color: white;
-			}
-		</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Hunting Keywords</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@latest"></script>
+    <style>
+        .handsontable .htCore .ht_master .wtHolder {
+            overflow-y: hidden !important;
+        }
+        .handsontable td {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 23px !important;
+            line-height: 23px !important;
+        }
+        /* Dark theme overrides for Handsontable */
+        body, html {
+            background-color: #0d1b2a; /* Dark background for the page */
+        }
+        /* Ensures the container also has a dark background */
+        #example {
+            background-color: #0d1b2a; /* Dark background for the container */
+        }
 
-				<!-- <link rel="stylesheet" type="text/css" href="https://datatables.net/media/css/site-examples.css?_=ee251b2e366fd8325168a7c17e83be281"/> -->
-        <!-- <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"/> -->
-        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css"/> -->
-        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/dataTables.jqueryui.min.css"/> -->
-        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.css"/> -->
- 	
-				<!-- <script type="text/javascript" src="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script> -->
-        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js">  -->
-        <!-- <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script> -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.css"/>
-        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
-        <script type="text/javascript" src="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
-        <link rel="icon" href="/images/Zoom-icon.png" type="image/x-icon">
-        <script type="text/javascript" charset="utf-8">
-            function loadCsvFile(csvFileName) {
-                $('#csv-title').text(csvFileName);
-                $.get(csvFileName, function(data) {
-                    var parsedData = Papa.parse(data, { header: true }).data;
-                    parsedData = parsedData.filter(row => Object.values(row).some(value => value !== ""));
-                    var columns = Object.keys(parsedData[0]).map(function(col) {
-                        return { data: col, title: col.replace(/^metadata_/, ''), defaultContent: '' };
-                    });
-                    var table = $('#example').DataTable({
-                        data: parsedData,
-                        columns: columns,
-                        dom: '<"top"fi>rt<"bottom"lp><"clear">',
-                        destroy: true,
-                        jqueryUI: true
-                    });
-                });
-            }
-            $(document).ready(function() {
-                // Load the initially selected CSV file
-                loadCsvFile($('#csv-select').val());
+        .handsontable, .wtHolder {
+            color: ##53A757; /* Green text */
+            background-color: ##201F1F !important; /* Dark background for the table */
+        }
 
-                // Update the DataTable when a new CSV file is selected
-                $('#csv-select').change(function() {
-                    loadCsvFile($(this).val());
-                });
+        /* Specific overrides for table cells */
+        .handsontable .htCore td, .handsontable .htCore th {
+            background-color: #04151f !important; /* Dark background for cells */
+            color: #a7c957 !important; /* Green text */
+        }
+
+        /* Header cells */
+        .handsontable .htCore th {
+            background-color: #1b263b !important; /* Slightly lighter background for header cells */
+            color: #a7c957;
+        }
+
+        /* Override for current row & column highlight */
+        .ht__highlight {
+            background-color: #0d1b2a !important; /* Darker background for highlight */
+        }
+
+        /* Adjusting selection colors to fit the dark theme */
+        .ht_master .htBorders .current {
+            border-color: #4f772d !important; /* Green border for current selection */
+        }
+
+        .ht_master .htBorders .area {
+            border-color: #90a955 !important; /* Green border for selected area */
+        }
+
+        /* Customizing scrollbar for dark theme */
+        ::webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::webkit-scrollbar-track {
+            background: #003049;
+        }
+
+        ::webkit-scrollbar-thumb {
+            background: #555;
+        }
+
+        ::webkit-scrollbar-thumb:hover {
+            background: #444;
+        }
+        .ascii-art-container {
+		    white-space: nowrap; /* Prevents the content from wrapping */
+            text-align: center; /* Center the content horizontally */
+            width: 100%; /* Ensure the container spans the full width */
+			max-width: 100%; /* Ensures the container does not exceed the viewport width */
+            overflow: auto; /* In case the ASCII art is wider than the screen */
+			overflow-x: auto; /* Enables horizontal scrolling */
+
+        }
+        pre {
+            display: inline-block; /* Allows the <pre> block to be centered by text-align */
+            white-space: pre-wrap; /* Ensures that the ASCII art does not overflow the container */
+            word-wrap: break-word; /* Breaks the text to prevent overflow */
+        }
+        .ascii-art-container pre {
+		    white-space: pre; /* Maintains spacing and formatting of the ASCII art */
+		    overflow-x: auto; /* Allows horizontal scrolling if needed */
+            color: #32CD32; /* Light green color */
+			display: inline-block; /* Treats the pre element as a block while keeping it inline */
+        }
+		@keyframes spin {
+			0% { transform: rotate(0deg); }
+			100% { transform: rotate(360deg); }
+		}
+
+    </style>
+</head>
+
+<body>
+
+<div class="ascii-art-container">
+<pre>
+▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▌
+▐░▀█▀░█░█░█▀▄░█▀▀░█▀█░▀█▀░░░█░█░█░█░█▀█░▀█▀░▀█▀░█▀█░█▀▀░░░█░█░█▀▀░█░█░█░█░█▀█░█▀▄░█▀▄░█▀▀ ▌
+▐░░█░░█▀█░█▀▄░█▀▀░█▀█░░█░░░░█▀█░█░█░█░█░░█░░░█░░█░█░█░█░░░█▀▄░█▀▀░░█░░█▄█░█░█░█▀▄░█░█░▀▀█ ▌
+▐░░▀░░▀░▀░▀░▀░▀▀▀░▀░▀░░▀░░░░▀░▀░▀▀▀░▀░▀░░▀░░▀▀▀░▀░▀░▀▀▀░░░▀░▀░▀▀▀░░▀░░▀░▀░▀▀▀░▀░▀░▀▀░░▀▀▀ ▌
+▐▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▌
+</pre>
+</div>
+<div id="loadingIndicator" style="display:none; text-align:center; color: #0D5C2D;">
+    <div class="spinner" style="display:inline-block; margin-left:10px; border: 4px solid rgba(50,205,50,.3); border-radius: 50%; border-top-color: #fff; width: 24px; height: 24px; animation: spin 1s ease-in-out infinite;"></div>
+</div>
+
+
+<div id="example"></div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        loadCSV('threathunting-keywords.csv');
+    });
+
+    function loadCSV(filePath) {
+		// Show loading indicator
+		document.getElementById('loadingIndicator').style.display = 'block';
+
+        fetch(filePath)
+        .then(response => response.text())
+        .then(csvText => {
+            Papa.parse(csvText, {
+                header: true,
+                dynamicTyping: true,
+                skipEmptyLines: true,
+                complete: function(results) {
+                    var data = results.data;
+                    if (data.length === 0 || (data.length === 1 && !data[0])) {
+                        return;
+                    }
+
+                    // Original column headers from the data
+                    var originalColHeaders = Object.keys(data[0]);
+
+                    // Adjusted column headers for display
+                    var colHeaders = originalColHeaders.map(header =>
+                        header.startsWith('metadata_') ? header.substring(9) : header
+                    );
+
+                    // Map original data fields to adjusted column headers for Handsontable
+                    var columns = originalColHeaders.map(header => ({
+                        data: header,
+                        type: 'text',
+                        title: header.startsWith('metadata_') ? header.substring(9) : header
+                    }));
+
+                    createHandsontable(data, colHeaders, columns);
+					// Hide loading indicator once loading is complete
+					document.getElementById('loadingIndicator').style.display = 'none';
+                    }
             });
-        </script>
+        })
+		.catch(error => {
+			console.error('Error loading the CSV file:', error);
+			// Hide loading indicator in case of error
+			document.getElementById('loadingIndicator').style.display = 'none';
+		});
+    }
 
-    </head>
-    <body>
-	<h1 class="centered-title">ThreatHunting Keywords</h1>
-        <div class="container">
-            <select id="csv-select">
-                <option value="threathunting-keywords.csv">ThreatHunting keywords</option>
-                <option value="greyware_tool_keyword.csv">Greyware tool keywords</option>
-                <option value="signature_keyword.csv">Signature keywords</option>
-                <option value="offensive_tool_keyword.csv">Offensive tools keywords</option>
-                <!-- Add more options for each CSV file you want to make available -->
-            </select>
-            <h1 id="csv-title"></h1>
-            <table id="example" class="row-border hover order-column cell-border display compact stripe" style="width:100%">
-                <thead>
-                </thead>
-                <tbody>
-                </tbody>
-            </table>
-        </div>
-    </body>
+    function createHandsontable(data, colHeaders, columns) {
+        var container = document.getElementById('example');
+        if (window.hot) {
+            window.hot.destroy(); // Destroy existing Handsontable instance if exists
+        }
+        window.hot = new Handsontable(container, {
+            data: data,
+            colHeaders: colHeaders,
+            rowHeaders: true,
+            columns: columns.map(column => {
+                // Check if the column is the one that needs custom width
+                if (column.data === 'keyword') {
+                    return { ...column, width: 200 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_keyword_regex') {
+                    return { ...column, width: 200 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_keyword_type') {
+                    return { ...column, width: 150 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_description') {
+                    return { ...column, width: 200 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_malwares_name') {
+                    return { ...column, width: 50 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_tool_techniques') {
+                    return { ...column, width: 120 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_tool_tactics') {
+                    return { ...column, width: 120 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_groups_name') {
+                    return { ...column, width: 50 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_category') {
+                    return { ...column, width: 150 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_link') {
+                    return { ...column, width: 150 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_tool') {
+                    return { ...column, width: 170 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_comment') {
+                    return { ...column, width: 100 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_severity_score') {
+                    return { ...column, width: 130 }; // Custom width for this specific column
+                }
+                if (column.data === 'metadata_popularity_score') {
+                    return { ...column, width: 130 }; // Custom width for this specific column
+                }
+                return column; // Return other columns as is
+            }),
+			licenseKey: 'non-commercial-and-evaluation', // Specify the license key here
+            colWidths: 100, // Set fixed width for all columns
+            rowHeights: 23, // Set initial height for all rows
+            manualColumnResize: true, // Allow manual resizing of columns
+            manualRowResize: true, // Allow manual resizing of rows
+            filters: true,
+            dropdownMenu: true,
+			// enable sorting for all columns
+			columnSorting: true
+        });
+    }
+</script>
+
+</body>
 </html>

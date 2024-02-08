@@ -1,0 +1,132 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <link rel="icon" type="image/png" href="/images/Zoom-icon.png">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>ThreatHunting-Keywords</title>
+		<style>
+			.dataTables_wrapper .dataTables_length select,
+			.dataTables_wrapper .dataTables_filter input {
+				background-color: white;
+			}
+			.centered-title {
+				text-align: center;
+				margin-top: 1px;
+				color: white;
+			}
+			.dataTables_wrapper .dataTables_filter {
+				text-align: left !important;
+				display: flex;
+				justify-content: flex-start;
+				align-items: center;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+			.dataTables_wrapper .dataTables_filter label {
+				margin-right: 10px;
+				width: 100% !important;
+				color: white !important;
+			}
+			.dataTables_wrapper .dataTables_filter input {
+				width: 100% !important;
+			}
+			.ui-widget-header {
+				border: 1px solid #e78f08;
+				background: #161b22;
+				color: #fff;
+				font-weight: bold
+			}
+			body {
+				background-color: #333333;
+				font-family: "Consolas", monospace;
+				color: #15202b;
+			}
+			table.dataTable tbody td {
+				background-color: #f6f6f6;
+			}
+			table.dataTable tbody tr td:first-child {
+				background-color: #f6f6f6 !important;
+			}
+			.dataTables_wrapper .dataTables_length select option {
+				color: black;
+			}
+			.dataTables_wrapper .dataTables_length label {
+			    color: white;
+			}
+			.dataTables_wrapper .dataTables_length select option:first-child {
+				color: white;
+			}
+			.dataTables_wrapper .dataTables_info {
+				color: white !important;
+			}
+			.dataTables_wrapper .dataTables_filter label, .dataTables_wrapper .dataTables_paginate .paginate_button {
+				color: white !important;
+			}
+			#csv-title {
+			  color: white;
+			}
+		</style>
+
+				<!-- <link rel="stylesheet" type="text/css" href="https://datatables.net/media/css/site-examples.css?_=ee251b2e366fd8325168a7c17e83be281"/> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"/> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.min.css"/> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/dataTables.jqueryui.min.css"/> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.css"/> -->
+ 	
+				<!-- <script type="text/javascript" src="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script> -->
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js">  -->
+        <!-- <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.min.js"></script> -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
+        <script type="text/javascript" src="https://cdn.datatables.net/r/ju-1.11.4/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>
+        <link rel="icon" href="/images/Zoom-icon.png" type="image/x-icon">
+        <script type="text/javascript" charset="utf-8">
+            function loadCsvFile(csvFileName) {
+                $('#csv-title').text(csvFileName);
+                $.get(csvFileName, function(data) {
+                    var parsedData = Papa.parse(data, { header: true }).data;
+                    parsedData = parsedData.filter(row => Object.values(row).some(value => value !== ""));
+                    var columns = Object.keys(parsedData[0]).map(function(col) {
+                        return { data: col, title: col.replace(/^metadata_/, ''), defaultContent: '' };
+                    });
+                    var table = $('#example').DataTable({
+                        data: parsedData,
+                        columns: columns,
+                        dom: '<"top"fi>rt<"bottom"lp><"clear">',
+                        destroy: true,
+                        jqueryUI: true
+                    });
+                });
+            }
+            $(document).ready(function() {
+                // Load the initially selected CSV file
+                loadCsvFile($('#csv-select').val());
+
+                // Update the DataTable when a new CSV file is selected
+                $('#csv-select').change(function() {
+                    loadCsvFile($(this).val());
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+	<h1 class="centered-title">ThreatHunting Keywords</h1>
+        <div class="container">
+            <select id="csv-select">
+                <option value="threathunting-keywords.csv">ThreatHunting keywords</option>
+                <option value="greyware_tool_keyword.csv">Greyware tool keywords</option>
+                <option value="signature_keyword.csv">Signature keywords</option>
+                <option value="offensive_tool_keyword.csv">Offensive tools keywords</option>
+                <!-- Add more options for each CSV file you want to make available -->
+            </select>
+            <h1 id="csv-title"></h1>
+            <table id="example" class="row-border hover order-column cell-border display compact stripe" style="width:100%">
+                <thead>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
