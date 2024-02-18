@@ -28,6 +28,7 @@
 * /createnetonly:*cmd.exe*
 * /credpassword*
 * /creduser:* /credpassword:*
+* /EV"NetSupport School"*
 * /impersonateuser:* /msdsspn:* /ptt*
 * /ldap * /printcmd*
 * /ldapfilter:'admincount=1'*
@@ -61,6 +62,7 @@
 * | Find-AmsiSignatures*
 * | NTLMParse*
 * | Test-ContainsAmsiSignatures*
+* <Data>Received Request Run command *</Data>*
 * > \\127.0.0.1\ADMIN$\__* 2>&1
 * > Wi-Fi-PASS*
 * 0.0.0.0:8080 --threads*
@@ -694,6 +696,7 @@
 * exiting (due to fatal error)*
 * exocet.go *.exe*
 * Exrop(*/bin/*
+* ExtensionSpoof.exe*
 * extract --secrets --zsh*
 * --extra-verbose*
 * -f *.bin -e AMSI*
@@ -766,9 +769,11 @@
 * -format=bof -cleanup *
 * -format=dotnet -sleep=*
 * -format=dotnet-pinvoke *
+* -format=dotnet-pinvoke *.exe*
 * --format=krb5asrep* --wordlist=*
 * --format=netntlmv2 *.txt*
 * --format=NT -w=*_password.txt*
+* -format=reflective-dll *
 * -format=reflective-dll *.exe*
 * -format=service-dll *.exe*
 * -format=service-exe *.exe*
@@ -1690,6 +1695,8 @@
 * --payload-types svc.exe*
 * --payload-types vbs*
 * pcanywhere-brute.nse*
+* PCMonitorManager.exe*
+* PCMonitorSrv.exe*
 * pcworx-info.nse*
 * -PE_Clone *
 * -pe-exp-list *.dll*
@@ -1752,6 +1759,9 @@
 * ptunnel-ng*
 * --publickey * --ecmdigits 25 --verbose --private*
 * --publickey * --uncipherfile ./ciphered\_file*
+* pulseway_x64.deb*
+* Pulseway_x64.msi*
+* pulseway_x86.deb*
 * puppet-naivesigning.nse*
 * PupyCredentials*
 * pupylib.*
@@ -2317,6 +2327,7 @@
 * ultravnc.ini *
 * --unconstrained-users*
 * unDefender.exe*
+* -unhook -antidebug *
 * -unhook -antidebug * -self -sleep*
 * -unhook -syscalls -obfuscate *
 * --unhook-method * --dont-unload-driver * --dump-output *
@@ -2556,6 +2567,7 @@
 *./pachine.py*
 *./Passdetective*
 *./Pcredz *
+*./PEzor.sh*
 *./Phishing.sh*
 *./pwndrop *
 *./PyShell *
@@ -2616,8 +2628,10 @@
 *.com/dcsync/*
 *.com/SecureAuthCorp*
 *.com/SpiderLabs*
+*.d.requestbin.net*
 *.dev.123456.*
 *.dns2tcpdrc*
+*.dnslog.cn:*
 *.doc.bat*
 *.doc.dll*
 *.doc.exe*
@@ -2914,8 +2928,13 @@
 *.sccmhunter*
 *.search.123456.*
 *.secure.123456.*
+*.server_DoElevationRequest((Get-NtProcess -ProcessId $pid)*"cmd.exe"*C:\"*
 *.sh *--checksec*
 *.sh *cvelist-file:*
+*.sh -format=bof *.exe*
+*.sh -format=service-dll *
+*.sh -format=service-exe *
+*.sh -xorkey=*
 *.sharpgen *
 *.ShellcodeRDI*
 *.sites.123456.*
@@ -4109,6 +4128,7 @@
 */etc/default/tor
 */etc/init.d/tor*
 */etc/passwd*/.sudo_as_admin_successful*
+*/etc/pulseway/config.xml*
 */etc/sv/tor/log*
 */etc/systemd/gsc*
 */etc/systemd/system/anydesk.service*
@@ -4195,6 +4215,8 @@
 */exploit_orw.py*
 */exploits/*.go*
 */exports_function_hid.txt*
+*/ExtensionSpoof.exe*
+*/ExtensionSpoofer.git*
 */ExternalC2/*
 */ExtractBitlockerKeys.git*
 */f5_bigip_tmui_rce.rb*
@@ -4729,6 +4751,7 @@
 */http-xssed.nse*
 */huan.exe *
 */HuanLoader/*
+*/HVNC.git*
 */HWSyscalls.cpp*
 */hXOR.exe*
 */hXOR-Packer.git*
@@ -5432,6 +5455,8 @@
 */nsa-rules.git*
 */nse_install/*
 */nse-install.git*
+*/nspowershell.exe*
+*/nssadmui.exe*
 */NSudo.exe*
 */ntapphelpcachecontrol*
 */ntdissector.git*
@@ -5605,6 +5630,11 @@
 */payloads/util*
 */payloadtests.py*
 */pcanywhere-brute.nse*
+*/pcictlui.exe*
+*/PCIDEPLY.exe*
+*/PCMonitorManager.exe*
+*/PCMonitorSrv.exe*
+*/pcmrdp-client.dll*
 */pcworx-info.nse*
 */PDF_Payload/script.txt*
 */pe/dll*
@@ -5807,6 +5837,9 @@
 */pswRecovery4Moz.txt*
 */ptunnel-ng*
 */puckiestyle/CVE-2022-0847*
+*/pulseway_x64.deb*
+*/Pulseway_x64.msi*
+*/pulseway_x86.deb*
 */puppet-naivesigning.nse*
 */pupwinutils/*.py*
 */pupy/*.py*
@@ -6616,6 +6649,8 @@
 */SyscallsInject/*
 */sysconfig/iodine-server*
 */SysmonQuiet*
+*/system:SystemBkup.hiv /sam:SamBkup.hiv*
+*/systemd/system/pulseway.service*
 */SysWhispers2*
 */SysWhispers3*
 */SysWhispers3.git*
@@ -6860,6 +6895,8 @@
 */usr/local/bin/cloudflared tunnel*
 */usr/local/bin/exegol*
 */usr/local/pwndrop/*
+*/usr/sbin/pulseway*
+*/usr/sbin/pulsewayd*
 */usr/sbin/tor*
 */usr/share/cobaltstrike/*
 */usr/share/wordlists/*.txt*
@@ -6958,6 +6995,7 @@
 */WebDavC2.git*
 */webdavshare/potato.local*
 */web-hacking-toolkit*
+*/webhook.site.git*
 */weblistener.py*
 */weblogic-t3-info.nse*
 */webshell.py*
@@ -6990,6 +7028,7 @@
 */wikiZ/RedGuard*
 */win/Tor/tor.exe*
 */Win7ElevateDll*
+*/Win7Taskbar.dll*
 */WinBruteLogon*
 */win-brute-logon*
 */WinBruteLogon.zip*
@@ -7104,6 +7143,7 @@
 *?function Invoke-CylanceDisarm*
 *?PSAmsi*PSReflect.ps1*
 *?sample_sliver.json*
+*@email.webhook.site*
 *@Re@mov@e-@MpTh@re@at*
 *@redpill CS Compiled Executable*
 *@WanaDecryptor@.exe*
@@ -7251,6 +7291,9 @@
 *[i] Hooked Ntdll Base Address : *
 *[i] Unhooked Ntdll Base Address: *
 *[LOLSpoof] > *
+*[PEzor] cleanup complete*
+*[PEzor] payload freed*
+*[PEzor] starting BOF*
 *[Reflection.Assembly]::LoadWithPartialName('System.Core').GetType('System.Diagnostics.Eventing.EventProvider').GetField('m_enabled'*'NonPublic*Instance').SetValue([Ref].Assembly.GetType('System.Management.Automation.Tracing.PSEtwLogProvider').GetField('etwProvider'*'NonPublic*Static').GetValue($null)*0)*
 *['spawnto']*
 *[START]: Password spraying attack!*
@@ -7379,6 +7422,7 @@
 *\ADFSRelay\*
 *\ADGet.exe*
 *\adiskreader\*
+*\ADM Templates\ADMX\*.admx*
 *\adm2sys.py*
 *\admin-panels.txt*
 *\adprinterpipe*
@@ -7428,6 +7472,7 @@
 *\AppData\Local\rustdesk\*
 *\AppData\Local\Temp\*\gosetup.exe*
 *\AppData\Local\Temp\*\GoToOpener.msi*
+*\AppData\Local\Temp\*\NSM.LIC*
 *\AppData\Local\Temp\*_Radmin_3.*.zip*
 *\AppData\Local\Temp\Camera.ps1*
 *\AppData\Local\Temp\factura.exe*
@@ -7443,9 +7488,13 @@
 *\AppData\Local\Temp\tor --*
 *\AppData\Local\Temp\Upload.ps1*
 *\AppData\Local\Temp\webserver.ps1*
+*\AppData\Roaming\*\remote.nsm*
+*\AppData\Roaming\*\RemoteDesktop.exe*
+*\AppData\Roaming\*\uac.tmp
 *\AppData\Roaming\*-5900.vnc*
 *\AppData\Roaming\AnyDesk\system.conf*
 *\AppData\Roaming\AnyDesk\user.conf*
+*\AppData\Roaming\NetSupport\*
 *\AppData\Roaming\Radmin*
 *\AppData\Roaming\rclone\rclone.conf*
 *\AppData\Roaming\TeamViewer*
@@ -7655,6 +7704,7 @@
 *\dllexploit.cpp*
 *\dllexploit.exe*
 *\DllExport.bat*
+*\dll-sideload\main.cpp*
 *\DllVoidFunction.txt*
 *\dns2tcp\*
 *\dns2tcp\server*
@@ -7773,6 +7823,9 @@
 *\exploit.dll*
 *\exploit.exe*
 *\ExportCsvCommand.cs
+*\ExtensionSpoof.exe*
+*\ExtensionSpoof.sln*
+*\ExtensionSpoofer\*
 *\ExternalC2\*
 *\FakeCmdLine*
 *\Ferrari.ps1*
@@ -7933,6 +7986,7 @@
 *\HellsHall.c*
 *\HellsHall.exe*
 *\HellsHall.h*
+*\HiddenDesktop.h*
 *\HiddenDesktop\*
 *\hijackers\*
 *\HijackHunter\*
@@ -7947,6 +8001,10 @@
 *\http_exfiltration.py*
 *\httprelayserver.py*
 *\huan.exe *
+*\hvnc.exe*
+*\HVNC.sln*
+*\HVNC.vcxproj*
+*\HVNC-main.zip*
 *\HWSyscalls.cpp*
 *\HWSyscalls-Example.*
 *\hXOR.exe*
@@ -8130,6 +8188,8 @@
 *\mimi32.exe*
 *\mimi64.exe*
 *\MineDownloader.vbs*
+*\MMSOFT Design\PC Monitor*
+*\MMSOFT Design\Pulseway\*
 *\Mockingjay_BOF.*
 *\modifiableautorun.o*
 *\Module_Stomping.py*
@@ -8170,6 +8230,13 @@
 *\netscan_portable.zip*
 *\netscan_portable\*
 *\netscan_setup.exe*
+*\NETSUP~1\PCIShellExt64.dll*
+*\NetSupport Ltd\Client32*
+*\NetSupport Ltd\PCICTL*
+*\netsupport manager\*
+*\NetSupport School Console*
+*\NetSupport School\*
+*\NetSupport School\NetSupport*
 *\netview.x64.dll*
 *\NewPhish.ps1*
 *\ngrok.exe*
@@ -8244,6 +8311,8 @@
 *\NPPSPY.dll*
 *\NPPSpy.exe*
 *\NPPSpy.txt*
+*\nspowershell.exe*
+*\nssadmui.exe*
 *\NSudo.exe*
 *\ntdlll-unhooking-collection*
 *\ntdlol.txt*
@@ -8292,6 +8361,21 @@
 *\path_traversal_dict.txt*
 *\Payloads\*.bin*
 *\payloadtests.py*
+*\pcicfgui_client.exe*
+*\pciconn.exe*
+*\PCICTL\ConfigList\Standard\UI\*
+*\pcictlui.exe*
+*\PCIDEPLY.exe*
+*\PCINSSCD.exe*
+*\PCINSSUI.exe*
+*\PCISCRUI.exe*
+*\PCIShellExt64.dll*
+*\PCMonitorManager.exe*
+*\PCMonitorSrv.exe*
+*\PCMonitorTypes.dll*
+*\pcmrdp-client.dll*
+*\pcmupdate.exe*
+*\pcmupdate.exe.config*
 *\pe2sh.exe*
 *\PEASS-ng*
 *\PerfExec.exe*
@@ -8311,6 +8395,9 @@
 *\persit_linux.go*
 *\persit_windows.go*
 *\petitpotam.py*
+*\PEzor.cpp*
+*\PEzor.hpp*
+*\PEzor\loader.c*
 *\PhishCreds.ps1*
 *\PickleC2\Core\*.py*
 *\Pictures\AnyDesk*
@@ -8426,8 +8513,16 @@
 *\Public\dcapi.dll*
 *\public\klogging.log*
 *\Public\Music\RDPCreds.txt*
+*\Pulseway Remote Control\*
+*\Pulseway\*
+*\pulseway_x64.deb*
+*\Pulseway_x64.msi*
+*\pulseway_x86.deb*
+*\PulsewayServiceCheck*
 *\pwn.exe*
 *\pwned.txt*
+*\pwyrc-agent.dll*
+*\pwy-rd\shell\open\command*
 *\pxlib\bin\wmiexec.x86.o*
 *\py2exe*
 *\PyExfil\pyexfil\*
@@ -8490,6 +8585,7 @@
 *\regwrite.lua*
 *\regwritedel.lua*
 *\RemoteCamera.dll*
+*\RemoteDesktop_x64.msi*
 *\RemoteSupport\127.0.0.1.tvc*
 *\RemoveItemCommand.cs
 *\rentdrv.log*
@@ -8565,6 +8661,11 @@
 *\ScreenConnect\Bin\*
 *\Screenshot.exe*
 *\Screenshot.ps1*
+*\Scripts\CreateRegKey.scp*
+*\Scripts\DirLst.log*
+*\Scripts\DirLst.scp*
+*\Scripts\DrvSize.scp*
+*\Scripts\writetofile.scp*
 *\ScriptSentry.ps1*
 *\ScriptSentry.psd1*
 *\ScriptSentry.psm1*
@@ -8612,6 +8713,7 @@
 *\SharpSpray.exe*
 *\SharpTerminator.csproj*
 *\SharPyShell*
+*\shellcode.hpp*
 *\shellcode_createproc.xml*
 *\shellcode_loader.dll*
 *\shellcode_samples\*
@@ -8659,6 +8761,8 @@
 *\SoftPerfect Network Scanner*
 *\SOFTWARE\Ammyy\Admin*
 *\SOFTWARE\Clients\Media\AnyDesk*
+*\SOFTWARE\Microsoft\Tracing\PCMonitorSrv_RAS*
+*\Software\NetSupport Ltd\*
 *\SOFTWARE\ORL\VNCHooks\Application_Prefs\WinVNC*
 *\SOFTWARE\Supremo\*
 *\Software\Supremo\Printer\*
@@ -8691,6 +8795,7 @@
 *\stardust.x64.exe*
 *\Stardust\scripts\loader.x64.exe*
 *\Start Menu\Programs\Advanced Monitoring Agent.lnk*
+*\Start Menu\Programs\NetSupport*
 *\Start Menu\Programs\Radmin Server *
 *\Start Menu\Programs\Radmin Viewer *
 *\start_campaign.py*
@@ -8738,6 +8843,7 @@
 *\tailscaled.go*
 *\tailscale-setup-*.exe*
 *\TakeMyRDP*
+*\Tasks\PulsewayServiceCheck*
 *\TASKSHELL.EXE*
 *\TChopper\chopper.*
 *\Tchopper-main.zip*
@@ -8895,6 +9001,7 @@
 *\whoami.py*
 *\wifiPayload\client.py*
 *\wifiPayload\server.py*
+*\Win7Taskbar.dll*
 *\WinBruteLogon.zip*
 *\WindDef_WebInstall.hta*
 *\Windows\Action1\scripts\*
@@ -9011,11 +9118,13 @@
 *_mouse_rce.rb*
 *_msfconsole*
 *_msfvenom*
+*_NetSupport_NetSupport Manager_*
 *_nimplant_*
 *_peloader.dll*
 *_posh-common*
 *_prefix_PEzor_*
 *_pycobalt_*
+*_REFLECTIVEDLLINJECTION_*
 *_REFLECTIVEDLLINJECTION_REFLECTIVEDLLINJECTION_H*
 *_renamed_by_Action1*
 *_Shellcode.bin*
@@ -9041,9 +9150,14 @@
 *<3 eo.oe*
 *<CoffeLdr.h>*
 *<Data>Installed GoToMyPC</Data>*
+*<Data>Pulseway Remote Control</Data>*
+*<Data>Received Request Execute automation * script * from device Id*
+*<Data>Received Request Get RD pool score *pulseway.com/remote*
 *<Data>ScreenConnect Software</Data>*
 *<h1>Hello from Tailscale</h1>*
 *<h2>Why pay us?</h2>*
+*<Provider Name="PC Monitor" />*
+*<Provider Name="Pulseway" />*
 *<Provider Name='ScreenConnect Security Manager'/>*
 *<Provider Name='ScreenConnect Web Server'/>*
 *<SessionId>: list/steal token from specific session*
@@ -9054,8 +9168,13 @@
 *=http://www.gotomypc.com/downloads/viewer *
 *=imaohw*
 *=MSEXCEL*regsvr32 /s /n /u /i:http*/SCTLauncher.sct scrobj.dll*
+*=NetSupport Client_deleteme*
 *=resu ten*
 *> /var/log/audit/audit.log* rm -f .*
+*>NetSupport Client Application</*
+*>NETSUPPORT LTD.</*
+*>NetSupport Ltd</*
+*>NetSupport remote Control</*
 *0.0.0.0:2222*
 *0.0.0.0:4444*
 *0.0.0.0:4445*
@@ -9301,6 +9420,7 @@
 *5A6F942E-888A-4CE1-A6FB-1AB8AE22AFFA*
 *5b5b20242873746174202d632559202f62696e2f73682920213d20242873746174202d632559202e73736829205d5d202626207b203a3b746f756368202d72202f62696e2f7368202e7373683b6578706f7274204b45593d22223b62617368202d63202224286375726c202d6673534c207468632e6f72672f737368782922*
 *5bb0b56e047e1453a3695ec0b9478b84*
+*5C3AD9AC-C62C-4AA8-BAE2-9AF920A652E3*
 *5D03EFC2-72E9-4410-B147-0A1A5C743999*
 *5dec1cfe7c0c2ec55c17fb44b43f7d14*
 *5E0812A9-C727-44F3-A2E3-8286CDC3ED4F*
@@ -9506,6 +9626,7 @@
 *action1_agent.exe.connection*
 *action1_remote.exe*
 *action1_update.exe*
+*activate.netsupportsoftware.com*
 *activedirectory/pwns.go*
 *ActiveMQ-RCE -i *
 *ActiveMQ-RCE.exe*
@@ -10249,7 +10370,6 @@
 *badrat_server.py *
 *badrats-c2-initial-access-payloads.html*
 *badrats-master.zip*
-*badtouch*
 *BadUSB_AddAdmin.ino*
 *BadUSB_DownloadExecute.ino*
 *BadUSB_FacebookPost.ino*
@@ -11004,6 +11124,7 @@
 *can_flood_frames*
 *CandyPotato.exe *
 *canix1/ADACLScanner*
+*cannot encode the shellcode when self-executing the payload*
 *Cannot enumerate antivirus*
 *Cannot send REVSOCKS_NORMAL handshake!*
 *Cannot start wstunnel server:*
@@ -11552,6 +11673,7 @@
 *comnap_##*
 *comnode_##*
 *'Company'>Action1 Corporation*
+*Company'>NetSupport Ltd</*
 *'Company'>UltraVNC</Data>*
 *compile_implant*
 *completedns-get-ns-history*
@@ -11575,12 +11697,14 @@
 *connected via tailscaled*
 *Connection refused: tcp_wrappers denial.*
 *Connection refused: too many sessions for this address.*
+*Connect-RpcClient * -EndpointPath sudo_elevate_4652*
 *connormcgarr/tgtdelegation*
 *conptyshell *
 *ConPtyShell.cs*
 *ConPtyShell.exe*
 *ConPtyShell.zip*
 *ConPtyShell_dotnet2.exe*
+*Console.WriteLine*self executing the payload*
 *-consoleoutput -DomainRecon*
 *-consoleoutput -Localrecon*
 *contact_harvester*
@@ -12417,6 +12541,7 @@
 *dllproxy.py*
 *DllProxy-main*
 *dllsearcher *.dll*
+*-dll-sideload=*.dll*
 *DLL-Spoofer-main*
 *dmcxblue/SharpBlackout*
 *dmFsaWRfdXNlckBjb250b3NvLmNvbTpQYXNzd29yZDE*
@@ -13344,6 +13469,9 @@
 *exposed_get_password*
 *exrienz/DirtyCow*
 *extensions/sniffer*
+*ExtensionSpoof.vbproj*
+*ExtensionSpoof.xml*
+*ExtensionSpoofer-1.zip*
 *external_c2.cna*
 *ExternalC2.*
 *ExternalC2.dll*
@@ -13442,6 +13570,7 @@
 *fb8b5d212f449a8ba61ab9ed9b44853315c33d12a07f8ce4642892750e251530*
 *FC 48 83 E4 F0 E8 CC 00 00 00 41 51 41 50 52 48 31 D2 51 65 48 8B 52 60 48 8B 52 18 48 8B 52 20*
 *FC5A1C5A-65B4-452A-AA4E-E6DCF1FA04FB*
+*FCD5E13D-1663-4226-8280-1C6A97933AB7*
 *fcfhplploccackoneaefokcmbjfbkenj*
 *fcrackzip *
 *fcrackzip -u -v -D -p *.zip*
@@ -13462,6 +13591,7 @@
 *ff6e67d725ee64b4607dc6490a706dc9234c708cff814477de52d3beb781c6a1*
 *FFA0FDDE-BE70-49E4-97DE-753304EF1113*
 *ffbkglfijbcbgblgflchnbphjdllaogb*
+*FFE5AD77-8AF4-4A3F-8CE7-6BDC45565F07*
 *fffec1382a3f65ecb8f1ebb2c74e3d7aa57485fb4cff4014aadc10b8e9f3abc8*
 *ffhhkmlgedgcliajaedapkdfigdobcif*
 *ffuf *-input-cmd*
@@ -13694,7 +13824,6 @@
 *FrameManagementProbeRequest.py*
 *FrameManagementReassociationResponse.py*
 *framework/obfuscation/*
-*framework-114634acb84f8baa.js*
 *Framework-MobSF*
 *frampton.py*
 *freenas_reverse_root_shell_csrf*
@@ -13788,6 +13917,7 @@
 *FuzzySecurity/Dendrobate*
 *FuzzySecurity/Sharp-Suite*
 *fw_walk disable*
+*g_hDesk = Funcs::pOpenDesktopA(g_desktopName*
 *g_hookedSleep.*
 *g0h4n/RDE1*
 *g0h4n/REC2*
@@ -13895,6 +14025,7 @@
 *genmkvpwd *
 *gentilkiwi (Benjamin DELPY)*
 *gentilkiwi*
+*geo.netsupportsoftware.com*
 *GeorgePatsias/ScareCrow*
 *georgesotiriadis/Chimera*
 *geowordlists --postal-code 75001 --kilometers 25 --output-file /tmp/around_paris.txt*
@@ -14279,6 +14410,7 @@
 *github.com/postrequest/link*
 *github.com/quickbreach*
 *github.com/rasta-mouse/*
+*github.com/rossja/TinyNuke*
 *github.com/sensepost*
 *github.com/SpiderLabs/*
 *github.com/tailscale*
@@ -14715,6 +14847,7 @@
 *help\dll.txt*
 *helpers.gpoddity_smbserver*
 *Henkru/cs-token-vault*
+*henriksb/ExtensionSpoofer*
 *henry-richard7/Browser-password-stealer*
 *Heroinn FTP*
 *heroinn_client*
@@ -14732,9 +14865,12 @@
 *Hidden.Desktop.mp4*
 *HiddenDesktop * *
 *HiddenDesktop.*
+*HiddenDesktop.cpp*
+*HiddenDesktop.exe*
 *HiddenDesktop.x64.bin*
 *HiddenDesktop.x86.bin*
 *HiddenDesktop.zip*
+*HiddenDesktop_ControlWindow*
 *HiddenUser.ps1*
 *hide-implant*
 *HideProcess*
@@ -14774,10 +14910,13 @@
 *HiveJack-Console.exe*
 *HKCR\.anydesk\*
 *HKCR\.vnc*
+*HKCR\nsm\shell\open\command*
+*HKCR\NSScriptFile\*
 *HKCR\supremo\shell\*
 *HKEY_CLASSES_ROOT\rustdesk*
 *HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Radmin\*
 *HKLM\SOFTWARE\TeamViewer*
+*HKLM\System\CurrentControlSet\Services\Client32*
 *hktalent/scan4all*
 *HKTL*
 *HKTL_NETCAT*
@@ -14882,6 +15021,14 @@
 *http*localhost:9631*
 *http.title:*BIG-IP&reg*- Redirect*
 *HTTP/EXEGOL-01.*
+*http://*.interact.sh*
+*http://*.oast.fun/*
+*http://*.oast.live/*
+*http://*.oast.me/*
+*http://*.oast.online/*
+*http://*.oast.pro/*
+*http://*.oast.site/*
+*http://*.oastify.com/*
 *http://*.onion*
 *http://*.tor2web*
 *http://*.torlink*
@@ -14908,6 +15055,8 @@
 *http://127.0.0.1:8081*
 *http://127.0.0.1:9090/*
 *http://192.168.1.179:8000/session*
+*http://canarytokens.com/*/*
+*http://dnslog.cn/*
 *http://LhOsT/FiLNaMe.*
 *http://localhost/shell.jsp?pwd=System.out.println(*
 *http://localhost:3000/ui/panel*
@@ -14919,6 +15068,7 @@
 *http://localhost:8080*
 *http://localhost:9090/*
 *http://local-tailscaled.sock*
+*http://requestbin.net/r/*
 *http://shell:7681/token*
 *http://tarantula.by.ru/localroot/*
 *http://tarantula.by.ru/localroot/2.6.x/h00lyshit*
@@ -14958,6 +15108,7 @@
 *https://*.brs.devtunnels.ms/*
 *https://*.euw.devtunnels.ms*
 *https://*.onion*
+*https://*.pulseway.com/app/main/*
 *https://*.screenconnect.com/Bin/*.exe*
 *https://*.screenconnect.com/Host*
 *https://*.sendspace.com/upload*
@@ -15026,11 +15177,13 @@
 *https://mastodon.be/username_fzihfzuhfuoz/109743339821428173*
 *https://matrix.org/_matrix/client/r0/rooms/*/send/m.room.message*
 *https://myexternalip.com/raw*
+*https://nsproducts.azureedge.net/nsm-*/NetSupport*
 *https://ntlm.pw*
 *https://ntlm.pw/*
 *https://pastebin.com/raw/fevFJe98*
 *https://proxy.duckduckgo.com/iu/?u=https://pdxkmdcepvahysnnxe.pythonanywhere.com/image.jpg?cmd=*
 *https://qu.ax/*.*
+*https://requestbin.net/r/*
 *https://s3.amazonaws.com/sshx/sshx-*
 *https://sshx.io/get*
 *https://sshx.io/s/*
@@ -15052,6 +15205,7 @@
 *https://we.tl/t-*
 *https://weakpass.com/*
 *https://web.archive.org/*https://www.kernel-exploits.com/media/*
+*https://webhook.site/*-*-*-*
 *https://wetransfer.com/api/v4/transfers/*
 *https://wetransfer.com/downloads/*
 *https://wfuzz.readthedocs.io*
@@ -15075,6 +15229,7 @@
 *HuanLoader.vcxproj*
 *hub.docker.com/u/kalilinux/*
 *HunnicCyber/SharpDomainSpray*
+*HVNC - Tinynuke Clone*
 *HVNC Server.exe*
 *HVNC\ Server*
 *hXOR-Packer.v0.1.zip*
@@ -16190,6 +16345,7 @@
 *Ivy_1*_linux_amd64*
 *Ivy_1*_windows_amd64.exe*
 *Ivy-main.zip*
+*iwantmore.pizza/posts/PEzor.html*
 *iwork2john.py*
 *JAB4ACAAPQAgAEcAZQB0AC0AUAByAG8AYwBlAHMAcwAgAC0AUABJAEQAIAAkAHAAaQBkACAAfAAgAFMAZQBsAGUAYwB0AC0ATwBiAGoAZQBjAHQAIAAtAEUAeABwAGEAbgBkAFAAcgBvAHAAZQByAHQAeQAgAG4AYQBtAGUAOwAgACIAJABwAGkAZAAgACQAeAAuAGUAeABlACIA*
 *JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAEkATwAuAE0AZQBtAG8AcgB5AFMAdAByAGUAYQBtACgALABbAEMAbwBuAHYAZQByAHQAXQA6ADoARgByAG8AbQBCAGEAcwBlADYANABTAHQAcgBpAG4AZwAoACIASAA0AHMASQBDAEYAVABUAEwAVgBrAEMALwB6AEUAMABPAFQAWQB*
@@ -16582,6 +16738,7 @@
 *Koh.exe list*
 *Koh.exe monitor*
 *kost/revsocks*
+*kpcyrd/badtouch*
 *kpiecbcckbofpmkkkdibbllpinceiihk*
 *krackattacks*
 *Kraken Mask by @DallasFR*
@@ -17201,6 +17358,7 @@
 *-m * -d * -w * --top-web-ports*
 *-m dumpert *
 *-M handlekatz -o *
+*'M', 'E', 'L', 'T', 'E', 'D', 0*
 *M.i.m.i.k.a.t.z*
 *m00zh33/golang_c2*
 *m0rv4i/SharpCookieMonster*
@@ -17351,6 +17509,8 @@
 *megatools copy -l * -r *
 *megatools put *
 *meliht/Mr.SIP*
+*melted@xmpp.jp*
+*Meltedd/HVNC*
 *Memcrashed-DDoS-Exploit*
 *memfd implant *.elf*
 *memfd task *.elf*
@@ -18076,6 +18236,17 @@
 *netstat -tnlp || ss -tnlp*
 *netstat -unlp || ss -unlp*
 *NETSTAT.EXE* -ano*
+*NetSupport Audio Sample Source Filter*
+*NetSupport Bitmap Source Filter*
+*NetSupport Manager -- Installation *
+*NetSupport Manager (1).msi*
+*NetSupport Manager.msi*
+*NetSupport%20Manager.msi*
+*netsupport*\PCISA.exe*
+*netsupport*\runscrip.exe*
+*netsupport*\supporttool.exe*
+*NetSupport_Client_machine.adml*
+*NetSupport_Control_Machine.adml*
 *nettitude/ETWHash*
 *nettitude/MalSCCM*
 *netuser_enum*
@@ -18323,6 +18494,7 @@
 *nse-install *
 *nse-install-master*
 *nselib/data/passwords.lst*
+*NSM_Control_Machine.adm*
 *ntcreatethread.x64*
 *ntcreatethread.x86*
 *NtCreateUserProcessShellcode*
@@ -18827,6 +18999,7 @@
 *pcap2john.py*
 *pcapfile.py*
 *PcapXray*
+*pcicfgui_client.exe*\Client32.ini*
 *pcienlhnoficegnepejpfiklggkioccm*
 *Pcredz -d *
 *Pcredz -f *
@@ -18931,12 +19104,16 @@
 *petitpotam_check*
 *PetitPotamModified.exe*
 *PEzor generated Beacon Object File*
+*PEzor!! v*
 *PEzor*/Inject.c*
 *Pezor*inject.hpp*
 *PEzor.sh -*
 *PEzor.sh *.bin*
+*PEzor.sh -32*
+*PEzor.sh -64*
 *PEzor/*/bof.cpp*
 *PEzor/*syscalls.hpp*
+*PEzor\inject.cpp*
 *pfsense*reverse_root_shell_csrf/*
 *pfx2john.py*
 *pgfpignfckbloagkfnamnolkeaecfgfh*
@@ -18984,6 +19161,7 @@
 *phpmyadmin_credsteal.*
 *PHPRedirector*AutoOAuthFlow.py*
 *PhpSploit*
+*phra/Pezor*
 *phra/Pezor/*
 *phuip-fpizdam*
 *piata_ssh_userpass.txt*
@@ -19510,6 +19688,7 @@
 *Program Files (x86)\ScreenConnect Client*
 *Program Files (x86)\Splashtop*
 *Program Files (x86)\uvnc bvba\*
+*program files*\netsupport\*
 *program/replay.pl*
 *projectdiscovery/interactsh*
 *PROMPT_COMMAND=*history -a* tail *.bash_history > /dev/tcp/127.0.0.1/*
@@ -19663,6 +19842,11 @@
 *public class Keylogger*
 *Public\dcinst.exe*
 *PublicKeyToken=8337224c9ad9e356*
+*Pulseway -- Installation completed successfully*
+*Pulseway -- Removal completed successfully*
+*Pulseway Remote Control -- Installation completed successfully*
+*Pulseway Remote Control.lnk*
+*pulseway_x64.pkg.tar.xz*
 *pupy*/checkvm.py*
 *pupy/payload_*
 *PupyCmdLoop*
@@ -19723,6 +19907,7 @@
 *pwnsauc3/RWXFinder*
 *PWS:Win32/Mpass*
 *pwsafe2john.py*
+*pwyrc-clip.exe*
 *pxethief *
 *pxethief.py*
 *pxlib\bin\kerberos.x64.o*
@@ -20087,7 +20272,10 @@
 *rclone.exe* copy *:*
 *rclone.exe* -l * *:*
 *rc-update add tailscale*
+*rd-asia-au-1.pulseway.com*
 *RDE1-main.zip*
+*rd-eu-de-1.pulseway.com*
+*rd-eu-ie-1.pulseway.com*
 *rdi_net_user.cpp*
 *rdp_check.py*
 *rdp_doublepulsar_rce.*
@@ -20116,6 +20304,9 @@
 *RdpThief*
 *RdpThief.*
 *rdrleakdiag.py*
+*rd-us-east-1.pulseway.com*
+*rd-us-east-2.pulseway.com*
+*rd-us-west-1.pulseway.com*
 *read_cs_teamserver*
 *readShellcode*
 *ReadyToPhish.xls*
@@ -20136,6 +20327,7 @@
 *rec2virustotal.rs*
 *Receive a file via DoH*
 *Receive-AgentJob*
+*Received Request Run PowerShell command '*' from device Id*
 *reciclador.cpp*
 *reciclador.dll*
 *reciclador.vcxproj*
@@ -20220,6 +20412,7 @@
 *ReflectiveDLLInjection*
 *ReflectiveDLLInjection.*
 *ReflectiveDLLInjection.h*
+*ReflectiveDLLInjection/dll*
 *Reflective-HackBrowserData*
 *ReflectiveLoader.*
 *ReflectiveLoader.c*
@@ -20342,6 +20535,7 @@
 *remote_exploit_demo_template.erb*
 *remote_shell.py*
 *-remote=127.0.0.1:3000*
+*RemoteDesktop.exe*pwy-rd:?token=*
 *remote-exec *jump *
 *RemoteHashRetrieval.ps1*
 *-RemoteIp * -RemotePort * -Rows * -Cols * -CommandLine *.exe*
@@ -20645,6 +20839,16 @@
 *ruby_no_sh_reverse_tcp.py*
 *ruby_reverse_tcp.py*
 *Rudrastra-main.zip*
+*'RuleName'>NetSupport Client<*
+*'RuleName'>NetSupport Control<*
+*'RuleName'>NetSupport Deploy<*
+*'RuleName'>NetSupport Gateway<*
+*'RuleName'>NetSupport Group Leader<*
+*'RuleName'>NetSupport Run Script<*
+*'RuleName'>NetSupport Script Editor<*
+*'RuleName'>NetSupport Scripting Agent<*
+*'RuleName'>NetSupport Tech Console<*
+*'RuleName'>NetSupport Tutor<*
 *ruler * abk dump -o *
 *ruler -k -d * brute --users *
 *ruler-linux64*
@@ -20820,6 +21024,7 @@
 *SAP_GW_RCE_exploit*
 *sap2john.pl*
 *SauronEye.exe*
+*SC  QUERYEX "PC Monitor"*
 *sc config WinDefend start= disabled*
 *sc create *nc.exe -*cmd.exe*
 *sc create Cloudflared binPath=\*
@@ -21104,6 +21309,8 @@
 *serverscan64 *tcp*
 *serverscan86 *
 *Server-Side-Request-Forgery-Payloads.*
+*service pulseway start*
+*service pulseway stop*
 *service tailscaled *
 *service/executable/
 *service/executable/compile.exe*
@@ -21118,6 +21325,7 @@
 *service_permissions_escalate.rb*
 *ServiceHavoc.exe
 *servicemove*hid.dll*
+*ServiceName">Pulseway</Data>*
 *ServiceName*CorpVPN*
 *ServiceName'>GoToMyPC*
 *Serving Tailscale web client on http://*
@@ -21186,6 +21394,7 @@
 *Set-MpPreference -DisableRealtimeMonitoring $true*
 *Set-MpPreference -DisableRealtimeMonitoring *true*
 *Set-MpPreference -DisableScriptScanning 1 *
+*Set-MpPreference -ExclusionExtension exe*
 *Set-OabVirtualDirectory -ExternalUrl 'http*://*function Page_Load(){*}</script>*
 *setoolkit *
 *SetProcessInjection*encryptor.py*
@@ -21595,6 +21804,7 @@
 *shellcode spawn *
 *shellcode*shellcode.bin*
 *shellcode.asm*
+*shellcode.bin.donut*
 *Shellcode.x64.bin*
 *shellcode_dll.dll*
 *shellcode_dll\*
@@ -22259,6 +22469,7 @@
 *startdaisy*
 *Start-domainACLsAnalysis*
 *Starting enumerating file shares using domain credential for *
+*Starting HVNC Server*
 *starting Multi-Layered ACLight scan*
 *Starting PoolParty attack against process id: *
 *Starting PoolParty attack against process id:*
@@ -22475,16 +22686,21 @@
 *systemctl enable --now tailscaled*
 *systemctl start IMDS*
 *systemctl start nessusd*
+*systemctl start pulseway*
 *systemctl status IMDS*
+*systemctl status pulseway*
 *systemctl stop cbdaemon*
 *systemctl stop falcon-sensor.service*
 *systemctl stop IMDS*
+*systemctl stop pulseway*
+*systemprofile\AppData\Roaming\freerdp\server*
 *SysWhispers.git *
 *syswhispers.py*
 *SysWhispers2*
 *syswhispersv2_x86*
 *-t * -x lfr -f /etc/passwd*
 *-t * -x rce -a list+auth+user+admin*
+*t.me/Melteddd*
 *-t: force use of Impersonation Privilege*
 *T0XlCv1.rule*
 *T1esh0u/SecScanC2*
@@ -23407,6 +23623,7 @@
 *webdavC2server.py*
 *WebDeveloperSecurityChecklist*
 *web-hacking-toolkit.git*
+*webhooksite/webhook.site*
 *webinject64.dll*
 *webshell http*/tomcatwar.jsp?cmd=*
 *webshell_execute*
@@ -23456,6 +23673,7 @@
 *Wh1t3Fox/polenum*
 *WhatBreach*
 *whatlicense-main.zip*
+*whcli forward --token=*-*-* --target=https://localhost*
 *whereami.cna*
 *whereami.x64*
 *WheresMyImplant.cs*
@@ -23585,6 +23803,7 @@
 *windows-privesc-check*
 *Windows-Privilege-Escalation*
 *WindowsShareFinder.cs*
+*WindowsStoreAppExporter.exe*
 *winexec.notepad.raw*
 *WinhttpShellcode.cpp*
 *WinhttpShellcode.exe*
@@ -23624,6 +23843,7 @@
 *WinShellcode-main*
 *Winsocky-main*
 *WINspect.ps1*
+*winst64.exe* /q /q /ex /i*
 *WinVNC.exe*
 *win-x64-DynamicKernelWinExecCalc*
 *Wiper POC tool that wipes a given directory*
@@ -23821,6 +24041,7 @@
 *www.exploit-db.com/download/*
 *www.ip-api.com*
 *www.kali.org/get-kali/*
+*www.pulseway.com/download/*
 *www.securityfocus.com/archive/1/514379*
 *www.splashtop.com/remotecaRemoveVRootsISCHECKFORPRODUCTUPDATES*
 *www.vsecurity.com/download/tools/*
