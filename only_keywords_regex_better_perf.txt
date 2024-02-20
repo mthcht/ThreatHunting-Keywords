@@ -193,6 +193,7 @@
 .{0,1000}\.com\/dcsync\/.{0,1000}
 .{0,1000}\.com\/SecureAuthCorp.{0,1000}
 .{0,1000}\.com\/SpiderLabs.{0,1000}
+.{0,1000}\.console\.gotoassist\.com.{0,1000}
 .{0,1000}\.d\.requestbin\.net.{0,1000}
 .{0,1000}\.dev\.123456\..{0,1000}
 .{0,1000}\.dns2tcpdrc.{0,1000}
@@ -480,6 +481,7 @@
 .{0,1000}\.rar\.iso.{0,1000}
 .{0,1000}\.rclone\.exe\sconfig.{0,1000}
 .{0,1000}\.relay\.splashtop\.com.{0,1000}
+.{0,1000}\.remoteview\.logmein\.com.{0,1000}
 .{0,1000}\.resources\.123456\..{0,1000}
 .{0,1000}\.router\.teamviewer\.com.{0,1000}
 .{0,1000}\.rtf\.bat.{0,1000}
@@ -893,7 +895,7 @@
 .{0,1000}\/beefproject\/.{0,1000}
 .{0,1000}\/Ben0xA\/.{0,1000}
 .{0,1000}\/BeRoot\.git.{0,1000}
-.{0,1000}\/beroot\.py.{0,1000}
+.{0,1000}\/beRoot\.py.{0,1000}
 .{0,1000}\/BesoToken\.cpp.{0,1000}
 .{0,1000}\/BesoToken\.exe.{0,1000}
 .{0,1000}\/BesoToken\.git.{0,1000}
@@ -1979,7 +1981,7 @@
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.rar.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.raw.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.reg.{0,1000}
-.{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.RGS.{0,1000}
+.{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.rgs.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.run.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.scpt.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.script.{0,1000}
@@ -2026,7 +2028,7 @@
 .{0,1000}\/gocrack\-1\.0\.zip.{0,1000}
 .{0,1000}\/gocrack_server.{0,1000}
 .{0,1000}\/gocrack_worker.{0,1000}
-.{0,1000}\/goDoH\.git.{0,1000}
+.{0,1000}\/godoh\.git.{0,1000}
 .{0,1000}\/godoh\/.{0,1000}
 .{0,1000}\/goDoH\/releases.{0,1000}
 .{0,1000}\/godoh\-master\.zip.{0,1000}
@@ -2649,6 +2651,8 @@
 .{0,1000}\/listProxyPool\?k\=.{0,1000}
 .{0,1000}\/llmnr\-resolve\.nse.{0,1000}
 .{0,1000}\/lltd\-discovery\.nse.{0,1000}
+.{0,1000}\/LMI_Rescue\.exe.{0,1000}
+.{0,1000}\/LMIRTechConsole\.exe.{0,1000}
 .{0,1000}\/lnkbomb\.git.{0,1000}
 .{0,1000}\/lnkbomb\.py.{0,1000}
 .{0,1000}\/LNKUp\.git.{0,1000}
@@ -5039,7 +5043,10 @@
 .{0,1000}\\Appdata\\.{0,1000}\\Beacon01\.exe.{0,1000}
 .{0,1000}\\Appdata\\.{0,1000}\\Beacon02\.exe.{0,1000}
 .{0,1000}\\Appdata\\.{0,1000}\\kitty\.exe.{0,1000}
+.{0,1000}\\AppData\\Local\\.{0,1000}\\rescue\.log.{0,1000}
 .{0,1000}\\AppData\\Local\\GoToMyPC\\.{0,1000}
+.{0,1000}\\AppData\\Local\\LMIR.{0,1000}\.tmp\.bat.{0,1000}
+.{0,1000}\\AppData\\Local\\LogMeIn\sRescue\sApplet\\.{0,1000}
 .{0,1000}\\AppData\\Local\\Microsoft\\CLR_.{0,1000}\\UsageLogs\\.{0,1000}\.exe\.log.{0,1000}
 .{0,1000}\\AppData\\Local\\rustdesk\\.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\.{0,1000}\\gosetup\.exe.{0,1000}
@@ -5060,6 +5067,7 @@
 .{0,1000}\\AppData\\Local\\Temp\\tor\s\-\-.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\Upload\.ps1.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\webserver\.ps1.{0,1000}
+.{0,1000}\\AppData\\LocalLow\\LogMeIn\sRescue\\.{0,1000}
 .{0,1000}\\AppData\\Roaming\\.{0,1000}\\remote\.nsm.{0,1000}
 .{0,1000}\\AppData\\Roaming\\.{0,1000}\\RemoteDesktop\.exe.{0,1000}
 .{0,1000}\\AppData\\Roaming\\.{0,1000}\\uac\.tmp
@@ -5183,7 +5191,7 @@
 .{0,1000}\\Citrix\\GoToMyPc\\GuestInvite.{0,1000}
 .{0,1000}\\cleantracks\.ps1
 .{0,1000}\\CleanTracks\.ps1.{0,1000}
-.{0,1000}\\clipboard\.ps1.{0,1000}
+.{0,1000}\\Clipboard\.ps1.{0,1000}
 .{0,1000}\\CloakNDaggerC2.{0,1000}
 .{0,1000}\\cloud_enum\.py.{0,1000}
 .{0,1000}\\cloudflared\.exe.{0,1000}
@@ -5564,7 +5572,7 @@
 .{0,1000}\\gs\-sftp.{0,1000}
 .{0,1000}\\GzipB64\.exe.{0,1000}
 .{0,1000}\\HackBrowserData.{0,1000}
-.{0,1000}\\hades\.exe.{0,1000}
+.{0,1000}\\Hades\.exe.{0,1000}
 .{0,1000}\\hades\-main\.zip.{0,1000}
 .{0,1000}\\HandleHijacker\.cpp.{0,1000}
 .{0,1000}\\HandleHijacker\.hpp.{0,1000}
@@ -5637,7 +5645,7 @@
 .{0,1000}\\install_elevated\.py.{0,1000}
 .{0,1000}\\interesting\-teamsmessages\.csv.{0,1000}
 .{0,1000}\-\-interface\s.{0,1000}\s\-\-wpad\s\-\-lm\s\-\-disable\-ess.{0,1000}
-.{0,1000}\\inveigh\.exe.{0,1000}
+.{0,1000}\\Inveigh\.exe.{0,1000}
 .{0,1000}\\Inveigh\\bin\\.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\aeroadmin.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\revsocks_windows.{0,1000}
@@ -5730,6 +5738,18 @@
 .{0,1000}\\LinikatzV2\\.{0,1000}
 .{0,1000}\\list\-recycle\-bin\.ps1.{0,1000}
 .{0,1000}\\LiveMicrophone\.dll.{0,1000}
+.{0,1000}\\LMI_Rescue\.exe.{0,1000}
+.{0,1000}\\lmi_rescue_srv\.exe.{0,1000}
+.{0,1000}\\LMIGuardianEvt\.dll.{0,1000}
+.{0,1000}\\LMIR.{0,1000}\.tmp\\rarcc\.dll.{0,1000}
+.{0,1000}\\LMIRescue\-.{0,1000}\.clog.{0,1000}
+.{0,1000}\\LMIRescue\-.{0,1000}\.connlog.{0,1000}
+.{0,1000}\\LMIRescueCOL\.log.{0,1000}
+.{0,1000}\\LMIRescueMqttMessages_.{0,1000}\.dat.{0,1000}
+.{0,1000}\\LMIRescueUpdater\.log.{0,1000}
+.{0,1000}\\LMIRhook\.000\.dll.{0,1000}
+.{0,1000}\\lmirtechconsole\.exe.{0,1000}
+.{0,1000}\\LMITrs\-.{0,1000}\.trs.{0,1000}
 .{0,1000}\\Lnk\-Sweeper\.ps1.{0,1000}
 .{0,1000}\\Lnk\-Sweeper\.txt.{0,1000}
 .{0,1000}\\lnk_parser_cmd\.exe\s\-r\s.{0,1000}
@@ -5744,7 +5764,15 @@
 .{0,1000}\\LocalAdminAccess\.txt.{0,1000}
 .{0,1000}\\localbrute\.ps1.{0,1000}
 .{0,1000}\\LocalPrivEsc\\.{0,1000}
+.{0,1000}\\LogMeIn\\Dumps\\.{0,1000}
+.{0,1000}\\LogMeIn\sRescue\sApplet\\LMIR.{0,1000}
+.{0,1000}\\LogMeIn\sRescue\sAVI\sCodec\\.{0,1000}
+.{0,1000}\\logmein\srescue\stechnician\sconsole\\.{0,1000}
 .{0,1000}\\LogMeInLogs\\GoToOpenerMsi.{0,1000}
+.{0,1000}\\LogMeInRescue_ipc.{0,1000}
+.{0,1000}\\LogMeInRescue_rarc_r_.{0,1000}
+.{0,1000}\\LogMeInRescue_rarc_w_.{0,1000}
+.{0,1000}\\LogMeInRescueTechnicianConsole_x64.{0,1000}
 .{0,1000}\\LogonScreen\.exe.{0,1000}
 .{0,1000}\\lolbin\.exe.{0,1000}
 .{0,1000}\\LOLSpoof\.nim.{0,1000}
@@ -6107,6 +6135,7 @@
 .{0,1000}\\ProgramData\\Aeroadmin\\.{0,1000}
 .{0,1000}\\ProgramData\\AMMYY\\.{0,1000}
 .{0,1000}\\ProgramData\\asrephashes\.txt.{0,1000}
+.{0,1000}\\ProgramData\\LogMeIn\\.{0,1000}
 .{0,1000}\\ProgramData\\RustDesk\\.{0,1000}
 .{0,1000}\\ProgramData\\shares\.txt.{0,1000}
 .{0,1000}\\ProgramData\\SupremoRemoteDesktop.{0,1000}
@@ -6160,6 +6189,7 @@
 .{0,1000}\\QueryModuleClient\.exe.{0,1000}
 .{0,1000}\\QuickViewAD\.ps1.{0,1000}
 .{0,1000}\\r00t\-3xp10it.{0,1000}
+.{0,1000}\\ractrlkeyhook\.dll.{0,1000}
 .{0,1000}\\Radmin\.exe.{0,1000}
 .{0,1000}\\RADMIN\.EXE\-.{0,1000}\.pf.{0,1000}
 .{0,1000}\\Radmin\\radmin\.rpb.{0,1000}
@@ -6204,6 +6234,7 @@
 .{0,1000}\\RemoteSupport\\127\.0\.0\.1\.tvc.{0,1000}
 .{0,1000}\\RemoveItemCommand\.cs
 .{0,1000}\\rentdrv\.log.{0,1000}
+.{0,1000}\\RescueWinRTLib\.dll.{0,1000}
 .{0,1000}\\ResolveDnsNameCommand\.cs
 .{0,1000}\\Resources\\Disks\-NoEncryption\.txt.{0,1000}
 .{0,1000}\\resources\\PROCEXP\.sys.{0,1000}
@@ -6216,6 +6247,7 @@
 .{0,1000}\\rmm\-client\-site\-server\.exe.{0,1000}
 .{0,1000}\\rmm\-installer\.ps1.{0,1000}
 .{0,1000}\\ROADtools\\.{0,1000}
+.{0,1000}\\Root\\InventoryApplicationFile\\support\-logmeinr.{0,1000}
 .{0,1000}\\rpcdump\.py.{0,1000}
 .{0,1000}\\rpcrt\.py
 .{0,1000}\\rpt_win\.exe
@@ -6241,6 +6273,7 @@
 .{0,1000}\\runcmd2\.lua.{0,1000}
 .{0,1000}\\RunOF\.exe.{0,1000}
 .{0,1000}\\RunOF\\bin\\.{0,1000}
+.{0,1000}\\RunOnce\\.{0,1000}LogMeInRescue_.{0,1000}
 .{0,1000}\\RunPEinMemory\.exe.{0,1000}
 .{0,1000}\\RunPEinMemory64\.exe.{0,1000}
 .{0,1000}\\runswhide\.lua.{0,1000}
@@ -6381,6 +6414,7 @@
 .{0,1000}\\SoftPerfect\sNetwork\sScanner.{0,1000}
 .{0,1000}\\SOFTWARE\\Ammyy\\Admin.{0,1000}
 .{0,1000}\\SOFTWARE\\Clients\\Media\\AnyDesk.{0,1000}
+.{0,1000}\\Software\\LogMeInRescue\\.{0,1000}
 .{0,1000}\\SOFTWARE\\Microsoft\\Tracing\\PCMonitorSrv_RAS.{0,1000}
 .{0,1000}\\Software\\NetSupport\sLtd\\.{0,1000}
 .{0,1000}\\SOFTWARE\\ORL\\VNCHooks\\Application_Prefs\\WinVNC.{0,1000}
@@ -6419,6 +6453,8 @@
 .{0,1000}\\stardust\.x64\.exe.{0,1000}
 .{0,1000}\\Stardust\\scripts\\loader\.x64\.exe.{0,1000}
 .{0,1000}\\Start\sMenu\\Programs\\Advanced\sMonitoring\sAgent\.lnk.{0,1000}
+.{0,1000}\\Start\sMenu\\Programs\\LogMeIn.{0,1000}
+.{0,1000}\\Start\sMenu\\Programs\\LogMeIn\sRescue\\.{0,1000}
 .{0,1000}\\Start\sMenu\\Programs\\NetSupport.{0,1000}
 .{0,1000}\\Start\sMenu\\Programs\\Radmin\sServer\s.{0,1000}
 .{0,1000}\\Start\sMenu\\Programs\\Radmin\sViewer\s.{0,1000}
@@ -6737,6 +6773,7 @@
 .{0,1000}\<3\seo\.oe.{0,1000}
 .{0,1000}\<CoffeLdr\.h\>.{0,1000}
 .{0,1000}\<Data\>Installed\sGoToMyPC\<\/Data\>.{0,1000}
+.{0,1000}\<Data\>LogMeIn\,\sInc\.\<\/Data\>.{0,1000}
 .{0,1000}\<Data\>Pulseway\sRemote\sControl\<\/Data\>.{0,1000}
 .{0,1000}\<Data\>Received\sRequest\sExecute\sautomation\s.{0,1000}\sscript\s.{0,1000}\sfrom\sdevice\sId.{0,1000}
 .{0,1000}\<Data\>Received\sRequest\sGet\sRD\spool\sscore\s.{0,1000}pulseway\.com\/remote.{0,1000}
@@ -9721,6 +9758,7 @@
 .{0,1000}9CCE5C71\-14B4\-4A08\-958D\-4E593975658B.{0,1000}
 .{0,1000}9CD1DDB78ED05282353B20CDFE8FA0A4FB6C1ECE.{0,1000}
 .{0,1000}9D1B853E\-58F1\-4BA5\-AEFC\-5C221CA30E48.{0,1000}
+.{0,1000}9d2ce0345f4ee5798a49a8a13e33c7502a2ac655.{0,1000}
 .{0,1000}9D365106\-D7B8\-4B5E\-82CC\-6D6ABCDCA2B8.{0,1000}
 .{0,1000}9D7620A4CEBA92370E8828B3CB1007AEFF63AB36A2CBE5F044FDDE14ABAB1EBF.{0,1000}
 .{0,1000}9E357027\-8AA6\-4376\-8146\-F5AF610E14BB.{0,1000}
@@ -9983,7 +10021,7 @@
 .{0,1000}ADRecon\.ps1.{0,1000}
 .{0,1000}ADRecon\s\-OutputDir\s.{0,1000}
 .{0,1000}adsearch.{0,1000}\s\-\-domain\-admins.{0,1000}
-.{0,1000}ADSearch\.exe.{0,1000}
+.{0,1000}adsearch\.exe.{0,1000}
 .{0,1000}ADSearch\.sln.{0,1000}
 .{0,1000}ADSearch\\ADSearch\.cs.{0,1000}
 .{0,1000}adsearch\-master\.zip
@@ -10058,7 +10096,7 @@
 .{0,1000}aggressor\.println.{0,1000}
 .{0,1000}aggressor\.py.{0,1000}
 .{0,1000}Aggressor\/TikiTorch.{0,1000}
-.{0,1000}aggressor\-scripts.{0,1000}
+.{0,1000}Aggressor\-Scripts.{0,1000}
 .{0,1000}AggressorScripts.{0,1000}
 .{0,1000}AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA.{0,1000}
 .{0,1000}ahmedkhlief\/Ninja.{0,1000}
@@ -10120,7 +10158,7 @@
 .{0,1000}Amnesiac\-main\.zip.{0,1000}
 .{0,1000}amnoibeflfphhplmckdbiajkjaoomgnj.{0,1000}
 .{0,1000}AMS1\-Patch\.exe.{0,1000}
-.{0,1000}amsi\-bypass.{0,1000}
+.{0,1000}Amsi\-Bypass.{0,1000}
 .{0,1000}Amsi\-Killer\.exe.{0,1000}
 .{0,1000}Amsi\-Killer\.sln.{0,1000}
 .{0,1000}Amsi\-Killer\.vcxproj.{0,1000}
@@ -11848,7 +11886,7 @@
 .{0,1000}ComsvcsLSASS.{0,1000}
 .{0,1000}config\/51pwn\/CVE\-.{0,1000}
 .{0,1000}config_steal\s\/etc\/krb5\.conf\s\/etc\/krb5\.keytab.{0,1000}
-.{0,1000}Confuser\.CLI\.Exe.{0,1000}
+.{0,1000}Confuser\.CLI\.exe.{0,1000}
 .{0,1000}Confuser\.DynCipher\.dll.{0,1000}
 .{0,1000}Confuser\.Renamer\.dll.{0,1000}
 .{0,1000}conhost\.exe\s.{0,1000}\s\-\-headless.{0,1000}
@@ -11874,6 +11912,8 @@
 .{0,1000}ContainYourselfPoc\\.{0,1000}
 .{0,1000}ContainYourselfTempFile\.txt.{0,1000}
 .{0,1000}ContentHijacking\.swf.{0,1000}
+.{0,1000}control\..{0,1000}\.logmeinrescue\.com.{0,1000}
+.{0,1000}control\.rsc\-app.{0,1000}\.logmeinrescue\.com
 .{0,1000}Convert\-NT4toCanonical.{0,1000}
 .{0,1000}ConvertFrom\-LDAPLogonHours.{0,1000}
 .{0,1000}ConvertTo\-LogonHoursArray.{0,1000}
@@ -14241,9 +14281,9 @@
 .{0,1000}Get\-KeePassINIFields.{0,1000}
 .{0,1000}Get\-KeePassXMLFields.{0,1000}
 .{0,1000}Get\-KeystrokeData.{0,1000}
-.{0,1000}get\-keystrokes.{0,1000}
+.{0,1000}Get\-Keystrokes.{0,1000}
 .{0,1000}Get\-Keystrokes\s.{0,1000}
-.{0,1000}get\-killdate.{0,1000}
+.{0,1000}Get\-Killdate.{0,1000}
 .{0,1000}Get\-KIWI_KERBEROS_LOGON_SESSION.{0,1000}
 .{0,1000}Get\-LastLoggedOn.{0,1000}
 .{0,1000}Get\-LastLoggedon\s\-.{0,1000}
@@ -14356,9 +14396,9 @@
 .{0,1000}Get\-WmiObject\s\?ComputerName\s.{0,1000}\s\?Class\sWin32_ComputerSystem\s\|\s.{0,1000}\sUserName.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\swin32_loggedonuser\s\-ComputerName\s.{0,1000}
-.{0,1000}get\-wmiregcachedrdpconnection.{0,1000}
+.{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
 .{0,1000}get\-wmireglastloggedon.{0,1000}
-.{0,1000}Get\-WMIRegMountedDrive.{0,1000}
+.{0,1000}get\-wmiregmounteddrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
 .{0,1000}get_BeaconHealthCheck_settings.{0,1000}
@@ -15281,6 +15321,8 @@
 .{0,1000}https\:\/\/proxy\.duckduckgo\.com\/iu\/\?u\=https\:\/\/pdxkmdcepvahysnnxe\.pythonanywhere\.com\/image\.jpg\?cmd\=.{0,1000}
 .{0,1000}https\:\/\/requestbin\.net\/r\/.{0,1000}
 .{0,1000}https\:\/\/s3\.amazonaws\.com\/sshx\/sshx\-.{0,1000}
+.{0,1000}https\:\/\/secure\.logmeinrescue\.com\/R\?i\=2\&Code\=.{0,1000}
+.{0,1000}https\:\/\/secure\.logmeinrescue\.com\/TechnicianConsole\/Launch.{0,1000}
 .{0,1000}https\:\/\/sshx\.io\/get.{0,1000}
 .{0,1000}https\:\/\/sshx\.io\/s\/.{0,1000}
 .{0,1000}https\:\/\/t\.me\/BotFather.{0,1000}
@@ -15804,7 +15846,7 @@
 .{0,1000}Invoke\-AccessCheckForUser.{0,1000}
 .{0,1000}Invoke\-ACLcsvFileAnalysis.{0,1000}
 .{0,1000}Invoke\-ACLPwn.{0,1000}
-.{0,1000}invoke\-aclscanner.{0,1000}
+.{0,1000}Invoke\-ACLScanner.{0,1000}
 .{0,1000}Invoke\-ACLScanner\s.{0,1000}\s\-Filter\s.{0,1000}
 .{0,1000}Invoke\-ACLScanner\s.{0,1000}\s\-Name\s.{0,1000}
 .{0,1000}Invoke\-ADCSTemplateRecon.{0,1000}
@@ -15815,7 +15857,7 @@
 .{0,1000}Invoke\-AmsiBypass.{0,1000}
 .{0,1000}Invoke\-APIConnectionHijack\.ps1.{0,1000}
 .{0,1000}Invoke\-ApplicationsOnStartupCheck.{0,1000}
-.{0,1000}Invoke\-ARPScan.{0,1000}
+.{0,1000}invoke\-arpscan.{0,1000}
 .{0,1000}Invoke\-ARPScan\.ps1.{0,1000}
 .{0,1000}Invoke\-ASREPRoast.{0,1000}
 .{0,1000}Invoke\-AutoKerberoast.{0,1000}
@@ -15834,7 +15876,7 @@
 .{0,1000}Invoke\-Binary\s.{0,1000}\.exe.{0,1000}
 .{0,1000}Invoke\-BitlockerCheck.{0,1000}
 .{0,1000}Invoke\-BlockETW.{0,1000}
-.{0,1000}invoke\-bloodhound.{0,1000}
+.{0,1000}Invoke\-BloodHound.{0,1000}
 .{0,1000}Invoke\-Bloodhound\.ps1.{0,1000}
 .{0,1000}Invoke\-Bof\.ps1.{0,1000}
 .{0,1000}Invoke\-Bof\s.{0,1000}
@@ -15945,7 +15987,7 @@
 .{0,1000}Invoke\-HiveNightmare\.ps1.{0,1000}
 .{0,1000}Invoke\-HoneypotBuster.{0,1000}
 .{0,1000}Invoke\-HostEnum.{0,1000}
-.{0,1000}invoke\-hostenum\s\-.{0,1000}
+.{0,1000}Invoke\-HostEnum\s\-.{0,1000}
 .{0,1000}Invoke\-HostRecon.{0,1000}
 .{0,1000}invoke\-hostscan.{0,1000}
 .{0,1000}Invoke\-HotFixVulnCheck.{0,1000}
@@ -16192,7 +16234,7 @@
 .{0,1000}Invoke\-Sharphound.{0,1000}
 .{0,1000}Invoke\-Sharphound2.{0,1000}
 .{0,1000}Invoke\-Sharphound3.{0,1000}
-.{0,1000}Invoke\-Sharphound4.{0,1000}
+.{0,1000}Invoke\-SharpHound4.{0,1000}
 .{0,1000}Invoke\-SharpImpersonation.{0,1000}
 .{0,1000}Invoke\-SharpImpersonationNoSpace.{0,1000}
 .{0,1000}Invoke\-SharpKatz.{0,1000}
@@ -16333,7 +16375,7 @@
 .{0,1000}Invoke\-WmiCommand\s.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}Invoke\-WMIExec\s.{0,1000}
+.{0,1000}invoke\-wmiexec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMImplant.{0,1000}
 .{0,1000}Invoke\-WMIObfuscatedPSCommand.{0,1000}
@@ -16342,7 +16384,7 @@
 .{0,1000}Invoke\-WmiShadowCopy.{0,1000}
 .{0,1000}Invoke\-WScriptBypassUAC.{0,1000}
 .{0,1000}Invoke\-WscriptElevate.{0,1000}
-.{0,1000}Invoke\-Zerologon.{0,1000}
+.{0,1000}Invoke\-ZeroLogon.{0,1000}
 .{0,1000}invoke_obfuscation\.py.{0,1000}
 .{0,1000}invoke_sessiongopher\.py.{0,1000}
 .{0,1000}InvokeAssembly\.x64\.dll.{0,1000}
@@ -16763,7 +16805,7 @@
 .{0,1000}KillDefender\.x64\..{0,1000}
 .{0,1000}killdefender\scheck.{0,1000}
 .{0,1000}killdefender\skill.{0,1000}
-.{0,1000}killdefender_bof.{0,1000}
+.{0,1000}KillDefender_BOF.{0,1000}
 .{0,1000}KillDefenderBOF\-main.{0,1000}
 .{0,1000}Killed\srunning\seventvwr.{0,1000}
 .{0,1000}Killed\srunning\ssdclt.{0,1000}
@@ -17259,6 +17301,9 @@
 .{0,1000}LLMNRSpoofer.{0,1000}
 .{0,1000}llsrpc_\#\#.{0,1000}
 .{0,1000}lmhash.{0,1000}aad3b435b51404eeaad3b435b51404ee.{0,1000}
+.{0,1000}LMI_RescueRC\.exe.{0,1000}
+.{0,1000}LMIGuardianDll\.dll.{0,1000}
+.{0,1000}LMIGuardianSvc\.exe.{0,1000}
 .{0,1000}ln\s\-sf\s\/dev\/null\s.{0,1000}bash_history.{0,1000}
 .{0,1000}lneaocagcijjdpkcabeanfpdbmapcjjg.{0,1000}
 .{0,1000}lnfdmdhmfbimhhpaeocncdlhiodoblbd.{0,1000}
@@ -17331,6 +17376,8 @@
 .{0,1000}login\.tailscale\.com.{0,1000}
 .{0,1000}loginsight\.thrift.{0,1000}
 .{0,1000}logman\supdate\strace\sEventLog\-Application\s\-\-p\sMicrosoft\-Windows\-PowerShell\s\-ets.{0,1000}
+.{0,1000}LogMeIn\sRescue\sTechnician\sConsole\.lnk.{0,1000}
+.{0,1000}LogMeInRescueTechnicianConsoleApp\.msi.{0,1000}
 .{0,1000}LogonPasswords\\.{0,1000}\-LogonPasswords\.txt.{0,1000}
 .{0,1000}LogonPasswords\\\.AllUniqueNTLM\.txt.{0,1000}
 .{0,1000}LogonTracer.{0,1000}
@@ -17747,11 +17794,11 @@
 .{0,1000}MimiTickets\\.{0,1000}\-Tickets\.txt.{0,1000}
 .{0,1000}minidump.{0,1000}minikerberos.{0,1000}
 .{0,1000}minidump\..{0,1000}\slsass\.dmp.{0,1000}
-.{0,1000}Minidump\.exe.{0,1000}
+.{0,1000}minidump\.exe.{0,1000}
 .{0,1000}Minidump\.sln.{0,1000}
 .{0,1000}minidump_add_memory_block.{0,1000}
 .{0,1000}minidump_add_memory64_block.{0,1000}
-.{0,1000}minidumpwritedump.{0,1000}
+.{0,1000}MiniDumpWriteDump.{0,1000}
 .{0,1000}minikerberos\.zip.{0,1000}
 .{0,1000}mining\sin\sbackground\swill\sbe\sstarted\susing\syour\sstartup\sdirectory\sscript\sand\sonly\swork\swhen\syour\sare\slogged\sin\sthis\shost.{0,1000}
 .{0,1000}Mining\swill\shappen\sto\s.{0,1000}\swallet.{0,1000}
@@ -18445,7 +18492,7 @@
 .{0,1000}nirsoft\.net\/utils\/browsing_history_view\.html.{0,1000}
 .{0,1000}nishang\.exe.{0,1000}
 .{0,1000}nishang\.ps1.{0,1000}
-.{0,1000}Nishang\.psm1.{0,1000}
+.{0,1000}nishang\.psm1.{0,1000}
 .{0,1000}nishang\-0\-3\-4\.html.{0,1000}
 .{0,1000}NixImports\.csproj.{0,1000}
 .{0,1000}NixImports\.exe.{0,1000}
@@ -19438,7 +19485,7 @@
 .{0,1000}powerpick\.py.{0,1000}
 .{0,1000}PowerPick\.x64\.dll.{0,1000}
 .{0,1000}powerpick\s\-Command\s.{0,1000}
-.{0,1000}powerpreter\.psm1.{0,1000}
+.{0,1000}Powerpreter\.psm1.{0,1000}
 .{0,1000}powerpwn\.powerdump.{0,1000}
 .{0,1000}powerpwn_tests.{0,1000}
 .{0,1000}PowerSCCM\.ps1.{0,1000}
@@ -20519,7 +20566,7 @@
 .{0,1000}reg\squery\s\"HKEY_LOCAL_MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\sNT\\CURRENTVERSION\\WINLOGON\"\s\/v\sCACHEDLOGONSCOUNT.{0,1000}
 .{0,1000}reg\squery\shkcu\\software\\.{0,1000}\\putty\\session.{0,1000}
 .{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\\s\/v\sRunAsPPL.{0,1000}
-.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA\s\/v\sRunAsPPL.{0,1000}
+.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\s\/v\sRunAsPPL.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH\\Agent.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\realvnc.{0,1000}
@@ -21291,7 +21338,7 @@
 .{0,1000}SendToPasteBin\.ps1.{0,1000}
 .{0,1000}sense2john\.py.{0,1000}
 .{0,1000}SenseCncProxy\.exe.{0,1000}
-.{0,1000}sensepost\/goDoH.{0,1000}
+.{0,1000}sensepost\/godoh.{0,1000}
 .{0,1000}sensepost\/impersonate.{0,1000}
 .{0,1000}sensepost\/kwetza.{0,1000}
 .{0,1000}sensepost\/reGeorg.{0,1000}
@@ -21394,7 +21441,7 @@
 .{0,1000}Set\sListener\sdbx.{0,1000}
 .{0,1000}set\sListener\sonedrive.{0,1000}
 .{0,1000}set\sobfuscate\s.{0,1000}
-.{0,1000}set\spayload\s.{0,1000}
+.{0,1000}set\sPAYLOAD\s.{0,1000}
 .{0,1000}set\spipename\s.{0,1000}
 .{0,1000}set\sProfile\sapt1\.profile.{0,1000}
 .{0,1000}set\sshellcode\s.{0,1000}
@@ -21934,7 +21981,7 @@
 .{0,1000}SignToolExHook\.dll.{0,1000}
 .{0,1000}SigPloit.{0,1000}
 .{0,1000}sigthief\.exe\.manifest.{0,1000}
-.{0,1000}Sigthief\.py.{0,1000}
+.{0,1000}sigthief\.py.{0,1000}
 .{0,1000}SigThief\-master.{0,1000}
 .{0,1000}sigwhatever\.exe.{0,1000}
 .{0,1000}SilenceDefender\.ps1.{0,1000}
@@ -22123,7 +22170,7 @@
 .{0,1000}SnaffCore\/ShareFind.{0,1000}
 .{0,1000}SnaffCore\/TreeWalk.{0,1000}
 .{0,1000}Snaffler\.csproj.{0,1000}
-.{0,1000}snaffler\.exe.{0,1000}
+.{0,1000}Snaffler\.exe.{0,1000}
 .{0,1000}snaffler\.log.{0,1000}
 .{0,1000}Snaffler\.sln.{0,1000}
 .{0,1000}SnafflerMessage\.cs.{0,1000}
@@ -22606,6 +22653,8 @@
 .{0,1000}supershell.{0,1000}winpty\-agent\.exe.{0,1000}
 .{0,1000}Supply\seither\sa\s32\-character\sRC4\/NT\shash\sor\sa\s64\-character\sAES256\shash.{0,1000}
 .{0,1000}support\@c3pool\.com.{0,1000}
+.{0,1000}Support\-LogMeInRescue\.exe.{0,1000}
+.{0,1000}SUPPORT\-LOGMEINRESCUE\.EXE\-.{0,1000}
 .{0,1000}SupportScam\:Win32.{0,1000}
 .{0,1000}Supremo\.00\.Client\.log.{0,1000}
 .{0,1000}Supremo\.00\.FileTransfer\.log.{0,1000}
@@ -23221,6 +23270,7 @@
 .{0,1000}ttyd\s\-i\s0\.0\.0\.0\s\-p\s7682\s.{0,1000}
 .{0,1000}TunnelGRE\/Augustus.{0,1000}
 .{0,1000}tunnels\-prod\-rel\-tm\.trafficmanager\.net.{0,1000}
+.{0,1000}turn\.console\.gotoassist\.com.{0,1000}
 .{0,1000}turn_keylogger.{0,1000}
 .{0,1000}TVqQAAMAAAAEAAAA.{0,1000}
 .{0,1000}twint\s\-g\=.{0,1000}km.{0,1000}\s\-o\s.{0,1000}\s\-\-csv.{0,1000}
@@ -23809,7 +23859,7 @@
 .{0,1000}WinhttpShellcode\.vcxproj.{0,1000}
 .{0,1000}Winpayloads.{0,1000}
 .{0,1000}winPEAS\.bat.{0,1000}
-.{0,1000}winPEAS\.exe.{0,1000}
+.{0,1000}WinPEAS\.exe.{0,1000}
 .{0,1000}winPEAS\.ps1.{0,1000}
 .{0,1000}winPEAS\.txt.{0,1000}
 .{0,1000}winPEAS\-Obfuscated.{0,1000}

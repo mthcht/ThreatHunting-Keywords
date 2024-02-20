@@ -2628,6 +2628,7 @@
 *.com/dcsync/*
 *.com/SecureAuthCorp*
 *.com/SpiderLabs*
+*.console.gotoassist.com*
 *.d.requestbin.net*
 *.dev.123456.*
 *.dns2tcpdrc*
@@ -2915,6 +2916,7 @@
 *.rar.iso*
 *.rclone.exe config*
 *.relay.splashtop.com*
+*.remoteview.logmein.com*
 *.resources.123456.*
 *.router.teamviewer.com*
 *.rtf.bat*
@@ -5084,6 +5086,8 @@
 */listProxyPool?k=*
 */llmnr-resolve.nse*
 */lltd-discovery.nse*
+*/LMI_Rescue.exe*
+*/LMIRTechConsole.exe*
 */lnkbomb.git*
 */lnkbomb.py*
 */LNKUp.git*
@@ -7467,7 +7471,10 @@
 *\Appdata\*\Beacon01.exe*
 *\Appdata\*\Beacon02.exe*
 *\Appdata\*\kitty.exe*
+*\AppData\Local\*\rescue.log*
 *\AppData\Local\GoToMyPC\*
+*\AppData\Local\LMIR*.tmp.bat*
+*\AppData\Local\LogMeIn Rescue Applet\*
 *\AppData\Local\Microsoft\CLR_*\UsageLogs\*.exe.log*
 *\AppData\Local\rustdesk\*
 *\AppData\Local\Temp\*\gosetup.exe*
@@ -7488,6 +7495,7 @@
 *\AppData\Local\Temp\tor --*
 *\AppData\Local\Temp\Upload.ps1*
 *\AppData\Local\Temp\webserver.ps1*
+*\AppData\LocalLow\LogMeIn Rescue\*
 *\AppData\Roaming\*\remote.nsm*
 *\AppData\Roaming\*\RemoteDesktop.exe*
 *\AppData\Roaming\*\uac.tmp
@@ -8135,6 +8143,18 @@
 *\LinikatzV2\*
 *\list-recycle-bin.ps1*
 *\LiveMicrophone.dll*
+*\LMI_Rescue.exe*
+*\lmi_rescue_srv.exe*
+*\LMIGuardianEvt.dll*
+*\LMIR*.tmp\rarcc.dll*
+*\LMIRescue-*.clog*
+*\LMIRescue-*.connlog*
+*\LMIRescueCOL.log*
+*\LMIRescueMqttMessages_*.dat*
+*\LMIRescueUpdater.log*
+*\LMIRhook.000.dll*
+*\LMIRTechConsole.exe*
+*\LMITrs-*.trs*
 *\lnk_parser_cmd.exe -r *
 *\lnkbomb.py*
 *\lnkbomb-1.0\*
@@ -8149,7 +8169,15 @@
 *\LocalAdminAccess.txt*
 *\localbrute.ps1*
 *\LocalPrivEsc\*
+*\LogMeIn Rescue Applet\LMIR*
+*\LogMeIn Rescue AVI Codec\*
+*\logmein rescue technician console\*
+*\LogMeIn\Dumps\*
 *\LogMeInLogs\GoToOpenerMsi*
+*\LogMeInRescue_ipc*
+*\LogMeInRescue_rarc_r_*
+*\LogMeInRescue_rarc_w_*
+*\LogMeInRescueTechnicianConsole_x64*
 *\LogonScreen.exe*
 *\lolbin.exe*
 *\LOLSpoof.nim*
@@ -8492,6 +8520,7 @@
 *\ProgramData\Aeroadmin\*
 *\ProgramData\AMMYY\*
 *\ProgramData\asrephashes.txt*
+*\ProgramData\LogMeIn\*
 *\ProgramData\RustDesk\*
 *\ProgramData\shares.txt*
 *\ProgramData\SupremoRemoteDesktop*
@@ -8545,6 +8574,7 @@
 *\QueryModuleClient.exe*
 *\QuickViewAD.ps1*
 *\r00t-3xp10it*
+*\ractrlkeyhook.dll*
 *\Radmin.exe*
 *\RADMIN.EXE-*.pf*
 *\Radmin\radmin.rpb*
@@ -8589,6 +8619,7 @@
 *\RemoteSupport\127.0.0.1.tvc*
 *\RemoveItemCommand.cs
 *\rentdrv.log*
+*\RescueWinRTLib.dll*
 *\ResolveDnsNameCommand.cs
 *\Resources\Disks-NoEncryption.txt*
 *\resources\PROCEXP.sys*
@@ -8601,6 +8632,7 @@
 *\rmm-client-site-server.exe*
 *\rmm-installer.ps1*
 *\ROADtools\*
+*\Root\InventoryApplicationFile\support-logmeinr*
 *\rpcdump.py*
 *\rpcrt.py
 *\rpt_win.exe
@@ -8626,6 +8658,7 @@
 *\runcmd2.lua*
 *\RunOF.exe*
 *\RunOF\bin\*
+*\RunOnce\*LogMeInRescue_*
 *\RunPEinMemory.exe*
 *\RunPEinMemory64.exe*
 *\runswhide.lua*
@@ -8761,6 +8794,7 @@
 *\SoftPerfect Network Scanner*
 *\SOFTWARE\Ammyy\Admin*
 *\SOFTWARE\Clients\Media\AnyDesk*
+*\Software\LogMeInRescue\*
 *\SOFTWARE\Microsoft\Tracing\PCMonitorSrv_RAS*
 *\Software\NetSupport Ltd\*
 *\SOFTWARE\ORL\VNCHooks\Application_Prefs\WinVNC*
@@ -8795,6 +8829,8 @@
 *\stardust.x64.exe*
 *\Stardust\scripts\loader.x64.exe*
 *\Start Menu\Programs\Advanced Monitoring Agent.lnk*
+*\Start Menu\Programs\LogMeIn Rescue\*
+*\Start Menu\Programs\LogMeIn*
 *\Start Menu\Programs\NetSupport*
 *\Start Menu\Programs\Radmin Server *
 *\Start Menu\Programs\Radmin Viewer *
@@ -9150,6 +9186,7 @@
 *<3 eo.oe*
 *<CoffeLdr.h>*
 *<Data>Installed GoToMyPC</Data>*
+*<Data>LogMeIn, Inc.</Data>*
 *<Data>Pulseway Remote Control</Data>*
 *<Data>Received Request Execute automation * script * from device Id*
 *<Data>Received Request Get RD pool score *pulseway.com/remote*
@@ -9530,6 +9567,7 @@
 *9CCE5C71-14B4-4A08-958D-4E593975658B*
 *9CD1DDB78ED05282353B20CDFE8FA0A4FB6C1ECE*
 *9D1B853E-58F1-4BA5-AEFC-5C221CA30E48*
+*9d2ce0345f4ee5798a49a8a13e33c7502a2ac655*
 *9D365106-D7B8-4B5E-82CC-6D6ABCDCA2B8*
 *9D7620A4CEBA92370E8828B3CB1007AEFF63AB36A2CBE5F044FDDE14ABAB1EBF*
 *9E357027-8AA6-4376-8146-F5AF610E14BB*
@@ -11717,6 +11755,8 @@
 *ContainYourselfPoc\*
 *ContainYourselfTempFile.txt*
 *ContentHijacking.swf*
+*control.*.logmeinrescue.com*
+*control.rsc-app*.logmeinrescue.com
 *ConvertFrom-LDAPLogonHours*
 *Convert-NT4toCanonical*
 *ConvertTo-LogonHoursArray*
@@ -15185,6 +15225,8 @@
 *https://qu.ax/*.*
 *https://requestbin.net/r/*
 *https://s3.amazonaws.com/sshx/sshx-*
+*https://secure.logmeinrescue.com/R?i=2&Code=*
+*https://secure.logmeinrescue.com/TechnicianConsole/Launch*
 *https://sshx.io/get*
 *https://sshx.io/s/*
 *https://t.me/BotFather*
@@ -17175,6 +17217,9 @@
 *LLMNRSpoofer*
 *llsrpc_##*
 *lmhash*aad3b435b51404eeaad3b435b51404ee*
+*LMI_RescueRC.exe*
+*LMIGuardianDll.dll*
+*LMIGuardianSvc.exe*
 *ln -sf /dev/null *bash_history*
 *lneaocagcijjdpkcabeanfpdbmapcjjg*
 *lnfdmdhmfbimhhpaeocncdlhiodoblbd*
@@ -17248,6 +17293,8 @@
 *login.tailscale.com*
 *loginsight.thrift*
 *logman update trace EventLog-Application --p Microsoft-Windows-PowerShell -ets*
+*LogMeIn Rescue Technician Console.lnk*
+*LogMeInRescueTechnicianConsoleApp.msi*
 *LogonPasswords\*-LogonPasswords.txt*
 *LogonPasswords\.AllUniqueNTLM.txt*
 *LogonTracer*
@@ -22596,6 +22643,8 @@
 *supershell*winpty-agent.exe*
 *Supply either a 32-character RC4/NT hash or a 64-character AES256 hash*
 *support@c3pool.com*
+*Support-LogMeInRescue.exe*
+*SUPPORT-LOGMEINRESCUE.EXE-*
 *SupportScam:Win32*
 *supremo remote control*
 *Supremo.00.Client.log*
@@ -23217,6 +23266,7 @@
 *ttyd -i 0.0.0.0 -p 7682 *
 *TunnelGRE/Augustus*
 *tunnels-prod-rel-tm.trafficmanager.net*
+*turn.console.gotoassist.com*
 *turn_keylogger*
 *TVqQAAMAAAAEAAAA*
 *twint -g=*km* -o * --csv*
