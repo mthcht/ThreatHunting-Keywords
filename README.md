@@ -59,7 +59,8 @@ However, if you're developing public "red team tools", consider aiding the blue 
 - Header: `keyword,metadata_keyword_type,metadata_tool,metadata_description,metadata_tool_techniques,metadata_tool_tactics,metadata_malwares_name,metadata_groups_name,metadata_category,metadata_link,metadata_enable_endpoint_detection,metadata_enable_proxy_detection,metadata_comment,metadata_severity_score,metadata_popularity_score`,`metadata_github_stars`,`metadata_github_forks`,`metadata_github_created_at`,`metadata_github_updated_at`
 
 - `keyword`: The entries in this column represent non-case-sensitive keywords used for Threat Hunting. These keywords are flexible, allowing the use of wildcards to broaden or narrow your search parameters as needed.
-- `metadata_keyword_type`: Type of the keywords, Currently, there are three types::
+- `metadata_keyword_regex`: The entries in this column represent the regex pattern detection for the keyword, these patterns are refined to offer precise detection capabilities, suitable for use with YARA, ripgrep or similar detection tools.
+- `metadata_keyword_type`: Type of the keywords, Currently, there are three types:
   - 🛠️ `offensive tool keyword`: These keywords relate to offensive tools or exhibit high confidence of malicious intent. It's crucial that these terms hold relevance and reliability in detecting potential threats (low false positive rate)
   - 🛠️ `greyware tool keyword`: Keywords in this category correspond to 'legitimate' tools that are abused by malicious actors. As these tools also have legitimate uses, the potential for false positives is inherently higher. It's important to interpret these results with the understanding that not all detections may signify malicious activity
   - 🛠️ `signature keyword`: These keywords may not directly associate with tools but may include security product signature names, specific strings, or words significant in threat detection.
