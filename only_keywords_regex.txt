@@ -29,6 +29,7 @@
 .* /credpassword.*
 .* /creduser:.* /credpassword:.*
 .* /EV.*NetSupport School.*.*
+.* /f /im RemotePCS.*
 .* /impersonateuser:.* /msdsspn:.* /ptt.*
 .* /ldap .* /printcmd.*
 .* /ldapfilter:'admincount=1'.*
@@ -431,6 +432,8 @@
 .* crde_windows https -.*
 .* crde_windows_x64 https -.*
 .* crde_windows_x86 https -.*
+.* create RPCService start=.*
+.* create ViewerService start=auto.*
 .* --createpub -n 7828374823761928712873129873981723\.\.\.12837182 -e 65537.*
 .* Cred_Dump\.sh.*
 .* credentials /pvk:.*
@@ -1078,6 +1081,7 @@
 .* -i -H .* -P .* -s reverse_shell_tcp -a -u \.moocowwow.*
 .* -i havex\.profile .*
 .* -i portscan445\.gnmap -o shares_found\.txt.*
+.* -i remotepc\.deb.*
 .* -i snmp-ips\.txt -c community\.txt.*
 .* -i -t hiphp:latest.*
 .* iax2-brute\.nse.*
@@ -1835,6 +1839,9 @@
 .* -remotefilepath .*\\\\.*\.wav.*
 .* --remote-impersonation.*
 .* -RemotePath .*\\Windows\\System32\\SAM -LocalPath .*\\tmp\\.*
+.* RemotePC\.exe.*
+.* remotepclauncher\.exe.*
+.* remotepcuiu\.exe.*
 .* --remote-to-local socks://.*
 .* --remote-to-local tcp://.*
 .* --remote-to-local udp://.*
@@ -1878,8 +1885,11 @@
 .* ropfuscator.*
 .* rpcap-brute\.nse.*
 .* rpcap-info\.nse.*
+.* rpcdownloader\.exe.*
 .* rpc-grind\.nse.*
 .* rpcinfo\.nse.*
+.* rpcperfviewer\.exe.*
+.* RPCWinXP\.exe.*
 .* rsa-vuln-roca\.nse.*
 .* rsync-brute\.nse.*
 .* rsync-list-modules\.nse.*
@@ -2497,6 +2507,7 @@
 .*%USERPROFILE%\\\\nssm\.zip.*
 .*&& cat /etc/motd.*exec -a -\$\(basename \$SHELL\) \$SHELL.*
 .*&& telnet .* 2>&1 </dev/console.*
+.*&browser=tor&api=false.*
 .*\(not launching GPOddity SMB server\).*
 .*.*\\Users\\Public\\termsrv\.patch\.dll.*
 .*\..*autodiscover\\\.json\..*Powershell\..*
@@ -2916,6 +2927,7 @@
 .*\.rar\.iso.*
 .*\.rclone\.exe config.*
 .*\.relay\.splashtop\.com.*
+.*\.remotepc\.com.*
 .*\.remoteview\.logmein\.com.*
 .*\.resources\.123456\..*
 .*\.router\.teamviewer\.com.*
@@ -2942,6 +2954,7 @@
 .*\.sites\.123456\..*
 .*\.SliverRPC/.*
 .*\.smtp\.123456\..*
+.*\.srv\.browser\.lol.*
 .*\.ssl\.123456\..*
 .*\.stage\.123456\..*
 .*\.static\.123456\..*
@@ -6034,6 +6047,12 @@
 .*/Remote/unexpireuser/.*
 .*/remote-method-guesser\.git.*
 .*/RemoteOps\.py.*
+.*/remotepc\.deb.*
+.*/RemotePC\.exe.*
+.*/RemotePC\.lnk.*
+.*/RemotePC\.tmp.*
+.*/remotepclauncher\.exe.*
+.*/remotepcuiu\.exe.*
 .*/remotereg\.c.*
 .*/remotereg\.o.*
 .*/remoteshell\.py.*
@@ -6087,9 +6106,14 @@
 .*/rpcap-brute\.nse.*
 .*/rpcap-info\.nse.*
 .*/rpcbomb\.rb.*
+.*/RpcDND_Console\.exe.*
+.*/rpcdownloader\.exe.*
 .*/rpcdump\.py.*
+.*/RPCFireWallRule\.exe.*
 .*/rpc-grind\.nse.*
 .*/rpcinfo\.nse.*
+.*/rpcperfviewer\.exe.*
+.*/RPCProxyLatency\.exe.*
 .*/rpcrt\.py .*
 .*/rpivot\.git.*
 .*/rsa-vuln-roca\.nse.*
@@ -6932,6 +6956,7 @@
 .*/ventrilo-info\.nse.*
 .*/versant-info\.nse.*
 .*/view -c ':py3 import os.*os\.execl\(\\.*/bin/sh\\.*
+.*/viewerhostkeypopup\.exe.*
 .*/viper\.conf.*
 .*/viper\.py.*
 .*/viper\.sln.*
@@ -7638,6 +7663,7 @@
 .*\\config\\RustDesk\.toml.*
 .*\\config\\RustDesk_local\..*
 .*\\ConfuserEx\\Obfuscated\.exe.*
+.*\\Control\\Print\\Monitors\\REMOTEPCPRINTER.*
 .*\\Control\\SafeBoot\\Network\\SupremoService.*
 .*\\ControlSet001\\Control\\SafeBoot\\Network\\AmmyyAdmin_.*
 .*\\ControlSet001\\Services\\AnyDesk.*
@@ -7666,6 +7692,8 @@
 .*\\CurrentControlSet\\Services\\ScreenConnect .*
 .*\\CurrentControlSet\\Services\\SupremoService.*
 .*\\CurrentControlSet\\Services\\TeamViewer.*
+.*\\CurrentVersion\\App Paths\\RemotePCPerformance.*
+.*\\CurrentVersion\\Devices\\RemotePC Printer.*
 .*\\CurrentVersion\\Run\\XenoUpdateManager.*
 .*\\CurrentVersion\\Uninstall\\FreeFileSync_is1.*
 .*\\CurrentVersion\\Uninstall\\RustDesk.*
@@ -8495,6 +8523,7 @@
 .*\\PPLFault.*
 .*\\PPLKiller.*
 .*\\Prefetch\\ANYDESK\.EXE.*
+.*\\Print\\Printers\\RemotePC Printer\\.*
 .*\\printnightmare\.py.*
 .*\\PrintSpoofer\.cs.*
 .*\\PrintSpoofer-1\.0\.zip.*
@@ -8511,6 +8540,7 @@
 .*\\Program Files \(x86\)\\Advanced Monitoring Agent\\.*
 .*\\Program Files \(x86\)\\Atera Networks.*
 .*\\program files \(x86\)\\gotomypc\\g2tray\.exe.*
+.*\\program files \(x86\)\\remotepc\\remotepcperformance\\.*
 .*\\Program Files\\Advanced Monitoring Agent\\.*
 .*\\Program Files\\Atera Networks.*
 .*\\Program Files\\FreeFileSync.*
@@ -8616,6 +8646,20 @@
 .*\\regwritedel\.lua.*
 .*\\RemoteCamera\.dll.*
 .*\\RemoteDesktop_x64\.msi.*
+.*\\RemotePC Performance Host\\.*
+.*\\RemotePC\.Common\.dll.*
+.*\\RemotePC\.exe.*
+.*\\RemotePC\.lnk.*
+.*\\RemotePC\.tmp.*
+.*\\RemotePC\\.*\.dll.*
+.*\\RemotePCDDriver\.inf.*
+.*\\remotepclauncher\.exe.*
+.*\\RemotePCPDF\.conf.*
+.*\\RemotePCPrinter\.exe.*
+.*\\RemotePCPS5UI\.DLL.*
+.*\\RemotePCPSCRIPT\..*
+.*\\RemotePCUDE\.sys.*
+.*\\remotepcuiu\.exe.*
 .*\\RemoteSupport\\127\.0\.0\.1\.tvc.*
 .*\\RemoveItemCommand\.cs
 .*\\rentdrv\.log.*
@@ -8633,8 +8677,29 @@
 .*\\rmm-installer\.ps1.*
 .*\\ROADtools\\.*
 .*\\Root\\InventoryApplicationFile\\support-logmeinr.*
+.*\\RpcAccessPermissionNotifier\.exe.*
+.*\\RpcApp\\RPCCodecEngine\.exe.*
+.*\\RpcApp\\Tools\\Chat\.exe.*
+.*\\RPCCertificate\.log.*
+.*\\RPCClipboard\.exe.*
+.*\\RPCConfig\.ini.*
+.*\\RPCCoreViewerL\.exe.*
+.*\\RpcDND_Console\.exe.*
+.*\\rpcdownloader\.exe.*
+.*\\RPCDownloaderLogFile\.txt.*
+.*\\RPCDragDrop\.txt.*
 .*\\rpcdump\.py.*
+.*\\RPCFireWallRule\.exe.*
+.*\\RPCPerformanceService\.log.*
+.*\\rpcperfviewer\.exe.*
+.*\\RPCPing\.txt.*
+.*\\RPCPreUninstall\.log.*
+.*\\RPCPrinterDownloader\.txt.*
+.*\\RPCProxyLatency\.exe.*
 .*\\rpcrt\.py
+.*\\RPCSettings\.ini.*
+.*\\RpcStickyNotes\.exe.*
+.*\\RPCSuite_.*_Inc\.log.*
 .*\\rpt_win\.exe
 .*\\rserver3\.exe.*
 .*\\rsetup64\.exe.*/stop.*
@@ -8678,6 +8743,7 @@
 .*\\scanACLsResults\.csv.*
 .*\\ScanInterception\.ps1.*
 .*\\scan-network\.py.*
+.*\\Schedule\\TaskCache\\Tree\\RemotePC.*
 .*\\sc-loader\.exe.*
 .*\\scmuacbypass\.cpp.*
 .*\\scmuacbypass\.exe.*
@@ -8950,6 +9016,7 @@
 .*\\TokenUniverse\.zip.*
 .*\\TokenUniverse\\TokenUniverse\..*
 .*\\Tokenvator\\.*
+.*\\Tools\\Ninja\.WebSockets\.dll.*
 .*\\tor\.exe.*
 .*\\Tor\\tor\.exe.*
 .*\\Tor\\torrc.*
@@ -8963,6 +9030,10 @@
 .*\\tor-browser-win32.*\..*
 .*\\tor-browser-win64.*\..*
 .*\\tor-static-windows-amd64\.zip.*
+.*\\Tracing\\RemotePCLauncher_.*
+.*\\Tracing\\RemotePCUIU.*
+.*\\TransferClient\.exe\.config.*
+.*\\TransferServer\.exe\.config.*
 .*\\TrustExec\.exe.*
 .*\\tunnel-socks5\.py.*
 .*\\TV15Install\.log.*
@@ -9008,6 +9079,7 @@
 .*\\veeam_dump\.py.*
 .*\\veeam-creds\\.*
 .*\\Videos\\AnyDesk.*
+.*\\ViewerHostKeyPopup\.exe.*
 .*\\VNC\\\.VNC-Non-Auth\.txt.*
 .*\\vncdll\.x64\.dll.*
 .*\\vncdll\.x86\.dll.*
@@ -9070,6 +9142,7 @@
 .*\\wmi_1\.dll.*
 .*\\wmi_2\.dll.*
 .*\\WOW6432Node\\Citrix\\GoToMyPc.*
+.*\\WOW6432Node\\RemotePC.*
 .*\\WOW6432Node\\Splashtop Inc\.\\Splashtop Remote Server.*
 .*\\WritebleRegistryKeys\.txt.*
 .*\\WriteOutputCommand\.cs
@@ -12823,6 +12896,7 @@
 .*download .*bloodhound.*
 .*download .*Roaming\\mRemoteNG\\confCons\.xml.*
 .*download /etc/passwd.*
+.*download\.remotepc\.com.*
 .*download\.teamviewer\.com\.cdn\.cloudflare\.net.*
 .*download\.weakpass\.com/.*
 .*Download:Cradle\.js.*
@@ -14952,6 +15026,7 @@
 .*HKCR\\\.vnc.*
 .*HKCR\\nsm\\shell\\open\\command.*
 .*HKCR\\NSScriptFile\\.*
+.*HKCR\\REMOTEPC.*
 .*HKCR\\supremo\\shell\\.*
 .*HKEY_CLASSES_ROOT\\rustdesk.*
 .*HKEY_LOCAL_MACHINE\\SOFTWARE\\WOW6432Node\\Radmin\\.*
@@ -15182,6 +15257,7 @@
 .*https://apps\.apple\.com/us/app/tailscale/id.*
 .*https://avred\.r00ted\.ch/upload.*
 .*https://bashupload\.com.*
+.*https://browser\.lol/vnc\?server=.*
 .*https://C2_SERVER_IP/.*
 .*https://c3pool\.com/\#/.*
 .*https://cloud\.screenconnect\.com/\#/trialtoinstance\?cookieValue=.*
@@ -16342,6 +16418,7 @@
 .*ip route add .* dev ligolo.*
 .*ip tuntap add user .* mode tun ligolo.*
 .*ip tuntap add user root mode tun ligolo.*
+.*ip\.remotepc\.com.*
 .*IPeerToPeerService\..*
 .*IPfuscation\.sln.*
 .*IPfuscation\.vcxproj.*
@@ -17290,6 +17367,7 @@
 .*log4shell.*\.nessus\.org.*
 .*log4shell\.py.*
 .*LoGiC\.NET\.exe.*
+.*login\.remotepc\.com.*
 .*login\.tailscale\.com.*
 .*loginsight\.thrift.*
 .*logman update trace EventLog-Application --p Microsoft-Windows-PowerShell -ets.*
@@ -18164,6 +18242,7 @@
 .*net rpc group addmem 'Domain admins' .*
 .*net rpc group members 'Domain admins' -U .*
 .*net rpc group members 'Domain Users' -W .*
+.*net start RPCPerformanceService.*
 .*net start SysUpdate.*
 .*net stop \\.*windows event log\\.*.*
 .*net stop MSSQL\$CONTOSO1.*
@@ -19732,11 +19811,14 @@
 .*ProgIDsUACBypass\..*
 .*Program Files \(x86\)\\Advanced Port Scanner\\.*
 .*Program Files \(x86\)\\Radmin Viewer 3\\.*
+.*program files \(x86\)\\remotepc\\.*
 .*Program Files \(x86\)\\ScreenConnect Client.*
 .*Program Files \(x86\)\\Splashtop.*
 .*Program Files \(x86\)\\uvnc bvba\\.*
 .*program files.*\\netsupport\\.*
 .*program/replay\.pl.*
+.*ProgramData\\RemotePC Performance.*
+.*ProgramData\\RemotePC.*
 .*projectdiscovery/interactsh.*
 .*PROMPT_COMMAND=.*history -a.* tail .*\.bash_history > /dev/tcp/127\.0\.0\.1/.*
 .*prosody2john\.py.*
@@ -20590,6 +20672,32 @@
 .*remote-method-guesser-master.*
 .*RemoteNTDLL\.cpp.*
 .*RemoteNTDLL\.exe.*
+.*RemotePC \(1\)\.exe.*
+.*RemotePC Performance Printer\.url.*
+.*RemotePC\.exe .*
+.*RemotePC\.WebSockets\.dll.*
+.*RemotePC\\REMOTE~2\.DLL.*
+.*RemotePCBlackScreenApp\.exe.*
+.*RemotePCCopyPaste\.txt.*
+.*RemotePCDesktop\.exe.*
+.*RemotePCDesktop\.txt.*
+.*RemotePCHDDesktop\.txt.*
+.*RemotePCHDService\.txt.*
+.*remotepclauncher\.exe .*
+.*RemotePCModules\.log.*
+.*RemotePCPerformanceWebLauncher\.exe.*
+.*RemotePCPerformanceWebLauncher\.log.*
+.*RemotePCPrinter\.exe\.config.*
+.*RemotePCPrinting\.exe.*
+.*RemotePCPrintView\.exe.*
+.*RemotePCProxys\.dat.*
+.*RemotePCService\.exe.*
+.*RemotePCService\.txt.*
+.*RemotePCService_2\.txt.*
+.*RemotePCShortcut\.exe.*
+.*RemotePCSuite\.Model\.dll.*
+.*RemotePCSuite\.Service\.dll.*
+.*remotepcuiu\.exe .*
 .*remotepipelist .*
 .*RemotePipeList is x64 only.*
 .*RemotePipeList\.cna.*
@@ -20795,21 +20903,36 @@
 .*rpc::connect.*
 .*rpc::enum.*
 .*rpc::server.*
+.*RpcApp.*TransferClient\.exe.*
+.*RpcApp.*TransferServer\.exe.*
 .*rpcattack\.py.*
 .*rpc-backdoor\.go.*
 .*rpc-beacons\.go.*
+.*rpcdownloader\.exe .*
+.*RPCDownloaderLogFile\.txt.*
 .*rpcdump\.py .* \| grep MS-RPRN.*
 .*rpcdump\.py.*
 .*rpcdump_check.*
+.*RPCFireWallRule\.exe.*
+.*RPCFireWallRulelogfile\.txt.*
 .*rpc-hijack\.go.*
+.*RPCKeyMouseHandler\.txt.*
 .*rpc-kill\.go.*
 .*rpcmap\.py.*
 .*rpc-msf\.go.*
+.*RPCPerformanceHealthCheck.*
+.*rpcperformanceservice\.exe\t.*
+.*RPCPerformanceService\.exe.*
+.*rpcperfviewer\.exe .*
+.*RPCPerfViewer\.log.*
+.*rpcprinterdownloader\.exe.*
+.*RPCProxyLatency\.exe .*
 .*rpcrelayclient\..*
 .*rpcrelayclient\.py.*
 .*rpcrt4_new\.dll.*
 .*rpcrt4_old\.dll
 .*rpc-shellcode\.go.*
+.*RPCsuiteLaunch\.txt.*
 .*rpivot\.zip.*
 .*rpivot-master.*
 .*rpm\.torproject\.org/.*public_gpg\.key.*
@@ -20886,6 +21009,7 @@
 .*ruby_no_sh_reverse_tcp\.py.*
 .*ruby_reverse_tcp\.py.*
 .*Rudrastra-main\.zip.*
+.*rule name=.*TransferServer.*.*
 .*'RuleName'>NetSupport Client<.*
 .*'RuleName'>NetSupport Control<.*
 .*'RuleName'>NetSupport Deploy<.*
@@ -21071,23 +21195,30 @@
 .*SAP_GW_RCE_exploit.*
 .*sap2john\.pl.*
 .*SauronEye\.exe.*
+.*sc  delete .*RPCService.*.*
 .*SC  QUERYEX .*PC Monitor.*.*
+.*sc  start .*RPCService.*.*
+.*sc  stop .*RPCService.*.*
 .*sc config WinDefend start= disabled.*
 .*sc create .*nc\.exe -.*cmd\.exe.*
 .*sc create Cloudflared binPath=\\.*
 .*sc create plumber.*warpzoneclient.*
+.*sc create RPCService start=auto.*
 .*sc create Terminator .*\.sys.*
 .*sc delete MBAMProtection.*
 .*sc delete MBAMService.*
 .*sc delete plumber.*
+.*sc delete ViewerService.*
 .*sc -path c:\\inetpub\\wwwroot\\aspnet_client\\test\.txt -value teset.*
 .*sc qtriggerinfo RemoteRegistry.*
 .*sc start nidhogg.*
 .*sc start RemoteRegistry.*
 .*sc start RustDesk.*
+.*sc start ViewerService.*
 .*sc stop MBAMProtection.*
 .*sc stop MBAMService.*
 .*sc stop RustDesk.*
+.*sc stop ViewerService.*
 .*sc\.exe create Cloudflared binPath=\\.*
 .*sc_inject_direct\.exe.*
 .*sc_inject_indirect\.exe.*
@@ -21185,6 +21316,7 @@
 .*ScreenConnect\.ClientUninstall\.vbs.*
 .*ScreenConnect\.Core\.pdb.*
 .*ScreenConnect\.Server\.dll.*
+.*ScreenConnect\.Service\.exe.*
 .*SCREENCONNECT\.SERVICE\.EXE-.*\.pf.*
 .*ScreenConnect\.WindowsBackstageShell\.exe.*
 .*SCREENCONNECT\.WINDOWSCLIENT\..*\.pf.*
@@ -22533,6 +22665,8 @@
 .*StartProcessFake\(.*
 .*Start-PSAmsiClient\.ps1.*
 .*Start-PSAmsiServer\.ps1.*
+.*StartRPCPerformanceService.*
+.*StartRPCPerformanceServiceOnStart.*
 .*Starts a PSCMD channel on the remote end.*
 .*Starts the godoh C2 server.*
 .*Start-SimpleHTTPServer\.ps1.*
@@ -22540,6 +22674,7 @@
 .*startupfolderperistence\.py.*
 .*Start-WebServer\.ps1.*
 .*StartWebServiceBeacon.*
+.*static\.remotepc\.com.*
 .*static_syscalls_apc_spawn .*
 .*static_syscalls_apc_spawn.*
 .*static_syscalls_dump.*
@@ -23361,6 +23496,7 @@
 .*UniByAv.*
 .*unicorn\.py .*
 .*unicorn-master\.zip.*
+.*Uninstall RemotePC\.lnk.*
 .*Unit-259/DataBouncing.*
 .*unix/1\.0 UPnP/1\.1 masscan/.*
 .*unix_cached_ad_hashes\.rb.*
@@ -23524,6 +23660,7 @@
 .*VID_0483&PID_5740.*
 .*viewdns-get-rootdomains-ip-ns .*
 .*viewdns-get-rootdomains-whois .*
+.*viewerhostkeypopup\.exe .*
 .*Villain\.git.*
 .*villain\.py.*
 .*Villain/Core.*
@@ -23660,6 +23797,7 @@
 .*weakpass-main\..*
 .*-web\.screenconnect\.com.*
 .*web_cloner/interceptor.*
+.*web1\.remotepc\.com.*
 .*WebBrowserPassView\.cfg.*
 .*WebBrowserPassView\.exe.*
 .*WebBrowserPassView\.pdb.*
