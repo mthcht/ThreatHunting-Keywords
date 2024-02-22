@@ -537,6 +537,7 @@
 .{0,1000}\.villain_core.{0,1000}
 .{0,1000}\.vm\.sshx\.internal\:8051.{0,1000}
 .{0,1000}\.vpn\.123456\..{0,1000}
+.{0,1000}\.vsax\.net.{0,1000}
 .{0,1000}\.webmail\.123456\..{0,1000}
 .{0,1000}\.wiki\.123456\..{0,1000}
 .{0,1000}\.win10\.config\.fireeye.{0,1000}
@@ -1076,7 +1077,7 @@
 .{0,1000}\/bypassuac\/.{0,1000}
 .{0,1000}\/C\-\-Shellcode.{0,1000}
 .{0,1000}\/C2\/Beacon\/.{0,1000}\.cs.{0,1000}
-.{0,1000}\/c2\/c2\.go.{0,1000}
+.{0,1000}\/C2\/c2\.go.{0,1000}
 .{0,1000}\/C2\/Http\/.{0,1000}\.cs.{0,1000}
 .{0,1000}\/C2\/server\.py.{0,1000}
 .{0,1000}\/C2\/SmbListener\..{0,1000}
@@ -2031,7 +2032,7 @@
 .{0,1000}\/gocrack\-1\.0\.zip.{0,1000}
 .{0,1000}\/gocrack_server.{0,1000}
 .{0,1000}\/gocrack_worker.{0,1000}
-.{0,1000}\/godoh\.git.{0,1000}
+.{0,1000}\/goDoH\.git.{0,1000}
 .{0,1000}\/godoh\/.{0,1000}
 .{0,1000}\/goDoH\/releases.{0,1000}
 .{0,1000}\/godoh\-master\.zip.{0,1000}
@@ -3012,7 +3013,7 @@
 .{0,1000}\/nopac\.exe
 .{0,1000}\/nopac\.py.{0,1000}
 .{0,1000}\/nopowershell\.git.{0,1000}
-.{0,1000}\/NoPowerShell\/.{0,1000}
+.{0,1000}\/nopowershell\/.{0,1000}
 .{0,1000}\/noseyparker\.git.{0,1000}
 .{0,1000}\/NotQuite0DayFriday\/zip\/trunk.{0,1000}
 .{0,1000}\/NovaLdr\.exe
@@ -3206,6 +3207,7 @@
 .{0,1000}\/PCIDEPLY\.exe.{0,1000}
 .{0,1000}\/PCMonitorManager\.exe.{0,1000}
 .{0,1000}\/PCMonitorSrv\.exe.{0,1000}
+.{0,1000}\/pcmontask\.exe.{0,1000}
 .{0,1000}\/pcmrdp\-client\.dll.{0,1000}
 .{0,1000}\/pcworx\-info\.nse.{0,1000}
 .{0,1000}\/PDF_Payload\/script\.txt.{0,1000}
@@ -3601,6 +3603,7 @@
 .{0,1000}\/Remote\/setuserpass\/.{0,1000}
 .{0,1000}\/Remote\/unexpireuser\/.{0,1000}
 .{0,1000}\/remote\-method\-guesser\.git.{0,1000}
+.{0,1000}\/RemoteDesktop\.exe.{0,1000}
 .{0,1000}\/RemoteOps\.py.{0,1000}
 .{0,1000}\/remotepc\.deb.{0,1000}
 .{0,1000}\/RemotePC\.exe.{0,1000}
@@ -4541,8 +4544,10 @@
 .{0,1000}\/Volumiser\.git.{0,1000}
 .{0,1000}\/Volumiser\-maser\.zip.{0,1000}
 .{0,1000}\/vpc__enum_lateral_movement.{0,1000}
+.{0,1000}\/VSAX_x64\.msi.{0,1000}
 .{0,1000}\/vss\-enum\.py.{0,1000}
 .{0,1000}\/vssenum\/.{0,1000}
+.{0,1000}\/vsxrc\-clip\.exe.{0,1000}
 .{0,1000}\/vtam\-enum\.nse.{0,1000}
 .{0,1000}\/vulners\.nse.{0,1000}
 .{0,1000}\/vulnscan\.yaml.{0,1000}
@@ -5089,11 +5094,13 @@
 .{0,1000}\\AppData\\Roaming\\.{0,1000}\-5900\.vnc.{0,1000}
 .{0,1000}\\AppData\\Roaming\\AnyDesk\\system\.conf.{0,1000}
 .{0,1000}\\AppData\\Roaming\\AnyDesk\\user\.conf.{0,1000}
+.{0,1000}\\AppData\\Roaming\\freerdp.{0,1000}
 .{0,1000}\\AppData\\Roaming\\NetSupport\\.{0,1000}
 .{0,1000}\\AppData\\Roaming\\Radmin.{0,1000}
 .{0,1000}\\AppData\\Roaming\\rclone\\rclone\.conf.{0,1000}
 .{0,1000}\\AppData\\Roaming\\TeamViewer.{0,1000}
 .{0,1000}\\AppData\\Roaming\\UltraVNC\\.{0,1000}
+.{0,1000}\\AppData\\Roaming\\VSA\sX.{0,1000}
 .{0,1000}\\Ask4Creds\.ps1.{0,1000}
 .{0,1000}\\asm\\x64\\alter_pe_sections.{0,1000}
 .{0,1000}\\asm\\x86\\alter_pe_sections.{0,1000}
@@ -5206,7 +5213,7 @@
 .{0,1000}\\Citrix\\GoToMyPc\\GuestInvite.{0,1000}
 .{0,1000}\\cleantracks\.ps1
 .{0,1000}\\CleanTracks\.ps1.{0,1000}
-.{0,1000}\\clipboard\.ps1.{0,1000}
+.{0,1000}\\Clipboard\.ps1.{0,1000}
 .{0,1000}\\CloakNDaggerC2.{0,1000}
 .{0,1000}\\cloud_enum\.py.{0,1000}
 .{0,1000}\\cloudflared\.exe.{0,1000}
@@ -5263,6 +5270,7 @@
 .{0,1000}\\CurrentControlSet\\Services\\ScreenConnect\s.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\SupremoService.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\TeamViewer.{0,1000}
+.{0,1000}\\CurrentControlSet\\Services\\VSAX.{0,1000}
 .{0,1000}\\CurrentVersion\\App\sPaths\\RemotePCPerformance.{0,1000}
 .{0,1000}\\CurrentVersion\\Devices\\RemotePC\sPrinter.{0,1000}
 .{0,1000}\\CurrentVersion\\Run\\XenoUpdateManager.{0,1000}
@@ -5663,7 +5671,7 @@
 .{0,1000}\\install_elevated\.py.{0,1000}
 .{0,1000}\\interesting\-teamsmessages\.csv.{0,1000}
 .{0,1000}\-\-interface\s.{0,1000}\s\-\-wpad\s\-\-lm\s\-\-disable\-ess.{0,1000}
-.{0,1000}\\inveigh\.exe.{0,1000}
+.{0,1000}\\Inveigh\.exe.{0,1000}
 .{0,1000}\\Inveigh\\bin\\.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\aeroadmin.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\revsocks_windows.{0,1000}
@@ -5694,6 +5702,7 @@
 .{0,1000}\-\-just\-clean.{0,1000}cleaning\/to_clean\.txt.{0,1000}
 .{0,1000}\\kali\-install\.sh.{0,1000}
 .{0,1000}\\kali\-linux\-2023.{0,1000}
+.{0,1000}\\Kaseya\\PC\sMonitor\\.{0,1000}
 .{0,1000}\\KAssembly\.x64\.o.{0,1000}
 .{0,1000}\\katz\.ps1.{0,1000}
 .{0,1000}\\KaynInject\.h.{0,1000}
@@ -6022,6 +6031,7 @@
 .{0,1000}\-\-payload\-url\s.{0,1000}\/pwn\.html
 .{0,1000}\\Payloads\\.{0,1000}\.bin.{0,1000}
 .{0,1000}\\payloadtests\.py.{0,1000}
+.{0,1000}\\PC\sMonitor\\Addons.{0,1000}
 .{0,1000}\\pcicfgui_client\.exe.{0,1000}
 .{0,1000}\\pciconn\.exe.{0,1000}
 .{0,1000}\\PCICTL\\ConfigList\\Standard\\UI\\.{0,1000}
@@ -6034,6 +6044,7 @@
 .{0,1000}\\PCMonitorManager\.exe.{0,1000}
 .{0,1000}\\PCMonitorSrv\.exe.{0,1000}
 .{0,1000}\\PCMonitorTypes\.dll.{0,1000}
+.{0,1000}\\pcmontask\.exe.{0,1000}
 .{0,1000}\\pcmrdp\-client\.dll.{0,1000}
 .{0,1000}\\pcmupdate\.exe.{0,1000}
 .{0,1000}\\pcmupdate\.exe\.config.{0,1000}
@@ -6117,10 +6128,10 @@
 .{0,1000}\\powershell\.exe.{0,1000}\s\=hidden.{0,1000}
 .{0,1000}\\PowershellKerberos.{0,1000}
 .{0,1000}\\PowerTools\.ps1.{0,1000}
-.{0,1000}\\powerup\.exe.{0,1000}
+.{0,1000}\\Powerup\.exe.{0,1000}
 .{0,1000}\\PowerUp\.ps1.{0,1000}
 .{0,1000}\\PowerView\.cna.{0,1000}
-.{0,1000}\\PowerView\.exe.{0,1000}
+.{0,1000}\\Powerview\.exe.{0,1000}
 .{0,1000}\\PowerView\.ps1.{0,1000}
 .{0,1000}\\PowerView3\..{0,1000}
 .{0,1000}\\ppl_dump\..{0,1000}
@@ -6250,6 +6261,7 @@
 .{0,1000}\\regwrite\.lua.{0,1000}
 .{0,1000}\\regwritedel\.lua.{0,1000}
 .{0,1000}\\RemoteCamera\.dll.{0,1000}
+.{0,1000}\\RemoteDesktop\.exe.{0,1000}
 .{0,1000}\\RemoteDesktop_x64\.msi.{0,1000}
 .{0,1000}\\RemotePC\.Common\.dll.{0,1000}
 .{0,1000}\\RemotePC\.exe.{0,1000}
@@ -6392,6 +6404,8 @@
 .{0,1000}\\servers\\icmp_server\.py.{0,1000}
 .{0,1000}\\servers\\smb_server\.py.{0,1000}
 .{0,1000}\\Services\\EventLog\\Application\\UltraVNC\\.{0,1000}
+.{0,1000}\\Services\\EventLog\\Application\\VSA\sX.{0,1000}
+.{0,1000}\\Services\\EventLog\\Application\\VSAX.{0,1000}
 .{0,1000}\\Sessions\\SH\-MatchedGroups\-.{0,1000}\.txt.{0,1000}
 .{0,1000}\\SessionSearcher\.csproj.{0,1000}
 .{0,1000}\\SessionSearcher\.exe.{0,1000}
@@ -6470,6 +6484,7 @@
 .{0,1000}\\SoftPerfect\sNetwork\sScanner.{0,1000}
 .{0,1000}\\SOFTWARE\\Ammyy\\Admin.{0,1000}
 .{0,1000}\\SOFTWARE\\Clients\\Media\\AnyDesk.{0,1000}
+.{0,1000}\\SOFTWARE\\Kaseya\\.{0,1000}
 .{0,1000}\\Software\\LogMeInRescue\\.{0,1000}
 .{0,1000}\\SOFTWARE\\Microsoft\\Tracing\\PCMonitorSrv_RAS.{0,1000}
 .{0,1000}\\Software\\NetSupport\sLtd\\.{0,1000}
@@ -6559,6 +6574,7 @@
 .{0,1000}\\tailscale_.{0,1000}_.{0,1000}\.tgz.{0,1000}
 .{0,1000}\\tailscaled\.go.{0,1000}
 .{0,1000}\\TakeMyRDP.{0,1000}
+.{0,1000}\\TaskCache\\Tree\\VSA\sXServiceCheck.{0,1000}
 .{0,1000}\\Tasks\\PulsewayServiceCheck.{0,1000}
 .{0,1000}\\TASKSHELL\.EXE.{0,1000}
 .{0,1000}\\TChopper\\chopper\..{0,1000}
@@ -6707,6 +6723,14 @@
 .{0,1000}\\Volumiser\.exe.{0,1000}
 .{0,1000}\\Volumiser\.sln.{0,1000}
 .{0,1000}\\Volumiser\\Program\.cs.{0,1000}
+.{0,1000}\\VSA\sX\\watchdog\.bat.{0,1000}
+.{0,1000}\\VSA\sX\sManager\.lnk.{0,1000}
+.{0,1000}\\VSA\sX\sRemote\sControl\.lnk.{0,1000}
+.{0,1000}\\VSA\sX\sRemote\sControl\\.{0,1000}
+.{0,1000}\\VSA\sXServiceCheck.{0,1000}
+.{0,1000}\\VSAX\\working.{0,1000}
+.{0,1000}\\VSAX_x64\.msi.{0,1000}
+.{0,1000}\\vsxrc\-clip\.exe.{0,1000}
 .{0,1000}\\Wait_For_Command\.ps1.{0,1000}
 .{0,1000}\\wce\-beta\.zip.{0,1000}
 .{0,1000}\\wce32\.exe.{0,1000}
@@ -8252,6 +8276,8 @@
 .{0,1000}\sepmd\-info\.nse.{0,1000}
 .{0,1000}\seppc\-enum\-processes\.nse.{0,1000}
 .{0,1000}\-server\=http\:\/\/127\.0\.0\.1\:4002.{0,1000}
+.{0,1000}\'ServiceName\'\>VSA\sX\<\/Data\>.{0,1000}
+.{0,1000}\'ServiceName\'\>VSAX\<\/Data\>.{0,1000}
 .{0,1000}\sEternalHushCore\s.{0,1000}
 .{0,1000}\setumbot\.py.{0,1000}
 .{0,1000}\sEtwHash.{0,1000}
@@ -8926,6 +8952,7 @@
 .{0,1000}\spcanywhere\-brute\.nse.{0,1000}
 .{0,1000}\sPCMonitorManager\.exe.{0,1000}
 .{0,1000}\sPCMonitorSrv\.exe.{0,1000}
+.{0,1000}\spcmontask\.exe.{0,1000}
 .{0,1000}\spcworx\-info\.nse.{0,1000}
 .{0,1000}\sPerform\sS4U\sconstrained\sdelegation\sabuse.{0,1000}
 .{0,1000}\sPersist\sGeneral\s.{0,1000}\.dll.{0,1000}
@@ -9028,6 +9055,7 @@
 .{0,1000}\sredpill\.ps1.{0,1000}
 .{0,1000}\sredsocks\.sh.{0,1000}
 .{0,1000}\sRegisterEventSourceW\(L\"DESKTOP\-\.\.\.\".{0,1000}\sL\"1337.{0,1000}
+.{0,1000}\sRemoteDesktop\.exe.{0,1000}
 .{0,1000}\sRemotePC\.exe.{0,1000}
 .{0,1000}\sremotepclauncher\.exe.{0,1000}
 .{0,1000}\sremotepcuiu\.exe.{0,1000}
@@ -9385,6 +9413,7 @@
 .{0,1000}\svnc\-title\.nse.{0,1000}
 .{0,1000}\svoldemort\-info\.nse.{0,1000}
 .{0,1000}\sVolumiser\.exe\s.{0,1000}
+.{0,1000}\sVSAX_x64\.msi.{0,1000}
 .{0,1000}\svtam\-enum\.nse.{0,1000}
 .{0,1000}\svulners\.nse.{0,1000}
 .{0,1000}\svulscan\.nse.{0,1000}
@@ -9428,6 +9457,10 @@
 .{0,1000}\-t\s.{0,1000}\s\-x\slfr\s\-f\s\/etc\/passwd.{0,1000}
 .{0,1000}\-t\s.{0,1000}\s\-x\srce\s\-a\slist\+auth\+user\+admin.{0,1000}
 .{0,1000}\-u\sSSARedTeam\:s3cr3t.{0,1000}
+.{0,1000}\'VSA\sX\sManager	\'.{0,1000}
+.{0,1000}\'VSA\sX\sRemote\sControl\'.{0,1000}
+.{0,1000}\'VSA\sX\sService\'.{0,1000}
+.{0,1000}\'VSA\sX\sUser\sAgent\'.{0,1000}
 .{0,1000}\-w\s.{0,1000}wordlists.{0,1000}\.txt.{0,1000}
 .{0,1000}\-web\.screenconnect\.com.{0,1000}
 .{0,1000}\-WindowS\sHidden\s\-ep\sBypass\s\-enc\s\$b64FileServerMonitoringScript.{0,1000}
@@ -10169,7 +10202,7 @@
 .{0,1000}aggressor\.println.{0,1000}
 .{0,1000}aggressor\.py.{0,1000}
 .{0,1000}Aggressor\/TikiTorch.{0,1000}
-.{0,1000}Aggressor\-Scripts.{0,1000}
+.{0,1000}aggressor\-scripts.{0,1000}
 .{0,1000}AggressorScripts.{0,1000}
 .{0,1000}AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA.{0,1000}
 .{0,1000}ahmedkhlief\/Ninja.{0,1000}
@@ -10178,7 +10211,7 @@
 .{0,1000}aigmfoeogfnljhnofglledbhhfegannp.{0,1000}
 .{0,1000}aiocmd\\nested_completer\.py.{0,1000}
 .{0,1000}Airbash.{0,1000}
-.{0,1000}Aircrack\-ng.{0,1000}
+.{0,1000}aircrack\-ng.{0,1000}
 .{0,1000}aireplay\-ng\s.{0,1000}
 .{0,1000}Airgeddon.{0,1000}
 .{0,1000}airman604\/splunk_whisperer.{0,1000}
@@ -10722,7 +10755,7 @@
 .{0,1000}bcrossc2_load_dyn.{0,1000}
 .{0,1000}bd346689\-8ee6\-40b3\-858b\-4ed94f08d40a.{0,1000}
 .{0,1000}BD602C80\-47ED\-4294\-B981\-0119D2200DB8.{0,1000}
-.{0,1000}bd745a5e\-a1e9\-4fdd\-a15b\-e9f303a625ae.{0,1000}
+.{0,1000}BD745A5E\-A1E9\-4FDD\-A15B\-E9F303A625AE.{0,1000}
 .{0,1000}bd976ca9268513e6cc4a58b85574f62b8a76cc92.{0,1000}
 .{0,1000}bdamele\/icmpsh.{0,1000}
 .{0,1000}bdcsync.{0,1000}
@@ -11959,7 +11992,7 @@
 .{0,1000}ComsvcsLSASS.{0,1000}
 .{0,1000}config\/51pwn\/CVE\-.{0,1000}
 .{0,1000}config_steal\s\/etc\/krb5\.conf\s\/etc\/krb5\.keytab.{0,1000}
-.{0,1000}Confuser\.CLI\.exe.{0,1000}
+.{0,1000}Confuser\.CLI\.Exe.{0,1000}
 .{0,1000}Confuser\.DynCipher\.dll.{0,1000}
 .{0,1000}Confuser\.Renamer\.dll.{0,1000}
 .{0,1000}conhost\.exe\s.{0,1000}\s\-\-headless.{0,1000}
@@ -14464,15 +14497,15 @@
 .{0,1000}Get\-VolumeShadowCopy.{0,1000}
 .{0,1000}Get\-WebCredentials.{0,1000}
 .{0,1000}Get\-WebCredentials\.ps1.{0,1000}
-.{0,1000}Get\-WLAN\-Keys.{0,1000}
-.{0,1000}Get\-WLAN\-Keys\.ps1.{0,1000}
+.{0,1000}Get\-Wlan\-Keys.{0,1000}
+.{0,1000}Get\-Wlan\-Keys\.ps1.{0,1000}
 .{0,1000}Get\-WMIEventLogins.{0,1000}
 .{0,1000}Get\-WmiObject\s\?ComputerName\s.{0,1000}\s\?Class\sWin32_ComputerSystem\s\|\s.{0,1000}\sUserName.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\swin32_loggedonuser\s\-ComputerName\s.{0,1000}
-.{0,1000}get\-wmiregcachedrdpconnection.{0,1000}
+.{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
 .{0,1000}Get\-WMIRegLastLoggedOn.{0,1000}
-.{0,1000}get\-wmiregmounteddrive.{0,1000}
+.{0,1000}Get\-WMIRegMountedDrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
 .{0,1000}get_BeaconHealthCheck_settings.{0,1000}
@@ -15972,7 +16005,7 @@
 .{0,1000}Invoke\-CcmNaaCredentialsCheck.{0,1000}
 .{0,1000}Invoke\-Certify.{0,1000}
 .{0,1000}Invoke\-CheckAccess.{0,1000}
-.{0,1000}invoke\-checklocaladminaccess.{0,1000}
+.{0,1000}Invoke\-CheckLocalAdminAccess.{0,1000}
 .{0,1000}Invoke\-ClipboardMonitor.{0,1000}
 .{0,1000}Invoke\-CMLootDownload.{0,1000}
 .{0,1000}Invoke\-CMLootExtract.{0,1000}
@@ -16056,14 +16089,14 @@
 .{0,1000}Invoke\-GraphRunner.{0,1000}
 .{0,1000}Invoke\-Grouper2.{0,1000}
 .{0,1000}Invoke\-Grouper3.{0,1000}
-.{0,1000}Invoke\-Handlekatz.{0,1000}
+.{0,1000}Invoke\-HandleKatz.{0,1000}
 .{0,1000}Invoke\-HardenedUNCPathCheck.{0,1000}
 .{0,1000}Invoke\-HijackableDllsCheck.{0,1000}
 .{0,1000}Invoke\-HiveDump.{0,1000}
 .{0,1000}Invoke\-HiveNightmare\.ps1.{0,1000}
 .{0,1000}Invoke\-HoneypotBuster.{0,1000}
 .{0,1000}Invoke\-HostEnum.{0,1000}
-.{0,1000}Invoke\-HostEnum\s\-.{0,1000}
+.{0,1000}invoke\-hostenum\s\-.{0,1000}
 .{0,1000}Invoke\-HostRecon.{0,1000}
 .{0,1000}invoke\-hostscan.{0,1000}
 .{0,1000}Invoke\-HotFixVulnCheck.{0,1000}
@@ -16171,7 +16204,7 @@
 .{0,1000}Invoke\-PiperServer.{0,1000}
 .{0,1000}Invoke\-PipeShell\.ps1.{0,1000}
 .{0,1000}Invoke\-PortBind.{0,1000}
-.{0,1000}Invoke\-Portscan.{0,1000}
+.{0,1000}Invoke\-PortScan.{0,1000}
 .{0,1000}Invoke\-Portscan\.ps1.{0,1000}
 .{0,1000}Invoke\-PoshRatHttp.{0,1000}
 .{0,1000}Invoke\-PoshRatHttps.{0,1000}
@@ -16361,7 +16394,7 @@
 .{0,1000}Invoke\-SMBRemoting.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\.ps1.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\-main.{0,1000}
-.{0,1000}Invoke\-SmbScanner.{0,1000}
+.{0,1000}Invoke\-SMBScanner.{0,1000}
 .{0,1000}Invoke\-Snaffler.{0,1000}
 .{0,1000}invoke\-sniffer\s.{0,1000}
 .{0,1000}invoke\sobfuscation.{0,1000}
@@ -16409,7 +16442,7 @@
 .{0,1000}Invoke\-UserCheck.{0,1000}
 .{0,1000}Invoke\-UserEnvCheck.{0,1000}
 .{0,1000}Invoke\-UserGroupsCheck.{0,1000}
-.{0,1000}Invoke\-UserHunter.{0,1000}
+.{0,1000}invoke\-userhunter.{0,1000}
 .{0,1000}Invoke\-UserHunter\s\-CheckAccess.{0,1000}
 .{0,1000}Invoke\-UserImpersonation.{0,1000}
 .{0,1000}Invoke\-UsernameHarvestEAS.{0,1000}
@@ -16451,7 +16484,7 @@
 .{0,1000}Invoke\-WmiCommand\s.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}Invoke\-WMIExec\s.{0,1000}
+.{0,1000}invoke\-wmiexec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMImplant.{0,1000}
 .{0,1000}Invoke\-WMIObfuscatedPSCommand.{0,1000}
@@ -16460,7 +16493,7 @@
 .{0,1000}Invoke\-WmiShadowCopy.{0,1000}
 .{0,1000}Invoke\-WScriptBypassUAC.{0,1000}
 .{0,1000}Invoke\-WscriptElevate.{0,1000}
-.{0,1000}Invoke\-ZeroLogon.{0,1000}
+.{0,1000}Invoke\-Zerologon.{0,1000}
 .{0,1000}invoke_obfuscation\.py.{0,1000}
 .{0,1000}invoke_sessiongopher\.py.{0,1000}
 .{0,1000}InvokeAssembly\.x64\.dll.{0,1000}
@@ -16707,6 +16740,7 @@
 .{0,1000}karendm\/ADHunt.{0,1000}
 .{0,1000}Karmaleon\.py.{0,1000}
 .{0,1000}karmaSMB\.py.{0,1000}
+.{0,1000}KASEYA\sHOLDINGS\sINC\..{0,1000}
 .{0,1000}katoolin.{0,1000}toollist\.py.{0,1000}
 .{0,1000}katoolin3\.py.{0,1000}
 .{0,1000}KatzSystemArchitecture.{0,1000}
@@ -16882,7 +16916,7 @@
 .{0,1000}KillDefender\.x64\..{0,1000}
 .{0,1000}killdefender\scheck.{0,1000}
 .{0,1000}killdefender\skill.{0,1000}
-.{0,1000}killdefender_bof.{0,1000}
+.{0,1000}KillDefender_BOF.{0,1000}
 .{0,1000}KillDefenderBOF\-main.{0,1000}
 .{0,1000}Killed\srunning\seventvwr.{0,1000}
 .{0,1000}Killed\srunning\ssdclt.{0,1000}
@@ -17186,7 +17220,7 @@
 .{0,1000}ldap_shell\.py.{0,1000}
 .{0,1000}ldapasn1\.py.{0,1000}
 .{0,1000}ldapattack\.py.{0,1000}
-.{0,1000}LDAPDomainDump.{0,1000}
+.{0,1000}ldapdomaindump.{0,1000}
 .{0,1000}ldapdomaindump\.zip.{0,1000}
 .{0,1000}ldapfilter\:.{0,1000}admincount\=1.{0,1000}\s\/format\:hashcat.{0,1000}
 .{0,1000}LdapMiner.{0,1000}
@@ -17872,7 +17906,7 @@
 .{0,1000}MimiTickets\\.{0,1000}\-Tickets\.txt.{0,1000}
 .{0,1000}minidump.{0,1000}minikerberos.{0,1000}
 .{0,1000}minidump\..{0,1000}\slsass\.dmp.{0,1000}
-.{0,1000}minidump\.exe.{0,1000}
+.{0,1000}Minidump\.exe.{0,1000}
 .{0,1000}Minidump\.sln.{0,1000}
 .{0,1000}minidump_add_memory_block.{0,1000}
 .{0,1000}minidump_add_memory64_block.{0,1000}
@@ -18571,7 +18605,7 @@
 .{0,1000}nirsoft\.net\/utils\/browsing_history_view\.html.{0,1000}
 .{0,1000}nishang\.exe.{0,1000}
 .{0,1000}nishang\.ps1.{0,1000}
-.{0,1000}nishang\.psm1.{0,1000}
+.{0,1000}Nishang\.psm1.{0,1000}
 .{0,1000}nishang\-0\-3\-4\.html.{0,1000}
 .{0,1000}NixImports\.csproj.{0,1000}
 .{0,1000}NixImports\.exe.{0,1000}
@@ -18643,7 +18677,7 @@
 .{0,1000}NoPowerShell\.Commands\.Management.{0,1000}
 .{0,1000}NoPowerShell\.csproj.{0,1000}
 .{0,1000}NoPowerShell\.dll.{0,1000}
-.{0,1000}nopowershell\.exe.{0,1000}
+.{0,1000}NoPowerShell\.exe.{0,1000}
 .{0,1000}NoPowerShell\.sln.{0,1000}
 .{0,1000}NoPowerShell\/.{0,1000}\.cs.{0,1000}
 .{0,1000}NoPowerShell_trunk\.zip.{0,1000}
@@ -18793,7 +18827,7 @@
 .{0,1000}nyxgeek\/ntlmscan.{0,1000}
 .{0,1000}nyxgeek\/teamstracker.{0,1000}
 .{0,1000}o_getprivs.{0,1000}
-.{0,1000}o365\-attack\-toolkit.{0,1000}
+.{0,1000}o365\-Attack\-Toolkit.{0,1000}
 .{0,1000}o365creeper\.git.{0,1000}
 .{0,1000}o365creeper\.py.{0,1000}
 .{0,1000}o365creeper\-master.{0,1000}
@@ -19179,6 +19213,18 @@
 .{0,1000}PcapXray.{0,1000}
 .{0,1000}pcicfgui_client\.exe.{0,1000}\\Client32\.ini.{0,1000}
 .{0,1000}pcienlhnoficegnepejpfiklggkioccm.{0,1000}
+.{0,1000}PCMonitorCfg\.dll.{0,1000}
+.{0,1000}PCMonitorClient\.dll.{0,1000}
+.{0,1000}PCMonitorEng\.dll.{0,1000}
+.{0,1000}PCMonitorManager\.exe.{0,1000}
+.{0,1000}PCMONITORMANAGER\.EXE\-.{0,1000}\.pf.{0,1000}
+.{0,1000}PCMonitorSrv\.exe.{0,1000}
+.{0,1000}PCMONITORSRV\.EXE\-.{0,1000}\.pf.{0,1000}
+.{0,1000}PCMonitorSrv\.InstallState.{0,1000}
+.{0,1000}PCMonitorTypes\.dll.{0,1000}
+.{0,1000}PCMONTASK\.EXE\-.{0,1000}\.pf.{0,1000}
+.{0,1000}pcmontask\.exe\s.{0,1000}
+.{0,1000}pcmrdp\-client\.dll.{0,1000}
 .{0,1000}Pcredz\s\-d\s.{0,1000}
 .{0,1000}Pcredz\s\-f\s.{0,1000}
 .{0,1000}PCredz\s\-f\s.{0,1000}\.pcap.{0,1000}
@@ -19275,7 +19321,7 @@
 .{0,1000}PetitPotam\.cpp.{0,1000}
 .{0,1000}PetitPotam\.exe.{0,1000}
 .{0,1000}PetitPotam\.ps1.{0,1000}
-.{0,1000}PetitPotam\.py.{0,1000}
+.{0,1000}petitpotam\.py.{0,1000}
 .{0,1000}PetitPotam\.sln.{0,1000}
 .{0,1000}PetitPotam\.vcxproj.{0,1000}
 .{0,1000}petitpotam_check.{0,1000}
@@ -19564,7 +19610,7 @@
 .{0,1000}powerpick\.py.{0,1000}
 .{0,1000}PowerPick\.x64\.dll.{0,1000}
 .{0,1000}powerpick\s\-Command\s.{0,1000}
-.{0,1000}Powerpreter\.psm1.{0,1000}
+.{0,1000}powerpreter\.psm1.{0,1000}
 .{0,1000}powerpwn\.powerdump.{0,1000}
 .{0,1000}powerpwn_tests.{0,1000}
 .{0,1000}PowerSCCM\.ps1.{0,1000}
@@ -19718,7 +19764,7 @@
 .{0,1000}PrintSpoofer\..{0,1000}
 .{0,1000}PrintSpoofer\-.{0,1000}
 .{0,1000}PrintSpoofer\.cpp.{0,1000}
-.{0,1000}printspoofer\.exe.{0,1000}
+.{0,1000}PrintSpoofer\.exe.{0,1000}
 .{0,1000}printspoofer\.py.{0,1000}
 .{0,1000}PrintSpoofer\.sln.{0,1000}
 .{0,1000}PrintSpoofer\-master.{0,1000}
@@ -19858,12 +19904,14 @@
 .{0,1000}ProgIDsUACBypass\..{0,1000}
 .{0,1000}program\/replay\.pl.{0,1000}
 .{0,1000}program\sfiles.{0,1000}\\netsupport\\.{0,1000}
+.{0,1000}Program\sFiles\\VSA\sX\\.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\Advanced\sPort\sScanner\\.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\Radmin\sViewer\s3\\.{0,1000}
 .{0,1000}program\sfiles\s\(x86\)\\remotepc\\.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\ScreenConnect\sClient.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\Splashtop.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\uvnc\sbvba\\.{0,1000}
+.{0,1000}ProgramData\\Kaseya\\.{0,1000}
 .{0,1000}ProgramData\\RemotePC.{0,1000}
 .{0,1000}ProgramData\\RemotePC\sPerformance.{0,1000}
 .{0,1000}projectdiscovery\/interactsh.{0,1000}
@@ -20398,7 +20446,7 @@
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.rar.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.raw.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.reg.{0,1000}
-.{0,1000}raw\.githubusercontent\.com.{0,1000}\.rgs.{0,1000}
+.{0,1000}raw\.githubusercontent\.com.{0,1000}\.RGS.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.run.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.scpt.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.script.{0,1000}
@@ -20708,6 +20756,9 @@
 .{0,1000}remote_exploit_demo_template\.erb.{0,1000}
 .{0,1000}remote_shell\.py.{0,1000}
 .{0,1000}RemoteDesktop\.exe.{0,1000}pwy\-rd\:\?token\=.{0,1000}
+.{0,1000}RemoteDesktop\.exe\s.{0,1000}
+.{0,1000}RemoteDesktop_x64\.msi.{0,1000}
+.{0,1000}RemoteDesktop_x64\s\(1\)\.msi.{0,1000}
 .{0,1000}RemoteHashRetrieval\.ps1.{0,1000}
 .{0,1000}RemoteNTDLL\.cpp.{0,1000}
 .{0,1000}RemoteNTDLL\.exe.{0,1000}
@@ -21227,6 +21278,7 @@
 .{0,1000}sc\s\-path\sc\:\\inetpub\\wwwroot\\aspnet_client\\test\.txt\s\-value\steset.{0,1000}
 .{0,1000}sc\s\sdelete\s\"RPCService\".{0,1000}
 .{0,1000}SC\s\sQUERYEX\s\"PC\sMonitor\".{0,1000}
+.{0,1000}SC\s\sQUERYEX\s\"VSAX\".{0,1000}
 .{0,1000}sc\s\sstart\s\"RPCService\".{0,1000}
 .{0,1000}sc\s\sstop\s\"RPCService\".{0,1000}
 .{0,1000}sc\sconfig\sWinDefend\sstart\=\sdisabled.{0,1000}
@@ -21573,7 +21625,7 @@
 .{0,1000}Set\sListener\sdbx.{0,1000}
 .{0,1000}set\sListener\sonedrive.{0,1000}
 .{0,1000}set\sobfuscate\s.{0,1000}
-.{0,1000}set\spayload\s.{0,1000}
+.{0,1000}set\sPAYLOAD\s.{0,1000}
 .{0,1000}set\spipename\s.{0,1000}
 .{0,1000}set\sProfile\sapt1\.profile.{0,1000}
 .{0,1000}set\sshellcode\s.{0,1000}
@@ -21826,7 +21878,7 @@
 .{0,1000}sharphound\..{0,1000}
 .{0,1000}SharpHound\-.{0,1000}\.zip.{0,1000}
 .{0,1000}SharpHound\.cna.{0,1000}
-.{0,1000}sharphound\.exe.{0,1000}
+.{0,1000}SharpHound\.exe.{0,1000}
 .{0,1000}SharpHound\.ps1.{0,1000}
 .{0,1000}Sharphound\-Aggressor.{0,1000}
 .{0,1000}sharphound\s\-.{0,1000}
@@ -22057,7 +22109,7 @@
 .{0,1000}shellter\.exe.{0,1000}
 .{0,1000}shepardsbind_recv\.py.{0,1000}
 .{0,1000}shepbind_serv\.exe.{0,1000}
-.{0,1000}sherlock\.ps1.{0,1000}
+.{0,1000}Sherlock\.ps1.{0,1000}
 .{0,1000}Sherlock_Vulns\.txt.{0,1000}
 .{0,1000}Shhhavoc\.py\s.{0,1000}
 .{0,1000}Shhhloader\.py.{0,1000}
@@ -22113,7 +22165,7 @@
 .{0,1000}SignToolExHook\.dll.{0,1000}
 .{0,1000}SigPloit.{0,1000}
 .{0,1000}sigthief\.exe\.manifest.{0,1000}
-.{0,1000}sigthief\.py.{0,1000}
+.{0,1000}Sigthief\.py.{0,1000}
 .{0,1000}SigThief\-master.{0,1000}
 .{0,1000}sigwhatever\.exe.{0,1000}
 .{0,1000}SilenceDefender\.ps1.{0,1000}
@@ -23725,6 +23777,7 @@
 .{0,1000}vssadmin\slist\sshadows.{0,1000}
 .{0,1000}vssenum\.x64\..{0,1000}
 .{0,1000}vssenum\.x86\..{0,1000}
+.{0,1000}vsxrc\-client\.dll.{0,1000}
 .{0,1000}vtiger_crm_upload_exploit.{0,1000}
 .{0,1000}vu\-ls\/Crassus.{0,1000}
 .{0,1000}vulfocus\/spring\-core\-rce\-.{0,1000}

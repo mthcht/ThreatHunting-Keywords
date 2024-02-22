@@ -1701,6 +1701,7 @@
 .* pcanywhere-brute\.nse.*
 .* PCMonitorManager\.exe.*
 .* PCMonitorSrv\.exe.*
+.* pcmontask\.exe.*
 .* pcworx-info\.nse.*
 .* -PE_Clone .*
 .* -pe-exp-list .*\.dll.*
@@ -1835,6 +1836,7 @@
 .* -remote -bindPipe .*  -bindPort .* -security.*
 .* -Remote -ExchHostname .*
 .* -Remote_Posh -Location .*\.ps1 -Function Invoke-.* -ComputerName .*
+.* RemoteDesktop\.exe.*
 .* -RemoteDllHandle .*
 .* -remotefilepath .*\\\\.*\.wav.*
 .* --remote-impersonation.*
@@ -2379,6 +2381,7 @@
 .* vnc-title\.nse.*
 .* voldemort-info\.nse.*
 .* Volumiser\.exe .*
+.* VSAX_x64\.msi.*
 .* vtam-enum\.nse.*
 .* -vulnerable -stdout -hide-admins.*
 .* vulners\.nse.*
@@ -2982,6 +2985,7 @@
 .*\.villain_core.*
 .*\.vm\.sshx\.internal:8051.*
 .*\.vpn\.123456\..*
+.*\.vsax\.net.*
 .*\.webmail\.123456\..*
 .*\.wiki\.123456\..*
 .*\.win10\.config\.fireeye.*
@@ -5651,6 +5655,7 @@
 .*/PCIDEPLY\.exe.*
 .*/PCMonitorManager\.exe.*
 .*/PCMonitorSrv\.exe.*
+.*/pcmontask\.exe.*
 .*/pcmrdp-client\.dll.*
 .*/pcworx-info\.nse.*
 .*/PDF_Payload/script\.txt.*
@@ -6045,6 +6050,7 @@
 .*/Remote/setuserpass/
 .*/Remote/setuserpass/.*
 .*/Remote/unexpireuser/.*
+.*/RemoteDesktop\.exe.*
 .*/remote-method-guesser\.git.*
 .*/RemoteOps\.py.*
 .*/remotepc\.deb.*
@@ -6986,8 +6992,10 @@
 .*/Volumiser\.git.*
 .*/Volumiser-maser\.zip.*
 .*/vpc__enum_lateral_movement.*
+.*/VSAX_x64\.msi.*
 .*/vss-enum\.py.*
 .*/vssenum/.*
+.*/vsxrc-clip\.exe.*
 .*/vtam-enum\.nse.*
 .*/vulners\.nse.*
 .*/vulnscan\.yaml.*
@@ -7527,11 +7535,13 @@
 .*\\AppData\\Roaming\\.*-5900\.vnc.*
 .*\\AppData\\Roaming\\AnyDesk\\system\.conf.*
 .*\\AppData\\Roaming\\AnyDesk\\user\.conf.*
+.*\\AppData\\Roaming\\freerdp.*
 .*\\AppData\\Roaming\\NetSupport\\.*
 .*\\AppData\\Roaming\\Radmin.*
 .*\\AppData\\Roaming\\rclone\\rclone\.conf.*
 .*\\AppData\\Roaming\\TeamViewer.*
 .*\\AppData\\Roaming\\UltraVNC\\.*
+.*\\AppData\\Roaming\\VSA X.*
 .*\\Ask4Creds\.ps1.*
 .*\\asm\\x64\\alter_pe_sections.*
 .*\\asm\\x86\\alter_pe_sections.*
@@ -7692,6 +7702,7 @@
 .*\\CurrentControlSet\\Services\\ScreenConnect .*
 .*\\CurrentControlSet\\Services\\SupremoService.*
 .*\\CurrentControlSet\\Services\\TeamViewer.*
+.*\\CurrentControlSet\\Services\\VSAX.*
 .*\\CurrentVersion\\App Paths\\RemotePCPerformance.*
 .*\\CurrentVersion\\Devices\\RemotePC Printer.*
 .*\\CurrentVersion\\Run\\XenoUpdateManager.*
@@ -8109,6 +8120,7 @@
 .*\\JunctionFolder\.csproj.*
 .*\\kali-install\.sh.*
 .*\\kali-linux-2023.*
+.*\\Kaseya\\PC Monitor\\.*
 .*\\KAssembly\.x64\.o.*
 .*\\katz\.ps1.*
 .*\\KaynInject\.h.*
@@ -8417,6 +8429,7 @@
 .*\\path_traversal_dict\.txt.*
 .*\\Payloads\\.*\.bin.*
 .*\\payloadtests\.py.*
+.*\\PC Monitor\\Addons.*
 .*\\pcicfgui_client\.exe.*
 .*\\pciconn\.exe.*
 .*\\PCICTL\\ConfigList\\Standard\\UI\\.*
@@ -8429,6 +8442,7 @@
 .*\\PCMonitorManager\.exe.*
 .*\\PCMonitorSrv\.exe.*
 .*\\PCMonitorTypes\.dll.*
+.*\\pcmontask\.exe.*
 .*\\pcmrdp-client\.dll.*
 .*\\pcmupdate\.exe.*
 .*\\pcmupdate\.exe\.config.*
@@ -8645,6 +8659,7 @@
 .*\\regwrite\.lua.*
 .*\\regwritedel\.lua.*
 .*\\RemoteCamera\.dll.*
+.*\\RemoteDesktop\.exe.*
 .*\\RemoteDesktop_x64\.msi.*
 .*\\RemotePC Performance Host\\.*
 .*\\RemotePC\.Common\.dll.*
@@ -8782,6 +8797,8 @@
 .*\\servers\\icmp_server\.py.*
 .*\\servers\\smb_server\.py.*
 .*\\Services\\EventLog\\Application\\UltraVNC\\.*
+.*\\Services\\EventLog\\Application\\VSA X.*
+.*\\Services\\EventLog\\Application\\VSAX.*
 .*\\Sessions\\SH-MatchedGroups-.*\.txt.*
 .*\\SessionSearcher\.csproj.*
 .*\\SessionSearcher\.exe.*
@@ -8860,6 +8877,7 @@
 .*\\SoftPerfect Network Scanner.*
 .*\\SOFTWARE\\Ammyy\\Admin.*
 .*\\SOFTWARE\\Clients\\Media\\AnyDesk.*
+.*\\SOFTWARE\\Kaseya\\.*
 .*\\Software\\LogMeInRescue\\.*
 .*\\SOFTWARE\\Microsoft\\Tracing\\PCMonitorSrv_RAS.*
 .*\\Software\\NetSupport Ltd\\.*
@@ -8945,6 +8963,7 @@
 .*\\tailscaled\.go.*
 .*\\tailscale-setup-.*\.exe.*
 .*\\TakeMyRDP.*
+.*\\TaskCache\\Tree\\VSA XServiceCheck.*
 .*\\Tasks\\PulsewayServiceCheck.*
 .*\\TASKSHELL\.EXE.*
 .*\\TChopper\\chopper\..*
@@ -9088,6 +9107,14 @@
 .*\\Volumiser\.exe.*
 .*\\Volumiser\.sln.*
 .*\\Volumiser\\Program\.cs.*
+.*\\VSA X Manager\.lnk.*
+.*\\VSA X Remote Control\.lnk.*
+.*\\VSA X Remote Control\\.*
+.*\\VSA X\\watchdog\.bat.*
+.*\\VSA XServiceCheck.*
+.*\\VSAX\\working.*
+.*\\VSAX_x64\.msi.*
+.*\\vsxrc-clip\.exe.*
 .*\\Wait_For_Command\.ps1.*
 .*\\wce32\.exe.*
 .*\\wce64\.exe.*
@@ -14454,10 +14481,10 @@
 .*Get-WmiObject -class SMS_Authority -namespace root\\CCM.*
 .*Get-WmiObject win32_loggedonuser -ComputerName .*
 .*getwmiregcachedrdpconnection.*
-.*get-wmiregcachedrdpconnection.*
+.*Get-WMIRegCachedRDPConnection.*
 .*getwmireglastloggedon.*
-.*get-wmireglastloggedon.*
-.*get-wmiregmounteddrive.*
+.*Get-WMIRegLastLoggedOn.*
+.*Get-WMIRegMountedDrive.*
 .*Get-WorkingHours.*
 .*gexplorer\.exe.*
 .*ggackgngljinccllcmbgnpgpllcjepgc.*
@@ -16337,7 +16364,7 @@
 .*Invoke-UserGroupsCheck.*
 .*Invoke-UserHunter -CheckAccess.*
 .*invokeuserhunter.*
-.*Invoke-UserHunter.*
+.*invoke-userhunter.*
 .*Invoke-UserImpersonation.*
 .*Invoke-UsernameHarvestEAS.*
 .*Invoke-UsernameHarvestGmail.*
@@ -16620,6 +16647,7 @@
 .*karendm/ADHunt.*
 .*Karmaleon\.py.*
 .*karmaSMB\.py.*
+.*KASEYA HOLDINGS INC\..*
 .*katoolin.*toollist\.py.*
 .*katoolin3\.py.*
 .*KatzSystemArchitecture.*
@@ -19127,6 +19155,18 @@
 .*PcapXray.*
 .*pcicfgui_client\.exe.*\\Client32\.ini.*
 .*pcienlhnoficegnepejpfiklggkioccm.*
+.*PCMonitorCfg\.dll.*
+.*PCMonitorClient\.dll.*
+.*PCMonitorEng\.dll.*
+.*PCMonitorManager\.exe.*
+.*PCMONITORMANAGER\.EXE-.*\.pf.*
+.*PCMonitorSrv\.exe.*
+.*PCMONITORSRV\.EXE-.*\.pf.*
+.*PCMonitorSrv\.InstallState.*
+.*PCMonitorTypes\.dll.*
+.*pcmontask\.exe .*
+.*PCMONTASK\.EXE-.*\.pf.*
+.*pcmrdp-client\.dll.*
 .*Pcredz -d .*
 .*Pcredz -f .*
 .*PCredz -f .*\.pcap.*
@@ -19816,7 +19856,9 @@
 .*Program Files \(x86\)\\Splashtop.*
 .*Program Files \(x86\)\\uvnc bvba\\.*
 .*program files.*\\netsupport\\.*
+.*Program Files\\VSA X\\.*
 .*program/replay\.pl.*
+.*ProgramData\\Kaseya\\.*
 .*ProgramData\\RemotePC Performance.*
 .*ProgramData\\RemotePC.*
 .*projectdiscovery/interactsh.*
@@ -20593,7 +20635,7 @@
 .*reg delete HKEY_CURRENT_USER\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v Security /f.*
 .*reg query .*HKEY_LOCAL_MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS NT\\CURRENTVERSION\\WINLOGON.* /v CACHEDLOGONSCOUNT.*
 .*reg query hkcu\\software\\.*\\putty\\session.*
-.*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa /v RunAsPPL.*
+.*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA /v RunAsPPL.*
 .*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\ /v RunAsPPL.*
 .*reg query hklm\\software\\OpenSSH.*
 .*reg query hklm\\software\\OpenSSH\\Agent.*
@@ -20664,7 +20706,10 @@
 .*remote_exploit_demo_template\.erb.*
 .*remote_shell\.py.*
 .*-remote=127\.0\.0\.1:3000.*
+.*RemoteDesktop\.exe .*
 .*RemoteDesktop\.exe.*pwy-rd:\?token=.*
+.*RemoteDesktop_x64 \(1\)\.msi.*
+.*RemoteDesktop_x64\.msi.*
 .*remote-exec .*jump .*
 .*RemoteHashRetrieval\.ps1.*
 .*-RemoteIp .* -RemotePort .* -Rows .* -Cols .* -CommandLine .*\.exe.*
@@ -21197,6 +21242,7 @@
 .*SauronEye\.exe.*
 .*sc  delete .*RPCService.*.*
 .*SC  QUERYEX .*PC Monitor.*.*
+.*SC  QUERYEX .*VSAX.*.*
 .*sc  start .*RPCService.*.*
 .*sc  stop .*RPCService.*.*
 .*sc config WinDefend start= disabled.*
@@ -21507,6 +21553,8 @@
 .*ServiceName.*>Pulseway</Data>.*
 .*ServiceName.*CorpVPN.*
 .*ServiceName'>GoToMyPC.*
+.*'ServiceName'>VSA X</Data>.*
+.*'ServiceName'>VSAX</Data>.*
 .*Serving Tailscale web client on http://.*
 .*servpw\.exe.*
 .*servpw64\.exe.*
@@ -23715,6 +23763,10 @@
 .*VPNPivot.*
 .*v-Q8Q~fEXAMPLEEXAMPLEDsmKpQw_Wwd57-albMZ.*
 .*vRealizeLogInsightRCE.*
+.*'VSA X Manager\t'.*
+.*'VSA X Remote Control'.*
+.*'VSA X Service'.*
+.*'VSA X User Agent'.*
 .*vsf_sysutil_read_loop.*
 .*vssadmin create shadow /for=C:.*
 .*vssadmin create shadow /for=C:.* \\Temp\\.*\.tmp.*
@@ -23725,6 +23777,7 @@
 .*vssadmin\.exe Create Shadow /for=.*
 .*vssenum\.x64\..*
 .*vssenum\.x86\..*
+.*vsxrc-client\.dll.*
 .*vtiger_crm_upload_exploit.*
 .*vulfocus/spring-core-rce-.*
 .*vulmon.*Vulmap.*
