@@ -14481,10 +14481,10 @@
 *Get-WmiObject -class SMS_Authority -namespace root\CCM*
 *Get-WmiObject win32_loggedonuser -ComputerName *
 *getwmiregcachedrdpconnection*
-*Get-WMIRegCachedRDPConnection*
+*get-wmiregcachedrdpconnection*
 *getwmireglastloggedon*
-*Get-WMIRegLastLoggedOn*
-*Get-WMIRegMountedDrive*
+*get-wmireglastloggedon*
+*get-wmiregmounteddrive*
 *Get-WorkingHours*
 *gexplorer.exe*
 *ggackgngljinccllcmbgnpgpllcjepgc*
@@ -16364,7 +16364,7 @@
 *Invoke-UserGroupsCheck*
 *Invoke-UserHunter -CheckAccess*
 *invokeuserhunter*
-*invoke-userhunter*
+*Invoke-UserHunter*
 *Invoke-UserImpersonation*
 *Invoke-UsernameHarvestEAS*
 *Invoke-UsernameHarvestGmail*

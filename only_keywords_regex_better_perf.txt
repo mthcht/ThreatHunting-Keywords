@@ -14503,9 +14503,9 @@
 .{0,1000}Get\-WmiObject\s\?ComputerName\s.{0,1000}\s\?Class\sWin32_ComputerSystem\s\|\s.{0,1000}\sUserName.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\swin32_loggedonuser\s\-ComputerName\s.{0,1000}
-.{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
-.{0,1000}Get\-WMIRegLastLoggedOn.{0,1000}
-.{0,1000}Get\-WMIRegMountedDrive.{0,1000}
+.{0,1000}get\-wmiregcachedrdpconnection.{0,1000}
+.{0,1000}get\-wmireglastloggedon.{0,1000}
+.{0,1000}get\-wmiregmounteddrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
 .{0,1000}get_BeaconHealthCheck_settings.{0,1000}
@@ -16442,7 +16442,7 @@
 .{0,1000}Invoke\-UserCheck.{0,1000}
 .{0,1000}Invoke\-UserEnvCheck.{0,1000}
 .{0,1000}Invoke\-UserGroupsCheck.{0,1000}
-.{0,1000}invoke\-userhunter.{0,1000}
+.{0,1000}Invoke\-UserHunter.{0,1000}
 .{0,1000}Invoke\-UserHunter\s\-CheckAccess.{0,1000}
 .{0,1000}Invoke\-UserImpersonation.{0,1000}
 .{0,1000}Invoke\-UsernameHarvestEAS.{0,1000}
