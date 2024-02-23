@@ -2463,6 +2463,7 @@
 .*.*ADWS request with ldapbase \(.*
 .*.*Dump BH data.*.*
 .*.*publisher.*:.*uvnc bvba.*
+.*.*SimpleHelp Remote Printer.*.*
 .*.*Stardust MessageBox.*.*
 .*.*Successful Connection PME.*.*
 .*\# adiskreader .*
@@ -6382,6 +6383,7 @@
 .*/silentprocessexit\.py.*
 .*/silenttrinity/.*\.py.*
 .*/simple_hijacker/.*
+.*/simplehelper64\.exe.*
 .*/SimpleLoader\.cpp.*
 .*/SimpleLoader\.exe.*
 .*/SimpleNTSyscallFuzzer\.git.*
@@ -8118,6 +8120,9 @@
 .*\\Jormungand\.sln.*
 .*\\JuicyPotatoNG.*
 .*\\JunctionFolder\.csproj.*
+.*\\JWrapper-SimpleHelp Remote Work.*
+.*\\JWrapper-SimpleHelp Technician.*
+.*\\JWrapper-SimpleHelp Technician\\.*
 .*\\kali-install\.sh.*
 .*\\kali-linux-2023.*
 .*\\Kaseya\\PC Monitor\\.*
@@ -8572,6 +8577,8 @@
 .*\\ProgramFile.*\\previous-version
 .*\\Programs\\Advanced IP Scanner Portable\\.*
 .*\\Programs\\GoToMyPC\.lnk.*
+.*\\Programs\\SimpleHelp Remote Work.*.*
+.*\\Programs\\SimpleHelp Technician.*
 .*\\Programs\\StartUp\\XenoUpdateManager.*
 .*\\ps2exe\.ps1.*
 .*\\PS2EXE\\.*\.ps1.*
@@ -8658,6 +8665,13 @@
 .*\\regread\.lua.*
 .*\\regwrite\.lua.*
 .*\\regwritedel\.lua.*
+.*\\remote access session\.exe.*
+.*\\remote access\.exe.*
+.*\\Remote AccessEmbedExample\.html.*
+.*\\Remote Access-java-online\.jar.*
+.*\\remote support\.exe.*
+.*\\Remote SupportEmbedExample\.html.*
+.*\\remoteaccess-jar-with-dependencies\.jar.*
 .*\\RemoteCamera\.dll.*
 .*\\RemoteDesktop\.exe.*
 .*\\RemoteDesktop_x64\.msi.*
@@ -8748,6 +8762,7 @@
 .*\\RustDesk\\query.*
 .*\\RustDeskIddDriver\\.*
 .*\\rusthound\.exe.*
+.*\\SafeBoot\\Network\\SimpleHelp Server.*
 .*\\SafetyKatz.*
 .*\\sAINT-master\.zip.*
 .*\\SAM\\\.Sam-Full\.txt.*
@@ -8799,6 +8814,7 @@
 .*\\Services\\EventLog\\Application\\UltraVNC\\.*
 .*\\Services\\EventLog\\Application\\VSA X.*
 .*\\Services\\EventLog\\Application\\VSAX.*
+.*\\Services\\SimpleHelp Server.*
 .*\\Sessions\\SH-MatchedGroups-.*\.txt.*
 .*\\SessionSearcher\.csproj.*
 .*\\SessionSearcher\.exe.*
@@ -8846,8 +8862,16 @@
 .*\\SilentClean\.exe.*
 .*\\SilentProcessExit\.sln.*
 .*\\SillyRAT\\.*\.py
+.*\\simplegateway\.service.*.*
+.*\\SimpleHelp TechnicianEmbedExample\.html.*
+.*\\SimpleHelp\.RemoteWork\.127_0_0_1.*
+.*\\SimpleHelp\.Technician\.127_0_0_1.*
+.*\\simplehelper64\.exe.*
+.*\\simplehelp-rw\\shell.*
+.*\\simplehelpuninstall\.exe.*
 .*\\SimpleLoader\.cpp.*
 .*\\SimpleLoader\.exe.*
+.*\\SimpleService\.exe.*
 .*\\SingleDose\.csproj.*
 .*\\SingleDose\.exe.*
 .*\\SingleDose\.sln.*
@@ -8932,6 +8956,7 @@
 .*\\StomPY\.py.*
 .*\\Stompy-main\\.*
 .*\\StopProcessCommand\.cs
+.*\\StopSimpleGatewayService\.exe.*
 .*\\strwinclt\.exe.*
 .*\\Suborner\.sln.*
 .*\\Supernova\.exe.*
@@ -9156,6 +9181,7 @@
 .*\\Windows-Passwords\.ps1.*
 .*\\WindowsShareFinder\.cs.*
 .*\\Win-PS2EXE.*
+.*\\winpty-agent64\.exe.*
 .*\\WinRing0x64\.sys.*
 .*\\winscp_dump\.py.*
 .*\\winvnc\.exe.*
@@ -10729,6 +10755,7 @@
 .*Bin\\bin32\\zlibwapi\.dll.*
 .*Bin\\bin64\\zlibwapi\.dll.*
 .*bin\\psexec_command\.x64\.o.*
+.*bin\\Remote AccessLauncher\.exe.*
 .*bin\\SillyRAT.*
 .*bin\\void\.zip.*
 .*bin2mac\.py .*\.bin.*
@@ -13218,6 +13245,7 @@
 .*elevate juicypotato .*
 .*elevate Printspoofer.*
 .*elevate svc-exe .*
+.*Elevate.*\\elev_win\.exe.*
 .*ElevatePrivs.*
 .*elevationstation\.cpp.*
 .*elevationstation\.exe.*
@@ -13903,6 +13931,9 @@
 .*firewall add allowedprogram .*winvnc\.exe.* ENABLE ALL.*
 .*firewall add portopening TCP 5800 vnc5800.*
 .*firewall add portopening TCP 5900 vnc5900.*
+.*firewall add rule .*name=SH Remote Access Service Launcher.*.*
+.*firewall add rule .*name=SH Remote Access Service Updater.*.*
+.*firewall add rule .*name=SH Remote Access Service.*.*
 .*Firewall_Walker_BOF.*
 .*fishing_with_hollowing.*
 .*fjoaledfpmneenckfbpdfhkmimnjocfa.*
@@ -17593,6 +17624,7 @@
 .*malwaredllc.*
 .*man_in_the_browser\.json.*
 .*man_spider\.manspider:main.*
+.*Manage Remote Access Service\.exe.*
 .*manage/reflective_dll_inject.*
 .*ManagedEasyHook\.dll.*
 .*manageengine_adselfservice_plus_cve_2022_28810\..*
@@ -19856,8 +19888,10 @@
 .*Program Files \(x86\)\\Splashtop.*
 .*Program Files \(x86\)\\uvnc bvba\\.*
 .*program files.*\\netsupport\\.*
+.*Program Files\\SimpleHelp.*
 .*Program Files\\VSA X\\.*
 .*program/replay\.pl.*
+.*ProgramData\\JWrapper-Remote Access\\.*\.exe.*
 .*ProgramData\\Kaseya\\.*
 .*ProgramData\\RemotePC Performance.*
 .*ProgramData\\RemotePC.*
@@ -20696,7 +20730,42 @@
 .*RemAdm.*
 .*remiflavien1/nse-install.*
 .*remiflavien1/recon-archy.*
+.*Remote AccessECompatibility\.exe.*
+.*Remote Access-linux32arm-offline\.tar.*
+.*Remote Access-linux32arm-online\.tar.*
+.*Remote Access-linux32-offline\.tar.*
+.*Remote Access-linux32-online\.tar.*
+.*Remote Access-linux64arm-offline\.tar.*
+.*Remote Access-linux64arm-online\.tar.*
+.*Remote Access-linux64-offline\.tar.*
+.*Remote Access-linux64-online\.tar.*
+.*Remote Access-macos-intel-offline\.dmg.*
+.*Remote Access-macos-intel-online\.dmg.*
+.*Remote Access-macos-offline\.dmg.*
+.*Remote Access-macos-online\.dmg.*
+.*Remote Access-windows32-offline\.exe.*
+.*Remote Access-windows32-online\.exe.*
+.*Remote Access-windows64-offline\.exe.*
+.*Remote Access-windows64-online\.exe.*
 .*-remote -destPipe .* -pipeHost .* -destHost .*
+.*Remote Support-java-online\.jar.*
+.*Remote Support-linux32arm-offline\.tar.*
+.*Remote Support-linux32arm-online\.tar.*
+.*Remote Support-linux32-offline\.tar.*
+.*Remote Support-linux32-online\.tar.*
+.*Remote Support-linux64arm-offline\.tar.*
+.*Remote Support-linux64arm-online\.tar.*
+.*Remote Support-linux64-offline\.tar.*
+.*Remote Support-linux64-online\.tar.*
+.*Remote Support-macos-intel-offline\.dmg.*
+.*Remote Support-macos-intel-online\.dmg.*
+.*Remote Support-macos-offline\.dmg.*
+.*Remote Support-macos-online\.dmg.*
+.*Remote Support-windows32-offline\.exe.*
+.*Remote Support-windows32-online\.exe.*
+.*Remote Support-windows64-offline\.exe.*
+.*Remote Support-windows64-online\.exe.*
+.*Remote Work-windows64-online\.exe.*
 .*Remote/lastpass/lastpass\.x86\..*
 .*Remote/setuserpass/.*
 .*Remote/shspawnas.*
@@ -22170,6 +22239,31 @@
 .*Simone Margaritelli <evilsocket@gmail\.com>.*
 .*SimoneLazzaris/ditty.*
 .*simple_dropper\.ninja.*
+.*simplehelp remote work\.exe.*
+.*SimpleHelp Remote WorkWinLauncher\.exe.*
+.*simplehelp technician\.exe.*
+.*SimpleHelp Technician-java-online\.jar.*
+.*SimpleHelp Technician-linux32arm-offline\.tar.*
+.*SimpleHelp Technician-linux32arm-online\.tar.*
+.*SimpleHelp Technician-linux32-offline\.tar.*
+.*SimpleHelp Technician-linux32-online\.tar.*
+.*SimpleHelp Technician-linux64arm-offline\.tar.*
+.*SimpleHelp Technician-linux64arm-online\.tar.*
+.*SimpleHelp Technician-linux64-offline\.tar.*
+.*SimpleHelp Technician-linux64-online\.tar.*
+.*SimpleHelp Technician-macos-intel-offline\.dmg.*
+.*SimpleHelp Technician-macos-intel-online\.dmg.*
+.*SimpleHelp Technician-macos-offline\.dmg.*
+.*SimpleHelp Technician-macos-online\.dmg.*
+.*SimpleHelp Technician-windows32-offline\.exe.*
+.*SimpleHelp Technician-windows32-online\.exe.*
+.*SimpleHelp Technician-windows64-offline\.exe.*
+.*SimpleHelp Technician-windows64-online\.exe.*
+.*simplehelp technicianwinlauncher\.exe.*
+.*SimpleHelp\.exe.*
+.*simplehelp\.technician\.127_0_0_1.*
+.*SimpleHelp-allplatforms\.zip.*
+.*SimpleHelp-install-64\.exe.*
 .*SimpleHTTPServer\.SimpleHTTPRequestHandler.*
 .*simplekeylogger\..*
 .*SimpleNtSyscallFuzzer\.v11\.suo.*
