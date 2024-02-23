@@ -190,6 +190,7 @@
 .{0,1000}\.bin\s\-enc\sxor\s\-lang\snim\s\-k\s4.{0,1000}
 .{0,1000}\.blog\.123456\..{0,1000}
 .{0,1000}\.BruteRatel.{0,1000}
+.{0,1000}\.chrome\-remote\-desktop\-session.{0,1000}
 .{0,1000}\.cobaltstrike.{0,1000}
 .{0,1000}\.cobaltstrike\.beacon_keys.{0,1000}
 .{0,1000}\.com\/dcsync\/.{0,1000}
@@ -900,7 +901,7 @@
 .{0,1000}\/beefproject\/.{0,1000}
 .{0,1000}\/Ben0xA\/.{0,1000}
 .{0,1000}\/BeRoot\.git.{0,1000}
-.{0,1000}\/beroot\.py.{0,1000}
+.{0,1000}\/beRoot\.py.{0,1000}
 .{0,1000}\/BesoToken\.cpp.{0,1000}
 .{0,1000}\/BesoToken\.exe.{0,1000}
 .{0,1000}\/BesoToken\.git.{0,1000}
@@ -2515,7 +2516,7 @@
 .{0,1000}\/KaynStrike\.cna.{0,1000}
 .{0,1000}\/KaynStrike\.git.{0,1000}
 .{0,1000}\/KCMTicketFormatter.{0,1000}
-.{0,1000}\/kdstab\..{0,1000}
+.{0,1000}\/KDStab\..{0,1000}
 .{0,1000}\/KDStab\/.{0,1000}
 .{0,1000}\/keepass_discover\.py.{0,1000}
 .{0,1000}\/keepass_discover_.{0,1000}\.txt.{0,1000}
@@ -2604,7 +2605,7 @@
 .{0,1000}\/Lateral\/SMB\.cs.{0,1000}
 .{0,1000}\/lateral_movement\/.{0,1000}
 .{0,1000}\/lateral_movement\/.{0,1000}\.ps1
-.{0,1000}\/laZagne\.py.{0,1000}
+.{0,1000}\/LaZagne\.py.{0,1000}
 .{0,1000}\/lazagne\.zip.{0,1000}
 .{0,1000}\/LaZagne\/Windows\/.{0,1000}
 .{0,1000}\/ld\.so\s\/bin\/sh\s\-p.{0,1000}
@@ -4237,6 +4238,7 @@
 .{0,1000}\/SyscallsInject\/.{0,1000}
 .{0,1000}\/sysconfig\/iodine\-server.{0,1000}
 .{0,1000}\/SysmonQuiet.{0,1000}
+.{0,1000}\/system\/chrome\-remote\-desktop\@.{0,1000}
 .{0,1000}\/system\:SystemBkup\.hiv\s\/sam\:SamBkup\.hiv.{0,1000}
 .{0,1000}\/systemd\/system\/pulseway\.service.{0,1000}
 .{0,1000}\/SysWhispers2.{0,1000}
@@ -5208,6 +5210,7 @@
 .{0,1000}\\chisel_x32.{0,1000}
 .{0,1000}\\chisel_x64.{0,1000}
 .{0,1000}\-\-chown\=nonroot\s\/go\/src\/github\.com\/cloudflare\/cloudflared\/cloudflared\s\/usr\/local\/bin\/.{0,1000}
+.{0,1000}\\Chrome\sRemote\sDesktop\\host\.json.{0,1000}
 .{0,1000}\\Chrome_pass\.db.{0,1000}
 .{0,1000}\\chromium_based_browsers\.py.{0,1000}
 .{0,1000}\\CIMplant\.exe.{0,1000}
@@ -5568,6 +5571,7 @@
 .{0,1000}\\goLoader\.exe.{0,1000}
 .{0,1000}\\GoodSync\-2.{0,1000}\-.{0,1000}\.log.{0,1000}
 .{0,1000}\\GoodSync\-vsub\-Setup\.exe.{0,1000}
+.{0,1000}\\Google\\Chrome\sRemote\sDesktop\\.{0,1000}
 .{0,1000}\\gosetup\[1\]\.exe.{0,1000}
 .{0,1000}\\GoStompy\.go.{0,1000}
 .{0,1000}\\GoTo\\Logs\\goto\.log.{0,1000}
@@ -5600,7 +5604,7 @@
 .{0,1000}\\gs\-sftp.{0,1000}
 .{0,1000}\\GzipB64\.exe.{0,1000}
 .{0,1000}\\HackBrowserData.{0,1000}
-.{0,1000}\\hades\.exe.{0,1000}
+.{0,1000}\\Hades\.exe.{0,1000}
 .{0,1000}\\hades\-main\.zip.{0,1000}
 .{0,1000}\\HandleHijacker\.cpp.{0,1000}
 .{0,1000}\\HandleHijacker\.hpp.{0,1000}
@@ -5673,7 +5677,7 @@
 .{0,1000}\\install_elevated\.py.{0,1000}
 .{0,1000}\\interesting\-teamsmessages\.csv.{0,1000}
 .{0,1000}\-\-interface\s.{0,1000}\s\-\-wpad\s\-\-lm\s\-\-disable\-ess.{0,1000}
-.{0,1000}\\Inveigh\.exe.{0,1000}
+.{0,1000}\\inveigh\.exe.{0,1000}
 .{0,1000}\\Inveigh\\bin\\.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\aeroadmin.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\revsocks_windows.{0,1000}
@@ -6082,6 +6086,7 @@
 .{0,1000}\\PingSweep\.ps1.{0,1000}
 .{0,1000}\\PInject\.ps1.{0,1000}
 .{0,1000}\\pipe\\brutepipe.{0,1000}
+.{0,1000}\\pipe\\chrome_remote_desktop.{0,1000}
 .{0,1000}\\PIPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.{0,1000}
 .{0,1000}\\PipeViewer\.exe.{0,1000}
 .{0,1000}\\PipeViewer\.sln.{0,1000}
@@ -6273,6 +6278,7 @@
 .{0,1000}\\Remote\sAccessEmbedExample\.html.{0,1000}
 .{0,1000}\\remote\ssupport\.exe.{0,1000}
 .{0,1000}\\Remote\sSupportEmbedExample\.html.{0,1000}
+.{0,1000}\\remote_assistance_host\.exe.{0,1000}
 .{0,1000}\\remoteaccess\-jar\-with\-dependencies\.jar.{0,1000}
 .{0,1000}\\RemoteCamera\.dll.{0,1000}
 .{0,1000}\\RemoteDesktop\.exe.{0,1000}
@@ -6292,6 +6298,10 @@
 .{0,1000}\\RemotePCUDE\.sys.{0,1000}
 .{0,1000}\\remotepcuiu\.exe.{0,1000}
 .{0,1000}\\RemoteSupport\\127\.0\.0\.1\.tvc.{0,1000}
+.{0,1000}\\remoting_desktop\.exe.{0,1000}
+.{0,1000}\\remoting_host\.exe.{0,1000}
+.{0,1000}\\remoting_native_messaging_host\.exe.{0,1000}
+.{0,1000}\\remoting_start_host\.exe.{0,1000}
 .{0,1000}\\RemoveItemCommand\.cs
 .{0,1000}\\rentdrv\.log.{0,1000}
 .{0,1000}\\RescueWinRTLib\.dll.{0,1000}
@@ -8091,6 +8101,7 @@
 .{0,1000}\schimera\.py\s.{0,1000}
 .{0,1000}\schimera\.sh.{0,1000}
 .{0,1000}\schimera_automation\s.{0,1000}\.exe.{0,1000}
+.{0,1000}\schrome\-remote\-desktop\@.{0,1000}
 .{0,1000}\schrome\slogindata\s.{0,1000}
 .{0,1000}\schrome\smasterkey\s.{0,1000}
 .{0,1000}\schromium_based_browsers\.py.{0,1000}
@@ -9154,6 +9165,7 @@
 .{0,1000}\sservicetags\.nse.{0,1000}
 .{0,1000}\sSet\-MpPreference\s\-DisableIOAVProtection\s.{0,1000}
 .{0,1000}\sset\-objectowner\s.{0,1000}\s\-target\-sid\s.{0,1000}\s\-owner\-sid\s.{0,1000}
+.{0,1000}\sset\sxmrig\sType\sSERVICE_WIN32_OWN_PROCESS.{0,1000}
 .{0,1000}\sSetMzLogonPwd\s.{0,1000}
 .{0,1000}\ssetoolkit.{0,1000}
 .{0,1000}\sshadow\sauto\s\-u\s.{0,1000}\s\-p\s.{0,1000}\s\-account\s.{0,1000}
@@ -10153,7 +10165,7 @@
 .{0,1000}ADRecon\.ps1.{0,1000}
 .{0,1000}ADRecon\s\-OutputDir\s.{0,1000}
 .{0,1000}adsearch.{0,1000}\s\-\-domain\-admins.{0,1000}
-.{0,1000}ADSearch\.exe.{0,1000}
+.{0,1000}adsearch\.exe.{0,1000}
 .{0,1000}ADSearch\.sln.{0,1000}
 .{0,1000}ADSearch\\ADSearch\.cs.{0,1000}
 .{0,1000}adsearch\-master\.zip
@@ -10228,7 +10240,7 @@
 .{0,1000}aggressor\.println.{0,1000}
 .{0,1000}aggressor\.py.{0,1000}
 .{0,1000}Aggressor\/TikiTorch.{0,1000}
-.{0,1000}Aggressor\-Scripts.{0,1000}
+.{0,1000}aggressor\-scripts.{0,1000}
 .{0,1000}AggressorScripts.{0,1000}
 .{0,1000}AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA.{0,1000}
 .{0,1000}ahmedkhlief\/Ninja.{0,1000}
@@ -10715,7 +10727,7 @@
 .{0,1000}BadgerWcscmp.{0,1000}
 .{0,1000}BadgerWcslen.{0,1000}
 .{0,1000}BadPotato\.cs.{0,1000}
-.{0,1000}badpotato\.exe.{0,1000}
+.{0,1000}BadPotato\.exe.{0,1000}
 .{0,1000}badrat\.smb\.hta.{0,1000}
 .{0,1000}badrat\.smb\.js.{0,1000}
 .{0,1000}badrat_cs\.csproj.{0,1000}
@@ -11691,6 +11703,9 @@
 .{0,1000}chrispetrou\/HRShell.{0,1000}
 .{0,1000}chrome.{0,1000}\s\-\-headless\s.{0,1000}\s\-\-dump\-dom\shttp.{0,1000}
 .{0,1000}chrome\.exe.{0,1000}\s\-\-load\-extension\=\".{0,1000}\\Users\\.{0,1000}\\Appdata\\Local\\Temp\\.{0,1000}
+.{0,1000}chrome\-remote\-desktop\.service.{0,1000}
+.{0,1000}chrome\-remote\-desktop_current_amd64\.deb.{0,1000}
+.{0,1000}Chrome\sremote\sdesktop\sinstallation\scompleted.{0,1000}
 .{0,1000}chrome_creds\.txt.{0,1000}
 .{0,1000}chromecertbeggar\.js.{0,1000}
 .{0,1000}chromecertbeggar2\.js.{0,1000}
@@ -11701,6 +11716,7 @@
 .{0,1000}chromeKey\.x86.{0,1000}
 .{0,1000}chromepass\.exe.{0,1000}
 .{0,1000}chromepass\.zip.{0,1000}
+.{0,1000}chromeremotedesktophost\.msi.{0,1000}
 .{0,1000}chromiumkeydump.{0,1000}
 .{0,1000}ChromiumKeyDump\.cna.{0,1000}
 .{0,1000}ChromiumKeyDump\.cpp.{0,1000}
@@ -13060,7 +13076,9 @@
 .{0,1000}DominicBreuker\/pspy.{0,1000}
 .{0,1000}DON\'T\sRUN\sTHIS\sIN\sYOUR\sWEB\sROOT\sAS\sIT\sWILL\sOUTPUT\sACCESS\sTOKENS.{0,1000}
 .{0,1000}donapapi\s\-pvk\s.{0,1000}
+.{0,1000}donate\.ssl\.xmrig\.com.{0,1000}
 .{0,1000}donate\.v2\.xmrig\.com\:3333.{0,1000}
+.{0,1000}donate\.xmrig\.com.{0,1000}
 .{0,1000}Done\!\sCheck\sfor\sexisting\slsass\.dmp\sfile\sinto\scurrent\sfolder.{0,1000}
 .{0,1000}DoNotUseThisPassword123\!.{0,1000}
 .{0,1000}DonPAPI\.py\s.{0,1000}
@@ -13762,6 +13780,7 @@
 .{0,1000}ExploitTest\.cpp.{0,1000}
 .{0,1000}ExploitTest\.vcxproj.{0,1000}
 .{0,1000}Export\-PowerViewCSV.{0,1000}
+.{0,1000}export\sCHROME_REMOTE_DESKTOP_DEFAULT_DESKTOP_SIZES.{0,1000}
 .{0,1000}export\sHISTFILE\=\/dev\/null.{0,1000}
 .{0,1000}export\sHISTFILESIZE\=0.{0,1000}
 .{0,1000}export\sHISTSIZE\=0.{0,1000}
@@ -13879,6 +13898,7 @@
 .{0,1000}FE4414D9\-1D7E\-4EEB\-B781\-D278FE7A5619.{0,1000}
 .{0,1000}FE8F0D23\-BDD1\-416D\-8285\-F947BA86D155.{0,1000}
 .{0,1000}fea01b74\-7a60\-4142\-a54d\-7aa8f6471c00.{0,1000}
+.{0,1000}fee\.xmrig\.com.{0,1000}
 .{0,1000}fee\s.{0,1000}\/.{0,1000}\s\-l\spl\s\|\sperl.{0,1000}
 .{0,1000}fee\s.{0,1000}\/.{0,1000}\s\-l\spl\s\|\sruby.{0,1000}
 .{0,1000}fee\s\-a\s.{0,1000}killall\ssshd.{0,1000}\s.{0,1000}busybox.{0,1000}
@@ -14419,9 +14439,9 @@
 .{0,1000}Get\-KeePassINIFields.{0,1000}
 .{0,1000}Get\-KeePassXMLFields.{0,1000}
 .{0,1000}Get\-KeystrokeData.{0,1000}
-.{0,1000}get\-keystrokes.{0,1000}
+.{0,1000}Get\-Keystrokes.{0,1000}
 .{0,1000}Get\-Keystrokes\s.{0,1000}
-.{0,1000}get\-killdate.{0,1000}
+.{0,1000}Get\-Killdate.{0,1000}
 .{0,1000}Get\-KIWI_KERBEROS_LOGON_SESSION.{0,1000}
 .{0,1000}Get\-LastLoggedOn.{0,1000}
 .{0,1000}Get\-LastLoggedon\s\-.{0,1000}
@@ -14534,8 +14554,8 @@
 .{0,1000}Get\-WmiObject\s\?ComputerName\s.{0,1000}\s\?Class\sWin32_ComputerSystem\s\|\s.{0,1000}\sUserName.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\swin32_loggedonuser\s\-ComputerName\s.{0,1000}
-.{0,1000}get\-wmiregcachedrdpconnection.{0,1000}
-.{0,1000}get\-wmireglastloggedon.{0,1000}
+.{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
+.{0,1000}Get\-WMIRegLastLoggedOn.{0,1000}
 .{0,1000}Get\-WMIRegMountedDrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
@@ -14824,6 +14844,7 @@
 .{0,1000}google\-chrome\\credit_cards\.txt.{0,1000}
 .{0,1000}google\-chrome\\history\.txt.{0,1000}
 .{0,1000}google\-chrome\\login_data\.txt.{0,1000}
+.{0,1000}google\-chrome\-stable_current_amd64\.deb.{0,1000}
 .{0,1000}google\-get\-pdf\-metadata\s.{0,1000}
 .{0,1000}google\-get\-rootdomains\s.{0,1000}
 .{0,1000}goPassGen\-master.{0,1000}
@@ -15459,6 +15480,8 @@
 .{0,1000}https\:\/\/ntlm\.pw\/.{0,1000}
 .{0,1000}https\:\/\/pastebin\.com\/raw\/fevFJe98.{0,1000}
 .{0,1000}https\:\/\/proxy\.duckduckgo\.com\/iu\/\?u\=https\:\/\/pdxkmdcepvahysnnxe\.pythonanywhere\.com\/image\.jpg\?cmd\=.{0,1000}
+.{0,1000}https\:\/\/remotedesktop\.google\.com\/_\/oauthredirect.{0,1000}
+.{0,1000}https\:\/\/remotedesktop\.google\.com\/headless.{0,1000}
 .{0,1000}https\:\/\/requestbin\.net\/r\/.{0,1000}
 .{0,1000}https\:\/\/s3\.amazonaws\.com\/sshx\/sshx\-.{0,1000}
 .{0,1000}https\:\/\/secure\.logmeinrescue\.com\/R\?i\=2\&Code\=.{0,1000}
@@ -15820,6 +15843,7 @@
 .{0,1000}InlineShellcode.{0,1000}
 .{0,1000}InlineWhispers\.py.{0,1000}
 .{0,1000}InlineWhispers2.{0,1000}
+.{0,1000}inomeogfingihgjfjlpeplalcfajhgai.{0,1000}
 .{0,1000}input\/shellcode_enc_raw\.txt.{0,1000}
 .{0,1000}input\/shellcode_raw\.txt.{0,1000}
 .{0,1000}Input\sline\stoo\slong\..{0,1000}
@@ -16425,7 +16449,7 @@
 .{0,1000}Invoke\-SMBRemoting.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\.ps1.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\-main.{0,1000}
-.{0,1000}Invoke\-SmbScanner.{0,1000}
+.{0,1000}Invoke\-SMBScanner.{0,1000}
 .{0,1000}Invoke\-Snaffler.{0,1000}
 .{0,1000}invoke\-sniffer\s.{0,1000}
 .{0,1000}invoke\sobfuscation.{0,1000}
@@ -16515,7 +16539,7 @@
 .{0,1000}Invoke\-WmiCommand\s.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}invoke\-wmiexec\s.{0,1000}
+.{0,1000}Invoke\-WMIExec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMImplant.{0,1000}
 .{0,1000}Invoke\-WMIObfuscatedPSCommand.{0,1000}
@@ -16524,7 +16548,7 @@
 .{0,1000}Invoke\-WmiShadowCopy.{0,1000}
 .{0,1000}Invoke\-WScriptBypassUAC.{0,1000}
 .{0,1000}Invoke\-WscriptElevate.{0,1000}
-.{0,1000}Invoke\-Zerologon.{0,1000}
+.{0,1000}Invoke\-ZeroLogon.{0,1000}
 .{0,1000}invoke_obfuscation\.py.{0,1000}
 .{0,1000}invoke_sessiongopher\.py.{0,1000}
 .{0,1000}InvokeAssembly\.x64\.dll.{0,1000}
@@ -16832,7 +16856,7 @@
 .{0,1000}keodbianoliadkoelloecbhllnpiocoi.{0,1000}
 .{0,1000}KerbDump\\.{0,1000}\-Tickets\-KerbDump\.txt.{0,1000}
 .{0,1000}Kerberoast\..{0,1000}
-.{0,1000}Kerberoast\.py.{0,1000}
+.{0,1000}kerberoast\.py.{0,1000}
 .{0,1000}kerberoast\s\/.{0,1000}
 .{0,1000}kerberoast_attack.{0,1000}
 .{0,1000}kerberoast_blind_output_.{0,1000}
@@ -17251,7 +17275,7 @@
 .{0,1000}ldap_shell\.py.{0,1000}
 .{0,1000}ldapasn1\.py.{0,1000}
 .{0,1000}ldapattack\.py.{0,1000}
-.{0,1000}LDAPDomainDump.{0,1000}
+.{0,1000}ldapdomaindump.{0,1000}
 .{0,1000}ldapdomaindump\.zip.{0,1000}
 .{0,1000}ldapfilter\:.{0,1000}admincount\=1.{0,1000}\s\/format\:hashcat.{0,1000}
 .{0,1000}LdapMiner.{0,1000}
@@ -17938,7 +17962,7 @@
 .{0,1000}MimiTickets\\.{0,1000}\-Tickets\.txt.{0,1000}
 .{0,1000}minidump.{0,1000}minikerberos.{0,1000}
 .{0,1000}minidump\..{0,1000}\slsass\.dmp.{0,1000}
-.{0,1000}Minidump\.exe.{0,1000}
+.{0,1000}minidump\.exe.{0,1000}
 .{0,1000}Minidump\.sln.{0,1000}
 .{0,1000}minidump_add_memory_block.{0,1000}
 .{0,1000}minidump_add_memory64_block.{0,1000}
@@ -18709,7 +18733,7 @@
 .{0,1000}NoPowerShell\.Commands\.Management.{0,1000}
 .{0,1000}NoPowerShell\.csproj.{0,1000}
 .{0,1000}NoPowerShell\.dll.{0,1000}
-.{0,1000}nopowershell\.exe.{0,1000}
+.{0,1000}NoPowerShell\.exe.{0,1000}
 .{0,1000}NoPowerShell\.sln.{0,1000}
 .{0,1000}NoPowerShell\/.{0,1000}\.cs.{0,1000}
 .{0,1000}NoPowerShell_trunk\.zip.{0,1000}
@@ -18748,6 +18772,7 @@
 .{0,1000}nse_install\.py.{0,1000}
 .{0,1000}nselib\/data\/passwords\.lst.{0,1000}
 .{0,1000}NSM_Control_Machine\.adm.{0,1000}
+.{0,1000}nssm\sset\sxmrig\sAppNoConsole\s1.{0,1000}
 .{0,1000}ntcreatethread\.x64.{0,1000}
 .{0,1000}ntcreatethread\.x86.{0,1000}
 .{0,1000}NtCreateUserProcessShellcode.{0,1000}
@@ -18859,7 +18884,7 @@
 .{0,1000}nyxgeek\/ntlmscan.{0,1000}
 .{0,1000}nyxgeek\/teamstracker.{0,1000}
 .{0,1000}o_getprivs.{0,1000}
-.{0,1000}o365\-attack\-toolkit.{0,1000}
+.{0,1000}o365\-Attack\-Toolkit.{0,1000}
 .{0,1000}o365creeper\.git.{0,1000}
 .{0,1000}o365creeper\.py.{0,1000}
 .{0,1000}o365creeper\-master.{0,1000}
@@ -19736,7 +19761,7 @@
 .{0,1000}powerstager.{0,1000}
 .{0,1000}PowerUp\.ps1.{0,1000}
 .{0,1000}PowerUpSQL.{0,1000}
-.{0,1000}PowerView\.ps1.{0,1000}
+.{0,1000}powerview\.ps1.{0,1000}
 .{0,1000}PowerView_dev\.ps1.{0,1000}
 .{0,1000}PowerView3\-Aggressor.{0,1000}
 .{0,1000}ppajinakbfocjfnijggfndbdmjggcmde.{0,1000}
@@ -19796,7 +19821,7 @@
 .{0,1000}PrintSpoofer\..{0,1000}
 .{0,1000}PrintSpoofer\-.{0,1000}
 .{0,1000}PrintSpoofer\.cpp.{0,1000}
-.{0,1000}PrintSpoofer\.exe.{0,1000}
+.{0,1000}printspoofer\.exe.{0,1000}
 .{0,1000}printspoofer\.py.{0,1000}
 .{0,1000}PrintSpoofer\.sln.{0,1000}
 .{0,1000}PrintSpoofer\-master.{0,1000}
@@ -20379,6 +20404,7 @@
 .{0,1000}randomalice1986\@.{0,1000}
 .{0,1000}randombob1986\@.{0,1000}
 .{0,1000}randomize_sw2_seed\.py.{0,1000}
+.{0,1000}randomx\.xmrig\.com.{0,1000}
 .{0,1000}Ransom\.Win32\..{0,1000}
 .{0,1000}Ransom\:Linux\/BlackBasta.{0,1000}
 .{0,1000}Ransom\:Win32.{0,1000}
@@ -20819,13 +20845,15 @@
 .{0,1000}Remote\sSupport\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows64\-offline\.exe.{0,1000}
 .{0,1000}remote\ssupport\-windows64\-online\.exe.{0,1000}
-.{0,1000}Remote\sWork\-windows64\-online\.exe.{0,1000}
+.{0,1000}remote\swork\-windows64\-online\.exe.{0,1000}
 .{0,1000}remote_exploit\.erb.{0,1000}
 .{0,1000}remote_exploit_cmd_stager\..{0,1000}
 .{0,1000}remote_exploit_demo_template\.erb.{0,1000}
 .{0,1000}remote_shell\.py.{0,1000}
 .{0,1000}RemoteDesktop\.exe.{0,1000}pwy\-rd\:\?token\=.{0,1000}
 .{0,1000}RemoteDesktop\.exe\s.{0,1000}
+.{0,1000}remotedesktop\.google\.com\/access.{0,1000}
+.{0,1000}remotedesktop\.google\.com\/support.{0,1000}
 .{0,1000}RemoteDesktop_x64\.msi.{0,1000}
 .{0,1000}RemoteDesktop_x64\s\(1\)\.msi.{0,1000}
 .{0,1000}RemoteHashRetrieval\.ps1.{0,1000}
@@ -21694,13 +21722,14 @@
 .{0,1000}Set\sListener\sdbx.{0,1000}
 .{0,1000}set\sListener\sonedrive.{0,1000}
 .{0,1000}set\sobfuscate\s.{0,1000}
-.{0,1000}set\spayload\s.{0,1000}
+.{0,1000}set\sPAYLOAD\s.{0,1000}
 .{0,1000}set\spipename\s.{0,1000}
 .{0,1000}set\sProfile\sapt1\.profile.{0,1000}
 .{0,1000}set\sshellcode\s.{0,1000}
 .{0,1000}set\ssmartinject.{0,1000}
 .{0,1000}Set\sthe\scorrect\schannel\sname\susing\s\"pscmdchannel\"\scommand.{0,1000}
 .{0,1000}set\suserwx.{0,1000}
+.{0,1000}set\sxmrig\sstart.{0,1000}
 .{0,1000}set\szombie\s.{0,1000}
 .{0,1000}Set\-WMIBackdoor\s\-URL\s.{0,1000}
 .{0,1000}Set\-WorkingHours.{0,1000}
@@ -22178,7 +22207,7 @@
 .{0,1000}shellter\.exe.{0,1000}
 .{0,1000}shepardsbind_recv\.py.{0,1000}
 .{0,1000}shepbind_serv\.exe.{0,1000}
-.{0,1000}Sherlock\.ps1.{0,1000}
+.{0,1000}sherlock\.ps1.{0,1000}
 .{0,1000}Sherlock_Vulns\.txt.{0,1000}
 .{0,1000}Shhhavoc\.py\s.{0,1000}
 .{0,1000}Shhhloader\.py.{0,1000}
@@ -22272,7 +22301,7 @@
 .{0,1000}SimpleHelp\s\-\ssimple\-help\.com.{0,1000}
 .{0,1000}simplehelp\sremote\swork\.exe.{0,1000}
 .{0,1000}simplehelp\sremote\sworkwinlauncher\.exe.{0,1000}
-.{0,1000}SimpleHelp\sTechnician\.exe.{0,1000}
+.{0,1000}simplehelp\stechnician\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-java\-online\.jar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-offline\.tar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-online\.tar.{0,1000}
@@ -22289,7 +22318,7 @@
 .{0,1000}SimpleHelp\sTechnician\-windows32\-offline\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows32\-online\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows64\-offline\.exe.{0,1000}
-.{0,1000}SimpleHelp\sTechnician\-windows64\-online\.exe.{0,1000}
+.{0,1000}simplehelp\stechnician\-windows64\-online\.exe.{0,1000}
 .{0,1000}simplehelp\stechnicianwinlauncher\.exe.{0,1000}
 .{0,1000}simplehelpcustomer\.exe.{0,1000}
 .{0,1000}SimpleHTTPServer\.SimpleHTTPRequestHandler.{0,1000}
@@ -22450,7 +22479,7 @@
 .{0,1000}SnaffCore\/ShareFind.{0,1000}
 .{0,1000}SnaffCore\/TreeWalk.{0,1000}
 .{0,1000}Snaffler\.csproj.{0,1000}
-.{0,1000}Snaffler\.exe.{0,1000}
+.{0,1000}snaffler\.exe.{0,1000}
 .{0,1000}snaffler\.log.{0,1000}
 .{0,1000}Snaffler\.sln.{0,1000}
 .{0,1000}SnafflerMessage\.cs.{0,1000}
@@ -23008,6 +23037,7 @@
 .{0,1000}syscallStuff\.asm.{0,1000}
 .{0,1000}sysctl\s\-w\snet\.ipv4\.icmp_echo_ignore_all\=1.{0,1000}
 .{0,1000}sysdream\/ligolo.{0,1000}
+.{0,1000}SYSLOG_IDENTIFIER\=chrome\-remote\-desktop.{0,1000}
 .{0,1000}Sysmon\sis\sbeing\ssuffocated.{0,1000}
 .{0,1000}Sysmon\sis\squiet\snow\!.{0,1000}
 .{0,1000}sysmonquiet\..{0,1000}
@@ -24146,7 +24176,7 @@
 .{0,1000}WinhttpShellcode\.vcxproj.{0,1000}
 .{0,1000}Winpayloads.{0,1000}
 .{0,1000}winPEAS\.bat.{0,1000}
-.{0,1000}winPEAS\.exe.{0,1000}
+.{0,1000}WinPEAS\.exe.{0,1000}
 .{0,1000}winPEAS\.ps1.{0,1000}
 .{0,1000}winPEAS\.txt.{0,1000}
 .{0,1000}winPEAS\-Obfuscated.{0,1000}
@@ -24427,9 +24457,16 @@
 .{0,1000}xmrig\-.{0,1000}\-macos\-x64\.tar\.gz.{0,1000}
 .{0,1000}xmrig\-.{0,1000}\-msvc\-win64\.zip.{0,1000}
 .{0,1000}xmrig\.exe\s\-.{0,1000}
+.{0,1000}xmrig\.service.{0,1000}
 .{0,1000}xmrig\.tar\.gz.{0,1000}
 .{0,1000}xmrig\.zip.{0,1000}
+.{0,1000}xmrminer\.cc.{0,1000}
+.{0,1000}xmrpool\.de.{0,1000}
+.{0,1000}xmrpool\.eu.{0,1000}
 .{0,1000}xmrpool\.eu\:3333.{0,1000}
+.{0,1000}xmrpool\.me.{0,1000}
+.{0,1000}xmrpool\.net.{0,1000}
+.{0,1000}xmrpool\.xyz.{0,1000}
 .{0,1000}xor\.exe\s.{0,1000}\.txt.{0,1000}
 .{0,1000}xor\.py\s.{0,1000}\.dll.{0,1000}
 .{0,1000}xor\-bin\.py\s.{0,1000}\.exe.{0,1000}

@@ -330,6 +330,7 @@
 * chimera_automation *.exe*
 * chrome logindata *
 * chrome masterkey *
+* chrome-remote-desktop@*
 * chromium_based_browsers.py*
 * cics-enum.nse*
 * cics-info.nse*
@@ -1971,6 +1972,7 @@
 * -ServiceName * -PipeName *
 * servicetags.nse*
 * --session=allrules --wordlist*
+* set xmrig Type SERVICE_WIN32_OWN_PROCESS*
 * --set-as-owned smart -bp * kerberos * --kdc-ip *
 * Set-MpPreference -DisableIOAVProtection *
 * SetMzLogonPwd *
@@ -2638,6 +2640,7 @@
 *.bin -enc xor -lang nim -k 4*
 *.blog.123456.*
 *.BruteRatel*
+*.chrome-remote-desktop-session*
 *.cobaltstrike*
 *.cobaltstrike.beacon_keys*
 *.com/dcsync/*
@@ -6685,6 +6688,7 @@
 */SyscallsInject/*
 */sysconfig/iodine-server*
 */SysmonQuiet*
+*/system/chrome-remote-desktop@*
 */system:SystemBkup.hiv /sam:SamBkup.hiv*
 */systemd/system/pulseway.service*
 */SysWhispers2*
@@ -7641,6 +7645,7 @@
 *\chisel_x32*
 *\chisel_x64*
 *\chisel-master*
+*\Chrome Remote Desktop\host.json*
 *\Chrome_pass.db*
 *\chromium_based_browsers.py*
 *\CIMplant.exe*
@@ -7990,6 +7995,7 @@
 *\goLoader.exe*
 *\GoodSync-2*-*.log*
 *\GoodSync-vsub-Setup.exe*
+*\Google\Chrome Remote Desktop\*
 *\go-secdump*
 *\gosetup[1].exe*
 *\GoStompy.go*
@@ -8480,6 +8486,7 @@
 *\PingSweep.ps1*
 *\PInject.ps1*
 *\pipe\brutepipe*
+*\pipe\chrome_remote_desktop*
 *\PIPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
 *\PipeViewer.exe*
 *\PipeViewer.sln*
@@ -8671,6 +8678,7 @@
 *\Remote Access-java-online.jar*
 *\remote support.exe*
 *\Remote SupportEmbedExample.html*
+*\remote_assistance_host.exe*
 *\remoteaccess-jar-with-dependencies.jar*
 *\RemoteCamera.dll*
 *\RemoteDesktop.exe*
@@ -8690,6 +8698,10 @@
 *\RemotePCUDE.sys*
 *\remotepcuiu.exe*
 *\RemoteSupport\127.0.0.1.tvc*
+*\remoting_desktop.exe*
+*\remoting_host.exe*
+*\remoting_native_messaging_host.exe*
+*\remoting_start_host.exe*
 *\RemoveItemCommand.cs
 *\rentdrv.log*
 *\RescueWinRTLib.dll*
@@ -11514,6 +11526,7 @@
 *--chown=nonroot /go/src/github.com/cloudflare/cloudflared/cloudflared /usr/local/bin/*
 *chrismaddalena/SharpCloud*
 *chrispetrou/HRShell*
+*Chrome remote desktop installation completed*
 *chrome* --headless * --dump-dom http*
 *chrome.exe* --load-extension="*\Users\*\Appdata\Local\Temp\*
 *chrome_creds.txt*
@@ -11526,6 +11539,9 @@
 *chromeKey.x86*
 *chromepass.exe*
 *chromepass.zip*
+*chrome-remote-desktop.service*
+*chrome-remote-desktop_current_amd64.deb*
+*chromeremotedesktophost.msi*
 *chromiumkeydump *
 *chromiumkeydump*
 *ChromiumKeyDump.cna*
@@ -12913,7 +12929,9 @@
 *DominicBreuker*
 *DominicBreuker/pspy*
 *donapapi -pvk *
+*donate.ssl.xmrig.com*
 *donate.v2.xmrig.com:3333*
+*donate.xmrig.com*
 *Done! Check for existing lsass.dmp file into current folder*
 *DoNotUseThisPassword123!*
 *DonPAPI "$DOMAIN"/*
@@ -13628,6 +13646,7 @@
 *exploit-suggester*
 *ExploitTest.cpp*
 *ExploitTest.vcxproj*
+*export CHROME_REMOTE_DESKTOP_DEFAULT_DESKTOP_SIZES*
 *export HISTFILE=/dev/null*
 *export HISTFILESIZE=0*
 *export HISTSIZE=0*
@@ -13754,6 +13773,7 @@
 *fee -a *killall sshd* *busybox*
 *fee -c */* | ssh *@*
 *fee -c */* -w 64 | *
+*fee.xmrig.com*
 *feroxbuster -w *fzf-wordlists* -u *
 *Fertiliser.exe \\*
 *ff_osx_extension-dropper*
@@ -14703,6 +14723,7 @@
 *google-chrome\credit_cards.txt*
 *google-chrome\history.txt*
 *google-chrome\login_data.txt*
+*google-chrome-stable_current_amd64.deb*
 *google-get-pdf-metadata *
 *google-get-rootdomains *
 *goPassGen-master*
@@ -15357,6 +15378,8 @@
 *https://pastebin.com/raw/fevFJe98*
 *https://proxy.duckduckgo.com/iu/?u=https://pdxkmdcepvahysnnxe.pythonanywhere.com/image.jpg?cmd=*
 *https://qu.ax/*.*
+*https://remotedesktop.google.com/_/oauthredirect*
+*https://remotedesktop.google.com/headless*
 *https://requestbin.net/r/*
 *https://s3.amazonaws.com/sshx/sshx-*
 *https://secure.logmeinrescue.com/R?i=2&Code=*
@@ -15720,6 +15743,7 @@
 *InlineShellcode*
 *InlineWhispers.py*
 *InlineWhispers2*
+*inomeogfingihgjfjlpeplalcfajhgai*
 *Input line too long.*
 *input/shellcode_enc_raw.txt*
 *input/shellcode_raw.txt*
@@ -18681,6 +18705,7 @@
 *nse-install-master*
 *nselib/data/passwords.lst*
 *NSM_Control_Machine.adm*
+*nssm set xmrig AppNoConsole 1*
 *ntcreatethread.x64*
 *ntcreatethread.x86*
 *NtCreateUserProcessShellcode*
@@ -20329,6 +20354,7 @@
 *-RandomAttackPath -Token*
 *randombob1986@*
 *randomize_sw2_seed.py*
+*randomx.xmrig.com*
 *Ransom.Win32.*
 *Ransom:Linux/BlackBasta*
 *Ransom:Win32*
@@ -20777,6 +20803,8 @@
 *-remote=127.0.0.1:3000*
 *RemoteDesktop.exe *
 *RemoteDesktop.exe*pwy-rd:?token=*
+*remotedesktop.google.com/access*
+*remotedesktop.google.com/support*
 *RemoteDesktop_x64 (1).msi*
 *RemoteDesktop_x64.msi*
 *remote-exec *jump *
@@ -21650,6 +21678,7 @@
 *set smartinject*
 *Set the correct channel name using ""pscmdchannel"" command*
 *set userwx*
+*set xmrig start*
 *set zombie *
 *set_child werfault.exe*
 *set_command_exec exec_via_cmd*
@@ -22995,6 +23024,7 @@
 *syscallStuff.asm*
 *sysctl -w net.ipv4.icmp_echo_ignore_all=1*
 *sysdream/ligolo*
+*SYSLOG_IDENTIFIER=chrome-remote-desktop*
 *Sysmon is being suffocated*
 *Sysmon is quiet now!*
 *sysmonquiet.*
@@ -24433,9 +24463,16 @@
 *xmrig-*-macos-x64.tar.gz*
 *xmrig-*-msvc-win64.zip*
 *xmrig.exe -*
+*xmrig.service*
 *xmrig.tar.gz*
 *xmrig.zip*
+*xmrminer.cc*
+*xmrpool.de*
+*xmrpool.eu*
 *xmrpool.eu:3333*
+*xmrpool.me*
+*xmrpool.net*
+*xmrpool.xyz*
 *xor.exe *.txt*
 *xor.py *.dll*
 *XOR_b64_encrypted*covenant.txt*
