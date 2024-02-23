@@ -22239,6 +22239,7 @@
 .*Simone Margaritelli <evilsocket@gmail\.com>.*
 .*SimoneLazzaris/ditty.*
 .*simple_dropper\.ninja.*
+.*SimpleHelp - simple-help\.com.*
 .*simplehelp remote work\.exe.*
 .*SimpleHelp Remote WorkWinLauncher\.exe.*
 .*simplehelp technician\.exe.*
@@ -22263,6 +22264,7 @@
 .*SimpleHelp\.exe.*
 .*simplehelp\.technician\.127_0_0_1.*
 .*SimpleHelp-allplatforms\.zip.*
+.*simplehelpcustomer\.exe.*
 .*SimpleHelp-install-64\.exe.*
 .*SimpleHTTPServer\.SimpleHTTPRequestHandler.*
 .*simplekeylogger\..*
