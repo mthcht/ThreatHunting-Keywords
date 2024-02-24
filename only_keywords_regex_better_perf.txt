@@ -2034,7 +2034,7 @@
 .{0,1000}\/gocrack\-1\.0\.zip.{0,1000}
 .{0,1000}\/gocrack_server.{0,1000}
 .{0,1000}\/gocrack_worker.{0,1000}
-.{0,1000}\/godoh\.git.{0,1000}
+.{0,1000}\/goDoH\.git.{0,1000}
 .{0,1000}\/godoh\/.{0,1000}
 .{0,1000}\/goDoH\/releases.{0,1000}
 .{0,1000}\/godoh\-master\.zip.{0,1000}
@@ -3015,7 +3015,7 @@
 .{0,1000}\/nopac\.exe
 .{0,1000}\/nopac\.py.{0,1000}
 .{0,1000}\/nopowershell\.git.{0,1000}
-.{0,1000}\/nopowershell\/.{0,1000}
+.{0,1000}\/NoPowerShell\/.{0,1000}
 .{0,1000}\/noseyparker\.git.{0,1000}
 .{0,1000}\/NotQuite0DayFriday\/zip\/trunk.{0,1000}
 .{0,1000}\/NovaLdr\.exe
@@ -5604,7 +5604,7 @@
 .{0,1000}\\gs\-sftp.{0,1000}
 .{0,1000}\\GzipB64\.exe.{0,1000}
 .{0,1000}\\HackBrowserData.{0,1000}
-.{0,1000}\\Hades\.exe.{0,1000}
+.{0,1000}\\hades\.exe.{0,1000}
 .{0,1000}\\hades\-main\.zip.{0,1000}
 .{0,1000}\\HandleHijacker\.cpp.{0,1000}
 .{0,1000}\\HandleHijacker\.hpp.{0,1000}
@@ -6903,6 +6903,7 @@
 .{0,1000}\<Data\>ScreenConnect\sSoftware\<\/Data\>.{0,1000}
 .{0,1000}\<h1\>Hello\sfrom\sTailscale\<\/h1\>.{0,1000}
 .{0,1000}\<h2\>Why\spay\sus\?\<\/h2\>.{0,1000}
+.{0,1000}\<Provider\sName\=\"chromoting\".{0,1000}
 .{0,1000}\<Provider\sName\=\"PC\sMonitor\"\s\/\>.{0,1000}
 .{0,1000}\<Provider\sName\=\"Pulseway\"\s\/\>.{0,1000}
 .{0,1000}\<Provider\sName\=\'ScreenConnect\sSecurity\sManager\'\/\>.{0,1000}
@@ -11629,6 +11630,7 @@
 .{0,1000}change\-windows10\-mac\-address\.py.{0,1000}
 .{0,1000}change_sandbox_evasion_method\(.{0,1000}
 .{0,1000}changepasswd\.py.{0,1000}
+.{0,1000}Channel\sIP\sfor\sclient\:\s.{0,30}\@gmail\.com\/chromoting.{0,1000}
 .{0,1000}chaos.{0,1000}persistence_enable.{0,1000}
 .{0,1000}charles\-proxy.{0,1000}
 .{0,1000}charlesnathansmith\/whatlicense.{0,1000}
