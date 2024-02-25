@@ -182,6 +182,7 @@
 .{0,1000}\.athena_utils\s.{0,1000}
 .{0,1000}\.bashrc\spersistence\ssetup\ssuccessfully.{0,1000}
 .{0,1000}\.beta\.123456\..{0,1000}
+.{0,1000}\.beyondtrustcloud\.com\/session_complete.{0,1000}
 .{0,1000}\.bin\s\-enc\src4\s\-lang\sc\s\-k\s3\s\-o\s.{0,1000}\.bin.{0,1000}
 .{0,1000}\.bin\s\-enc\src4\s\-lang\scsharp\s\-k\s9.{0,1000}
 .{0,1000}\.bin\s\-enc\srot\s\-lang\scsharp\s\-k\s2\s\-d.{0,1000}
@@ -565,6 +566,8 @@
 .{0,1000}\.xp_dirtree\s.{0,1000}\\.{0,1000}
 .{0,1000}\.zip\.exe.{0,1000}
 .{0,1000}\.zip\.iso.{0,1000}
+.{0,1000}\.zohoassist\.com\.cn.{0,1000}
+.{0,1000}\.zohoassist\.jp.{0,1000}
 .{0,1000}\/.{0,1000}_priv_esc\..{0,1000}
 .{0,1000}\/.{0,1000}SandboxEscapes\/.{0,1000}
 .{0,1000}\/\#kali\-installer\-images.{0,1000}
@@ -998,6 +1001,10 @@
 .{0,1000}\/BokuLoader\.c.{0,1000}
 .{0,1000}\/BokuLoader\.h.{0,1000}
 .{0,1000}\/BokuLoader\/.{0,1000}
+.{0,1000}\/bomgar\-rep\.exe.{0,1000}
+.{0,1000}\/bomgar\-rep\-installer\.exe.{0,1000}
+.{0,1000}\/bomgar\-scc\-.{0,1000}\.exe.{0,1000}
+.{0,1000}\/bomgar\-scc\.exe.{0,1000}
 .{0,1000}\/BooExecutor\.cs.{0,1000}
 .{0,1000}\/bootkit\-rs.{0,1000}
 .{0,1000}\/bq1iFEP2\/assert\/dll\/.{0,1000}
@@ -2605,7 +2612,7 @@
 .{0,1000}\/Lateral\/SMB\.cs.{0,1000}
 .{0,1000}\/lateral_movement\/.{0,1000}
 .{0,1000}\/lateral_movement\/.{0,1000}\.ps1
-.{0,1000}\/LaZagne\.py.{0,1000}
+.{0,1000}\/laZagne\.py.{0,1000}
 .{0,1000}\/lazagne\.zip.{0,1000}
 .{0,1000}\/LaZagne\/Windows\/.{0,1000}
 .{0,1000}\/ld\.so\s\/bin\/sh\s\-p.{0,1000}
@@ -3015,7 +3022,7 @@
 .{0,1000}\/nopac\.exe
 .{0,1000}\/nopac\.py.{0,1000}
 .{0,1000}\/nopowershell\.git.{0,1000}
-.{0,1000}\/NoPowerShell\/.{0,1000}
+.{0,1000}\/nopowershell\/.{0,1000}
 .{0,1000}\/noseyparker\.git.{0,1000}
 .{0,1000}\/NotQuite0DayFriday\/zip\/trunk.{0,1000}
 .{0,1000}\/NovaLdr\.exe
@@ -4706,6 +4713,10 @@
 .{0,1000}\/xxe_fuzz\.txt.{0,1000}
 .{0,1000}\/yanghaoi\/_CNA.{0,1000}
 .{0,1000}\/ysoserial\/.{0,1000}
+.{0,1000}\/ZA_Connect\.exe.{0,1000}
+.{0,1000}\/ZAAudioClient\.exe.{0,1000}
+.{0,1000}\/ZAFileTransfer\.exe.{0,1000}
+.{0,1000}\/ZAService\.exe.{0,1000}
 .{0,1000}\/zejius\/2HZG41Zw\/6Vtmo6w4yQ5tnsBHms64\.php.{0,1000}
 .{0,1000}\/zejius\/2HZG41Zw\/fJsnC6G4sFg2wsyn4shb\.bin.{0,1000}
 .{0,1000}\/zejius\/5GPR0iy9\/6Vtmo6w4yQ5tnsBHms64\.php.{0,1000}
@@ -5068,6 +5079,7 @@
 .{0,1000}\\Appdata\\.{0,1000}\\Beacon02\.exe.{0,1000}
 .{0,1000}\\Appdata\\.{0,1000}\\kitty\.exe.{0,1000}
 .{0,1000}\\AppData\\Local\\.{0,1000}\\rescue\.log.{0,1000}
+.{0,1000}\\appdata\\local\\bomgar\\bomgar\-rep\\.{0,1000}
 .{0,1000}\\AppData\\Local\\GoToMyPC\\.{0,1000}
 .{0,1000}\\AppData\\Local\\LMIR.{0,1000}\.tmp\.bat.{0,1000}
 .{0,1000}\\AppData\\Local\\LogMeIn\sRescue\sApplet\\.{0,1000}
@@ -5091,6 +5103,7 @@
 .{0,1000}\\AppData\\Local\\Temp\\tor\s\-\-.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\Upload\.ps1.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\webserver\.ps1.{0,1000}
+.{0,1000}\\AppData\\Local\\ZohoMeeting\\.{0,1000}
 .{0,1000}\\AppData\\LocalLow\\LogMeIn\sRescue\\.{0,1000}
 .{0,1000}\\AppData\\Roaming\\.{0,1000}\\remote\.nsm.{0,1000}
 .{0,1000}\\AppData\\Roaming\\.{0,1000}\\RemoteDesktop\.exe.{0,1000}
@@ -5170,6 +5183,13 @@
 .{0,1000}\\BloodHound\.exe.{0,1000}
 .{0,1000}\\BloodHound\-win32\-X64.{0,1000}
 .{0,1000}\\BloodHoundGui\\.{0,1000}\.exe.{0,1000}
+.{0,1000}\\Bomgar\-enum_cp\-.{0,1000}
+.{0,1000}\\bomgar\-rep\.cache\\.{0,1000}
+.{0,1000}\\bomgar\-rep\.exe.{0,1000}
+.{0,1000}\\bomgar\-rep\-installer\.exe.{0,1000}
+.{0,1000}\\bomgar\-scc\-.{0,1000}\.exe.{0,1000}
+.{0,1000}\\bomgar\-scc\.exe.{0,1000}
+.{0,1000}\\BOMGAR\-SCC\.EXE\-.{0,1000}
 .{0,1000}\\Boot\\EfiGuardDxe\.efi.{0,1000}
 .{0,1000}\\bootkit\-rs.{0,1000}
 .{0,1000}\\brc\.zip.{0,1000}
@@ -5192,6 +5212,7 @@
 .{0,1000}\\c3pool\\config\.json.{0,1000}
 .{0,1000}\\capcom_sys_exec\.x64\.dll.{0,1000}
 .{0,1000}\\catspin\-main\\.{0,1000}
+.{0,1000}\\cbhook\-x86\.dll.{0,1000}
 .{0,1000}\\certipy\.pfx.{0,1000}
 .{0,1000}\\chaos\.exe.{0,1000}
 .{0,1000}\\CHAOS\-5\.0\.1\.zip.{0,1000}
@@ -5276,10 +5297,13 @@
 .{0,1000}\\CurrentControlSet\\Services\\SupremoService.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\TeamViewer.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\VSAX.{0,1000}
+.{0,1000}\\CurrentControlSet\\Services\\Zoho\sAssist\-Remote\sSupport.{0,1000}
 .{0,1000}\\CurrentVersion\\App\sPaths\\RemotePCPerformance.{0,1000}
 .{0,1000}\\CurrentVersion\\Devices\\RemotePC\sPrinter.{0,1000}
+.{0,1000}\\CurrentVersion\\Run\\Bomgar\sSupport\sReconnect.{0,1000}
 .{0,1000}\\CurrentVersion\\Run\\XenoUpdateManager.{0,1000}
 .{0,1000}\\CurrentVersion\\Uninstall\\FreeFileSync_is1.{0,1000}
+.{0,1000}\\CurrentVersion\\Uninstall\\Representative\sConsole\s\[eval\-.{0,1000}
 .{0,1000}\\CurrentVersion\\Uninstall\\RustDesk.{0,1000}
 .{0,1000}\\CurrentVersion\\Uninstall\\Ultravnc2_is1\\.{0,1000}
 .{0,1000}\\CustomEncoding\.cpp.{0,1000}
@@ -5296,6 +5320,7 @@
 .{0,1000}\\DCrypt\\Bin.{0,1000}
 .{0,1000}\\dcrypt_setup\.exe.{0,1000}
 .{0,1000}\\dcshadow\.html.{0,1000}
+.{0,1000}\\dctoolshardware\.exe.{0,1000}
 .{0,1000}\\ddspoof\.py.{0,1000}
 .{0,1000}\\DDSpoof\\networking\\.{0,1000}
 .{0,1000}\\DDSpoof\\sniffers\\.{0,1000}
@@ -5392,6 +5417,8 @@
 .{0,1000}\\Elite\.csproj.{0,1000}
 .{0,1000}\\Elite\.sln.{0,1000}
 .{0,1000}\\emailall\.py.{0,1000}
+.{0,1000}\\embedhook\-x64\.exe.{0,1000}
+.{0,1000}\\embedhook\-x86\.exe.{0,1000}
 .{0,1000}\\empire_exec\.py.{0,1000}
 .{0,1000}\\Enable\-DuplicateToken\.ps1.{0,1000}
 .{0,1000}\\enc\-rot13\.ps1.{0,1000}
@@ -5677,7 +5704,7 @@
 .{0,1000}\\install_elevated\.py.{0,1000}
 .{0,1000}\\interesting\-teamsmessages\.csv.{0,1000}
 .{0,1000}\-\-interface\s.{0,1000}\s\-\-wpad\s\-\-lm\s\-\-disable\-ess.{0,1000}
-.{0,1000}\\inveigh\.exe.{0,1000}
+.{0,1000}\\Inveigh\.exe.{0,1000}
 .{0,1000}\\Inveigh\\bin\\.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\aeroadmin.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\revsocks_windows.{0,1000}
@@ -5685,6 +5712,7 @@
 .{0,1000}\\InventoryApplicationFile\\screenconnect\.wi.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\tacticalagent\-v2.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\ultravnc_.{0,1000}
+.{0,1000}\\InventoryApplicationFile\\zaservice\.exe.{0,1000}
 .{0,1000}\\Invoke\-Bypass\.ps1.{0,1000}
 .{0,1000}\\Invoke\-Dump\.ps1.{0,1000}
 .{0,1000}\\InvokeWebRequestCommand\.cs
@@ -5800,6 +5828,7 @@
 .{0,1000}\\LocalAdminAccess\.txt.{0,1000}
 .{0,1000}\\localbrute\.ps1.{0,1000}
 .{0,1000}\\LocalPrivEsc\\.{0,1000}
+.{0,1000}\\log\\FileTransferWindowAppLog\.log.{0,1000}
 .{0,1000}\\LogMeIn\\Dumps\\.{0,1000}
 .{0,1000}\\LogMeIn\sRescue\sApplet\\LMIR.{0,1000}
 .{0,1000}\\LogMeIn\sRescue\sAVI\sCodec\\.{0,1000}
@@ -6138,7 +6167,7 @@
 .{0,1000}\\powershell\.exe.{0,1000}\s\=hidden.{0,1000}
 .{0,1000}\\PowershellKerberos.{0,1000}
 .{0,1000}\\PowerTools\.ps1.{0,1000}
-.{0,1000}\\Powerup\.exe.{0,1000}
+.{0,1000}\\powerup\.exe.{0,1000}
 .{0,1000}\\PowerUp\.ps1.{0,1000}
 .{0,1000}\\PowerView\.cna.{0,1000}
 .{0,1000}\\Powerview\.exe.{0,1000}
@@ -6176,6 +6205,7 @@
 .{0,1000}\\ProgramData\\Aeroadmin\\.{0,1000}
 .{0,1000}\\ProgramData\\AMMYY\\.{0,1000}
 .{0,1000}\\ProgramData\\asrephashes\.txt.{0,1000}
+.{0,1000}\\programdata\\bomgar\-scc\-.{0,1000}
 .{0,1000}\\ProgramData\\LogMeIn\\.{0,1000}
 .{0,1000}\\ProgramData\\RustDesk\\.{0,1000}
 .{0,1000}\\ProgramData\\shares\.txt.{0,1000}
@@ -6318,6 +6348,7 @@
 .{0,1000}\\rmm\-installer\.ps1.{0,1000}
 .{0,1000}\\ROADtools\\.{0,1000}
 .{0,1000}\\Root\\InventoryApplicationFile\\support\-logmeinr.{0,1000}
+.{0,1000}\\Root\\InventoryApplicationFile\\za_connect\.exe.{0,1000}
 .{0,1000}\\RpcAccessPermissionNotifier\.exe.{0,1000}
 .{0,1000}\\RpcApp\\RPCCodecEngine\.exe.{0,1000}
 .{0,1000}\\RpcApp\\Tools\\Chat\.exe.{0,1000}
@@ -6347,6 +6378,7 @@
 .{0,1000}\\rsl\.exe.{0,1000}\/stop.{0,1000}
 .{0,1000}\\rsl\.exe\s\/setup.{0,1000}
 .{0,1000}\\rsocx\.exe.{0,1000}
+.{0,1000}\\RSTemp\\ZohoMeeting\\.{0,1000}
 .{0,1000}\\Rubeus\..{0,1000}
 .{0,1000}\\Rubeus\.exe.{0,1000}
 .{0,1000}\\Rubeus\\.{0,1000}
@@ -6376,6 +6408,7 @@
 .{0,1000}\\rusthound\.exe.{0,1000}
 .{0,1000}\-\s\-\-skippasswordcheck.{0,1000}
 .{0,1000}\\SafeBoot\\Network\\SimpleHelp\sServer.{0,1000}
+.{0,1000}\\SafeBoot\\Network\\Zoho\sAssist\-Remote\sSupport.{0,1000}
 .{0,1000}\\SafetyKatz.{0,1000}
 .{0,1000}\\sAINT\-master\.zip.{0,1000}
 .{0,1000}\\SAM\\\.Sam\-Full\.txt.{0,1000}
@@ -6527,6 +6560,7 @@
 .{0,1000}\\Software\\Supremo\\Printer\\.{0,1000}
 .{0,1000}\\Software\\TeamViewer\\Temp.{0,1000}
 .{0,1000}\\SOFTWARE\\WOW6432Node\\Supremo\\.{0,1000}
+.{0,1000}\\SOFTWARE\\Zoho\sAssist.{0,1000}
 .{0,1000}\\SortObjectCommand\.cs
 .{0,1000}\'\sp\:\:d\s\'.{0,1000}
 .{0,1000}\\spacerunner\.exe.{0,1000}
@@ -6855,8 +6889,28 @@
 .{0,1000}\\XOR_b64_encrypted\\.{0,1000}
 .{0,1000}\\xorencrypt\.py.{0,1000}
 .{0,1000}\\ysoserial\\.{0,1000}
+.{0,1000}\\ZA_Connect\.exe.{0,1000}
+.{0,1000}\\ZA_Upgrader.{0,1000}
+.{0,1000}\\ZAAudioClient\.exe.{0,1000}
+.{0,1000}\\ZAFileTransfer\.exe.{0,1000}
+.{0,1000}\\ZAService\.exe.{0,1000}
+.{0,1000}\\ZAudioClientPipe_.{0,1000}ServerReadPipe.{0,1000}
+.{0,1000}\\ZAudioClientPipe_.{0,1000}ServerWritePipe.{0,1000}
 .{0,1000}\\zerologon\.py.{0,1000}
 .{0,1000}\-\-ZipFileName\s\$TrustedDomain\.zip.{0,1000}
+.{0,1000}\\ZMAgent\.exe.{0,1000}
+.{0,1000}\\Zoho\sAssist\\Zoho\sAssist\sRemote\ssupport.{0,1000}
+.{0,1000}\\ZohoMeeting\.7z.{0,1000}
+.{0,1000}\\ZohoMeeting\.exe.{0,1000}
+.{0,1000}\\zohomeeting\\agent\.exe.{0,1000}
+.{0,1000}\\ZohoMeeting\\agent_ui\.exe.{0,1000}
+.{0,1000}\\ZohoMeeting\\Connect\.exe.{0,1000}
+.{0,1000}\\ZohoMeeting\\Connection\.conf.{0,1000}
+.{0,1000}\\ZohoMeeting\\log\\.{0,1000}\.log.{0,1000}
+.{0,1000}\\ZohoMeeting\\ViewerUI\.exe.{0,1000}
+.{0,1000}\\ZohoTray\.exe.{0,1000}
+.{0,1000}\\ZohoURS\.exe.{0,1000}
+.{0,1000}\\ZohoURSService\.exe.{0,1000}
 .{0,1000}\]\sAttempting\sto\senumerate\slogged\son\susers\son\s.{0,1000}
 .{0,1000}\]\sCleared\sall\srat\scommand\squeues\!.{0,1000}
 .{0,1000}\]\sCreating\sc3pool_miner\sservice.{0,1000}
@@ -6922,7 +6976,9 @@
 .{0,1000}\>NetSupport\sClient\sApplication\<\/.{0,1000}
 .{0,1000}\>NETSUPPORT\sLTD\.\<\/.{0,1000}
 .{0,1000}\>NetSupport\sLtd\<\/.{0,1000}
-.{0,1000}\>NetSupport\sRemote\sControl\<\/.{0,1000}
+.{0,1000}\>NetSupport\sremote\sControl\<\/.{0,1000}
+.{0,1000}\>Remote\sSupport\sCustomer\sClient\<\/Data\>.{0,1000}
+.{0,1000}\>Representative\sConsole\<\/Data\>.{0,1000}
 .{0,1000}\-443\.devtunnels\.ms.{0,1000}
 .{0,1000}\-64\s\-format\=reflective\-dll\s.{0,1000}
 .{0,1000}\-b\sbleeding\-jumbo.{0,1000}
@@ -6947,6 +7003,8 @@
 .{0,1000}\-Command\s\"\-\-signature\s\-\-driver\".{0,1000}
 .{0,1000}\-Command\sAdd\-MpPreference\s\-ExclusionProcess\s.{0,1000}\\Program\sFiles\\FreeFileSync\\Bin\\.{0,1000}
 .{0,1000}\'Company\'\>Action1\sCorporation.{0,1000}
+.{0,1000}\'Company\'\>BeyondTrust\<\/Data\>.{0,1000}
+.{0,1000}\'Company\'\>bomgar\<\/Data\>.{0,1000}
 .{0,1000}\'Company\'\>UltraVNC\<\/Data\>.{0,1000}
 .{0,1000}\-consoleoutput\s\-DomainRecon.{0,1000}
 .{0,1000}\-consoleoutput\s\-Localrecon.{0,1000}
@@ -7446,6 +7504,7 @@
 .{0,1000}\s\-accepteula\s\-nobanner\s\-d\scmd\.exe\s\/c\s.{0,1000}
 .{0,1000}\s\-AgentDelay\s.{0,1000}
 .{0,1000}\s\-AgentJitter\s.{0,1000}
+.{0,1000}\s\-altgw\s.{0,1000}\.zohoassist\.com\s.{0,1000}
 .{0,1000}\s\-attack\sremote_db\s\-db_type\s.{0,1000}\s\-db_username\s.{0,1000}\s\-db_password\s.{0,1000}
 .{0,1000}\s\-attack\swindows_application_event_log_local.{0,1000}
 .{0,1000}\s\-attack\swindows_event_log.{0,1000}
@@ -7720,6 +7779,7 @@
 .{0,1000}\s\-Method\sSpray\s\-Password\s.{0,1000}
 .{0,1000}\s\-Module\skerbdump.{0,1000}
 .{0,1000}\s\-Mouselogger\sStart.{0,1000}
+.{0,1000}\s\-ms\sassist\.zoho\.com\s\-p\s443.{0,1000}
 .{0,1000}\s\-n\s.{0,1000}TotallyLegitTool.{0,1000}
 .{0,1000}\s\-Name\s\"Test\.PME\"\s.{0,1000}
 .{0,1000}\s\-NBNSBruteForce.{0,1000}
@@ -7805,6 +7865,7 @@
 .{0,1000}\s\-Rhosts\s.{0,1000}\s\-Password\s.{0,1000}\s\-Directory\s.{0,1000}\s\-Dictionary\s.{0,1000}
 .{0,1000}\s\-Rhosts\s.{0,1000}\s\-Path\s.{0,1000}\.txt\s\-Port\s.{0,1000}
 .{0,1000}\s\-rl\s4\s\-ta\s8\s\-t\s2100\s\-an\sAS8560.{0,1000}
+.{0,1000}\s\-rr_flag\s.{0,1000}\s\-group\s.{0,1000}\s\-fileTransferGateways\s.{0,1000}\.zohoassist\.com\s\-ADMINAGENT.{0,1000}
 .{0,1000}\s\-Rubeus\s\-Command\s.{0,1000}kerberoast.{0,1000}
 .{0,1000}\s\-runaslsass.{0,1000}
 .{0,1000}\s\-s\s.{0,1000}\s\-\-method\s1\s\-\-function\sshell_exec\s\-\-parameters\scmd\:id.{0,1000}
@@ -8316,6 +8377,7 @@
 .{0,1000}\-server\=http\:\/\/127\.0\.0\.1\:4002.{0,1000}
 .{0,1000}\'ServiceName\'\>VSA\sX\<\/Data\>.{0,1000}
 .{0,1000}\'ServiceName\'\>VSAX\<\/Data\>.{0,1000}
+.{0,1000}\'ServiceName\'\>Zoho\sAssist\-Remote\sSupport.{0,1000}
 .{0,1000}\sEternalHushCore\s.{0,1000}
 .{0,1000}\setumbot\.py.{0,1000}
 .{0,1000}\sEtwHash.{0,1000}
@@ -9157,6 +9219,7 @@
 .{0,1000}\sScareCrow\.go.{0,1000}
 .{0,1000}\sscmuacbypass\.cpp.{0,1000}
 .{0,1000}\sscmuacbypass\.exe.{0,1000}
+.{0,1000}\sSELECT\sProcessId\sFROM\sWin32_Process\s.{0,1000}\sName\=\'ZAAudioClient\.exe\'.{0,1000}
 .{0,1000}\sSeriousSam\.Execute\s.{0,1000}
 .{0,1000}\sserver\.py\s\-s\stornado\s\-\-cert\s\/.{0,1000}pem\s\-\-key\s\/.{0,1000}\.pem.{0,1000}
 .{0,1000}\sserver\s\-\-restrict\-http\-upgrade\-path\-prefix\s.{0,1000}wss.{0,1000}
@@ -9492,9 +9555,14 @@
 .{0,1000}\sxmpp\-info\.nse.{0,1000}
 .{0,1000}\sxpipe.{0,1000}
 .{0,1000}\sYour\spayload\shas\sbeen\sdelivered.{0,1000}
+.{0,1000}\sZA_Connect\.exe.{0,1000}
+.{0,1000}\sZAAudioClient\.exe.{0,1000}
+.{0,1000}\sZAFileTransfer\.exe.{0,1000}
+.{0,1000}\sZAService\.exe.{0,1000}
 .{0,1000}\-t\:\sforce\suse\sof\sImpersonation\sPrivilege.{0,1000}
 .{0,1000}\-t\s.{0,1000}\s\-x\slfr\s\-f\s\/etc\/passwd.{0,1000}
 .{0,1000}\-t\s.{0,1000}\s\-x\srce\s\-a\slist\+auth\+user\+admin.{0,1000}
+.{0,1000}\'TaskName\'\>\\Bomgar\sTask\s.{0,1000}
 .{0,1000}\-u\sSSARedTeam\:s3cr3t.{0,1000}
 .{0,1000}\'VSA\sX\sManager	\'.{0,1000}
 .{0,1000}\'VSA\sX\sRemote\sControl\'.{0,1000}
@@ -9510,6 +9578,7 @@
 .{0,1000}_backdoor\.exe.{0,1000}
 .{0,1000}_backdoor\.rb.{0,1000}
 .{0,1000}_BloodHound\.zip.{0,1000}
+.{0,1000}_Classes\\zohoassistlaunchv2.{0,1000}
 .{0,1000}_cobaltstrike.{0,1000}
 .{0,1000}_dcsync\.txt.{0,1000}
 .{0,1000}_dns_hijack\/.{0,1000}\.js.{0,1000}
@@ -10166,7 +10235,7 @@
 .{0,1000}ADRecon\.ps1.{0,1000}
 .{0,1000}ADRecon\s\-OutputDir\s.{0,1000}
 .{0,1000}adsearch.{0,1000}\s\-\-domain\-admins.{0,1000}
-.{0,1000}adsearch\.exe.{0,1000}
+.{0,1000}ADSearch\.exe.{0,1000}
 .{0,1000}ADSearch\.sln.{0,1000}
 .{0,1000}ADSearch\\ADSearch\.cs.{0,1000}
 .{0,1000}adsearch\-master\.zip
@@ -10241,7 +10310,7 @@
 .{0,1000}aggressor\.println.{0,1000}
 .{0,1000}aggressor\.py.{0,1000}
 .{0,1000}Aggressor\/TikiTorch.{0,1000}
-.{0,1000}aggressor\-scripts.{0,1000}
+.{0,1000}Aggressor\-Scripts.{0,1000}
 .{0,1000}AggressorScripts.{0,1000}
 .{0,1000}AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA.{0,1000}
 .{0,1000}ahmedkhlief\/Ninja.{0,1000}
@@ -10250,7 +10319,7 @@
 .{0,1000}aigmfoeogfnljhnofglledbhhfegannp.{0,1000}
 .{0,1000}aiocmd\\nested_completer\.py.{0,1000}
 .{0,1000}Airbash.{0,1000}
-.{0,1000}Aircrack\-ng.{0,1000}
+.{0,1000}aircrack\-ng.{0,1000}
 .{0,1000}aireplay\-ng\s.{0,1000}
 .{0,1000}Airgeddon.{0,1000}
 .{0,1000}airman604\/splunk_whisperer.{0,1000}
@@ -10484,6 +10553,7 @@
 .{0,1000}assembly\s.{0,1000}\.exe\s.{0,1000}
 .{0,1000}assembly_inject\s\-.{0,1000}
 .{0,1000}Assets\/solution\/dllmain\.cpp.{0,1000}
+.{0,1000}assist\.zoho\.com.{0,1000}
 .{0,1000}AssmblyLoader.{0,1000}
 .{0,1000}assoc\s.{0,1000}findstr\s.{0,1000}\=cm.{0,1000}
 .{0,1000}assoc\s.{0,1000}findstr\s.{0,1000}lCmd.{0,1000}
@@ -10927,6 +10997,7 @@
 .{0,1000}bettercap_\.deb.{0,1000}
 .{0,1000}betterdefaultpasslist.{0,1000}
 .{0,1000}BetterSafetyKatz\..{0,1000}
+.{0,1000}beyondtrustcloud\.com\\Software\\Qt6.{0,1000}
 .{0,1000}bfidboloedlamgdmenmlbipfnccokknp.{0,1000}
 .{0,1000}bgetprivs.{0,1000}
 .{0,1000}bhashdump.{0,1000}
@@ -12037,7 +12108,7 @@
 .{0,1000}ComsvcsLSASS.{0,1000}
 .{0,1000}config\/51pwn\/CVE\-.{0,1000}
 .{0,1000}config_steal\s\/etc\/krb5\.conf\s\/etc\/krb5\.keytab.{0,1000}
-.{0,1000}Confuser\.CLI\.Exe.{0,1000}
+.{0,1000}Confuser\.CLI\.exe.{0,1000}
 .{0,1000}Confuser\.DynCipher\.dll.{0,1000}
 .{0,1000}Confuser\.Renamer\.dll.{0,1000}
 .{0,1000}conhost\.exe\s.{0,1000}\s\-\-headless.{0,1000}
@@ -13130,6 +13201,8 @@
 .{0,1000}Downloading.{0,1000}\%MINER_LOCATION\%.{0,1000}
 .{0,1000}Downloading\s.{0,1000}\/.{0,1000}\.tar\sto\s\/tmp\/.{0,1000}\.pak.{0,1000}
 .{0,1000}downloadMalwareDomains.{0,1000}
+.{0,1000}downloads\.zohocdn\.com.{0,1000}
+.{0,1000}downloads\.zohodl\.com\.cn.{0,1000}
 .{0,1000}downloads\/wapiti\-code.{0,1000}
 .{0,1000}downloadshellcodebin\.c.{0,1000}
 .{0,1000}downloadshellcodebin\.exe.{0,1000}
@@ -13565,6 +13638,7 @@
 .{0,1000}etwti\-hook\..{0,1000}
 .{0,1000}eun1\.rel\.tunnels\.api\.visualstudio\.com.{0,1000}
 .{0,1000}euw\.rel\.tunnels\.api\.visualstudio\.com.{0,1000}
+.{0,1000}eval\-.{0,1000}\.beyondtrustcloud\.com.{0,1000}
 .{0,1000}evallen\/ntpescape.{0,1000}
 .{0,1000}evasion\/has_recycle_bin\..{0,1000}
 .{0,1000}evasion_shellcode\.js.{0,1000}
@@ -14245,6 +14319,7 @@
 .{0,1000}GadgetToJScript\-master.{0,1000}
 .{0,1000}Gality369\/CS\-Loader.{0,1000}
 .{0,1000}GateTrampolin\.asm.{0,1000}
+.{0,1000}gateway\.zohoassist\.com.{0,1000}
 .{0,1000}gateway\-finder.{0,1000}
 .{0,1000}gather\/credentials\/rdc_manager_creds.{0,1000}
 .{0,1000}gather\/credentials\/teamviewer_passwords.{0,1000}
@@ -15416,6 +15491,8 @@
 .{0,1000}https\:\/\/.{0,1000}\.sendspace\.com\/upload.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.tacticalrmm\.com\/.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.use\.devtunnels\.ms.{0,1000}
+.{0,1000}https\:\/\/.{0,1000}\.zoho\.com\/pconnect.{0,1000}
+.{0,1000}https\:\/\/.{0,1000}\.zohoassist\.com\/w_socket.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\/\.htaccess\?c\=cmd.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\/\.htaccess\?c\=uname\s\-a.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\/releases\/download\/.{0,1000}\/lse\.sh.{0,1000}
@@ -15440,6 +15517,12 @@
 .{0,1000}https\:\/\/api\.telegram\.org\/bot.{0,1000}\/sendMessage.{0,1000}
 .{0,1000}https\:\/\/app\.action1\.com\/agent\/.{0,1000}\/Windows\/.{0,1000}\.msi.{0,1000}
 .{0,1000}https\:\/\/apps\.apple\.com\/us\/app\/tailscale\/id.{0,1000}
+.{0,1000}https\:\/\/assist\.zoho\.com\/assist\-join\?key\=.{0,1000}
+.{0,1000}https\:\/\/assist\.zoho\.com\/customer\-session\-details\?client_token\=.{0,1000}
+.{0,1000}https\:\/\/assist\.zoho\.com\/join\?join_source\=EMAIL_INVITE.{0,1000}
+.{0,1000}https\:\/\/assist\.zoho\.com\/join\-session\?key\=.{0,1000}
+.{0,1000}https\:\/\/assist\.zoho\.com\/org\/.{0,1000}
+.{0,1000}https\:\/\/assist\.zoho\.com\/viewer\-assist.{0,1000}
 .{0,1000}https\:\/\/avred\.r00ted\.ch\/upload.{0,1000}
 .{0,1000}https\:\/\/bashupload\.com.{0,1000}
 .{0,1000}https\:\/\/browser\.lol\/vnc\?server\=.{0,1000}
@@ -15482,6 +15565,7 @@
 .{0,1000}https\:\/\/ntlm\.pw\/.{0,1000}
 .{0,1000}https\:\/\/pastebin\.com\/raw\/fevFJe98.{0,1000}
 .{0,1000}https\:\/\/proxy\.duckduckgo\.com\/iu\/\?u\=https\:\/\/pdxkmdcepvahysnnxe\.pythonanywhere\.com\/image\.jpg\?cmd\=.{0,1000}
+.{0,1000}https\:\/\/pubsub\.zoho\.com\/.{0,1000}_deskUserPresence\/pubsub.{0,1000}
 .{0,1000}https\:\/\/remotedesktop\.google\.com\/_\/oauthredirect.{0,1000}
 .{0,1000}https\:\/\/remotedesktop\.google\.com\/headless.{0,1000}
 .{0,1000}https\:\/\/requestbin\.net\/r\/.{0,1000}
@@ -15504,6 +15588,7 @@
 .{0,1000}https\:\/\/transfert\-my\-files\.com\/files\/.{0,1000}
 .{0,1000}https\:\/\/transfert\-my\-files\.com\/inc\/upload\.php.{0,1000}
 .{0,1000}https\:\/\/unit259\.fyi\/db.{0,1000}
+.{0,1000}https\:\/\/us4\-wms6\.zoho\.com.{0,1000}
 .{0,1000}https\:\/\/viperone\.gitbook\.io\/pentest\-everything.{0,1000}
 .{0,1000}https\:\/\/we\.tl\/t\-.{0,1000}
 .{0,1000}https\:\/\/weakpass\.com\/.{0,1000}
@@ -15824,7 +15909,7 @@
 .{0,1000}InjectPEWMIFSRemote.{0,1000}
 .{0,1000}InjectProc.{0,1000}
 .{0,1000}injectremote\.boo.{0,1000}
-.{0,1000}injectShellcode.{0,1000}
+.{0,1000}InjectShellcode.{0,1000}
 .{0,1000}InjectShellCode\.cs.{0,1000}
 .{0,1000}InjectShellCodeRemote\.cs.{0,1000}
 .{0,1000}InjectShellCodeWMIFSB64.{0,1000}
@@ -16023,7 +16108,7 @@
 .{0,1000}Invoke\-AmsiBypass.{0,1000}
 .{0,1000}Invoke\-APIConnectionHijack\.ps1.{0,1000}
 .{0,1000}Invoke\-ApplicationsOnStartupCheck.{0,1000}
-.{0,1000}invoke\-arpscan.{0,1000}
+.{0,1000}Invoke\-ARPScan.{0,1000}
 .{0,1000}Invoke\-ARPScan\.ps1.{0,1000}
 .{0,1000}Invoke\-ASREPRoast.{0,1000}
 .{0,1000}Invoke\-AutoKerberoast.{0,1000}
@@ -16062,7 +16147,7 @@
 .{0,1000}Invoke\-CcmNaaCredentialsCheck.{0,1000}
 .{0,1000}Invoke\-Certify.{0,1000}
 .{0,1000}Invoke\-CheckAccess.{0,1000}
-.{0,1000}invoke\-checklocaladminaccess.{0,1000}
+.{0,1000}Invoke\-CheckLocalAdminAccess.{0,1000}
 .{0,1000}Invoke\-ClipboardMonitor.{0,1000}
 .{0,1000}Invoke\-CMLootDownload.{0,1000}
 .{0,1000}Invoke\-CMLootExtract.{0,1000}
@@ -16118,7 +16203,7 @@
 .{0,1000}Invoke\-EnvBypass\.ps1.{0,1000}
 .{0,1000}Invoke\-EssessAgress.{0,1000}
 .{0,1000}invoke\-eternalblue.{0,1000}
-.{0,1000}Invoke\-EventHunter.{0,1000}
+.{0,1000}invoke\-eventhunter.{0,1000}
 .{0,1000}Invoke\-EventViewer\.ps1.{0,1000}
 .{0,1000}Invoke\-EventViewer\s.{0,1000}\.exe.{0,1000}
 .{0,1000}Invoke\-EventVwrBypass.{0,1000}
@@ -16146,7 +16231,7 @@
 .{0,1000}Invoke\-GraphRunner.{0,1000}
 .{0,1000}Invoke\-Grouper2.{0,1000}
 .{0,1000}Invoke\-Grouper3.{0,1000}
-.{0,1000}Invoke\-Handlekatz.{0,1000}
+.{0,1000}Invoke\-HandleKatz.{0,1000}
 .{0,1000}Invoke\-HardenedUNCPathCheck.{0,1000}
 .{0,1000}Invoke\-HijackableDllsCheck.{0,1000}
 .{0,1000}Invoke\-HiveDump.{0,1000}
@@ -16265,7 +16350,7 @@
 .{0,1000}Invoke\-Portscan\.ps1.{0,1000}
 .{0,1000}Invoke\-PoshRatHttp.{0,1000}
 .{0,1000}Invoke\-PoshRatHttps.{0,1000}
-.{0,1000}Invoke\-PostDump.{0,1000}
+.{0,1000}Invoke\-Postdump.{0,1000}
 .{0,1000}Invoke\-PostExfil.{0,1000}
 .{0,1000}Invoke\-PowerDump.{0,1000}
 .{0,1000}Invoke\-PowerExtract.{0,1000}
@@ -16308,7 +16393,7 @@
 .{0,1000}Invoke\-PSexec\.ps1.{0,1000}
 .{0,1000}invoke\-psexecpayload.{0,1000}
 .{0,1000}Invoke\-PsGcat.{0,1000}
-.{0,1000}Invoke\-PSGcat\.ps1.{0,1000}
+.{0,1000}Invoke\-PsGcat\.ps1.{0,1000}
 .{0,1000}Invoke\-PsGcatAgent.{0,1000}
 .{0,1000}Invoke\-PsGcatAgent\.ps1.{0,1000}
 .{0,1000}Invoke\-PSImage.{0,1000}
@@ -16451,7 +16536,7 @@
 .{0,1000}Invoke\-SMBRemoting.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\.ps1.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\-main.{0,1000}
-.{0,1000}Invoke\-SMBScanner.{0,1000}
+.{0,1000}Invoke\-SmbScanner.{0,1000}
 .{0,1000}Invoke\-Snaffler.{0,1000}
 .{0,1000}invoke\-sniffer\s.{0,1000}
 .{0,1000}invoke\sobfuscation.{0,1000}
@@ -16541,7 +16626,7 @@
 .{0,1000}Invoke\-WmiCommand\s.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}Invoke\-WMIExec\s.{0,1000}
+.{0,1000}invoke\-wmiexec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMImplant.{0,1000}
 .{0,1000}Invoke\-WMIObfuscatedPSCommand.{0,1000}
@@ -16550,7 +16635,7 @@
 .{0,1000}Invoke\-WmiShadowCopy.{0,1000}
 .{0,1000}Invoke\-WScriptBypassUAC.{0,1000}
 .{0,1000}Invoke\-WscriptElevate.{0,1000}
-.{0,1000}Invoke\-ZeroLogon.{0,1000}
+.{0,1000}Invoke\-Zerologon.{0,1000}
 .{0,1000}invoke_obfuscation\.py.{0,1000}
 .{0,1000}invoke_sessiongopher\.py.{0,1000}
 .{0,1000}InvokeAssembly\.x64\.dll.{0,1000}
@@ -16936,7 +17021,7 @@
 .{0,1000}keylog_stop.{0,1000}
 .{0,1000}Keylogger.{0,1000}
 .{0,1000}Keylogger\.cs.{0,1000}
-.{0,1000}keylogger\.dll.{0,1000}
+.{0,1000}KeyLogger\.dll.{0,1000}
 .{0,1000}Keylogger\.exe.{0,1000}
 .{0,1000}Keylogger\.java.{0,1000}
 .{0,1000}Keylogger\.pdb.{0,1000}
@@ -16973,7 +17058,7 @@
 .{0,1000}KillDefender\.x64\..{0,1000}
 .{0,1000}killdefender\scheck.{0,1000}
 .{0,1000}killdefender\skill.{0,1000}
-.{0,1000}killdefender_bof.{0,1000}
+.{0,1000}KillDefender_BOF.{0,1000}
 .{0,1000}KillDefenderBOF\-main.{0,1000}
 .{0,1000}Killed\srunning\seventvwr.{0,1000}
 .{0,1000}Killed\srunning\ssdclt.{0,1000}
@@ -17260,7 +17345,7 @@
 .{0,1000}lawrenceamer\/Tchopper.{0,1000}
 .{0,1000}layer8secure\/SilentHound.{0,1000}
 .{0,1000}Lazagne.{0,1000}Passwords\.txt.{0,1000}
-.{0,1000}laZagne\.exe.{0,1000}
+.{0,1000}Lazagne\.exe.{0,1000}
 .{0,1000}laZagne\.exe\sbrowsers.{0,1000}
 .{0,1000}Lazagne\.py.{0,1000}
 .{0,1000}LaZagne\-master\.zip.{0,1000}
@@ -17380,6 +17465,7 @@
 .{0,1000}libxpc_mitm_ssudo\..{0,1000}
 .{0,1000}libxselinux\.old.{0,1000}
 .{0,1000}libxselinux\.so.{0,1000}
+.{0,1000}license\.bomgar\.com.{0,1000}
 .{0,1000}lightsout\.py.{0,1000}
 .{0,1000}LightsOut\-master\.zip.{0,1000}
 .{0,1000}ligolo\.lan.{0,1000}
@@ -19380,7 +19466,7 @@
 .{0,1000}PetitPotam\.cpp.{0,1000}
 .{0,1000}PetitPotam\.exe.{0,1000}
 .{0,1000}PetitPotam\.ps1.{0,1000}
-.{0,1000}petitpotam\.py.{0,1000}
+.{0,1000}PetitPotam\.py.{0,1000}
 .{0,1000}PetitPotam\.sln.{0,1000}
 .{0,1000}PetitPotam\.vcxproj.{0,1000}
 .{0,1000}petitpotam_check.{0,1000}
@@ -19669,7 +19755,7 @@
 .{0,1000}powerpick\.py.{0,1000}
 .{0,1000}PowerPick\.x64\.dll.{0,1000}
 .{0,1000}powerpick\s\-Command\s.{0,1000}
-.{0,1000}Powerpreter\.psm1.{0,1000}
+.{0,1000}powerpreter\.psm1.{0,1000}
 .{0,1000}powerpwn\.powerdump.{0,1000}
 .{0,1000}powerpwn_tests.{0,1000}
 .{0,1000}PowerSCCM\.ps1.{0,1000}
@@ -19823,7 +19909,7 @@
 .{0,1000}PrintSpoofer\..{0,1000}
 .{0,1000}PrintSpoofer\-.{0,1000}
 .{0,1000}PrintSpoofer\.cpp.{0,1000}
-.{0,1000}printspoofer\.exe.{0,1000}
+.{0,1000}PrintSpoofer\.exe.{0,1000}
 .{0,1000}printspoofer\.py.{0,1000}
 .{0,1000}PrintSpoofer\.sln.{0,1000}
 .{0,1000}PrintSpoofer\-master.{0,1000}
@@ -19954,6 +20040,7 @@
 .{0,1000}ProcHideClient\.exe\s\-.{0,1000}
 .{0,1000}ProcHideDrv_x64\.sys.{0,1000}
 .{0,1000}ProcProtectClient\.exe\s.{0,1000}
+.{0,1000}ProductName\:Zoho\%\%20Assist.{0,1000}\sapptype\:ATTENDEE.{0,1000}
 .{0,1000}produkey\.zip.{0,1000}
 .{0,1000}produkey\-x64\.zip.{0,1000}
 .{0,1000}produkey_setup\.exe.{0,1000}
@@ -19971,6 +20058,7 @@
 .{0,1000}Program\sFiles\s\(x86\)\\ScreenConnect\sClient.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\Splashtop.{0,1000}
 .{0,1000}Program\sFiles\s\(x86\)\\uvnc\sbvba\\.{0,1000}
+.{0,1000}program\sfiles\s\(x86\)\\zohomeeting.{0,1000}
 .{0,1000}ProgramData\\JWrapper\-Remote\sAccess\\.{0,1000}\.exe.{0,1000}
 .{0,1000}ProgramData\\Kaseya\\.{0,1000}
 .{0,1000}ProgramData\\RemotePC.{0,1000}
@@ -20508,7 +20596,7 @@
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.rar.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.raw.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.reg.{0,1000}
-.{0,1000}raw\.githubusercontent\.com.{0,1000}\.RGS.{0,1000}
+.{0,1000}raw\.githubusercontent\.com.{0,1000}\.rgs.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.run.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.scpt.{0,1000}
 .{0,1000}raw\.githubusercontent\.com.{0,1000}\.script.{0,1000}
@@ -20828,7 +20916,7 @@
 .{0,1000}Remote\sAccess\-windows32\-offline\.exe.{0,1000}
 .{0,1000}Remote\sAccess\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sAccess\-windows64\-offline\.exe.{0,1000}
-.{0,1000}remote\saccess\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sAccess\-windows64\-online\.exe.{0,1000}
 .{0,1000}Remote\sAccessECompatibility\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-java\-online\.jar.{0,1000}
 .{0,1000}Remote\sSupport\-linux32\-offline\.tar.{0,1000}
@@ -20846,8 +20934,8 @@
 .{0,1000}Remote\sSupport\-windows32\-offline\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows64\-offline\.exe.{0,1000}
-.{0,1000}remote\ssupport\-windows64\-online\.exe.{0,1000}
-.{0,1000}remote\swork\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sSupport\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sWork\-windows64\-online\.exe.{0,1000}
 .{0,1000}remote_exploit\.erb.{0,1000}
 .{0,1000}remote_exploit_cmd_stager\..{0,1000}
 .{0,1000}remote_exploit_demo_template\.erb.{0,1000}
@@ -21621,7 +21709,7 @@
 .{0,1000}SendToPasteBin\.ps1.{0,1000}
 .{0,1000}sense2john\.py.{0,1000}
 .{0,1000}SenseCncProxy\.exe.{0,1000}
-.{0,1000}sensepost\/goDoH.{0,1000}
+.{0,1000}sensepost\/godoh.{0,1000}
 .{0,1000}sensepost\/impersonate.{0,1000}
 .{0,1000}sensepost\/kwetza.{0,1000}
 .{0,1000}sensepost\/reGeorg.{0,1000}
@@ -21978,7 +22066,7 @@
 .{0,1000}sharphound\..{0,1000}
 .{0,1000}SharpHound\-.{0,1000}\.zip.{0,1000}
 .{0,1000}SharpHound\.cna.{0,1000}
-.{0,1000}SharpHound\.exe.{0,1000}
+.{0,1000}sharphound\.exe.{0,1000}
 .{0,1000}SharpHound\.ps1.{0,1000}
 .{0,1000}Sharphound\-Aggressor.{0,1000}
 .{0,1000}sharphound\s\-.{0,1000}
@@ -22209,7 +22297,7 @@
 .{0,1000}shellter\.exe.{0,1000}
 .{0,1000}shepardsbind_recv\.py.{0,1000}
 .{0,1000}shepbind_serv\.exe.{0,1000}
-.{0,1000}sherlock\.ps1.{0,1000}
+.{0,1000}Sherlock\.ps1.{0,1000}
 .{0,1000}Sherlock_Vulns\.txt.{0,1000}
 .{0,1000}Shhhavoc\.py\s.{0,1000}
 .{0,1000}Shhhloader\.py.{0,1000}
@@ -22265,7 +22353,7 @@
 .{0,1000}SignToolExHook\.dll.{0,1000}
 .{0,1000}SigPloit.{0,1000}
 .{0,1000}sigthief\.exe\.manifest.{0,1000}
-.{0,1000}SigThief\.py.{0,1000}
+.{0,1000}sigthief\.py.{0,1000}
 .{0,1000}SigThief\-master.{0,1000}
 .{0,1000}sigwhatever\.exe.{0,1000}
 .{0,1000}SilenceDefender\.ps1.{0,1000}
@@ -22302,7 +22390,7 @@
 .{0,1000}SimpleHelp\-install\-64\.exe.{0,1000}
 .{0,1000}SimpleHelp\s\-\ssimple\-help\.com.{0,1000}
 .{0,1000}simplehelp\sremote\swork\.exe.{0,1000}
-.{0,1000}simplehelp\sremote\sworkwinlauncher\.exe.{0,1000}
+.{0,1000}SimpleHelp\sRemote\sWorkWinLauncher\.exe.{0,1000}
 .{0,1000}simplehelp\stechnician\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-java\-online\.jar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-offline\.tar.{0,1000}
@@ -23385,6 +23473,7 @@
 .{0,1000}Tmprovider\.dll.{0,1000}
 .{0,1000}TMVB6XJWzuz4KsqUCnwxrtooQV9LmP6R4IX62HeQ7OZzhxgsahsxNzf05dJNkntl.{0,1000}
 .{0,1000}tNidhoggClient\.exe.{0,1000}
+.{0,1000}To\:\sAll\sRepresentatives\s\sFrom\:\sRemote\sSupport\s.{0,1000}\shas\sadded\sa\snote\sto\sthis\ssession\..{0,1000}
 .{0,1000}to\s\$LogonPasswords.{0,1000}
 .{0,1000}to_powershell\.ducky_script.{0,1000}
 .{0,1000}toggle_privileges\.cna.{0,1000}
@@ -23585,6 +23674,7 @@
 .{0,1000}ttyd\s\-i\s0\.0\.0\.0\s\-p\s7682\s.{0,1000}
 .{0,1000}TunnelGRE\/Augustus.{0,1000}
 .{0,1000}tunnels\-prod\-rel\-tm\.trafficmanager\.net.{0,1000}
+.{0,1000}turn\-.{0,1000}\.zohomeeting\.com.{0,1000}
 .{0,1000}turn\.console\.gotoassist\.com.{0,1000}
 .{0,1000}turn_keylogger.{0,1000}
 .{0,1000}TVqQAAMAAAAEAAAA.{0,1000}
@@ -24550,11 +24640,15 @@
 .{0,1000}YwBhAGwAYwA\=.{0,1000}
 .{0,1000}Z29oYWxleWdvYW5kaGFja2F3YXl0aGVnaWJzb24.{0,1000}
 .{0,1000}Z4nzu\/hackingtool.{0,1000}
+.{0,1000}ZA_Connect\.exe\.ApplicationCompany.{0,1000}
+.{0,1000}ZA_Connect\.exe\s.{0,1000}
 .{0,1000}zabbix_session_exp\.py.{0,1000}
 .{0,1000}zabbix_session_exp\.py\s\-.{0,1000}
 .{0,1000}zabbix_session_exp\.py\shttps.{0,1000}
+.{0,1000}ZAFileTransfer\.exe\s.{0,1000}
 .{0,1000}ZAQwsxcde321.{0,1000}
 .{0,1000}zarp\.py.{0,1000}
+.{0,1000}ZAService\.exe\s.{0,1000}
 .{0,1000}zblurx\/certsync.{0,1000}
 .{0,1000}zblurx\/dploot.{0,1000}
 .{0,1000}zcgonvh\/DCOMPotato.{0,1000}
@@ -24591,6 +24685,10 @@
 .{0,1000}ZnVuY3Rpb24gRG9udXQtTG9hZGVyIHtwYXJhbSgkcHJvY2Vzc19pZCwkZG9udXRmaWx.{0,1000}
 .{0,1000}ZnVuY3Rpb24gRGxsLUxvYWRlciB7CiAgICBwYXJhbShbc3dpdGNoXSRzbWIsIFtzd2l0Y.{0,1000}
 .{0,1000}ZnVuY3Rpb24gSW52b2tlLUJpbmFyeSB7cGFyYW0oJGFyZykKICAgICRoZWxwPUAi.{0,1000}
+.{0,1000}ZOHO\sCORPORATION\sPRIVATE\sLIMITED.{0,1000}
+.{0,1000}ZohoMeeting\.exe.{0,1000}
+.{0,1000}ZohoMeeting\\FileTransferSettings\.conf.{0,1000}
+.{0,1000}ZohoMeeting\\Service\.Conf.{0,1000}
 .{0,1000}zoom1\.msi\.gpg.{0,1000}
 .{0,1000}zoom2\.dll\.gpg.{0,1000}
 .{0,1000}zsh_executor\s.{0,1000}
@@ -24640,6 +24738,7 @@
 \\adhunt\.py
 \\jaccdpqnvbrrxlaf.{0,1000}
 \\Posh.{0,1000}
+\>Bomgar\sCorporation\<\/Data\>.{0,1000}
 \s.{0,1000}\s2\>\&1\s\&\&\scertutil\s\-encodehex\s\-f\s.{0,1000}\s\&\&\sfor\s\/F\s\"usebackq\"\s.{0,1000}\sreg\sadd\sHKLM\\.{0,1000}
 afrog\s\-.{0,1000}
 b2363d2b238f9336bb270fe96db258243668a916d7ddf94bf3a3126ed7cae508

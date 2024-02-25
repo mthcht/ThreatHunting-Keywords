@@ -127,6 +127,7 @@
 .* Alcatraz\.exe.*
 .* All_attack\.txt.*
 .* allseeingeye-info\.nse.*
+.* -altgw .*\.zohoassist\.com .*
 .* amqp-info\.nse.*
 .* amsi_disable .*
 .* --am-si-bypass=.*
@@ -1472,6 +1473,7 @@
 .* -Mouselogger Start.*
 .* mqtt-subscribe\.nse.*
 .* mrinfo\.nse.*
+.* -ms assist\.zoho\.com -p 443.*
 .* MS15-034\.nse.*
 .* ms17010 -i .*
 .* ms17010 -n .*
@@ -1893,6 +1895,7 @@
 .* rpcinfo\.nse.*
 .* rpcperfviewer\.exe.*
 .* RPCWinXP\.exe.*
+.* -rr_flag .* -group .* -fileTransferGateways .*\.zohoassist\.com -ADMINAGENT.*
 .* rsa-vuln-roca\.nse.*
 .* rsync-brute\.nse.*
 .* rsync-list-modules\.nse.*
@@ -1960,6 +1963,7 @@
 .* -ScriptString .* -PSAmsiScanner .*
 .* -seatbelt -Command .*
 .* --seclogon-duplicate.*
+.* SELECT ProcessId FROM Win32_Process .* Name='ZAAudioClient\.exe'.*
 .* SeriousSam\.Execute .*
 .* --server .* --type pass-pols.*
 .* server -p 80 --reverse --socks5.*
@@ -2449,6 +2453,10 @@
 .* -z list.*nonvalid-httpwatch --basic.*
 .* -z range --zD 0-1 -u http.*
 .* -z range.*0-10 --hl 97 http.*
+.* ZA_Connect\.exe.*
+.* ZAAudioClient\.exe.*
+.* ZAFileTransfer\.exe.*
+.* ZAService\.exe.*
 .*!autoruns .*
 .*!files upload .*
 .*!handlers load .*
@@ -2632,6 +2640,7 @@
 .*\.athena_utils .*
 .*\.bashrc persistence setup successfully.*
 .*\.beta\.123456\..*
+.*\.beyondtrustcloud\.com/session_complete.*
 .*\.bin -enc rc4 -lang c -k 3 -o .*\.bin.*
 .*\.bin -enc rc4 -lang csharp -k 9.*
 .*\.bin -enc rot -lang csharp -k 2 -d.*
@@ -3015,6 +3024,8 @@
 .*\.xp_dirtree .*\\.*
 .*\.zip\.exe.*
 .*\.zip\.iso.*
+.*\.zohoassist\.com\.cn.*
+.*\.zohoassist\.jp.*
 .*/\#kali-installer-images.*
 .*/.*_priv_esc\..*
 .*/.*SandboxEscapes/.*
@@ -3448,6 +3459,10 @@
 .*/BokuLoader\.c.*
 .*/BokuLoader\.h.*
 .*/BokuLoader/.*
+.*/bomgar-rep\.exe.*
+.*/bomgar-rep-installer\.exe.*
+.*/bomgar-scc-.*\.exe.*
+.*/bomgar-scc\.exe.*
 .*/BooExecutor\.cs.*
 .*/bootkit-rs.*
 .*/bq1iFEP2/assert/dll/.*
@@ -7156,6 +7171,10 @@
 .*/xxe_fuzz\.txt.*
 .*/yanghaoi/_CNA.*
 .*/ysoserial/.*
+.*/ZA_Connect\.exe.*
+.*/ZAAudioClient\.exe.*
+.*/ZAFileTransfer\.exe.*
+.*/ZAService\.exe.*
 .*/zejius/2HZG41Zw/6Vtmo6w4yQ5tnsBHms64\.php.*
 .*/zejius/2HZG41Zw/fJsnC6G4sFg2wsyn4shb\.bin.*
 .*/zejius/5GPR0iy9/6Vtmo6w4yQ5tnsBHms64\.php.*
@@ -7511,6 +7530,7 @@
 .*\\Appdata\\.*\\Beacon02\.exe.*
 .*\\Appdata\\.*\\kitty\.exe.*
 .*\\AppData\\Local\\.*\\rescue\.log.*
+.*\\appdata\\local\\bomgar\\bomgar-rep\\.*
 .*\\AppData\\Local\\GoToMyPC\\.*
 .*\\AppData\\Local\\LMIR.*\.tmp\.bat.*
 .*\\AppData\\Local\\LogMeIn Rescue Applet\\.*
@@ -7534,6 +7554,7 @@
 .*\\AppData\\Local\\Temp\\tor --.*
 .*\\AppData\\Local\\Temp\\Upload\.ps1.*
 .*\\AppData\\Local\\Temp\\webserver\.ps1.*
+.*\\AppData\\Local\\ZohoMeeting\\.*
 .*\\AppData\\LocalLow\\LogMeIn Rescue\\.*
 .*\\AppData\\Roaming\\.*\\remote\.nsm.*
 .*\\AppData\\Roaming\\.*\\RemoteDesktop\.exe.*
@@ -7607,6 +7628,13 @@
 .*\\BloodHound\.exe.*
 .*\\BloodHoundGui\\.*\.exe.*
 .*\\BloodHound-win32-X64.*
+.*\\Bomgar-enum_cp-.*
+.*\\bomgar-rep\.cache\\.*
+.*\\bomgar-rep\.exe.*
+.*\\bomgar-rep-installer\.exe.*
+.*\\bomgar-scc-.*\.exe.*
+.*\\bomgar-scc\.exe.*
+.*\\BOMGAR-SCC\.EXE-.*
 .*\\Boot\\EfiGuardDxe\.efi.*
 .*\\bootkit-rs.*
 .*\\brc\.zip.*
@@ -7628,6 +7656,7 @@
 .*\\c3pool\\config\.json.*
 .*\\capcom_sys_exec\.x64\.dll.*
 .*\\catspin-main\\.*
+.*\\cbhook-x86\.dll.*
 .*\\certipy\.pfx.*
 .*\\chaos\.exe.*
 .*\\CHAOS-5\.0\.1\.zip.*
@@ -7710,10 +7739,13 @@
 .*\\CurrentControlSet\\Services\\SupremoService.*
 .*\\CurrentControlSet\\Services\\TeamViewer.*
 .*\\CurrentControlSet\\Services\\VSAX.*
+.*\\CurrentControlSet\\Services\\Zoho Assist-Remote Support.*
 .*\\CurrentVersion\\App Paths\\RemotePCPerformance.*
 .*\\CurrentVersion\\Devices\\RemotePC Printer.*
+.*\\CurrentVersion\\Run\\Bomgar Support Reconnect.*
 .*\\CurrentVersion\\Run\\XenoUpdateManager.*
 .*\\CurrentVersion\\Uninstall\\FreeFileSync_is1.*
+.*\\CurrentVersion\\Uninstall\\Representative Console \[eval-.*
 .*\\CurrentVersion\\Uninstall\\RustDesk.*
 .*\\CurrentVersion\\Uninstall\\Ultravnc2_is1\\.*
 .*\\CustomEncoding\.cpp.*
@@ -7729,6 +7761,7 @@
 .*\\DCrypt\\Bin.*
 .*\\dcrypt_setup\.exe.*
 .*\\dcshadow\.html.*
+.*\\dctoolshardware\.exe.*
 .*\\ddspoof\.py.*
 .*\\DDSpoof\\networking\\.*
 .*\\DDSpoof\\sniffers\\.*
@@ -7824,6 +7857,8 @@
 .*\\Elite\.csproj.*
 .*\\Elite\.sln.*
 .*\\emailall\.py.*
+.*\\embedhook-x64\.exe.*
+.*\\embedhook-x86\.exe.*
 .*\\empire_exec\.py.*
 .*\\Enable-DuplicateToken\.ps1.*
 .*\\enc_shellcode\.bin.*
@@ -8106,6 +8141,7 @@
 .*\\InventoryApplicationFile\\screenconnect\.wi.*
 .*\\InventoryApplicationFile\\tacticalagent-v2.*
 .*\\InventoryApplicationFile\\ultravnc_.*
+.*\\InventoryApplicationFile\\zaservice\.exe.*
 .*\\Invoke-Bypass\.ps1.*
 .*\\Invoke-Dump\.ps1.*
 .*\\InvokeWebRequestCommand\.cs
@@ -8220,6 +8256,7 @@
 .*\\LocalAdminAccess\.txt.*
 .*\\localbrute\.ps1.*
 .*\\LocalPrivEsc\\.*
+.*\\log\\FileTransferWindowAppLog\.log.*
 .*\\LogMeIn Rescue Applet\\LMIR.*
 .*\\LogMeIn Rescue AVI Codec\\.*
 .*\\logmein rescue technician console\\.*
@@ -8576,6 +8613,7 @@
 .*\\ProgramData\\Aeroadmin\\.*
 .*\\ProgramData\\AMMYY\\.*
 .*\\ProgramData\\asrephashes\.txt.*
+.*\\programdata\\bomgar-scc-.*
 .*\\ProgramData\\LogMeIn\\.*
 .*\\ProgramData\\RustDesk\\.*
 .*\\ProgramData\\shares\.txt.*
@@ -8718,6 +8756,7 @@
 .*\\rmm-installer\.ps1.*
 .*\\ROADtools\\.*
 .*\\Root\\InventoryApplicationFile\\support-logmeinr.*
+.*\\Root\\InventoryApplicationFile\\za_connect\.exe.*
 .*\\RpcAccessPermissionNotifier\.exe.*
 .*\\RpcApp\\RPCCodecEngine\.exe.*
 .*\\RpcApp\\Tools\\Chat\.exe.*
@@ -8747,6 +8786,7 @@
 .*\\rsl\.exe /setup.*
 .*\\rsl\.exe.*/stop.*
 .*\\rsocx\.exe.*
+.*\\RSTemp\\ZohoMeeting\\.*
 .*\\Rubeus\..*
 .*\\Rubeus\.exe.*
 .*\\Rubeus\\.*
@@ -8775,6 +8815,7 @@
 .*\\RustDeskIddDriver\\.*
 .*\\rusthound\.exe.*
 .*\\SafeBoot\\Network\\SimpleHelp Server.*
+.*\\SafeBoot\\Network\\Zoho Assist-Remote Support.*
 .*\\SafetyKatz.*
 .*\\sAINT-master\.zip.*
 .*\\SAM\\\.Sam-Full\.txt.*
@@ -8922,6 +8963,7 @@
 .*\\Software\\Supremo\\Printer\\.*
 .*\\Software\\TeamViewer\\Temp.*
 .*\\SOFTWARE\\WOW6432Node\\Supremo\\.*
+.*\\SOFTWARE\\Zoho Assist.*
 .*\\SortObjectCommand\.cs
 .*\\spacerunner\.exe.*
 .*\\spellbound-main.*
@@ -9239,7 +9281,27 @@
 .*\\XOR_b64_encrypted\\.*
 .*\\xorencrypt\.py.*
 .*\\ysoserial\\.*
+.*\\ZA_Connect\.exe.*
+.*\\ZA_Upgrader.*
+.*\\ZAAudioClient\.exe.*
+.*\\ZAFileTransfer\.exe.*
+.*\\ZAService\.exe.*
+.*\\ZAudioClientPipe_.*ServerReadPipe.*
+.*\\ZAudioClientPipe_.*ServerWritePipe.*
 .*\\zerologon\.py.*
+.*\\ZMAgent\.exe.*
+.*\\Zoho Assist\\Zoho Assist Remote support.*
+.*\\ZohoMeeting\.7z.*
+.*\\ZohoMeeting\.exe.*
+.*\\zohomeeting\\agent\.exe.*
+.*\\ZohoMeeting\\agent_ui\.exe.*
+.*\\ZohoMeeting\\Connect\.exe.*
+.*\\ZohoMeeting\\Connection\.conf.*
+.*\\ZohoMeeting\\log\\.*\.log.*
+.*\\ZohoMeeting\\ViewerUI\.exe.*
+.*\\ZohoTray\.exe.*
+.*\\ZohoURS\.exe.*
+.*\\ZohoURSService\.exe.*
 .*] Attempting to enumerate logged on users on .*
 .*] Cleared all rat command queues!.*
 .*] Creating c3pool_miner service.*
@@ -9273,6 +9335,7 @@
 .*_backdoor\.exe.*
 .*_backdoor\.rb.*
 .*_BloodHound\.zip.*
+.*_Classes\\zohoassistlaunchv2.*
 .*_cobaltstrike.*
 .*_dcsync\.txt.*
 .*_dns_hijack/.*\.js.*
@@ -9351,6 +9414,8 @@
 .*>NETSUPPORT LTD\.</.*
 .*>NetSupport Ltd</.*
 .*>NetSupport remote Control</.*
+.*>Remote Support Customer Client</Data>.*
+.*>Representative Console</Data>.*
 .*0\.0\.0\.0:2222.*
 .*0\.0\.0\.0:4444.*
 .*0\.0\.0\.0:4445.*
@@ -10289,6 +10354,7 @@
 .*assembly_inject -.*
 .*--assemblyargs AntiVirus AppLocker.*
 .*Assets/solution/dllmain\.cpp.*
+.*assist\.zoho\.com.*
 .*AssmblyLoader.*
 .*assoc .*findstr .*=cm.*
 .*assoc .*findstr .*lCmd.*
@@ -10737,6 +10803,7 @@
 .*bettercap-master\.zip.*
 .*betterdefaultpasslist.*
 .*BetterSafetyKatz\..*
+.*beyondtrustcloud\.com\\Software\\Qt6.*
 .*bfidboloedlamgdmenmlbipfnccokknp.*
 .*bgetprivs.*
 .*bhashdump.*
@@ -11856,6 +11923,8 @@
 .*comnap_\#\#.*
 .*comnode_\#\#.*
 .*'Company'>Action1 Corporation.*
+.*'Company'>BeyondTrust</Data>.*
+.*'Company'>bomgar</Data>.*
 .*Company'>NetSupport Ltd</.*
 .*'Company'>UltraVNC</Data>.*
 .*compile_implant.*
@@ -12984,6 +13053,8 @@
 .*Downloading .*/.*\.tar to /tmp/.*\.pak.*
 .*Downloading.*%MINER_LOCATION%.*
 .*downloadMalwareDomains.*
+.*downloads\.zohocdn\.com.*
+.*downloads\.zohodl\.com\.cn.*
 .*downloads/wapiti-code.*
 .*downloadshellcodebin\.c.*
 .*downloadshellcodebin\.exe.*
@@ -13426,6 +13497,7 @@
 .*etwti-hook\..*
 .*eun1\.rel\.tunnels\.api\.visualstudio\.com.*
 .*euw\.rel\.tunnels\.api\.visualstudio\.com.*
+.*eval-.*\.beyondtrustcloud\.com.*
 .*evallen/ntpescape.*
 .*evasion/has_recycle_bin\..*
 .*evasion_shellcode\.js.*
@@ -14128,6 +14200,7 @@
 .*GadgetToJScript-master.*
 .*Gality369/CS-Loader.*
 .*GateTrampolin\.asm.*
+.*gateway\.zohoassist\.com.*
 .*gateway-finder.*
 .*gather/credentials/rdc_manager_creds.*
 .*gather/credentials/teamviewer_passwords.*
@@ -15312,6 +15385,8 @@
 .*https://.*\.tor2web.*
 .*https://.*\.torlink.*
 .*https://.*\.use\.devtunnels\.ms.*
+.*https://.*\.zoho\.com/pconnect.*
+.*https://.*\.zohoassist\.com/w_socket.*
 .*https://.*/\.htaccess\?c=cmd.*
 .*https://.*/\.htaccess\?c=uname -a.*
 .*https://.*/releases/download/.*/lse\.sh.*
@@ -15336,6 +15411,12 @@
 .*https://api\.telegram\.org/bot.*/sendMessage.*
 .*https://app\.action1\.com/agent/.*/Windows/.*\.msi.*
 .*https://apps\.apple\.com/us/app/tailscale/id.*
+.*https://assist\.zoho\.com/assist-join\?key=.*
+.*https://assist\.zoho\.com/customer-session-details\?client_token=.*
+.*https://assist\.zoho\.com/join\?join_source=EMAIL_INVITE.*
+.*https://assist\.zoho\.com/join-session\?key=.*
+.*https://assist\.zoho\.com/org/.*
+.*https://assist\.zoho\.com/viewer-assist.*
 .*https://avred\.r00ted\.ch/upload.*
 .*https://bashupload\.com.*
 .*https://browser\.lol/vnc\?server=.*
@@ -15379,6 +15460,7 @@
 .*https://ntlm\.pw/.*
 .*https://pastebin\.com/raw/fevFJe98.*
 .*https://proxy\.duckduckgo\.com/iu/\?u=https://pdxkmdcepvahysnnxe\.pythonanywhere\.com/image\.jpg\?cmd=.*
+.*https://pubsub\.zoho\.com/.*_deskUserPresence/pubsub.*
 .*https://qu\.ax/.*\..*
 .*https://remotedesktop\.google\.com/_/oauthredirect.*
 .*https://remotedesktop\.google\.com/headless.*
@@ -15402,6 +15484,7 @@
 .*https://transfert-my-files\.com/files/.*
 .*https://transfert-my-files\.com/inc/upload\.php.*
 .*https://unit259\.fyi/db.*
+.*https://us4-wms6\.zoho\.com.*
 .*https://viperone\.gitbook\.io/pentest-everything.*
 .*https://we\.tl/t-.*
 .*https://weakpass\.com/.*
@@ -17289,6 +17372,7 @@
 .*libxpc_mitm_ssudo\..*
 .*libxselinux\.old.*
 .*libxselinux\.so.*
+.*license\.bomgar\.com.*
 .*lightsout\.py.*
 .*LightsOut-master\.zip.*
 .*ligolo\.lan.*
@@ -19901,6 +19985,7 @@
 .*ProcHideClient\.exe -.*
 .*ProcHideDrv_x64\.sys.*
 .*ProcProtectClient\.exe .*
+.*ProductName:Zoho%%20Assist.* apptype:ATTENDEE.*
 .*produkey\.zip.*
 .*produkey_setup\.exe.*
 .*produkey-x64\.zip.*
@@ -19914,6 +19999,7 @@
 .*Program Files \(x86\)\\ScreenConnect Client.*
 .*Program Files \(x86\)\\Splashtop.*
 .*Program Files \(x86\)\\uvnc bvba\\.*
+.*program files \(x86\)\\zohomeeting.*
 .*program files.*\\netsupport\\.*
 .*Program Files\\SimpleHelp.*
 .*Program Files\\VSA X\\.*
@@ -21654,6 +21740,7 @@
 .*ServiceName'>GoToMyPC.*
 .*'ServiceName'>VSA X</Data>.*
 .*'ServiceName'>VSAX</Data>.*
+.*'ServiceName'>Zoho Assist-Remote Support.*
 .*Serving Tailscale web client on http://.*
 .*servpw\.exe.*
 .*servpw64\.exe.*
@@ -23141,6 +23228,7 @@
 .*taskkill\.exe /F /IM lsass\.exe.*
 .*tasklist /fi .*Imagename eq lsass\.exe.* \| find .*lsass.*
 .*tasklist /svc \| findstr /i .*vmtoolsd\.exe.*.*
+.*'TaskName'>\\Bomgar Task .*
 .*taskset 1 /bin/sh -p.*
 .*TaskShell\.exe .* -b .*\.exe.*
 .*TaskShell\.exe .* -s .*SYSTEM.*
@@ -23376,6 +23464,7 @@
 .*TMVB6XJWzuz4KsqUCnwxrtooQV9LmP6R4IX62HeQ7OZzhxgsahsxNzf05dJNkntl.*
 .*tNidhoggClient\.exe.*
 .*to \$LogonPasswords.*
+.*To: All Representatives  From: Remote Support .* has added a note to this session\..*
 .*to_powershell\.ducky_script.*
 .*toggle_privileges\.cna.*
 .*toggle_privileges_bof\..*
@@ -23577,6 +23666,7 @@
 .*ttyd -i 0\.0\.0\.0 -p 7682 .*
 .*TunnelGRE/Augustus.*
 .*tunnels-prod-rel-tm\.trafficmanager\.net.*
+.*turn-.*\.zohomeeting\.com.*
 .*turn\.console\.gotoassist\.com.*
 .*turn_keylogger.*
 .*TVqQAAMAAAAEAAAA.*
@@ -24557,11 +24647,15 @@
 .*YwBhAGwAYwA=.*
 .*Z29oYWxleWdvYW5kaGFja2F3YXl0aGVnaWJzb24.*
 .*Z4nzu/hackingtool.*
+.*ZA_Connect\.exe .*
+.*ZA_Connect\.exe\.ApplicationCompany.*
 .*zabbix_session_exp\.py -.*
 .*zabbix_session_exp\.py https.*
 .*zabbix_session_exp\.py.*
+.*ZAFileTransfer\.exe .*
 .*ZAQwsxcde321.*
 .*zarp\.py.*
+.*ZAService\.exe .*
 .*zblurx/certsync.*
 .*zblurx/dploot.*
 .*zcgonvh/DCOMPotato.*
@@ -24599,6 +24693,10 @@
 .*ZnVuY3Rpb24gRG9udXQtTG9hZGVyIHtwYXJhbSgkcHJvY2Vzc19pZCwkZG9udXRmaWx.*
 .*ZnVuY3Rpb24gRGxsLUxvYWRlciB7CiAgICBwYXJhbShbc3dpdGNoXSRzbWIsIFtzd2l0Y.*
 .*ZnVuY3Rpb24gSW52b2tlLUJpbmFyeSB7cGFyYW0oJGFyZykKICAgICRoZWxwPUAi.*
+.*ZOHO CORPORATION PRIVATE LIMITED.*
+.*ZohoMeeting\.exe.*
+.*ZohoMeeting\\FileTransferSettings\.conf.*
+.*ZohoMeeting\\Service\.Conf.*
 .*zoom1\.msi\.gpg.*
 .*zoom2\.dll\.gpg.*
 .*zsh_executor .*
@@ -24648,6 +24746,7 @@
 \\adhunt\.py
 \\jaccdpqnvbrrxlaf.*
 \\Posh.*
+>Bomgar Corporation</Data>.*
 afrog -.*
 b2363d2b238f9336bb270fe96db258243668a916d7ddf94bf3a3126ed7cae508
 b8ad30b89d6cabe30501ed963b21dcaec70b3283608682678629feae2c1b2235
