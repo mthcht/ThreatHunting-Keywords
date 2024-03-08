@@ -12,7 +12,8 @@
   - [specific fields](#hunt-the-keywords-in-other-fields--urlprocesscommandlinequery)
   - [speed](#speed)
   - [dashboard example](#dashboard-example)
-  - [With ELK it's different](#With-ELK) 
+  - [With ELK it's different](#With-ELK)
+  - [Other awesome lists for_detection](#Other-awesome-lists-for-detection)
 - [Hunt without a SIEM](#dfir-hunt-for-keywords-in-files-no-siem)
   - [DFIR Optimized Hunt](#better-option-for-very-large-files-on-windows)
   - [YARA Rules](#YARA-Rules)
@@ -207,6 +208,23 @@ If you are working with the Elastic Stack, there is a lot of restrictions for li
 ### Dashboard Example
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/804c74c1-c50e-4e50-93d4-507e202d8773)
 
+### Other awesome lists for detection
+I keep some relevant artefacts in separated lists, these lists are more precise and can be used in detection rules, they are available in this [github repo](https://github.com/mthcht/awesome-lists/tree/main/Lists)
+you will find:
+
+- 🚰 Suspicious Named pipes: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
+- 🔧 Suspicious Windows Services: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv
+- ⏲️ Suspicious Windows Tasks: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv
+- 🚪 Suspicious destination port: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv
+- 🛡️ Suspicious Firewall rules: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_firewall_rules_list.csv
+- 🆔 Suspicious User-agent: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_http_user_agents_list.csv
+- 📇 Suspicious USB Ids: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv
+- 🔢 Suspicious MAC address: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv
+- 📛 Suspicious Hostname: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv
+- 🧮 Metadata Executables: https://github.com/mthcht/awesome-lists/blob/main/Lists/executables_metadata_informations_list.csv
+- 🕸️ DNS over HTTPS server list: https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv
+
+Check out these [Guides](https://github.com/mthcht/awesome-lists/blob/main/Lists/README.md) to use some of the lists
 
 ## DFIR Hunt for keywords in files (No SIEM)
 After conducting a thorough review of various tools, I discovered that [ripgrep](https://github.com/BurntSushi/ripgrep) significantly outperforms its competitors when it comes to rapidly matching an extensive list of regex patterns against each line of a large log file or even multiple files simultaneously. It proved to be the most efficient solution for handling massive amounts of data, providing unparalleled speed and flexibility.
