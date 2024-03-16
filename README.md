@@ -94,6 +94,15 @@ However, if you're developing public "red team tools", consider aiding the blue 
 
   ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/a49969f0-22ed-4f10-90f3-7fb7e3951a98)
 
+transforms.conf
+```
+[threathunting-keywords]
+batch_index_query = 0
+case_sensitive_match = 0
+filename = threathunting-keywords.csv
+match_type = WILDCARD(keyword)
+```
+
 - now we can use our lookup definition to hunt 🏹
 
 ## Example use cases with `threathunting-keywords`:
