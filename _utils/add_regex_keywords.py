@@ -6,9 +6,9 @@ def string_to_regex_pattern(input_string):
     .replace("\"", "\\\"").replace(".", "\\.").replace(" ", "\\s")\
     .replace("|", "\\|").replace("/", "\\/").replace("(", "\\(").replace(")", "\\)")\
     .replace('+','\+').replace("&","\\&").replace('?','\?').replace('[','\[')\
-    .replace(']','\]').replace("'","\\'").replace('-','\-').replace('!','\!').replace('#','\#')\
+    .replace(']','\]').replace("'","\\'").replace('-','\-').replace('#','\#')\
     .replace('"','\"').replace('^','\^').replace('%','\%').replace('=','\=').replace('$','\$')\
-    .replace(';','\;').replace(',','\,').replace('<','\<').replace('>','\>').replace('@','\@')\
+    .replace(';','\;').replace('<','\<').replace('>','\>').replace('@','\@')\
     .replace('}','\}').replace('{','\{').replace('`','\`').replace('~','\~').replace(':','\:')\
     .replace('*', '.{0,1000}')
     return regex_pattern
