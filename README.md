@@ -211,7 +211,7 @@ Note that filtering using the search command after the `|lookup` doesn't expedit
 ![pngwing com](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/ba6c2a3d-15c4-4a32-9d25-e8a8eaaae927)
 
 If you are working with the Elastic Stack, there is a lot of restrictions for lists (you cannot use special caracters, spaces ...), you have two options:
-- Use another list available here in the same repo https://github.com/mthcht/ThreatHunting-Keywords/tree/main/elk (it's not a direct extract of threathunting-keywords.csv, it's modified for ELK)
+- Use another list available here in the same repo https://github.com/mthcht/ThreatHunting-Keywords/tree/main/elk (it's not a direct extract of threathunting-keywords.csv, it's modified for ELK and not updated)
 - Use Sigma "hunting" rules, directly extracted from this project https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules with pysigma for the convertion
 
 ### Dashboard Example
