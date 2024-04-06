@@ -1,5 +1,4 @@
-﻿
- * 2>&1 && certutil -encodehex -f * && for /F "usebackq" * reg add HKLM\*
+﻿ * 2>&1 && certutil -encodehex -f * && for /F "usebackq" * reg add HKLM\*
 * - Bypassing UAC with SSPI Datagram Contexts*
 * - delete: Delete a scheduled task. Requires restarting the *
 *  Execute command elevated through Run Dialog*
@@ -5136,7 +5135,7 @@
 */github.com/*/raw/main/*.rar*
 */github.com/*/raw/main/*.raw*
 */github.com/*/raw/main/*.reg*
-*/github.com/*/raw/main/*.rgs*
+*/github.com/*/raw/main/*.RGS*
 */github.com/*/raw/main/*.run*
 */github.com/*/raw/main/*.scpt*
 */github.com/*/raw/main/*.script*
@@ -5181,7 +5180,7 @@
 */gocrack_server*
 */gocrack_worker*
 */gocrack-1.0.zip*
-*/goDoH.git*
+*/godoh.git*
 */godoh/*
 */goDoH/releases*
 */godoh-master.zip*
@@ -5700,7 +5699,7 @@
 */KaynStrike.cna*
 */KaynStrike.git*
 */KCMTicketFormatter*
-*/kdstab.*
+*/KDStab.*
 */KDStab/*
 */keepass_discover.py*
 */keepass_discover_*.txt*
@@ -5798,7 +5797,7 @@
 */lateral_movement/*
 */lateral_movement/*.ps1
 */LaZagne.git*
-*/laZagne.py*
+*/LaZagne.py*
 */lazagne.zip*
 */LaZagne/Windows/*
 */ld.so /bin/sh -p*
@@ -7999,7 +7998,7 @@
 */veeam_dump.py*
 */veeam-creds.git*
 */Vegile.git*
-*/Venom.git*
+*/venom.git*
 */venom.sh *
 */Venom.v1.0.1.7z*
 */Venom.v1.0.2.7z*
@@ -8621,7 +8620,7 @@
 *\\.\\pipe\\Teste*
 *\\.\Nidhogg*
 *\\.\pipe\coerced\pipe\spoolss*
-*\\.\pipe\Merlin*
+*\\.\pipe\merlin*
 *\\.\pipe\mimi*
 *\\.\pipe\pwned/pipe/srvsvc*
 *\\.\pipe\Supremo*
@@ -9187,7 +9186,7 @@
 *\D1rkInject\*
 *\daclread.py*
 *\DameWare Development\MrcVerbLog*
-*\Dameware Mini Remote Control x64\*
+*\dameware mini remote control x64\*
 *\DameWare Mini Remote Control*.exe*
 *\Dameware Mini Remote Control.lnk*
 *\dameware remote everywhere agent*
@@ -9692,7 +9691,7 @@
 *\gs-sftp*
 *\GzipB64.exe*
 *\HackBrowserData*
-*\Hades.exe*
+*\hades.exe*
 *\hades-main.zip*
 *\HandleHijacker.cpp*
 *\HandleHijacker.hpp*
@@ -9778,7 +9777,7 @@
 *\interesting-teamsmessages.csv*
 *\InternetIdService.exe*
 *\InternetIdService_*-*-*.txt
-*\Inveigh.exe*
+*\inveigh.exe*
 *\Inveigh.ps1*
 *\Inveigh\bin\*
 *\InventoryApplicationFile\aeroadmin*
@@ -9929,7 +9928,7 @@
 *\LMIRescueMqttMessages_*.dat*
 *\LMIRescueUpdater.log*
 *\LMIRhook.000.dll*
-*\lmirtechconsole.exe*
+*\LMIRTechConsole.exe*
 *\LMITrs-*.trs*
 *\lnk_parser_cmd.exe -r *
 *\lnkbomb.py*
@@ -10449,7 +10448,7 @@
 *\PowerShellRunnerDll.h*
 *\PowerTools.ps1*
 *\Powerup.exe*
-*\Powerup.ps1*
+*\PowerUp.ps1*
 *\PowerView.cna*
 *\Powerview.exe*
 *\PowerView.ps1*
@@ -10679,7 +10678,7 @@
 *\Remote Command Executor.sln*
 *\remote support.exe*
 *\Remote SupportEmbedExample.html*
-*\remote utilities - host\*
+*\Remote Utilities - Host\*
 *\remote utilities agent\*
 *\Remote Utilities Agent\Logs*
 *\Remote Utilities Files\rdp_connections\*
@@ -10739,7 +10738,7 @@
 *\RemotePCUDEHost.inf*
 *\RemotePCUDEHost.sys*
 *\RemotePCUIA.exe*
-*\remotepcuiu.exe*
+*\RemotePCUIU.exe*
 *\RemotePCViewer.msi*
 *\RemotePotato0.cpp*
 *\RemotePotato0.sln*
@@ -10798,7 +10797,7 @@
 *\RPCCoreViewer.exe*
 *\RPCCoreViewerL.exe*
 *\RpcDND_Console.exe*
-*\rpcdownloader.exe*
+*\RPCDownloader.exe*
 *\RPCDownloaderLogFile.txt*
 *\RPCDragDrop.txt*
 *\rpcdump.py*
@@ -10919,7 +10918,7 @@
 *\ScriptSentry.psm1*
 *\ScriptSentry.txt*
 *\scuffy.py*
-*\SeatBelt.exe*
+*\Seatbelt.exe*
 *\Seatbelt.sln*
 *\Seatbelt.txt*
 *\Seatbelt\Commands\*
@@ -11435,7 +11434,7 @@
 *\Venom.v1.0.7z*
 *\Venom.v1.1.0.7z*
 *\Videos\AnyDesk*
-*\viewerhostkeypopup.exe*
+*\ViewerHostKeyPopup.exe*
 *\viewer-portable-7.2.2.0\*
 *\VNC\.VNC-Non-Auth.txt*
 *\vncdll.x64.dll*
@@ -11600,7 +11599,7 @@
 *\Zoho Assist\Zoho Assist Remote support*
 *\ZohoMeeting.7z*
 *\ZohoMeeting.exe*
-*\ZohoMeeting\agent.exe*
+*\zohomeeting\agent.exe*
 *\ZohoMeeting\agent_ui.exe*
 *\ZohoMeeting\Connect.exe*
 *\ZohoMeeting\Connection.conf*
@@ -11802,7 +11801,7 @@
 *>NetSupport Client Application</*
 *>NETSUPPORT LTD.</*
 *>NetSupport Ltd</*
-*>NetSupport Remote Control</*
+*>NetSupport remote Control</*
 *>Password Recovery for Remote Desktop<*
 *>Product: Remote Utilities - Viewer -- *
 *>Product: Remote Utilities Server -- *
@@ -13234,7 +13233,7 @@
 *ADRecon.ps1*
 *ADRecon-Report-*
 *adsearch* --domain-admins*
-*adsearch.exe*
+*ADSearch.exe*
 *ADSearch.sln*
 *ADSearch\ADSearch.cs*
 *adsearch-master.zip
@@ -13328,7 +13327,7 @@
 *aggressor.py*
 *Aggressor/TikiTorch*
 *AggressorScripts*
-*Aggressor-Scripts*
+*aggressor-scripts*
 *AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA*
 *ahmedkhlief/Ninja*
 *AhMyth-Android-RAT*
@@ -13336,7 +13335,7 @@
 *aigmfoeogfnljhnofglledbhhfegannp*
 *aiocmd\nested_completer.py*
 *Airbash*
-*Aircrack-ng*
+*aircrack-ng*
 *aireplay-ng *
 *Airgeddon*
 *airman604/splunk_whisperer*
@@ -13895,7 +13894,7 @@
 *BadgerWcslen*
 *Bad-Pdf*
 *BadPotato.cs*
-*BadPotato.exe*
+*badpotato.exe*
 *badrat.smb.hta*
 *badrat.smb.js*
 *badrat_cs.csproj*
@@ -13977,7 +13976,7 @@
 *bd514bc9dda0863e30e834afcf4d5b406c228f10a980ad3f434867d5aa6ef592*
 *BD602C80-47ED-4294-B981-0119D2200DB8*
 *bd63af36618538f67b2bf90652fb7536b40c915b307a69887df67bd5cf0400b6*
-*BD745A5E-A1E9-4FDD-A15B-E9F303A625AE*
+*bd745a5e-a1e9-4fdd-a15b-e9f303a625ae*
 *bd7552c78fd3f852e39b140051c4a1aa5a30a14e23eee49cfb570e19b4dbb0fa*
 *bd78ea00b16797551d4f40297f42e9b1f9d912f416a115c3eb10f340246a9d54*
 *bd976ca9268513e6cc4a58b85574f62b8a76cc92*
@@ -15429,7 +15428,7 @@
 *config/51pwn/CVE-*
 *CONFIG_NETKIT_DEBUG*
 *config_steal /etc/krb5.conf /etc/krb5.keytab*
-*Confuser.CLI.Exe*
+*Confuser.CLI.exe*
 *Confuser.DynCipher.dll*
 *Confuser.Renamer.dll*
 *ConfuserEx (CLI)*
@@ -15597,7 +15596,7 @@
 *cracklord-master.*
 *cracklord-queued*_amd64.deb*
 *cracklord-resourced*_amd64.deb*
-*CrackMapExec*
+*crackmapexec*
 *crackmapexec.exe*
 *crackmapexec.py*
 *crackmapexec.spec*
@@ -18744,16 +18743,16 @@
 *GetWhoamiCommand.cs*
 *GetWindowsCredentials.exe*
 *Get-WLAN-Keys*
-*Get-WLAN-Keys.ps1*
+*Get-Wlan-Keys.ps1*
 *Get-WMIEventLogins*
 *Get-WmiObject ?ComputerName * ?Class Win32_ComputerSystem | * UserName*
 *Get-WmiObject -class SMS_Authority -namespace root\CCM*
 *Get-WmiObject win32_loggedonuser -ComputerName *
 *getwmiregcachedrdpconnection*
-*Get-WMIRegCachedRDPConnection*
+*get-wmiregcachedrdpconnection*
 *getwmireglastloggedon*
-*Get-WMIRegLastLoggedOn*
-*Get-WMIRegMountedDrive*
+*get-wmireglastloggedon*
+*get-wmiregmounteddrive*
 *Get-WorkingHours*
 *gexplorer.exe*
 *ggackgngljinccllcmbgnpgpllcjepgc*
@@ -20061,7 +20060,7 @@
 *injectremote.boo*
 *Inject-RemoteShellcode*
 *inject-shellcode *
-*injectShellcode*
+*InjectShellcode*
 *InjectShellCode.cs*
 *InjectShellCodeRemote.cs*
 *InjectShellCodeWMIFSB64*
@@ -20287,7 +20286,7 @@
 *Invoke-AmsiBypass*
 *Invoke-APIConnectionHijack.ps1*
 *Invoke-ApplicationsOnStartupCheck*
-*Invoke-ARPScan*
+*invoke-arpscan*
 *Invoke-ARPScan.ps1*
 *Invoke-ASREPRoast*
 *InvokeAssembly.x64.dll*
@@ -20329,7 +20328,7 @@
 *Invoke-Certify*
 *Invoke-CheckAccess*
 *invokechecklocaladminaccess*
-*Invoke-CheckLocalAdminAccess*
+*invoke-checklocaladminaccess*
 *Invoke-CleverSpray*
 *Invoke-CleverSpray.ps1*
 *Invoke-ClipboardMonitor*
@@ -20372,7 +20371,7 @@
 *Invoke-DumpApps*
 *Invoke-DumpCAPS*
 *Invoke-DumpOWAMailboxViaMSGraphApi*
-*invoke-edrchecker*
+*Invoke-EDRChecker*
 *Invoke-EDRChecker.ps1*
 *Invoke-EgressCheck*
 *Invoke-EgressCheck.ps1*
@@ -20389,7 +20388,7 @@
 *Invoke-EnvBypass.ps1*
 *Invoke-EssessAgress*
 *invoke-eternalblue*
-*Invoke-EventHunter*
+*invoke-eventhunter*
 *Invoke-EventViewer *.exe*
 *Invoke-EventViewer.ps1*
 *Invoke-EventVwrBypass*
@@ -20421,13 +20420,13 @@
 *Invoke-GraphRunner*
 *Invoke-Grouper2*
 *Invoke-Grouper3*
-*Invoke-HandleKatz*
+*Invoke-Handlekatz*
 *Invoke-HardenedUNCPathCheck*
 *Invoke-HijackableDllsCheck*
 *Invoke-HiveDump*
 *Invoke-HiveNightmare.ps1*
 *Invoke-HoneypotBuster*
-*Invoke-HostEnum -*
+*invoke-hostenum -*
 *Invoke-HostEnum*
 *Invoke-HostRecon*
 *invoke-hostscan*
@@ -20446,7 +20445,7 @@
 *Invoke-InstalledServicesCheck*
 *Invoke-Interceptor*
 *Invoke-Interceptor.ps1*
-*Invoke-InternalMonologue*
+*Invoke-Internalmonologue*
 *Invoke-InternalMonologue.ps1*
 *Invoke-Inveigh*
 *Invoke-InveighRelay*
@@ -20518,7 +20517,7 @@
 *Invoke-Obfuscation.psd1*
 *Invoke-OpenInboxFinder*
 *Invoke-OpenOWAMailboxInBrowser*
-*Invoke-Oxidresolver*
+*Invoke-OxidResolver*
 *Invoke-P0wnedshell*
 *Invoke-P0wnedshellx86*
 *Invoke-PacketKnock*
@@ -20541,7 +20540,7 @@
 *Invoke-PiperServer*
 *Invoke-PipeShell.ps1*
 *Invoke-PortBind*
-*Invoke-Portscan*
+*Invoke-PortScan*
 *Invoke-Portscan.ps1*
 *Invoke-PoshRatHttp*
 *Invoke-PoshRatHttps*
@@ -20588,10 +20587,10 @@
 *Invoke-ps2exe*
 *Invoke-PSAmsiScan*
 *Invoke-PsExec*
-*Invoke-PSexec.ps1*
+*Invoke-PsExec.ps1*
 *invoke-psexecpayload*
 *Invoke-PsGcat*
-*Invoke-PSGcat.ps1*
+*Invoke-PsGcat.ps1*
 *Invoke-PsGcatAgent*
 *Invoke-PsGcatAgent.ps1*
 *Invoke-PSImage*
@@ -20687,7 +20686,7 @@
 *Invoke-Sharphound*
 *Invoke-Sharphound2*
 *Invoke-Sharphound3*
-*Invoke-SharpHound4*
+*Invoke-Sharphound4*
 *Invoke-SharpImpersonation*
 *Invoke-SharpImpersonationNoSpace*
 *Invoke-SharpKatz*
@@ -20745,7 +20744,7 @@
 *Invoke-SocksProxy*
 *Invoke-SocksProxy.*
 *Invoke-SocksProxy.ps1*
-*Invoke-Spoolsample*
+*Invoke-SpoolSample*
 *Invoke-SprayEmptyPassword*
 *Invoke-SQLAudit*
 *Invoke-SQLDumpInfo*
@@ -20787,7 +20786,7 @@
 *Invoke-UserGroupsCheck*
 *Invoke-UserHunter -CheckAccess*
 *invokeuserhunter*
-*invoke-userhunter*
+*Invoke-UserHunter*
 *Invoke-UserImpersonation*
 *Invoke-UsernameHarvestEAS*
 *Invoke-UsernameHarvestGmail*
@@ -20827,7 +20826,7 @@
 *Invoke-WmicDriveBy.*
 *Invoke-WmiCommand *
 *Invoke-WmiCommand*
-*Invoke-WMIExec *
+*invoke-wmiexec *
 *Invoke-WMIExec*
 *Invoke-WMIExec.ps1*
 *invoke-wmijspayload*
@@ -20840,7 +20839,7 @@
 *Invoke-WmiShadowCopy*
 *Invoke-WScriptBypassUAC*
 *Invoke-WscriptElevate*
-*Invoke-ZeroLogon*
+*Invoke-Zerologon*
 *Invoking CreateSvcRpc (by @x86matthew*
 *io_dirtycow.c*
 *io_dirtycow.so*
@@ -21174,7 +21173,7 @@
 *kerberoast /*
 *Kerberoast Attack - Services Configured With a Weak Password*
 *Kerberoast.*
-*kerberoast.py*
+*Kerberoast.py*
 *kerberoast_attack*
 *kerberoast_blind_output_*
 *kerberoast_john_results_*
@@ -21258,7 +21257,7 @@
 *keylogger stopped*
 *Keylogger*
 *Keylogger.cs*
-*keylogger.dll*
+*KeyLogger.dll*
 *Keylogger.exe*
 *Keylogger.java*
 *Keylogger.My*
@@ -21302,7 +21301,7 @@
 *KillDefender.h*
 *KillDefender.x64*
 *KillDefender.x64.*
-*KillDefender_BOF*
+*killdefender_bof*
 *KillDefenderBOF-main*
 *Killed running eventvwr*
 *Killed running sdclt*
@@ -21628,7 +21627,7 @@
 *ldap_shell.py*
 *ldapasn1.py*
 *ldapattack.py*
-*ldapdomaindump*
+*LDAPDomainDump*
 *ldapdomaindump.zip*
 *ldapfilter:*admincount=1* /format:hashcat*
 *LdapMiner*
@@ -22322,7 +22321,7 @@
 *meshcentral.exe*
 *meshcentral.serverstats*
 *MeshCentralAssistant.exe*
-*MeshCentralInstaller.exe*
+*meshcentralinstaller.exe*
 *meshcentral-plugins.db*
 *MeshCentralRoot-*
 *MeshCentralRouter.exe*
@@ -22475,12 +22474,12 @@
 *MimiTickets\*-Tickets.txt*
 *minidump*minikerberos*
 *minidump.* lsass.dmp*
-*Minidump.exe*
+*minidump.exe*
 *Minidump.sln*
 *minidump_add_memory_block*
 *minidump_add_memory64_block*
 *minidumptomemsharp.lsa.lsaproviderduper.boo*
-*minidumpwritedump*
+*MiniDumpWriteDump*
 *minikerberos.zip*
 *mining in background will be started using your startup directory script and only work when your are logged in this host*
 *Mining will happen to * wallet*
@@ -23071,7 +23070,7 @@
 *netscan_setup.exe*
 *netsh advfirewall firewall add rule name="Radmin Server *
 *netsh advfirewall firewall show rule name=all*
-*NetSh Advfirewall set allprofiles state off*
+*netsh advfirewall set allprofiles state off*
 *netsh firewall add allowedprogram "C:\Users\*\AppData\*.exe" "*.exe" ENABLE*
 *netsh firewall set opmode disable*
 *netsh interface portproxy add v4tov4 listenport=* connectport=* connectaddress=*
@@ -23335,7 +23334,7 @@
 *NoPowerShell.Commands.Management*
 *NoPowerShell.csproj*
 *NoPowerShell.dll*
-*nopowershell.exe*
+*NoPowerShell.exe*
 *NoPowerShell.sln*
 *NoPowerShell/*.cs*
 *NoPowerShell_trunk.zip*
@@ -24063,7 +24062,7 @@
 *PetitPotam.cpp*
 *PetitPotam.exe*
 *PetitPotam.ps1*
-*petitpotam.py*
+*PetitPotam.py*
 *PetitPotam.sln*
 *PetitPotam.vcxproj*
 *PetitPotam:main*
@@ -24375,7 +24374,7 @@
 *powerpick -Command *
 *powerpick.py*
 *PowerPick.x64.dll*
-*Powerpreter.psm1*
+*powerpreter.psm1*
 *powerpwn.powerdump*
 *powerpwn_tests*
 *power-pwn-main*
@@ -24477,7 +24476,7 @@
 *powerstager*
 *PowerUp.ps1*
 *PowerUpSQL*
-*PowerView.ps1*
+*powerview.ps1*
 *PowerView_dev.ps1*
 *PowerView3-Aggressor*
 *ppajinakbfocjfnijggfndbdmjggcmde*
@@ -24541,7 +24540,7 @@
 *PrintSpoofer-*
 *PrintSpoofer.*
 *PrintSpoofer.cpp*
-*PrintSpoofer.exe*
+*printspoofer.exe*
 *printspoofer.py*
 *PrintSpoofer.sln*
 *PrintSpoofer_x64.exe*
@@ -25264,7 +25263,7 @@
 *raw.githubusercontent.com*.rar*
 *raw.githubusercontent.com*.raw*
 *raw.githubusercontent.com*.reg*
-*raw.githubusercontent.com*.rgs*
+*raw.githubusercontent.com*.RGS*
 *raw.githubusercontent.com*.run*
 *raw.githubusercontent.com*.scpt*
 *raw.githubusercontent.com*.script*
@@ -25459,7 +25458,7 @@
 *ReflectiveDll.x64.dll*
 *ReflectiveDll.x86.dll*
 *ReflectiveDLLInjection*
-*ReflectiveDllInjection.*
+*ReflectiveDLLInjection.*
 *ReflectiveDLLInjection.h*
 *ReflectiveDLLInjection/dll*
 *Reflective-HackBrowserData*
@@ -25513,7 +25512,7 @@
 *reg delete HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v Security /f*
 *reg query "HKEY_LOCAL_MACHINE\SOFTWARE\MICROSOFT\WINDOWS NT\CURRENTVERSION\WINLOGON" /v CACHEDLOGONSCOUNT*
 *reg query hkcu\software\*\putty\session*
-*reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\LSA /v RunAsPPL*
+*reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa /v RunAsPPL*
 *reg query HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\ /v RunAsPPL*
 *reg query hklm\software\OpenSSH*
 *reg query hklm\software\OpenSSH\Agent*
@@ -25603,7 +25602,7 @@
 *Remote Access-windows32-offline.exe*
 *Remote Access-windows32-online.exe*
 *Remote Access-windows64-offline.exe*
-*remote access-windows64-online.exe*
+*Remote Access-windows64-online.exe*
 *-remote -destPipe * -pipeHost * -destHost *
 *Remote Potato by @decoder_it and @splinter_code*
 *Remote Support-java-online.jar*
@@ -25622,7 +25621,7 @@
 *Remote Support-windows32-offline.exe*
 *Remote Support-windows32-online.exe*
 *Remote Support-windows64-offline.exe*
-*remote support-windows64-online.exe*
+*Remote Support-windows64-online.exe*
 *Remote Utilities Pty (Cy) Ltd.*
 *Remote Work-windows64-online.exe*
 *Remote/lastpass/lastpass.x86.*
@@ -25937,7 +25936,7 @@
 *rpcmap.py*
 *rpc-msf.go*
 *RPCPerformanceHealthCheck*
-*rpcperformanceservice.exe*
+*RPCPerformanceService.exe*
 *rpcperfviewer.exe *
 *RPCPerfViewer.log*
 *rpcprinterdownloader.exe*
@@ -26508,7 +26507,7 @@
 *SendToPasteBin.ps1*
 *sense2john.py*
 *SenseCncProxy.exe*
-*sensepost/goDoH*
+*sensepost/godoh*
 *sensepost/impersonate*
 *sensepost/kwetza*
 *sensepost/reGeorg*
@@ -27021,7 +27020,7 @@
 *SharpSQLPwn*
 *SharpSQLPwn.exe*
 *SharpStay.csproj*
-*SharpStay.exe*
+*Sharpstay.exe*
 *SharpStay.sln*
 *SharpStay-master*
 *Sharp-Suite.git*
@@ -27164,7 +27163,7 @@
 *shellter.exe*
 *shepardsbind_recv.py*
 *shepbind_serv.exe*
-*Sherlock.ps1*
+*sherlock.ps1*
 *Sherlock_Vulns.txt*
 *Shhhavoc.py *
 *Shhhloader.py*
@@ -27261,8 +27260,8 @@
 *simple_dropper.ninja*
 *SimpleHelp - simple-help.com*
 *simplehelp remote work.exe*
-*simplehelp remote workwinlauncher.exe*
-*SimpleHelp Technician.exe*
+*SimpleHelp Remote WorkWinLauncher.exe*
+*simplehelp technician.exe*
 *SimpleHelp Technician-java-online.jar*
 *SimpleHelp Technician-linux32arm-offline.tar*
 *SimpleHelp Technician-linux32arm-online.tar*
@@ -27279,7 +27278,7 @@
 *SimpleHelp Technician-windows32-offline.exe*
 *SimpleHelp Technician-windows32-online.exe*
 *SimpleHelp Technician-windows64-offline.exe*
-*simplehelp technician-windows64-online.exe*
+*SimpleHelp Technician-windows64-online.exe*
 *simplehelp technicianwinlauncher.exe*
 *SimpleHelp.exe*
 *simplehelp.technician.127_0_0_1*
@@ -27464,7 +27463,7 @@
 *SnaffCore/ShareFind*
 *SnaffCore/TreeWalk*
 *Snaffler.csproj*
-*Snaffler.exe*
+*snaffler.exe*
 *snaffler.log*
 *Snaffler.sln*
 *SnafflerMessage.cs*
@@ -29324,7 +29323,7 @@
 *Win-Ops-Master.*
 *Winpayloads*
 *winPEAS.bat*
-*WinPEAS.exe*
+*winPEAS.exe*
 *winPEAS.ps1*
 *winPEAS.txt*
 *winPEASany.exe*
