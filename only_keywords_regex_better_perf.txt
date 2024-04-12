@@ -25,6 +25,7 @@
 .{0,1000}\"handshake\",\s\"jasmin\@123\".{0,1000}
 .{0,1000}\"http\:\/\/mitm\".{0,1000}
 .{0,1000}\"localadmin123!\".{0,1000}
+.{0,1000}\"N\/A\s\(Likely\sPirated\)\".{0,1000}
 .{0,1000}\"NSA0XF\$\".{0,1000}
 .{0,1000}\"publisher\"\:\"uvnc\sbvba.{0,1000}
 .{0,1000}\"RemotePCAttendedService\".{0,1000}
@@ -40,6 +41,9 @@
 .{0,1000}\"WorkstationName\"\>RULER\<\/Data\>.{0,1000}
 .{0,1000}\#\#\sExtracting\sPrivate\sKey\sfrom\sActive\sDirectory\sStore.{0,1000}
 .{0,1000}\#\sadiskreader\s.{0,1000}
+.{0,1000}\#\sForce\sAdmin\:\sBypass\sAdmin\sPrivileges\?.{0,1000}
+.{0,1000}\#\sInject\:\sInject\spayload\sinto\sDiscord\?.{0,1000}
+.{0,1000}\#\sInjection\sURL\:\sRaw\sURL\sto\sinjection\spayload.{0,1000}
 .{0,1000}\#\sPerform\sthe\sHTTP\sPOST\srequest\sto\ssearch\semails.{0,1000}
 .{0,1000}\#\sPop\sup\sthe\scalculator\swhen\syou\sstart\sexcel\.exe.{0,1000}
 .{0,1000}\#\sPop\sup\sthe\scalculator\swhen\syou\sstart\spowerpoint\.exe.{0,1000}
@@ -256,7 +260,10 @@
 .{0,1000}\.com\/SecureAuthCorp.{0,1000}
 .{0,1000}\.com\/SpiderLabs.{0,1000}
 .{0,1000}\.console\.gotoassist\.com.{0,1000}
+.{0,1000}\.Credentials\.Mimikatz\..{0,1000}
+.{0,1000}\.Credentials\.Tokens\.BypassUAC.{0,1000}
 .{0,1000}\.d\.requestbin\.net.{0,1000}
+.{0,1000}\.DCSync\(System\.String.{0,1000}
 .{0,1000}\.dev\.123456\..{0,1000}
 .{0,1000}\.dns2tcpdrc.{0,1000}
 .{0,1000}\.dnslog\.cn\:.{0,1000}
@@ -279,6 +286,13 @@
 .{0,1000}\.docx\.js.{0,1000}
 .{0,1000}\.docx\.sfx.{0,1000}
 .{0,1000}\.docx\.vbs.{0,1000}
+.{0,1000}\.Enumeration\.Domain\.Credential.{0,1000}
+.{0,1000}\.Enumeration\.Domain\.SPNTicket.{0,1000}
+.{0,1000}\.Enumeration\.Keylogger.{0,1000}
+.{0,1000}\.Enumeration\.Keylogger\..{0,1000}
+.{0,1000}\.Enumeration\.Network\.PortScanResult.{0,1000}
+.{0,1000}\.Enumeration\.Registry\.GetRegistryKey\(.{0,1000}
+.{0,1000}\.Enumeration\.Registry\.SetRegistryKey\(.{0,1000}
 .{0,1000}\.events\.123456\..{0,1000}
 .{0,1000}\.exe.{0,1000}\\Terminator\.sys.{0,1000}
 .{0,1000}\.exe.{0,1000}\s\-\-Filter\s.{0,1000}rule\sdisable\s\{\scondition\:\strue\s\}.{0,1000}
@@ -460,6 +474,7 @@
 .{0,1000}\.exe\sWhisker\s\-action\sadd\s\-target\s.{0,1000}\s\-cert\-pass\s.{0,1000}
 .{0,1000}\.exe\sWhisker\s\-action\slist\s\-target\s.{0,1000}
 .{0,1000}\.exec.{0,1000}\.interact\.sh.{0,1000}
+.{0,1000}\.Execution\.Injection\.Exe.{0,1000}
 .{0,1000}\.feeds\.123456\..{0,1000}
 .{0,1000}\.files\.123456\..{0,1000}
 .{0,1000}\.forums\.123456\..{0,1000}
@@ -479,6 +494,9 @@
 .{0,1000}\.kb\.123456\..{0,1000}
 .{0,1000}\.kerberoast\.txt.{0,1000}
 .{0,1000}\.kirbi\s.{0,1000}
+.{0,1000}\.LateralMovement\.PowerShellRemoting.{0,1000}
+.{0,1000}\.LateralMovement\.SCM\..{0,1000}
+.{0,1000}\.LateralMovement\.WMI\.WMIExecute\(.{0,1000}
 .{0,1000}\.ldapdump\.txt.{0,1000}
 .{0,1000}\.link\/links\/windows\/target\/x86_64\-pc\-windows\-gnu\/release\/link\.exe.{0,1000}
 .{0,1000}\.lists\.123456\..{0,1000}
@@ -538,6 +556,7 @@
 .{0,1000}\.pptx\.js.{0,1000}
 .{0,1000}\.pptx\.sfx.{0,1000}
 .{0,1000}\.pptx\.vbs.{0,1000}
+.{0,1000}\.PrivilegeEscalation\.Exchange.{0,1000}
 .{0,1000}\.ps1\s\-Base\s.{0,1000}OU\=.{0,1000}DC\=.{0,1000}\s\-Credentials\s.{0,1000}\s\-Server\s.{0,1000}
 .{0,1000}\.ps1\s\-dcip\s.{0,1000}\s\-Username\s.{0,1000}\s\-Password.{0,1000}\s\-ExportToCSV\s.{0,1000}\.csv\s\-ExportToJSON\s.{0,1000}\.json.{0,1000}
 .{0,1000}\.ps1\s\-l\s\-p\s.{0,1000}\s\-r\sdns\:\:\:.{0,1000}
@@ -778,6 +797,7 @@
 .{0,1000}\/AbandonedCOMKeys\/.{0,1000}
 .{0,1000}\/ABPTTS\.git.{0,1000}
 .{0,1000}\/acarsd\-info\.nse.{0,1000}
+.{0,1000}\/Accomplice\.git.{0,1000}
 .{0,1000}\/AceLdr\.cna.{0,1000}
 .{0,1000}\/acheron\.git.{0,1000}
 .{0,1000}\/acheron\.go.{0,1000}
@@ -1290,7 +1310,7 @@
 .{0,1000}\/bypassuac\/.{0,1000}
 .{0,1000}\/C\-\-Shellcode.{0,1000}
 .{0,1000}\/C2\/Beacon\/.{0,1000}\.cs.{0,1000}
-.{0,1000}\/C2\/c2\.go.{0,1000}
+.{0,1000}\/c2\/c2\.go.{0,1000}
 .{0,1000}\/C2\/Http\/.{0,1000}\.cs.{0,1000}
 .{0,1000}\/C2\/server\.py.{0,1000}
 .{0,1000}\/C2\/SmbListener\..{0,1000}
@@ -1473,8 +1493,11 @@
 .{0,1000}\/COM\-Hunter\.exe.{0,1000}
 .{0,1000}\/COM\-Hunter\.git.{0,1000}
 .{0,1000}\/COM\-Hunter\.sln.{0,1000}
+.{0,1000}\/COM\-Object\-hijacking\.git.{0,1000}
 .{0,1000}\/combine_harvester\.git.{0,1000}
 .{0,1000}\/comfoo\.profile.{0,1000}
+.{0,1000}\/COMHijackToolkit\.ps1.{0,1000}
+.{0,1000}\/COMInjectTarget\.dll.{0,1000}
 .{0,1000}\/Command\%20Reciever\.exe.{0,1000}
 .{0,1000}\/command\/exec\/sideload\.go.{0,1000}
 .{0,1000}\/command\/exec\/spawndll\.go.{0,1000}
@@ -1586,6 +1609,7 @@
 .{0,1000}\/curl\.x64\.o
 .{0,1000}\/curl\.x86\.o
 .{0,1000}\/curlshell\.git.{0,1000}
+.{0,1000}\/cursorinit\.vbs.{0,1000}
 .{0,1000}\/custom_crack_list\.txt.{0,1000}
 .{0,1000}\/custom_payload_generator\/.{0,1000}
 .{0,1000}\/customPayload\/.{0,1000}
@@ -1821,6 +1845,7 @@
 .{0,1000}\/domain_analyzer\.git.{0,1000}
 .{0,1000}\/domain_analyzer\:latest.{0,1000}
 .{0,1000}\/domainhunter.{0,1000}
+.{0,1000}\/DomainPasswordSpray\.git.{0,1000}
 .{0,1000}\/DomainRecon\/.{0,1000}\.txt.{0,1000}
 .{0,1000}\/domcon\-brute\.nse.{0,1000}
 .{0,1000}\/domcon\-cmd\.nse.{0,1000}
@@ -1944,6 +1969,7 @@
 .{0,1000}\/Egress\-Assess.{0,1000}
 .{0,1000}\/elevateit\.bat.{0,1000}
 .{0,1000}\/ElevateKit\/elevate\..{0,1000}
+.{0,1000}\/Elevator\.git.{0,1000}
 .{0,1000}\/elf\/dll.{0,1000}
 .{0,1000}\/elf\/exe.{0,1000}
 .{0,1000}\/ELFLoader\/.{0,1000}
@@ -2103,6 +2129,7 @@
 .{0,1000}\/exploits\/.{0,1000}\.go.{0,1000}
 .{0,1000}\/exported_credentials\.csv.{0,1000}
 .{0,1000}\/exports_function_hid\.txt.{0,1000}
+.{0,1000}\/extensions\/kiwi\/kiwi\.rb.{0,1000}
 .{0,1000}\/ExtensionSpoof\.exe.{0,1000}
 .{0,1000}\/ExtensionSpoofer\.git.{0,1000}
 .{0,1000}\/ExternalC2\/.{0,1000}
@@ -2120,6 +2147,7 @@
 .{0,1000}\/fb_firstlast\.7z.{0,1000}
 .{0,1000}\/fcrdns\.nse.{0,1000}
 .{0,1000}\/febinrev\/dirtypipez\-exploit.{0,1000}
+.{0,1000}\/Fentanyl\.git.{0,1000}
 .{0,1000}\/fern\-wifi\-cracker\/.{0,1000}
 .{0,1000}\/Ferrari\.ps1.{0,1000}
 .{0,1000}\/ffuf\.git.{0,1000}
@@ -2373,7 +2401,7 @@
 .{0,1000}\/gocrack\-1\.0\.zip.{0,1000}
 .{0,1000}\/gocrack_server.{0,1000}
 .{0,1000}\/gocrack_worker.{0,1000}
-.{0,1000}\/goDoH\.git.{0,1000}
+.{0,1000}\/godoh\.git.{0,1000}
 .{0,1000}\/godoh\/.{0,1000}
 .{0,1000}\/goDoH\/releases.{0,1000}
 .{0,1000}\/godoh\-master\.zip.{0,1000}
@@ -2493,6 +2521,9 @@
 .{0,1000}\/HiddenDesktop\.git.{0,1000}
 .{0,1000}\/hijack_opener\/.{0,1000}\.js.{0,1000}
 .{0,1000}\/hijack_opener\/.{0,1000}\.rb.{0,1000}
+.{0,1000}\/HijackDLL\-CreateRemoteThread\.cpp.{0,1000}
+.{0,1000}\/HijackDll\-Process\.cpp.{0,1000}
+.{0,1000}\/HijackDLL\-Threads\..{0,1000}
 .{0,1000}\/HijackHunter\/.{0,1000}
 .{0,1000}\/HInvoke\.cs.{0,1000}
 .{0,1000}\/hiphp\.git.{0,1000}
@@ -2892,7 +2923,7 @@
 .{0,1000}\/KaynStrike\.cna.{0,1000}
 .{0,1000}\/KaynStrike\.git.{0,1000}
 .{0,1000}\/KCMTicketFormatter.{0,1000}
-.{0,1000}\/kdstab\..{0,1000}
+.{0,1000}\/KDStab\..{0,1000}
 .{0,1000}\/KDStab\/.{0,1000}
 .{0,1000}\/keepass_discover\.py.{0,1000}
 .{0,1000}\/keepass_discover_.{0,1000}\.txt.{0,1000}
@@ -3108,6 +3139,9 @@
 .{0,1000}\/lsass\.rar.{0,1000}
 .{0,1000}\/lsass\.zip.{0,1000}
 .{0,1000}\/lsass\/beacon\.h.{0,1000}
+.{0,1000}\/Lsass\-Shtinkering\.git.{0,1000}
+.{0,1000}\/Lsass_Shtinkering\.cpp.{0,1000}
+.{0,1000}\/Lsass_Shtinkering\.exe.{0,1000}
 .{0,1000}\/LSASSProtectionBypass\/CredGuard\.c.{0,1000}
 .{0,1000}\/LsassSilentProcessExit\.git.{0,1000}
 .{0,1000}\/lsassy.{0,1000}
@@ -3347,6 +3381,8 @@
 .{0,1000}\/nat\-pmp\-info\.nse.{0,1000}
 .{0,1000}\/nat\-pmp\-mapport\.nse.{0,1000}
 .{0,1000}\/Native\/SigFlip\/.{0,1000}
+.{0,1000}\/NativeDump\.exe.{0,1000}
+.{0,1000}\/NativeDump\.git.{0,1000}
 .{0,1000}\/nats\-rmm\.conf.{0,1000}
 .{0,1000}\/nbd\-info\.nse.{0,1000}
 .{0,1000}\/nbns\-interfaces\.nse.{0,1000}
@@ -3486,7 +3522,7 @@
 .{0,1000}\/nopac\.exe
 .{0,1000}\/nopac\.py.{0,1000}
 .{0,1000}\/nopowershell\.git.{0,1000}
-.{0,1000}\/NoPowerShell\/.{0,1000}
+.{0,1000}\/nopowershell\/.{0,1000}
 .{0,1000}\/noseyparker\.git.{0,1000}
 .{0,1000}\/NotQuite0DayFriday\/zip\/trunk.{0,1000}
 .{0,1000}\/NovaLdr\.exe
@@ -3854,6 +3890,9 @@
 .{0,1000}\/PowerExtract\.git.{0,1000}
 .{0,1000}\/powerfun\.ps1.{0,1000}
 .{0,1000}\/powerglot\/.{0,1000}
+.{0,1000}\/powerkatz\.dll.{0,1000}
+.{0,1000}\/powerkatz_x64\.dll.{0,1000}
+.{0,1000}\/powerkatz_x86\.dll.{0,1000}
 .{0,1000}\/powerloader\.py.{0,1000}
 .{0,1000}\/Powermad\.git.{0,1000}
 .{0,1000}\/Powermad\.ps1.{0,1000}
@@ -4214,6 +4253,7 @@
 .{0,1000}\/rev_shell\.py.{0,1000}
 .{0,1000}\/reverse\-index\.nse.{0,1000}
 .{0,1000}\/reverse\-shell\-generator.{0,1000}
+.{0,1000}\/reverseShell\-1\.0\.1\-zip\.zip.{0,1000}
 .{0,1000}\/ReverseTCPShell.{0,1000}
 .{0,1000}\/revshell\.ps1.{0,1000}
 .{0,1000}\/revshell\.py.{0,1000}
@@ -4486,9 +4526,12 @@
 .{0,1000}\/SharpShellPipe\.git.{0,1000}
 .{0,1000}\/SharpSocks.{0,1000}
 .{0,1000}\/SharpSploit.{0,1000}
+.{0,1000}\/SharpSploit\.dll.{0,1000}
+.{0,1000}\/SharpSploit\.git.{0,1000}
 .{0,1000}\/SharpSploit\/.{0,1000}
+.{0,1000}\/SharpSploitConsole\.git.{0,1000}
 .{0,1000}\/SharpSpoolTrigger.{0,1000}
-.{0,1000}\/sharpspray\.exe.{0,1000}
+.{0,1000}\/SharpSpray\.exe.{0,1000}
 .{0,1000}\/SharpSpray\.git.{0,1000}
 .{0,1000}\/SharpSpray\-1\.1\.zip.{0,1000}
 .{0,1000}\/SharpStay\.git.{0,1000}
@@ -4611,6 +4654,8 @@
 .{0,1000}\/sliver_pb2\.py.{0,1000}
 .{0,1000}\/sliver_pb2_grpc\.py.{0,1000}
 .{0,1000}\/sliverpb\.Exe.{0,1000}
+.{0,1000}\/smartbrute\.git.{0,1000}
+.{0,1000}\/smartbrute\-main.{0,1000}
 .{0,1000}\/smb\.py.{0,1000}
 .{0,1000}\/smb\/psexec\.rb.{0,1000}
 .{0,1000}\/smb\-brute\.nse.{0,1000}
@@ -5230,7 +5275,7 @@
 .{0,1000}\/veeam\-creds\.git.{0,1000}
 .{0,1000}\/veeam_dump\.py.{0,1000}
 .{0,1000}\/Vegile\.git.{0,1000}
-.{0,1000}\/venom\.git.{0,1000}
+.{0,1000}\/Venom\.git.{0,1000}
 .{0,1000}\/venom\.sh\s.{0,1000}
 .{0,1000}\/Venom\.v1\.0\.1\.7z.{0,1000}
 .{0,1000}\/Venom\.v1\.0\.2\.7z.{0,1000}
@@ -5497,6 +5542,7 @@
 .{0,1000}\:\'123pentest\'.{0,1000}
 .{0,1000}\:\s\sDefeat\-Defender\-V1\.2\.0.{0,1000}
 .{0,1000}\:8040\/SetupWizard\.aspx.{0,1000}
+.{0,1000}\:8070\/reverseShellClients.{0,1000}
 .{0,1000}\:8080\/yara\/file.{0,1000}
 .{0,1000}\:8999\/Payloads\/.{0,1000}
 .{0,1000}\:9090.{0,1000}\/api\/v1\.0\/relays.{0,1000}
@@ -5524,6 +5570,7 @@
 .{0,1000}\[!\]\[!\]\[!\]\sWelcome\sto\sSharpEDRChecker\sby\s\@PwnDexter\s\[!\]\[!\]\[!\].{0,1000}
 .{0,1000}\[!\]\s\s\s\sFailed\sto\senumerate\sCredman\:.{0,1000}
 .{0,1000}\[!\]\sCan\'t\sremove\sthe\sHWBP\-Hook\sfor\sVirtualAlloc\s!.{0,1000}
+.{0,1000}\[!\]\sCannot\senumerate\sdomain\..{0,1000}
 .{0,1000}\[!\]\scleaning\sup\sall\sIOCs\sfiles\sto\savoid\sdetection!.{0,1000}
 .{0,1000}\[!\]\sCould\snot\sexecute\squery\.\sCould\snot\sbind\sto\sLDAP\:\/\/rootDSE\..{0,1000}
 .{0,1000}\[!\]\sCould\snot\sextract\suseful\stoken\sfrom\sspecified\sTeams\sdatabase!.{0,1000}
@@ -5534,6 +5581,7 @@
 .{0,1000}\[!\]\sDumping\sLSASS\sRequires\sElevated\sPriviledges!.{0,1000}
 .{0,1000}\[!\]\sDumping\sthe\sntds\scan\scrash\sthe\sDC\son\sWindows\sServer\s2019\.\sUse\sthe\soption.{0,1000}
 .{0,1000}\[!\]\sDynamic\sSink\:\sBAD\",\sL\"Harness\".{0,1000}
+.{0,1000}\[!\]\sElevated\sprocess\sspawned!.{0,1000}
 .{0,1000}\[!\]\sESTSAUTHPERSISTENT\scookie\swas\sempty!.{0,1000}
 .{0,1000}\[!\]\sFailed\sto\sCreate\sProcess\sto\sDump\sSAM.{0,1000}
 .{0,1000}\[!\]\sFailed\sto\sdelete\sPerformance\sregistry\skey\..{0,1000}
@@ -5552,6 +5600,7 @@
 .{0,1000}\[!\]\sInsecure\sresource\sdelegations\sfound\.\sExporting\sreport\:.{0,1000}
 .{0,1000}\[!\]\sInsecure\strustee\sdelegations\sfound\.\sExporting\sreport\:\s.{0,1000}
 .{0,1000}\[!\]\sInvalid\ssandbox\sevasion\stechnique\sprovided!.{0,1000}
+.{0,1000}\[!\]\sIt\swas\snot\spossible\sto\sretrieve\sGPO\sPolicies.{0,1000}
 .{0,1000}\[!\]\sLooks\slike\sVictim\s.{0,1000}\sdoesn\'t\shave\soffice365\sLicence!.{0,1000}
 .{0,1000}\[!\]\sModifialbe\sscheduled\stasks\swere\snot\sevaluated\sdue\sto\spermissions.{0,1000}
 .{0,1000}\[!\]\sNim\sand\sC\#\sare\sthe\sonly\slanguage\scapable\sof\sexecuting\sBOFS.{0,1000}
@@ -5807,6 +5856,7 @@
 .{0,1000}\[\sbackdoor\s\-\sDebug\s\].{0,1000}
 .{0,1000}\[\'spawnto\'\].{0,1000}
 .{0,1000}\[\stalha\.tariq\@gmail\.com\s\].{0,1000}
+.{0,1000}\[bruteforce_mode\].{0,1000}
 .{0,1000}\[CamHacker\].{0,1000}
 .{0,1000}\[D3m0niz3d\]\~\#.{0,1000}
 .{0,1000}\[i\]\s\[HELL\sHALL\]\sPress\s\<Enter\>\sTo\sRun\s\.\.\.\s.{0,1000}
@@ -5864,7 +5914,7 @@
 .{0,1000}\\\\\.\\\\pipe\\\\Teste.{0,1000}
 .{0,1000}\\\\\.\\Nidhogg.{0,1000}
 .{0,1000}\\\\\.\\pipe\\coerced\\pipe\\spoolss.{0,1000}
-.{0,1000}\\\\\.\\pipe\\merlin.{0,1000}
+.{0,1000}\\\\\.\\pipe\\Merlin.{0,1000}
 .{0,1000}\\\\\.\\pipe\\mimi.{0,1000}
 .{0,1000}\\\\\.\\pipe\\pwned\/pipe\/srvsvc.{0,1000}
 .{0,1000}\\\\\.\\pipe\\Supremo.{0,1000}
@@ -6283,6 +6333,7 @@
 .{0,1000}\\bootkit\-rs.{0,1000}
 .{0,1000}\\brc\.zip.{0,1000}
 .{0,1000}\\BrowserEnum\.log.{0,1000}
+.{0,1000}\\BrowserExfelterator\.cs.{0,1000}
 .{0,1000}\\browserhistory\.csv.{0,1000}
 .{0,1000}\\BrowserLogger\.ps1.{0,1000}
 .{0,1000}\\browsinghistoryview\\browsinghistoryview64\.exe.{0,1000}
@@ -6352,7 +6403,7 @@
 .{0,1000}\\Citrix\\GoToMyPc\\GuestInvite.{0,1000}
 .{0,1000}\\cleantracks\.ps1
 .{0,1000}\\CleanTracks\.ps1.{0,1000}
-.{0,1000}\\clipboard\.ps1.{0,1000}
+.{0,1000}\\Clipboard\.ps1.{0,1000}
 .{0,1000}\\CloakNDaggerC2.{0,1000}
 .{0,1000}\\cloud_enum\.py.{0,1000}
 .{0,1000}\\cloudflared\.exe.{0,1000}
@@ -6375,12 +6426,21 @@
 .{0,1000}\\COM\-Hunter\.csproj.{0,1000}
 .{0,1000}\\COM\-Hunter\.exe.{0,1000}
 .{0,1000}\\COM\-Hunter\.sln.{0,1000}
+.{0,1000}\\COM\-Object\-hijacking\-master.{0,1000}
 .{0,1000}\\combine\.exe.{0,1000}
 .{0,1000}\\combine_gui\.exe.{0,1000}
+.{0,1000}\\COMHijackToolkit\.ps1.{0,1000}
+.{0,1000}\\COMHijackToolkit\\.{0,1000}
+.{0,1000}\\COMInject\.exe.{0,1000}
+.{0,1000}\\COMInject\.sln.{0,1000}
+.{0,1000}\\COMInjectTarget\.cpp.{0,1000}
+.{0,1000}\\COMInjectTarget\.dll.{0,1000}
+.{0,1000}\\COMInjectTarget\\.{0,1000}
 .{0,1000}\\command\\exec\\sideload\.go.{0,1000}
 .{0,1000}\\command\\exec\\spawndll\.go.{0,1000}
 .{0,1000}\\Command\sReciever\.exe.{0,1000}
 .{0,1000}\\command_exec\.exe.{0,1000}
+.{0,1000}\\commands\\CameraScreenShot\.cs.{0,1000}
 .{0,1000}\\common_pass\.txt.{0,1000}
 .{0,1000}\\CompressArchiveCommand\.cs
 .{0,1000}\\ComunicationC2\.cpp.{0,1000}
@@ -6539,6 +6599,7 @@
 .{0,1000}\\disableav\.bat.{0,1000}
 .{0,1000}\\DisableWD\.7z.{0,1000}
 .{0,1000}\\DisableWD\.dll,.{0,1000}
+.{0,1000}\\DiscordTokenExfilterater\.cs.{0,1000}
 .{0,1000}\\dist\\sigthief\.exe.{0,1000}
 .{0,1000}\\dkmc\.py.{0,1000}
 .{0,1000}\\dll\-hijack\-by\-proxying.{0,1000}
@@ -6576,6 +6637,8 @@
 .{0,1000}\\DoHC2\.cs.{0,1000}
 .{0,1000}\\domain_admins\.txt.{0,1000}
 .{0,1000}\\DomainGPPPassword\.cs.{0,1000}
+.{0,1000}\\DomainPasswordSpray\\.{0,1000}
+.{0,1000}\\DomainPasswordSpray\-master.{0,1000}
 .{0,1000}\\DomainRecon\\.{0,1000}\.txt
 .{0,1000}\\donut\.exe.{0,1000}
 .{0,1000}\\donut\\VanillaProgram\.bin.{0,1000}
@@ -6706,6 +6769,8 @@
 .{0,1000}\\Egress\-Assess.{0,1000}
 .{0,1000}\\Ekko\.exe.{0,1000}
 .{0,1000}\\elevateit\.bat.{0,1000}
+.{0,1000}\\elevator\.exe\s\-.{0,1000}
+.{0,1000}\\Elevator\\target\\release.{0,1000}
 .{0,1000}\\ELF\\portscan.{0,1000}
 .{0,1000}\\ELF\\serverscan.{0,1000}
 .{0,1000}\\Elite\.csproj.{0,1000}
@@ -6797,6 +6862,7 @@
 .{0,1000}\\ExternalC2\\.{0,1000}
 .{0,1000}\\extract_wifi\.exe.{0,1000}
 .{0,1000}\\FakeCmdLine.{0,1000}
+.{0,1000}\\fenty\.py.{0,1000}
 .{0,1000}\\Ferrari\.ps1.{0,1000}
 .{0,1000}\\Fertliser\.exe.{0,1000}
 .{0,1000}\\Fertliser\.pdb.{0,1000}
@@ -6855,6 +6921,7 @@
 .{0,1000}\\g2mainh\.exe.{0,1000}
 .{0,1000}\\g2printh\.exe.{0,1000}
 .{0,1000}\\g2svc\.exe.{0,1000}
+.{0,1000}\\gcloud\\application_default_credentials\.json.{0,1000}
 .{0,1000}\\geacon\\tools\\BeaconTool\\.{0,1000}
 .{0,1000}\\Get\-AVStatus\.ps1.{0,1000}
 .{0,1000}\\get\-desc\-users\.py.{0,1000}
@@ -6987,7 +7054,7 @@
 .{0,1000}\\gs\-sftp.{0,1000}
 .{0,1000}\\GzipB64\.exe.{0,1000}
 .{0,1000}\\HackBrowserData.{0,1000}
-.{0,1000}\\Hades\.exe.{0,1000}
+.{0,1000}\\hades\.exe.{0,1000}
 .{0,1000}\\hades\-main\.zip.{0,1000}
 .{0,1000}\\HandleHijacker\.cpp.{0,1000}
 .{0,1000}\\HandleHijacker\.hpp.{0,1000}
@@ -7005,6 +7072,10 @@
 .{0,1000}\\HiddenDesktop\.h.{0,1000}
 .{0,1000}\\HiddenDesktop\\.{0,1000}
 .{0,1000}\\HijackablePaths\.cs.{0,1000}
+.{0,1000}\\HijackDLL\-CreateRemoteThread\..{0,1000}
+.{0,1000}\\HijackDLL\-CreateRemoteThread\\.{0,1000}
+.{0,1000}\\HijackDll\-Process\..{0,1000}
+.{0,1000}\\HijackDLL\-Threads\..{0,1000}
 .{0,1000}\\hijacker_app\\src\\ProxyApp\.exe.{0,1000}
 .{0,1000}\\hijackers\\.{0,1000}
 .{0,1000}\\HijackHunter\\.{0,1000}
@@ -7233,7 +7304,7 @@
 .{0,1000}\\LMIRescueMqttMessages_.{0,1000}\.dat.{0,1000}
 .{0,1000}\\LMIRescueUpdater\.log.{0,1000}
 .{0,1000}\\LMIRhook\.000\.dll.{0,1000}
-.{0,1000}\\LMIRTechConsole\.exe.{0,1000}
+.{0,1000}\\lmirtechconsole\.exe.{0,1000}
 .{0,1000}\\LMITrs\-.{0,1000}\.trs.{0,1000}
 .{0,1000}\\Lnk\-Sweeper\.ps1.{0,1000}
 .{0,1000}\\Lnk\-Sweeper\.txt.{0,1000}
@@ -7291,6 +7362,10 @@
 .{0,1000}\\lsass\.dmp.{0,1000}
 .{0,1000}\\lsass\.rar.{0,1000}
 .{0,1000}\\lsass\.zip.{0,1000}
+.{0,1000}\\Lsass\-Shtinkering\-main.{0,1000}
+.{0,1000}\\Lsass_Shtinkering\.cpp.{0,1000}
+.{0,1000}\\LSASS_Shtinkering\.sln.{0,1000}
+.{0,1000}\\LSASS_Shtinkering\\.{0,1000}
 .{0,1000}\\LSASSProtectionBypass\\.{0,1000}
 .{0,1000}\\LsassSilentProcessExit.{0,1000}
 .{0,1000}\\lsassy_dump\.py.{0,1000}
@@ -7431,6 +7506,10 @@
 .{0,1000}\\nanodump.{0,1000}
 .{0,1000}\\nanodump\.py.{0,1000}
 .{0,1000}\\nanorobeus\-main\.zip.{0,1000}
+.{0,1000}\\NativeDump\.csproj.{0,1000}
+.{0,1000}\\NativeDump\.exe.{0,1000}
+.{0,1000}\\NativeDump\.sln.{0,1000}
+.{0,1000}\\NativeDump\\Program\.cs.{0,1000}
 .{0,1000}\\nbtscan\.py.{0,1000}
 .{0,1000}\\nc_srv\.bat
 .{0,1000}\\net.{0,1000}\\ftpagent\.exe.{0,1000}
@@ -7593,6 +7672,7 @@
 .{0,1000}\\nxc\.exe.{0,1000}
 .{0,1000}\\nxc\\parsers\\ip\.py.{0,1000}
 .{0,1000}\\nxc\\parsers\\nmap\.py.{0,1000}
+.{0,1000}\\Obfuscar\.Console\.exe.{0,1000}
 .{0,1000}\\obfuscation\.exe\s\-\-help.{0,1000}
 .{0,1000}\\obfy\-1\.0\.zip.{0,1000}
 .{0,1000}\\oem\\Desktop\\backdoor.{0,1000}
@@ -7700,6 +7780,7 @@
 .{0,1000}\\Persistence\.vbs.{0,1000}
 .{0,1000}\\persistence\\elevated\\rid_hijack.{0,1000}
 .{0,1000}\\persistence_demos\-master.{0,1000}
+.{0,1000}\\PersistsMalware\.cs.{0,1000}
 .{0,1000}\\persit_linux\.go.{0,1000}
 .{0,1000}\\persit_windows\.go.{0,1000}
 .{0,1000}\\petit\\pipe\\srvsvc.{0,1000}
@@ -7785,6 +7866,8 @@
 .{0,1000}\\powerfun\.ps1.{0,1000}
 .{0,1000}\\powerglot\\.{0,1000}
 .{0,1000}\\powerkatz\.dll.{0,1000}
+.{0,1000}\\powerkatz_x64\.dll.{0,1000}
+.{0,1000}\\powerkatz_x86\.dll.{0,1000}
 .{0,1000}\\Powermad.{0,1000}
 .{0,1000}\\Powermad\.ps1.{0,1000}
 .{0,1000}\\powershell\.exe.{0,1000}\s\+\=\shidden.{0,1000}
@@ -7797,7 +7880,7 @@
 .{0,1000}\\Powerup\.exe.{0,1000}
 .{0,1000}\\PowerUp\.ps1.{0,1000}
 .{0,1000}\\PowerView\.cna.{0,1000}
-.{0,1000}\\PowerView\.exe.{0,1000}
+.{0,1000}\\Powerview\.exe.{0,1000}
 .{0,1000}\\PowerView\.ps1.{0,1000}
 .{0,1000}\\PowerView3\..{0,1000}
 .{0,1000}\\ppid_spoofing\.exe.{0,1000}
@@ -8042,7 +8125,7 @@
 .{0,1000}\\Remote\sSupportEmbedExample\.html.{0,1000}
 .{0,1000}\\Remote\sUtilities\\Logs.{0,1000}
 .{0,1000}\\Remote\sUtilities\\MiniInternetId.{0,1000}
-.{0,1000}\\remote\sutilities\s\-\shost\\.{0,1000}
+.{0,1000}\\Remote\sUtilities\s\-\sHost\\.{0,1000}
 .{0,1000}\\remote\sutilities\sagent\\.{0,1000}
 .{0,1000}\\Remote\sUtilities\sAgent\\Logs.{0,1000}
 .{0,1000}\\Remote\sUtilities\sFiles\\rdp_connections\\.{0,1000}
@@ -8100,7 +8183,7 @@
 .{0,1000}\\RemotePCUDEHost\.inf.{0,1000}
 .{0,1000}\\RemotePCUDEHost\.sys.{0,1000}
 .{0,1000}\\RemotePCUIA\.exe.{0,1000}
-.{0,1000}\\RemotePCUIU\.exe.{0,1000}
+.{0,1000}\\remotepcuiu\.exe.{0,1000}
 .{0,1000}\\RemotePCViewer\.msi.{0,1000}
 .{0,1000}\\RemotePotato0\.cpp.{0,1000}
 .{0,1000}\\RemotePotato0\.sln.{0,1000}
@@ -8138,6 +8221,7 @@
 .{0,1000}\\rmm\-client\-site\-server\.exe.{0,1000}
 .{0,1000}\\rmm\-installer\.ps1.{0,1000}
 .{0,1000}\\ROADtools\\.{0,1000}
+.{0,1000}\\Roblox\sCookies\.txt.{0,1000}
 .{0,1000}\\roboform\\app\\getCredsroboformapp\.h.{0,1000}
 .{0,1000}\\roboform\\app\\getCredsroboformapp2\.h.{0,1000}
 .{0,1000}\\roboform\\app\\getCredsroboformapp3\.h.{0,1000}
@@ -8163,7 +8247,7 @@
 .{0,1000}\\RPCCoreViewer\.exe.{0,1000}
 .{0,1000}\\RPCCoreViewerL\.exe.{0,1000}
 .{0,1000}\\RpcDND_Console\.exe.{0,1000}
-.{0,1000}\\RPCDownloader\.exe.{0,1000}
+.{0,1000}\\rpcdownloader\.exe.{0,1000}
 .{0,1000}\\RPCDownloaderLogFile\.txt.{0,1000}
 .{0,1000}\\RPCDragDrop\.txt.{0,1000}
 .{0,1000}\\rpcdump\.py.{0,1000}
@@ -8185,7 +8269,7 @@
 .{0,1000}\\RPCOTAViewerHostKeyPopup\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.log.{0,1000}
-.{0,1000}\\rpcperfviewer\.exe.{0,1000}
+.{0,1000}\\RPCPerfViewer\.exe.{0,1000}
 .{0,1000}\\RPCPerfViewer\.log.{0,1000}
 .{0,1000}\\RPCPing\.txt.{0,1000}
 .{0,1000}\\RPCPreUninstall\.log.{0,1000}
@@ -8326,6 +8410,7 @@
 .{0,1000}\\shadowcoerce\.py.{0,1000}
 .{0,1000}\\ShadowSpray\\.{0,1000}\.cs.{0,1000}
 .{0,1000}\\Sharefinder\.ps1.{0,1000}
+.{0,1000}\-\-Sharing\-this\-will\-allow\-someone\-to\-log\-in\-as\-you\-and\-to\-steal\-your\-ROBUX\-and\-items.{0,1000}decrypted_cookie.{0,1000}
 .{0,1000}\\sharklog\.log.{0,1000}
 .{0,1000}\\Sharp\-Killer\.sln.{0,1000}
 .{0,1000}\\SharpADWS\.csproj.{0,1000}
@@ -8368,8 +8453,13 @@
 .{0,1000}\\SharpRoast\.json.{0,1000}
 .{0,1000}\\SharpShares\\.{0,1000}
 .{0,1000}\\SharpShares\-master.{0,1000}
+.{0,1000}\\SharpSploit\.csproj.{0,1000}
+.{0,1000}\\SharpSploit\.dll.{0,1000}
+.{0,1000}\\SharpSploit\.xml.{0,1000}
+.{0,1000}\\SharpSploit\-master.{0,1000}
+.{0,1000}\\SharpSploitConsole\..{0,1000}
 .{0,1000}\\SharpSpray\.csproj.{0,1000}
-.{0,1000}\\SharpSpray\.exe.{0,1000}
+.{0,1000}\\sharpspray\.exe.{0,1000}
 .{0,1000}\\SharpSpray\.sln.{0,1000}
 .{0,1000}\\SharpSpray\\.{0,1000}
 .{0,1000}\\SharpSpray\-1\.1\.zip.{0,1000}
@@ -8433,6 +8523,8 @@
 .{0,1000}\\sliver\-client_windows\-amd64.{0,1000}\.exe.{0,1000}
 .{0,1000}\\sliver\-client_windows\-arm64.{0,1000}\.exe.{0,1000}
 .{0,1000}\\sliverpb\.Exe.{0,1000}
+.{0,1000}\\smartbrute\\.{0,1000}
+.{0,1000}\\smartbrute\-main.{0,1000}
 .{0,1000}\\SMB_RPC\\.{0,1000}\.py
 .{0,1000}\\smb_SCNotification\.exe.{0,1000}
 .{0,1000}\\SMB_Staging\.c.{0,1000}
@@ -8521,6 +8613,7 @@
 .{0,1000}\\spooler\.py.{0,1000}
 .{0,1000}\\SprayAD\.cna.{0,1000}
 .{0,1000}\\SprayAD\.exe.{0,1000}
+.{0,1000}\\sprayed\-creds\.txt.{0,1000}
 .{0,1000}\\SQLInfoDumps.{0,1000}
 .{0,1000}\\SQLRecon.{0,1000}
 .{0,1000}\\src\\check\\Credentials\.ps1.{0,1000}
@@ -8715,6 +8808,7 @@
 .{0,1000}\\Tmp\\netcat\.exe.{0,1000}
 .{0,1000}\\tmp_payload\.txt.{0,1000}
 .{0,1000}\\TokenDump\.exe.{0,1000}
+.{0,1000}\\TokenExfiltereter\.cs.{0,1000}
 .{0,1000}\\TokenPlayer\.cpp.{0,1000}
 .{0,1000}\\TokenPlayer\.exe.{0,1000}
 .{0,1000}\\TokenPlayer\\TokenPlayer\\.{0,1000}
@@ -8826,6 +8920,7 @@
 .{0,1000}\\uvnc_settings\.exe.{0,1000}
 .{0,1000}\\uvnckeyboardhelper\.exe.{0,1000}
 .{0,1000}\\UX\\reset\-assoc\.ahk.{0,1000}
+.{0,1000}\\valid\-creds\.txt.{0,1000}
 .{0,1000}\\VBad\.py.{0,1000}
 .{0,1000}\\vbs2exe\.exe.{0,1000}
 .{0,1000}\\VDR\-main\.zip
@@ -8837,7 +8932,7 @@
 .{0,1000}\\Venom\.v1\.1\.0\.7z.{0,1000}
 .{0,1000}\\Videos\\AnyDesk.{0,1000}
 .{0,1000}\\viewer\-portable\-7\.2\.2\.0\\.{0,1000}
-.{0,1000}\\viewerhostkeypopup\.exe.{0,1000}
+.{0,1000}\\ViewerHostKeyPopup\.exe.{0,1000}
 .{0,1000}\\VNC\\\.VNC\-Non\-Auth\.txt.{0,1000}
 .{0,1000}\\vncdll\.x64\.dll.{0,1000}
 .{0,1000}\\vncdll\.x86\.dll.{0,1000}
@@ -9023,6 +9118,7 @@
 .{0,1000}\\ZohoURS\.exe.{0,1000}
 .{0,1000}\\ZohoURSService\.exe.{0,1000}
 .{0,1000}\]\s\-\scaution!\sthis\smeans\sthat\sexploit\sis\snot\sfileless.{0,1000}
+.{0,1000}\]\sAny\spasswords\sthat\swere\ssuccessfully\ssprayed\shave\sbeen\soutput\sto\s.{0,1000}
 .{0,1000}\]\sAttempting\sto\senumerate\slogged\son\susers\son\s.{0,1000}
 .{0,1000}\]\sBruteforcing\s\%d\sCLSIDs.{0,1000}
 .{0,1000}\]\sCheck\sfor\sADCS\sVulnerabilities.{0,1000}
@@ -9055,6 +9151,8 @@
 .{0,1000}\]\sLLMNR\ssniffer\sidentified\spotential\sspoofing\starget\:.{0,1000}
 .{0,1000}\]\sLLMNR\sSniffer\sidentified\spreviously\ssniffed\sname.{0,1000}
 .{0,1000}\]\sLooking\sfor\sthe\slatest\sversion\sof\sMonero\sminer.{0,1000}
+.{0,1000}\]\sPassword\sspraying\shas\sbegun\swith\s.{0,1000}
+.{0,1000}\]\sPassword\sspraying\sis\scomplete.{0,1000}
 .{0,1000}\]\sPowershell\sPersistence\screated.{0,1000}
 .{0,1000}\]\sReceived\sDCOM\sNTLM\stype\s3\sauthentication\sfrom\sthe\sprivileged\sclient.{0,1000}
 .{0,1000}\]\sRemoving\sprevious\sc3pool\sminer\s.{0,1000}
@@ -9081,6 +9179,7 @@
 .{0,1000}\]\sUserInitMprLogonScript\sPersistence\screated.{0,1000}
 .{0,1000}\]\sYou\swould\slike\sto\sgenerate\s\.EXE\susing\slauch4j\?\s\(y\/n\)\:.{0,1000}
 .{0,1000}\]Spawning\sProcess\swith\sSpoofed\sParent.{0,1000}
+.{0,1000}\{os\.getlogin\(\)\}\s\|\sFentanyl.{0,1000}
 .{0,1000}\{process_to_inject\}\.exe.{0,1000}
 .{0,1000}\|\/bin\/sh\s\-i\s2\>\&1\|nc\s.{0,1000}\s\>\/tmp\/f.{0,1000}
 .{0,1000}\|\sbase64\s\-d\s.{0,1000}
@@ -9147,6 +9246,7 @@
 .{0,1000}\>\s\/var\/log\/audit\/audit\.log.{0,1000}\srm\s\-f\s\..{0,1000}
 .{0,1000}\>AutoHotkey\sinstaller\<.{0,1000}
 .{0,1000}\>AutoHotkey\sSetup\<.{0,1000}
+.{0,1000}\>CursorSvc\<.{0,1000}
 .{0,1000}\>CyberGhost\s6\sInstaller\<.{0,1000}
 .{0,1000}\>CyberGhost\s7\sInstaller\<.{0,1000}
 .{0,1000}\>CyberGhost\s8\sInstaller\<.{0,1000}
@@ -9168,6 +9268,7 @@
 .{0,1000}\>NETSUPPORT\sLTD\.\<\/.{0,1000}
 .{0,1000}\>NetSupport\sLtd\<\/.{0,1000}
 .{0,1000}\>NetSupport\sremote\sControl\<\/.{0,1000}
+.{0,1000}\>Obfuscar\sConsole\sUtility\<.{0,1000}
 .{0,1000}\>Password\sRecovery\sfor\sRemote\sDesktop\<.{0,1000}
 .{0,1000}\>Product\:\sRemote\sUtilities\s\-\sViewer\s\-\-\s.{0,1000}
 .{0,1000}\>Product\:\sRemote\sUtilities\sServer\s\-\-\s.{0,1000}
@@ -9175,6 +9276,7 @@
 .{0,1000}\>Remote\sSupport\sCustomer\sClient\<\/Data\>.{0,1000}
 .{0,1000}\>Remote\sUtilities\s\-\sViewer\<\/.{0,1000}
 .{0,1000}\>Representative\sConsole\<\/Data\>.{0,1000}
+.{0,1000}\>SharpSploit\<.{0,1000}
 .{0,1000}\>TeamFiltration\.dll\<.{0,1000}
 .{0,1000}\>the\sopenvpn\sproject\<.{0,1000}
 .{0,1000}\>TightVNC\sViewer\<.{0,1000}
@@ -9413,6 +9515,8 @@
 .{0,1000}\s\-\-batch\s\-\-dbs.{0,1000}
 .{0,1000}\s\-\-batch\s\-\-password.{0,1000}
 .{0,1000}\s\-\-beacon\=.{0,1000}
+.{0,1000}\s\-\-bf\-hashes\-file\s.{0,1000}
+.{0,1000}\s\-\-bf\-passwords\-file\s.{0,1000}
 .{0,1000}\s\-\-bhdump\s.{0,1000}
 .{0,1000}\s\-\-bin\ssshx\-server.{0,1000}
 .{0,1000}\s\-\-blockDLLs\s\-\-ruy\-lopez.{0,1000}
@@ -9420,6 +9524,7 @@
 .{0,1000}\s\-\-brute\-ratel.{0,1000}
 .{0,1000}\s\-\-bruteforce\s.{0,1000}\.kdbx.{0,1000}
 .{0,1000}\s\-\-CaCertPath\s.{0,1000}\.pfx\s\-\-CaCertPassword\s.{0,1000}
+.{0,1000}\s\-\-ccache\-ticket\s.{0,1000}
 .{0,1000}\s\-\-certdump\s.{0,1000}
 .{0,1000}\s\-\-check\-tor\s.{0,1000}
 .{0,1000}\s\-\-coin\=monero.{0,1000}
@@ -9601,7 +9706,10 @@
 .{0,1000}\s\-\-msf\-path.{0,1000}
 .{0,1000}\s\-\-msfoptions\s.{0,1000}
 .{0,1000}\s\-\-name\scovenant\s.{0,1000}
+.{0,1000}\s\-\-neo4j\-host\s.{0,1000}
 .{0,1000}\s\-\-neo4j\-host\s.{0,1000}\-\-neo4j\-port.{0,1000}
+.{0,1000}\s\-\-neo4j\-port\s.{0,1000}
+.{0,1000}\s\-\-neo4j\-user\s.{0,1000}
 .{0,1000}\s\-\-netcat\-port\s.{0,1000}
 .{0,1000}\s\-\-NewCertPath\s.{0,1000}\.pfx\s\-\-NewCertPassword\s.{0,1000}
 .{0,1000}\s\-\-nicehash\s.{0,1000}\-\-coin\s.{0,1000}
@@ -10077,6 +10185,7 @@
 .{0,1000}\s\-Name\s\"Test\.PME\"\s.{0,1000}
 .{0,1000}\s\-NBNSBruteForce.{0,1000}
 .{0,1000}\s\-NBNSTTL\s.{0,1000}
+.{0,1000}\s\-neo4j\-password\s.{0,1000}
 .{0,1000}\s\-no\-pass\s\-dns\-tcp\s\-nameserver.{0,1000}
 .{0,1000}\s\-no\-pass\s\-just\-dc\-user\s.{0,1000}
 .{0,1000}\s\-no\-pass\s\-usersfile\s.{0,1000}
@@ -10089,6 +10198,7 @@
 .{0,1000}\s\-ntds\s.{0,1000}\.dit\s.{0,1000}\-system\s.{0,1000}
 .{0,1000}\s\-ntds\sntds\.dit\.save\s\-system\ssystem\.save\sLOCAL.{0,1000}
 .{0,1000}\s\-ntds\sNTDS\.dit\s\s\-filters.{0,1000}
+.{0,1000}\s\-ntds\sntds\.dit\s\-system\sSYSTEM\s.{0,1000}
 .{0,1000}\s\-ntds\sNTDS\.dit\s\-system\sSYSTEM\s\-outputdir\s\/.{0,1000}
 .{0,1000}\s\-nthash\s.{0,1000}\-domain\-sid\sS\-1\-5\-11\-39129514\-1145628974\-103568174\s\-domain.{0,1000}
 .{0,1000}\s\-nthash\s.{0,1000}\s\-domain\-sid\s.{0,1000}
@@ -10277,6 +10387,7 @@
 .{0,1000}\s\-UrbanBishop\s\-Command\s.{0,1000}
 .{0,1000}\s\-urlcache\s.{0,1000}\/debase64\/.{0,1000}
 .{0,1000}\s\-user\s.{0,1000}\s\-\-passwordlist\s.{0,1000}
+.{0,1000}\s\-UserList\s.{0,1000}\s\-Domain\s.{0,1000}\s\-PasswordList\s.{0,1000}\s\-OutFile\s.{0,1000}
 .{0,1000}\s\-Username\s.{0,1000}\s\-Hash\s.{0,1000}\s\-Command\s.{0,1000}
 .{0,1000}\s\-Username\s.{0,1000}\s\-Password\s.{0,1000}\s\-Command\s.{0,1000}\s\-LogonType\s.{0,1000}
 .{0,1000}\s\-Username\s.{0,1000}\s\-Password\s.{0,1000}\s\-Recon\s\-IncludeADFS.{0,1000}
@@ -10568,6 +10679,7 @@
 .{0,1000}\sCoffeeExecuteFunction.{0,1000}
 .{0,1000}\scollect\sactivedirectory\s\-\-.{0,1000}
 .{0,1000}\scom\.blackh4t.{0,1000}
+.{0,1000}\sCOMHijackToolkit\.ps1.{0,1000}
 .{0,1000}\scommand_exec\.exe.{0,1000}
 .{0,1000}\scommon_pass\.txt.{0,1000}
 .{0,1000}\sComputerDefaults\.exe.{0,1000}
@@ -10616,6 +10728,7 @@
 .{0,1000}\sCSExec\.py.{0,1000}
 .{0,1000}\scups\-info\.nse.{0,1000}
 .{0,1000}\scups\-queue\-info\.nse.{0,1000}
+.{0,1000}\scursorinit\.vbs.{0,1000}
 .{0,1000}\sCVE\-2023\-38831\-RaRCE.{0,1000}
 .{0,1000}\scvs\-brute\.nse.{0,1000}
 .{0,1000}\scvs\-brute\-repository\.nse.{0,1000}
@@ -10814,6 +10927,7 @@
 .{0,1000}\sextract_wifi\.exe.{0,1000}
 .{0,1000}\sfake\ssmall\skeys\sbefore\sreal\sones\".{0,1000}
 .{0,1000}\sfcrdns\.nse.{0,1000}
+.{0,1000}\sfenty\.py.{0,1000}
 .{0,1000}\sfile\:\/\/catspin\.yaml\s.{0,1000}
 .{0,1000}\sfiletransfer\s\-download\s\-src\-file\s.{0,1000}\.exe.{0,1000}\/tmp.{0,1000}
 .{0,1000}\sfiletransfer\s\-upload\s\-src\-file\s.{0,1000}\.exe.{0,1000}\\temp.{0,1000}
@@ -10942,6 +11056,7 @@
 .{0,1000}\shbase\-region\-info\.nse.{0,1000}
 .{0,1000}\shddtemp\-info\.nse.{0,1000}
 .{0,1000}\sHiddenDesktop\.cna.{0,1000}
+.{0,1000}\sHijackDLL\-Threads\.dll.{0,1000}
 .{0,1000}\shiphp\-cli\.sh.{0,1000}
 .{0,1000}\shiphp\-desktop\.sh.{0,1000}
 .{0,1000}\shnap\-info\.nse.{0,1000}
@@ -11443,6 +11558,7 @@
 .{0,1000}\snanodump\/.{0,1000}
 .{0,1000}\snat\-pmp\-info\.nse.{0,1000}
 .{0,1000}\snat\-pmp\-mapport\.nse.{0,1000}
+.{0,1000}\sNativeDump\.exe.{0,1000}
 .{0,1000}\snbd\-info\.nse.{0,1000}
 .{0,1000}\snbns\-interfaces\.nse.{0,1000}
 .{0,1000}\snbstat\.nse.{0,1000}
@@ -12000,6 +12116,7 @@
 .{0,1000}\sstop\scovenant.{0,1000}
 .{0,1000}\sstop\suvnc_service.{0,1000}
 .{0,1000}\sstriker\.py.{0,1000}
+.{0,1000}\sstring\sDCSync\(.{0,1000}
 .{0,1000}\sstun\-info\.nse.{0,1000}
 .{0,1000}\sstun\-version\.nse.{0,1000}
 .{0,1000}\sstuxnet\-detect\.nse.{0,1000}
@@ -12286,6 +12403,7 @@
 .{0,1000}0675558d182096b75d100d91c77c1119d229c315f12bb86e353e49894b9e1d62.{0,1000}
 .{0,1000}06B2B14A\-CE87\-41C0\-A77A\-2644FE3231C7.{0,1000}
 .{0,1000}06e7d0050e4aac352307c5b20372badd841e275bafc1dfe2ecbd0f2ad6366f81.{0,1000}
+.{0,1000}06e8a15602cc6001db8ac6d14c4cf938a92aab83a446bcd5c2c4334ad4b44e6e.{0,1000}
 .{0,1000}06e8f3cc9768b22015a52d96357a11185c43c239e887a1346e58eb8ab08c4471.{0,1000}
 .{0,1000}070ccb075d1dada74121d232e657a9aeda429014f44da57491aa92fc5a279924.{0,1000}
 .{0,1000}07311a98f0eb27945a68e1013e666e2ceff69c9241398b7d572086baabb145ee.{0,1000}
@@ -12332,6 +12450,7 @@
 .{0,1000}0ca10134908aead6310e72aae31b7eca8e653ccfa9a2bad686cea277367e4f83.{0,1000}
 .{0,1000}0cb85b94cf22a5eb8c6a391c9546aeeb1d86b7e7ae482b512de0f45c3ed90f26.{0,1000}
 .{0,1000}0cf8787b1bfb746c629b92dc5a471a436105e176d306a2808a636adab4df1508.{0,1000}
+.{0,1000}0d1448c1bc3c43a7a989e251079fcd0bea32cb8864b4b00cb8c17310464fd06d.{0,1000}
 .{0,1000}0D17A4B4\-A7C4\-49C0\-99E3\-B856F9F3B271.{0,1000}
 .{0,1000}0d1n.{0,1000}kill_listener\.sh.{0,1000}
 .{0,1000}0d1n\s.{0,1000}\s\-\-post\s.{0,1000}\s\-\-payloads\s.{0,1000}
@@ -12342,7 +12461,9 @@
 .{0,1000}0de61f6d712f44fd8337794c3d933d3e0de24bae9235383904541997c604b47a.{0,1000}
 .{0,1000}0DE8DA5D\-061D\-4649\-8A56\-48729CF1F789.{0,1000}
 .{0,1000}0DF38AD4\-60AF\-4F93\-9C7A\-7FB7BA692017.{0,1000}
+.{0,1000}0DF612AE\-47D8\-422C\-B0C5\-0727EA60784F.{0,1000}
 .{0,1000}0dfd57cb8299edf2e4a941d39ba787960de83f00b57c4f885bb141782a3b559b.{0,1000}
+.{0,1000}0e26255b8db0b2e2792225febc5d3adeebc02edff523e90156c76b5baf7ee9b3.{0,1000}
 .{0,1000}0E4BAB8F\-E6E0\-47A8\-8E99\-8D451839967E.{0,1000}
 .{0,1000}0e5ae252e2597d44f6e8def9fcdd3562954130a0261776e083959d067795c450.{0,1000}
 .{0,1000}0e643bd5e3eaf43f5eee053904a24dac9bf05150885fcb32a606ef3ee1c7db1f.{0,1000}
@@ -12352,6 +12473,7 @@
 .{0,1000}0evilpwfilter.{0,1000}
 .{0,1000}0evilpwfilter\.dll.{0,1000}
 .{0,1000}0f56c703e9b7ddeb90646927bac05a5c6d95308c8e13b88e5d4f4b572423e036.{0,1000}
+.{0,1000}0f5c81f14171b74fcc9777d302304d964e63ffc2d7b634ef023a7249d9b5d875.{0,1000}
 .{0,1000}0f62d209e39c648d15f268c68056e5f309d5eb6c7b0eff890f5ccaf9a0e12b96.{0,1000}
 .{0,1000}0fa31c8c34a370931d8ffe8097e998f778db63e2e036fbd7727a71a0dcf5d28c.{0,1000}
 .{0,1000}0fd11529bb961c342b925e156dbda40de75d4d9e823da6136ecb849b74b81e6a.{0,1000}
@@ -12462,11 +12584,13 @@
 .{0,1000}1b578e26adc91f95143cb5c8dcfa9c0baf76923ea2295cc45e2e7a99bd4a763c.{0,1000}
 .{0,1000}1b9b3211b26dcb730d47fa8e7bd97a2c3d5bc4b740a1c6c15fb690c87cd12031.{0,1000}
 .{0,1000}1BACEDDC\-CD87\-41DC\-948C\-1C12F960BECB.{0,1000}
+.{0,1000}1bc8fca2c5b410f9c0bbfff18af3dc6295f2a8b8d7c2ba953e282b6a0bc6214c.{0,1000}
 .{0,1000}1bcdf25876c01658756741f64fe06654583e539aa3139bdf55ef1324137e148e.{0,1000}
 .{0,1000}1bd59761e0390b6dee196b67f5cfd3b0dae73cdb5905815cd4ae9d5ae02293f7.{0,1000}
 .{0,1000}1be8d887faf0e80185a811e2c3a734117dcd081136d088295356bb5ddc6395be.{0,1000}
 .{0,1000}1befd6f9e0bec802dc6a4e2a33a85c967bbe3eb6126c1c4d0182f55aba1166a6.{0,1000}
 .{0,1000}1BF9C10F\-6F89\-4520\-9D2E\-AAF17D17BA5E.{0,1000}
+.{0,1000}1bff5a9cb5275afd7b7d4bf2d3087f1b3bf94864c4decf73f1c82922ad646d2f.{0,1000}
 .{0,1000}1c0f922ca54295ab3f496fded2eada45fa166e32b34bdefc838ba3919c679208.{0,1000}
 .{0,1000}1c267e901a65d142bf532bc0d26926dd9ceaa43e16b48df37c0739ba050a1c50.{0,1000}
 .{0,1000}1c50adeb\-53ac\-41b9\-9c34\-7045cffbae45.{0,1000}
@@ -12495,6 +12619,7 @@
 .{0,1000}1f7552f9d41f1e64d15e8cface42784b169d197992a072cf0072072dc640f58d.{0,1000}
 .{0,1000}1fc325f3\-c548\-43db\-a13f\-8c460dda8381.{0,1000}
 .{0,1000}1fd778412efb89cb20d5602a216470af12f9acda80db2680ecd7c206cac208b0.{0,1000}
+.{0,1000}1FDCAD33\-E5D1\-4D5F\-ACD5\-FA6F8661DFE5.{0,1000}
 .{0,1000}1HeroYcNYMhjsq8RYCx1stSaRZnQd9B9Eq.{0,1000}
 .{0,1000}1mil\-AD\-passwords\.txt.{0,1000}
 .{0,1000}1N3\/Sn1per.{0,1000}
@@ -12525,6 +12650,8 @@
 .{0,1000}22A156EA\-2623\-45C7\-8E50\-E864D9FC44D3.{0,1000}
 .{0,1000}233d785a077c50ad57de73da20e8696258a99edbc6961b92530dac81aede0bcb.{0,1000}
 .{0,1000}23975ac9\-f51c\-443a\-8318\-db006fd83100.{0,1000}
+.{0,1000}2398f4a8e53345325f44bdd9f0cc7401bd9025d736c6d43b372f4dea77bf75b8.{0,1000}
+.{0,1000}23ae98fd603067f7325d89af5ed67ccee713397c2fed01ac736711a1b32e28d4.{0,1000}
 .{0,1000}23b828513db75348a8fcadd5db45d1593a5786a02b7efc1f6afb732db7ee97f2.{0,1000}
 .{0,1000}23c71cff513e2be636c1084f3c8646f9601eef18b83a8010c84e824e5fd9ffba.{0,1000}
 .{0,1000}23E06BF12C5BE7641EF89F557C3F6600E1F3881F8DCE7279C2112279E7EC3B988E1A85EC350149007DE78CE5566FCBD18F630D2CDB78C76AA06F2B121F0B3701.{0,1000}
@@ -12535,8 +12662,10 @@
 .{0,1000}24C53132B594B77D2109CAEE3E276EA4603EEF32BFECD5121746DB58258C50F7.{0,1000}
 .{0,1000}25125be2945ae98284abb64b279fe13021d1d02895b85a4e02a4fcd6ec8415cc.{0,1000}
 .{0,1000}2523d17e9fc1b815001f2e7ea951dd3454a78bab0b12cea6a82294b9d93cd95c.{0,1000}
+.{0,1000}254389e27339fd66920dd72f3ad07fe2e220f6b0cbea8032cf0b1d8285a7b098.{0,1000}
 .{0,1000}2562c158d4f10ab67c20710da74463876e093473b56e7e1900a163133c1765b5.{0,1000}
 .{0,1000}2589213f0c51583dcbaacbe0005e5908.{0,1000}
+.{0,1000}25aac4494a46799c4755d9bda39314d628134ee58dd6f724ee905373c3600343.{0,1000}
 .{0,1000}25ec3ba7a4464210dd357b8454807c4163e761a46ccaa4bdd0b6c77e6b065fa5.{0,1000}
 .{0,1000}2609239cc8bc517f684285133622e8b11192fb456e2dc2937aa2c6c2379a9d38.{0,1000}
 .{0,1000}2611455f4d60bc80f43cb13f480c6bee70497fffea48ed5c0b7d67e7fce33a52.{0,1000}
@@ -12567,6 +12696,7 @@
 .{0,1000}29CFAA16\-9277\-4EFB\-9E91\-A7D11225160B.{0,1000}
 .{0,1000}29d30b556932d0657f14a0b290ec79d23f88d8454ca27151c8348ab7e4be9657.{0,1000}
 .{0,1000}29E4E73B\-EBA6\-495B\-A76C\-FBB462196C64.{0,1000}
+.{0,1000}2a3035797a103e527b1645cb90fccf165b76deea5b1526d80f66e32f5082e0d0.{0,1000}
 .{0,1000}2a46df8322062f52a20c78eb93d7b068b61037db2ce48edcb9f8beda43dd8ede.{0,1000}
 .{0,1000}2a5afbf327864c6b682b15d893504d9e3757e83522ac32e848e69a5e496e1fce.{0,1000}
 .{0,1000}2ab5af4a7fa7d14b4a4facef9b4d80bd3ada7e20c36712ece61ce9c294107745.{0,1000}
@@ -12577,6 +12707,7 @@
 .{0,1000}2bd33a784af634af7590ad9dc43d574005dd95b2b2e20640b97cff0474af91c6.{0,1000}
 .{0,1000}2C059FE7\-C868\-4C6D\-AFA0\-D62BA3C1B2E1.{0,1000}
 .{0,1000}2C6D323A\-B51F\-47CB\-AD37\-972FD051D475.{0,1000}
+.{0,1000}2c9ffb6711e510c8087c1095324e7ceef0187de6526b13aff5ab1e775f5ed676.{0,1000}
 .{0,1000}2ca71789c452d549809f184185b08febc560b5dc81030586a3920a95ea7a3d12.{0,1000}
 .{0,1000}2ce6ab2d48d613830f2cd7920ced86ca7b6782dbafe64af84ba476f71d08620e.{0,1000}
 .{0,1000}2CFB9E9E\-479D\-4E23\-9A8E\-18C92E06B731.{0,1000}
@@ -12585,6 +12716,7 @@
 .{0,1000}2d3ce0b49997314a863aa4a9ef25fe06021aac1107aaf63af18ba9730f13e7e3.{0,1000}
 .{0,1000}2D863D7A\-A369\-419C\-B4B3\-54BDB88B5816.{0,1000}
 .{0,1000}2dfa8caa50560a707a4877e2c9bb40acecaa475d5b792ef78f5309a46038f1ba.{0,1000}
+.{0,1000}2e321800803ff287f2c44203c718fa4a7a97dda864f1c2761e7720a57b18bd97.{0,1000}
 .{0,1000}2E37A3D2DC2ECB0BD026C93055A71CAB4E568B062B1C9F7B8846E04DF1E9F3E6.{0,1000}
 .{0,1000}2e54d374300b86e3eaee278745f26cd074023ca2ebfa575f5060032192a1232c.{0,1000}
 .{0,1000}2e6a0588c2e9136520122b97ebe2463a37f15ac537121d22873467b275ceb630.{0,1000}
@@ -12596,6 +12728,7 @@
 .{0,1000}2f4e89575f662c72f7c1dcb4f7b5d2bfb356594883e39b0d3b6e17dd941c278f.{0,1000}
 .{0,1000}2f67f590cabb9c79257d27b578d8bf9d1a278afa96b205ad2b4704e7b9a87ca7.{0,1000}
 .{0,1000}2fa02db89575d18c68adbe39e2db1565d9d688adce00b3ba85d6407d3b0cc911.{0,1000}
+.{0,1000}2fa97965c5491fd73b586656a2a3d376013fa20918cc501f598439b85e49e244.{0,1000}
 .{0,1000}2fb6c04c4f95fb8d158af94c137f90ac820716deaf88d8ebec956254e046cb29.{0,1000}
 .{0,1000}2FB94059\-2D49\-4EEA\-AAF8\-7E89E249644B.{0,1000}
 .{0,1000}2FEB96F5\-08E6\-48A3\-B306\-794277650A08.{0,1000}
@@ -12611,6 +12744,7 @@
 .{0,1000}3170917f0dbe26d4a09283394af0b9a9e9724589cd650d0b451b2c834aab3bf6.{0,1000}
 .{0,1000}31795b2f772b6ad00274cc4eb40aaf81b5d38d6eeae56bace80a07bbb1aeac35.{0,1000}
 .{0,1000}319aa6516c8bef2fc13ae80390fb4a2a99b8ceaaf6ceb462842001b89f22bca1.{0,1000}
+.{0,1000}319feb5a9cddd81955d915b5632b4a5f8f9080281fb46e2f6d69d53f693c23ae.{0,1000}
 .{0,1000}31c085fa529ca13e77e2ad911bf901a0d0c7e21cd27142b09371da30d676ad60.{0,1000}
 .{0,1000}3204a42f02f8cfed9ba183a2141e16079ad99854b74f9a9e0c6a4831e8b25d8e.{0,1000}
 .{0,1000}32223BE8\-3E78\-489C\-92ED\-7900B26DFF43.{0,1000}
@@ -12636,6 +12770,7 @@
 .{0,1000}356eae02a0b678a82174417da439cbdcab3e678197aa8a91824849fb9085fc32.{0,1000}
 .{0,1000}35a9481ddbed5177431a9ea4bd09468fe987797d7b1231d64942d17eb54ec269.{0,1000}
 .{0,1000}35cc4208d80e7a202cef1cf17f6a2d1a629400410eaccecdb70c3c85f79ec431.{0,1000}
+.{0,1000}3622f69f847b1fd331363a847f626b9931363c81946b6d6e7441dc0959b4d971.{0,1000}
 .{0,1000}365\-Stealer\.py.{0,1000}
 .{0,1000}365\-Stealer\-master.{0,1000}
 .{0,1000}3697e7b61d4f49ead950dfcc75560c457c836fcbc9f81b15b2041eb2a7a5171c.{0,1000}
@@ -12648,6 +12783,7 @@
 .{0,1000}37189960f1e5e6efbc79bf55ef7ee6840cc639ce46905691f89850a950fbdd94.{0,1000}
 .{0,1000}375D8508\-F60D\-4E24\-9DF6\-1E591D2FA474.{0,1000}
 .{0,1000}376713183026ccc822e9c1dead28cc81c7cfa7ad1c88e368ada6c31ce3909a2e.{0,1000}
+.{0,1000}3787435B\-8352\-4BD8\-A1C6\-E5A1B73921F4.{0,1000}
 .{0,1000}37da8267b295caeca8fadb13206ba1c498a7012673430c5d856fe93862446a28.{0,1000}
 .{0,1000}37f49e38ee8cc509bcae0842800b3d0c85072d6e56a8395aede48abeef0b9f28.{0,1000}
 .{0,1000}382B6332\-4A57\-458D\-96EB\-B312688A7604.{0,1000}
@@ -12699,6 +12835,7 @@
 .{0,1000}3ec8a46dfacff51b3a19034479c2c68b74c92342e483295152754f939a8d1d31.{0,1000}
 .{0,1000}3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84.{0,1000}
 .{0,1000}3ee17b78ee6df429959331d016e7a2a64931584c70275c2b72da8b5ff33a3d59.{0,1000}
+.{0,1000}3ee6cff71aef9e5d12e628c94a0c30e37b283f424aa487cf37248690d88c8966.{0,1000}
 .{0,1000}3F0C3D9A\-CFB8\-4DB5\-8419\-1C28CBC8621D.{0,1000}
 .{0,1000}3f47dae30e9b18dcfd50eef1d188f83171072136257758ea39997818f38d49e8.{0,1000}
 .{0,1000}3f511ce7fdc81166c2e8811560fb1a2b30b5568ccd184d915f23fd5494cd969e.{0,1000}
@@ -12709,6 +12846,7 @@
 .{0,1000}3fd21b20d00000021c43d21b21b43d41226dd5dfc615dd4a96265559485910.{0,1000}
 .{0,1000}3fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e.{0,1000}
 .{0,1000}3fe1b764b88336a034bff6db6532c2bc1e389680c54d38b32f2af8322ef1cfcf.{0,1000}
+.{0,1000}3gstudent\/COM\-Object\-hijacking.{0,1000}
 .{0,1000}3gstudent\/Office\-Persistence.{0,1000}
 .{0,1000}3gstudent\/Waitfor\-Persistence.{0,1000}
 .{0,1000}3kom\-superhack\.txt.{0,1000}
@@ -12728,6 +12866,7 @@
 .{0,1000}4045eef04cb934ac996942d0d51e80420b2ba985.{0,1000}
 .{0,1000}405e9c6f0b2ea355c45a80236dd541ecee957c73194dc3e7948b3ae02c8c70ea.{0,1000}
 .{0,1000}40853f24896e8e1ba7170a9775b056195567e6bbaeadb14afbb8312f35112583.{0,1000}
+.{0,1000}409284796af4c4aa27849cbd51e721620fe0eaa7e8482207905ac4d79bce680b.{0,1000}
 .{0,1000}40B05F26\-6A2F\-40BC\-88DE\-F40D4BC77FB0.{0,1000}
 .{0,1000}40C6A1BB\-69AA\-4869\-81EE\-41917D0B009A.{0,1000}
 .{0,1000}40E7714F\-460D\-4CA6\-9A5A\-FB32C6769BE4.{0,1000}
@@ -12744,6 +12883,7 @@
 .{0,1000}42c8296e0f553026ef98c9c89a1a6a60613c990621b9f04cf925833eb0572446.{0,1000}
 .{0,1000}42e504f3d9d9800c1c75ff6d8c5433d801e7148760cba709fa3bd5dd8e4a0208.{0,1000}
 .{0,1000}42f742e6fa63b5b289083c4d17d57065e599754618d56d6a4690199436cdd316.{0,1000}
+.{0,1000}433d59580b95a3e3b82364729aac65643385eb4500c46eae2aab1c0567df03e6.{0,1000}
 .{0,1000}4347d68bd769cf25fa1046b8c9c3f5f4c1c83ae6b96ac1d3ed4b8dce7647c22c.{0,1000}
 .{0,1000}436b7f540f534a0ec1337cf82a76cb7727acda423132195f0c81560cdf75c438.{0,1000}
 .{0,1000}437f2e82e5fd2de01257379e1e155f380ad173c35f32a02eeedd1a06a262e8a3.{0,1000}
@@ -12755,6 +12895,7 @@
 .{0,1000}43bc3fe471a81b11c2e59cd0fd55630cee7860f8caad44fb8ee54d109e01a5e5.{0,1000}
 .{0,1000}441cb40ecc946bfb7d9ec0e7880f17f07b899adb176c6f40231aec2ab41ac1d7.{0,1000}
 .{0,1000}443D8CBF\-899C\-4C22\-B4F6\-B7AC202D4E37.{0,1000}
+.{0,1000}44782077d86a1fd173b94e020c23dc511a58fe77e055116014c30f8ecc4ead91.{0,1000}
 .{0,1000}448a280cf39fcebb006e9a66c81b9d59e884f0ed16590ac19d976e44fab7907d.{0,1000}
 .{0,1000}449CE476\-7B27\-47F5\-B09C\-570788A2F261.{0,1000}
 .{0,1000}44acd66093e5cc54cdd68c183815d7c16b48b82aadd03c03bb01f3e03adf17c1.{0,1000}
@@ -12771,6 +12912,8 @@
 .{0,1000}46d1f15077f064a99b06bb115ba498581828ff8b712b2c41f6eb602538077035.{0,1000}
 .{0,1000}46d335c6ebda027aea00f5a8261b4d1a1763e17b858fe512bbe541f9bb66d464.{0,1000}
 .{0,1000}4747b86b7a8d2ba61f377e2526d6f2764cb8146be5dd8d6ad42af745dd705c8b.{0,1000}
+.{0,1000}474B99B7\-66C4\-4AC2\-8AD3\-065DD13DDDFF.{0,1000}
+.{0,1000}476FC126\-239F\-4D58\-8389\-E1C0E93C2C5E.{0,1000}
 .{0,1000}4781b10d0dae27a772518c9167b3a654c46017897bc73ce4540f4bfca33e9b58.{0,1000}
 .{0,1000}47b8e0993b997e7f465802945187521ba8c68592af990215cdf43bef121f8df7.{0,1000}
 .{0,1000}47e0483c22d1a0554dfa2b9b51895e866932b4c7269dee4ccc6ad41b3e433abc.{0,1000}
@@ -12798,6 +12941,7 @@
 .{0,1000}4d206acc72c76a9e6edcd57584b1fcd3094609212e15ba7f4afb4a9cde3534a1.{0,1000}
 .{0,1000}4d262988fe9d252191947ab780535d496ed24fa27668cf76c6cb9b6474a391c4.{0,1000}
 .{0,1000}4d2f66539f067f631db31039ec81707028bb37efcd2ebbf86a1a920d60d75263.{0,1000}
+.{0,1000}4d31e1fd50918c09718d0657fb2c158a647b38ae833a231f52c717077d34d3cb.{0,1000}
 .{0,1000}4d5350c8\-7f8c\-47cf\-8cde\-c752018af17e.{0,1000}
 .{0,1000}4D7AEF0B\-5AA6\-4AE5\-971E\-7141AA1FDAFC.{0,1000}
 .{0,1000}4D7BA537\-54EC\-4005\-9CC2\-AE134B4526F9.{0,1000}
@@ -12827,6 +12971,7 @@
 .{0,1000}505152535657556A605A6863616C6354594883EC2865488B32488B7618488B761048AD488B30488B7E3003573C8B5C17288B741F204801FE8B541F240FB72C178D5202AD813C0757696E4575EF8B741F1C4801FE8B34AE4801F799FFD74883C4305D5F5E5B5A5958C3.{0,1000}
 .{0,1000}5067F916\-9971\-47D6\-BBCB\-85FB3982584F.{0,1000}
 .{0,1000}5086CE01\-1032\-4CA3\-A302\-6CFF2A8B64DC.{0,1000}
+.{0,1000}50941ad9fd99db6fca5debc3c89b3e899a9527d7.{0,1000}
 .{0,1000}51005077d771b96d6157772c5c78c59a94284e8bc4396cf7a52309ee262ca129.{0,1000}
 .{0,1000}512e079176dfe039a4692927ad7fbe518c944c28bb434add1118fef88a48029c.{0,1000}
 .{0,1000}51357562490b7136ee89fa9aad7715f00c471bdd09c6d36c72eabf3da33db909.{0,1000}
@@ -12836,10 +12981,13 @@
 .{0,1000}51E46096\-4A36\-4C7D\-9773\-BC28DBDC4FC6.{0,1000}
 .{0,1000}51ec632f44196675aac4e358940ac03d5a135a4d7dc150a5ee678203afec9fda.{0,1000}
 .{0,1000}51f92adcb4397e57d3809d3fa76bbf2cfb8ca772551b755ea8b0b3a6ba316334.{0,1000}
+.{0,1000}52040049\-D7FC\-4C72\-B6AE\-BD2C7AB27DEE.{0,1000}
+.{0,1000}52083b583a80716b034b5ea9c98d0070091d63c2a13771afa42268cec2de7b1d.{0,1000}
 .{0,1000}520f529151f419ccb0e75d9f9d2c9a24fb4809468dbd95360e4483672db46407.{0,1000}
 .{0,1000}526f652d4d9e20a19374817eac75b914b75f3bfaecc16b65f979e5758ea62476.{0,1000}
 .{0,1000}528de69797c36423a1e6b64fa8b1825f354e6707f2ca3760d81a9f58d69d58bb.{0,1000}
 .{0,1000}52907aebc7d2c6534099d149e61bf294b0ddf7d4e814a72b3621e3a829f83c97.{0,1000}
+.{0,1000}52b07bced660711b3aa82b4cbf40156689045bcd695df40b1376c76e172beb8d.{0,1000}
 .{0,1000}52B0FF57\-7E0A\-4CA9\-84D4\-58DFA2456BA5.{0,1000}
 .{0,1000}52b1b3fa12706c1cc7ca2da321e23b151f812a5f7660f0114cc8470de3a3065d.{0,1000}
 .{0,1000}5312f40c37c8be83b7131d03100ca39c7e9862465dd40e62d13f153e4ddf1905.{0,1000}
@@ -12847,6 +12995,7 @@
 .{0,1000}535656aca26402527106fc7630aa58d64544975120b7ad1e21b91797b38db760.{0,1000}
 .{0,1000}537a987d9bfe60b24a9bef0a9214f64202e91ea5fe14b1c3063317387f595bf7.{0,1000}
 .{0,1000}5400dd85170bb1f4597ffb2d761aab44e311f00b286c423bcf82a2c765bb8bd2.{0,1000}
+.{0,1000}543111f63af0bba0de982e608dde5289571d227b941c74131a8b9df9a8dc2609.{0,1000}
 .{0,1000}5439CECD\-3BB3\-4807\-B33F\-E4C299B71CA2.{0,1000}
 .{0,1000}543d7ad609377d2797ceba313047cdf1bd601553c3d49e34f58e1ec0ac438ab8.{0,1000}
 .{0,1000}54680b2daca9c4051463a646c0ea849190b741081670d933e00ed182b2efcc56.{0,1000}
@@ -12854,6 +13003,7 @@
 .{0,1000}55049f7690abbbb5c8dc844e54b63269d111c0cd21e98854c666a27788dc5de6.{0,1000}
 .{0,1000}555662D4CCBB940D87869E6295EC7CC74BB85D8C8FC5916EC34D1226704578C5.{0,1000}
 .{0,1000}555AD0AC\-1FDB\-4016\-8257\-170A74CB2F55.{0,1000}
+.{0,1000}5571bc0232f7f7911042503b2a2224ad420788d999eb819257a00943928a56bb.{0,1000}
 .{0,1000}5575c76987333427f74263e090910eae45817f0ede6b452d645fd5f9951210c9.{0,1000}
 .{0,1000}558a73bf1f4a3ecc59133a10d1a7892712f2bd30326f86a12d5c7060274d734d.{0,1000}
 .{0,1000}558df705dd4b6213c11e858b7c32960eaec39360.{0,1000}
@@ -12865,6 +13015,7 @@
 .{0,1000}56633694db3e8d8f7022bbc09920592e414c90155e273fbea96b6299bab97275.{0,1000}
 .{0,1000}5696de366805239d730793f8bcb78d54bc2e8c07f06795e089dcfc8f6fed8184.{0,1000}
 .{0,1000}569b8925a41bd1426fc9f88a4d00aa93da747ed4a5ec1c638678ac62ae1a7114.{0,1000}
+.{0,1000}56cfc4ef19c92043b59bb88846ffd69725df417bd4c7adf14aa11e29a9428acc.{0,1000}
 .{0,1000}56f4763af00801c5eb80c39f141a563069669def9f98c1798c0f4b4094f34821.{0,1000}
 .{0,1000}56F981FD\-634A\-4656\-85A7\-5636658E1F94.{0,1000}
 .{0,1000}573af5ccab4dccb4c9eb1f21b5e65d18c0b3a4e2b262c426b6bebc24243904f1.{0,1000}
@@ -12911,12 +13062,14 @@
 .{0,1000}5c778de24421d1fca1048bde1f9f37e75cd23a127199159d2064da3b26574faf.{0,1000}
 .{0,1000}5c78c058c8278438ce30b86b3ccda222410206ec0ea5727b93b74bb8c6748bd5.{0,1000}
 .{0,1000}5ca23515c4b5ea064981ecab60416b9a6b85e6220cd4ea7dff72522993251422.{0,1000}
+.{0,1000}5ccafa7f7b00774dd423a64460ef3d1c551ee95f076107cb8353f6271819f4d7.{0,1000}
 .{0,1000}5cd6f1ac11ce75c742358c9225983712e9ae31fd16e052b377a795d8ba4d18f6.{0,1000}
 .{0,1000}5cdce3c908a8a7a336d21543c1133071b6395e26ca882cafc05fb6dbdce075f1.{0,1000}
 .{0,1000}5cdec4449506fe06e507619c8f1a66d890d96bb2ea30f6ea37f997853a52b243.{0,1000}
 .{0,1000}5D03EFC2\-72E9\-4410\-B147\-0A1A5C743999.{0,1000}
 .{0,1000}5D10ED0A\-6C52\-49FE\-90F5\-CFAAECA8FABE.{0,1000}
 .{0,1000}5d3f3909639924fe921e0ff58be252bd671db7d2c2c0cf56d301f4ea48548306.{0,1000}
+.{0,1000}5d43bbdef3c107cf95891b56c5b40febf853f0aca57991492a4025032a8fa050.{0,1000}
 .{0,1000}5d447208b1a06d45b5563f56da869e3c6ffa8e67247809798d24065d719160e8.{0,1000}
 .{0,1000}5d494fc79356aeb1e983aab7188e729550c1f54ffcdcb02270acc492f2164afa.{0,1000}
 .{0,1000}5d637915abc98b21f94b0648c552899af67321ab06fb34e33339ae38401734cf.{0,1000}
@@ -12943,6 +13096,7 @@
 .{0,1000}5fffcdd337374e2843c7582b798b983785da5ab3afb6e30b78cef4620d248b09.{0,1000}
 .{0,1000}5spider\:password1234.{0,1000}
 .{0,1000}602ca6be5b05c2a3d9ed9e038ce1fb3d030cc09cc5038ce751d0eeb3041f1f6a.{0,1000}
+.{0,1000}605861f833fc181c7cdcabd5577ddb8989bea332648a8f498b4eef89b8f85ad4.{0,1000}
 .{0,1000}60C1DA68\-85AC\-43AB\-9A2B\-27FA345EC113.{0,1000}
 .{0,1000}60e6f67d6d09c7986ee9b2683a77eb28d2004ef5c1fa45ef9b9358bca170fc16.{0,1000}
 .{0,1000}61254294a879235560c1bcf796ff256bc48d2d90.{0,1000}
@@ -12952,6 +13106,7 @@
 .{0,1000}619B7612\-DFEA\-442A\-A927\-D997F99C497B.{0,1000}
 .{0,1000}61c0af74e23b91ced41254e8d701482a157464d4.{0,1000}
 .{0,1000}61CE6716\-E619\-483C\-B535\-8694F7617548.{0,1000}
+.{0,1000}61e2497d69dac4b2bd43cb7f8427a81c52eb4f75e0b75b0550b136f3beff877a.{0,1000}
 .{0,1000}62700c23ce8560628d8eb07ab2adcf863ad901c9f631bb45ed4b4f801f35b2a5.{0,1000}
 .{0,1000}628E42D5\-AE4F\-4CDD\-8D14\-DAB1A3697B62.{0,1000}
 .{0,1000}62ad0c68652b614acd4b82670b987719dee83f900678788bacf7cef174ea17d9.{0,1000}
@@ -12974,6 +13129,7 @@
 .{0,1000}64853db4da2d13a82c795e1eb6e7e2c4efc2d673be34b5f65398f54b7277a5de.{0,1000}
 .{0,1000}64d2905609b4275f692466d0aacdd3f9c7da7860e9ed6dd7047e6dbcec851d99.{0,1000}
 .{0,1000}64D84D51\-F462\-4A24\-85EA\-845C97238C09.{0,1000}
+.{0,1000}6511e5a343746d582d9e5f598ac329eb56ccde68429c880b1a9e551f5c27083d.{0,1000}
 .{0,1000}651574316f30fcb27c5730435566812d3bdd67c5615c56473ae2ed1e22adabe2.{0,1000}
 .{0,1000}6522659bfa7046803bb28a749799fb9b876d656fa46037fe28709fb4ad15d115.{0,1000}
 .{0,1000}6537990787752bff7e69cbd253886150278fe24c7aa008a74548d0f09b11d936.{0,1000}
@@ -13038,8 +13194,10 @@
 .{0,1000}6F99CB40\-8FEF\-4B63\-A35D\-9CEEC71F7B5F.{0,1000}
 .{0,1000}6facdc6a09f2d89e156a7b11dc628815f4a00ba25ce37f9443f4fb7f50877f85.{0,1000}
 .{0,1000}6fc0604bf7430b36c6c3e98132f6b708e384581e005fd920da483b5bd2da3cb4.{0,1000}
+.{0,1000}6fd0b65efe28fce4c186c04c467198ed5072bdcfeb90e939b06563253c4eab44.{0,1000}
 .{0,1000}6FF9974C\-B3C6\-4EEA\-8472\-22BE6BD6F5CD.{0,1000}
 .{0,1000}7\.exe\sa\s\-mx3\sad\.7z\sad_.{0,1000}\.txt.{0,1000}
+.{0,1000}70376ae9437efcd92034825528cc12f1c0e03c1a4f965aabb3377d2a19e1d4f7.{0,1000}
 .{0,1000}70527328\-DCEC\-4BA7\-9958\-B5BC3E48CE99.{0,1000}
 .{0,1000}7076e114583006ebcf8f50ab7540ce8552af788431ef2a89227e74876dd13e17.{0,1000}
 .{0,1000}70795D10\-8ADF\-4A4D\-A584\-9AB1BBF40D4B.{0,1000}
@@ -13060,6 +13218,7 @@
 .{0,1000}72dcd04c582db154eee02cde9a14312542b86615a88bf47d6529b26f8c87914c.{0,1000}
 .{0,1000}732211ae\-4891\-40d3\-b2b6\-85ebd6f5ffff.{0,1000}
 .{0,1000}73226E13\-1701\-424E\-A4F2\-3E4D575A1DD0.{0,1000}
+.{0,1000}73415a38d4b76dd2215d9fd81015b36a025018552f7847494f908f50c62fc8d2.{0,1000}
 .{0,1000}73948912\-CEBD\-48ED\-85E2\-85FCD1D4F560.{0,1000}
 .{0,1000}73B2C22B\-C020\-45B7\-BF61\-B48F49A2693F.{0,1000}
 .{0,1000}73F11EE8\-F565\-479E\-8366\-BD74EE467CE8.{0,1000}
@@ -13082,6 +13241,7 @@
 .{0,1000}76d92b0b8c428610081a7c45645612af9a7309cafd971a366d5992f5654f5f51.{0,1000}
 .{0,1000}76FFA92B\-429B\-4865\-970D\-4E7678AC34EA.{0,1000}
 .{0,1000}77432fd21f975da9215b15efc8e0080345732102f7d57a5d9d57f61faa4dfa20.{0,1000}
+.{0,1000}7760248F\-9247\-4206\-BE42\-A6952AA46DA2.{0,1000}
 .{0,1000}7760d7ef318933db6b09dba08ec12ddf25ead0512c45bd914256c97470c4eb29.{0,1000}
 .{0,1000}7767C300\-5FD5\-4A5D\-9D4C\-59559CCE48A3.{0,1000}
 .{0,1000}7777E837\-E7A3\-481B\-8BD2\-4C76F639ECFC.{0,1000}
@@ -13115,8 +13275,10 @@
 .{0,1000}7beae9c75c8e6e87a776f82461256a983e0fcd2ab169ea2293efa08f486ed33b.{0,1000}
 .{0,1000}7C5C471B\-9630\-4DF5\-A099\-405D86553ECA.{0,1000}
 .{0,1000}7C6D1CCD\-D4DF\-426A\-B5D6\-A6B5F13D0091.{0,1000}
+.{0,1000}7c8dd8b38777d6701ea54b98193216b808e2c7cb560a7cf1c07ef9e6b134dc9e.{0,1000}
 .{0,1000}7c9132c6c40c456396370d2e9cec4ee32b8cd289b29ccca946ea79f185eeaeed.{0,1000}
 .{0,1000}7c9a67abf328fddbc0cac8484a4f40f0c10e4b9b1cc3d4da6504df1303d7bdc0.{0,1000}
+.{0,1000}7cb004e20f6509f08f6e7b33778f973378c8a8e3c8cc4530cacf1f02fee3c29a.{0,1000}
 .{0,1000}7cda14dc04bb731f09880db6310c9d9d4ee96176931627f322ec725cde6bd18b.{0,1000}
 .{0,1000}7ce3b3c16cdaa2dfae51fbcf163ac75947127a9fd5e2d3c588480e3629345e8f.{0,1000}
 .{0,1000}7ce9ff1b4f75bf4289a2f1a1c33bef9719109712019989d28c14b51703b973fc.{0,1000}
@@ -13180,8 +13342,10 @@
 .{0,1000}865c9da731e9dedc483277985a51af9ef08f736e512447233ac4bec008539443.{0,1000}
 .{0,1000}866e5289337ab033f89bc57c5274c7ca.{0,1000}
 .{0,1000}8672d46e879f704b4b41a401c1a0aae5e6365f18a798a1fbaa4b1a8e711db34b.{0,1000}
+.{0,1000}8694c7e87215c274f09116eb2f13cd23cf847abc46a25977088873b0d353c368.{0,1000}
 .{0,1000}86bd9d5adf837decef7b59ae3a02134103908a249ddd0457f4a688467a42ca63.{0,1000}
 .{0,1000}86dc38ec63d7ddfab38fe655ac2296f328b1fcf43a070bad92cb6c1d3d721d49.{0,1000}
+.{0,1000}86fc2c94f8fa3938e3261d0b9eb4836be289f8ae.{0,1000}
 .{0,1000}870089165f0603447e099ef6a27cbf0926fda8cbbe1df6fa3c7021897f1eabcc.{0,1000}
 .{0,1000}87904247\-C363\-4F12\-A13A\-3DA484913F9E.{0,1000}
 .{0,1000}879A49C7\-0493\-4235\-85F6\-EBF962613A76.{0,1000}
@@ -13218,6 +13382,7 @@
 .{0,1000}8d013a3cd78fc557c13657fbdf62382cace60d05dc73868184db4a5573bca34e.{0,1000}
 .{0,1000}8d0dac6d636eb3acfab0fd50442a8d404251266bcaf175eb4c119917e7ba32bc.{0,1000}
 .{0,1000}8d1f3e17106324aad99a98f5dd921db9d27a620b37cadc06a4c470f4404dfca2.{0,1000}
+.{0,1000}8d3945448815d156c064445585aa7cf51a5c30e9f96d7598e8ca323815f9aee3.{0,1000}
 .{0,1000}8d9a8c8e646b26d5242d8fa7018bc58147435076d8b9c19fb3df35be786fa2da.{0,1000}
 .{0,1000}8dd0633df72aacd10c634a263f6b1ade7195508e79993681e0800527ddfd86ef.{0,1000}
 .{0,1000}8dece0ec5b60725419e384b317c5be3c15d3cc12c1c7da28a53ec344118f9cd9.{0,1000}
@@ -13225,6 +13390,7 @@
 .{0,1000}8e068fd6cafac177fcf10e61a2672c0e572180bc20270e47e55525ad027d729d.{0,1000}
 .{0,1000}8e459ac9f01ef6901b45681fe24dd1abc411a2e35a85a108f9e209d1b0182321.{0,1000}
 .{0,1000}8F018213\-4136\-4D97\-9084\-F0346BBED04F.{0,1000}
+.{0,1000}8f1c38bd7991da18509ef47cf01ebb1f1527acce08a9a0b25f46f70486bd5132.{0,1000}
 .{0,1000}8f2a1d66e0a532a030da8e0e646f866ea91ee987ffb33b36d95f64a0538a3e20.{0,1000}
 .{0,1000}8fc21bc6c4a11583b4db44e3dad0980bdb5c7ace.{0,1000}
 .{0,1000}90229D7D\-5CC2\-4C1E\-80D3\-4B7C7289B480.{0,1000}
@@ -13261,6 +13427,7 @@
 .{0,1000}945efb5ef7d46cf1e4f5383fb158ea5cd63d42214ea44abd73592f6ceeb6cf33.{0,1000}
 .{0,1000}946D24E4\-201B\-4D51\-AF9A\-3190266E0E1B.{0,1000}
 .{0,1000}94dc145b517036213443d4057d400296d40ffdcd50ba63f5304796060790c8a3.{0,1000}
+.{0,1000}950bb21485106b135bbe1e28b8b7f74652cadeb9ae8c68342f0ee8c91ce8306c.{0,1000}
 .{0,1000}9521c213fdd6e0b58f1288a67dbbc2b178233e2d46d09feb8da1727520340d48.{0,1000}
 .{0,1000}952c94381c139e9d0b212d7f854ad261827e6694eac3e17b2c606ff9f54a7e91.{0,1000}
 .{0,1000}95494fd45d6bc11bc49f1e41af352f896b7ada9c5eadeb029d6463def8bd60cd.{0,1000}
@@ -13294,6 +13461,7 @@
 .{0,1000}997969303538ff70c0e90e33789b0ef3da25556349c7017aac86dd1ad3b9264d.{0,1000}
 .{0,1000}99e3e313b62bb8b55e2637fc14a78adb6f33632a3c722486416252e2630cfdf6.{0,1000}
 .{0,1000}99E40E7F\-00A4\-4FB1\-9441\-B05A56C47C08.{0,1000}
+.{0,1000}9a1f72ea60bdc475d434f1582a564e0afaa6b68fed8318d2e955d931135818f0.{0,1000}
 .{0,1000}9a30590136ad955b56d367ca00f3d9feb50d4a3fb1d643fc8e3bb3cbcfd1dfa1.{0,1000}
 .{0,1000}9a3a44c544cd596ebf94583614035575e746f57315e20ec56a819c7152ba3fe9.{0,1000}
 .{0,1000}9a6f666b2d691d7c6aadd7b854b26cffd76735e9622f3613577b556fe29eb6a1.{0,1000}
@@ -13303,6 +13471,7 @@
 .{0,1000}9ae37b21e20b611787f1219137b545597235c23fd54c0e73919b9ae3266bd046.{0,1000}
 .{0,1000}9b140ac9343598961b3d5699eedc389d78c7c88271453fa37c7e3d2853364234.{0,1000}
 .{0,1000}9b361496733f31eed59d74b17f7eab74e3175f69e14fb24f9dbde5a359c2c39b.{0,1000}
+.{0,1000}9b7e60f60ab5e2680554d392c3e8a84b9e367a6e452eaab011d1eef963aad894.{0,1000}
 .{0,1000}9B823D93\-BF1B\-407B\-A4CD\-231347F656AD.{0,1000}
 .{0,1000}9b9850751be2515c8231e5189015bbe6\:49ef7638d69a01f26d96ed673bf50c45.{0,1000}
 .{0,1000}9bd15de627aa46533968e0f7fae19e8b855d0a40.{0,1000}
@@ -13354,6 +13523,7 @@
 .{0,1000}a0101bdeeb3f99c0640c203716381ef9f6bad8e89973eaa608c801ed3f6ccace.{0,1000}
 .{0,1000}A017568E\-B62E\-46B4\-9557\-15B278656365.{0,1000}
 .{0,1000}a0595728f0d3fbcc2cb434ad9af104158c349cc05a360e037ee027529bde97d1.{0,1000}
+.{0,1000}a06482e7f00958c2c66cf33a59818551f697bd7f3a601fa227e97d75a5a1c142.{0,1000}
 .{0,1000}a08b192f7e3409689c1e8c09dab2093623632dd3fae39b56f6eb85ccd72f3f1d.{0,1000}
 .{0,1000}a0acc8bea0d7e8ecacd1b7545e073b7575c28ad9be6464e1e756ba63084b9cd0.{0,1000}
 .{0,1000}A0B3C96CA89770ED04E37D43188427E0016B42B03C0102216C5F6A785B942BD3.{0,1000}
@@ -13388,6 +13558,7 @@
 .{0,1000}A38C04C7\-B172\-4897\-8471\-E3478903035E.{0,1000}
 .{0,1000}a3afae22698d3cb4d3f9fff03a42ccf61b3666bd6ef5c455ce6488b6788883a3.{0,1000}
 .{0,1000}A3h1nt\/gimmeSH.{0,1000}
+.{0,1000}a441bc5046ec91f60d5a185edbee6a17e309c87f3268bb9c45bb9c83bb28ec23.{0,1000}
 .{0,1000}A45C184F\-F98F\-4258\-A928\-BFF437034791.{0,1000}
 .{0,1000}a475f8e5b3581cb7b93cd3021478957ec5997aa3995c1a686fb87ae6c84ec2b1.{0,1000}
 .{0,1000}a48e07ec7e49b7db108e6491d061d118b5c0b52dcf3bbc60390d4b2b9011f8dc.{0,1000}
@@ -13426,6 +13597,7 @@
 .{0,1000}aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\.exe.{0,1000}
 .{0,1000}AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAAAAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP39.{0,1000}
 .{0,1000}AAB4D641\-C310\-4572\-A9C2\-6D12593AB28E.{0,1000}
+.{0,1000}AAB75969\-92BA\-4632\-9F78\-AF52FA2BCE1E.{0,1000}
 .{0,1000}aacf6ed6e4b999a6338d5a025350ea5a.{0,1000}
 .{0,1000}AADConnectProvisioningAgentWizard\.exe.{0,1000}
 .{0,1000}AADInternals\.exe.{0,1000}
@@ -13447,6 +13619,7 @@
 .{0,1000}AB2E1440\-7EC2\-45A2\-8CF3\-2975DE8A57AD.{0,1000}
 .{0,1000}ab3fe5644df233ee6c10e09e60c7d8a7fa77aeb9eea8c99fd2a337f28e760258.{0,1000}
 .{0,1000}ab464ef9bfa3735111e4fbf0e21f34feecf29a66d8effce37814df6be1d8314b.{0,1000}
+.{0,1000}ab816e6fa86f08ce0cadd09aa19335b5304f75a55f8fecfe917583650a12fe2c.{0,1000}
 .{0,1000}ABC32DBD\-B697\-482D\-A763\-7BA82FE9CEA2.{0,1000}
 .{0,1000}abeda25578952d37a4fdf1814b55799bc99ebd54643fa7608c34750832deb425.{0,1000}
 .{0,1000}abopscript\.txt.{0,1000}
@@ -13538,6 +13711,7 @@
 .{0,1000}adalanche\sanalyze.{0,1000}
 .{0,1000}adalanche\scollect.{0,1000}
 .{0,1000}Adamantium\-Thief\-master.{0,1000}
+.{0,1000}ADCEEFBA\-CE43\-4239\-8AE8\-7D8D43E66BB1.{0,1000}
 .{0,1000}ADCollector\.exe.{0,1000}
 .{0,1000}ADCollector3\.csproj.{0,1000}
 .{0,1000}adconnectdump\.py.{0,1000}
@@ -13793,7 +13967,7 @@
 .{0,1000}aggressor\.println.{0,1000}
 .{0,1000}aggressor\.py.{0,1000}
 .{0,1000}Aggressor\/TikiTorch.{0,1000}
-.{0,1000}aggressor\-scripts.{0,1000}
+.{0,1000}Aggressor\-Scripts.{0,1000}
 .{0,1000}AggressorScripts.{0,1000}
 .{0,1000}AgUAAAAAAAAAAAAOZG5zLmdvb2dsZS5jb20NL2V4cGVyaW1lbnRhbA.{0,1000}
 .{0,1000}ahmedkhlief\/Ninja.{0,1000}
@@ -13802,7 +13976,7 @@
 .{0,1000}aigmfoeogfnljhnofglledbhhfegannp.{0,1000}
 .{0,1000}aiocmd\\nested_completer\.py.{0,1000}
 .{0,1000}Airbash.{0,1000}
-.{0,1000}Aircrack\-ng.{0,1000}
+.{0,1000}aircrack\-ng.{0,1000}
 .{0,1000}aireplay\-ng\s.{0,1000}
 .{0,1000}Airgeddon.{0,1000}
 .{0,1000}airman604\/splunk_whisperer.{0,1000}
@@ -13890,6 +14064,7 @@
 .{0,1000}anonsurf\.py.{0,1000}
 .{0,1000}ansible2john\.py.{0,1000}
 .{0,1000}anthemtotheego\/Detect\-Hooks.{0,1000}
+.{0,1000}anthemtotheego\/SharpSploitConsole.{0,1000}
 .{0,1000}antirez\/hping.{0,1000}
 .{0,1000}AntivirusBypass\.psm1.{0,1000}
 .{0,1000}antiword\sFUZZ.{0,1000}
@@ -14229,6 +14404,7 @@
 .{0,1000}b19a46f99b649dc731ed5c8410bda7e0385d15e1b9aab1e467b05dccd7753865.{0,1000}
 .{0,1000}B1CB9A30\-FEA6\-4467\-BEC5\-4803CCE9BF78.{0,1000}
 .{0,1000}b1f74fb000e49de96f3033358eda1093459f2ea51d2dfbeddb10702af6037a1e.{0,1000}
+.{0,1000}b22e1828fa279346364b3915e2182b42141a093fe053c43c4ae024061156a401.{0,1000}
 .{0,1000}b236ff16fc6a017c5a84d0cc7969e0513636f37058b2b74a95d632ea26953586.{0,1000}
 .{0,1000}b23r0\/Heroinn.{0,1000}
 .{0,1000}b23r0\/rsocx.{0,1000}
@@ -14239,6 +14415,7 @@
 .{0,1000}b2xtranslator\.xls\.csproj.{0,1000}
 .{0,1000}B374K.{0,1000}index\.php.{0,1000}
 .{0,1000}b37eeeceb6addc2243bca9c408ee13554726772d.{0,1000}
+.{0,1000}b38dd36a7b348f6350623b1156c9f8805f323dbb9d1dad4b599b6712b8962e82.{0,1000}
 .{0,1000}b3917dd81417aa8ed07f4a60b34853ea6fae2710a3b5812da455328e38b9e7e6.{0,1000}
 .{0,1000}b39aacc5eb127dab66d1ccbbcbee9ee6cf659d27ebe9cec63c4940754acab7da.{0,1000}
 .{0,1000}b3a068eaaaefa3f21836c4628ad89fcf8cb20cdb22bc7a188e0b9be9aa29a9c3.{0,1000}
@@ -14342,6 +14519,7 @@
 .{0,1000}Bad\-Pdf.{0,1000}
 .{0,1000}bad\sclient\spublic\sDH\svalue.{0,1000}
 .{0,1000}Bad\sHTTP\sverb\..{0,1000}
+.{0,1000}Bad\spassword\scounts\sdont\sreplicate\sbetween\sdomain\scontrollers\.\sOnly\sthe\sPDC\sknows\sthe\sreal\samount\sof\sthose\.\sBe\ssure\sto\starget\sthe\sPDC\sso\sthat\saccounts\sdon\'t\sget\slocked\sout.{0,1000}
 .{0,1000}badb9d26cebe5c75a4d2ebf557af9496d7acc8a4b5b51f8ef2e686710bcab359.{0,1000}
 .{0,1000}badger_exports\.h.{0,1000}
 .{0,1000}badger_no_acl_1030_objects\.log.{0,1000}
@@ -14408,7 +14586,9 @@
 .{0,1000}bawait_upload.{0,1000}
 .{0,1000}bawait_upload_raw.{0,1000}
 .{0,1000}bb141fb92bcd492552d5d6c09fbf39f7f674eb49.{0,1000}
+.{0,1000}bb205ccc783d22b06eac7ab9e5f2f14d793bf9b4ed6fe413f888463092ccf79a.{0,1000}
 .{0,1000}bb3b1a1f\-0447\-42a6\-955a\-88681fb88499.{0,1000}
+.{0,1000}BB8A69C4\-18B0\-4FF2\-989C\-F70778FFBCE6.{0,1000}
 .{0,1000}bb94dc4cb2b8a99594a2199912c675406ae64d5e30141c4f3aa9109053a2790d.{0,1000}
 .{0,1000}bb95177747c3f54ff72dbcd2942c2278ee7567a1202c6d5c3183faeb78cf673c.{0,1000}
 .{0,1000}bbb23c2b1443945e653b67353906939549ffac7dcdcf4bfd6a6c2f67a6320d13.{0,1000}
@@ -14443,7 +14623,7 @@
 .{0,1000}bd514bc9dda0863e30e834afcf4d5b406c228f10a980ad3f434867d5aa6ef592.{0,1000}
 .{0,1000}BD602C80\-47ED\-4294\-B981\-0119D2200DB8.{0,1000}
 .{0,1000}bd63af36618538f67b2bf90652fb7536b40c915b307a69887df67bd5cf0400b6.{0,1000}
-.{0,1000}BD745A5E\-A1E9\-4FDD\-A15B\-E9F303A625AE.{0,1000}
+.{0,1000}bd745a5e\-a1e9\-4fdd\-a15b\-e9f303a625ae.{0,1000}
 .{0,1000}bd7552c78fd3f852e39b140051c4a1aa5a30a14e23eee49cfb570e19b4dbb0fa.{0,1000}
 .{0,1000}bd78ea00b16797551d4f40297f42e9b1f9d912f416a115c3eb10f340246a9d54.{0,1000}
 .{0,1000}bd976ca9268513e6cc4a58b85574f62b8a76cc92.{0,1000}
@@ -14840,7 +15020,7 @@
 .{0,1000}BrowserListener\.py.{0,1000}
 .{0,1000}browserpivot\s.{0,1000}
 .{0,1000}BrowsingHistoryView\.cfg.{0,1000}
-.{0,1000}browsinghistoryview\.exe.{0,1000}
+.{0,1000}BrowsingHistoryView\.exe.{0,1000}
 .{0,1000}BROWSINGHISTORYVIEW\.EXE\-.{0,1000}\.pf.{0,1000}
 .{0,1000}BrowsingHistoryView\.html.{0,1000}
 .{0,1000}browsinghistoryview\.zip.{0,1000}
@@ -14864,6 +15044,11 @@
 .{0,1000}bruteforce\-luks\s\-.{0,1000}
 .{0,1000}bruteforce\-luks\s\-t\s4\s\-l\s5\s\-m\s5\s\/dev\/sdb1.{0,1000}
 .{0,1000}bruteforce\s.{0,1000}\.txt.{0,1000}
+.{0,1000}bruteforce_attack\(.{0,1000}
+.{0,1000}bruteforce_mode_kerberos_mode.{0,1000}
+.{0,1000}bruteforce_mode_ntlm_mode.{0,1000}
+.{0,1000}bruteforce_try_password_or_hash\(.{0,1000}
+.{0,1000}bruteforce_try_user\(.{0,1000}
 .{0,1000}BruteforceCLSIDs\..{0,1000}
 .{0,1000}bruteForceCombos.{0,1000}
 .{0,1000}bruteForceUser.{0,1000}
@@ -14986,6 +15171,7 @@
 .{0,1000}bypass_cmdinject.{0,1000}
 .{0,1000}bypass_powershell_protections.{0,1000}
 .{0,1000}BypassAV\.exe.{0,1000}
+.{0,1000}bypassBetterDiscord\(.{0,1000}
 .{0,1000}BypassCredGuard\/zipball.{0,1000}
 .{0,1000}BypassCredGuard\-master.{0,1000}
 .{0,1000}bypassUAC.{0,1000}\.boo.{0,1000}
@@ -15088,6 +15274,7 @@
 .{0,1000}C0E67E76\-1C78\-4152\-9F79\-FA27B4F7CCCA.{0,1000}
 .{0,1000}C10599E3\-5A79\-484F\-940B\-E4B61F256466.{0,1000}
 .{0,1000}c1090dbc\-f2f7\-4d90\-a241\-86e0c0217786.{0,1000}
+.{0,1000}c12b1320138b4fd7578d7b1b4741bba50f115c8dcf7c3eb3d30bf939de134ade.{0,1000}
 .{0,1000}C13C80ED\-ED7A\-4F27\-93B1\-DE6FD30A7B43.{0,1000}
 .{0,1000}c1fb599493390e17676176219c5cdd8f4b4bca43696b6a54ded88c9b28f741ff.{0,1000}
 .{0,1000}C2\.KillDate.{0,1000}
@@ -15096,6 +15283,7 @@
 .{0,1000}C2\/C2Server\..{0,1000}
 .{0,1000}c2\-logs\.txt.{0,1000}
 .{0,1000}C2\sClient.{0,1000}
+.{0,1000}c2\-server\.mtattab\.com\/reverseShellClients.{0,1000}
 .{0,1000}c2\-sessions\sping.{0,1000}
 .{0,1000}c2\-sessions\squit.{0,1000}
 .{0,1000}C2\sFramework\sfor\svillains.{0,1000}
@@ -15145,6 +15333,7 @@
 .{0,1000}C346B912\-51F2\-4A2E\-ACC3\-0AC2D28920C6.{0,1000}
 .{0,1000}c36e5e59c3faf245d1cbeb5bf81bdee52eb7d49ff777813e45b33390575072bf.{0,1000}
 .{0,1000}C373A937\-312C\-4C8D\-BD04\-BAAF568337E7.{0,1000}
+.{0,1000}C37637FC\-3792\-4354\-8F5B\-7E319E4E5A6D.{0,1000}
 .{0,1000}c3a499f047b670e888a41b33749ffc9227b7b0bcc4e9f0882d272918ee3a17d1.{0,1000}
 .{0,1000}c3a9123c48f1c7024efc87373bf3471e9ee2e5dcdddce594764f21d3123f9cbd.{0,1000}
 .{0,1000}c3b7a095eb5860b4414e354becc07bf30a9133737164b89b689873ee9f9c7bd6.{0,1000}
@@ -15181,6 +15370,7 @@
 .{0,1000}c725919e6357126d512c638f993cf572112f323da359645e4088f789eb4c7b8c.{0,1000}
 .{0,1000}C73A4893\-A5D1\-44C8\-900C\-7B8850BBD2EC.{0,1000}
 .{0,1000}c75e682dd8f063bd0c151b30095bae8061146928f6d8533ac983280ad2c6effc.{0,1000}
+.{0,1000}c786890a660e4bca317ce667bc660504f8167a5d5965867d748ed02d0caa5046.{0,1000}
 .{0,1000}c7985c82769ce2d6d68e3ed3926df1bc47523990c56cfa1ebe3e511e4b96a903.{0,1000}
 .{0,1000}c7c0c7e68bcc0ce7fbb15505434740e0528ab1240eeb8c3a123c3d84b8f6eefa.{0,1000}
 .{0,1000}C7C363BA\-E5B6\-4E18\-9224\-39BC8DA73172.{0,1000}
@@ -15192,6 +15382,7 @@
 .{0,1000}C8482002\-F594\-4C28\-9C46\-960B036540A8.{0,1000}
 .{0,1000}c85dda1fd27eb34db30a297fe5ddfa279904579ce968d8fbe08d68a263c71a8a.{0,1000}
 .{0,1000}c86b6630f868d20303e940cd8f1a8805f1013bc567938a79cedb318b07f5f498.{0,1000}
+.{0,1000}c86c8f8a69c07fbec8dd650c6604bf0c9876261f.{0,1000}
 .{0,1000}C88D7583\-254F\-4BE6\-A9B9\-89A5BB52E679.{0,1000}
 .{0,1000}c89b4490de04897b1c16e5dae1c10ef10e60c56294bd4ca45d1669f5dcb6f9e3.{0,1000}
 .{0,1000}c8bdc5ce227d167f87797e8f7b3d91d24cd40c0925f5f6406085ad8cdf455617.{0,1000}
@@ -15204,6 +15395,7 @@
 .{0,1000}c9a56e555aa154cca1e25d511e2201cc522307ca09b54346860d375447ec7929.{0,1000}
 .{0,1000}c9f72eb2e307e3a7689a46f5e2e6c87bfe8f76c977b37e689b4ff3b1895b731e.{0,1000}
 .{0,1000}ca12dd05b0f8cff9da1c8e088808a8c6e3218eefa22c0d92469abda3888dab4d.{0,1000}
+.{0,1000}ca26faa4eec38d70b7237a0d1da33577295731d34c9aefa08ecdb2e8000cb4af.{0,1000}
 .{0,1000}CA280845\-1F10\-4E65\-9DE7\-D9C6513BBD91.{0,1000}
 .{0,1000}ca3227c4d833b341752927a08d6b41f0c3c81c03f41827859ecff6d008d45172.{0,1000}
 .{0,1000}ca39c3b109987159e58bfa9feb0978f376837f177b1d3b19b49ce29e4d72d90a.{0,1000}
@@ -15241,6 +15433,7 @@
 .{0,1000}can\snow\simpersonate\susers\son\s.{0,1000}\svia\sS4U2Proxy.{0,1000}
 .{0,1000}Can\'t\sfind\sDHCP\sServer\sPID\.\sExiting\..{0,1000}
 .{0,1000}can_flood_frames.{0,1000}
+.{0,1000}Cancelling\sthe\spassword\sspray\..{0,1000}
 .{0,1000}CandyPotato\.exe\s.{0,1000}
 .{0,1000}canix1\/ADACLScanner.{0,1000}
 .{0,1000}cannot\sencode\sthe\sshellcode\swhen\sself\-executing\sthe\spayload.{0,1000}
@@ -15749,6 +15942,7 @@
 .{0,1000}cobbr\/Covenant.{0,1000}
 .{0,1000}cobbr\/Elite.{0,1000}
 .{0,1000}cobbr\/PSAmsi.{0,1000}
+.{0,1000}cobbr\/SharpSploit.{0,1000}
 .{0,1000}cocfojppfigjeefejbpfmedgjbpchcng.{0,1000}
 .{0,1000}code\.exe\stunnel\s\-\-accept\-server\-license\-terms\s\-\-name\s.{0,1000}
 .{0,1000}code_execution\/.{0,1000}\.dll.{0,1000}
@@ -15810,6 +16004,7 @@
 .{0,1000}com\-exec\.cna.{0,1000}
 .{0,1000}COM\-Hunter\-main.{0,1000}
 .{0,1000}COM\-Hunter_v.{0,1000}\.zip.{0,1000}
+.{0,1000}COM\sObject\shijacking\spersistence\.ps1.{0,1000}
 .{0,1000}com_exec_go\(.{0,1000}
 .{0,1000}combine_harvester\-main.{0,1000}
 .{0,1000}COMHunter.{0,1000}\s\-inproc.{0,1000}
@@ -15817,6 +16012,7 @@
 .{0,1000}COMHunter\.csproj.{0,1000}
 .{0,1000}COMHunter\.exe.{0,1000}
 .{0,1000}COMHunter\.sln.{0,1000}
+.{0,1000}COMInjectDotNet\.exe.{0,1000}
 .{0,1000}command\=.{0,1000}\#\#\#\-\-\-POWERSHELL\-\-\-.{0,1000}eval\s\$\(echo\s.{0,1000}
 .{0,1000}command_obfuscator\.py.{0,1000}
 .{0,1000}CommandAndControl_.{0,1000}\.py.{0,1000}
@@ -16045,7 +16241,7 @@
 .{0,1000}cracklord\-master\..{0,1000}
 .{0,1000}cracklord\-queued.{0,1000}_amd64\.deb.{0,1000}
 .{0,1000}cracklord\-resourced.{0,1000}_amd64\.deb.{0,1000}
-.{0,1000}CrackMapExec.{0,1000}
+.{0,1000}crackmapexec.{0,1000}
 .{0,1000}crackmapexec\.exe.{0,1000}
 .{0,1000}crackmapexec\.py.{0,1000}
 .{0,1000}crackmapexec\.spec.{0,1000}
@@ -16255,6 +16451,7 @@
 .{0,1000}CurrentVersion\\Uninstall\\Splashtop\sInc\.\\.{0,1000}
 .{0,1000}cursed\schrome
 .{0,1000}cursed\scookies
+.{0,1000}Cursors\\cursorinit\.vbs.{0,1000}
 .{0,1000}custom_payload_generator\..{0,1000}
 .{0,1000}CustomKeyboardLayoutPersistence.{0,1000}
 .{0,1000}cut\s\-d\:\s\-f1\s\/etc\/passwd.{0,1000}
@@ -16407,6 +16604,7 @@
 .{0,1000}D78924E1\-7F2B\-4315\-A2D2\-24124C7828F8.{0,1000}
 .{0,1000}d79111ec8fa3659c887dd4e82f8ce6ff39391de6860ca0c2045469d6ab76a44f.{0,1000}
 .{0,1000}D7D20588\-8C18\-4796\-B2A4\-386AECF14256.{0,1000}
+.{0,1000}d80804bbcdbdd1933da9d9b7c0457ae73b85026e71970d1ab80af063b8fbac2e.{0,1000}
 .{0,1000}d80e2a137e1d2639c8e689549e5e17423f7ff19aa0bbfcab8e75b43c6c4b2d60.{0,1000}
 .{0,1000}d8445e3bd78bac3cc8f8a3f23b68ab971fb85ff061059f8256e41c6b892374f4.{0,1000}
 .{0,1000}d87c78f071b72de76e3569729f5dce81b6379a9ef115a5e4305e1e089531938e.{0,1000}
@@ -16432,6 +16630,7 @@
 .{0,1000}dae86be018d5317f61477f260e8508149e769688aa642327fc6caba5786cc26d.{0,1000}
 .{0,1000}daem0nc0re\/PrivFu.{0,1000}
 .{0,1000}daem0nc0re\/VectorKernel.{0,1000}
+.{0,1000}dafthack\/DomainPasswordSpray.{0,1000}
 .{0,1000}dafthack\/GraphRunner.{0,1000}
 .{0,1000}dafthack\/HostRecon.{0,1000}
 .{0,1000}dafthack\/MailSniper.{0,1000}
@@ -16536,6 +16735,7 @@
 .{0,1000}dc5d95d4ce6cee631b546e1bbfa9f090f66e4167edd5dd828f567c7fc30978dc.{0,1000}
 .{0,1000}DC6187CB\-D5DF\-4973\-84A2\-F92AAE90CDA9.{0,1000}
 .{0,1000}dc76f7c6b506d3ec4a92d9a0cda9678c3cb58a9096587dde15897709c7b23a33.{0,1000}
+.{0,1000}dcbc47feceabeaecb5941fd36b3ca000a18ebb5431cb0d415c44e1235140dc2c.{0,1000}
 .{0,1000}DCCDA4991BEBC5F2399C47C798981E7828ECC2BA77ED52A1D37BD866AD5582AA.{0,1000}
 .{0,1000}dccon\.exe\s\-encrypt2.{0,1000}
 .{0,1000}dcd82c989816c886bbe27741b2bece34a7bf4a1a9a34abfb9b34fe3cf9484201.{0,1000}
@@ -16615,6 +16815,7 @@
 .{0,1000}deepce\.sh\s\-e\s.{0,1000}
 .{0,1000}DeEpinGh0st\/Erebus.{0,1000}
 .{0,1000}deepinstinct\/ContainYourself.{0,1000}
+.{0,1000}deepinstinct\/Lsass\-Shtinkering.{0,1000}
 .{0,1000}deepinstinct\/LsassSilentProcessExit.{0,1000}
 .{0,1000}deepinstinct\/NoFilter.{0,1000}
 .{0,1000}deepsound2john\.py.{0,1000}
@@ -16650,6 +16851,7 @@
 .{0,1000}define\sDHCP_KEY\s_T\(\"SYSTEM\\\\CurrentControlSet\\\\Services\\\\DHCPServer\\\\ServicePrivateData\".{0,1000}
 .{0,1000}define\sRemComSVCEXE.{0,1000}
 .{0,1000}DeimosC2.{0,1000}
+.{0,1000}dekrypted\/Fentanyl.{0,1000}
 .{0,1000}del\s.{0,1000}C\:\\Program\sFiles.{0,1000}\\TeamViewer\\TeamViewer.{0,1000}_Logfile\.log.{0,1000}
 .{0,1000}del\s.{0,1000}C\:\\Users\\.{0,1000}\\AppData\\Roaming\\AnyDesk\\connection_trace\.txt.{0,1000}
 .{0,1000}DEL\s\/q\s\/f\s\%appdata\%\\Google\\Chrome\\\"User\sData\"\\Default\\.{0,1000}\.tmp.{0,1000}
@@ -16710,6 +16912,7 @@
 .{0,1000}Detected\sa\sWindows\sServer\sversion\snot\scompatible\swith\sJuicyPotato.{0,1000}
 .{0,1000}Detected\spossible\sphantom\sshell\scommand.{0,1000}
 .{0,1000}dev\-2null\/ADCollector.{0,1000}
+.{0,1000}DEV\-COBBR\\\\TestAdmin.{0,1000}
 .{0,1000}Device\sarchitecture\sunknown\.\sDownload\scloudflared\/loclx\smanually.{0,1000}
 .{0,1000}devtunnel.{0,1000}\suser\slogin\s\-.{0,1000}
 .{0,1000}devtunnel\.exe\s.{0,1000}
@@ -17069,6 +17272,7 @@
 .{0,1000}DocPlz\-main\.zip.{0,1000}
 .{0,1000}docs\.mythic\-c2\.net.{0,1000}
 .{0,1000}DocsPLZ\\DocsPLZ\..{0,1000}
+.{0,1000}docstring\sfor\sbruteforce\..{0,1000}
 .{0,1000}DoEvil\(\).{0,1000}
 .{0,1000}Doge\-Loader.{0,1000}xor\.go.{0,1000}
 .{0,1000}DoHC2.{0,1000}BeaconConnector.{0,1000}
@@ -17363,6 +17567,7 @@
 .{0,1000}e0dc49ab46ab388ae93213602843e135bae218d15f17fc74bdc56de38fe5d6cc.{0,1000}
 .{0,1000}E11DC25D\-E96D\-495D\-8968\-1BA09C95B673.{0,1000}
 .{0,1000}e12b5b70989233ee34a1984b959ac4e42a282148cc0f6f8a5434f2a1502e3fdd.{0,1000}
+.{0,1000}e1641d2918f41349e233feffd77b4f5088e4bc250d30a7be67693f3a09025088.{0,1000}
 .{0,1000}E17B7339\-C788\-4DBE\-B382\-3AEDB024073D.{0,1000}
 .{0,1000}e1a068365245f8a021fca5f8b40a2cc5aedd235015c39db6697b7d3ba05cd996.{0,1000}
 .{0,1000}e1cd2b55\-3b4f\-41bd\-a168\-40db41e34349.{0,1000}
@@ -17527,6 +17732,7 @@
 .{0,1000}ef377470d920bdd421679da6fa7dd8a4cd7445b22db2829419dd62be97131583.{0,1000}
 .{0,1000}ef62b7afc565b06ed3c0a764f927ce9ccdc376c569c74c4c8ff1c977d89ef15e.{0,1000}
 .{0,1000}ef881142422dd10c7ad27424ce2407312b3886c5ee940a4be17153caed6ccaff.{0,1000}
+.{0,1000}ef9c57ffe31d8ceeb51daeac466dc8835807ab7d9fd3ff05ada8ce9b4836d924.{0,1000}
 .{0,1000}efchatz\/pandora.{0,1000}
 .{0,1000}eff1f6144cbc0b092a09dc06009fc3709c937347d9b5991560588204fc183414.{0,1000}
 .{0,1000}EfiDSEFix\.exe\s.{0,1000}
@@ -17575,6 +17781,7 @@
 .{0,1000}elevationstation\.git.{0,1000}
 .{0,1000}elevationstation\.sln.{0,1000}
 .{0,1000}elevationstation\-main.{0,1000}
+.{0,1000}elevator\.exe\s.{0,1000}cmd\.exe.{0,1000}
 .{0,1000}ElevenPaths.{0,1000}FOCA.{0,1000}
 .{0,1000}ELFLoader\.c.{0,1000}
 .{0,1000}ELFLoader\.h.{0,1000}
@@ -17694,6 +17901,7 @@
 .{0,1000}EnumerateDomainGpo.{0,1000}
 .{0,1000}Enumerating\sAdministrators\sgroup,\splease\swait.{0,1000}
 .{0,1000}Enumerating\snew\suser,\splease\swait.{0,1000}
+.{0,1000}Enumeration\.Net\.GetNetLocalGroupMembers\(.{0,1000}
 .{0,1000}Enumeration\/DesktopACL.{0,1000}
 .{0,1000}Enumeration\\DesktopAC.{0,1000}
 .{0,1000}Env\:TMP\\ACl\.log.{0,1000}
@@ -17717,6 +17925,7 @@
 .{0,1000}ES\.Alan\.Core\/.{0,1000}
 .{0,1000}escalate\/golden_ticket.{0,1000}
 .{0,1000}escalate\/unmarshal_cmd_exec.{0,1000}
+.{0,1000}esentutl\.exe\s\/y\s\/vss\s.{0,1000}\:\\windows\\ntds\\ntds\.dit.{0,1000}
 .{0,1000}EspressoCake\/PPLDump_BOF.{0,1000}
 .{0,1000}Eternalblue\-.{0,1000}\.exe.{0,1000}
 .{0,1000}EternalBlue\.ps1.{0,1000}
@@ -17891,7 +18100,9 @@
 .{0,1000}ExecuteAssembly\..{0,1000}
 .{0,1000}executeAssembly\.nim.{0,1000}
 .{0,1000}executepersistence.{0,1000}
+.{0,1000}Executes\sa\schosen\sMimikatz\scommand.{0,1000}
 .{0,1000}Executes\sa\spowershell\scommand\son\sthe\sremote\shost\.\sRequires\sPSCMD.{0,1000}
+.{0,1000}Executes\severything\sbut\sDCSync\s\-\srequires\sadmin.{0,1000}
 .{0,1000}Executing\sthe\sexploit\sthis\smay\stake\sa\swhile\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\.\..{0,1000}
 .{0,1000}Execution_CommandAndScriptingInterpreter_UploadAndExec\.py.{0,1000}
 .{0,1000}Execution_UserExecution_CallbackCreateThreadpoolWait\.py.{0,1000}
@@ -18016,6 +18227,7 @@
 .{0,1000}ExternalC2Web.{0,1000}
 .{0,1000}ExternalRecon\.ps1.{0,1000}
 .{0,1000}extra\-scripts.{0,1000}timecrack\.py.{0,1000}
+.{0,1000}Extract\-HijackableKeysFromProcmonCSV.{0,1000}
 .{0,1000}extract_cmd_exec.{0,1000}\.js.{0,1000}
 .{0,1000}extract_cmd_exec.{0,1000}\.rb.{0,1000}
 .{0,1000}extract_reflective_loader.{0,1000}
@@ -18056,6 +18268,7 @@
 .{0,1000}f4ea99dc41cb7922d01955eef9303ec3a24b88c3318138855346de1e830ed09e.{0,1000}
 .{0,1000}f4f736012e96fda525525508fdfb99ddd93d1e114b1a3b616234f6c47ffb84c9.{0,1000}
 .{0,1000}f56f11c598a47a0313a3f4e0929a45a6ed7529119189d7434fbe39721e190083.{0,1000}
+.{0,1000}f58d086ed47166b22d02ac004380311058c66aac51551a10b55d421578494f32.{0,1000}
 .{0,1000}f59e403b62053c785de7df979c5cb7b0f426cbeb.{0,1000}
 .{0,1000}f5a45c4aa478a7ba9b44654a929bddc2f6453cd8d6f37cd893dda47220ad9870.{0,1000}
 .{0,1000}f5a5a21ee3a7dfaddae81cae7ef2df852cbfa44fdba51dfa0678a1c2d9d91c36.{0,1000}
@@ -18079,10 +18292,12 @@
 .{0,1000}f86331a57befd87e3ea359578a7a8b526d924dd11cf629ce1f24f2626d107928.{0,1000}
 .{0,1000}f8a705f52d2b4587dfbf680d12d4b1af6d5ed91872257a756e2d5f4bdee24c45.{0,1000}
 .{0,1000}F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2.{0,1000}
+.{0,1000}F90C57DF\-CDE4\-4CDE\-A2B9\-9124C307D53A.{0,1000}
 .{0,1000}f90e3e0ba8b25e863b1d994d088376b2caedeed3b7bb5ee6c3f6e0e89bcaf023.{0,1000}
 .{0,1000}F93C99ED\-28C9\-48C5\-BB90\-DD98F18285A6.{0,1000}
 .{0,1000}f94f938826dab5d26488e0bc6f5aa8e9eed3a395d1e9a0c9f2a49d877ea56225.{0,1000}
 .{0,1000}f9a82873a1e55bb1b5b8b8781b06799ff665464cff8ce77e07474c089123b643.{0,1000}
+.{0,1000}f9bfe85b5bad130a6e0d3aaed75193779e150e88613fa1617470cf29d11a05b1.{0,1000}
 .{0,1000}fa06c45e4522706565bea7e2532ba67cf2cad3e57e38157c09e46445c1dd100a.{0,1000}
 .{0,1000}FA0DAF13\-5058\-4382\-AE07\-65E44AFB5592.{0,1000}
 .{0,1000}fa1d33fe72c69de384fe29f15ba46074e8c4b1a0a7e884fb0dddde4149775f08.{0,1000}
@@ -18178,8 +18393,12 @@
 .{0,1000}fee\s\-c\s.{0,1000}\/.{0,1000}\s\|\sssh\s.{0,1000}\@.{0,1000}
 .{0,1000}fee\s\-c\s.{0,1000}\/.{0,1000}\s\-w\s64\s\|\s.{0,1000}
 .{0,1000}feedback\.cyberghostvpn\.com.{0,1000}
+.{0,1000}Fentanyl\/fenty\.py.{0,1000}
+.{0,1000}Fentanyl\sstrikes\sagain!.{0,1000}
 .{0,1000}feroxbuster\s\-w\s.{0,1000}fzf\-wordlists.{0,1000}\s\-u\s.{0,1000}
 .{0,1000}Fertiliser\.exe\s\\\\.{0,1000}
+.{0,1000}Fetching\sdomain\sinformation\sthrough\sa\sKerberos\sauth\sover\sLDAP.{0,1000}
+.{0,1000}Fetching\sdomain\sinformation\sthrough\sNTLM\sover\sLDAP.{0,1000}
 .{0,1000}ff_osx_extension\-dropper.{0,1000}
 .{0,1000}ff0f7b3bceac2a15be7b35bc7c1933b46ba6eeca6bba97dbd5227b59b913cb26.{0,1000}
 .{0,1000}ff5a3bf00aa5f5664da20030aaafd09333f2a75830d3e7df3666d8c9fea9eaaa.{0,1000}
@@ -18324,6 +18543,7 @@
 .{0,1000}find_domain\.sh\s.{0,1000}
 .{0,1000}find_payload\(.{0,1000}
 .{0,1000}FindAdminAccessComputers.{0,1000}
+.{0,1000}findall\(r\"dQw4w9WgXcQ.{0,1000}
 .{0,1000}findDelegation\.py.{0,1000}
 .{0,1000}findDelegation\.py\s\-dc\-ip\s.{0,1000}
 .{0,1000}findgpocomputeradmin.{0,1000}
@@ -18873,6 +19093,7 @@
 .{0,1000}Get\-ChromeHistory.{0,1000}
 .{0,1000}Get\-ClipboardContents.{0,1000}
 .{0,1000}Get\-ClipboardContents\.ps1.{0,1000}
+.{0,1000}Get\-CLSIDRegistryKeys\s\-RegHive\s.{0,1000}
 .{0,1000}Get\-CompressedAgent.{0,1000}
 .{0,1000}Get\-CompressedAgent\.ps1.{0,1000}
 .{0,1000}Get\-CompressedShellcode.{0,1000}
@@ -18904,6 +19125,7 @@
 .{0,1000}Get\-DomainSPNTicket.{0,1000}
 .{0,1000}Get\-DomainUser\s\-KerberosPreuthNotRequired\s\-Verbose.{0,1000}
 .{0,1000}Get\-DomainUser\s\-TrustedToAuth\s\|\sselect\suserprincipalname
+.{0,1000}Get\-DomainUserList\s\-Domain\s.{0,1000}\s\-RemoveDisabled\s.{0,1000}
 .{0,1000}Get\-DXWebcamVideo\.ps1.{0,1000}
 .{0,1000}Get\-ExchangeAccessToken.{0,1000}
 .{0,1000}Get\-ExoPsAccessToken.{0,1000}
@@ -18969,6 +19191,7 @@
 .{0,1000}Get\-NetForestCatalog.{0,1000}
 .{0,1000}Get\-NetForestDomain.{0,1000}
 .{0,1000}Get\-NetForestTrust.{0,1000}
+.{0,1000}Get\-NetGPO\s\-UserIdentity\s.{0,1000}
 .{0,1000}Get\-NetGPOGroup.{0,1000}
 .{0,1000}Get\-NetGroupMember\s\-GroupName\s.{0,1000}DNSAdmins.{0,1000}
 .{0,1000}Get\-NetLocalGroup.{0,1000}
@@ -19058,14 +19281,14 @@
 .{0,1000}Get\-WebCredentials.{0,1000}
 .{0,1000}Get\-WebCredentials\.ps1.{0,1000}
 .{0,1000}Get\-Wlan\-Keys.{0,1000}
-.{0,1000}Get\-WLAN\-Keys\.ps1.{0,1000}
+.{0,1000}Get\-Wlan\-Keys\.ps1.{0,1000}
 .{0,1000}Get\-WMIEventLogins.{0,1000}
 .{0,1000}Get\-WmiObject\s\?ComputerName\s.{0,1000}\s\?Class\sWin32_ComputerSystem\s\|\s.{0,1000}\sUserName.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\swin32_loggedonuser\s\-ComputerName\s.{0,1000}
-.{0,1000}get\-wmiregcachedrdpconnection.{0,1000}
+.{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
 .{0,1000}Get\-WMIRegLastLoggedOn.{0,1000}
-.{0,1000}get\-wmiregmounteddrive.{0,1000}
+.{0,1000}Get\-WMIRegMountedDrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
 .{0,1000}get_BeaconHealthCheck_settings.{0,1000}
@@ -19119,6 +19342,7 @@
 .{0,1000}getdllbaseaddress.{0,1000}
 .{0,1000}GetDomainsForEnumeration.{0,1000}
 .{0,1000}getdomainspnticket.{0,1000}
+.{0,1000}GetDomainSPNTickets\(.{0,1000}
 .{0,1000}getent\spasswd\s\|\scut\s\-d\:\s\-f1.{0,1000}
 .{0,1000}getExploit\.py.{0,1000}
 .{0,1000}getexploitablesystem.{0,1000}
@@ -19431,6 +19655,8 @@
 .{0,1000}gppassword\.py.{0,1000}
 .{0,1000}GPSCoordinates\.exe.{0,1000}
 .{0,1000}Gr1mmie\/AtlasC2.{0,1000}
+.{0,1000}grabMinecraftCache\(.{0,1000}
+.{0,1000}grabPasswords\(self,mkp,bname,pname,data\).{0,1000}
 .{0,1000}grahamhelton\/IMDSpoof.{0,1000}
 .{0,1000}Grant\-AADIntAzureUserAccessAdminRole.{0,1000}
 .{0,1000}GRANT\sALL\sPRIVILEGES\sON\sjasmin_db\..{0,1000}
@@ -19711,6 +19937,7 @@
 .{0,1000}HeroinnProtocol.{0,1000}
 .{0,1000}HeroinnServerCommand.{0,1000}
 .{0,1000}herrcore\/LocalShellExtParse.{0,1000}
+.{0,1000}HEUR\:Trojan\.Script\.XZ.{0,1000}
 .{0,1000}Hey\sDear!\sYou\sHave\sWon\sFree\sRs\s399\sJio\sRecharge.{0,1000}
 .{0,1000}hfiref0x\/UACME.{0,1000}
 .{0,1000}hfiref0x\/WDExtract.{0,1000}
@@ -19729,6 +19956,7 @@
 .{0,1000}hide\-implant.{0,1000}
 .{0,1000}HideProcess.{0,1000}
 .{0,1000}higioemojdadgdbhbbbkfbebbdlfjbip.{0,1000}
+.{0,1000}Hijack\-MultipleKeys\s\-dll\s.{0,1000}
 .{0,1000}HIJACK_DLL_PATH.{0,1000}
 .{0,1000}hijack_hunter\s.{0,1000}
 .{0,1000}hijack_remote_thread.{0,1000}
@@ -19910,6 +20138,7 @@
 .{0,1000}http\:\/\/127\.0\.0\.1\:7474\/browser\/.{0,1000}
 .{0,1000}http\:\/\/127\.0\.0\.1\:8000\/1\.jpg.{0,1000}
 .{0,1000}http\:\/\/127\.0\.0\.1\:8000\/gate\.html.{0,1000}
+.{0,1000}http\:\/\/127\.0\.0\.1\:8070.{0,1000}
 .{0,1000}http\:\/\/127\.0\.0\.1\:8080.{0,1000}
 .{0,1000}http\:\/\/127\.0\.0\.1\:8080\/target\.dll.{0,1000}
 .{0,1000}http\:\/\/127\.0\.0\.1\:8081.{0,1000}
@@ -19979,6 +20208,7 @@
 .{0,1000}https\:\/\/.{0,1000}\..{0,1000}\.devtunnels\.ms.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.brs\.devtunnels\.ms\/.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.euw\.devtunnels\.ms.{0,1000}
+.{0,1000}https\:\/\/.{0,1000}\.gofile\.io\/uploadFile.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.pulseway\.com\/app\/main\/.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.screenconnect\.com\/Bin\/.{0,1000}\.exe.{0,1000}
 .{0,1000}https\:\/\/.{0,1000}\.screenconnect\.com\/Host.{0,1000}
@@ -20029,6 +20259,7 @@
 .{0,1000}https\:\/\/browser\.lol\/vnc\?server\=.{0,1000}
 .{0,1000}https\:\/\/C2_SERVER_IP\/.{0,1000}
 .{0,1000}https\:\/\/c3pool\.com\/\#\/.{0,1000}
+.{0,1000}https\:\/\/cdn\.discordapp\.com\/attachments\/976805447266877471\/987826721250238464\/c33cd7baf5e2abdf434c2793988ccb56\.png.{0,1000}
 .{0,1000}https\:\/\/cloud\.screenconnect\.com\/\#\/trialtoinstance\?cookieValue\=.{0,1000}
 .{0,1000}https\:\/\/cnc\.mkbot\.info\/alertmsg\.zip.{0,1000}
 .{0,1000}https\:\/\/cnc\.mkbot\.info\/handshake\.php.{0,1000}
@@ -20051,6 +20282,7 @@
 .{0,1000}https\:\/\/free\-399rs\-jio\-recharge.{0,1000}
 .{0,1000}https\:\/\/github\.com\/bitsadmin\/.{0,1000}
 .{0,1000}https\:\/\/github\.com\/curl\/curl\/wiki\/DNS\-over\-HTTPS.{0,1000}
+.{0,1000}https\:\/\/github\.com\/dekrypted\/.{0,1000}
 .{0,1000}https\:\/\/github\.com\/m0nad\/Diamorphine.{0,1000}
 .{0,1000}https\:\/\/github\.com\/The\-Viper\-One.{0,1000}
 .{0,1000}https\:\/\/github\-com\.translate\.goog\/.{0,1000}
@@ -20128,6 +20360,7 @@
 .{0,1000}https\:\/\/www\.nirsoft\.net\/utils\/.{0,1000}\.zip.{0,1000}
 .{0,1000}https\:\/\/www\.skymem\.info\/srch\?q\=.{0,1000}
 .{0,1000}https\:\/\/www\.telerik\.com\/download\/fiddler\/.{0,1000}
+.{0,1000}https\:\/\/youareanidiot\.cc.{0,1000}
 .{0,1000}https\:\/\/YOURREDIRECTWEBSERVER\.azurewebsites\.net.{0,1000}
 .{0,1000}https\-portal.{0,1000}
 .{0,1000}https_revshell\.exe.{0,1000}
@@ -20236,6 +20469,7 @@
 .{0,1000}IERMTCBpbnRvIHByb2Nlc3MgOiA\=.{0,1000}
 .{0,1000}if\s\[\s\-f\s\/tmp\/tmpwatch\s\]\s.{0,1000}\sthen.{0,1000}
 .{0,1000}If\sno\sprocess\sprovided,\sit\swill\sattempt\sto\sinject\sinto\sexplorer\.exe.{0,1000}
+.{0,1000}if\sos\.getlogin\(\)\sin\s\[\"WDAGUtilityAccount\",\"Abby\",\"Peter\sWilson\",\"hmarc\",\"patex\",\"JOHN\-PC\",\"RDhJ0CNFevzX\",\"kEecfMwgj\",\"Frank\",\"8Nl0ColNQ5bq\".{0,1000}
 .{0,1000}If\sthe\sattack\sis\ssuccessful.{0,1000}\syou\swill\ssee\sauthentication\slogs\sof\smachines\sretrieving\sand\sexecuting\sthe\smalicious\sGPO.{0,1000}
 .{0,1000}If\sXWorm\sDoes\sNot\swork\s\-\sRun\sThis\sScript\sAs\sAdministrator!.{0,1000}
 .{0,1000}ifconfig\s.{0,1000}\shw\sether\s.{0,1000}
@@ -20472,7 +20706,7 @@
 .{0,1000}InjectPEWMIFSRemote.{0,1000}
 .{0,1000}InjectProc.{0,1000}
 .{0,1000}injectremote\.boo.{0,1000}
-.{0,1000}injectShellcode.{0,1000}
+.{0,1000}InjectShellcode.{0,1000}
 .{0,1000}InjectShellCode\.cs.{0,1000}
 .{0,1000}InjectShellCodeRemote\.cs.{0,1000}
 .{0,1000}InjectShellCodeWMIFSB64.{0,1000}
@@ -20691,7 +20925,7 @@
 .{0,1000}Invoke\-AmsiBypass.{0,1000}
 .{0,1000}Invoke\-APIConnectionHijack\.ps1.{0,1000}
 .{0,1000}Invoke\-ApplicationsOnStartupCheck.{0,1000}
-.{0,1000}Invoke\-ARPScan.{0,1000}
+.{0,1000}invoke\-arpscan.{0,1000}
 .{0,1000}Invoke\-ARPScan\.ps1.{0,1000}
 .{0,1000}Invoke\-ASREPRoast.{0,1000}
 .{0,1000}Invoke\-AutoKerberoast.{0,1000}
@@ -20710,7 +20944,7 @@
 .{0,1000}Invoke\-Binary\s.{0,1000}\.exe.{0,1000}
 .{0,1000}Invoke\-BitlockerCheck.{0,1000}
 .{0,1000}Invoke\-BlockETW.{0,1000}
-.{0,1000}Invoke\-BloodHound.{0,1000}
+.{0,1000}invoke\-bloodhound.{0,1000}
 .{0,1000}Invoke\-Bloodhound\.ps1.{0,1000}
 .{0,1000}Invoke\-Bof\.ps1.{0,1000}
 .{0,1000}Invoke\-Bof\s.{0,1000}
@@ -20828,7 +21062,7 @@
 .{0,1000}Invoke\-HiveNightmare\.ps1.{0,1000}
 .{0,1000}Invoke\-HoneypotBuster.{0,1000}
 .{0,1000}Invoke\-HostEnum.{0,1000}
-.{0,1000}invoke\-hostenum\s\-.{0,1000}
+.{0,1000}Invoke\-HostEnum\s\-.{0,1000}
 .{0,1000}Invoke\-HostRecon.{0,1000}
 .{0,1000}invoke\-hostscan.{0,1000}
 .{0,1000}Invoke\-HotFixVulnCheck.{0,1000}
@@ -20942,7 +21176,7 @@
 .{0,1000}Invoke\-PiperServer.{0,1000}
 .{0,1000}Invoke\-PipeShell\.ps1.{0,1000}
 .{0,1000}Invoke\-PortBind.{0,1000}
-.{0,1000}Invoke\-Portscan.{0,1000}
+.{0,1000}Invoke\-PortScan.{0,1000}
 .{0,1000}Invoke\-Portscan\.ps1.{0,1000}
 .{0,1000}Invoke\-PoshRatHttp.{0,1000}
 .{0,1000}Invoke\-PoshRatHttps.{0,1000}
@@ -20990,7 +21224,7 @@
 .{0,1000}Invoke\-PsExec\.ps1.{0,1000}
 .{0,1000}invoke\-psexecpayload.{0,1000}
 .{0,1000}Invoke\-PsGcat.{0,1000}
-.{0,1000}Invoke\-PsGcat\.ps1.{0,1000}
+.{0,1000}Invoke\-PSGcat\.ps1.{0,1000}
 .{0,1000}Invoke\-PsGcatAgent.{0,1000}
 .{0,1000}Invoke\-PsGcatAgent\.ps1.{0,1000}
 .{0,1000}Invoke\-PSImage.{0,1000}
@@ -21144,7 +21378,7 @@
 .{0,1000}Invoke\-SocksProxy\..{0,1000}
 .{0,1000}Invoke\-SocksProxy\.ps1.{0,1000}
 .{0,1000}Invoke\-SocksProxy\s.{0,1000}
-.{0,1000}Invoke\-SpoolSample.{0,1000}
+.{0,1000}Invoke\-Spoolsample.{0,1000}
 .{0,1000}Invoke\-SprayEmptyPassword.{0,1000}
 .{0,1000}Invoke\-SQLAudit.{0,1000}
 .{0,1000}Invoke\-SQLDumpInfo.{0,1000}
@@ -21171,6 +21405,7 @@
 .{0,1000}Invoke\-ThreadedFunction.{0,1000}
 .{0,1000}Invoke\-Thunderfox.{0,1000}
 .{0,1000}Invoke\-TmpDavFS.{0,1000}
+.{0,1000}Invoke\-TokenDuplication\.ps1.{0,1000}
 .{0,1000}Invoke\-TokenManipulation.{0,1000}
 .{0,1000}Invoke\-TokenManipulation\.ps1.{0,1000}
 .{0,1000}Invoke\-Tokenvator.{0,1000}
@@ -21226,18 +21461,20 @@
 .{0,1000}Invoke\-WmiCommand\s.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}invoke\-wmiexec\s.{0,1000}
+.{0,1000}Invoke\-WMIExec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMILM.{0,1000}
 .{0,1000}Invoke\-WMILM\.json.{0,1000}
 .{0,1000}Invoke\-WMImplant.{0,1000}
 .{0,1000}Invoke\-WMIObfuscatedPSCommand.{0,1000}
 .{0,1000}invoke\-wmipayload.{0,1000}
+.{0,1000}Invoke\-WMIpersist.{0,1000}
+.{0,1000}Invoke\-WMIpersist\.ps1.{0,1000}
 .{0,1000}Invoke\-WMIRemoting.{0,1000}
 .{0,1000}Invoke\-WmiShadowCopy.{0,1000}
 .{0,1000}Invoke\-WScriptBypassUAC.{0,1000}
 .{0,1000}Invoke\-WscriptElevate.{0,1000}
-.{0,1000}Invoke\-ZeroLogon.{0,1000}
+.{0,1000}Invoke\-Zerologon.{0,1000}
 .{0,1000}invoke_obfuscation\.py.{0,1000}
 .{0,1000}invoke_sessiongopher\.py.{0,1000}
 .{0,1000}InvokeAssembly\.x64\.dll.{0,1000}
@@ -21581,9 +21818,11 @@
 .{0,1000}KeeThiefSyscalls.{0,1000}
 .{0,1000}keodbianoliadkoelloecbhllnpiocoi.{0,1000}
 .{0,1000}KerbDump\\.{0,1000}\-Tickets\-KerbDump\.txt.{0,1000}
+.{0,1000}Kerberoast\(.{0,1000}
 .{0,1000}Kerberoast\..{0,1000}
-.{0,1000}Kerberoast\.py.{0,1000}
+.{0,1000}kerberoast\.py.{0,1000}
 .{0,1000}kerberoast\s\/.{0,1000}
+.{0,1000}Kerberoast\s\-username\s.{0,1000}
 .{0,1000}Kerberoast\sAttack\s\-\sServices\sConfigured\sWith\sa\sWeak\sPassword.{0,1000}
 .{0,1000}kerberoast_attack.{0,1000}
 .{0,1000}kerberoast_blind_output_.{0,1000}
@@ -21674,6 +21913,7 @@
 .{0,1000}keylogger\.py.{0,1000}
 .{0,1000}keylogger\.x64\.dll.{0,1000}
 .{0,1000}keylogger\sdump.{0,1000}
+.{0,1000}Keylogger\sException\s\-\s.{0,1000}
 .{0,1000}keylogger\sis\salready\soff.{0,1000}
 .{0,1000}keylogger\sstopped.{0,1000}
 .{0,1000}KeyLoggerOffline\.dll.{0,1000}
@@ -21748,6 +21988,7 @@
 .{0,1000}KittyStager\s\?\?.{0,1000}
 .{0,1000}Kiwi\sLegit\sPrinter.{0,1000}
 .{0,1000}KIWI_CLOUDAP_LOGON_LIST_ENTRY_21H2.{0,1000}
+.{0,1000}kiwi_cmd\s.{0,1000}
 .{0,1000}KIWI_KERBEROS_BUFFER.{0,1000}
 .{0,1000}klezVirus\/CheeseTools.{0,1000}
 .{0,1000}klezVirus\/inceptor.{0,1000}
@@ -21854,6 +22095,7 @@
 .{0,1000}kubestroyer_macos_arm64.{0,1000}
 .{0,1000}kubestroyer_macos_x64.{0,1000}
 .{0,1000}kubestroyer_windows_x64.{0,1000}
+.{0,1000}Kudaes\/Elevator.{0,1000}
 .{0,1000}kuhl_m_dpapi_chrome\.c.{0,1000}
 .{0,1000}kuhl_m_lsadump\.c.{0,1000}
 .{0,1000}kuhl_m_sekurlsa_nt6\.c.{0,1000}
@@ -22023,7 +22265,7 @@
 .{0,1000}lawrenceamer\/Tchopper.{0,1000}
 .{0,1000}layer8secure\/SilentHound.{0,1000}
 .{0,1000}Lazagne.{0,1000}Passwords\.txt.{0,1000}
-.{0,1000}laZagne\.exe.{0,1000}
+.{0,1000}Lazagne\.exe.{0,1000}
 .{0,1000}laZagne\.exe\sbrowsers.{0,1000}
 .{0,1000}Lazagne\.py.{0,1000}
 .{0,1000}lazagne\.softwares\.sysadmin\.aws.{0,1000}
@@ -22630,6 +22872,7 @@
 .{0,1000}meliht\/Mr\.SIP.{0,1000}
 .{0,1000}melted\@xmpp\.jp.{0,1000}
 .{0,1000}Meltedd\/HVNC.{0,1000}
+.{0,1000}MEM\:Trojan\.Linux\.XZ.{0,1000}
 .{0,1000}Memcrashed\-DDoS\-Exploit.{0,1000}
 .{0,1000}memfd\simplant\s.{0,1000}\.elf.{0,1000}
 .{0,1000}memfd\stask\s.{0,1000}\.elf.{0,1000}
@@ -22733,7 +22976,7 @@
 .{0,1000}MeshCentral\sServer\sTCP\sports.{0,1000}
 .{0,1000}MeshCentral\sServer\sUDP\sports.{0,1000}
 .{0,1000}MeshCentralAssistant\.exe.{0,1000}
-.{0,1000}meshcentralinstaller\.exe.{0,1000}
+.{0,1000}MeshCentralInstaller\.exe.{0,1000}
 .{0,1000}MeshCentralRoot\-.{0,1000}
 .{0,1000}MeshCentralRouter\.exe.{0,1000}
 .{0,1000}MeshCentralServer\.njsproj.{0,1000}
@@ -22834,6 +23077,8 @@
 .{0,1000}MIIEowIBAAKCAQEAvZtOCbMyFKJN3n89nctTfYLSeiCTNG01rAFl06hMkobyzr0c.{0,1000}
 .{0,1000}MIIEpAIBAAKCAQEAqqKav9bmrSMSPwnxA3ulIleTPGiL9LGtdROute8ncU0HzPyL.{0,1000}
 .{0,1000}MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9ZoKnCHwsOdxe.{0,1000}
+.{0,1000}Mimi\-Command\s.{0,1000}
+.{0,1000}Mimi\-Command\sprivilege\:\:.{0,1000}
 .{0,1000}mimi32\.exe\s.{0,1000}
 .{0,1000}mimi64\.exe\s.{0,1000}
 .{0,1000}mimidogz\-master\.zip.{0,1000}
@@ -22889,7 +23134,7 @@
 .{0,1000}minidump_add_memory_block.{0,1000}
 .{0,1000}minidump_add_memory64_block.{0,1000}
 .{0,1000}minidumptomemsharp\.lsa\.lsaproviderduper\.boo.{0,1000}
-.{0,1000}MiniDumpWriteDump.{0,1000}
+.{0,1000}minidumpwritedump.{0,1000}
 .{0,1000}minikerberos\.zip.{0,1000}
 .{0,1000}mining\sin\sbackground\swill\sbe\sstarted\susing\syour\sstartup\sdirectory\sscript\sand\sonly\swork\swhen\syour\sare\slogged\sin\sthis\shost.{0,1000}
 .{0,1000}Mining\swill\shappen\sto\s.{0,1000}\swallet.{0,1000}
@@ -23071,6 +23316,7 @@
 .{0,1000}msedge.{0,1000}\s\-\-headless\s.{0,1000}\s\-\-dump\-dom\shttp.{0,1000}
 .{0,1000}msedge.{0,1000}\s\-\-headless\s\-\-disable\-gpu\s\-\-remote\-debugging\-port\=.{0,1000}
 .{0,1000}msedge\.exe.{0,1000}\s\-\-load\-extension\=\".{0,1000}\\Users\\.{0,1000}\\Appdata\\Local\\Temp\\.{0,1000}
+.{0,1000}msf.{0,1000}\/logs\/framework\.log.{0,1000}
 .{0,1000}msf\-auxiliarys.{0,1000}
 .{0,1000}msf\-json\-rpc\..{0,1000}
 .{0,1000}msf\-json\-rpc\.ru.{0,1000}
@@ -23266,6 +23512,7 @@
 .{0,1000}Narasimha1997\/fake\-sms.{0,1000}
 .{0,1000}Nasir\sKhan\s\(r0ot\sh3x49\).{0,1000}
 .{0,1000}nasm\s\-f\swin64\s\.\/syscalls\.asm\s\-o\s\.\/syscalls\.obj.{0,1000}
+.{0,1000}NativeDump\.exe\s.{0,1000}\.dmp.{0,1000}
 .{0,1000}NativeEasyHook32\.dll.{0,1000}
 .{0,1000}NativeEasyHook64\.dll.{0,1000}
 .{0,1000}Naughty\-Script\.ps1.{0,1000}
@@ -23298,6 +23545,7 @@
 .{0,1000}ncat\s.{0,1000}\s\-p\s4444.{0,1000}
 .{0,1000}ncat\s\-\-udp\s.{0,1000}\s\-e\s\/bin\/bash.{0,1000}
 .{0,1000}nccgroup\/ABPTTS.{0,1000}
+.{0,1000}nccgroup\/Accomplice.{0,1000}
 .{0,1000}nccgroup\/demiguise.{0,1000}
 .{0,1000}nccgroup\/SCOMDecrypt.{0,1000}
 .{0,1000}ncrack\-.{0,1000}\.dmg.{0,1000}
@@ -24057,6 +24305,7 @@
 .{0,1000}opera\.exe.{0,1000}\s\-\-load\-extension\=\".{0,1000}\\Users\\.{0,1000}\\Appdata\\Local\\Temp\\.{0,1000}
 .{0,1000}Operative\sFramework.{0,1000}
 .{0,1000}ophcrack.{0,1000}
+.{0,1000}options\.bruteforced_protocol.{0,1000}
 .{0,1000}optiv\/Ivy\.git.{0,1000}
 .{0,1000}optiv\/Registry\-Recon.{0,1000}
 .{0,1000}optiv\/ScareCrow.{0,1000}
@@ -24236,6 +24485,7 @@
 .{0,1000}PassTheChallenge\.pdb.{0,1000}
 .{0,1000}PassTheChallenge\.sln.{0,1000}
 .{0,1000}PassTheChallenge\.vcxproj.{0,1000}
+.{0,1000}PassTheHash\(.{0,1000}
 .{0,1000}passthehashbrowns\/BOFMask.{0,1000}
 .{0,1000}passthehashbrowns\/SharpRDPThief.{0,1000}
 .{0,1000}passware\-kit\-forensic\.sls.{0,1000}
@@ -24251,6 +24501,7 @@
 .{0,1000}password\|passwort\|passwd\|.{0,1000}
 .{0,1000}password\|pwd\|creds\|cred\|secret\|userpw.{0,1000}
 .{0,1000}Password\-Default\/service\.txt.{0,1000}
+.{0,1000}password\-hijaker\.exe.{0,1000}
 .{0,1000}PASSWORD\s\=\s\"Letmein123!.{0,1000}
 .{0,1000}password\s\=\s\'b4bysh4rk\'.{0,1000}
 .{0,1000}password\s\=\s\'tdragon6\'.{0,1000}
@@ -24400,6 +24651,7 @@
 .{0,1000}Perform\sfull\sattack\schain\.\sOptions\sare\sidentical\sto\sRELAY\.\sTool\smust\sbe\son\sdisk.{0,1000}
 .{0,1000}Perform\spassword\sspraying\sfor\sall\sactive\susers\son\sa\sdomain.{0,1000}
 .{0,1000}Performing\srecursive\sShadowSpray\sattack.{0,1000}
+.{0,1000}Performs\sa\skerberoasting\sattack\sagainst\stargeted.{0,1000}
 .{0,1000}Perfusion\.exe\s\-c.{0,1000}
 .{0,1000}Perfusion\\RegistryPatch\.ps1.{0,1000}
 .{0,1000}Perfusion\-master\.zip.{0,1000}
@@ -24762,7 +25014,7 @@
 .{0,1000}powerpick\.py.{0,1000}
 .{0,1000}PowerPick\.x64\.dll.{0,1000}
 .{0,1000}powerpick\s\-Command\s.{0,1000}
-.{0,1000}powerpreter\.psm1.{0,1000}
+.{0,1000}Powerpreter\.psm1.{0,1000}
 .{0,1000}powerpwn\.powerdump.{0,1000}
 .{0,1000}powerpwn_tests.{0,1000}
 .{0,1000}PowerSCCM\.ps1.{0,1000}
@@ -24832,6 +25084,7 @@
 .{0,1000}PowerShell_PoC\.zip.{0,1000}
 .{0,1000}powershell_privesc_bypassuac_eventvwr.{0,1000}
 .{0,1000}powershell_privesc_sherlock.{0,1000}
+.{0,1000}powershell_reflective_mimikatz.{0,1000}
 .{0,1000}powershell_reverse_shell\.ps1.{0,1000}
 .{0,1000}powershell_reverse_tcp\..{0,1000}
 .{0,1000}powershell_reverse_tcp\.py.{0,1000}
@@ -25004,6 +25257,7 @@
 .{0,1000}process\:\:suspend.{0,1000}
 .{0,1000}process\-inject\s.{0,1000}
 .{0,1000}process\scall\screate\s\"powershell\senable\-psremoting\s\-force\".{0,1000}
+.{0,1000}process\smust\srun\sas\sNT\sAUTHORITY\\\\SYSTEM\sto\sdump\slsass\smemory.{0,1000}
 .{0,1000}Process\-TaskingPackets.{0,1000}
 .{0,1000}process_herpaderping.{0,1000}
 .{0,1000}process_imports\.cna.{0,1000}
@@ -25740,6 +25994,7 @@
 .{0,1000}read_cs_teamserver.{0,1000}
 .{0,1000}readShellcode.{0,1000}
 .{0,1000}ReadyToPhish\.xls.{0,1000}
+.{0,1000}reagentc\s\/disable\s\>nul.{0,1000}
 .{0,1000}Real\-Passwords.{0,1000}
 .{0,1000}RealBey\/ThisIsNotRat.{0,1000}
 .{0,1000}realgam3.{0,1000}
@@ -25847,7 +26102,7 @@
 .{0,1000}ReflectiveDll\.x64\.dll.{0,1000}
 .{0,1000}ReflectiveDll\.x86\.dll.{0,1000}
 .{0,1000}ReflectiveDLLInjection.{0,1000}
-.{0,1000}ReflectiveDllInjection\..{0,1000}
+.{0,1000}ReflectiveDLLInjection\..{0,1000}
 .{0,1000}ReflectiveDLLInjection\.h.{0,1000}
 .{0,1000}ReflectiveDLLInjection\/dll.{0,1000}
 .{0,1000}ReflectiveLoader\..{0,1000}
@@ -25888,9 +26143,12 @@
 .{0,1000}reg\sadd\s.{0,1000}HKLM\\System\\CurrentControlSet\\Control\\WMI\\Autologger\\DefenderApiLogger.{0,1000}\s\/v\s.{0,1000}Start.{0,1000}\s\/t\sREG_DWORD\s\/d\s.{0,1000}0.{0,1000}\s\/f.{0,1000}
 .{0,1000}reg\sadd\s.{0,1000}HKLM\\System\\CurrentControlSet\\Services\\SecurityHealthService.{0,1000}\s\/v\s.{0,1000}Start.{0,1000}\s\/t\sREG_DWORD\s\/d\s.{0,1000}4.{0,1000}\s\/f.{0,1000}
 .{0,1000}REG\sADD\s.{0,1000}igfxCUIService.{0,1000}
+.{0,1000}reg\sadd\s\"HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\Explorer\"\s\/v\s\"SettingsPageVisibility\"\s\/t\sREG_SZ\s\/d\s\"hide\:recovery\;windowsdefender\"\s\/f\s\>nul.{0,1000}
 .{0,1000}REG\sADD\s\"HKLM\\SOFTWARE\\Microsoft\\Windows\sNT\\CurrentVersion\\Image\sFile\sExecution\sOptions\\sethc\.exe\"\s\/v\sDebugger\s\/t\sREG_SZ\s\/d\s\"C\:\\windows\\system32\\cmd\.exe\".{0,1000}
 .{0,1000}Reg\sAdd\s\'HKLM\\Software\\Policies\\Microsoft\\Windows\sDefender\'\s\/v\sDisableAntiSpyware\s\/t\sREG_DWORD\s\/d\s1\s\/f.{0,1000}
+.{0,1000}REG\sADD\sHKCU\\\\Software\\\\Microsoft\\\\Windows\\\\CurrentVersion\\\\Run\s\/v\s\"CursorInit\"\s\/t\sREG_SZ\s\/d\s.{0,1000}
 .{0,1000}REG\sADD\sHKCU\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\s\/V.{0,1000}saint\.jar.{0,1000}
+.{0,1000}REG\sADD\sHKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\s\/v\s\"CursorInit\"\s\/t\sREG_SZ\s\/d\s.{0,1000}
 .{0,1000}reg\sadd\sHKCU\\software\\policies\\microsoft\\office\\16\.0\\excel\\security\s\/v\sPythonFunctionWarnings\s\/t\sREG_DWORD\s\/d\s0\s\/f\?.{0,1000}
 .{0,1000}reg\sadd\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\s\/v\sDisableRestrictedAdmin\s\/t\sREG_DWORD\s\/d\s\"0\"\s\/f.{0,1000}
 .{0,1000}reg\sadd\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\s\/v\sDisableRestrictedAdmin\s\/t\sREG_DWORD\s\/d\s0\s\/f.{0,1000}
@@ -25914,7 +26172,7 @@
 .{0,1000}reg\squery\s\"HKEY_LOCAL_MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\sNT\\CURRENTVERSION\\WINLOGON\"\s\/v\sCACHEDLOGONSCOUNT.{0,1000}
 .{0,1000}reg\squery\shkcu\\software\\.{0,1000}\\putty\\session.{0,1000}
 .{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\\s\/v\sRunAsPPL.{0,1000}
-.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\s\/v\sRunAsPPL.{0,1000}
+.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA\s\/v\sRunAsPPL.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH\\Agent.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\realvnc.{0,1000}
@@ -25999,7 +26257,7 @@
 .{0,1000}Remote\sAccess\-windows32\-offline\.exe.{0,1000}
 .{0,1000}Remote\sAccess\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sAccess\-windows64\-offline\.exe.{0,1000}
-.{0,1000}remote\saccess\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sAccess\-windows64\-online\.exe.{0,1000}
 .{0,1000}Remote\sAccessECompatibility\.exe.{0,1000}
 .{0,1000}Remote\sPotato\sby\s\@decoder_it\sand\s\@splinter_code.{0,1000}
 .{0,1000}Remote\sSupport\-java\-online\.jar.{0,1000}
@@ -26018,7 +26276,7 @@
 .{0,1000}Remote\sSupport\-windows32\-offline\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows64\-offline\.exe.{0,1000}
-.{0,1000}remote\ssupport\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sSupport\-windows64\-online\.exe.{0,1000}
 .{0,1000}Remote\sUtilities\sPty\s\(Cy\)\sLtd\..{0,1000}
 .{0,1000}Remote\sWork\-windows64\-online\.exe.{0,1000}
 .{0,1000}remote_exploit\.erb.{0,1000}
@@ -26073,6 +26331,8 @@
 .{0,1000}RemotePotato0\.exe.{0,1000}
 .{0,1000}remotereg\.cna.{0,1000}
 .{0,1000}RemoteScanner\.exe.{0,1000}
+.{0,1000}RemoteShellCodeInjection\-master.{0,1000}
+.{0,1000}RemoteShellCodeInjection\-master\.zip.{0,1000}
 .{0,1000}remotewinenum\.rb.{0,1000}
 .{0,1000}Remove\-AADIntAccessDeviceFromIntune.{0,1000}
 .{0,1000}Remove\-AADIntAzureDiagnosticSettings.{0,1000}
@@ -26142,6 +26402,9 @@
 .{0,1000}restore_signature\.sh\s.{0,1000}\.dmp.{0,1000}
 .{0,1000}RestrictedAdmin\.exe.{0,1000}
 .{0,1000}resuming\sa\sprevious\sNTDS\.DIT\sdump\ssession\s.{0,1000}
+.{0,1000}Retrieve\sDomain\sCached\sCredentials\shashes\sfrom\sregistry.{0,1000}
+.{0,1000}Retrieve\sLSA\ssecrets\sstored\sin\sregistry.{0,1000}
+.{0,1000}Retrieve\sWdigest\scredentials\sfrom\sregistry.{0,1000}
 .{0,1000}return\-wizard\-rce\-exim\.txt.{0,1000}
 .{0,1000}rev_kali_192_168_0_110_1234.{0,1000}
 .{0,1000}reveng007\/C2_Server.{0,1000}
@@ -26194,6 +26457,7 @@
 .{0,1000}RhinoSecurityLabs.{0,1000}
 .{0,1000}RhinoSecurityLabs\/pacu.{0,1000}
 .{0,1000}rhosts_walker_spec\.rb.{0,1000}
+.{0,1000}ricardojoserf\/NativeDump.{0,1000}
 .{0,1000}RiccardoAncarani\/BOFs.{0,1000}
 .{0,1000}RiccardoAncarani\/LiquidSnake.{0,1000}
 .{0,1000}RiccardoAncarani\/TaskShell.{0,1000}
@@ -26485,6 +26749,7 @@
 .{0,1000}RunOF\.exe\s\-.{0,1000}
 .{0,1000}RunOF\.Internals.{0,1000}
 .{0,1000}RunRansomware\-76740706\-9DEC\-EC11\-BB3D\-0022482CA4A7\.json.{0,1000}
+.{0,1000}Runs\sa\spowershell\scommand\swhile\sattempting\sto\sbypass\sAMSI.{0,1000}
 .{0,1000}runShellcode.{0,1000}
 .{0,1000}runshellcode\.asm.{0,1000}
 .{0,1000}runshellcode\.exe.{0,1000}
@@ -26717,6 +26982,8 @@
 .{0,1000}schshell\.cna.{0,1000}
 .{0,1000}schtask_callback.{0,1000}
 .{0,1000}SchTaskBackdoor\..{0,1000}
+.{0,1000}schtasks\s\/create\s\/tn\s.{0,1000}Constants\.PERSISTENCE_WINDOWS_TASK\s\+.{0,1000}
+.{0,1000}schtasks\s\/create\s\/tn\s\"CursorSvc\".{0,1000}
 .{0,1000}schtasks\s\/query\s\/v\s\/fo\sLIST.{0,1000}
 .{0,1000}schtasks_elevator.{0,1000}
 .{0,1000}schtasks_exploit\s.{0,1000}
@@ -26852,6 +27119,7 @@
 .{0,1000}sekurlsa\s.{0,1000}
 .{0,1000}SELECT\s.{0,1000}\sFROM\sEvilSignature.{0,1000}
 .{0,1000}SELECT\sdisplayName\sFROM\sAntiVirusProduct.{0,1000}
+.{0,1000}SELECT\sname_on_card,\sexpiration_month,\sexpiration_year,\scard_number_encrypted\sFROM\scredit_cards.{0,1000}
 .{0,1000}SELECT\sSYSTEM_USER\sas\s\'Logged\sin\sas\'.{0,1000}\sCURRENT_USER\sas\s\'Mapped\sas\'.{0,1000}
 .{0,1000}self\.sprayer\.auth_O365.{0,1000}
 .{0,1000}self_delete\.x64\.o.{0,1000}
@@ -27030,7 +27298,7 @@
 .{0,1000}Set\sListener\sdbx.{0,1000}
 .{0,1000}set\sListener\sonedrive.{0,1000}
 .{0,1000}set\sobfuscate\s.{0,1000}
-.{0,1000}set\spayload\s.{0,1000}
+.{0,1000}set\sPAYLOAD\s.{0,1000}
 .{0,1000}set\spipename\s.{0,1000}
 .{0,1000}set\sProfile\sapt1\.profile.{0,1000}
 .{0,1000}set\sshellcode\s.{0,1000}
@@ -27382,9 +27650,25 @@
 .{0,1000}SharpSphere\.exe.{0,1000}
 .{0,1000}SharpSploit.{0,1000}
 .{0,1000}SharpSploit\.dll.{0,1000}
+.{0,1000}SharpSploit\.Enumeration\..{0,1000}
+.{0,1000}SharpSploit\.Exe.{0,1000}
+.{0,1000}SharpSploit\.Execution\..{0,1000}
+.{0,1000}SharpSploit\.Persistence\..{0,1000}
+.{0,1000}SharpSploit\sCommand\sExecution.{0,1000}
+.{0,1000}SharpSploit\sCredentials\sCommands.{0,1000}
+.{0,1000}SharpSploit\sDomain\sEnumeration\sCommands.{0,1000}
+.{0,1000}SharpSploit\sEnumeration\sCommands.{0,1000}
+.{0,1000}SharpSploit\sLateral\sMovement\sCommands.{0,1000}
+.{0,1000}SharpSploit\sService.{0,1000}
+.{0,1000}sharpSploitConsole\.exe.{0,1000}
+.{0,1000}SharpSploitConsole\.sln.{0,1000}
+.{0,1000}SharpSploitConsole\:\>.{0,1000}
+.{0,1000}SharpSploitConsole\-master.{0,1000}
 .{0,1000}SharpSploitConsole_x.{0,1000}
 .{0,1000}SharpSploitDomainRecon.{0,1000}
 .{0,1000}SharpSploitDomainReconImpl.{0,1000}
+.{0,1000}SharpSploitService\.exe.{0,1000}
+.{0,1000}SharpSploitSvc.{0,1000}
 .{0,1000}SharpSplunkWhisperer2.{0,1000}
 .{0,1000}SharpSpoolTrigger\.exe.{0,1000}
 .{0,1000}SharpSpray.{0,1000}
@@ -27538,7 +27822,7 @@
 .{0,1000}shellter\.exe.{0,1000}
 .{0,1000}shepardsbind_recv\.py.{0,1000}
 .{0,1000}shepbind_serv\.exe.{0,1000}
-.{0,1000}Sherlock\.ps1.{0,1000}
+.{0,1000}sherlock\.ps1.{0,1000}
 .{0,1000}Sherlock_Vulns\.txt.{0,1000}
 .{0,1000}Shhhavoc\.py\s.{0,1000}
 .{0,1000}Shhhloader\.py.{0,1000}
@@ -27594,7 +27878,7 @@
 .{0,1000}SignToolExHook\.dll.{0,1000}
 .{0,1000}SigPloit.{0,1000}
 .{0,1000}sigthief\.exe\.manifest.{0,1000}
-.{0,1000}Sigthief\.py.{0,1000}
+.{0,1000}sigthief\.py.{0,1000}
 .{0,1000}SigThief\-master.{0,1000}
 .{0,1000}sigwhatever\.exe.{0,1000}
 .{0,1000}SilenceDefender\.ps1.{0,1000}
@@ -27638,7 +27922,7 @@
 .{0,1000}SimpleHelp\-install\-64\.exe.{0,1000}
 .{0,1000}SimpleHelp\s\-\ssimple\-help\.com.{0,1000}
 .{0,1000}simplehelp\sremote\swork\.exe.{0,1000}
-.{0,1000}SimpleHelp\sRemote\sWorkWinLauncher\.exe.{0,1000}
+.{0,1000}simplehelp\sremote\sworkwinlauncher\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-java\-online\.jar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-offline\.tar.{0,1000}
@@ -27729,6 +28013,9 @@
 .{0,1000}SluiEOP\.ps1.{0,1000}
 .{0,1000}slyd0g\/DLLHijackTest.{0,1000}
 .{0,1000}Small\sShell\s\-\sEdited\sBy\sKingDefacer.{0,1000}
+.{0,1000}smart_try_password_or_hash\(.{0,1000}
+.{0,1000}smartbrute\%2520brute.{0,1000}
+.{0,1000}smartbrute\.py.{0,1000}
 .{0,1000}smartbrute\s.{0,1000}kerberos.{0,1000}
 .{0,1000}SmashedPotato\.cs.{0,1000}
 .{0,1000}SmashedPotato\.exe.{0,1000}
@@ -28225,9 +28512,11 @@
 .{0,1000}start_nbnsspoof.{0,1000}
 .{0,1000}startanotherimplant.{0,1000}
 .{0,1000}startdaisy.{0,1000}
+.{0,1000}Starting\sbruteforce\sattack\son\s.{0,1000}
 .{0,1000}Starting\sCcmExec\sservice\.\sWait\saround\s30\sseconds\sfor\sSCNotification\.exe\sto\srun\sconfig\sfile.{0,1000}
 .{0,1000}Starting\senumerating\sfile\sshares\susing\sdomain\scredential\sfor\s.{0,1000}
 .{0,1000}Starting\sHVNC\sServer.{0,1000}
+.{0,1000}Starting\skeylogger\sfor\s.{0,1000}
 .{0,1000}starting\sMulti\-Layered\sACLight\sscan.{0,1000}
 .{0,1000}Starting\sphp\sserver\sat\slocalhost\:.{0,1000}
 .{0,1000}Starting\sPoolParty\sattack\sagainst\sprocess\sid\:.{0,1000}
@@ -28691,6 +28980,7 @@
 .{0,1000}The\simplant\scommand\sallows\susers\sto\srun\scommands\son\sslivers\sfrom\stheir.{0,1000}
 .{0,1000}The\smalware\sGo\sfile\shas\sbeen\scompleted\..{0,1000}
 .{0,1000}The\sRansomware\sfor\sRedTeams\sCoded\sby\sSiddhant\sGour\swith\s.{0,1000}
+.{0,1000}The\ssmart\spassword\sspraying\sand\sbruteforcing\stool\sfor\sActive\sDirectory\sDomain\sServices.{0,1000}
 .{0,1000}The\-Viper\-One\/PME\-Scripts.{0,1000}
 .{0,1000}The\-Viper\-One\/PsMapExec.{0,1000}
 .{0,1000}TheCyb3rAlpha\/BobTheSmuggler.{0,1000}
@@ -28969,6 +29259,7 @@
 .{0,1000}Trojan\.Lazagne.{0,1000}
 .{0,1000}Trojan\.Linux.{0,1000}
 .{0,1000}Trojan\.RemoteUtilitiesRAT.{0,1000}
+.{0,1000}Trojan\.Shell\.XZ.{0,1000}
 .{0,1000}Trojan\.Win32\..{0,1000}\..{0,1000}
 .{0,1000}Trojan\.Win64.{0,1000}
 .{0,1000}Trojan\.WinGo.{0,1000}
@@ -29379,6 +29670,7 @@
 .{0,1000}vssadmin\screate\sshadow\s\/for\=C\:.{0,1000}
 .{0,1000}vssadmin\screate\sshadow\s\/for\=C\:.{0,1000}\s\\Temp\\.{0,1000}\.tmp.{0,1000}
 .{0,1000}vssadmin\sdelete\sshadows.{0,1000}
+.{0,1000}vssadmin\sdelete\sshadows\s\/all\s\/quiet\s\>nul.{0,1000}
 .{0,1000}vssadmin\sdelete\sshadows\s\/for\=\%systemdrive\%\s\/all\s\/quiet.{0,1000}
 .{0,1000}vssadmin\slist\sshadows.{0,1000}
 .{0,1000}vssenum\.x64\..{0,1000}
@@ -29481,6 +29773,7 @@
 .{0,1000}webshell\-exegol\.php.{0,1000}
 .{0,1000}webshell\shttp.{0,1000}\/tomcatwar\.jsp\?cmd\=.{0,1000}
 .{0,1000}webshell_execute.{0,1000}
+.{0,1000}WebSocketReverseShellDotNet.{0,1000}
 .{0,1000}weevely\sgenerate\s.{0,1000}\.php.{0,1000}
 .{0,1000}weevely\shttps\:\/\/.{0,1000}\.php\s.{0,1000}\sid.{0,1000}
 .{0,1000}weird\sstatus\:.{0,1000}
