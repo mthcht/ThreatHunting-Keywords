@@ -12,6 +12,7 @@
   - [specific fields](#hunt-the-keywords-in-other-fields--urlprocesscommandlinequery)
   - [speed](#speed)
   - [dashboard example](#dashboard-example)
+  - [Splunk4DFIR](#Splunk4DFIR)
   - [With ELK it's different](#With-ELK)
   - [Other awesome lists for_detection](#Other-awesome-lists-for-detection)
 - [Hunt without a SIEM](#dfir-hunt-for-keywords-in-files-no-siem)
@@ -216,6 +217,9 @@ If you are working with the Elastic Stack, there is a lot of restrictions for li
 
 ### Dashboard Example
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/804c74c1-c50e-4e50-93d4-507e202d8773)
+
+### Splunk4DFIR
+Another example of using the project csv files with splunk to hunt in DFIR artifacts and logs: https://github.com/mf1d3l/Splunk4DFIR
 
 ### Other awesome lists for detection
 I keep some relevant artefacts in separated lists, these lists are more precise and can be used in detection rules, they are available in this [github repo](https://github.com/mthcht/awesome-lists/tree/main/Lists)
