@@ -35036,6 +35036,7 @@
 *Trojan:Win32/TrickbotCrypt*
 *Trojan:Win32/TurtleLoader.*
 *Trojan:Win64*
+*Trojan:Win64/CobaltStrike*
 *Trojan:Win64/IcedID*
 *Trojan:Win64/IceId*
 *Trojan:Win64/Lumma*
