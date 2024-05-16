@@ -2963,6 +2963,7 @@
 .* We have found at least .* potential SUID exploitable file\(s\).*
 .* web-hacking-toolkit .*
 .* weblogic-t3-info\.nse.*
+.* --webview-exe-name=QuickAssist\.exe.*
 .* --werfault .*\\temp\\.*
 .* wget .*https://.*/interactshbuild.*
 .* where /r C:\\Windows\\WinSxS\\ .*Microsoft\.ActiveDirectory\.Management\.dll.*
@@ -4155,6 +4156,8 @@
 .*/ASREProastables\.txt.*
 .*/assets/bin2uuids_file\.py.*
 .*/assets/wraith-scripts/.*
+.*/Assistance rapide Installer\.exe.*
+.*/Assistenza rapida Installer\.exe.*
 .*/AsyncRAT-C%23.*
 .*/AsyncRAT-C-Sharp.*
 .*/asyncssh_server\.py.*
@@ -7562,6 +7565,8 @@
 .*/Quasar\.v.*\.zip.*
 .*/Quasar/releases.*
 .*/quic-go/quic-go/http3.*
+.*/Quick Assist Installer\.exe.*
+.*/Quick%20Assist%20Installer\.exe.*
 .*/QuickViewAD\.ps1.*
 .*/quicserver\.exe.*
 .*/r00t-3xp10it.*
@@ -9325,6 +9330,7 @@
 .*:9090.*/api/v1\.0/relays.*
 .*:CreateProcessFromParent\(\(Get-Process .*lsass.*\)\.Id.*
 .*\?\? MITM \?\?\?\?.*
+.*\?\?\?\?\?\?\? \?\?\?\?\?\?\?\?\? Installer\.exe.*
 .*\?convert_ccache_to_kirbi.*
 .*\?convert_kirbi_to_ccache.*
 .*\?function Invoke-CylanceDisarm.*
@@ -9742,7 +9748,7 @@
 .*\\\\\.\\\\pipe\\\\Teste.*
 .*\\\\\.\\Nidhogg.*
 .*\\\\\.\\pipe\\coerced\\pipe\\spoolss.*
-.*\\\\\.\\pipe\\merlin.*
+.*\\\\\.\\pipe\\Merlin.*
 .*\\\\\.\\pipe\\mimi.*
 .*\\\\\.\\pipe\\pwned/pipe/srvsvc.*
 .*\\\\\.\\pipe\\Supremo.*
@@ -9981,6 +9987,7 @@
 .*\\AppData\\Local\\Temp\\Payload\.ps1.*
 .*\\AppData\\Local\\Temp\\Procmon\.exe.*
 .*\\AppData\\Local\\Temp\\Procmon64\.exe.*
+.*\\AppData\\Local\\Temp\\RemoteHelp\\EBWebView.*
 .*\\AppData\\Local\\Temp\\rutserv.*
 .*\\AppData\\Local\\Temp\\Screenshot\.ps1.*
 .*\\AppData\\Local\\Temp\\SSIDump\.zip.*
@@ -10023,6 +10030,8 @@
 .*\\AsmHell\.asm.*
 .*\\ASPJinjaObfuscator.*
 .*\\asreproasting\.c.*
+.*\\Assistance rapide Installer\.exe.*
+.*\\Assistenza rapida Installer\.exe.*
 .*\\AsyncRAT\\.*
 .*\\ataDmargorP\\:C.*
 .*\\atera_agent\.exe.*
@@ -10349,6 +10358,7 @@
 .*\\CurrentControlSet\\Control\\SafeBoot\\Network\\ScreenConnect Client \(.*
 .*\\CurrentControlSet\\Services\\AeroadminService.*
 .*\\CurrentControlSet\\Services\\BadWindowsService.*
+.*\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\.*\\MicrosoftCorporationII\.QuickAssist_.*
 .*\\CurrentControlSet\\Services\\Mesh.*
 .*\\CurrentControlSet\\Services\\MiniInternetIdService.*
 .*\\CurrentControlSet\\Services\\ScreenConnect .*
@@ -10381,7 +10391,7 @@
 .*\\dacledit\.py.*
 .*\\daclread\.py.*
 .*\\DameWare Development\\MrcVerbLog.*
-.*\\dameware mini remote control x64\\.*
+.*\\Dameware Mini Remote Control x64\\.*
 .*\\DameWare Mini Remote Control.*\.exe.*
 .*\\Dameware Mini Remote Control\.lnk.*
 .*\\dameware remote everywhere agent.*
@@ -10952,7 +10962,7 @@
 .*\\hack-browser-data-osx-64bit\.zip.*
 .*\\hack-browser-data-windows-32bit\.zip.*
 .*\\hack-browser-data-windows-64bit\.zip.*
-.*\\hades\.exe.*
+.*\\Hades\.exe.*
 .*\\hades-main\.zip.*
 .*\\HandleHijacker\.cpp.*
 .*\\HandleHijacker\.hpp.*
@@ -11044,7 +11054,7 @@
 .*\\interesting-teamsmessages\.csv.*
 .*\\InternetIdService\.exe.*
 .*\\InternetIdService_.*-.*-.*\.txt
-.*\\inveigh\.exe.*
+.*\\Inveigh\.exe.*
 .*\\Inveigh\.ps1.*
 .*\\Inveigh\\bin\\.*
 .*\\InventoryApplicationFile\\aeroadmin.*
@@ -11346,6 +11356,7 @@
 .*\\metasploit\.go.*
 .*\\Meterpeter_.*\.zip.*
 .*\\mhydeath64.*
+.*\\Microsoft\.RemoteAssistance\.QuickAssist\\.*
 .*\\mimi32\.exe.*
 .*\\mimi64\.exe.*
 .*\\mimidogz-master.*
@@ -11842,8 +11853,8 @@
 .*\\PowerShellRunnerDll\.h.*
 .*\\Powershell-Scripts-for-Hackers-and-Pentesters.*
 .*\\PowerTools\.ps1.*
-.*\\Powerup\.exe.*
-.*\\PowerUp\.ps1.*
+.*\\powerup\.exe.*
+.*\\Powerup\.ps1.*
 .*\\PowerView\.cna.*
 .*\\Powerview\.exe.*
 .*\\PowerView\.ps1.*
@@ -12006,7 +12017,10 @@
 .*\\Quasar\.v.*\.zip.*
 .*\\Quasar-master.*
 .*\\QueryModuleClient\.exe.*
+.*\\Quick Assist Installer\.exe.*
 .*\\quick launch\\dameware remote everywhere tech console\.lnk.*
+.*\\QuickAssist\.exe.*
+.*\\QuickAssist\.pdb.*
 .*\\QuickViewAD\.ps1.*
 .*\\r00t-3xp10it.*
 .*\\ractrlkeyhook\.dll.*
@@ -12121,7 +12135,7 @@
 .*\\Remote Command Executor\.sln.*
 .*\\remote support\.exe.*
 .*\\Remote SupportEmbedExample\.html.*
-.*\\Remote Utilities - Host\\.*
+.*\\remote utilities - host\\.*
 .*\\remote utilities agent\\.*
 .*\\Remote Utilities Agent\\Logs.*
 .*\\Remote Utilities Files\\rdp_connections\\.*
@@ -12187,7 +12201,7 @@
 .*\\RemotePCUDEHost\.inf.*
 .*\\RemotePCUDEHost\.sys.*
 .*\\RemotePCUIA\.exe.*
-.*\\remotepcuiu\.exe.*
+.*\\RemotePCUIU\.exe.*
 .*\\RemotePCViewer\.msi.*
 .*\\RemotePotato0\.cpp.*
 .*\\RemotePotato0\.sln.*
@@ -12267,7 +12281,7 @@
 .*\\RPCCoreViewer\.exe.*
 .*\\RPCCoreViewerL\.exe.*
 .*\\RpcDND_Console\.exe.*
-.*\\rpcdownloader\.exe.*
+.*\\RPCDownloader\.exe.*
 .*\\RPCDownloaderLogFile\.txt.*
 .*\\RPCDragDrop\.txt.*
 .*\\rpcdump\.py.*
@@ -12289,7 +12303,7 @@
 .*\\RPCOTAViewerHostKeyPopup\.exe.*
 .*\\RPCPerformanceService\.exe.*
 .*\\RPCPerformanceService\.log.*
-.*\\rpcperfviewer\.exe.*
+.*\\RPCPerfViewer\.exe.*
 .*\\RPCPerfViewer\.log.*
 .*\\RPCPing\.txt.*
 .*\\RPCPreUninstall\.log.*
@@ -12396,7 +12410,7 @@
 .*\\scuffy\.py.*
 .*\\sdb-explorer\.exe.*
 .*\\sdb-explorer\.sln.*
-.*\\Seatbelt\.exe.*
+.*\\SeatBelt\.exe.*
 .*\\Seatbelt\.sln.*
 .*\\Seatbelt\.txt.*
 .*\\Seatbelt\\Commands\\.*
@@ -12508,7 +12522,7 @@
 .*\\SharpPersistSD\.dll.*
 .*\\SharpPersistSD\.sln.*
 .*\\SharpPrinter\.exe.*
-.*\\SharpRDP\.exe.*
+.*\\sharprdp\.exe.*
 .*\\SharpRDP\\.*
 .*\\SharpRDPHijack.*
 .*\\SharpRDPThief\\.*
@@ -12530,7 +12544,7 @@
 .*\\SharpSploitConsole\..*
 .*\\SharpSploit-master.*
 .*\\SharpSpray\.csproj.*
-.*\\sharpspray\.exe.*
+.*\\SharpSpray\.exe.*
 .*\\SharpSpray\.sln.*
 .*\\SharpSpray\\.*
 .*\\SharpSpray-1\.1\.zip.*
@@ -12660,6 +12674,7 @@
 .*\\Software\\Kidlogger.*
 .*\\Software\\LogMeInRescue\\.*
 .*\\SOFTWARE\\Microsoft\\Tracing\\PCMonitorSrv_RAS.*
+.*\\SOFTWARE\\Microsoft\\Tracing\\Quick Assist Installer.*
 .*\\Software\\MSDART\\Active Directory Explorer.*
 .*\\Software\\NetSupport Ltd\\.*
 .*\\SOFTWARE\\ORL\\VNCHooks\\Application_Prefs\\WinVNC.*
@@ -13131,6 +13146,7 @@
 .*\\windows_x64_agent\.exe.*
 .*\\windows_x86_admin\.exe.*
 .*\\windows_x86_agent\.exe.*
+.*\\WindowsApps\\MicrosoftCorporationII\.QuickAssist_.*
 .*\\Windows-Passwords\.ps1.*
 .*\\WindowsShareFinder\.cs.*
 .*\\WINHELLO2hashcat\.py.*
@@ -13147,6 +13163,7 @@
 .*\\winscp_dump\.py.*
 .*\\winsos\.cpp.*
 .*\\winsos\.exe.*
+.*\\WinSxS\\amd64_microsoft-windows-quickassist_.*
 .*\\winvnc\.exe.*
 .*\\winvncsc\.exe.*
 .*\\winwvc\.exe.*
@@ -13428,6 +13445,7 @@
 .*<provider name=.*dameware remote everywhere - \[dameware].* />.*
 .*<Provider Name=.*PC Monitor.* />.*
 .*<Provider Name=.*Pulseway.* />.*
+.*<Provider Name='Quick Assist'/>.*
 .*<Provider Name='ScreenConnect Security Manager'/>.*
 .*<Provider Name='ScreenConnect Web Server'/>.*
 .*<SessionId>: list/steal token from specific session.*
@@ -13507,6 +13525,7 @@
 .*>Poor man's ngrok<.*
 .*>Product: Remote Utilities - Viewer -- .*
 .*>Product: Remote Utilities Server -- .*
+.*>Quick Assist Component<.*
 .*>Remote Desktop PassView<.*
 .*>Remote Support Customer Client</Data>.*
 .*>Remote Utilities - Viewer</.*
@@ -17514,7 +17533,7 @@
 .*aiifbnbfobpmeekipheeijimdpnlpgpp.*
 .*aiocmd\\nested_completer\.py.*
 .*Airbash.*
-.*aircrack-ng.*
+.*Aircrack-ng.*
 .*aireplay-ng .*
 .*Airgeddon.*
 .*airman604/splunk_whisperer.*
@@ -17581,7 +17600,7 @@
 .*AMSI_Bypass\.ps1.*
 .*AMSI_bypass_20.*\.ps1
 .*AMSI_patch-main.*
-.*amsi-bypass.*
+.*Amsi-Bypass.*
 .*AmsiBypass\.cs.*
 .*amsibypass\.exe.*
 .*Amsi-Killer\.exe.*
@@ -17591,8 +17610,8 @@
 .*AmsiOpenSession\.cpp.*
 .*AmsiOpenSession\.sln.*
 .*AmsiOpenSession\.vcxproj.*
-.*AMSITrigger\.exe.*
-.*amsitrigger_x64\.exe.*
+.*AmsiTrigger\.exe.*
+.*AmsiTrigger_x64\.exe.*
 .*AmsiTrigger_x86\.exe.*
 .*An interactive shell to spoof some LOLBins.*
 .*An0nUD4Y/Evilginx2-Phishlets.*
@@ -17791,6 +17810,7 @@
 .*--assemblyargs AntiVirus AppLocker.*
 .*Assets/solution/dllmain\.cpp.*
 .*assist\.zoho\.com.*
+.*Assistencia Rapida Installer\.exe.*
 .*AssmblyLoader.*
 .*assoc .*findstr .*=cm.*
 .*assoc .*findstr .*lCmd.*
@@ -18386,7 +18406,7 @@
 .*BD602C80-47ED-4294-B981-0119D2200DB8.*
 .*bd63af36618538f67b2bf90652fb7536b40c915b307a69887df67bd5cf0400b6.*
 .*bd6f80e0290c96f73f6cb4837e0050dd4f66c71cdca9da9afde6a619b4c09f11.*
-.*bd745a5e-a1e9-4fdd-a15b-e9f303a625ae.*
+.*BD745A5E-A1E9-4FDD-A15B-E9F303A625AE.*
 .*bd7552c78fd3f852e39b140051c4a1aa5a30a14e23eee49cfb570e19b4dbb0fa.*
 .*bd78ea00b16797551d4f40297f42e9b1f9d912f416a115c3eb10f340246a9d54.*
 .*bd7eb45070c8a4e1595e9daaf55bfc331e5ada1244c4ed496b89225e22429cf7.*
@@ -18843,7 +18863,7 @@
 .*Browser-password-stealer-master.*
 .*browserpivot .*
 .*BrowsingHistoryView\.cfg.*
-.*browsinghistoryview\.exe.*
+.*BrowsingHistoryView\.exe.*
 .*BROWSINGHISTORYVIEW\.EXE-.*\.pf.*
 .*BrowsingHistoryView\.html.*
 .*browsinghistoryview\.zip.*
@@ -20116,6 +20136,7 @@
 .*-Command .*--signature --driver.*.*
 .*-command .*\.exe.* -technique ccmstp.*
 .*-Command Add-MpPreference -ExclusionProcess .*\\Program Files\\FreeFileSync\\Bin\\.*
+.*Command: beginsharing Result: \{.*responsename.*:.*beginsharing.*.*
 .*command_obfuscator\.py.*
 .*command=.*\#\#\#---POWERSHELL---.*eval \$\(echo .*
 .*CommandAndControl_.*\.py.*
@@ -20183,7 +20204,7 @@
 .*config/51pwn/CVE-.*
 .*CONFIG_NETKIT_DEBUG.*
 .*config_steal /etc/krb5\.conf /etc/krb5\.keytab.*
-.*Confuser\.CLI\.exe.*
+.*Confuser\.CLI\.Exe.*
 .*Confuser\.DynCipher\.dll.*
 .*Confuser\.Renamer\.dll.*
 .*ConfuserEx \(CLI\).*
@@ -20211,6 +20232,7 @@
 .*-consoleoutput -DomainRecon.*
 .*-consoleoutput -Localrecon.*
 .*contact_harvester.*
+.*contactsupportrelays4-prod\.eastus\.cloudapp\.azure\.com.*
 .*ContainYourself\.cpp.*
 .*ContainYourself\.exe.*
 .*ContainYourself\.sln.*
@@ -23899,7 +23921,7 @@
 .*Get-AADIntAccountSkus.*
 .*Get-AADIntADFSPolicyStoreRules.*
 .*Get-AADIntAdminPortalAccessTokenUsingCBA.*
-.*Get-AADIntAdUserNTHash.*
+.*Get-AADIntADUserNTHash.*
 .*Get-AADIntADUserThumbnailPhoto.*
 .*Get-AADIntAgentProxyGroups.*
 .*Get-AADIntAzureADFeature.*
@@ -24187,7 +24209,7 @@
 .*Get-KeystrokeData.*
 .*Get-Keystrokes .*
 .*Get-Keystrokes.*
-.*get-killdate.*
+.*Get-Killdate.*
 .*Get-KIWI_KERBEROS_LOGON_SESSION.*
 .*Get-LastLoggedon -.*
 .*Get-LastLoggedOn.*
@@ -24343,17 +24365,17 @@
 .*GetWhoamiCommand.*
 .*GetWhoamiCommand\.cs.*
 .*GetWindowsCredentials\.exe.*
-.*Get-WLAN-Keys.*
-.*Get-Wlan-Keys\.ps1.*
+.*Get-Wlan-Keys.*
+.*Get-WLAN-Keys\.ps1.*
 .*Get-WMIEventLogins.*
 .*Get-WmiObject \?ComputerName .* \?Class Win32_ComputerSystem \| .* UserName.*
 .*Get-WmiObject -class SMS_Authority -namespace root\\CCM.*
 .*Get-WmiObject win32_loggedonuser -ComputerName .*
 .*getwmiregcachedrdpconnection.*
-.*get-wmiregcachedrdpconnection.*
+.*Get-WMIRegCachedRDPConnection.*
 .*getwmireglastloggedon.*
-.*get-wmireglastloggedon.*
-.*get-wmiregmounteddrive.*
+.*Get-WMIRegLastLoggedOn.*
+.*Get-WMIRegMountedDrive.*
 .*Get-WorkingHours.*
 .*gexplorer\.exe.*
 .*ggackgngljinccllcmbgnpgpllcjepgc.*
@@ -24576,7 +24598,7 @@
 .*gosecretsdump v.* \(@C__Sto.*
 .*gosecretsdump/cmd.*
 .*gosecretsdump_win.*\.exe.*
-.*GoSecure/pyrdp.*
+.*gosecure/pyrdp.*
 .*go-shellcode\.py.*
 .*goShellCodeByPassVT.*
 .*goshs -b .* --ssl --self-signed -p .* -d /workspace.*
@@ -25396,6 +25418,8 @@
 .*https://pubsub\.zoho\.com/.*_deskUserPresence/pubsub.*
 .*https://qu\.ax/.*\..*
 .*https://raw\.githubusercontent\.com/KasRoudra/CamHacker.*
+.*https://rdprelay.*\.support\.services\.microsoft\.com.*
+.*https://remoteassistance\.support\.services\.microsoft\.com/.*
 .*https://remotedesktop\.google\.com/_/oauthredirect.*
 .*https://remotedesktop\.google\.com/headless.*
 .*https://requestbin\.net/r/.*
@@ -25753,11 +25777,14 @@
 .*include.*bofmask\.h.*
 .*incognito.* list_tokens -u.*
 .*incognito\.exe.*
+.*Incoming cmd Message: \{.*command.*:.*beginsharing.*.*
 .*inconshreveable/ngrok.*
 .*infection_monkey\.py.*
 .*InflativeLoading\.py .*
 .*InflativeLoading-DumpPEFromMemory.*
 .*info\.meshcentral\.com.*
+.*Info: \{.*command.*:.*forwardtoagent.*, .*context.*:\{.*command.*:.*requestresponse.*,.*context.*:\{.*responsename.*:.*beginsharing.*
+.*Info: \{.*command.*:.*rdp_native_event.*, .*context.*:\{ .*eventname.*:.*rdp_native_relay_connection_succeeded.*} .*
 .*INFO: Adding keepass backdoor persistence.*
 .*INFO: Adding registry persistence.*
 .*INFO: Adding scheduled task backdoor persistence.*
@@ -25835,7 +25862,7 @@
 .*injectremote\.boo.*
 .*Inject-RemoteShellcode.*
 .*inject-shellcode .*
-.*InjectShellcode.*
+.*injectShellcode.*
 .*InjectShellCode\.cs.*
 .*InjectShellCodeRemote\.cs.*
 .*InjectShellCodeWMIFSB64.*
@@ -26061,7 +26088,7 @@
 .*Invoke-ACLPwn.*
 .*Invoke-ACLScanner .* -Filter .*
 .*Invoke-ACLScanner .* -Name .*
-.*Invoke-ACLScanner.*
+.*invoke-aclscanner.*
 .*Invoke-ADCSTemplateRecon.*
 .*Invoke-Adeleginator.*
 .*Invoke-ADSBackdoor.*
@@ -26115,7 +26142,7 @@
 .*Invoke-Certify.*
 .*Invoke-CheckAccess.*
 .*invokechecklocaladminaccess.*
-.*invoke-checklocaladminaccess.*
+.*Invoke-CheckLocalAdminAccess.*
 .*Invoke-CleverSpray.*
 .*Invoke-CleverSpray\.ps1.*
 .*Invoke-ClipboardMonitor.*
@@ -26161,7 +26188,7 @@
 .*Invoke-DumpApps.*
 .*Invoke-DumpCAPS.*
 .*Invoke-DumpOWAMailboxViaMSGraphApi.*
-.*Invoke-EDRChecker.*
+.*invoke-edrchecker.*
 .*Invoke-EDRChecker\.ps1.*
 .*Invoke-EgressCheck.*
 .*Invoke-EgressCheck\.ps1.*
@@ -26178,7 +26205,7 @@
 .*Invoke-EnvBypass\.ps1.*
 .*Invoke-EssessAgress.*
 .*invoke-eternalblue.*
-.*invoke-eventhunter.*
+.*Invoke-EventHunter.*
 .*Invoke-EventViewer .*\.exe.*
 .*Invoke-EventViewer\.ps1.*
 .*Invoke-EventVwrBypass.*
@@ -26211,7 +26238,7 @@
 .*Invoke-GraphRunner.*
 .*Invoke-Grouper2.*
 .*Invoke-Grouper3.*
-.*Invoke-Handlekatz.*
+.*Invoke-HandleKatz.*
 .*Invoke-HardenedUNCPathCheck.*
 .*Invoke-HijackableDllsCheck.*
 .*Invoke-HiveDump.*
@@ -26236,7 +26263,7 @@
 .*Invoke-InstalledServicesCheck.*
 .*Invoke-Interceptor.*
 .*Invoke-Interceptor\.ps1.*
-.*Invoke-Internalmonologue.*
+.*Invoke-InternalMonologue.*
 .*Invoke-InternalMonologue\.ps1.*
 .*Invoke-Inveigh.*
 .*Invoke-InveighRelay.*
@@ -26334,7 +26361,7 @@
 .*Invoke-PiperServer.*
 .*Invoke-PipeShell\.ps1.*
 .*Invoke-PortBind.*
-.*Invoke-PortScan.*
+.*Invoke-Portscan.*
 .*Invoke-Portscan\.ps1.*
 .*Invoke-PoshRatHttp.*
 .*Invoke-PoshRatHttps.*
@@ -26372,7 +26399,7 @@
 .*Invoke-PrivescCheck.*
 .*Invoke-PrivescCheck\.ps1.*
 .*invokeprocesshunter.*
-.*invoke-processhunter.*
+.*Invoke-ProcessHunter.*
 .*Invoke-ProcessPunisher.*
 .*Invoke-ProcessScan.*
 .*Invoke-ProcSpawn -Command .*
@@ -26381,10 +26408,10 @@
 .*Invoke-ps2exe.*
 .*Invoke-PSAmsiScan.*
 .*Invoke-PsExec.*
-.*Invoke-PsExec\.ps1.*
+.*Invoke-PSexec\.ps1.*
 .*invoke-psexecpayload.*
 .*Invoke-PsGcat.*
-.*Invoke-PsGcat\.ps1.*
+.*Invoke-PSGcat\.ps1.*
 .*Invoke-PsGcatAgent.*
 .*Invoke-PsGcatAgent\.ps1.*
 .*Invoke-PSImage.*
@@ -26485,7 +26512,7 @@
 .*Invoke-Sharphound.*
 .*Invoke-Sharphound2.*
 .*Invoke-Sharphound3.*
-.*Invoke-Sharphound4.*
+.*Invoke-SharpHound4.*
 .*Invoke-SharpImpersonation.*
 .*Invoke-SharpImpersonationNoSpace.*
 .*Invoke-SharpKatz.*
@@ -26546,7 +26573,7 @@
 .*Invoke-SocksProxy.*
 .*Invoke-SocksProxy\..*
 .*Invoke-SocksProxy\.ps1.*
-.*Invoke-SpoolSample.*
+.*Invoke-Spoolsample.*
 .*Invoke-SprayEmptyPassword.*
 .*Invoke-SQLAudit.*
 .*Invoke-SQLDumpInfo.*
@@ -26589,7 +26616,7 @@
 .*Invoke-UserGroupsCheck.*
 .*Invoke-UserHunter -CheckAccess.*
 .*invokeuserhunter.*
-.*Invoke-UserHunter.*
+.*invoke-userhunter.*
 .*Invoke-UserImpersonation.*
 .*Invoke-UsernameHarvestEAS.*
 .*Invoke-UsernameHarvestGmail.*
@@ -26629,7 +26656,7 @@
 .*Invoke-WmicDriveBy\..*
 .*Invoke-WmiCommand .*
 .*Invoke-WmiCommand.*
-.*invoke-wmiexec .*
+.*Invoke-WMIExec .*
 .*Invoke-WMIExec.*
 .*Invoke-WMIExec\.ps1.*
 .*invoke-wmijspayload.*
@@ -26644,7 +26671,7 @@
 .*Invoke-WmiShadowCopy.*
 .*Invoke-WScriptBypassUAC.*
 .*Invoke-WscriptElevate.*
-.*Invoke-Zerologon.*
+.*Invoke-ZeroLogon.*
 .*Invoking CreateSvcRpc \(by @x86matthew.*
 .*io_dirtycow\.c.*
 .*io_dirtycow\.so.*
@@ -27134,7 +27161,7 @@
 .*KillDefender\.h.*
 .*KillDefender\.x64.*
 .*KillDefender\.x64\..*
-.*KillDefender_BOF.*
+.*killdefender_bof.*
 .*KillDefenderBOF-main.*
 .*Killed running eventvwr.*
 .*Killed running sdclt.*
@@ -27464,7 +27491,7 @@
 .*layer8secure/SilentHound.*
 .*Lazagne.*Passwords\.txt.*
 .*laZagne\.exe browsers.*
-.*laZagne\.exe.*
+.*Lazagne\.exe.*
 .*Lazagne\.py.*
 .*lazagne\.softwares\.sysadmin\.aws.*
 .*lazagne\.softwares\.windows.*
@@ -28221,7 +28248,7 @@
 .*meshcentral\.exe.*
 .*meshcentral\.serverstats.*
 .*MeshCentralAssistant\.exe.*
-.*meshcentralinstaller\.exe.*
+.*MeshCentralInstaller\.exe.*
 .*meshcentral-plugins\.db.*
 .*MeshCentralRoot-.*
 .*MeshCentralRouter\.exe.*
@@ -28390,7 +28417,7 @@
 .*minidump_add_memory_block.*
 .*minidump_add_memory64_block.*
 .*minidumptomemsharp\.lsa\.lsaproviderduper\.boo.*
-.*MiniDumpWriteDump.*
+.*minidumpwritedump.*
 .*minikerberos\.zip.*
 .*mining in background will be started using your startup directory script and only work when your are logged in this host.*
 .*Mining will happen to .* wallet.*
@@ -29006,7 +29033,7 @@
 .*netsh advfirewall firewall add rule name=.*Radmin Server .*
 .*netsh advfirewall firewall add rule name='NimScan'.*
 .*netsh advfirewall firewall show rule name=all.*
-.*NetSh Advfirewall set allprofiles state off.*
+.*netsh advfirewall set allprofiles state off.*
 .*netsh firewall add allowedprogram .*C:\\Users\\.*\\AppData\\.*\.exe.* .*.*\.exe.* ENABLE.*
 .*netsh firewall set opmode disable.*
 .*netsh interface portproxy add v4tov4 listenport=.* connectport=.* connectaddress=.*
@@ -29286,7 +29313,7 @@
 .*NoPowerShell\.Commands\.Management.*
 .*NoPowerShell\.csproj.*
 .*NoPowerShell\.dll.*
-.*NoPowerShell\.exe.*
+.*nopowershell\.exe.*
 .*NoPowerShell\.sln.*
 .*NoPowerShell/.*\.cs.*
 .*NoPowerShell_trunk\.zip.*
@@ -29472,7 +29499,7 @@
 .*nyxgeek/teamstracker.*
 .*-o  kitten\.exe.*
 .*o_getprivs.*
-.*o365-attack-toolkit.*
+.*o365-Attack-Toolkit.*
 .*o365creeper\.git.*
 .*o365creeper\.py.*
 .*o365creeper-master.*
@@ -30064,7 +30091,7 @@
 .*PetitPotam\.cpp.*
 .*PetitPotam\.exe.*
 .*PetitPotam\.ps1.*
-.*petitpotam\.py.*
+.*PetitPotam\.py.*
 .*PetitPotam\.sln.*
 .*PetitPotam\.vcxproj.*
 .*PetitPotam:main.*
@@ -30408,7 +30435,7 @@
 .*powerpick -Command .*
 .*powerpick\.py.*
 .*PowerPick\.x64\.dll.*
-.*powerpreter\.psm1.*
+.*Powerpreter\.psm1.*
 .*powerpwn\.powerdump.*
 .*powerpwn_tests.*
 .*power-pwn-main.*
@@ -30515,7 +30542,7 @@
 .*powerstager.*
 .*PowerUp\.ps1.*
 .*PowerUpSQL.*
-.*powerview\.ps1.*
+.*PowerView\.ps1.*
 .*PowerView_dev\.ps1.*
 .*PowerView3-Aggressor.*
 .*ppajinakbfocjfnijggfndbdmjggcmde.*
@@ -30579,7 +30606,7 @@
 .*PrintSpoofer-.*
 .*PrintSpoofer\..*
 .*PrintSpoofer\.cpp.*
-.*printspoofer\.exe.*
+.*PrintSpoofer\.exe.*
 .*printspoofer\.py.*
 .*PrintSpoofer\.sln.*
 .*PrintSpoofer_x64\.exe.*
@@ -31188,6 +31215,7 @@
 .*Quasar-master\.zip.*
 .*QuasarRAT.*
 .*quentinhardy.*msdat.*
+.*QuickAssist\.exe launched.*
 .*quser\.x64\.o.*
 .*quser\.x86\.o.*
 .*QW1zaVNjYW5CdWZmZXI=.*
@@ -31549,7 +31577,7 @@
 .*ReflectiveDll\.x64\.dll.*
 .*ReflectiveDll\.x86\.dll.*
 .*ReflectiveDLLInjection.*
-.*ReflectiveDLLInjection\..*
+.*ReflectiveDllInjection\..*
 .*ReflectiveDLLInjection\.h.*
 .*ReflectiveDLLInjection/dll.*
 .*Reflective-HackBrowserData.*
@@ -31704,7 +31732,7 @@
 .*Remote Access-windows32-offline\.exe.*
 .*Remote Access-windows32-online\.exe.*
 .*Remote Access-windows64-offline\.exe.*
-.*Remote Access-windows64-online\.exe.*
+.*remote access-windows64-online\.exe.*
 .*-remote -destPipe .* -pipeHost .* -destHost .*
 .*Remote Potato by @decoder_it and @splinter_code.*
 .*Remote Support-java-online\.jar.*
@@ -32093,7 +32121,7 @@
 .*rpcmap\.py.*
 .*rpc-msf\.go.*
 .*RPCPerformanceHealthCheck.*
-.*RPCPerformanceService\.exe.*
+.*rpcperformanceservice\.exe.*
 .*rpcperfviewer\.exe .*
 .*RPCPerfViewer\.log.*
 .*rpcprinterdownloader\.exe.*
@@ -32710,7 +32738,7 @@
 .*SendToPasteBin\.ps1.*
 .*sense2john\.py.*
 .*SenseCncProxy\.exe.*
-.*sensepost/godoh.*
+.*sensepost/goDoH.*
 .*sensepost/impersonate.*
 .*sensepost/kwetza.*
 .*sensepost/rattler.*
@@ -32802,7 +32830,7 @@
 .*Set Listener dbx.*
 .*set Listener onedrive.*
 .*set obfuscate .*
-.*set PAYLOAD .*
+.*set payload .*
 .*set pipename .*
 .*set Profile apt1\.profile.*
 .*set shellcode .*
@@ -33268,7 +33296,7 @@
 .*SharpSQLPwn.*
 .*SharpSQLPwn\.exe.*
 .*SharpStay\.csproj.*
-.*Sharpstay\.exe.*
+.*SharpStay\.exe.*
 .*SharpStay\.sln.*
 .*SharpStay-master.*
 .*Sharp-Suite\.git.*
@@ -33477,7 +33505,7 @@
 .*SignToolEx-main.*
 .*SigPloit.*
 .*sigthief\.exe\.manifest.*
-.*sigthief\.py.*
+.*SigThief\.py.*
 .*SigThief-master.*
 .*sigwhatever\.exe.*
 .*SilenceDefender\.ps1.*
@@ -33521,7 +33549,7 @@
 .*SimpleHelp - simple-help\.com.*
 .*simplehelp remote work\.exe.*
 .*SimpleHelp Remote WorkWinLauncher\.exe.*
-.*simplehelp technician\.exe.*
+.*SimpleHelp Technician\.exe.*
 .*SimpleHelp Technician-java-online\.jar.*
 .*SimpleHelp Technician-linux32arm-offline\.tar.*
 .*SimpleHelp Technician-linux32arm-online\.tar.*
@@ -33538,7 +33566,7 @@
 .*SimpleHelp Technician-windows32-offline\.exe.*
 .*SimpleHelp Technician-windows32-online\.exe.*
 .*SimpleHelp Technician-windows64-offline\.exe.*
-.*SimpleHelp Technician-windows64-online\.exe.*
+.*simplehelp technician-windows64-online\.exe.*
 .*simplehelp technicianwinlauncher\.exe.*
 .*SimpleHelp\.exe.*
 .*simplehelp\.technician\.127_0_0_1.*
@@ -33809,6 +33837,7 @@
 .*SoftPerfect_.*Patch_Keygen_v2.*\.exe.*
 .*SOFTWARE\\ATERA Networks\\AlphaAgent.*
 .*Software\\FileZilla.*
+.*SOFTWARE\\Microsoft\\QuickAssist.*
 .*Software\\Splashtop Inc\.\\Splashtop.*
 .*SOFTWARE\\TacticalRMM.*
 .*SOFTWARE\\WOW6432Node\\FreeFileSync.*
@@ -34475,6 +34504,7 @@
 .*syswhispers\.py.*
 .*SysWhispers2.*
 .*syswhispersv2_x86.*
+.*Szybka pomoc Installer\.exe.*
 .*szymon1118/logon_backdoor.*
 .*-t .* -x lfr -f /etc/passwd.*
 .*-t .* -x rce -a list\+auth\+user\+admin.*

@@ -1118,6 +1118,8 @@
 .{0,1000}\/ASREProastables\.txt.{0,1000}
 .{0,1000}\/assets\/bin2uuids_file\.py.{0,1000}
 .{0,1000}\/assets\/wraith\-scripts\/.{0,1000}
+.{0,1000}\/Assistance\srapide\sInstaller\.exe.{0,1000}
+.{0,1000}\/Assistenza\srapida\sInstaller\.exe.{0,1000}
 .{0,1000}\/AsyncRAT\-C\%23.{0,1000}
 .{0,1000}\/AsyncRAT\-C\-Sharp.{0,1000}
 .{0,1000}\/asyncssh_server\.py.{0,1000}
@@ -1464,7 +1466,7 @@
 .{0,1000}\/bypassuac\/.{0,1000}
 .{0,1000}\/C\-\-Shellcode.{0,1000}
 .{0,1000}\/C2\/Beacon\/.{0,1000}\.cs.{0,1000}
-.{0,1000}\/C2\/c2\.go.{0,1000}
+.{0,1000}\/c2\/c2\.go.{0,1000}
 .{0,1000}\/C2\/Http\/.{0,1000}\.cs.{0,1000}
 .{0,1000}\/C2\/server\.py.{0,1000}
 .{0,1000}\/C2\/SmbListener\..{0,1000}
@@ -3335,7 +3337,7 @@
 .{0,1000}\/latest\/download\/tunwg.{0,1000}
 .{0,1000}\/lazagne\.exe.{0,1000}
 .{0,1000}\/LaZagne\.git.{0,1000}
-.{0,1000}\/LaZagne\.py.{0,1000}
+.{0,1000}\/laZagne\.py.{0,1000}
 .{0,1000}\/lazagne\.zip.{0,1000}
 .{0,1000}\/LaZagne\/Windows\/.{0,1000}
 .{0,1000}\/ld\.so\s\/bin\/sh\s\-p.{0,1000}
@@ -3898,7 +3900,7 @@
 .{0,1000}\/nopac\.exe
 .{0,1000}\/nopac\.py.{0,1000}
 .{0,1000}\/nopowershell\.git.{0,1000}
-.{0,1000}\/nopowershell\/.{0,1000}
+.{0,1000}\/NoPowerShell\/.{0,1000}
 .{0,1000}\/norouteconfig\.sh.{0,1000}
 .{0,1000}\/noseyparker\.git.{0,1000}
 .{0,1000}\/NotQuite0DayFriday\/zip\/trunk.{0,1000}
@@ -4521,6 +4523,8 @@
 .{0,1000}\/Quasar\.v.{0,1000}\.zip.{0,1000}
 .{0,1000}\/Quasar\/releases.{0,1000}
 .{0,1000}\/quic\-go\/quic\-go\/http3.{0,1000}
+.{0,1000}\/Quick\%20Assist\%20Installer\.exe.{0,1000}
+.{0,1000}\/Quick\sAssist\sInstaller\.exe.{0,1000}
 .{0,1000}\/QuickViewAD\.ps1.{0,1000}
 .{0,1000}\/quicserver\.exe.{0,1000}
 .{0,1000}\/r00t\-3xp10it.{0,1000}
@@ -6279,6 +6283,7 @@
 .{0,1000}\:8999\/Payloads\/.{0,1000}
 .{0,1000}\:9090.{0,1000}\/api\/v1\.0\/relays.{0,1000}
 .{0,1000}\:CreateProcessFromParent\(\(Get\-Process\s\"lsass\"\)\.Id.{0,1000}
+.{0,1000}\?\?\?\?\?\?\?\s\?\?\?\?\?\?\?\?\?\sInstaller\.exe.{0,1000}
 .{0,1000}\?\?\sMITM\s\?\?\?\?.{0,1000}
 .{0,1000}\?convert_ccache_to_kirbi.{0,1000}
 .{0,1000}\?convert_kirbi_to_ccache.{0,1000}
@@ -6948,6 +6953,7 @@
 .{0,1000}\\AppData\\Local\\Temp\\Payload\.ps1.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\Procmon\.exe.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\Procmon64\.exe.{0,1000}
+.{0,1000}\\AppData\\Local\\Temp\\RemoteHelp\\EBWebView.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\rutserv.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\Screenshot\.ps1.{0,1000}
 .{0,1000}\\AppData\\Local\\Temp\\SSIDump\.zip.{0,1000}
@@ -6991,6 +6997,8 @@
 .{0,1000}\\ASPJinjaObfuscator.{0,1000}
 .{0,1000}\\asreproasting\.c.{0,1000}
 .{0,1000}\-\-assemblyargs\sAntiVirus\sAppLocker.{0,1000}
+.{0,1000}\\Assistance\srapide\sInstaller\.exe.{0,1000}
+.{0,1000}\\Assistenza\srapida\sInstaller\.exe.{0,1000}
 .{0,1000}\\AsyncRAT\\.{0,1000}
 .{0,1000}\\ataDmargorP\\\:C.{0,1000}
 .{0,1000}\\atera_agent\.exe.{0,1000}
@@ -7229,7 +7237,7 @@
 .{0,1000}\\Citrix\\GoToMyPc\\GuestInvite.{0,1000}
 .{0,1000}\\cleantracks\.ps1
 .{0,1000}\\CleanTracks\.ps1.{0,1000}
-.{0,1000}\\clipboard\.ps1.{0,1000}
+.{0,1000}\\Clipboard\.ps1.{0,1000}
 .{0,1000}\\ClipboardMITM\.py.{0,1000}
 .{0,1000}\\CloakNDaggerC2.{0,1000}
 .{0,1000}\\cloud_enum\.py.{0,1000}
@@ -7328,6 +7336,7 @@
 .{0,1000}\\CurrentControlSet\\Control\\SafeBoot\\Network\\ScreenConnect\sClient\s\(.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\AeroadminService.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\BadWindowsService.{0,1000}
+.{0,1000}\\CurrentControlSet\\Services\\bam\\State\\UserSettings\\.{0,1000}\\MicrosoftCorporationII\.QuickAssist_.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\Mesh.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\MiniInternetIdService.{0,1000}
 .{0,1000}\\CurrentControlSet\\Services\\ScreenConnect\s.{0,1000}
@@ -8035,7 +8044,7 @@
 .{0,1000}\-\-interface\s.{0,1000}\s\-\-wpad\s\-\-lm\s\-\-disable\-ess.{0,1000}
 .{0,1000}\\InternetIdService\.exe.{0,1000}
 .{0,1000}\\InternetIdService_.{0,1000}\-.{0,1000}\-.{0,1000}\.txt
-.{0,1000}\\Inveigh\.exe.{0,1000}
+.{0,1000}\\inveigh\.exe.{0,1000}
 .{0,1000}\\Inveigh\.ps1.{0,1000}
 .{0,1000}\\Inveigh\\bin\\.{0,1000}
 .{0,1000}\\InventoryApplicationFile\\aeroadmin.{0,1000}
@@ -8208,7 +8217,7 @@
 .{0,1000}\\LMIRescueMqttMessages_.{0,1000}\.dat.{0,1000}
 .{0,1000}\\LMIRescueUpdater\.log.{0,1000}
 .{0,1000}\\LMIRhook\.000\.dll.{0,1000}
-.{0,1000}\\lmirtechconsole\.exe.{0,1000}
+.{0,1000}\\LMIRTechConsole\.exe.{0,1000}
 .{0,1000}\\LMITrs\-.{0,1000}\.trs.{0,1000}
 .{0,1000}\\Lnk\-Sweeper\.ps1.{0,1000}
 .{0,1000}\\Lnk\-Sweeper\.txt.{0,1000}
@@ -8337,6 +8346,7 @@
 .{0,1000}\\metasploit\.go.{0,1000}
 .{0,1000}\\Meterpeter_.{0,1000}\.zip.{0,1000}
 .{0,1000}\\mhydeath64.{0,1000}
+.{0,1000}\\microsoft\.remoteassistance\.quickassist\\.{0,1000}
 .{0,1000}\-\-mifi\-username\s.{0,1000}\s\-\-mifi\-password\s.{0,1000}\s\-\-number\s\+.{0,1000}
 .{0,1000}\\mimi32\.exe.{0,1000}
 .{0,1000}\\mimi64\.exe.{0,1000}
@@ -8852,10 +8862,10 @@
 .{0,1000}\\PowershellKerberos.{0,1000}
 .{0,1000}\\PowerShellRunnerDll\.h.{0,1000}
 .{0,1000}\\PowerTools\.ps1.{0,1000}
-.{0,1000}\\Powerup\.exe.{0,1000}
+.{0,1000}\\powerup\.exe.{0,1000}
 .{0,1000}\\PowerUp\.ps1.{0,1000}
 .{0,1000}\\PowerView\.cna.{0,1000}
-.{0,1000}\\PowerView\.exe.{0,1000}
+.{0,1000}\\Powerview\.exe.{0,1000}
 .{0,1000}\\PowerView\.ps1.{0,1000}
 .{0,1000}\\PowerView3\..{0,1000}
 .{0,1000}\\ppid_spoofing\.exe.{0,1000}
@@ -9016,7 +9026,10 @@
 .{0,1000}\\Quasar\.v.{0,1000}\.zip.{0,1000}
 .{0,1000}\\Quasar\-master.{0,1000}
 .{0,1000}\\QueryModuleClient\.exe.{0,1000}
+.{0,1000}\\Quick\sAssist\sInstaller\.exe.{0,1000}
 .{0,1000}\\quick\slaunch\\dameware\sremote\severywhere\stech\sconsole\.lnk.{0,1000}
+.{0,1000}\\QuickAssist\.exe.{0,1000}
+.{0,1000}\\QuickAssist\.pdb.{0,1000}
 .{0,1000}\\QuickViewAD\.ps1.{0,1000}
 .{0,1000}\\r00t\-3xp10it.{0,1000}
 .{0,1000}\\ractrlkeyhook\.dll.{0,1000}
@@ -9297,7 +9310,7 @@
 .{0,1000}\\RPCOTAViewerHostKeyPopup\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.log.{0,1000}
-.{0,1000}\\RPCPerfViewer\.exe.{0,1000}
+.{0,1000}\\rpcperfviewer\.exe.{0,1000}
 .{0,1000}\\RPCPerfViewer\.log.{0,1000}
 .{0,1000}\\RPCPing\.txt.{0,1000}
 .{0,1000}\\RPCPreUninstall\.log.{0,1000}
@@ -9410,7 +9423,7 @@
 .{0,1000}\\scuffy\.py.{0,1000}
 .{0,1000}\\sdb\-explorer\.exe.{0,1000}
 .{0,1000}\\sdb\-explorer\.sln.{0,1000}
-.{0,1000}\\Seatbelt\.exe.{0,1000}
+.{0,1000}\\SeatBelt\.exe.{0,1000}
 .{0,1000}\\Seatbelt\.sln.{0,1000}
 .{0,1000}\\Seatbelt\.txt.{0,1000}
 .{0,1000}\\Seatbelt\\Commands\\.{0,1000}
@@ -9677,6 +9690,7 @@
 .{0,1000}\\Software\\Kidlogger.{0,1000}
 .{0,1000}\\Software\\LogMeInRescue\\.{0,1000}
 .{0,1000}\\SOFTWARE\\Microsoft\\Tracing\\PCMonitorSrv_RAS.{0,1000}
+.{0,1000}\\SOFTWARE\\Microsoft\\Tracing\\Quick\sAssist\sInstaller.{0,1000}
 .{0,1000}\\Software\\MSDART\\Active\sDirectory\sExplorer.{0,1000}
 .{0,1000}\\Software\\NetSupport\sLtd\\.{0,1000}
 .{0,1000}\\SOFTWARE\\ORL\\VNCHooks\\Application_Prefs\\WinVNC.{0,1000}
@@ -9809,7 +9823,7 @@
 .{0,1000}\\Supremo_Service.{0,1000}
 .{0,1000}\\SupremoHelper\.exe.{0,1000}
 .{0,1000}\\SupremoRemoteDesktop\\.{0,1000}
-.{0,1000}\\SweetPotato\.exe.{0,1000}
+.{0,1000}\\Sweetpotato\.exe.{0,1000}
 .{0,1000}\\SweetPotato\\Program\.cs.{0,1000}
 .{0,1000}\\SweetPotato\-master\.zip.{0,1000}
 .{0,1000}\\swodniW\\\:C.{0,1000}
@@ -10162,6 +10176,7 @@
 .{0,1000}\\windows_x64_agent\.exe.{0,1000}
 .{0,1000}\\windows_x86_admin\.exe.{0,1000}
 .{0,1000}\\windows_x86_agent\.exe.{0,1000}
+.{0,1000}\\WindowsApps\\MicrosoftCorporationII\.QuickAssist_.{0,1000}
 .{0,1000}\\WindowsShareFinder\.cs.{0,1000}
 .{0,1000}\\WINHELLO2hashcat\.py.{0,1000}
 .{0,1000}\\winPEAS\.exe.{0,1000}
@@ -10175,6 +10190,7 @@
 .{0,1000}\\winscp_dump\.py.{0,1000}
 .{0,1000}\\winsos\.cpp.{0,1000}
 .{0,1000}\\winsos\.exe.{0,1000}
+.{0,1000}\\WinSxS\\amd64_microsoft\-windows\-quickassist_.{0,1000}
 .{0,1000}\\winvnc\.exe.{0,1000}
 .{0,1000}\\winvncsc\.exe.{0,1000}
 .{0,1000}\\winwvc\.exe.{0,1000}
@@ -10277,7 +10293,7 @@
 .{0,1000}\\Zoho\sAssist\\Zoho\sAssist\sRemote\ssupport.{0,1000}
 .{0,1000}\\ZohoMeeting\.7z.{0,1000}
 .{0,1000}\\ZohoMeeting\.exe.{0,1000}
-.{0,1000}\\ZohoMeeting\\agent\.exe.{0,1000}
+.{0,1000}\\zohomeeting\\agent\.exe.{0,1000}
 .{0,1000}\\ZohoMeeting\\agent_ui\.exe.{0,1000}
 .{0,1000}\\ZohoMeeting\\Connect\.exe.{0,1000}
 .{0,1000}\\ZohoMeeting\\Connection\.conf.{0,1000}
@@ -10404,6 +10420,7 @@
 .{0,1000}\<provider\sname\=\"dameware\sremote\severywhere\s\-\s\[dameware\]\"\s\/\>.{0,1000}
 .{0,1000}\<Provider\sName\=\"PC\sMonitor\"\s\/\>.{0,1000}
 .{0,1000}\<Provider\sName\=\"Pulseway\"\s\/\>.{0,1000}
+.{0,1000}\<Provider\sName\=\'Quick\sAssist\'\/\>.{0,1000}
 .{0,1000}\<Provider\sName\=\'ScreenConnect\sSecurity\sManager\'\/\>.{0,1000}
 .{0,1000}\<Provider\sName\=\'ScreenConnect\sWeb\sServer\'\/\>.{0,1000}
 .{0,1000}\<SessionId\>\:\slist\/steal\stoken\sfrom\sspecific\ssession.{0,1000}
@@ -10482,6 +10499,7 @@
 .{0,1000}\>Poor\sman\'s\sngrok\<.{0,1000}
 .{0,1000}\>Product\:\sRemote\sUtilities\s\-\sViewer\s\-\-\s.{0,1000}
 .{0,1000}\>Product\:\sRemote\sUtilities\sServer\s\-\-\s.{0,1000}
+.{0,1000}\>Quick\sAssist\sComponent\<.{0,1000}
 .{0,1000}\>Remote\.it\<.{0,1000}
 .{0,1000}\>Remote\sDesktop\sPassView\<.{0,1000}
 .{0,1000}\>Remote\sSupport\sCustomer\sClient\<\/Data\>.{0,1000}
@@ -11105,6 +11123,7 @@
 .{0,1000}\s\-\-var\-name\=Smukx\s.{0,1000}
 .{0,1000}\s\-\-wdigest\sdisable.{0,1000}
 .{0,1000}\s\-\-wdigest\senable.{0,1000}
+.{0,1000}\s\-\-webview\-exe\-name\=QuickAssist\.exe.{0,1000}
 .{0,1000}\s\-\-werfault\s.{0,1000}\\temp\\.{0,1000}
 .{0,1000}\s\-\-wldp\-bypass\=.{0,1000}
 .{0,1000}\s\-\-wmi\-namespace\s\'root\\cimv2\'.{0,1000}
@@ -17598,7 +17617,7 @@
 .{0,1000}ADRecon\-Report\-.{0,1000}
 .{0,1000}ADRecon\s\-OutputDir\s.{0,1000}
 .{0,1000}adsearch.{0,1000}\s\-\-domain\-admins.{0,1000}
-.{0,1000}adsearch\.exe.{0,1000}
+.{0,1000}ADSearch\.exe.{0,1000}
 .{0,1000}ADSearch\.sln.{0,1000}
 .{0,1000}ADSearch\\ADSearch\.cs.{0,1000}
 .{0,1000}adsearch\-master\.zip
@@ -17734,7 +17753,7 @@
 .{0,1000}aiifbnbfobpmeekipheeijimdpnlpgpp.{0,1000}
 .{0,1000}aiocmd\\nested_completer\.py.{0,1000}
 .{0,1000}Airbash.{0,1000}
-.{0,1000}Aircrack\-ng.{0,1000}
+.{0,1000}aircrack\-ng.{0,1000}
 .{0,1000}aireplay\-ng\s.{0,1000}
 .{0,1000}Airgeddon.{0,1000}
 .{0,1000}airman604\/splunk_whisperer.{0,1000}
@@ -18009,6 +18028,7 @@
 .{0,1000}assembly\sAMSITrigger\s.{0,1000}
 .{0,1000}Assets\/solution\/dllmain\.cpp.{0,1000}
 .{0,1000}assist\.zoho\.com.{0,1000}
+.{0,1000}Assistencia\sRapida\sInstaller\.exe.{0,1000}
 .{0,1000}AssmblyLoader.{0,1000}
 .{0,1000}assoc\s.{0,1000}findstr\s.{0,1000}\=cm.{0,1000}
 .{0,1000}assoc\s.{0,1000}findstr\s.{0,1000}lCmd.{0,1000}
@@ -19051,7 +19071,7 @@
 .{0,1000}BrowserListener\.py.{0,1000}
 .{0,1000}browserpivot\s.{0,1000}
 .{0,1000}BrowsingHistoryView\.cfg.{0,1000}
-.{0,1000}BrowsingHistoryView\.exe.{0,1000}
+.{0,1000}browsinghistoryview\.exe.{0,1000}
 .{0,1000}BROWSINGHISTORYVIEW\.EXE\-.{0,1000}\.pf.{0,1000}
 .{0,1000}BrowsingHistoryView\.html.{0,1000}
 .{0,1000}browsinghistoryview\.zip.{0,1000}
@@ -20303,6 +20323,7 @@
 .{0,1000}COMHunter\.exe.{0,1000}
 .{0,1000}COMHunter\.sln.{0,1000}
 .{0,1000}COMInjectDotNet\.exe.{0,1000}
+.{0,1000}Command\:\sbeginsharing\sResult\:\s\{\"responsename\"\:\"beginsharing\".{0,1000}
 .{0,1000}command\=.{0,1000}\#\#\#\-\-\-POWERSHELL\-\-\-.{0,1000}eval\s\$\(echo\s.{0,1000}
 .{0,1000}command_obfuscator\.py.{0,1000}
 .{0,1000}CommandAndControl_.{0,1000}\.py.{0,1000}
@@ -20390,6 +20411,7 @@
 .{0,1000}Console\.WriteLine.{0,1000}self\sexecuting\sthe\spayload.{0,1000}
 .{0,1000}ConsoleHost_history\.txt\.jasmin.{0,1000}
 .{0,1000}contact_harvester.{0,1000}
+.{0,1000}contactsupportrelays4\-prod\.eastus\.cloudapp\.azure\.com.{0,1000}
 .{0,1000}ContainYourself\.cpp.{0,1000}
 .{0,1000}ContainYourself\.exe.{0,1000}
 .{0,1000}ContainYourself\.sln.{0,1000}
@@ -23994,7 +24016,7 @@
 .{0,1000}Get\-AADIntAccountSkus.{0,1000}
 .{0,1000}Get\-AADIntADFSPolicyStoreRules.{0,1000}
 .{0,1000}Get\-AADIntAdminPortalAccessTokenUsingCBA.{0,1000}
-.{0,1000}Get\-AADIntADUserNTHash.{0,1000}
+.{0,1000}Get\-AADIntAdUserNTHash.{0,1000}
 .{0,1000}Get\-AADIntADUserThumbnailPhoto.{0,1000}
 .{0,1000}Get\-AADIntAgentProxyGroups.{0,1000}
 .{0,1000}Get\-AADIntAzureADFeature.{0,1000}
@@ -24250,7 +24272,7 @@
 .{0,1000}Get\-KeePassINIFields.{0,1000}
 .{0,1000}Get\-KeePassXMLFields.{0,1000}
 .{0,1000}Get\-KeystrokeData.{0,1000}
-.{0,1000}get\-keystrokes.{0,1000}
+.{0,1000}Get\-Keystrokes.{0,1000}
 .{0,1000}Get\-Keystrokes\s.{0,1000}
 .{0,1000}get\-killdate.{0,1000}
 .{0,1000}Get\-KIWI_KERBEROS_LOGON_SESSION.{0,1000}
@@ -24367,7 +24389,7 @@
 .{0,1000}Get\-VolumeShadowCopy.{0,1000}
 .{0,1000}Get\-WebCredentials.{0,1000}
 .{0,1000}Get\-WebCredentials\.ps1.{0,1000}
-.{0,1000}Get\-Wlan\-Keys.{0,1000}
+.{0,1000}Get\-WLAN\-Keys.{0,1000}
 .{0,1000}Get\-Wlan\-Keys\.ps1.{0,1000}
 .{0,1000}Get\-WMIEventLogins.{0,1000}
 .{0,1000}Get\-WmiObject\s\?ComputerName\s.{0,1000}\s\?Class\sWin32_ComputerSystem\s\|\s.{0,1000}\sUserName.{0,1000}
@@ -25511,6 +25533,8 @@
 .{0,1000}https\:\/\/ptb\.discord\.com\/api\/webhooks\/1226217588959215726\/AZaNnD4TIN\-9sV\-t0rsveiQxcROYaCVziI8BUa6CNPsUxdnW9mdHu7HnuQ55kQPXZ8_5.{0,1000}
 .{0,1000}https\:\/\/pubsub\.zoho\.com\/.{0,1000}_deskUserPresence\/pubsub.{0,1000}
 .{0,1000}https\:\/\/raw\.githubusercontent\.com\/KasRoudra\/CamHacker.{0,1000}
+.{0,1000}https\:\/\/rdprelay.{0,1000}\.support\.services\.microsoft\.com.{0,1000}
+.{0,1000}https\:\/\/remoteassistance\.support\.services\.microsoft\.com\/.{0,1000}
 .{0,1000}https\:\/\/remotedesktop\.google\.com\/_\/oauthredirect.{0,1000}
 .{0,1000}https\:\/\/remotedesktop\.google\.com\/headless.{0,1000}
 .{0,1000}https\:\/\/requestbin\.net\/r\/.{0,1000}
@@ -25865,11 +25889,14 @@
 .{0,1000}include\sinjection\.c.{0,1000}
 .{0,1000}incognito.{0,1000}\slist_tokens\s\-u.{0,1000}
 .{0,1000}incognito\.exe.{0,1000}
+.{0,1000}Incoming\scmd\sMessage\:\s\{\"command\"\:\"beginsharing\".{0,1000}
 .{0,1000}inconshreveable\/ngrok.{0,1000}
 .{0,1000}infection_monkey\.py.{0,1000}
 .{0,1000}InflativeLoading\.py\s.{0,1000}
 .{0,1000}InflativeLoading\-DumpPEFromMemory.{0,1000}
 .{0,1000}info\.meshcentral\.com.{0,1000}
+.{0,1000}Info\:\s\{\"command\"\:\"forwardtoagent\",\s\"context\"\:\{\"command\"\:\"requestresponse\",\"context\"\:\{\"responsename\"\:\"beginsharing.{0,1000}
+.{0,1000}Info\:\s\{\"command\"\:\"rdp_native_event\",\s\"context\"\:\{\s\"eventname\"\:\"rdp_native_relay_connection_succeeded\"\}\s.{0,1000}
 .{0,1000}INFO\:\sAdding\skeepass\sbackdoor\spersistence.{0,1000}
 .{0,1000}INFO\:\sAdding\sregistry\spersistence.{0,1000}
 .{0,1000}INFO\:\sAdding\sscheduled\stask\sbackdoor\spersistence.{0,1000}
@@ -26217,7 +26244,7 @@
 .{0,1000}Invoke\-CcmNaaCredentialsCheck.{0,1000}
 .{0,1000}Invoke\-Certify.{0,1000}
 .{0,1000}Invoke\-CheckAccess.{0,1000}
-.{0,1000}invoke\-checklocaladminaccess.{0,1000}
+.{0,1000}Invoke\-CheckLocalAdminAccess.{0,1000}
 .{0,1000}Invoke\-CleverSpray.{0,1000}
 .{0,1000}Invoke\-CleverSpray\.ps1.{0,1000}
 .{0,1000}Invoke\-ClipboardMonitor.{0,1000}
@@ -26318,7 +26345,7 @@
 .{0,1000}Invoke\-HiveNightmare\.ps1.{0,1000}
 .{0,1000}Invoke\-HoneypotBuster.{0,1000}
 .{0,1000}Invoke\-HostEnum.{0,1000}
-.{0,1000}invoke\-hostenum\s\-.{0,1000}
+.{0,1000}Invoke\-HostEnum\s\-.{0,1000}
 .{0,1000}Invoke\-HostRecon.{0,1000}
 .{0,1000}invoke\-hostscan.{0,1000}
 .{0,1000}Invoke\-HotFixVulnCheck.{0,1000}
@@ -26409,7 +26436,7 @@
 .{0,1000}Invoke\-Obfuscation\s\-ScriptPath\s.{0,1000}
 .{0,1000}Invoke\-OpenInboxFinder.{0,1000}
 .{0,1000}Invoke\-OpenOWAMailboxInBrowser.{0,1000}
-.{0,1000}Invoke\-Oxidresolver.{0,1000}
+.{0,1000}Invoke\-OxidResolver.{0,1000}
 .{0,1000}Invoke\-P0wnedshell.{0,1000}
 .{0,1000}Invoke\-P0wnedshellx86.{0,1000}
 .{0,1000}Invoke\-PacketKnock.{0,1000}
@@ -26469,7 +26496,7 @@
 .{0,1000}Invoke\-PrivescAudit\s.{0,1000}
 .{0,1000}Invoke\-PrivescCheck.{0,1000}
 .{0,1000}Invoke\-PrivescCheck\.ps1.{0,1000}
-.{0,1000}invoke\-processhunter.{0,1000}
+.{0,1000}Invoke\-ProcessHunter.{0,1000}
 .{0,1000}Invoke\-ProcessPunisher.{0,1000}
 .{0,1000}Invoke\-ProcessScan.{0,1000}
 .{0,1000}Invoke\-ProcSpawn.{0,1000}
@@ -26577,7 +26604,7 @@
 .{0,1000}Invoke\-Sharphound.{0,1000}
 .{0,1000}Invoke\-Sharphound2.{0,1000}
 .{0,1000}Invoke\-Sharphound3.{0,1000}
-.{0,1000}Invoke\-Sharphound4.{0,1000}
+.{0,1000}Invoke\-SharpHound4.{0,1000}
 .{0,1000}Invoke\-SharpImpersonation.{0,1000}
 .{0,1000}Invoke\-SharpImpersonationNoSpace.{0,1000}
 .{0,1000}Invoke\-SharpKatz.{0,1000}
@@ -26631,7 +26658,7 @@
 .{0,1000}Invoke\-SMBRemoting.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\.ps1.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\-main.{0,1000}
-.{0,1000}Invoke\-SmbScanner.{0,1000}
+.{0,1000}Invoke\-SMBScanner.{0,1000}
 .{0,1000}Invoke\-Snaffler.{0,1000}
 .{0,1000}invoke\-sniffer\s.{0,1000}
 .{0,1000}invoke\sobfuscation.{0,1000}
@@ -26679,7 +26706,7 @@
 .{0,1000}Invoke\-UserCheck.{0,1000}
 .{0,1000}Invoke\-UserEnvCheck.{0,1000}
 .{0,1000}Invoke\-UserGroupsCheck.{0,1000}
-.{0,1000}Invoke\-UserHunter.{0,1000}
+.{0,1000}invoke\-userhunter.{0,1000}
 .{0,1000}Invoke\-UserHunter\s\-CheckAccess.{0,1000}
 .{0,1000}Invoke\-UserImpersonation.{0,1000}
 .{0,1000}Invoke\-UsernameHarvestEAS.{0,1000}
@@ -26722,7 +26749,7 @@
 .{0,1000}Invoke\-WmiCommand\s.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}Invoke\-WMIExec\s.{0,1000}
+.{0,1000}invoke\-wmiexec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMILM.{0,1000}
 .{0,1000}Invoke\-WMILM\.json.{0,1000}
@@ -26735,7 +26762,7 @@
 .{0,1000}Invoke\-WmiShadowCopy.{0,1000}
 .{0,1000}Invoke\-WScriptBypassUAC.{0,1000}
 .{0,1000}Invoke\-WscriptElevate.{0,1000}
-.{0,1000}Invoke\-Zerologon.{0,1000}
+.{0,1000}Invoke\-ZeroLogon.{0,1000}
 .{0,1000}invoke_obfuscation\.py.{0,1000}
 .{0,1000}invoke_sessiongopher\.py.{0,1000}
 .{0,1000}InvokeAssembly\.x64\.dll.{0,1000}
@@ -28313,7 +28340,7 @@
 .{0,1000}MeshCentral\sServer\sTCP\sports.{0,1000}
 .{0,1000}MeshCentral\sServer\sUDP\sports.{0,1000}
 .{0,1000}MeshCentralAssistant\.exe.{0,1000}
-.{0,1000}meshcentralinstaller\.exe.{0,1000}
+.{0,1000}MeshCentralInstaller\.exe.{0,1000}
 .{0,1000}MeshCentralRoot\-.{0,1000}
 .{0,1000}MeshCentralRouter\.exe.{0,1000}
 .{0,1000}MeshCentralServer\.njsproj.{0,1000}
@@ -28474,12 +28501,12 @@
 .{0,1000}MimiTickets\\.{0,1000}\-Tickets\.txt.{0,1000}
 .{0,1000}minidump.{0,1000}minikerberos.{0,1000}
 .{0,1000}minidump\..{0,1000}\slsass\.dmp.{0,1000}
-.{0,1000}minidump\.exe.{0,1000}
+.{0,1000}Minidump\.exe.{0,1000}
 .{0,1000}Minidump\.sln.{0,1000}
 .{0,1000}minidump_add_memory_block.{0,1000}
 .{0,1000}minidump_add_memory64_block.{0,1000}
 .{0,1000}minidumptomemsharp\.lsa\.lsaproviderduper\.boo.{0,1000}
-.{0,1000}MiniDumpWriteDump.{0,1000}
+.{0,1000}minidumpwritedump.{0,1000}
 .{0,1000}minikerberos\.zip.{0,1000}
 .{0,1000}mining\sin\sbackground\swill\sbe\sstarted\susing\syour\sstartup\sdirectory\sscript\sand\sonly\swork\swhen\syour\sare\slogged\sin\sthis\shost.{0,1000}
 .{0,1000}Mining\swill\shappen\sto\s.{0,1000}\swallet.{0,1000}
@@ -31241,6 +31268,7 @@
 .{0,1000}Quasar\sv.{0,1000}\\Client\-built\.exe.{0,1000}
 .{0,1000}QuasarRAT.{0,1000}
 .{0,1000}quentinhardy.{0,1000}msdat.{0,1000}
+.{0,1000}QuickAssist\.exe\slaunched.{0,1000}
 .{0,1000}quser\.x64\.o.{0,1000}
 .{0,1000}quser\.x86\.o.{0,1000}
 .{0,1000}QW1zaVNjYW5CdWZmZXI\=.{0,1000}
@@ -31602,7 +31630,7 @@
 .{0,1000}ReflectiveDll\.x64\.dll.{0,1000}
 .{0,1000}ReflectiveDll\.x86\.dll.{0,1000}
 .{0,1000}ReflectiveDLLInjection.{0,1000}
-.{0,1000}ReflectiveDLLInjection\..{0,1000}
+.{0,1000}ReflectiveDllInjection\..{0,1000}
 .{0,1000}ReflectiveDLLInjection\.h.{0,1000}
 .{0,1000}ReflectiveDLLInjection\/dll.{0,1000}
 .{0,1000}ReflectiveLoader\..{0,1000}
@@ -31761,7 +31789,7 @@
 .{0,1000}Remote\sAccess\-windows32\-offline\.exe.{0,1000}
 .{0,1000}Remote\sAccess\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sAccess\-windows64\-offline\.exe.{0,1000}
-.{0,1000}remote\saccess\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sAccess\-windows64\-online\.exe.{0,1000}
 .{0,1000}Remote\sAccessECompatibility\.exe.{0,1000}
 .{0,1000}Remote\sPotato\sby\s\@decoder_it\sand\s\@splinter_code.{0,1000}
 .{0,1000}Remote\sSupport\-java\-online\.jar.{0,1000}
@@ -33177,7 +33205,7 @@
 .{0,1000}sharphound\..{0,1000}
 .{0,1000}SharpHound\-.{0,1000}\.zip.{0,1000}
 .{0,1000}SharpHound\.cna.{0,1000}
-.{0,1000}sharphound\.exe.{0,1000}
+.{0,1000}SharpHound\.exe.{0,1000}
 .{0,1000}SharpHound\.ps1.{0,1000}
 .{0,1000}Sharphound\-Aggressor.{0,1000}
 .{0,1000}sharphound\s\-.{0,1000}
@@ -33504,7 +33532,7 @@
 .{0,1000}SignToolExHook\.dll.{0,1000}
 .{0,1000}SigPloit.{0,1000}
 .{0,1000}sigthief\.exe\.manifest.{0,1000}
-.{0,1000}sigthief\.py.{0,1000}
+.{0,1000}SigThief\.py.{0,1000}
 .{0,1000}SigThief\-master.{0,1000}
 .{0,1000}sigwhatever\.exe.{0,1000}
 .{0,1000}SilenceDefender\.ps1.{0,1000}
@@ -33551,7 +33579,7 @@
 .{0,1000}SimpleHelp\-install\-64\.exe.{0,1000}
 .{0,1000}SimpleHelp\s\-\ssimple\-help\.com.{0,1000}
 .{0,1000}simplehelp\sremote\swork\.exe.{0,1000}
-.{0,1000}simplehelp\sremote\sworkwinlauncher\.exe.{0,1000}
+.{0,1000}SimpleHelp\sRemote\sWorkWinLauncher\.exe.{0,1000}
 .{0,1000}simplehelp\stechnician\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-java\-online\.jar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-offline\.tar.{0,1000}
@@ -33569,7 +33597,7 @@
 .{0,1000}SimpleHelp\sTechnician\-windows32\-offline\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows32\-online\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows64\-offline\.exe.{0,1000}
-.{0,1000}simplehelp\stechnician\-windows64\-online\.exe.{0,1000}
+.{0,1000}SimpleHelp\sTechnician\-windows64\-online\.exe.{0,1000}
 .{0,1000}simplehelp\stechnicianwinlauncher\.exe.{0,1000}
 .{0,1000}simplehelpcustomer\.exe.{0,1000}
 .{0,1000}SimpleHTTPServer\.SimpleHTTPRequestHandler.{0,1000}
@@ -33757,7 +33785,7 @@
 .{0,1000}SnaffCore\/ShareFind.{0,1000}
 .{0,1000}SnaffCore\/TreeWalk.{0,1000}
 .{0,1000}Snaffler\.csproj.{0,1000}
-.{0,1000}Snaffler\.exe.{0,1000}
+.{0,1000}snaffler\.exe.{0,1000}
 .{0,1000}snaffler\.log.{0,1000}
 .{0,1000}Snaffler\.Properties.{0,1000}
 .{0,1000}Snaffler\.sln.{0,1000}
@@ -33827,6 +33855,7 @@
 .{0,1000}SoftPerfect_.{0,1000}Patch_Keygen_v2.{0,1000}\.exe.{0,1000}
 .{0,1000}SOFTWARE\\ATERA\sNetworks\\AlphaAgent.{0,1000}
 .{0,1000}Software\\FileZilla.{0,1000}
+.{0,1000}SOFTWARE\\Microsoft\\QuickAssist.{0,1000}
 .{0,1000}Software\\Splashtop\sInc\.\\Splashtop.{0,1000}
 .{0,1000}SOFTWARE\\TacticalRMM.{0,1000}
 .{0,1000}SOFTWARE\\WOW6432Node\\FreeFileSync.{0,1000}
@@ -34482,6 +34511,7 @@
 .{0,1000}syswhispers\.py.{0,1000}
 .{0,1000}SysWhispers2.{0,1000}
 .{0,1000}syswhispersv2_x86.{0,1000}
+.{0,1000}Szybka\spomoc\sInstaller\.exe.{0,1000}
 .{0,1000}szymon1118\/logon_backdoor.{0,1000}
 .{0,1000}t\.me\/Melteddd.{0,1000}
 .{0,1000}T0XlCv1\.rule.{0,1000}
@@ -35038,6 +35068,7 @@
 .{0,1000}Trojan\:Win32\/TrickbotCrypt.{0,1000}
 .{0,1000}Trojan\:Win32\/TurtleLoader\..{0,1000}
 .{0,1000}Trojan\:Win64.{0,1000}
+.{0,1000}Trojan\:Win64\/CobaltStrike.{0,1000}
 .{0,1000}Trojan\:Win64\/IcedID.{0,1000}
 .{0,1000}Trojan\:Win64\/IceId.{0,1000}
 .{0,1000}Trojan\:Win64\/Lumma.{0,1000}
