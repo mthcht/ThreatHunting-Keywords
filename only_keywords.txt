@@ -154,6 +154,8 @@
 * --AddLocalAdmin --UserAccount * --GPOName *
 * Add-RemoteRegBackdoor.ps1*
 * address-info.nse*
+* AddTrustedDomain.py*
+* AddTrustedDomain.vba*
 * --AddUserRights --UserRights * --UserAccount * --GPOName *
 * --AddUserScript --ScriptName * --ScriptContents * --GPOName *
 * ADeleg.exe*
@@ -353,6 +355,7 @@
 * broadcast-wsdd-discover.nse*
 * broadcast-xdmcp-discover.nse*
 * bropper.py*
+* BrtoVenomRenames.sh*
 * brute * /password*
 * --bruteforce *.kdbx*
 * BruteForce(*
@@ -367,6 +370,7 @@
 * by @JoelGMSec *
 * By Alcatraz3222.exe*
 * by erwan2212@gmail.com*
+* by Flangvik & Jean_Maes_1994*
 * BypassCredGuard.exe*
 * BypassFramework.py*
 * BypassUac*.bat*
@@ -520,6 +524,7 @@
 * --collectionmethods RDP*
 * --collectionmethods Session*
 * --collectionmethods Trusts*
+* --CollectLinks --apitoken * --outfile *
 * com.blackh4t*
 * COMHijackToolkit.ps1*
 * --command * --output payload*
@@ -556,6 +561,8 @@
 * --copy-file --source-file *.docx --target-file *.docx --target-volume *
 * core.payload *
 * core.stager *
+* Corrupt_AMSI.py*
+* Corrupt_AMSI.vba*
 * couchdb-databases.nse*
 * couchdb-stats.nse*
 * crack_list client_wordlists.py*
@@ -828,6 +835,8 @@
 * empire_exec*
 * empireadmin*
 * enable_all_tokens.exe*
+* EnableAllMacros_AMSI.py*
+* EnableAllMacros_AMSI.vba*
 * EnableAllTokenPrivs.exe*
 * EnableAllTokenPrivs.ps1*
 * -enabled -u * -p * -old-bloodhound*
@@ -1393,6 +1402,7 @@
 * informix-brute.nse*
 * informix-query.nse*
 * informix-tables.nse*
+* --Inject --stub *.dll* --app *
 * -Injector NtMapViewOfSection*
 * -Injector VirtualAllocEx*
 * --input 10m_usernames.txt*
@@ -1785,6 +1795,7 @@
 * merlin.py *
 * meshcentral.service*
 * met_inject*
+* MetasploitCoop*
 * metasploit-info.nse*
 * metasploit-msgrpc-brute.nse*
 * metasploit-xmlrpc-brute.nse*
@@ -1831,6 +1842,7 @@
 * --msfoptions *
 * --msf-path*
 * msfstaged.exe*
+* msfws.py *
 * Mshikaki.cpp*
 * msrpc-enum.nse*
 * mssql * -u * -p * -M met_inject*
@@ -1915,6 +1927,7 @@
 * NetClone.exe*
 * netripper*
 * netscan.exe *
+* netscan64.exe *
 * net-vpn/tailscale*
 * --NewCertPath *.pfx --NewCertPassword *
 * NewLocalAdmin(*
@@ -2096,6 +2109,8 @@
 * -PasswordSpray *
 * passwordspray -d *
 * patch_amsi.exe*
+* Patch_AMSI.py*
+* Patch_AMSI.vba*
 * patch_etw.exe*
 * path-mtu.nse*
 * -pathToBloodHoundGraph * -pathToOutputGoFetchPath *  -pathToAdditionalPayload *
@@ -2145,6 +2160,7 @@
 * -PersistenceScriptName *
 * -PersistentScriptFilePath *
 * PetitPotato.cpp*
+* PEzor.py *
 * PEzor.sh *
 * -pfx *.pfx -dc-ip *
 * pgrok.exe*
@@ -2310,6 +2326,7 @@
 * realvnc-auth-bypass.nse*
 * rec2 crde_linux*
 * rec2 crde_macos*
+* Recall folder found: *
 * received ACK from backdoor*
 *----------------- Recon & Enumeration Modules -----------------*
 * Redirect Url After Stealing ==> *
@@ -2350,6 +2367,7 @@
 * RemotePCViewer.msi*
 * RemotePotato0.zip*
 * --remote-ransomware*
+* remoteshell.py*
 * --remote-to-local socks://*
 * --remote-to-local tcp://*
 * --remote-to-local udp://*
@@ -2407,6 +2425,8 @@
 * --rogue-smbserver-share *
 * ropbuffers.go*
 * ropfuscator*
+* rotateproxy *
+* rotateproxy.service*
 * rpcap-brute.nse*
 * rpcap-info.nse*
 * rpcdownloader.exe*
@@ -2485,6 +2505,7 @@
 * --script-args dns-srv-enum.domain=*
 * -ScriptString * -GetMinimallyObfuscated*
 * -ScriptString * -PSAmsiScanner *
+* --search password --from_date * --to_date *
 * -seatbelt -Command *
 * Seatbelt.Commands.Windows*
 * SeatBelt.exe*
@@ -2557,6 +2578,8 @@
 * --shellcode *--silent*
 * --shellcode --remoteinject*
 * shellcode_callback.exe*
+* shellcode2vba.py*
+* shellcode2vbafunc.py*
 * shellcode-xor.py*
 * Shhhavoc.py*
 * shodan-api.nse*
@@ -2733,6 +2756,7 @@
 * spawnto_x86 *
 * spellgen.py *
 * spellstager.py *
+* spinningteacup.py*
 * -spn cifs* -session * -clsid * -secrets*
 * -spn cifs/* -hashes*
 * Spoof extensions\Spoofer.exe*
@@ -2935,6 +2959,7 @@
 * tor-consensus-checker.nse*
 * --tor-port*
 * --tor-type*
+* totalrecall.py*
 * toteslegit.ps1*
 * traceroute-geolocation.nse*
 * --transformer donut*
@@ -2948,6 +2973,8 @@
 * TSCHRPCAttack*
 * tso-brute.nse*
 * tso-enum.nse*
+* tsunami.py*
+* tsunami_warning.py*
 * --tunnel-address 127.0.0.1:7171*
 * tunneld.service*
 * tunnelmole.bundle.js*
@@ -3031,6 +3058,8 @@
 * --var-name=Smukx *
 * -VaultElementPtr *
 * vaults /target:* /pvk:*
+* vbarandomizer.py*
+* venomoussway.py*
 * ventrilo-info.nse*
 * versant-info.nse*
 * victim_info_key.py*
@@ -3074,6 +3103,8 @@
 * WinBruteLogon.zip*
 * windapsearch.py*
 * winDefKiller *
+* Windows Recall feature found. Do you want to proceed with the extraction?*
+* Windows Recall feature not found. Nothing to extract*
 * windows/csharp_exe*
 * windows/shell/bind_tcp *
 * windows/shell/bind_tcp *shellcode*
@@ -3154,6 +3185,7 @@
 *!use *reflected_assembly*
 *!wPkgPath!*!ak!*
 *"%~dp0RDPWInst" -i -o*
+*"3R<P4*]7ye+jT=,Y%N3v,hrWJ^%qH?a>5L|q[m"*
 *"Ace RAT v1.0"*
 *"active_wraith_clients"*
 *"ADWS request with ldapbase (*
@@ -3192,6 +3224,7 @@
 *"Starting WD Disable"*
 *"Successful Connection PME"*
 *"The LaZagne project"*
+*"This is a macro obfuscating framework"*
 *"UACBypassedService"*
 *"User32LogonProcesss"*
 *"User-Agent", "tunnelto-client"*
@@ -3405,6 +3438,7 @@
 *./RedGuard*
 *./redirector.py *
 *./reverse-ssh*
+*./rotateproxy*
 *./rpcrt.py*
 *./rsockstun*
 *./rsocx -*
@@ -3523,6 +3557,7 @@
 *.exe  --buildcache -c *\cache.txt*
 *.exe  certificates /pvk:*.pvk*
 *.exe  -group=remote -computername=*
+*.exe  keepass /unprotect*
 *.exe * /hide * /range:* /auto:*.*
 *.exe * -eventlog *Key Management Service*
 *.exe * --source Persistence*
@@ -3558,10 +3593,13 @@
 *.exe -b * -p 'C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Default'*
 *.exe -b all -f json --dir results -cc*
 *.exe backupkey /nowrap *.pvk*
+*.exe backupkey /server:*
+*.exe blob /target:C:\Temp\*
 *.exe blockedr*
 *.exe BOOKMARKS*
 *.exe CachedGPPPassword*
 *.exe certificates /mkfile:*.txt*
+*.exe certificates /unprotect*
 *.exe Certify -action find -enrolleeSuppliesSubject -clientAuth*
 *.exe Certify -action find*
 *.exe client *:* R:socks*
@@ -3588,6 +3626,8 @@
 *.exe DontReqPreAuth -action list*
 *.exe DontReqPreAuth -action write -target *
 *.exe dump /luid:0x5379f2 /nowrap*
+*.exe --effective --allow --outfile "C:\Windows\Tasks\Rules.json"*
+*.exe --effective --allow --rules="FileHashRule,FilePathRule" --outfile=*
 *.exe elevatecmd runassystem *
 *.exe --eventviewer *.exe*
 *.exe exec * cmd interactive*
@@ -3622,8 +3662,11 @@
 *.exe localhost add * "cmd.exe" "/c *" *logon*
 *.exe localhost add * "cmd.exe" "/c *" *second*
 *.exe localhost add * "cmd.exe" "/c *" *weekly*
+*.exe machinemasterkeys*
 *.exe machinetriage*
+*.exe machinevaults*
 *.exe masterkeys /hashes*
+*.exe masterkeys /pvk:*
 *.exe McAfeeSitelistFiles*
 *.EXE Meterpreter Reverse HTTP and HTTPS loader*
 *.exe ModifiableScheduledTask*
@@ -3639,6 +3682,7 @@
 *.exe --pn dre_video_uploader --logpath logs*
 *.exe port create -p *
 *.exe ProcessDLLHijack*
+*.exe ps /target:C:\Temp\* /unprotect*
 *.exe ptt /ticket:*
 *.exe ptt /ticket:*.kirbi
 *.exe -ptt ticket:*.kirbi*
@@ -3648,6 +3692,7 @@
 *.exe -q WindowsDefender*
 *.exe RBCD -action read -delegate-to *
 *.exe rbcd -m * -p * -c *cmd.exe*
+*.exe rdg /unprotect*
 *.exe RegistryAutoLogons*
 *.exe RegistryAutoruns*
 *.exe relay -Domain * -CreateNewComputerAccount *
@@ -3833,6 +3878,11 @@
 *.py * --teamserver *
 *.py *.cs cs ms*
 *.py *.exe *NormalDLL.dll*
+*.py *.vba *.vba  --norandomvariables --math*
+*.py *.vba *.vba  --wordlistpath * --encodestring*
+*.py *.vba *.vba --randomcuts 5 10 --norandomint*
+*.py *.vba *.vba --usebusinesswords --encodestring_calls*
+*.py *.vba *.vba --usebusinesswords --math*
 *.py *0.0.0.0*--serve-forever*
 *.py *--dependabot-workaround*
 *.py *--proxy socks5://*
@@ -4120,6 +4170,8 @@
 */addcomputer_with_spns.py*
 */Add-RemoteRegBackdoor.ps1*
 */address-info.nse*
+*/AddTrustedDomain.py*
+*/AddTrustedDomain.vba*
 */AddUser-Bof.*
 */AddUser-Bof/*
 */ADeleg.exe*
@@ -4475,6 +4527,7 @@
 */bin/read_i.php?a1=step2-down-k&a2=*
 */bin/read_i.php?a1=step2-down-r&a2=*
 */bin/read_i.php?a1=step2-down-u&a2=*
+*/bin/rotateproxy*
 */bin/sh | nc*
 */bin/sh -i <&3 >&3 2>&3*
 */bin/Sleeper.o*
@@ -4616,6 +4669,7 @@
 */bropper.py*
 */Browser-C2*
 */browserhistory.csv*
+*/BrtoVenomRenames.sh*
 */Brute/BruteStager*
 */bruteforce.py*
 */bruteforce-ftp.py*
@@ -4769,6 +4823,7 @@
 */clamav-exec.nse*
 */cleantracks.ps1
 */clear_logs.py*
+*/ClickJack.exe
 */clickme.docx*
 */client/beef.js*
 */client/bof/*.asm*
@@ -4895,6 +4950,8 @@
 */core/browser_windows.go*
 */Coringa-RAT 0.1.exe*
 */CORINGA-RAT.exe*
+*/Corrupt_AMSI.py*
+*/Corrupt_AMSI.vba*
 */couchdb-databases.nse*
 */couchdb-stats.nse*
 */Covenant*.cs*
@@ -5072,6 +5129,7 @@
 */data/empire.db*
 */data/exploits/*
 */data/nxc.conf*
+*/data/payload.log*
 */data/shellcode*
 */DataBouncing.git*
 */DavRelayUp.git*
@@ -5321,6 +5379,7 @@
 */drda-brute.nse*
 */drda-info.nse*
 */DReverseProxy.git*
+*/DriverDump.exe*
 */Drones/SleepDialogue.razor*
 */dropbear-sshj.git*
 */drop-sc.py*
@@ -5426,6 +5485,8 @@
 */empire_exec.py*
 */EmpireProject*
 */enable_all_tokens.exe*
+*/EnableAllMacros_AMSI.py*
+*/EnableAllMacros_AMSI.vba*
 */EnableAllTokenPrivs.exe*
 */EnableAllTokenPrivs.git*
 */EnableAllTokenPrivs.ps1*
@@ -5561,6 +5622,7 @@
 */Executable_Files.git*
 */execute_shellcode.exe*
 */execute-api.eu-central-1.amazonaws.com/catspin_deployed*
+*/ExecuteCommand_x64_Release.exe*
 */execve_hijack*
 */exegol.py*
 */exegol_user_sources.list*
@@ -5621,6 +5683,7 @@
 */fiesta.profile*
 */fiesta2.profile*
 */File Encrypter Reverse Bytes.exe*
+*/FileBasic_x64_Release.exe*
 */FileCrawlerMITM.py*
 */FilelessPELoader*
 */File-Server.ps1*
@@ -6366,6 +6429,7 @@
 */internal/C2/*.go*
 */internal/pipe/pipe.go*
 */Internals/Coff.cs*
+*/InternetConnect_x64_Release.exe*
 */Inveigh.exe*
 */Inveigh.git*
 */Inveigh.ps1*
@@ -6542,6 +6606,7 @@
 */KillDefenderBOF*
 */killer.exe*
 */Killer.git*
+*/killProcessPOC.git*
 */kimi.py*
 */Kirby.ps1*
 */kismet*
@@ -6686,6 +6751,8 @@
 */loader/bypass.h
 */loader/x64/Release/loader.exe*
 */loadercrypt_*.php*
+*/LoaderMemoryModule_x64_Release.exe*
+*/LoadLibrary_x64_Release.exe*
 */local_execution_linux.exe*
 */local_exploit_suggester*
 */local_map.exe*
@@ -6702,6 +6769,7 @@
 */localtunnel.git*
 */localtunnel.js*
 */LockLess.exe*
+*/Lockless.git*
 */Locksmith.git*
 */log/anydesk.trace*
 */log_file_timestamps.json*
@@ -6836,6 +6904,11 @@
 */Metasploit*
 */metasploit.go*
 */metasploit/*
+*/metasploit-coop:*
+*/MetasploitCoop_0x727.git*
+*/MetasploitCoop-Backend.git*
+*/MetasploitCoop-Frontend.git*
+*/metasploit-framework/*
 */metasploit-framework/embedded/framework*
 */metasploit-info.nse*
 */metasploit-msgrpc-brute.nse*
@@ -6935,6 +7008,7 @@
 */msftest/*
 */msfvenom/*
 */msf-ws.log*
+*/msfws.py*
 */MsgKitTestTool/*
 */Mshikaki.git*
 */mshta.cmd*
@@ -7081,6 +7155,7 @@
 */netscan_linux.tar.gz*
 */netscan_portable.zip*
 */netscan_setup.exe*
+*/netscan64.exe*
 */NetshHelperBeacon.git*
 */netshrun.c*
 */netsparker.rb*
@@ -7436,6 +7511,8 @@
 */passwordcracker/*
 */Passwords.docx*
 */patch_amsi.exe*
+*/Patch_AMSI.py*
+*/Patch_AMSI.vba*
 */patch_etw.exe*
 */patchfinder64.*
 */PatchingAPI.cpp*
@@ -7508,6 +7585,7 @@
 */PetitPotato-1.0.0.zip*
 */PEzor.cna*
 */PEzor.git*
+*/PEzor.py*
 */PEzor.sh *
 */PEzor/inject.cpp*
 */pfsense_clickjacking*
@@ -7553,6 +7631,7 @@
 */Plugins/HVNC.dll*
 */Plugins/PreventSleep.dll*
 */pngZIP.ps1*
+*/POC/driverdump/*
 */PoC/PrivilegeEscalation*
 */POC_DLL.vcxproj*
 */PoC-CVE-2023-21554*
@@ -7803,6 +7882,7 @@
 */pykiller/CVE-2022-23131*
 */pyLAPS.git*
 */pyLAPS.py*
+*/pymetasploit/*
 */Pyobfadvance*
 */Pyobfexecute*
 */pyobfgood*
@@ -8025,6 +8105,7 @@
 */remoteit/connectd/releases*
 */remoteit/desktop*
 */remoteit-desktop.exe*
+*/RemoteMaintsvc.exe*
 */remote-method-guesser.git*
 */remotemoe.git*
 */RemoteOps.py*
@@ -8129,6 +8210,14 @@
 */rop_emporium*
 */ropbuffers.go*
 */ropfuscator*
+*/rotateproxy.exe*
+*/rotateproxy.git*
+*/rotateproxy.service*
+*/rotateproxy/releases/*
+*/rotateproxy_*.zip*
+*/rotateproxy-darwin-*
+*/rotateproxy-linux*
+*/rotateproxy-windows*
 */rottenpotato*
 */Rottie3.exe*
 */rpcap-brute.nse*
@@ -8224,6 +8313,8 @@
 */s7-info.nse*
 */saefko.profile*
 */Safer_PoC_CVE*
+*/SafetyDump.exe*
+*/SafetyDump.git*
 */SafetyKatz.exe*
 */SafetyKatz.git*
 */sAINT.git*
@@ -8254,6 +8345,9 @@
 */Scans/servers_all_smb*.txt*
 */ScareCrow -I *
 */sccmhunter*
+*/SchTask.zip*
+*/SchTask_0x727.git*
+*/SchTask_0x727/*
 */schtasksenum/*.*
 */sc-loader.exe*
 */scmuacbypass.cpp*
@@ -8350,6 +8444,7 @@
 */SharpADWS.git*
 */SharpAllowedToAct.exe*
 */SharpApplocker.exe*
+*/SharpAppLocker.git*
 */SharpAzbelt.git*
 */SharpBlackout.git*
 */SharpBlock.exe*
@@ -8486,6 +8581,8 @@
 */ShellCode_Loader*
 */shellcode_samples/*
 */shellcode_sources/*
+*/shellcode2vba.py*
+*/shellcode2vbafunc.py*
 */ShellcodeFluctuation*
 */Shellcode-Hide.git*
 */SHELLCODELOADER*
@@ -8735,6 +8832,7 @@
 */SpiderFoot.csv*
 */spiderfoot.git*
 */SpiderMate/Jatayu*
+*/spinningteacup.py*
 */SplashtopStreamer/SPLog.txt*
 */splunk_whisperer.git*
 */SplunkWhisperer2.git*
@@ -8901,6 +8999,8 @@
 */Supershell/releases*
 */Supremo.exe*
 */Suprise/Suprise.exe*
+*/SurveyFile_x64_Release.exe*
+*/SurveyRegistry_x64_Release.exe*
 */suspendresume.x64*
 */suspendresume.x86*
 */svn-brute.nse*
@@ -9145,6 +9245,9 @@
 */torsocks.conf
 */torsocks.list*
 */tor-static-windows-amd64.zip*
+*/TotalRecall.git*
+*/totalrecall.py*
+*/TotalRecall.txt*
 */toteslegit.ps1*
 */traceroute-geolocation.nse*
 */tracers_fuzzer.cc*
@@ -9175,8 +9278,13 @@
 */trusted_sec_bofs/*
 */trusted_sec_remote_bofs/*
 */trustedsec/*
+*/TrustedWave_x64.exe*
 */tso-brute.nse*
 */tso-enum.nse*
+*/tsunami.py*
+*/tsunami_warning.py*
+*/TsunamiServer/*
+*/TsunamiWave_x64.exe*
 */tunnel.nosocket.php*
 */tunnel.tomcat.5.jsp*
 */tunnel/server.go*
@@ -9318,6 +9426,7 @@
 */var0xshell.git*
 */vas/fuzzers/fuzz/*
 */VBad.git*
+*/vbarandomizer.py*
 */vbs2exe.exe*
 */VDR.git*
 */VDR-main.zip
@@ -9333,6 +9442,7 @@
 */Venom.v1.1.0.7z*
 */Venom/tarball/v*
 */Venom/zipball/v*
+*/venomoussway.py*
 */ventrilo-info.nse*
 */versant-info.nse*
 */victim_info_key.py*
@@ -9733,6 +9843,7 @@
 *[!] Swithed to custom stealing. *
 *[!] The exfiltration modules does not use FireProx*
 *[!] The password * will be sprayed on targeted user accounts having*
+*[!] This application can not be injected*
 *[!] Unable to read PEB address!*
 *[!] Unhandled SharpDoor exception*
 *[!] Valid login* expired password: *
@@ -9987,6 +10098,7 @@
 *[+] The DLL has been injected into ngentask.exe via DLL Side-Loading*
 *[+] The encrypted payload with *
 *[+] The scheduled task is hidden and invisible now*
+*[+] This application is injectable!*
 *[+] Thread hijacking successful*
 *[+] Token-Impersonation Loaded*
 *[+] Triggering name pipe access on evil PIPE *
@@ -10051,6 +10163,8 @@
 *[LOLSpoof] > *
 *[megaapi_impl.cpp:*
 *[megaclient.cpp:*
+*[MetasploitCoop-Backend]*
+*[MetasploitCoop-Frontend]*
 *[o365spray]*
 *[PageKite] Remote connection closed!*
 *[PEzor] cleanup complete*
@@ -10058,6 +10172,7 @@
 *[PEzor] starting BOF*
 *[Reflection.Assembly]::Load(*[Char](*)+[Char](*)+*+[Char](*)*
 *[Reflection.Assembly]::LoadWithPartialName('System.Core').GetType('System.Diagnostics.Eventing.EventProvider').GetField('m_enabled'*'NonPublic*Instance').SetValue([Ref].Assembly.GetType('System.Management.Automation.Tracing.PSEtwLogProvider').GetField('etwProvider'*'NonPublic*Static').GetValue($null)*0)*
+*[SharpDPAPI.Program]::Main("machinemasterkeys")*
 *['spawnto']*
 *[SQLC2 Agent Job]*
 *[START]: Password spraying attack!*
@@ -10070,6 +10185,9 @@
 *[warn] You either fat fingered this or something else. Either way*
 *[x] Cannot load NTDLL.DLL*
 *[x] Failed to locate the ngentask.exe binary in the WinSxS directory*
+*[X] Must be elevated to triage SYSTEM credentials!*
+*[X] Must be elevated to triage SYSTEM masterkeys!*
+*[X] Must be elevated to triage SYSTEM vaults!*
 *[X] Your harvest exploded:*
 *\ rev_shell.py*
 *\"-SecureString\" OR \"-AsPlainText\" OR \"Net.NetworkCredential\"*
@@ -10113,6 +10231,7 @@
 *\\.\pipe\PIPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
 *\\.\pipe\portscan*
 *\\.\pipe\pwned/pipe/srvsvc*
+*\\.\pipe\RemoteMaint*
 *\\.\pipe\screenshot*
 *\\.\pipe\sshagent*
 *\\.\pipe\Supremo*
@@ -10126,6 +10245,10 @@
 *\\\\*\\*\\Get-FileLockProcess.ps1*
 *\\\\*\\share\\test.bin*
 *\\\\.\\*\\*\\*\\smile.txt\*
+*\\\\.\\aswSP_ArPot0*
+*\\\\.\\aswSP_ArPot1*
+*\\\\.\\aswSP_ArPot2*
+*\\\\.\\aswSP_ArPot3*
 *\\\\.\\aswSP_Avar*
 *\\\\.\\Cronos*
 *\\\\.\\pipe\\$77childproc64*
@@ -10143,6 +10266,7 @@
 *\\\\.\\pipe\\netview*
 *\\\\.\\pipe\\PIPEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA*
 *\\\\.\\pipe\\portscan*
+*\\\\.\\pipe\\RemoteMaint*
 *\\\\.\\pipe\\screenshot*
 *\\\\.\\pipe\\sshagent*
 *\\\\.\\pipe\\warpzone8*
@@ -10168,6 +10292,7 @@
 *\\saint.jar*
 *\\stub\\COFFLoader.bin*
 *\\swodniW\\:C*
+*\\system32\\msf.sys*
 *\\Users\\Fantastic\\Desktop\\DEMO\\plugins\\scripts\\*
 *\0nly1 RAT *\Client.exe*
 *\0nly1 RAT *\Server.exe *
@@ -10189,6 +10314,8 @@
 *\2.bat
 *\2.dll
 *\2.exe
+*\2024-*_Recall_Extraction\*
+*\2025-*_Recall_Extraction\*
 *\2fac5c2a114c7896c33fb2b0a9f6443d\*
 *\3.bat
 *\3.dll
@@ -10256,6 +10383,8 @@
 *\addcomputer_LDAP_spn.py*
 *\addcomputer_with_spns.py*
 *\Add-RemoteRegBackdoor.ps1*
+*\AddTrustedDomain.py*
+*\AddTrustedDomain.vba*
 *\ADeleg.exe*
 *\adeleg.pdb*
 *\adeleg\adeleg\*
@@ -10352,6 +10481,7 @@
 *\Appdata\*\kitty.exe*
 *\AppData\Local\*\rescue.log*
 *\appdata\local\bomgar\bomgar-rep\*
+*\AppData\Local\CoreAIPlatform.00\UKP\*\ukg.db*
 *\AppData\Local\CyberGhost*
 *\appdata\local\damewa~1\*
 *\appdata\local\dameware remote everywhere*
@@ -10554,6 +10684,7 @@
 *\bin\3proxy*
 *\bin\cme.exe*
 *\bin\RDPConf.exe*
+*\bin\Release\SchTask.exe*
 *\bin\shepard\*
 *\bin\tapinstall.exe*
 *\bin\uactoken.x86.o*
@@ -10673,6 +10804,8 @@
 *\cleantracks.ps1
 *\CleanTracks.ps1*
 *\clear_logs.py*
+*\ClickJack.csproj*
+*\ClickJack.exe
 *\Clipboard.ps1*
 *\ClipboardMITM.py*
 *\CloakNDaggerC2*
@@ -10714,6 +10847,7 @@
 *\command\exec\spawndll.go*
 *\command_exec.exe*
 *\commands\CameraScreenShot.cs*
+*\Commands\Machinecredentials.cs*
 *\common_pass.txt*
 *\COM-Object-hijacking-master*
 *\CompressArchiveCommand.cs
@@ -10748,6 +10882,8 @@
 *\Copy-VSS.ps1*
 *\Coringa-RAT 0.1.exe*
 *\CORINGA-RAT.exe*
+*\Corrupt_AMSI.py*
+*\Corrupt_AMSI.vba*
 *\crackmapexecwin*
 *\cradle.ps1*
 *\Crassus-main*
@@ -10980,6 +11116,10 @@
 *\dre_mac_console.zip*
 *\DReverseClint.go*
 *\DReverseServer.go*
+*\DriverDump.c*
+*\DriverDump.exe*
+*\DriverDump.sln*
+*\DriverDump.vcxproj*
 *\drivers\x64\rupdui.dll*
 *\dropper\dropit.py*
 *\dropper\dropper.vba*
@@ -11121,6 +11261,8 @@
 *\empire_exec.py*
 *\enable dameware remote everywhere agent.lnk*
 *\enable_all_tokens.exe*
+*\EnableAllMacros_AMSI.py*
+*\EnableAllMacros_AMSI.vba*
 *\EnableAllTokenPrivs.cs*
 *\EnableAllTokenPrivs.exe*
 *\EnableAllTokenPrivs.ps1*
@@ -11178,6 +11320,7 @@
 *\EvilSln\*.suo*
 *\exe_to_dll\*
 *\execute_shellcode.exe*
+*\ExecuteCommand_x64_Release.exe*
 *\Execute-DNSTXT-Code.ps1*
 *\Exegol-*.zip*
 *\exegol.py*
@@ -11218,6 +11361,7 @@
 *\File Encrypter Reverse Bytes.vshost.exe*
 *\File To Base64.exe*
 *\file_shredder_setup.tmp*
+*\FileBasic_x64_Release.exe*
 *\FileCrawlerMITM.py*
 *\Files\ContainersFileUrls.txt*
 *\File-Server.ps1*
@@ -11542,6 +11686,7 @@
 *\install_elevated.py*
 *\InstallShellcode.exe*
 *\interesting-teamsmessages.csv*
+*\InternetConnect_x64_Release.exe*
 *\InternetIdService.exe*
 *\InternetIdService_*-*-*.txt
 *\inveigh.exe*
@@ -11663,6 +11808,7 @@
 *\KillDefender.o*
 *\killer.cpp*
 *\killer.exe*
+*\killProcessPOC*
 *\KillWindows.dll*
 *\KillWindows.pdb*
 *\Kirby.ps1*
@@ -11750,6 +11896,8 @@
 *\load_ssp.x64.exe*
 *\loader.x64.exe*
 *\Loader\Loader.csproj*
+*\LoaderMemoryModule_x64_Release.exe*
+*\LoadLibrary_x64_Release.exe*
 *\Local\Temp\Advanced IP Scanner 2\*
 *\Local\Temp\logins.log*
 *\Local\Temp\LogMeInLogs\GoToOpenerMsi\*
@@ -11765,7 +11913,9 @@
 *\LocalPrivEsc\*
 *\LocalShellExtParse.py*
 *\LocalShellExtParse-master*
+*\LockLess.csproj*
 *\LockLess.exe*
+*\LockLess.sln*
 *\log\FileTransferWindowAppLog.log*
 *\loginAAD.ps1*
 *\LogMeIn Rescue Applet\LMIR*
@@ -11981,6 +12131,7 @@
 *\MutationGate.vcxproj*
 *\mystikal.py*
 *\nanodump*
+*\nanodump.c*
 *\nanodump.py*
 *\nanorobeus-main.zip*
 *\NativeDump.csproj*
@@ -12039,6 +12190,7 @@
 *\netscan_portable.zip*
 *\netscan_portable\*
 *\netscan_setup.exe*
+*\netscan64.exe*
 *\NetshHelperBeacon.cpp*
 *\NetshHelperBeacon.dll*
 *\NetshHelperBeacon.lib*
@@ -12283,6 +12435,8 @@
 *\Passwordfiles.txt*
 *\Passwords.docx*
 *\patch_amsi.exe*
+*\Patch_AMSI.py*
+*\Patch_AMSI.vba*
 *\patch_etw.exe*
 *\PatchingAPI.cpp*
 *\PatchingAPI.exe*
@@ -12781,6 +12935,9 @@
 *\remoteit.x86-win.exe*
 *\remoteit-desktop.exe*
 *\remoteit-headless.service*
+*\RemoteMaint.sln*
+*\RemoteMaint.vcxproj*
+*\RemoteMaintsvc.exe*
 *\RemotePC (1).exe*
 *\RemotePC Attended.lnk*
 *\RemotePC Attended\*
@@ -12835,6 +12992,7 @@
 *\RemotePotato0.zip*
 *\RemotePotato0-main.zip*
 *\RemotePotato0-main\*
+*\remoteshell.py*
 *\RemoteSupport\127.0.0.1.tvc*
 *\remoting_desktop.exe*
 *\remoting_host.exe*
@@ -12891,6 +13049,10 @@
 *\Root\InventoryApplicationFile\za_connect.exe*
 *\Rootkit.cpp*
 *\ROT Shellcode Encoder.csproj*
+*\rotateproxy.exe*
+*\rotateproxy.service*
+*\rotateproxy_*.zip*
+*\rotateproxy-windows*
 *\Rottie3 Rmote Admin\*
 *\Rottie3.exe*
 *\RPC Backdoor.sln*
@@ -13000,6 +13162,9 @@
 *\SafeBoot\Network\ShTemporaryService*
 *\SafeBoot\Network\SimpleHelp Server*
 *\SafeBoot\Network\Zoho Assist-Remote Support*
+*\SafetyDump.csproj*
+*\SafetyDump.exe*
+*\SafetyDump.sln*
 *\SafetyKatz*
 *\SafetyKatz.exe*
 *\sAINT-master.zip*
@@ -13017,6 +13182,9 @@
 *\ScanInterception.ps1*
 *\scan-network.py*
 *\Schedule\TaskCache\Tree\RemotePC*
+*\SchTask.sln*
+*\SchTask.zip*
+*\SchTask_0x727\*
 *\SchTaskBackdoor.*
 *\sc-loader.exe*
 *\scmuacbypass.cpp*
@@ -13098,6 +13266,7 @@
 *\SharpADWS\*
 *\SharpADWS-master*
 *\SharpAllowedToAct.exe*
+*\SharpAppLocker.*
 *\SharpApplocker.exe*
 *\SharpAzbelt.csproj*
 *\SharpAzbelt.exe*
@@ -13123,6 +13292,7 @@
 *\SharpDoor.cs*
 *\SharpDoor.exe*
 *\SharpDPAPI.exe*
+*\SharpDPAPI\*
 *\SharpDump.exe*
 *\SharpEDRChecker-*.zip*
 *\SharpEDRChecker.cs*
@@ -13216,6 +13386,8 @@
 *\shellcode_createproc.xml*
 *\shellcode_loader.dll*
 *\shellcode_samples\*
+*\shellcode2vba.py*
+*\shellcode2vbafunc.py*
 *\shellcode-xor.py*
 *\ShellIconOverlayIdentifiers\_ MEGA (Pending)*
 *\ShellIconOverlayIdentifiers\_ MEGA (Synced)*
@@ -13371,6 +13543,7 @@
 *\spellstager.py *
 *\spider_plus.py*
 *\Spider-Virus RAT v*.exe*
+*\spinningteacup.py*
 *\Splashtop\Temp\*
 *\Splashtop\Temp\log\FTCLog.txt*
 *\spoof.py*
@@ -13467,12 +13640,15 @@
 *\SupremoHelper.exe*
 *\SupremoRemoteDesktop\*
 *\Suprise\Suprise.exe*
+*\SurveyFile_x64_Release.exe*
+*\SurveyRegistry_x64_Release.exe*
 *\Sweetpotato.exe*
 *\SweetPotato\Program.cs*
 *\SweetPotato-master.zip*
 *\swodniW\:C*
 *\sysDb-dmp*
 *\system32.zip*
+*\system32\msf.sys*
 *\System32\rupdpm.dll*
 *\System32\yak.exe*
 *\systemic.txt
@@ -13626,6 +13802,9 @@
 *\tor-browser-win64*.*
 *\tor-static-windows-amd64.zip*
 *\TortoiseSVNHookScripts.cs*
+*\totalrecall.py*
+*\TotalRecall.txt*
+*\TotalRecall\*_Recall_Extraction*
 *\toteslegit.ps1*
 *\Tracing\RemotePCLauncher_*
 *\Tracing\RemotePCUIU*
@@ -13640,7 +13819,12 @@
 *\trix-back-gen.zip*
 *\trojan.exe*
 *\TruffleSnout.exe*
+*\TrustedWave_x64.exe*
 *\TrustExec.exe*
+*\tsunami.py*
+*\tsunami_warning.py*
+*\TsunamiServer\agent\*
+*\TsunamiWave_x64.exe*
 *\Tunnel Rat Control.exe*
 *\tunnelmole.bundle.js*
 *\tunnel-socks5.py*
@@ -13727,6 +13911,7 @@
 *\Vanity_Dump.sln*
 *\VanToM RAT *.exe*
 *\VBad.py*
+*\vbarandomizer.py*
 *\vbs2exe.exe*
 *\VDR-main.zip
 *\veeam_dump.py*
@@ -13735,6 +13920,7 @@
 *\Venom.v1.0.2.7z*
 *\Venom.v1.0.7z*
 *\Venom.v1.1.0.7z*
+*\venomoussway.py*
 *\victim_info_key.py*
 *\Videos\AnyDesk*
 *\ViewerHostKeyPopup.exe*
@@ -13987,6 +14173,7 @@
 *] Enable Persistence (Y/n): *
 *] Enjoy your creds! Reverting to self*
 *] Eventviewer Persistence created*
+*] Executing loaded Mimikatz PE*
 *] executing xss local file write to hijack systemd user*
 *] Extension Hijacking Persistence created*
 *] Fetching LLVM-Obfuscator ?*
@@ -13996,6 +14183,7 @@
 *] going to inject sql payload into the external mainframe smart contract interface*
 *] GS login detected. Total Users: *
 *] GS logout detected. Remaining Users: *
+*] Hidden task xml file: *
 *] INFO: DLL IS VULNERABLE TO DOWNLOADS INSTALLER TEST-*
 *] INFO: DLL IS VULNERABLE TO EXECUTABLE TEST*
 *] Injecting into remote process using direct syscalls*
@@ -14041,6 +14229,7 @@
 *] use the public key from .beacon_keys to decrypt the beacon's online info*
 *] User can impersonate the following logins: *
 *] UserInitMprLogonScript Persistence created*
+*] Will decrypt user masterkeys with NTLM hash: *
 *] Writing obfuscated payload to *
 *] You would like to generate .EXE using lauch4j? (y/n):*
 *]Spawning Process with Spoofed Parent*
@@ -14083,6 +14272,13 @@
 *_NT6_CLEAR_SECRET*
 *_peloader.dll*
 *_posh-common*
+*_ppl_dump.x64*
+*_ppl_dump.x64.*
+*_ppl_dump_dll.x64*
+*_ppl_dump_dll.x86*
+*_ppl_medic.x64.dll*
+*_ppl_medic.x64.exe*
+*_ppl_medic_dll.x64.*
 *_prefix_PEzor_*
 *_pycobalt_*
 *_REFLECTIVEDLLINJECTION_*
@@ -14260,6 +14456,8 @@
 *00_create_all_modules_test*
 *00000000000000000041d00000041d9535d5979f591ae8e547c5e5743e5b64*
 *00000000000000000043d43d00043de2a97eabb398317329f027c66e4c1b01*
+*00015f0ed60527ea65a612a07f73a3b8e3367eac36a94a21a73667e4a83a930b*
+*002cb66d300bfb43557d4a2857db4aa75260a07feee6ec53375d0cfb6161e2bd*
 *002fa7c3b308536f94ff10852afcfbb0285608d259a43277e69751ab7db48e04*
 *0033346a10079dc04814e00f7717d40f104b309c5b8a0a8956fd871e305b8ae4*
 *00393218120b164c3069439284c49edd5a99be83482ed9149ce9af0e8026e61a*
@@ -14328,6 +14526,7 @@
 *02b26e392e2c9043de39d0c39595b587383170b211b2b86f3499227100192e41*
 *02ebe0a81dac898bf7bfced875656ec1f05b4eeaf4ba704c8a2b6c88582026ab*
 *02EF15C0-BA19-4115-BB7F-F5B04F7087FE*
+*02FAF312-BF2A-466B-8AD2-1339A31C303B*
 *030544b09aff990592772ae508a62396c5648a267a14e5f2fad08324c3d9eb9a*
 *030cc05376c7c249583648d5324f8d2bad47ea9af1a4f1a751a09db700eb5817*
 *030d5d76052e0da4488b216db816fd13bdaf25e047f0b34820a2b55305f9fd8c*
@@ -14342,6 +14541,8 @@
 *036f633201389badc16397101c718b3b6dea0ef726171e0448157129faa389b9*
 *037abc006fd6d9877d3f63baa4d32ebedd18b5a1ce6f51c22aa0d18c7ad1e352*
 *037be40510a193376a127023deb2fe312d265b5ebc78422879e9126c5d02f2b4*
+*037f7348a66495d6502220e15f3766aa070dd12eb40b3d08d3f855c4cd77cf7f*
+*039502d988c5665676f38e37c9ef27969203e4d552bd1f1c732c0c0f4c093016*
 *03A09084-0576-45C5-97CA-B83B1A8688B8*
 *03b738de271f354a0aa9c1773c4561b736fc03991008778a50a352a54bfa111b*
 *03bf355ada5fc5ff405e694df967e893d9db590653fa89c1be81350aceda72d9*
@@ -14352,6 +14553,7 @@
 *03fce0574a2df7993efff8bf3d1e45250b08692081cff53dfd266745db772f27*
 *040f67227ccb5fad854663f4162556c6c154d2ef4c0465e62d0ccef37ac4637a*
 *0421df6cf7ecab2db20777414d571ce0daeffb52edf58ff6fb873826c4a1f6ad*
+*042BF22B-7728-486B-B8C9-D5B91733C46D*
 *042fa197c0f91b27404c086eabfb62dad3ffaaad7101046f518abf58ae42ee1b*
 *0430a3e7a1c50c8b42d5129089ca7f31a28d0b4a9aeda7a96a1d686fde52a9e4*
 *04318d1196862e1078e431e6d59dfeafba540d0369346dcfc6432a30d9c37e54*
@@ -14397,6 +14599,7 @@
 *05cd2e1560111addd338faab64138b642f8ec40f344fe62f32f2cb762c94bcc3*
 *05cea2ca577a0dc7a1b8e6393547442174c1035818791f2a4e784471ab9dfcf0*
 *05da4e917b0c66df49df25e8e1139d57a8bfd6454ecd3e69ebb433fe0a52988c*
+*05dbe6775382b2e504716c2d1e1631eee298950cf4503072599d92cf07746190*
 *05e2ba6184dcebe6fa334c2a1d4534433e8ff9372636ff98eef96e414212903c*
 *05f4184029b94e304fcef2f2c6875c1fb2a226f0d94fce013643727b10b169a5*
 *05f5eabab4a5f65f2bb08d967d6af41247465af213f1c874ad0e059c0a3ebedc*
@@ -14436,6 +14639,7 @@
 *075860a08ea0a48a076989f101341a2b20f62e493fc045e9b3f2c6b04fee7374*
 *07628592-5A22-4C0A-9330-6C90BD7A94B6*
 *076d9ce5c8644dbeb313e2d90349ad33d3b718b2701899480573266b3f6f0e6a*
+*0790530e1e0f1ed73b2b6fd701d75a2409c785af5367304d5fdd5bdfdf7eae46*
 *0796f9b079afb6b3a36ab11ae96bcad44364429fd9bceee074225736507bb14e*
 *079ba7d752899ae9635cc444d27479b0cd314a39a282d114e9940a26fb9f55e7*
 *07a0651b2053508bab9370df884096effa653cb24cfd8c454c438b15971ece63*
@@ -14452,6 +14656,7 @@
 *08023b564648a07a5a37d7b4668f60616aeb3766a34be65130d722f46b9dd7aa*
 *080c6108c3bd0f8a43d5647db36dc434032842339f0ba38ad1ff62f72999c4e5*
 *0817f34dc2b4937f2ea352171e08852bf635b147f6bd77f1c9bdc2dde9f145b9*
+*081a942df7cb4e74d01caf742178772aa5ec00905a6e546c5d80b5a495612bdf*
 *081e0f8ba995218e30ad3c0fa7a12493f17dcbbbac73fdae4391fddf8af2f918*
 *082b4796f2b2fb7a81f9f00a8b2008713fba88eb8d80266c12a24a8ed3379101*
 *08349c406f6b963930b5ad1ec36e2f5f3b42fb5e3bbd887fabb8ab039592e157*
@@ -14472,6 +14677,7 @@
 *08ca5b5dae3c18f7a5bed317a0650f8f015207facf43ec829b9a3cf7fa63ffa2*
 *08DBC2BF-E9F3-4AE4-B0CC-6E9C8767982D*
 *08e4c0ff7e4631b54fc848a95a15be134089e2422cc173f96ae11ee3e803d95d*
+*08f0007bf2c941bb9372682e9cdcc21e59369b6038c70a7a20a7d3507abaa86d*
 *0927710fe2ab1e73a1797de36da9ada6322b8ac8ce473fc2db3a8b70b3ce141b*
 *09323E4D-BE0F-452A-9CA8-B07D2CFA9804*
 *09329200234dd56722e095ee5b0b3d31bf8d39f3bdacb4a473b9144a7e8e8b7d*
@@ -14523,9 +14729,12 @@
 *0b3472c651db8cc9991a92097c22dc4cab8467aff96591f76fb89bc3af8eadaa*
 *0b3924b330e85ff7db62e4d7e665397fd04c3b056b135a184aa87fcabbf1fad9*
 *0b41b2fcd0f1a4e913d3efe293f713849d59efebb27bac060ab31bed51ac2f6b*
+*0b4559dcd86d86e5c0cd54f123fdcf2d7011472a1b134aeb3ed14782a4578111*
+*0b5aa7a7f74d9fb5251bbff02e7ac43a3cf47be0a2f02d5a208ebd37032d12cf*
 *0b6c277ada6299603f6af3a2ec7bf7134df0c71d8f45438eeb65a2455d351e27*
 *0B6D8B01-861E-4CAF-B1C9-6670884381DB*
 *0b6e3bb9babf35f1580de0b32ba27a13e5187dfd5a66c6694e2e4713c49c0532*
+*0b76a0444f290530c45bb0e0dda192ef0e316e5e76133e34be07b383880c959c*
 *0b793ad164bdf239eec2eb25f1a153a51b9b0e57afd9e3b411621592b224b514*
 *0b79812a3202ddcd7f58de6c1912beed92b163a0ad930193b02f134059d8c420*
 *0b8c64aa6263b5ad20087692b6f1d2ae26875a1f3015aa7c8bb1f401baa59ec7*
@@ -14661,6 +14870,11 @@
 *0x09AL/DNS-Persist*
 *0x09AL/IIS-Raid*
 *0x4d, 0x44, 0x4d, 0x50, 0x93, 0xa7, 0x00, 0x00*
+*0x727/MetasploitCoop_0x727*
+*0x727/MetasploitCoop-Backend*
+*0x727/MetasploitCoop-Frontend*
+*0x727/SchTask_0x727*
+*0x727team@gmail.com*
 *0x9999997B3deF7b69c09D7a9CA65E5242fb04a764*
 *0xb4, 0x27, 0xb4, 0x97, 0xb1, 0xa5, 0xf3, 0x45, 0x68, 0x30, 0x3, 0x10, 0x74, 0x3c, 0x2, 0x0, 0x21, 0x7a, 0x4b, 0x8a, 0x12, 0x7b, 0xc5, 0x1a, 0xf, 0x7f, 0xf8, 0x13, 0x55, 0x7b, 0xce, 0x3a, 0x10, 0xa, 0xca, 0x47, 0x3c, 0x18, 0x5e, 0xc0, 0x78, 0x30, 0x15, 0x46, 0xfa, 0x6, 0x79, 0xaf, 0x9b, 0x4f, 0x20, 0x31, 0x31, 0x69, 0x48, 0x71, 0x83, 0x88, 0x38, 0x2d, 0x51, 0x90, 0x95, 0xdf, 0x28, 0x19, 0x26, 0x7b, 0xc5, 0x1a, 0x4f, 0xbc, 0x31, 0x7d, 0x5, 0x32, 0x95, 0xe3, 0xb0, 0xca, 0x41, 0x35, 0x6c, 0x18, 0xd4, 0xb7, 0x46, 0x1d, 0x10, 0x76, 0xe3, 0x1e, 0xc3, 0x27, 0x2f, 0x37, 0xca, 0xd, 0x13, 0xc, 0x69, 0xe0, 0xa1, 0x17, 0x7d, 0x93, 0x99, 0x10, 0xfc, 0x6, 0xf2, 0x10, 0x76, 0xe5, 0x3, 0x79, 0xa6, 0x7f, 0x42, 0x81, 0xe1, 0x72, 0x84, 0xa1, 0x3d, 0x3, 0x40, 0xf4, 0x54, 0xb0, 0x24, 0x86, 0x7e, 0x79*
 *0xbadjuju/Tokenvator*
@@ -14722,6 +14936,7 @@
 *1160bcaa562e5a40c74e633ec58a2518b110e74b1d3f48bfa06f74f72cf9ff98*
 *116fae615a600632bd007ea8608b2c814c55a02324f9b8cdd75e63e2b71d53ba*
 *11754456d43dc010e48cc2b5294d3a7d84f3a28bd27fd8183a3162ede955e30b*
+*118e93d0a030df314b4e592e9470c9ae9d6c40de1417714172a95891248a2365*
 *119.45.104.153:8848*
 *11a615149ed94d8057a6284d582f19d0b1f2c01a36f63f0b267cff32ba3bf06f*
 *11a7c6e09cebb1a12cf18f43562ead367a7f527fbdea3a075422e48ecabd9e31*
@@ -14730,6 +14945,7 @@
 *11c8f70aac612dfbe48ee5c4be2984d0c32a3a15b4a33f3b352adc7cbdb8c937*
 *11cc4ad77bf6c0db1f6b3f8b85ae6ee230c3ca7e1425b63b7c1fe1b51c53b048*
 *11db72b2a60d5be74d95f4a311571f045086efef145562edf02046d97f44f975*
+*11ef63b9bc33b0da6d0b5593e55e460aa8aa8279eb9ad4b90a4dc2b722ffa6e1*
 *11f2af35bdaa799a38a180a1b73083d68843cf731ecea118a33597a14289589e*
 *11f50c95d4dbcd97d5c76753aa7bc38bb615295f553a4c989015176ac0fa3be3*
 *11f51e1a8f1a630390533599cfbcb78133d680f6*
@@ -14802,6 +15018,7 @@
 *13ac39c3d0379d55f1fdab74b78354fd7d8c23ce43e0bd2f86c64ec21f2abe63*
 *13ac5e018ec166c098c2d67635068ad1b18247aaf02a8537532f52b4fda2dd29*
 *13C57810-FF18-4258-ABC9-935040A54F0B*
+*13de5a5579354f61ec2220bdc9f6bf0468243a850ab99a56bbdf2549145d30f6*
 *13ef95f2a3a43e67984999804e255ac93cdc9d9f8df85a188ba04700f6f4565c*
 *13f227bc915c43961e1f3831f155c6934e7d5a65434af3b29bf494b1d5d276b7*
 *13fecc8eb1d401a6f859dce7225b08edb68349cdd12c7ce8388a3076b50d470a*
@@ -14839,7 +15056,9 @@
 *14f0840dbabc554d43cf3021e04f7b11c7285bd85ee13dfb9d59c0a942bcd515*
 *15079a1ec5eff9da11edafb3c59984d2ab9ce7b02fabfd07cc398ee31e7e1dc8*
 *1556d7d7fe7f2342854a24b05c3eca7e593d7e22021c559118c3fde32950bfd0*
+*155ae1264e89d69b716194c767d7b05e48588c30559be534b056a6a837ab998b*
 *155c711cf850d024e86f65be8ff0f9e7e0e947c5632350913dadf8cc678909fa*
+*1563ac6f8ae849b7ab2da0a5a154f29449cfd13917b9a13bc6ebab004445075d*
 *159.69.126.209*
 *15b24f9b6d402b8f55a96f9deea8cc387513c040030428d9c32dbfb1013d912f*
 *15bc39581933d59dcdb7a264d149cf9bec398e04d18ab0b52f596861614c37b3*
@@ -14885,6 +15104,7 @@
 *179fff5afdfa8e25f3027ed01a226cb8f0b6ebee516ea2fb8f4e6e226235fe61*
 *17a1d963e1565ecff5794a685188f34adc40bc12b4f31aa32db53b6956369827*
 *17a96dd3f358c5b165d40422c6e218c1b3e9d27182e5202b8d0ad611a874c6d8*
+*17c82e0a4054f13739f057fbfa1dabfaf6ca373edc46e345d8e5553dfff3dd7d*
 *17d97bd15502bc16353e7e06822578069c1e653b031fb4ac982d8cea9d31026f*
 *17db2b8cf5cb903ef0b04dc10dfa5f24fd9ce7ec75674219f322b15d706935eb*
 *17eb30ef4d91991b265d5d93ab7f4ad6b58d43061a46ba3292142b962be95f7d*
@@ -14921,6 +15141,7 @@
 *1914b76bcb69681a6d7d6b6e0e98793f244073bdbf92e2b7f7d74e11584accbf*
 *191768fc581508bcc3426c4ed5d227ff4b075d6d1d5309d220d144486d8490d1*
 *19188a4c5110709fe0277421eab563bf4d738cdd3766a440e76ff00cd653dc88*
+*191fdeb92ab3cf8ae11e804d907366ff7ee95d92f10b88f352aeeb3ea1d8ff52*
 *192.168.0.110:1234*
 *192.168.1.229 Passw0rd!*
 *1920ded3be0d3f44df039d4ccd7597ecdc62d7b994364ad25f3021e5c9428731*
@@ -14939,6 +15160,7 @@
 *19ca9f2b318ea2efbe9f2b213c2edd68de54c7ed35dc3f291146c67374d8c57d*
 *19d2b32e9801a4f959ce59e251879d9a42ac749e2e702a8ceab2ddee2d71bbb1*
 *19dc8d8108bab9207905b08b57193efc9fd4e13f2cb901c7ca1ffd727cd62e4a*
+*19e7a5fd08ffa93823b623f349a5922b026253d535381ced0ab0e107d1a67069*
 *19f900f1332f1cb5895c079d90c982f7eae6cb67f989116a3cbba5101fbbe9b1*
 *1a1a729fe607c59dae787bc5322efcf8cc5a9e87623c6d10e2a08531829bb9fb*
 *1a1b2883ad2c55fe3a1d4544bc1401e92a0b98148d85f6e5fdaa54154ba5a2e8*
@@ -14964,6 +15186,7 @@
 *1af9e71cddf3b8cc8d9bd5004d29fc594400452a727856db23af24a0e3999de7*
 *1AFD1BA3-028A-4E0F-82A8-095F38694ECF*
 *1B1F64B3-B8A4-4BBB-BB66-F020E2D4F288*
+*1b209500451ebe2bbe420a1ff33d946fa9e9e00399abda9ebcf9b0258fbe7902*
 *1b220d5538e63244c3b81a0c7a83ebb9ac7b0cdaed9f3e84057a812d7192b9b2*
 *1b2b249d1cc2d53c4d21bfbd0a1ab7548e2ac369b13bdba538c76ba7813ce595*
 *1b33fdc94279d8b040437fb7058747c6d151265df5fc3444c27a025daf83c988*
@@ -15049,6 +15272,7 @@
 *1df8bc4fb468ccc0fd85b553411d9b3eb7a2ba4c4a4469ae41913eef9a9e65f6*
 *1E0986B4-4BF3-4CEA-A885-347B6D232D46*
 *1e0e69ae876004f656546d2da0a7947e040a1bfe4fa9925b84a70cdc0ded69a0*
+*1e1f0cff-ff7a-406d-bd82-e53809a5e93a*
 *1e4339c6d4ebe8badb742b42ff9a336c9cbf4fca5d735dfdea67b7a9c598a297*
 *1e47ba612581f13591bdf9b76bf654b38d6f5bfe5d45846285dea5ebd3b22c26*
 *1e4ff3139bfa4a040ce59f0efd10cca01d0c7da4e56c306b42f5e485b1a663e9*
@@ -15062,6 +15286,7 @@
 *1e944ac6fd16e486ddf69e61510c37b8df113ace0e346223e8d6394c544b32bf*
 *1ebee3f2cc0a98db23a6bf0af4e5dd14bd8d21a4de9cbba58d43521b0bbe1294*
 *1ec6f023ad651375efd66ae2a21f7609ed29b9fdfe725304bbaf219f5876350d*
+*1ecac46b693f7ac81d6ac3198742d5b7729391f2ddc5c908f4a665c92c7dec7d*
 *1ecc20b0a11a89389b677aceccc9a47b518aaf088c5d6cac63302b27ad12b364*
 *1ecf18a303bf9af2e5fc0f2cda9777bf9a759a88614edc0eb416ac4517fa3746*
 *1ede16af1fa680690f056d759d16a26bf527bd18d75cdd2d88c830b2a4afd980*
@@ -15151,7 +15376,9 @@
 *21f65143eef8b914b4b044ed3bbd518e05f5d8d08e326cf62e0f63e32de8a73f*
 *21f7c3a31ac72448d1e1aa4624672d7c3f7644fe7598ff109f2f87fd8de48cd7*
 *21fc8fb357996e9e95c04088f5fdc06cf2862bb7cb074e0f2919e9ed015ee884*
+*21fd3f69a45a2eeb1354cfb8e4b44c6d07cd30bf91698ac5831fbb13846f3f56*
 *21fd88a16e0aa75cc0d7e4f814cbb33e57de921ab5648f94a949318023fdec7d*
+*2202732c2585283f93fca9bee4c3f3709530fa450a1bea8bfb925768f38b2bb9*
 *220583e20edd98369dbe929d215a387ceea937b0e0637f62558506b2a6c603a2*
 *221ac33db7069624a6840a57b5adb7ed34ee49f911b200aa4c5d15cea7ebaf69*
 *222ba94a96c4cd53262600b7d14dce0a100e870e042836ce421fcf8b8b89e01a*
@@ -15205,10 +15432,12 @@
 *24328a6907e7d2783be6817bdd1c2ca6c14aa1cb556caff0e193af56e799ff1a*
 *24395170dfc41544eceeb78529c8de5b57b65250c27a02e058cd013e6f66097f*
 *2443660c8c3e8fcf80e028c6417a0110fde1f3a0961f70ffb960cbf64958e244*
+*2448bea950b409f78ec4ef893351cb860d45dde31736bb771f34adaa44e6344f*
 *24683c103edd19d58c02b001521660f0eae642200ad42454ae810bd7aefaf46b*
 *2476217e429b83ee5584cd469558a374e054a604929150314e671f140f5d55c8*
 *247b2e43787899a0235e4c0e97d819f0e05d3403c30e2d87c8b0a8ca80a74e8d*
 *247f15b5f3b38c9cf825f0df792e38e68fe4d69a72d21f596b9b73f570408278*
+*24aae23bcf8b0a513988d69b1526eebd791007136a1faf08ea1df5a8d3884e50*
 *24b3db5da23d7a56cfff2480ff4fb63ccb8fad4522c490b4478a22711a3ffa1c*
 *24C53132B594B77D2109CAEE3E276EA4603EEF32BFECD5121746DB58258C50F7*
 *24f8d15c5c09600a2138153f68eebed5831b31d90ae785bf4d25c6129afe2be5*
@@ -15228,6 +15457,7 @@
 *2562c158d4f10ab67c20710da74463876e093473b56e7e1900a163133c1765b5*
 *256ade9e6d03ca6e485f0932c122dbd226762d2c29c07414d0dc1dcac2a4eb0b*
 *256b5d779bd052ffe4b332efca0a009614cd4fa935aef4c5e54e9ddb391b0d04*
+*257669b9f912f7e9176cc50844b641c13f37428237cdd4336e497e148158d5ff*
 *25861c1cc31e530c5f8162e78585f40697c28164fd3c561d3d1a31442ee1ec17*
 *25879dae8a91b9cb647c49ace109e948db08e6198565f167233a45fb14bfe5bb*
 *2589213f0c51583dcbaacbe0005e5908*
@@ -15368,6 +15598,7 @@
 *2ba719023361de2ac1f7c68c9d4081860aa70eca707662e142f89048d7a89859*
 *2bbe8dacf7d9ce6812dc88c629ef572ea7b7c507b240cfe299c2991a10fefbdf*
 *2bd33a784af634af7590ad9dc43d574005dd95b2b2e20640b97cff0474af91c6*
+*2bd985502d207cb415eab56024e67a963e2b6c07d681f8c9ffb173fd5244cf33*
 *2bdfb1a641d40f9036e7f68adb158f4acd83a358af9a888e4e3e6ae757ea9b8d*
 *2be38840c44daccf05553b5f2b60ee1344af95f9386c458317d353fd2d5aea5e*
 *2bf454abbd1446061cac6ee9f57b12c572c07a3093e45e29b0cdc088ab18238e*
@@ -15397,8 +15628,10 @@
 *2d212fbbfbf1e52bdd4a28a4a0957de7ab35357a0735279a0bfa3e6aecc0c145*
 *2d320664154077c143296da336e7ac4bcc3f639cee91734ec0e4689b782d17eb*
 *2d3ce0b49997314a863aa4a9ef25fe06021aac1107aaf63af18ba9730f13e7e3*
+*2d578c9039ded100955310b7c6cc6a8eeb447cbabe86a7baa3b2c873795f26f8*
 *2d5d5cd63277002d698485c5a87a51c1c8d520a963ae1c1689c9e6c5c4964c0c*
 *2d6283f2487ebd6093546fc46eac56e5ce592c9ad5bfa70ee785ac0192a71d03*
+*2d69f2dcc84e24a3b4f8c8a465f0b3b27f30ce4d24d81e96079deeec0d540f41*
 *2D6FDD44-39B1-4FF8-8AE0-60A6B0979F5F*
 *2D863D7A-A369-419C-B4B3-54BDB88B5816*
 *2d87b8f3d0a56c9e101271c83e0b4c8f243af14a10965619d037210900304dde*
@@ -15433,9 +15666,11 @@
 *2ecb363e5ff0d146859bb93372e5e00f4fd6fd265bdbe7b5dd36f2716199cc1c*
 *2ed85cb524b3d21a29ae39ad50874d1cf8546d2dfedb931b9fcf76cc4e0e7cf0*
 *2ee46ca99e6fe3e38dc9e62bed1519080a75b35d947db0f27435a062375f51f4*
+*2eeed72ee86a276b08351436a84e2d3c3e8ec3eda25f8207b9c5878bb7541764*
 *2ef7b1aa5f0700ffeabf8464a961bc844a884fe75103a322b8c9d4d135eea212*
 *2ef8a13faa44755fab1ac6fb3665cc78f7e7b451*
 *2efdffd1cf3adab21ff760f009d8893d8c4cbcf63b2c3bfcc1139457c9cd430b*
+*2F00A05B-263D-4FCC-846B-DA82BD684603*
 *2f2673bba488dc6bfd8e64f2d9b14049a4b495b7149a2e16980547467afc3fba*
 *2f3b4900a63d32a14e1578b2de68f78daad89b7c47b9388c26d922962faef430*
 *2f3c1b3378d19418aa4c99685f3ab9d6730c132a920946b64c0e4edc9efd5ed6*
@@ -15468,6 +15703,7 @@
 *3070edf334a7ecaf3259b124641526d1b9f56a4c67ff892e0948913cd57ffff2*
 *307298c8eaa57cbc7357324ea06076f648904d20bb3cfdb2fc26c21f6913ec62*
 *308128ad3679e15f7992bcb3305e5a286a8a865df3ee7e6b3e4a07b5a041a46a*
+*30953a500fc7c834d7796b370c290d978e11a090dc28a62e5753467f1d00da7c*
 *309c23d800972611948a5980921fdf6e78bdda2fc4d30f4dba3bd8c970a17e94*
 *30af65f777eba02b3484f6db7f91b66d465d4497cabf9dd35f7291d5a717a454*
 *30b14705cdfcc4fbc654b55863d110a99deaa92a1490561e8dfd84326f9a9e9c*
@@ -15482,6 +15718,7 @@
 *3112a8da28bf74a57ed30ef6ee827f6f832e3053db1ec04fc0f465b6e0c2f2d0*
 *313624d826ed99d5bb9dce9401b5459c57addec56744a917516aae5a683d6c44*
 *3150f104ac2f5f1eead627411f14fdc43e50e18aaba185cdfba03cd99475dfac*
+*316511d5905a2222abfe317a2fb937588825fe29231c5b122ab790966c3a36bc*
 *3170917f0dbe26d4a09283394af0b9a9e9724589cd650d0b451b2c834aab3bf6*
 *3178ccb34c7dfd53d77a18d891bdc3d6376f5346746d65e6d386cc9c36040c39*
 *31795b2f772b6ad00274cc4eb40aaf81b5d38d6eeae56bace80a07bbb1aeac35*
@@ -15536,6 +15773,7 @@
 *33a6ca1dea55d7cd2edc7d25de16ce7689fcfc7c51fb2f26ebe1a07a3c81c017*
 *33b54c9b555472d471ff2eb145156d7212e13ad4282b020527267ca42c2afafe*
 *33b7357209a182696c26be19723b759608d453a6492e9ee57abf619c7c44de61*
+*33bd8a0ee9aba1b5c63f44d993def62986b98ca01590bc1bf2638190b2dd5961*
 *33BF8AA2-18DE-4ED9-9613-A4118CBFC32A*
 *33c0ff5f78f090a28573baf8ad735c82728c289a7ddf80df5bbf90c794cd7f39*
 *33c9dbfdd337a5fb8cc15a62bc9800d9a58799ccf21cb1b9bf3e7b7754c5eca2*
@@ -15569,8 +15807,10 @@
 *351b90825fb48695f36208f0e6cfbbd53f9539306119b5ca0aeb949bd255066a*
 *3532e7da204a5242b3ee2a3081cc68f7cd3728d45bbcbc582c077472bba4a7f5*
 *35386af9e43ed1948faa7037050573eda3299d4a11061734fce5f4be51c56dd3*
+*353f18e314f024ceea013bd97c140e09fd4ac715bf9ac7c965d0b89845dffcf0*
 *354a7236afe220e7c831129fbf32434edd1d18961118dfb05279ff5c1b6f38ad*
 *354f17db4f3eeff8cbfd56f6aabea68deb7045572ba55298bbfb1e355c98a246*
+*354f944df24458e6113663bf2886bcd902304e0c2852b4447bb386361ca3ef86*
 *355c68b197356e23687866e8ea8068ac29b62e3bb4657b9180729eebce44d7a9*
 *3560411a4c3ed8e9229e7684be1c002f39cdaa5482c6d5046984d4be7985a594*
 *35678541d1d3a394875f58f3add9b097f445dc15de0a720318da1db4d1de06e8*
@@ -15637,6 +15877,7 @@
 *382B6332-4A57-458D-96EB-B312688A7604*
 *385a18846808ae7f07d1be33dfe8c850736eec33910e1366fdff14bb4384b690*
 *386b7c0bfd847142ecd41646e39f24f5d8dd18f1f9c897bfcb5c19a2cb4edea9*
+*387930bab7650291baada3b39dc55167c1e6f1fd2154de61f77e07bd14c8b9bc*
 *387e21adbabeddf80db5d2868f93d6bdba8443dc26fdb964ec6e279f3d02310c*
 *3882d5cf0114c24977f1cd1317618c9d8a17647d0f4aaea7818f1f38332ad848*
 *3887f7179aa36da3d9fc527a714d6f4be500dd25beede1e161e9f019beaf7636*
@@ -15694,9 +15935,11 @@
 *3aa113440e9f684df0d0f889c69ae914a40b07c10a340d1fad4f8365286fe19d*
 *3aa2845ca86220e20ba6e4f2f08ff1aad9aa4c2cb47c38213bbf21e7fdd87b03*
 *3aaa5fde51d080a80e911b350db316669db2ca264b1b6f55cdac91d1ad5267bf*
+*3ab344b38cb1d65babee1a52210280c415e6839642bbf7e7b9c4cc53d5b72f04*
 *3ac48e132a8186b8302e04c77c22c4ff2984e6b6bd16bf65361cd1b751559703*
 *3ac89800bd6dc53207c19d3d35161342cc19bc09a212710393ec9ab79fb55ba1*
 *3ADB8BB1-AE14-49DA-A7E1-1C0D9BEB76E9*
+*3ae2ec1c3a9cb120b6c296aed13dfc8973449c74e8a93ed0de0f3b85ef8990d3*
 *3b2aea9615c1f94c724af17885c4587e9818652ff92e4debd002522e7be96a58*
 *3b2cec2cc3a2e3185fc1797590dc58421cf4382e86d83e8658990bb3979d7209*
 *3b486b14426ff6bb3e2c4e9d5d92821a50d5ef26f32e9ba244ca73fdfd81ec66*
@@ -15727,6 +15970,7 @@
 *3c4e769a29f03bcc9e998adcd1281142abfb5ff1dd66da5a435830a1cff34217*
 *3c55b7897d676bc6ec3be27026b32389107e2bba443b52f25674fdc7e4229012*
 *3c582f611716c77db5e4f69823fc72572006608f63d9859dea598f0dfc74ed0b*
+*3c5d50fa8f74bb4bf13e8b086490bc1d520b0a03b56e8d2b2f3ef65bbab2486a*
 *3C601672-7389-42B2-B5C9-059846E1DA88*
 *3C8AA457-3659-4CDD-A685-66F7ED10DC4F*
 *3c9e03e28899ba18e42f51006f7d94192fbae009885fd91cfc75b354cffebf58*
@@ -15773,6 +16017,7 @@
 *3e6945f3127371b2f2c3f0bdcb2a1c574f92394cc78fbe2144ecefe23f83c983*
 *3e6db66b8d4aecf07f084a1fe53d66d437b800fe773476154c78df0c78d1e6a2*
 *3e7d0d0f365120cd3cd351d147d1a12ee960c8068b464d4dd533a3821873b80e*
+*3e829ec96d65a4bc7c962b997c0363ac690ee3206a413980cc7bb8d300c8a3bc*
 *3e93d23c966b89a3e15719d482d61cb107eb12085cbace1a6453286decea13c1*
 *3ea27a3727d42fba0e3862628a13fe6458bae277d5f477d1fce626e90e12e569*
 *3eaa14907c96c3a261cce8f5379fa8ecab9911cc2f3711b4b08b8d382a7ee772*
@@ -15787,9 +16032,11 @@
 *3f04e968871c818880aa23cecc9239651b7e550a625d655236690af22ea2bbdc*
 *3f06328ca39cad23ca718129de65b24c3630dbc51fb473b42405c18a23e21992*
 *3F0C3D9A-CFB8-4DB5-8419-1C28CBC8621D*
+*3f0ff74a551ec7b47b6509a6ebf6e6ef795c7b770cc3545e2fb8296a5ce4dc05*
 *3f2b33ff51dfa3351b72926fc97202f2681af4aa329b815e55100851b02b8896*
 *3f34a1d2be46289a7f93e67e605d1d3b45001e2d14d78407da986f3d6d0a7075*
 *3f3be7d94aa91ed9d14a8c8f37413d2a3057c0a2758d579189c84904285007d5*
+*3f460ca63fd331cff0f5f7e7947513822b5a9fdf43ad10e551fd785b2de0adf3*
 *3f47dae30e9b18dcfd50eef1d188f83171072136257758ea39997818f38d49e8*
 *3f4a0c9d63796dc8d7d2bb3947edf3a2722c9e783e7c7fdfa7e13f2b43eafdc3*
 *3f511ce7fdc81166c2e8811560fb1a2b30b5568ccd184d915f23fd5494cd969e*
@@ -15843,6 +16090,7 @@
 *40853f24896e8e1ba7170a9775b056195567e6bbaeadb14afbb8312f35112583*
 *409284796af4c4aa27849cbd51e721620fe0eaa7e8482207905ac4d79bce680b*
 *409faf186d5c7ab9c289f8942614c716baed7107b57003f96d76f717bc197df4*
+*40a7ea977e0b28240c6b53f0b5ee130050545aa06cce4ef21afb7f82645cd0cb*
 *40adc45972155c2b27e671de7a26d36e20c9061c9ace85c4939b3eadcb6f7467*
 *40af7b934df0673c434a4a92effc1928ad6294fc0ebc627718883645f0f42b58*
 *40B05F26-6A2F-40BC-88DE-F40D4BC77FB0*
@@ -15850,6 +16098,8 @@
 *40C6A1BB-69AA-4869-81EE-41917D0B009A*
 *40d5025cb0b0a6f26cc79fd23fc78ccdfa050bd7e80d694f2039ab98093f831d*
 *40E7714F-460D-4CA6-9A5A-FB32C6769BE4*
+*40e7cf7955a9a2beedf5d284529036b04c65650f81e81776d8c63713e86b9ca2*
+*40e8b756d0f996d7127ffc76d3fb122dd014455bc6b0c007e6d5d77e5bb6211b*
 *40eb2e3dcca0c9f4ed11b3fd96b5824489f60fc0c3caa8f609539dd68ec6f1d5*
 *40ed4b2a45d5609b78ee36ff6779e51e932bfc50363ca6ec7c4f598d44407bdc*
 *40f072d74c6fa0c3e9974ca3e7ab5fdafa63487c4ace88c0ec7f539d7b79bfec*
@@ -15913,6 +16163,7 @@
 *43486a6363b656d155d759db8a67e2e7264c38984c9ffa2d7449dfb085ad009d*
 *43534e7300dc4de9b8dc796f15ff168eb017fd8e895ad73b183ce71dbe0b9beb*
 *4363de01f1dfd6b393f889bb916128df95a02bc1df2c294e28a48bd197a685f2*
+*436a88ff9bedb6b4264d64e28be4a4c1b41e125bfa5fdab941c6d045d9a4e77e*
 *436b7f540f534a0ec1337cf82a76cb7727acda423132195f0c81560cdf75c438*
 *4370e110d8731b6b6fbb98d9ae2ffae6a3b00a8329b2700e86b15e1bd97166c1*
 *4371963ea620ef5dd65176c19997b8067d5d7f72dd722a63f982b5de6659d45c*
@@ -15949,6 +16200,7 @@
 *447a5e8b424ebc3b82e909ab8c585fda579881ad26c35cba3c32b77896008c62*
 *447ea37d555fb32ea2957369ea1aeee31898a4e1f1783eb834dc9df2f469252e*
 *448a280cf39fcebb006e9a66c81b9d59e884f0ed16590ac19d976e44fab7907d*
+*449a2fbf36afadf80c8655c09acc1418d286106f9ffe9422c0879861c7a70e58*
 *449CE476-7B27-47F5-B09C-570788A2F261*
 *44a2461a051dde2487b73014e314cd29b2a8f5587d88b99d13a495c5071923b8*
 *44a594fa7c72fcfc96a0a045060135a7571a215ede7bdde790cf992ec56595fd*
@@ -16024,6 +16276,7 @@
 *478256ef0c35f13ada15baea0dd8a7e09c40ef2ff2e0a54a83681d920b93ba8a*
 *4794997fffc632dd8d357e9d00ca616e9efb2741e0f0acd1599f90be6281b9e6*
 *4796c4183abeeb96966e3eb03493345cd7e148688e9fe5613c5bda26692063b7*
+*47a825e8e986071566b2bd72e956bc88f422348ebe17b4e142e7c6a1a1eb4a1f*
 *47ab74088173b85e9b5aee8a8597ada4ebd3ef4bbe645ecc45a52392be9b94b6*
 *47ab8ed046a22fb188930af037aa05a7f74e3e39331d56c32d736589f7ac78b2*
 *47b8e0993b997e7f465802945187521ba8c68592af990215cdf43bef121f8df7*
@@ -16048,6 +16301,9 @@
 *48a3acd3b29c436bb696a1486128fa509bd08323eadafb8c7dad54882b45b8f4*
 *48a3b1707d22b65890d7feae45f45dff52faa7234ea5fb6f8c738eb0ad265246*
 *48a7ca531d14b205dfcaaa59b86e78f3f092a2c1c6ccf8c827ee87ba30d3108c*
+*48b7e423f61b11878891dd7005b2b2ba88f997d4501c405fb9c69f932499ee74*
+*48bbbde23d4a33619295aedd90361d246d1edf1082ba361a54b84b706304ef1e*
+*48be356e1719a3dc5c38db4463716ca90a21530266e657b1775b67c7ac25f922*
 *48c45f037e2d32fa7f55d0c1e9957bba8cf9bce467437c389c5630d00dd46e10*
 *48ca254a725d1c4b6422cde2faa8777559f1513bc9bc032f05ee433be8b5fc55*
 *48caf6ffe4985e7541b9d34e8b6946d8c99e9d87cb46d146c81029fa280c03ba*
@@ -16066,6 +16322,7 @@
 *49cf02eb8f76329b62378b8e9b0ae5abbe0312b9f2c3e068dbdf57f9474dfd8c*
 *49df12075c49bb956291cd11b2c53626174b4128309ada438d5d5e49265866f9*
 *49e7c86340e6930402911320150a14e5aad183efafb8b56747d97a8a5469a187*
+*4a25a09ed816e1c629945dbd33779ab714d82bebf661557864aa61562ed4298c*
 *4a302071d7fc21367f31e0d9c5f77ef1eb41ec097eaeadb8d65472b6be55ab99*
 *4a4b9536d0dbd27943d838e78f76a05c360856cb4d99a22d27b4d08f20887482*
 *4a4dbfa07c6f4a72b6727c4a2ed8ef2899f61f724a9b5d142ab30b1c283a6db8*
@@ -16083,6 +16340,7 @@
 *4aed98c21ef4534951b6faeab4982376695ae1e10ca90aedd27a9bfcf6caea2e*
 *4aede7350521d2a3d0975833db870f94c50c8d46c28d8b14f930619e35b4b07e*
 *4af6b42eb79a5290d1e24e534a0ec34521dc2d30ef60898abd092ddb2e1cd55c*
+*4b0ff1bd0004ab3d3ec7fe99d489246671adf95aaaf8750cb413bb77acfbfc18*
 *4b1b36706c5306f0084713e926888ffbe0fe9bfbf1b0bdfeef950b6dc531cb18*
 *4b4a532b9efe70d220a086a839b59bf80d00368d3f821fb7f81f92eeb9ba3edc*
 *4b532e80f16904176fc50b312ca8114d8ece3ec594cb34a29d7e5e0d767dca59*
@@ -16094,6 +16352,7 @@
 *4ba56c35ad47ef4c0f778c152717296d353945b500448a332fb533ef5bdaf36e*
 *4babb86918876772a6370e0e08a2640186971a1124728616289a9bda68ddc434*
 *4bb2d035f0972ef95a71600220648cffcc25c8f6baf5c96de7a0eafdf509ae04*
+*4bb5b8961566bdbdc3787a847a55730ce32d1822677bcd7c412cf2d7f54262fd*
 *4bb77a1ecf1a057a39bd8b6f7b3f349717eac5d32eb87df25e29aceacfa1ec7f*
 *4bbce282aa26a449030a398e4ff5e980137a05d91f205037ac1bb297f3c36513*
 *4bc1b107cd497c88dfbc262ff7bcae4e85874848df0435bb7ecb8334f23b19b3*
@@ -16166,6 +16425,7 @@
 *4db3484ba73cd09d06aeee140adcd85fb6c72fb76d05a86ae95fb27e9c795e45*
 *4db9721f4c76b487e34fa87bb6a76632fb37873de18982892268a70b18b8a4a9*
 *4dbcad57d73bd7245c37f330719add5e842b4c8dd7830039ce50ca2d615ffe16*
+*4dc4fec23df1e9a1fcd37f4edf731466f14eefa9eded63a3387ee14adf70e104*
 *4DD3206C-F14A-43A3-8EA8-88676810B8CD*
 *4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8*
 *4de29767842d979fd17a50becf0295588a1578b793c5415032847d684f54e445*
@@ -16204,6 +16464,7 @@
 *4f2a713d98aedd080e4cda63a75f4057997d1aa87903649a921cadeed54463aa*
 *4F2AD0E0-8C4D-45CB-97DE-CE8D4177E7BF*
 *4f30ed7899506d15974d12e428f4647660f97a52cc21da06a6a295a06197bbd8*
+*4f3632bb0c4eb05c443535dd3a773f83b3ac47f20ba75fbc3a2c8e6b80a46c60*
 *4f3bc75be8df0f82b7b79041715ed30cf1a0e658fe2be024825da74c7a8a37c1*
 *4f60610a88f4afa9393e2bbd7c20f65b59bfee7d7ca8576b25131b7bae7f30db*
 *4f64f71a7d6b8be79754e7bf2109675ffc8a3e37a4a55b08c95a1b1d25e458e5*
@@ -16277,6 +16538,7 @@
 *52136cb222124a4b78b9cef3b9bd9e1a18a6687043597cb95138aa60bd26c76a*
 *522690525ad617c5995ee43c1efcf7c4e43750e9118825f054cc2136e19d93a9*
 *523b8ef87cf347612d09851f689f5cf3a2a70eb32f392ae5bc7e5ab5fd961cca*
+*5248816fad594b75b1f9c63e79ad931f24a346915c7ba2c50035e5c13cced4cf*
 *5252ae734d3bc191efdb95074830509a7ae4293fa25ce866b9fe35c455e61058*
 *52582ba941f62cf6c7ece84074c42ac60e520be9ab3ab35151dde34e2c1bdf95*
 *52652b9d89a6fd0617b8f0f60b0abef4a972fc0b7f1f861e5be029f7b2eb4dce*
@@ -16355,6 +16617,7 @@
 *559e5ff2b8afb25bbc62275355ba2ceb668e8707de6b221315afb6c2390ba68e*
 *55a3bbb8a62578b455e478cb197aadd389f2e65418595e5df4636972be878710*
 *55A48A19-1A5C-4E0D-A46A-5DB04C1D8B03*
+*55ab03a0f7e3ce2c13664db76e5e0b6768cb66d88971b6bc6caf577831a77a23*
 *55abc5a3fcc9e06b848f9d81d93ed2771947d01491f99ef3f55556f5b2a183ef*
 *55ac39fc6d45b2e315df43a71380ca8c20e62e28b9531e56d920e6f45103388d*
 *55c11ee0078d85ed35d7df237458e40b6ad687f46fc78b1886f30c197e1683c1*
@@ -16369,10 +16632,13 @@
 *565bb9fd10eabae3f557cd29ee48b29054f98aa3934c2c3c2a6e6e528d06b5fb*
 *56633694db3e8d8f7022bbc09920592e414c90155e273fbea96b6299bab97275*
 *566e27a6f2a96e268b6f21b88db8f3488739b0d780e82ac516b3ee14c5fc337f*
+*567639e3dc4355c549e9c9cc42988325cb95a0f6e86004d5679ad3e15af7c6cd*
 *56888116d58c75328e0b32af2b26f98c1f79e6b513e436db51aa650efa55a60b*
 *568ec361aa33903f8cf1678a5b35592887ea6e3de3fae6a1f752730ca2e8e82c*
 *5696de366805239d730793f8bcb78d54bc2e8c07f06795e089dcfc8f6fed8184*
 *569b8925a41bd1426fc9f88a4d00aa93da747ed4a5ec1c638678ac62ae1a7114*
+*56a0e08a01309e17e4e6c753948fd4f341e9a41b1b834b3ce697bffdd90c467b*
+*56b15b80abb7b1bd3bb80d41347fcd9d26668499220a1dcd7d292714fbd7d350*
 *56be52735563e73f0cdf9d4e8b52f86ccc5313495eec99c69c6f2bfeb0a08317*
 *56bf15ccd413e54239dde9103fa9e0bdbdfd5f3788855dbfec3fbe0e6a003b98*
 *56c68e08402096d11585592005d9eae985cf0d248e2f8103da15ad351eafae58*
@@ -16397,6 +16663,7 @@
 *5757b774c407cc8a6ce5f9601b244730635a30efcb0015fe454610850b14d38d*
 *575fa9f32f88855c0e945bc076061933bbd0991f640b12da69e3a209b307decb*
 *57630a0b38ad185ff8a8d0706ff9cebfd12f47526ceeeb90cc3a17e124316fe2*
+*577b85630ecfd64d6817de11c4abf256512d299f70998c8c531202272123b202*
 *5782C660-DD26-40DC-B06C-B9275371EC55*
 *578a42cf90cf1bcc569f925d7909bbedd2756367906d2875a23cbc8bb1628577*
 *578b34b94963895dd57cb223ad0a79b17dc8d2c71bfdf8f977a5903e326ba7eb*
@@ -16408,10 +16675,12 @@
 *57bdf28c39480b3e91fd8e433dce4c9f032447f9bf1947a7b8362645ad213732*
 *57c646df3c07792d9c6e479b7faa5ccd7802dc03dc49e477534e2322cb753bf9*
 *57d460230411f7d23ab6cd3463c737c657c0225df3a1aac75e049ca9d66f5763*
+*57d4776f876ce736a4fc01476dfc2bb04672edbd7a5f52886a3b11528cfc23fb*
 *57D4D4F4-F083-47A3-AE33-AE2500ABA3B6*
 *57d785125cf62ffdb727ac7f56110dc0ab0403f033caf958b717fc93f963f097*
 *57dbbf5283ae35badf6a08c683f767a44c9efdde9623c0fa6429d8672c97a18e*
 *57ec0021464f26379ee9242f6b517b4276fb7e431cd963df8950dcec8c83d6ba*
+*57ef38c793bc416b93685ed0d2b44971860a2026a7dd9eff7dd2cd5cc6630120*
 *57f5a53203d19daa9bb094b442bc029a374686af5be71741e5536e35590e9f9c*
 *5805e0f064ce3aa72e5a0b4dd00c0bf4150995cb1f1b7b80f2b3a78da78d1d27*
 *581100a0d03b60437fe963681f102ab80b89c6392007da57f54162ceeb4c5378*
@@ -16442,6 +16711,7 @@
 *59224C16-39C5-49EA-8525-F493DC1D66FE*
 *59395105f688ef8c35cf2061928c2cb7f2f5d748518ca9ebfa5ee14a2461915e*
 *594199ae0a6e125642f438b9b09af03d2ba269259db213fdba7901b5589f2234*
+*5953a5d8fda1ee62fad196cafa1183abf11bb5555b9b534756e98a0314411513*
 *5953e84b6a1590568b6d77a0b75093552577aa61484aff41b3ad0fb35c68719f*
 *595D5812-AA30-4EDE-95DA-8EDD7B8844BD*
 *596f3d75d96f68ee6e91c6c5ec4180b6277b6f067e6fe233193c2f75dc554e8b*
@@ -16453,6 +16723,7 @@
 *59ce9c0deee4a9514bca45b542d680baa7d7b927fef94c54ac5a0433db480629*
 *59ffd99e0fe7d354d185bacf11949be89fa86a88f40ac4773f33e784279b31cd*
 *5a0bd791d08f5f9871a1b2fa7f1aea81d0aeb90c7df95fe0534d3faac1847e74*
+*5a0c1ccb6b02b2bfa1d84be0b8055274b884f0d58447b5b3eaf19d9c5197c19e*
 *5A0FBE0D-BACC-4B97-8578-B5B27567EEA7*
 *5a145c3bcbe90fdd067206d68009d5ba36f8d0bea8f1d6bcbf0a0f05005edf38*
 *5a1790facd6c8aea4b8c49a0e8d4aaa2f65e367a5d15c8f58014d62a8668b4df*
@@ -16471,6 +16742,7 @@
 *5a5cbc0b756cbda7a9ac64ca5a0ad33899bd3ea9ae42113389c230a164900b74*
 *5a6e7d5c10789763b0b06442dbc7f723f8ea9aec1402abedf439c6801a8d86f2*
 *5A6F942E-888A-4CE1-A6FB-1AB8AE22AFFA*
+*5a70e9ca5bcdc934d1451843186cbd70a5869e3d1694a5a81a177fcc5ca37d05*
 *5a7cd4fcf7cecb7d346af8e28b49ad66c43d5bb34610485dde2210cadba3d8c2*
 *5a86428ea0c5d6424b44518fe411e2a8c795d201f4a6df3b77b04f2af8f2a911*
 *5a89f9df7621ef8eac8832f7397c55559d71cee04a798474683e7e0019f5ee49*
@@ -16489,6 +16761,7 @@
 *5b036a1f20522f45ddfe9956f4014efe311daed29a6888959f0822ff72da948f*
 *5b1ce3529f7881a1252086a73bdbb45d6e9debb50f92b9c42fad341e34146437*
 *5b32dad4ad2b350157eda3061dc821645e7cd291970509ab32e9023b8c945951*
+*5b3811e463d5b424593910cbf7fd06218e993f8399a9add27b053f98bc984587*
 *5b3ae3dde66a377dec786323215a45d10f55ada626d29a2890d2f4915111b7a7*
 *5b4204056ae94aa8281218656a1b3566eaaea2ddf4874eccb4a9c23cf9bc0fd0*
 *5b4300844bcd004ff1d5415a81dde48c9b3505338e8ff1b8bdaeb5f89c415b46*
@@ -16497,6 +16770,7 @@
 *5b5327952836163d6a5c2a9ae0d300daebcae8b8066fd2cebf1e3907ccb0b3fd*
 *5b55d8a0b50b89156ef7d09cffede9385fdad53301c16f2570a1888e7ee1cdf7*
 *5b5b20242873746174202d632559202f62696e2f73682920213d20242873746174202d632559202e73736829205d5d202626207b203a3b746f756368202d72202f62696e2f7368202e7373683b6578706f7274204b45593d22223b62617368202d63202224286375726c202d6673534c207468632e6f72672f737368782922*
+*5B5EF20C-9289-4E78-A8AF-2D30E44CF4F1*
 *5b5f70992a0d5a59176a7bfb43401d56ab3d250958378f1d913405040bf7cf54*
 *5b6250d39e2f2855743616842353bab496aafcb7bc2a45169a54bc94f7939917*
 *5b64c12376f1ec1b876ede9b84f6883ee5f1ee5065e945dc2115c5e04c02aadf*
@@ -16541,6 +16815,7 @@
 *5D10ED0A-6C52-49FE-90F5-CFAAECA8FABE*
 *5d16081315e1588a26019bb5195f2f72f278a3c86acf8cc1c072b791960beabf*
 *5d1cf73d662aa8ef604855576ba9fa9cec217c18b4afa0794ab659b386112030*
+*5D21B8F0-3824-4D15-9911-1E51F2416BC2*
 *5d2e0f4adc5e3bb1f154c9f22eee2cf15e0bb2c5815653e3d97cb1e97c99c326*
 *5d34161be5f0c623d9810e39c594ee72f65ca74b9730f57ad6675c13d81e6d3f*
 *5d3f3909639924fe921e0ff58be252bd671db7d2c2c0cf56d301f4ea48548306*
@@ -16551,6 +16826,8 @@
 *5d637915abc98b21f94b0648c552899af67321ab06fb34e33339ae38401734cf*
 *5d6beae72888b5b7c4d4d6bcef2c37256c736435fd1b08ff642ee4c60a310ea5*
 *5d848352fb3ae2109dd1ee927717c8c004f2e07f33b14d7fd25dba71784f5579*
+*5d975e81c68574849bb0fec4c6d2116a4ba7dd58bdd1710463ab75d9a8054bc3*
+*5d9b00a706436f93d927799d4dff0f1b53af9a10bf3bfe0c7918595783f3ddf6*
 *5da9049dbb09c0f24ee3732e407eb636230a1f8b8dea5f40e74651102229cd92*
 *5dbe659f612640086d3a7dc05b397f4e444c92d784951c49bfe4020b934cb559*
 *5dd1488efa5a855d71e3b60d9d398f1fcaae367c352e731ced194c0fa261ac95*
@@ -16580,6 +16857,7 @@
 *5eb8024e00c244de2646f2b338be02e7a6475637fd04894a3e13d37783b0d693*
 *5eb942ba9ed0d45d2ac1ea6ed02fbff802a69c408c8eb68155dd2fb7c6fabb0e*
 *5ebd789e726c94beb41e0934df6fb9bf62af28cc87093b9785dc9baa4ecde96b*
+*5F026C27-F8E6-4052-B231-8451C6A73838*
 *5f1660b704a8b580082b81e14a41d2da9ff1edeebc59b885acb92f1ab1f46838*
 *5f27ca4597ebd322f8fca8f3f74a1771d0e5a3f2f9d53779345f73f62c9f5440*
 *5f2c1a61ebef09dd554f3e9db1ae4bd1a516e69b39375948614573aa8e853cac*
@@ -16694,7 +16972,9 @@
 *63957210-4871-42D3-B98A-191AF5F91079*
 *639EF517-FCFC-408E-9500-71F0DC0458DB*
 *63a6bad64de560056ed496b6b7103056e4bdaf19f49011120997a5b87d141940*
+*63bf4fdc657ca1599e0f4b6657bf656a5c9f9f3eeb7af957e511707436109835*
 *63c0c9e03586b36bba16e6cd2f73a71d675f39e9a4c87b09aaa2253cb763c833*
+*63caa714b73110ab5d2e14db8fcddc0ddea627f5bd92bcfacb9d2c6e507e6a84*
 *63ccc3e608d3225793b40e643af2115811668731a2b43cbf5217bfb3d7e01d84*
 *63dcdf6e5eb8252ec73b58bde6249db9d38272dc6870074d2569f7431a1ab32f*
 *63e9c4ad28c4ee5fd63bee6124590a0edb6c7dc4b20d1b4f6aefdb53f5b94a1a*
@@ -16702,6 +16982,8 @@
 *63f5ce1c0d7cacc9f68421eb56b0640a48fd52695fefbe3589d7a2520a684123*
 *63f6929cf8f9c534611dc567df4e773bc6172288d3c6edcb3f92a09e303ca8d6*
 *-64 -format=reflective-dll *
+*64==eyJzbGVlcF9zZWNvbmRzIjogMjAsICJ2YXJpYXRpb25fc2Vjb25kcyI6IDB9*
+*64==eyJzbGVlcF9zZWNvbmRzIjogNSwgInZhcmlhdGlvbl9zZWNvbmRzIjogNn0=*
 *640e8023020b5e649ff5f7571e6402f0f3c3524a1a43113335e2fece9505aba9*
 *6412cb5d528ee93be2fc08b2c72cdee6c36e38ce5064d2685139bcbf9962298f*
 *641867dbb57f198f42dc86ea0d27eaaab36190417ffc24e6a186c831a98c0051*
@@ -16720,6 +17002,7 @@
 *64853db4da2d13a82c795e1eb6e7e2c4efc2d673be34b5f65398f54b7277a5de*
 *64976360321e4f2e591527df2114cee80b6c210be230b38c9b4abf6506804040*
 *64a7c5e1ef0e19140bf06ba70e0255f53c67c117ce1b072f46c30a1be44ff671*
+*64ac445fc926e54e4083cc474a92414c76ef1e22cc002bf52efd3db5594cb76d*
 *64c61eefcf2d457486e071a3c869c39d4a9583820ab007c8347ea9f34b0da570*
 *64d2905609b4275f692466d0aacdd3f9c7da7860e9ed6dd7047e6dbcec851d99*
 *64D84D51-F462-4A24-85EA-845C97238C09*
@@ -16728,6 +17011,7 @@
 *64f05121f9c950fd6146c9d91aded76884e80fc69825d80b688b113eb8271a24*
 *64f0fda500b2a622279f62bcc86e5282b9e6c5ee8e5ef55380e3a08e55b5ecc8*
 *64fd910fe28fc9c7c8c1ee35cbf5af6b23141bdddeb22ed5d3ecf3902917680b*
+*6500d2030465216b60c086fbbbb4b52ec043473c802edf71d9b8277ee4b52efe*
 *651095e7885df539f9cf20ded168c9097051bc99bcaa5cb5442d21267e14317e*
 *6510e91b5511a68222bade46531b5d70850559b7da4dadd2fb187015cc811efa*
 *6510fdf42becdab665232ef6393e40a559dd2b3b2b7927333c9f30a62bf7de3f*
@@ -16738,7 +17022,9 @@
 *6522659bfa7046803bb28a749799fb9b876d656fa46037fe28709fb4ad15d115*
 *6536EBEC-014E-4D6B-97BE-223137694CA8*
 *6537990787752bff7e69cbd253886150278fe24c7aa008a74548d0f09b11d936*
+*654685d39d4c33cb74a990013bdf18883d774c609a155a6461bd76e93167792c*
 *654c673c177a2a06c2b240ee07f81dc9096b1626f82855dc67722a5e10bbf6a1*
+*65514a7171c001cd3bcc99f90efca058fe8b22ba896194eb60ea2249fbce66ee*
 *6555c9310f7087fcf0b38eab5ad4efc6ec91566ff5bf2fbbed4e63c88611c395*
 *6563686f2048656c6c6f204261636b646f6f72*
 *656761faa342911d398af21edaf085f978ffa53a6bf3919763dfa82aba2301f1*
@@ -16751,6 +17037,7 @@
 *65a3e8e51550a616e1804c6dc4002ffb4a70bb7d38edaf50bc582a7f80a41345*
 *65b130644bca2559f84fca5bb2bc22a1ae7d889f01e8905f9799763720fccdb6*
 *65b73f44795c9d8a7ac35a5d730787d72c2ceaa15ff0a8788038bee7b56edf48*
+*65cf10c4827342b6b8a8f2d5d094e300e41d4a3924efb8865e633d6be7fac3e6*
 *65d4c633bf347ed4766dbb6e003776a017ccb632d73c6138c3e880a94c114c2d*
 *65e2792774eff8fec2ccb9280300fca6f465c06df13c4bcebb553b18c4aafc2b*
 *65ed54763a97588f5ace7c38d2cdbcf925dd65f2d5fb3ca1548b23c7efb54efd*
@@ -16824,6 +17111,7 @@
 *692110b2f60de3d52ac15e84be38fab5f9a16249b2bb0011af047b174efceeda*
 *6922df4a3bd7d41b985342abc5ee2ee292912d993d6adfebfa8acd04cddcea58*
 *693475b69741d88b18afca69ab81daa69d5b7fe8f5f6849f69676b62c3379af5*
+*694eb99d38f28ec564d480cdd05e3b6e703b2c0d592276322e7a74602145a5c1*
 *6952343cc4614857f83dbb81247871e7*
 *695626bd1c10bf40379744a91ceefd71c27261b26b959d87de5c2ec74bced1a4*
 *695d04c8162644e98cb0e68926b1cc9f47398e0ddd86255453c26b7619c88f10*
@@ -16837,6 +17125,7 @@
 *69bc5a68959f7b47ac43810dbe782723eca56101d4bb60533a78530ac1ba23b1*
 *69c08bae93e16aaf57debbe2b10df6824f5dfef32ce21b5d57d750b0698999ee*
 *69c2084081bcd8ea91474bc4292863af35bdafa0b3e3b585195bdb0e0523a419*
+*69d9dc8b265c039ff9a5677cbe5300fce13f17810d2dcc69a3705962adcb5015*
 *69e041111e26111f406a95d9b91b5004f60ba367a0c90ffe34146e064513e56b*
 *69e92737993cca7f4757a5a3dc027b1f85ee6d836f18f6433332d9d269b9262f*
 *69ee333eaf49be76d5bde1d3abfbd2e9a006a316284394e92aa71db1970d927d*
@@ -16860,6 +17149,7 @@
 *6abb1bc9f730937c6bb77f096087aed70599b3e708fe645dbcf8dfe6240d005d*
 *6abdb7353ae5562e16d28e1da142f5f97bd51964359901aafd694b4638f85739*
 *6abfc342f0a659066c8b42999510ccc3592b499569c2e7af37470a445a2e3560*
+*6ac46beb56b053bac9e406bc16131669c93c8f578a3cdc467821ed07c03e596a*
 *6ac9d19e7e7f05803c114b0a76b881f3536d1cc85198f1129d75a91c5efa6aa8*
 *6add94e2916fd776bc2fd62a01fa6fd282f040e2f05ba42962e823eac821ae81*
 *6b1017d1325f9f981edbaf071defdda45e26af30eb2a6819c039a6a17e8a14c7*
@@ -16881,6 +17171,7 @@
 *6C0942A1-C852-40F4-95F9-953510BD102D*
 *6c0f535128c8536421e213c4c1f55e4eaf690aaca78e34dc106994df1b48cf4b*
 *6c23f9dc5552c6286c852faa91236587470efaf28af92c5b4742feac70ffed6b*
+*6c2ceb31348ef2780f96483fc744807651cc3a72d1dceb808ca24bc36bc08bec*
 *6c3dc714596f1b78c4921bb8b25f073bdc95a8bca363f070b4e5e34c4b2a34ac*
 *6c44d6bfc218285f9f359e67c18bb652b16602dbcd524128a2a8996823a683ee*
 *6c4a877eb0a3bc495d7490c2f218678005a10cd6e978a92c497791b980ca8567*
@@ -16931,6 +17222,7 @@
 *6e8947870ecf553ed99f745eb8c66fd7daf3d60fb16f5ff44285c7c7f11137c0*
 *6e8b43f3e3287e95a7e9debd065e5915d9a557b1c8191d388939fb1169c79041*
 *6e8b78647d756a84e7662d42955224fe17bcea674ff125ba1e63b0737ceaebe1*
+*6E8D2C12-255B-403C-9EF3-8A097D374DB2*
 *6e909861781a8812ee01bc59435fd73fd34da23fa9ad6d699eefbf9f84629876*
 *6eabbccdf8fe27c93e5a87899fd2ef81bf1670ab65103b999559266d936acea3*
 *6EB55FE6-C11C-453B-8B32-22B689B6B3E2*
@@ -16986,6 +17278,7 @@
 *70b9d9d9e9ae286c9bf21267d02108270e8c2bd924d7718a43875deb623b762a*
 *70bac6ab24591aa3df6592daacec697e11fdf865e3f27b8ccb7fa5a65934d96d*
 *70BCFFDB-AE25-4BEA-BF0E-09DF06B7DBC4*
+*70c104eb31780222a3a882a3728cafeeb308d8ff718a5c9ce62778d579b3de86*
 *70c7134c48911888f49f438586cde06c5da2d333921164a540935c25b612fcc6*
 *70cbfdb9e353bae5fd131519b3258be7c9f46e60d97737dfcd386e2c0b61ebf5*
 *70cee544c4fdb709afd0e36f93a68f289f844d0373a53ae1e7eb257f7410af36*
@@ -17004,6 +17297,7 @@
 *711795b31d4482d7f7ce181b00db2ce2a33d3d7675f1d9feab0e984b017d2178*
 *713724C3-2367-49FA-B03F-AB4B336FB405*
 *7148724805f706f8da206b24e03f2f6381bb9bc6959bbf51b6414ea8903caddd*
+*714f969a0a24c346dda4c22eca5536e3d86f7137e64388af7c54e3b11db499ac*
 *716066f05bcc12159c8f0d16846f924b928c75cbae2eb36f9b96b2d8f770cb54*
 *716ba53b9245b9f98cd68f191e20451f7a6d54864486051e8ce1f08132df97e4*
 *7174a1328325da89ed6aabcf522131db9928222154e9607b0d5a2f7b2977ae93*
@@ -17013,6 +17307,7 @@
 *71b7bfe3654793f6184c576c0e50df3ffef5f1e1930db72c46e96e756e9d9680*
 *71bf606f92142a5dcbddd46e0c4877b96cd733ee0784d652b371a5450dff3f45*
 *71e29bff6cee7938472b8d16ea5696b4966cb587a266c43257770efffed93aae*
+*71eb55cc0de1ddeff8b130ab5744a895f30fbc1b58b4a6d12741311415234ad3*
 *71f693cce010e95145ada158a6ec7e7b1b9902f222dc53d9d54bee4d75031951*
 *72147820461101ca9687ef5177cafad482953946d1b93c54c1cfc69a953496ae*
 *7219BFA2-5DA4-4608-A3FC-643B7E87E77A*
@@ -17026,6 +17321,7 @@
 *7267a9321dd7ab890af5892975e257f89b2e53c70216c3708be9b0418e6b470e*
 *726888af98eaa956dd40e486f4fcb93d7e12880f9540d9f28aabda8f90035c1a*
 *726996a84c8ef0f3c50ecbab6842c5679c38f73f2dd7d0c7f7b4dec5411daee3*
+*7270493d60dcc3d13246558e2d6784a4ff5c45d8d6caaa255a3692ea1640c191*
 *7270581d315cffb125f9ac64ebcb6622959c8e9f779b8a07808fd6929b0e746a*
 *7271AFD1-10F6-4589-95B7-3ABF98E7B2CA*
 *727b1692111d8e799e8deb7f1243503994f08d71488805d3f8c35015b142a6b7*
@@ -17039,9 +17335,11 @@
 *72ca2211283a4596dbd2881e3cbd8fb8f07420e0b7404bb298eab30873f487ed*
 *72dcd04c582db154eee02cde9a14312542b86615a88bf47d6529b26f8c87914c*
 *72e79a2845a4d62e94a059a4f90e1ee1eff06ae329773097e5115a45fbb9a9a1*
+*72efc44a791fceb9bc6e602fc079c8bf8139024dec0e580ed15f8c4fe80457bd*
 *7315b2a962905112c0a7172a5efbd5392d27b059a7c4a035eb38e39bcf2e19d1*
 *732211ae-4891-40d3-b2b6-85ebd6f5ffff*
 *73226E13-1701-424E-A4F2-3E4D575A1DD0*
+*73273aa4152acec4126a3cb03e1b5afb4198e24bf3e71d426c3b14fc3dc066db*
 *73314bd200038dc11b2a008f9d90164565d15744724a5ea9a0750823a8d0d73b*
 *733366cd878504e71534180b9d93fa01139ff82e4cd2f61b15f1de71bd292fa7*
 *733fe0591092a284f149d186d66f2435a6196769cd34f65909a23bdf1e907d84*
@@ -17054,6 +17352,7 @@
 *73746146beb936f2c5fc328293b12683e1e893ba74f7c9f931a0e9fe1ab2d254*
 *73793e0d320ba7c4a8a4c5b7fe75283ca880530e18c76f3fc02180603301a34b*
 *738dd06fea4b4b507c0438eac77c8ed3267ed9617b51c565ea05f21529999164*
+*738f3dce5ad63a16b2cf8b236d8d374022f121c0990e92adc214a6d03b0dc345*
 *73948912-CEBD-48ED-85E2-85FCD1D4F560*
 *73a1461ab0925ac9df52dca7f7b3b2c8e46f25e440228c17d2c95c430bf22e68*
 *73ae5eca3016d96f296466bba035f6acd33bcb0a3a794338c9beae7eef10196b*
@@ -17080,9 +17379,12 @@
 *75007cb1974bca92234e5e178b17a429922c54676bc446d032464e358d26510a*
 *7504dee72e18b91d0f759f04385a968879699c228dae9c9a2c338dc7b76f3178*
 *750b490f1788db4c843135e409ae3175cff1be5c61246341eabdfa135ac6c7e3*
+*750de413f15ccf2befe7b1b298a3e4dcd7d226b7eb16ff4803dc4593d1faa320*
 *7531c23a8951439bfea1349ac6ad30a9bc5c1269718aaa7e320986a32cd05d30*
 *75374c3f9c0ddde44a47e4a780f2ee779e2a1350d8cbea052708b20cdd289599*
 *754d66a918d3550c83e670a458f66954eec0521d6e76a20dd0a865992ad1b55e*
+*755c1d8c2e4d58422ec4da20479b10857e1e556331af09975929d13b6b5cbd53*
+*755dfa63130b4daa2098ee3253b0532cf2bd5307e9036fa3cec74f9755b79601*
 *75852d74cacf2d568b1729555ce3cf8814006764fe4580c6aa51c51427558534*
 *758bfefdfa12df3438061e05f372c7ec5504e0f4374e3c5cc6b0222610ef7c12*
 *758DB128-9123-4E1B-A6C3-47323714123A*
@@ -17106,9 +17408,11 @@
 *764bb35ebb1011e7bfff6991af628ee1ef56119f4e77d5a893439e40101e3ed3*
 *7654bca1fed2114ef8e78d51ef5dfccb2ccb73e51ae0dc65f4823b33457a3b40*
 *765C5755-DBE9-4AB5-9427-921D0E46F9F0*
+*766853465051ea9902106a4f90e84bf5b2bd3f4573f591b02f3882b13beafe85*
 *767ba8f7f88dcc0b5488ca7c93a5e29a7a6ed3195b8ac4027e0108db0ff2805d*
 *768789bf3298d6ebcd03995ad1a0af4de83af5d894030c67e70edc229f61bd75*
 *76b70dcbcb1d45935f1b12eef38162b812f88bb4ff89a07a46609d879019103e*
+*76b716279c94bd8e32e1e360ddf0994a74ad51bc6fb094a41f11163aef901116*
 *76c30e2ea86c1c11238c23cc8e6e88ed76cfd666832df7af587036d20a1e98b5*
 *76c7648f79cc5a78f49e9ca24b26a82348e0292b3676ae04bdf22a88cb7eeadc*
 *76c7a4f5e35f32b726c48fdd32e292f63c7b374ba019a28dc44b04140f03e6de*
@@ -17134,6 +17438,7 @@
 *77aacde6d6933ca07fef4f91b408dc58d12dc222dc5212fd291ac49c2b81a635*
 *77b1042ad03c451d66b967673277d153869dafec091c3b43167c309722af44db*
 *77b587e37104e7a1e8858e76cbfa2580d8633ce37c836e28c3ebbdfcf3db0571*
+*77b5efcc93bb859a7c5667dd2e21c7cc2fb7d9bef1237875bb4dbfb1c96cc194*
 *77b681a78da38b33f408ccdc747438550186a348f670d2faaa05ef75f9337973*
 *77b78b6e16972c318fcbba39976858787cc31038f82952d2a94f844f5847a61e*
 *77bbb9dfeb00b721fdd4e6bf429487460843ca308673fb344c8ccbdb2e7ee7b6*
@@ -17153,6 +17458,7 @@
 *784F8029-4D72-4363-9638-5A8D11545494*
 *7864978aad22ff10f75864376b0e57d7ec3ba8bd84e663c2c650f5fc45a9b388*
 *786985d9671f485f045b1039b98d312e5d97c85b38b116f5087e5c95d831e455*
+*7870be97747b352f74adf2c6dc96d647240b984517155f46565ce00307df0248*
 *787695c6fb15d43a120150628c8d0717983a797682b76106984d717379ccaed0*
 *78792f8846332fa4d48b2710fd1d5d0bc6dd1fdbd62fdfed2c9aefa91b486547*
 *7896c394ae338f34d46c51c5403ee41200a3fb1816763a4763c1228a72febe07*
@@ -17186,6 +17492,8 @@
 *79acacd2433990d8fe71ee9583123240b34ae26f4913d62b796238f4a302e104*
 *79ae34d44a22c9c5e7f1eb1d60fc19e8ab43120cdf0852d8e17ea62ee39669ac*
 *79c98d35d02ac92c72aadf48a1ca55e2b7afe5a41ad70e5cf0467c50a84dce22*
+*79ef2d4f2ad91311f14fc200acb71e78a47eb9a4f23e776649fb1b0b06c69dd2*
+*79efd1cb38bfa9ea0c22059d17bc11498bf0f181d5dba1726fa526a500865ec8*
 *79f190a51af8a463f13ddd5a76947cf7ba2adfb8e231b37c5e0968602217a62b*
 *79f4a5f47346781f2b5d7ffbf570db04e0410c435b5bf993ce4e3e3bfbc6e850*
 *79F54747-048D-4FD6-AEF4-7B098F923FD8*
@@ -17232,6 +17540,7 @@
 *7b5930fe71b9746fe6fd52455d84ddbc740d1730be6028473ed501058f0f393d*
 *7b6c9cf91ad9d00385d47139ffc69c0c9d72270886dbdb4f71f599efaec2cb64*
 *7b70c0af1d1d20eb090e2fad0afceef71e12b1083956dd7d58b181425478b764*
+*7b97e3bd5491fc4a6c4a29b77dd36682e1bc7969a1ed8cb9abd4c1d4819eb00e*
 *7ba12c9d99dc22ef178a75886a1c843302e65906d7c15e4aed54066fbae41667*
 *7bb651eec86e0126af3bd515235901a64b5490115defa10972e703c05bc65345*
 *7bc64714fb90bddef226c04fb69f30d689384e3f0dfb89934c73ad1486e76e3a*
@@ -17285,6 +17594,7 @@
 *7de9505c6a9be2ff8b308140d28e9318a6045529f70a48bd7ce4115d263988cb*
 *7df5411490635c5c29704e2fec13133a27a4acaa35255cd22da16dda1b9f5f24*
 *7dfb0ece83deed38190bb57a9aab44a101203fa7e0b3e633e7c7231173a43fd1*
+*7dfb613a59e09dd5f01a83c3980fc661ccfc2875c2091165c54e5989954907cc*
 *7e3763413eb0fd5cd4a0e4d9c90e37cc7325ba05ffec2487fd32a3a7ec0e8137*
 *7E3E2ECE-D1EB-43C6-8C83-B52B7571954B*
 *7e479c191b5a4dc29c0da009c7165ed6cba9171338a6360ce9e8e83167dcba99*
@@ -17293,6 +17603,7 @@
 *7e6b9406c2a12c93a7c56e4e2c79dd4eb1e562c772aef13ebd006abb727a2854*
 *7e6e4d4f8d52c0b8ed9b71fa0d0fad11872d1ee4204fc3f4835eb70932047883*
 *7e735d5682bcc025c49cd916f004ae6649d736bae2e486098cd34c29e50c21cf*
+*7e7c5b1923a84ddf3fcf224536dd9c917bd12ce73d5e512ee293fb6f44dc1bb4*
 *7E9729AA-4CF2-4D0A-8183-7FB7CE7A5B1A*
 *7ea80cfb998032be5b67dc614fc40087e1e36383e59a46616c9d03405c08af3c*
 *7ea81ae66bbcb8065d3b7d00c7f67738a4f9fc5c38a28a6cd602552369ea3343*
@@ -17302,6 +17613,7 @@
 *7ec426ac53bac81654965fa1b8ff8af3451b7524f648d4b11ea7d3437a5ba907*
 *7EE536AE-6C1D-4881-88F7-37C8F2A0CA50*
 *7etsuo/ShellServe*
+*7f005c1ea9c2021b5db5807fdf9e8e9f502b28f089ff17dc85b7d480a3e3d143*
 *7f0125964d3060da6c75a5229f87c9be434abf3566c2fcd3c461868aa33199be*
 *7f04947064e9386df22e3d4da45d2687c13b1490de3669c5d3f1087698392cd9*
 *7f0b1f1e301cdf0058203bbaee22dae51f023e73409ac60278da05cfa0fa7a23*
@@ -17357,6 +17669,7 @@
 *80ce06d9341317b4c4b4b1e89b2f046e0426e1e952eaa9152231cc26a08de58f*
 *80e3f33e222040c459c76c14ab5aebc3d2069d29ff7baa32358a4813608eaaa2*
 *80e5d08cc3b73bf1c8e1b9ad7280936bb8d83f0a41f6fdd277e19511e3340cf6*
+*80f32d3706de3583f3228e9dd2d53375868308bfba3add3ae2637adba6fa392b*
 *80fe638eebe79635247d036438363f307f96dc388ca50ac5d4456b121c40b702*
 *810950f1d775ffa916c75a85c79bb2a46f7c7250986be7748bfae90b04b33551*
 *811d06dc2f9560e4d3697c2a5e2aa39f516a582c70ac88e33468810905ced6fa*
@@ -17385,6 +17698,7 @@
 *823c3d2bbca46e7aedadfef6893babcbf14b0182e598a9ba958b84892daaeeb1*
 *826c1daf512bcd2152b6328fc55b1ed403ed41fd1a6fc1afa6e35f34e4b9f8bc*
 *826edaeac303c78994a597c1e2ea0ce81c4ab628138b78677517661c32653523*
+*82855507e35b8f9645bd13b04b74a9cbb02afe3815d37ee7f4837aa7e97eeb10*
 *828ee46c07c36e54f11e38f01898e3bd215739c28bbcf05606abe00ba0c6c51f*
 *829fc9a7c5aa66169fef3d816c6d1b6811a2d2f6ba89dbb5abc4a46e8dca82d7*
 *82ac960f25131540ae230b2bac0f003ffc8edc8a05382d8831ff8e8ebf30996d*
@@ -17402,13 +17716,17 @@
 *831096dedc1741e97c5a65d992cf8825a02bdcd43c76727d2a9d26638cfeedd3*
 *831296851f3b9f90c613b245ea3957e926f44f8373121a29b3f63df905b614c4*
 *833d68452ea956b5d23bcb243cd327bd05dfd79fb5a4a34064783749eafa1ddf*
+*8347E81B-89FC-42A9-B22C-F59A6A572DEC*
+*83536b1df51e5954c757179b70419fe5567df58f3ed029998e6ca82f7c0a15a7*
 *8355cecbe4792077c4977def67d9d10be79d0c9442aec7dc93cbdf9523387844*
 *835747f27a37aa3fab9a116d7480701b813c16eba6b903eb82b96fa230aa992e*
 *8365dc72d291194a2b3bd59e36473db7404a219fe999c50dad3d793c3a3178e4*
 *83a82600aa1102569a14bb436c08b4abde68c4b47bd05934a4fed0ca8d187abd*
 *83b1ddfa24d6f81fcae9fe687185dab70e97957b471a32e69d88d9b0acfb9d7a*
+*83b3b581686f3920fed7238e4d5ccaaf47226447a8894189fc3cd4e5a99a5d96*
 *83c2966fe942b2b0a1e31ea84f6336c024cb57ff5c397b0d1cddf050bb4e5b21*
 *83dd7c7738c5409a2f50d06f38eb82be09a232794771c87d81080220e6ab5195*
+*83DF0D0B-8FC6-4BCA-9982-4D26523515A2*
 *83fec07c6e99a2087901e94461dc9cf9650c9165040c27f6cd2b98a14af320a8*
 *84002e45f5979c6ca1478be38d0215007f8208edb2b4a45e2571f6c003828dbc*
 *84008e4aef450b5bab0d589b59174fa9633820448d167bae94b00fe5f62d788c*
@@ -17420,11 +17738,13 @@
 *8455f37f4777a237e87e3326cc9dd7af51b3bc2cfe968ff488e85effb2ca30ac*
 *846318dda27ff847acc25676c4d7a133ee8ea2cb80d4f5d273ef0945f211dd57*
 *847D29FF-8BBC-4068-8BE1-D84B1089B3C0*
+*8484a8848d429d954636f8c6c170bdd73d96288325b902eb43c3403f0650b5e6*
 *8489A9CE-AB1A-4D8D-8824-D9E18B9945FE*
 *8493D0F0-CA01-4C5A-A6E3-C0F427966ABD*
 *84a0a90cde73607684db0142f2d9cd8e636f089514eba57835ec10806d8f5f4b*
 *84b50a32ee55280e0f5c68a772b25b3efa489125f75057b03ec31156c19b4041*
 *84b735e9c0af06be82353d3cfc511ffe8edcfc7e2952aceaec7221b282488d69*
+*84ba0c573d8037b6ffefaecf7aee506624382ade184e884e3c03dae8c1f33317*
 *84c868b63bcfba344a52d0f53c63beaaf5dfc08f0ead2cee80656b48fa1d5e47*
 *84cf9980dd242f2d2734d0bafada4a555d661615d41fda9184d6c029098e01a0*
 *84d265868a788a2888bcfa2c6d34021670787c23a4bdd60fca1334248cd1f3c7*
@@ -17468,6 +17788,7 @@
 *863f8f71cce6acffa596561047c4592087b08a66438bd5500a4053169f31a9ce*
 *86445d7ef450ddcb190f14c6f7fc8a1a33945c45*
 *8648dfc2aff4508e8469d1ed4a7a775b558527bfb0050ba4ed75db259b07943d*
+*86493698c14d838bdef05d96811391a6dc29b9066ee5183f3d1924eff21bda56*
 *864a9a2d56ee0ff1d01e161fd8a76bb64c354ab435d84701d241800ba460012b*
 *865c9da731e9dedc483277985a51af9ef08f736e512447233ac4bec008539443*
 *866e5289337ab033f89bc57c5274c7ca*
@@ -17484,6 +17805,7 @@
 *86fc2c94f8fa3938e3261d0b9eb4836be289f8ae*
 *870089165f0603447e099ef6a27cbf0926fda8cbbe1df6fa3c7021897f1eabcc*
 *8704db81460c783dfafccc4414e9346aa6eeadcfd09984c26e5f1e4e895238d3*
+*870816a0e737187219a0d5034b0dc9d492763b27bff3443fb291bf226a83cc33*
 *8736fa868de0d4514330dab361a3d4ccebd81ccfe7df2003d419aef14849b2fe*
 *873b15cab88f6d288e02bd71e5cefb1edf0b96dc80a8a0d7d404f4b327c68097*
 *873fdbf2756b2826ee7946770aacd8945e3d3470cb5ced3a23c36b0a988d1b1e*
@@ -17494,6 +17816,7 @@
 *87623bf79b1d7bbd0e66a6e6c5e534afdef66debdd5ff363648cb5482e7a6ed7*
 *8768fb4f5c0829e3ed696af614ff761ca72b5538bef2073464f57eadc76f5ed4*
 *876b33b3871778abc2ac0523ef7ef9a23302eebbac92b193ac564946207f9477*
+*877d4290b0f991fcf2fb3e5f64916a2dfb844280010df806d28a94ad57f0de07*
 *87904247-C363-4F12-A13A-3DA484913F9E*
 *87907a6d7e8d6b4cdf4264950869799096b5ebc9c3de4c9ed0204d91650ed54e*
 *879A49C7-0493-4235-85F6-EBF962613A76*
@@ -17505,6 +17828,7 @@
 *87c0e2e1aa8e9c492a4ae12219f7a14cae0724c57a127445f92513e4acc962b3*
 *87c4041617fc7010b7e20630ae48cc8c17dc84cd6fb5c330f0bc92af52baa2fa*
 *87c96e5d650e67d985bdbb2bf4be55c94f8b967b180d45c1c073cbcd57cf1ddb*
+*87ea7ed313b723b21d126d3a9ffa5daa2a9713853f1fba9274044b78fac9f40f*
 *8805d70a692b0c5e20271214af085ffc3d8ea2176ce5dbe06fd6e4de59d8206f*
 *88113ededbda181be6c6f9bd4ba8145666b48bf9e9b8dc170e66e884b10fdc91*
 *881b34736ca2118b27dbf1c9340930094cb735de8cb22dee9e1619537201b654*
@@ -17517,6 +17841,8 @@
 *886c0eac43136acee5b85b22c72965d63faf9b9f70ed28deca9c3b028b22dee8*
 *886de66b761338d87027254c40da3ea0fd9072fc301c1b8fdd2e4d652e231dea*
 *8879933fd0c682fa48bfa79023b5730f6ee8e984e8cde1b275a64b098473e424*
+*887e0ff0707e46e7f309f6e12eaddd4161b6b3aa88a705857ac55590cdc4c64a*
+*8898af517b30c917a82e087530e829ec5d46a5dd43759fb66202e3945a380aa5*
 *8898f5cd09c750f7c2c1718688eef375d659c00e9a2c98b96b3f450ac294b82f*
 *889a7d961d4e847d37d3019ccd1625a335d2e2d18c6fb1ec1d41aa4df679f553*
 *88a56a39fa828dee79620714e53285c2c5bfbec814e64ab150d8795b0d78940c*
@@ -17525,8 +17851,10 @@
 *88c940e5e4e3728a9433887cfd7eb308d8d4e5e24f5ab49b3c13dcc595da89d0*
 *88ccca47d7e7529c4c1c3abe61dce761d10fcea8a06b7234ed1b5f63fbf3c710*
 *88e3cee91cfda389858ecd70bf3f9b8e45ce7d41761cb7b13075e8d003724007*
+*88f333f2f21ca05e44a91c376022997c2bbec79b9d9982d59ee6d38183df86f3*
 *8909f956ab41ad565935485870d05b47db8482c703aa7ea142ef1eff310e8b89*
 *890f13ab9ee7ea722baf0ceb3ee561c0*
+*8915669ca2e25c835fbc5c022b3f1d62fab4569190e216a4b37a8d1e4f94208c*
 *8923E1ED-2594-4668-A4FA-DC2CFF7EA1CA*
 *892dfce05bfcab969306a1034ef0fc0decc52d82b43cda8b6c395549c8ef1133*
 *894368f2b42eac9feee89560aa890c1215883b716232c66f20bf4145d6bbf671*
@@ -17554,6 +17882,7 @@
 *8a1ad5d4fc59693ea546bc7d9dfb9881cf33e48070907a5d7ca1b3643fb42590*
 *8a1d6e1d9a8494a491c1f2fef92f0243f4d39406fa159b4ecb45428148fcbeb4*
 *8a222ae6ff9a59164b44aac7d3005e4d75bd97997c48a51e05b5d50dbe6983af*
+*8a24643b1ae79babbba0995d870bf0992cfc9acfef6459727c603ef5b61c261f*
 *8a274c53950fe680f5b5eb76594aa0b30facdf93187277d03653334a5224f6a0*
 *8a2ee3773f2b5a22f6f01569e9d17cd3e1eba7c2e215e043c014b4bc609e55ef*
 *8a30ec054667ecd1bd27a853f9cfc161e6e5d7012a5ab62adf199fa87badc502*
@@ -17615,6 +17944,7 @@
 *8c7511cc6dae84071080a37c2842782cc0635f8d32301afebdc818a392a58bc3*
 *8c7bda923eb22fbe0961f2bb9585ceaac8e0c447116ec87979ae44b6a2699ac1*
 *8c7d64cec00aafa23884f1bb28337ef6ce49f2f90605800217f635526e38541d*
+*8c90af89b3f0c90d39396210b6dc8dc19ff9e5ce183463a01affa6d30c5d7414*
 *8c936f3b5bcd9dbb20a4d0602cdf26fbf3efe681134f20e510acda6561526623*
 *8cb1ea0098cf975a1ad6d61b2a387f8acf09ef8576ea836f838aa6ac9c0fb0fb*
 *8cb79a0a047793ff81319d7e4999732f8fcc49fbb2ba76f9ac38abf988c3eed8*
@@ -17639,6 +17969,7 @@
 *8d792ce2918767066d9de241a7479094ff84a7234957840fda5381298be9af21*
 *8d800107c780c3f726b3768f5db0daa1a6d3d7ae0a505a8ea93fe554a4749294*
 *8d87231f69d0fdeb63b10141cba62e31cc0fb16a105fda66fbd77f06e9d98feb*
+*8D907846-455E-39A7-BD31-BC9F81468B47*
 *8d94ccdfe844f9763d5a09b3cdaa68b44916b16f6ebcf92481837860ad010c82*
 *8d9a8c8e646b26d5242d8fa7018bc58147435076d8b9c19fb3df35be786fa2da*
 *8dacc97038a845b73c4f156f3fb4d00ef5b4cfa7a8e6b10e0bd8e5c918d62fd1*
@@ -17715,9 +18046,11 @@
 *90bb2613b2c711e20dce52480e998feda6e8488017e6f792b486616529cad8b2*
 *90bf7beb921839957e7977851f01e757346d2b4f672e6a08b04e57878cd6efbf*
 *90c08dc1a2ec6ad65002990fe43220d8974c92a02c2639562447c98bdbc04a22*
+*90DEB964-F2FB-4DB8-9BCA-7D5D10D3A0EB*
 *90dfb88b36bbfab99ffae972aaf0d1959fd7729b11e7b5933486cd2848270fd6*
 *90e0acfe005774296f6b39b88bda3819bb29f0debd6340bc048bfcca38898c8a*
 *90e2d1bb612d9658067799266605dff148b292dafd4f6ddff3e184a9b7998376*
+*90e767d5fd29fc406847b5ac6151a713643596625209245d3440fd8908ff7427*
 *90F6244A-5EEE-4A7A-8C75-FA6A52DF34D3*
 *90f66748d7cafe4e995a0ebcb7e7e10b84454618f02cc9dfdcb0bdfa01000642*
 *90fcf63af14fcaee770bbf4f777845b46fc81a6c38ed966bb80c7b5078d46f17*
@@ -17765,12 +18098,15 @@
 *92c70b09d49bef20ae730c579e125f4f7c66d85ef2249c77694f0066a3156b26*
 *92cc3feb57149c0b4dba7ec198dbda26c4831cde0a7c74a7d9f51e0002f65ead*
 *92d2460414d1b79ae54466442eae7628bbb343c70948e8c2f9afa4d158a0f3ef*
+*92d262037522935fde4039ff17bdc6648c294519417e605477d78a9f0e84f20a*
 *92e23b3baec268e8b8eea8833e0d1aa5c2cf337ca20be4ceb2880d8aaaf89d4a*
 *92ecee084ef8dd59561826895fd8aef0e5db918ad05940aabba3999be223ba4f*
 *92f28921ca0db8a0c7c1a4e18a9e9dea53fdbd902b3d3ad67444f59a21a96d5c*
 *92f384f789dae517d1da7493322db430f5a7d4a6b7d7b74ca3b075bfac881b15*
+*9306e6c0e310b8146db022c3387eb9bb6076a13fb73e45ae98927b3dfb43872b*
 *930fd8e9878e8e96b022a9ab62f3471938c8c93898914df46a02d49f246abb22*
 *932e9575f1cda389162af613cfad2ec48f9fedd7039e09aec2b349ca2a9f663e*
+*93317a49d4e0065e7bfa8c751e5f5d86087ef4c09c4f5d883dd9d9a69871f95d*
 *933a32bee8a72a28653b56cb9b013f67da6510d4ad10c21333a6e930d385fb82*
 *933c42cc2516eb49b1af6e7a601b79e3e993c192ed3c50b7a96d22398197dc96*
 *934cdd2196c8892b2587ae94b5ae02e3c51ebf73c4c91b43b081d8add9ea381a*
@@ -17803,6 +18139,7 @@
 *94a12554419e378df4acc76c0725d141738ecf1f991c74445d1e23c655278747*
 *94ac6a42a165d913b79a0dcfb2d55a686e81b776697580e113aecd8815607076*
 *94AEDCE4-D4A2-45DB-B98E-860EE6BE8385*
+*94b33b49ee9fd258173cdc1a31c1f330403d6dc78540bf7258e8c9b6763334f8*
 *94beb306747153d234f7da1d2c996cab68e19620e87d9f348979886910eb09cb*
 *94c1e9fde90bb271016a5a6bc05f6cfc8caa1acc18336aa864de5431ac52c7a4*
 *94dc145b517036213443d4057d400296d40ffdcd50ba63f5304796060790c8a3*
@@ -17839,6 +18176,7 @@
 *9626bcb04c920c611707740eebc798ca86b03ab59480180a747fd739a1e08269*
 *9680bea8301be835e4f7e35220c4dfbb48ecf51b3fb9d0405c7fa8e8abfab28e*
 *9684712e7ea18e0e82bbdf8b990173349ac97423ab59b0daa265a222cfbef816*
+*969402c4db5ce5946e2fb9242385a5e21328780ae6848f133172b00506706263*
 *969a0ad64c9d99f21d8e8a8201fa19b0be3a757d220e89492a4d2f532eeae126*
 *96a355ad3176a2753b403b71f5e39c36dfb0489b621822f7da459519ed6bc4be*
 *96aaf948fb2eef6f40f56164125e6dcd819e09c444f569c1a2a7df1ec0b009d7*
@@ -17856,6 +18194,8 @@
 *971f7d595c07fa302de6843e85ae22c771bc23a790f4092b5e6cd62fac985ab0*
 *9748cdfecb95fd7bb1706a566e79d3fccb1418bbb4307f7a7a1de1809db83afe*
 *97499fbdae8e2c952f21da5834caf06b11dcc28d74b034b509bd174f3d1f1739*
+*97646f306c4b95f9733ee383923b7b8c954cd74715ff548ea42c8ae18fb2f67d*
+*97699449246070bc8195e1cf1f14b94dc2ee429cb03128bb7e7e254981eb71a0*
 *976be04b1a0791888458a62b8218aa07452684394512e4c49add14aadc036eac*
 *9774490a0a4f822960a8da99a214cec6e2320622c2c20cd6b713e0e52806031c*
 *9786E418-6C4A-471D-97C0-8B5F2ED524C8*
@@ -17877,6 +18217,7 @@
 *985976339729a11396ed9c207afa49b16961aef42db3ee69066d2d2a5c69bfde*
 *98599d98012adc240e17c6b157e52bdf7b1831e45164d4b27862189c462392d4*
 *985ac7064c18852f34f9243d5d51703fca8e5540efe1d01a259640b5798c2724*
+*987001995ecb92cb1fa659097e4be63c46568c00e4f91ed0162d0ed973831c50*
 *987d8536a5a920ff49ab1d0948bc5d7c45a7610b2737e407971c361d7072485a*
 *987ebc109f9bb594b780a59dbe5f5b5c3694f5ac21bb0bd044b4e06ccb64bdab*
 *987f353f6ea282e259738eeb90c20b70fe20e1a49aca498b02acc47200c082bd*
@@ -17967,6 +18308,7 @@
 *9b8901200d2f4fc535e25641e40d767a095a597e3d560f3b459d5546d6e3e551*
 *9b9850751be2515c8231e5189015bbe6:49ef7638d69a01f26d96ed673bf50c45*
 *9baeebed17f1945b5680bdf630cbe15de32826aa2f402d23df0a991ae73a2235*
+*9bb0c39f776edc0869cb86fd3de17fccfde02dffe82290dde30997ca10e864fb*
 *9bc52d5f3a9d6d2a442de0ee8f417692b2e27993707dd5f07d17b92f9ae84684*
 *9bc9e19e782030fdd219ef29607658de9b197adc9427cbc4517cb9884b7e7c07*
 *9bd15de627aa46533968e0f7fae19e8b855d0a40*
@@ -18026,9 +18368,11 @@
 *9E357027-8AA6-4376-8146-F5AF610E14BB*
 *9e3a20cef67c034ac59b4793a8aa34cbdc7e130fe0ae791fe74059ba4ba0983d*
 *9e3c014399ad61b61a1fa5fa58de95a4ddfded6ff863c413cea089f2d92f9d70*
+*9e3c27168bdaa45fe127ba530d5f5bfbec067088fe92d02b78342a0e66dba5c0*
 *9E5A6F99-0A26-4959-847D-A4221CF4441B*
 *9e66f8414c42c546b1d73672929a13285681ab0862f8ed9aa75d048dd5aa00e7*
 *9e6d326e015aaf3634835f5f7da3579ff477c5b93ea43d349b819925e83a7537*
+*9e85c971331b8ad686c8d79ea81c4883d3f36a7de2071551fe5369fcf34ea3d0*
 *9ea5eacc218210713b56a5b131e254114322f3cadb41fb074cfe02d07f5e8e03*
 *9ea9995496c329267d7bfba8f2061b6df43d5db255bc103b14730042e782e5cf*
 *9eafa0b3e8005c6b03cb5d2522140021c573b5efd042fcc057a4ff75794c28ea*
@@ -18132,6 +18476,7 @@
 *a1dd724e09ca85a8265c4486f699ab32882e7204a09f895397ab0fb02e37559e*
 *A1ECD50DA8AAE5734A5F5C4A6A951B5F3C99CC4FB939AC60EF5EE19896CA23A0*
 *A1F54816-3FBA-4A71-9D26-D31C6BE9CF01*
+*a1f8ecfc8b1e67d081057d151ae638191b5b39f929c1f0447af69e23476bca1c*
 *a1-server-prod-even.action1.com*
 *a201bc3c2d47775b39cd90b32eb390e7*
 *a20a99c4f1693911d793608704b7b50c69fea98c091ff2cfd936227374d3d83d*
@@ -18147,6 +18492,7 @@
 *a276ed1739c3380b2e918da23ddac04cc117e17e08dac219bb4f82783f9f9850*
 *a280f960cb4fc01ec2dbb4fe56f17122523878a9ece3713868244fbd95e7d7e6*
 *a287b6d1ff18dab39efbf0b4c6937507f388923cbb47e66d72938aa87912bc20*
+*a28d627deaf54fdabd986ea28160bff5c469f53dc5be72ddd58b3bff89ab1e89*
 *a2a4ca5c8cbd085efefb71b5ff652d12425d6b16cdd3f22426c0a6f32d109942*
 *a2a82a2374bd7e6ade1645b0460c385b124bc7cce906c736f0b067ab21f0edaf*
 *a2b402f23bed2afebdda5ca21f7bc705a021ad86a35676cd3b55c7aa56406e0f*
@@ -18279,6 +18625,7 @@
 *a7c2394f127db053d7da7e57353e017b319406f6474ff0318a8545c85cf55d80*
 *a7c3d70099b1df9cb3165a8b5885fa727a778f3b3526811c0b5f16c30dccc492*
 *a7dff33a69fd314049f9b1ad78340c875ba5681eb4a828d1cebc79e6f09bf35c*
+*a7e9bf156061f6312c826da68a6a0fa9ef025cde57808bec004065ff2fc108db*
 *a7fbaa609d657e8148a05586684aa41941b28bb5130b8db24b091cf0d9e2ae79*
 *a819a2e3e513712ec9dcba8129b7471aafc70ca6631561a8f6a4881a51ffa2c4*
 *a8392f36da158c474403c3fee97076c704714db05735b0c23bec268d591e27b2*
@@ -18304,6 +18651,8 @@
 *a8effdadf86dd52ed13ab8051982927ea464500c36b4d0c1fff5158da2b4abed*
 *a8f27cc54021b10a9a24bde9dd4b569c2394aa7ad1ca70410959e8abf059eceb*
 *A8FE1F5C-6B2A-4417-907F-4F6EDE9C15A3*
+*a909221a35b3fda0f6149de8e58186909cd0efae15bbba614b9a15d4b7d15fd3*
+*A91421CB-7909-4383-BA43-C2992BBBAC22*
 *a91962e86f2b0b0a3a75a097ad056c5595dce4a66a204d15507d03da6eec699c*
 *a91b2af5590034ad95974a084b37d629d53800e8a4317a54080588cd8504c98a*
 *a920c6b7605a82318a7f60f4a2bcab191359f6187983bbb82e56a6fe2cd7418d*
@@ -18321,6 +18670,7 @@
 *a9ada318adc60090587f06cac5d110f274f1fc75e7705c09fc27b8921aa32651*
 *a9b13111606ca8ed948030515217c0e1af7cf2af2af8eb034999ff9e3f071b24*
 *a9b64e47ef85ace30ca6ea6e9d79fdc665a7eb7b0a4763a659f00aa307cf7ad5*
+*a9bbb6cb0597d7f59a85f981550e52f148f023a0576434ba9396bc8f5eb3f989*
 *a9c55684d85a79c12aea4a9c4c43be98addd32f88c21b240979f47b8c04cca02*
 *A9EAA820-EC72-4052-80D0-A2CCBFCC83E6*
 *a9f7d67e29c2b7f2059636c73945b9946185a235dfb12e346e07eb7b0650f714*
@@ -18420,6 +18770,7 @@
 *Accounts with extra permissions.txt*
 *acd19845a6484eee65db6f925b1d0244300831d4d5a37d147cc61e7e8c56775b*
 *acd65a0c933308d9a867fb3701e39787a386708fbaabd907d41b3decdb481ca2*
+*acd7392528b68181416263c966f899f4cd0b6430951ca09900739601c588eb5d*
 *acd9f040fc6fb2a595f20bfb4faa66d9244615a0feaf9d2e4b03a994ca126a32*
 *acda6b715fc3fdeed1f43c73e5467f5824093ac0*
 *ACE_Get-KerberosTicketCache.ps1*
@@ -18446,6 +18797,7 @@
 *acontrol.atera.com*
 *acronis_trueimage_xpc_privesc*
 *AcroRd32.exe FUZZ*
+*aCSHELL/../../../../../../../*
 *Action: Locating SCCM Management Servers*
 *Action: Locating SCCM Servers in Registry*
 *action=SchTaskCOMHijack *
@@ -18488,10 +18840,13 @@
 *ad3d435b6a93f157946e1e33b7f9e0beff6deffcba00a182a17386ef42f1d7e7*
 *AD495F95-007A-4DC1-9481-0689CA0547D9*
 *ad50d7d93bf5ae78bc0115093854d68da5256942bdf2169f8832eb72ff3d8b74*
+*ad5c08c647f8042f9d4a29581f2c740bb0634404f140cb585ad8175376adaa64*
 *ad5c1453508585d413c083df1571738ae1158b7a83aeab24c456548fb0e4cdbd*
 *ad61f4285ae98dd4b8bad622888e97bb290e2ca667cd9ad52ad2877cc2ec6807*
 *ad62f18dcc34d56d48931cf7559bcb64e46e71feaf7e62ba8608ed38fc115937*
+*ad89fdf30b1ffef5cdf285079f018969976d37a143e19bce810c6b234a8f58c0*
 *ad8aa2a15aa507d1d9231c4c5ebaa93501fe32c56d287e83c8f7197d4e15b546*
+*ad8f8790854a70fc8a3f5d53931d0e56a2ff0f037cf781fccfabcb4334d817be*
 *ad97557e81bf680c9c796b2673a34562a0f80cb27b88bf53fe20a9a281723e07*
 *ad977caa79c00c082206f46f521b8f99a44a051425dbb69ec9da1a152aac6279*
 *ADACLScan.ps1*
@@ -18723,6 +19078,7 @@
 *AE81B416-FBC4-4F88-9EFC-D07D8789355F*
 *ae832b7ffb1e0d22120b433665d797d491e626506fe3b839afe3d5fec8fa6722*
 *ae84192b77cec541a088d563dc5f20723123e096*
+*ae866775c318b21e13caa37dbfd2b96c03de3ba73522f437c14cc5844270c415*
 *ae8edae460f24e270ff7a2ce2d3b7b126b943f086c5d009ece13fdebd64d5102*
 *aea165d63fd5898c5c31644fa051f804d35abf92ed3ee340429f22a112ab6ec0*
 *aea26b638e19ae54c752ccc0d9985bc6ccf0214a56ca5b2b26714feef2d95ac9*
@@ -18838,6 +19194,7 @@
 *akamai/DDSpoof*
 *akeehkgglkmpapdnanoochpfmeghfdln*
 *akkbkhnikoeojlhiiomohpdnkhbkhieh*
+*akkuman/rotateproxy*
 *akuafif/hXOR-Packer*
 *AlanFramework.git*
 *Albertino RAT v2.2/*
@@ -19169,6 +19526,7 @@
 *Attacking domain controller *
 *AttackSurfaceMapper-master*
 *AttackTeamFamily*-bof-toolset*
+*attempt to randomize script without setting all randomizations methods*
 *Attempted to spawn a socks proxy server at 0.0.0.0:*
 *Attempting connection from 0.0.0.0:*
 *Attempting Risky Operation: Opening Handle Directly to Lsass Process*
@@ -19330,6 +19688,7 @@
 *b1ce529f2a0ff157590b2607388d425ac9a0d076de7f58bb6ee7c14bdb657bd7*
 *b1d9a3c0bd0e7b091ac0dd51fc64ea57f119146fb767a83547b8e95ef2ae5f67*
 *b1dc5923bfb2c9d0d1e271e20cce3615f8d23d276e376d9c566dc5400f14282d*
+*b1f614b7eb188e8b7d47f08e333e05704aae24220409ab4e7e7b9fc03d339fdc*
 *b1f74fb000e49de96f3033358eda1093459f2ea51d2dfbeddb10702af6037a1e*
 *b1fd8a78d51a7dfbb73cf0f92912dc4363a2b5bd6746a792b63ac3ae1afb9ccd*
 *b206d36ab4eb52419e27ca315cc9151e86eb31513ab6aa28fe8879141ef746bb*
@@ -19343,6 +19702,7 @@
 *b25e38016ee6cae1175968f4686699588b208d14f27320052e097c5a252d2d1a*
 *b26458a0b60f4af597433fb7eff7b949ca96e59330f4e4bb85005e8bbcfa4f59*
 *b264796db3513dbee419561215cb7c5863d70088dd5e8286829801bc72c27d0b*
+*b26b8713dc24bec3c5b0be456a1bbc058a8450c280d614695a691fa13ac6dbfd*
 *b2768608b33e964fc7067657f385ba15a69762b0a875db47981953d70dd36af7*
 *b28abc2701ee133be62eaec40bfb4afc7c3bd862e94aac529b6ea687c0442bbd*
 *B2924789-9912-4B6F-8F7B-53240AC3BA0E*
@@ -19399,6 +19759,7 @@
 *b4bed3b73a07c019ea853ee051e35932c97a1547809697dfa495a00710dec8eb*
 *b4da4ba10fa5cd627400a6b35570527fbecdd499d7aab9beb1ec7a7016664d4f*
 *b4e643fed3f93eaeb38e615b97041ca7317df9c6e177da9e77e718bb559004bd*
+*b4ed9c347e748f0fac2c3e75852373c08fdde68ec741c45109e8afd7c3381f0d*
 *b4f3bc92ccedfbb0714c662c8d6a7842e71f1ebb2d8392ec5064b314dd5dede5*
 *b4fb64cc1619a9c41a8493ddc6496d3825cbacfa02eb445e4c6371a46a5b84f0*
 *b4ldr/nse-scripts*
@@ -19458,6 +19819,7 @@
 *b6d7a37a1e42825a1e744a92fb5e39ada8ef3f71c494370b35b83c77ce06c344*
 *b6d88a58d1da289997258be70427b46ab2c124179a09bab72d3cf25c44c7ad92*
 *b6e5d9d7d95caf2550fecebcfe6f7c54f1779c6a65547ef342f76446dcbd6c1d*
+*b6e95607f7434e41adcaa98e42af0a47571c7af29ce0418aa582658f6f539c6e*
 *b6ee8b7bc5bf06d29b65b730fa0aee08173fa7c0cd1b9c209f483de1edef0c65*
 *b6f5c4dc870fdc69d0309c5d5a2a5d48a924a5c14a62b8a13228f071749739b5*
 *b6fa6edb0e958a897623e837947ed04a1cb52bdb31f567c55b5f10352b4f489e*
@@ -19467,6 +19829,7 @@
 *b74c431349454dc79731099eebfefca97b6b1d735e6c0269b5a4501e3fee6529*
 *b74d7e3096956fd4bc7c929c2b482969f13a465058276ee97eb76c1d30529aa4*
 *b754705e934ef0766078f0371a1e83007dc7c85ef02ccd72da4571736df1914a*
+*b7554de4073bb94a00faac4f83fc081f418158073d75ac53d06af29fde8efe9d*
 *b7671f125bb2ed21d0476a00cfaa9ed6*
 *b76e232b8d3bb64d981b3a90fc81d1cf4e737fe28dfcfb41e37054a48ed326c2*
 *b78010d1d8ea2064764c4cb4973ead007f7655e745d3856ab750537bc78b6e4d*
@@ -19474,6 +19837,7 @@
 *b7890a15dadef8cdedd6580aed94ca26df6ec0eddb009176dba1eef8941ff6e6*
 *b79c2861d85b3c973152d22a7e43244c0fcb66394ceb91ab11606adbdff69e2b*
 *b7a7814aedd230b66e11f3626aa505a2a701d6afc19bc8be2143955bfa3c1d6e*
+*b7a9d9eff63ab4a330888d498d954e78cdc19b44435f26f6914aa4b2bbe86bbc*
 *b7b5637287f143fe5e54c022e6c7b785141cfdeec2aceac263ee38e5ac17d3d7*
 *b7bb45d67e4db4c923cf5e62d0fc8c9ae23abfe214c8daa730d343b0d9205837*
 *b7c4eb1c120f959166ad5477119adb92db8081c61193847287a13fec1e780b24*
@@ -19487,11 +19851,13 @@
 *b7efb92268e1e7897c0844e0a0f6c8648173a3c5c2c51d46fa5677b6c58c1dcd*
 *b7f2414b1d8be99157e5b25ea578938520c45d094534fffb2e515796559b9b29*
 *b7f9eb0a95f3523aee8363c59e26a88bcf30d2160db862d4d167945ad342d777*
+*b7fb827ab82836232bdf3a6be19a1ebd3d5194dbff0b922b0ae39f8562c9822f*
 *B7FF0EE8-6C68-46C6-AADB-58C0E3309FB2*
 *b80bb505227429df0b61a07d2ab57c02a48043fbd90d4680192b1698e9a2f37a*
 *b80ee97a9c30291203d5a224dedc328b45a09ec4999ab562303ef93388e12c0a*
 *b8285e421d702738eab45670ecae439a7228994e7068b04cb51740e47efbfb41*
 *b83141462b74d6d62282551eb34d139eb5c3071516f670af42c1dcc30d6547b2*
+*b834cbb559fcc9f0dcea0b9303b2006f14d239964b87e6f37d44d5520b93ca0d*
 *b83a269ce5fb9ff099695165a5d3565646f6032579c4bc6925c63fe8100aee0f*
 *b83bd9409f469f3b094b81bdbf548e5449357ecd4c604d45f3ccd59c02e28a1e*
 *b83de77d08d842c68a940103588639cef6ab9f9fa12241311d9aed3690502af3*
@@ -19522,10 +19888,12 @@
 *b94ad2d15b45c6a236d1414f787f59fe0a9d3538c0591c6764e67a77b4869948*
 *b950b16b3e207f829f926b62cd1e75e774d57f9e676dcf01191d054fac7dd2f5*
 *b9554f35c8c8dc4a5b428322fea2fa3a00cec87a17c5ed276a6dfe804f3828ed*
+*b95885582cc9fc5ac5491deeb5469e36b5eacafd2699579c3a8eeb6ce1a9e0dd*
 *B9635D08-2BB2-404B-92B7-6A4981CB34F3*
 *b97733c8926c8186363f74a875b92d7749bb06f2edc94280322d6f5b9af22798*
 *b97aed185c60d0b6764cdcd4c6133d09c0f028ed4a53e766d75b42418765e0c4*
 *b99078f0abc00a579cf218f3ed1d1ca89fffd5c328239303bf98432732df00f0*
+*b990e7cba87af7e6a61a0c326047e99c0750313e6c9bec82ab4b6e2ff757d8e3*
 *b9919cdb3ebf7abed7458e357a71924bb0dd43332e90c30a6f146caefcf56baa*
 *b993db8bf609419a850d3233f97bf422de7e5e54576120c36de0ad703e541bf2*
 *b9946bcbb56b9088f6d5ab8660665ea8f80c5f3d08df6e4531362653d07de2c9*
@@ -19674,6 +20042,7 @@
 *BATtoEXEconverter.bat*
 *bawait_upload*
 *bawait_upload_raw*
+*bb01642e30001ee637c9d4fc341484c06eaba67e8ce00b52dc6faf71b2daecfc*
 *bb016f6b3e240b6447a72b15b103d32b8239969ac4493b8522b4f22b21f9440c*
 *bb136a7de55ce17c6a4fd59319a724f80e53a89d0896675cdd78f98cc7bc7858*
 *bb141fb92bcd492552d5d6c09fbf39f7f674eb49*
@@ -19706,6 +20075,7 @@
 *bbtfr/evil-proxy*
 *bbypassuac*
 *bc01c98fcd3e3bcf836254ba2ea39813c9129c342a609fc8c9dfc59b94f0a2f6*
+*bc039376443ab3eebc8b1f876e47c19fc2cd74a9417f7c8cb75d5b0c090f87d7*
 *bc0ff8a55724a6ac40a71ca1b0072e40c34e80c13c26688860fdf3c4e5309f25*
 *bc11b2b14526fef7b745fa22f0359235fab202060716f0c9544e4ef899c7312e*
 *bc19099bd718989cf9f415548edc77044563a512dafeba5a2042626b3238df6d*
@@ -19721,6 +20091,7 @@
 *bc4657ac480d1f46349254c1d217dba4725fe54bbfa5fe7492c6a1bf1c6afebe*
 *bc5d95f4894db18e69826a772226989ca19ea7e63dbb9fa13775836a0b25cdb5*
 *bc680f0aa5ee457d60cb9d660071b3bb393f31c05c0e7fd7b89b39584ba25619*
+*bc6fbafaafa92286c70e56a47a47281e3621dc6a0e606540e9e2ba34db51e21c*
 *bc7229c619a3af7fd330588286b4e48e7804b1c03427ef9e8bb3b7e2eb0318ce*
 *bc7a70c2b56c5e036a0750ab7c93511235161e84f913f538d5e12882b66d965a*
 *bc886aea03ddb2d4201501904a25816ac962cd3fbe6bc7fab3ca05357069666d*
@@ -19753,6 +20124,7 @@
 *bd326bcb0c8473cbae427c5e7cdfdb9b9cdab27d0df73f67c704eeb962f8db96*
 *bd346689-8ee6-40b3-858b-4ed94f08d40a*
 *bd43503a9105de8acb54f9dc566d68f3bb7d9b75fdb2ceb5fe939d52791bfdf5*
+*bd4f617afbe887d10f2e971d98b36c62e0d0bb14a8020c16e308f2a6543ae27c*
 *bd514bc9dda0863e30e834afcf4d5b406c228f10a980ad3f434867d5aa6ef592*
 *BD602C80-47ED-4294-B981-0119D2200DB8*
 *BD628EE4-F3A0-4242-BCE3-95CA21114CD7*
@@ -19788,11 +20160,13 @@
 *be3ae8e7cd4138850830f1d0b40cb409160a4449dda205a325c95de7bd2b76b0*
 *be4d5112b9928f8c5dbb51c2e67163fb82fed8abdda5b75ffafeff43b96fc8c0*
 *be5cfdd35404d90af8b73a2c53fcc2e2ca3aafb2af4f5484b8aea25f8cb60e73*
+*be5f14ffdc5bb327e53934a9ef6c55500e8d4ffd920a77df0b6ae209793567a5*
 *be6d43b84e5b69c33f6e155d0e7be48bb3da4a322d19feac4073ef14b845f9fa*
 *BE801141-0D4D-4950-85C8-8E93C9D3312F*
 *be8fc36ec0082bdb7d20a21ae7098899529bc9b9f6439b1496ca634395598d8a*
 *be9b23c9cf6731a8ae3d288871d277e64ca0caa5020433c4516b58e10f5e641f*
 *be9bee58f25350d6047bcb9de5b38957d7591c7b048ddd0a2e69162252516a54*
+*be9cd67ca6ef0d87c8dacebef75d1f62b38cff5b8ba4ad2f0eb382ab54081317*
 *bea23804b59ef8bc8cbd4e03054e2b89baccf01b2640013e3b1b7db85c5f6b2e*
 *Beacon Payload Generator*
 *beacon.*winsrv.dll*
@@ -19940,7 +20314,9 @@
 *bf352b6fb09f15ce5bb29db4f131baa128eb579b157e7ab140682891bae6393b*
 *bf356e9c87e06eddfe9c5c476742bbc9cf26405631296f03c8f57f91afbb5247*
 *BF45108E-1E43-486B-A71D-5426BBB041DB*
+*bf4680186f616fbb0bf0a3cb01f520d8bca46d6100218ebb26de90b1ee3adaff*
 *bf46b919a1f3f45d5d31393ca62e1fd8269f49f6b9a6289258867908c5a80b03*
+*bf47e463172e963f10b9c7e29995ef10b833b6d5cc0fd5a63bae1bd8d69410a1*
 *bf514687e7c94c53072505b6e7e2e9ce0f318d95d5db4789694ca0851967c1f5*
 *bf775ff84feda3935567eef986049ee3049f4533482594de7258eed927c7a270*
 *bf7b774ef4abcd725e9d3a3ee569f83db21b2248056fcb3642099b005c089b6a*
@@ -20001,6 +20377,7 @@
 *--bin=tunnelto*
 *--bin=tunnelto_server*
 *bin2mac.py *.bin*
+*BinaryToVbaFunc(*
 *binderlabs/DirCreate2System*
 *binwalk -e image.png*
 *binwalk*
@@ -20446,6 +20823,7 @@
 *c:/users/public/creds.log*
 *C:\\temp\\debug.dmp*
 *C:\\temp\\test.txt*
+*C:\\Users\\{username}\\AppData\\Local\\CoreAIPlatform.00\\UKP*
 *C:\\Users\\L.Ackerman=*
 *C:\\Users\\Public\\example.txt*
 *C:\\Users\\Public\\Windows\\Ui\\*
@@ -20528,6 +20906,7 @@
 *c14d5be9b9d80a48354c04dd1c3f80167abae94a1854d2f5116e4e5a0da89b91*
 *c1671ad8229c335d3b2edc0c2209db3d09104b85c050971fc8afc7b6f85ce0d0*
 *c17291696d623106324b9bad894599325a90148d7d19970b9142a445b789b571*
+*c18989d8b80f11117c403bc1c8f8afac0a807f1acdf67ecffcf50402164c11eb*
 *c1b0377ee72dc62221e2c8ecf913a34e230222e86f5291f0813474a4fd7e9b24*
 *c1b584291f8b0c17013e438cfac02f28ea3088ae3884f3c0e27bf06f988339bf*
 *c1b657c2bb9c1713b0a4a6b5eea12df8b16dc1e82d1655215573575bf5a710d3*
@@ -20566,6 +20945,7 @@
 *C2concealer-master*
 *C2DAC5B0DBA2FC51AAA3FAF6AA1372E43D7A2B33F288FCEC5ADD4B7360440DBA*
 *c2db7182d606ef3d00a40360e62f16a47aea5d39872bb5bab4b115d4da864394*
+*c2dc48ba4a9ef1c03de0fe5d6df430df3a2d61792d2220d321702adcdc582162*
 *'C2Default'*
 *c2e755a58685ea4f356c897fdc0c9420579f6eae48ac6f27307e8a8b73500cb6*
 *c2endpoint.php*
@@ -20616,6 +20996,7 @@
 *c35aa7deb47b8e355ef827011cc745183d0099c36345e7f177d024618862873b*
 *c35d5b705e2b321cf612bcdeb44ee27392d6a1202248e8ec30bf178adf00f9da*
 *c35dcc7b9549eacce4d5b34a07a3d102b0c631ef4b72682ce0472f65b8777d4a*
+*c369ef94296e539c96f7a8305587d3098f0491dcdcb0cd6d006e7e2df318d19a*
 *c36e5e59c3faf245d1cbeb5bf81bdee52eb7d49ff777813e45b33390575072bf*
 *C373A937-312C-4C8D-BD04-BAAF568337E7*
 *C37637FC-3792-4354-8F5B-7E319E4E5A6D*
@@ -20658,7 +21039,9 @@
 *c4c99f7ff1976731ad0a4c3514f291f925f030c3c80d70d93ca98e3bf69a853e*
 *c4da631e510a57e39a6e9021a1d3f1d563f59f351bdd84b46e48a0e27e6b9cbb*
 *c4db3b4b49d8d75696f5641276d9ae1bcb990aaec46566719a7519810deb2f98*
+*c4e091bf77e1eda6f74951893238a2d68b61d530ad71ae993f21576ef80b6903*
 *c4e9806596b8e6123a595395b0efe604176dfd2e767418fe4adf69c70de557b5*
+*c4eac73762f7e920030de4e0de677fd6c87372ec59fffcb636996d6ad86358d9*
 *c4ec5f4d04c44b7a1c8cf813435dbc66a541b450bbaca4d70ded985d6518e76a*
 *c4f026c01e451e1afa61ab8233fd15a3c0b4da615eae5d893db82b84bbe49e40*
 *c4fa40d25a8a4fc502e9cce4fa6d7ef7847141bda5f2fb7b90bd9f4b43ee5d13*
@@ -20674,6 +21057,7 @@
 *c54778b8dc4e458130197cf95d6fc594cc1b016b70eea917f8a44c2c37c080c7*
 *c571768a81029101024089c004311655cdfba690a01954835808439b691a47c0*
 *c57526a8a0010b811b9bd367704125033fc71774f6a66dcfd4224ec5478e0490*
+*c591ed58f48171fa285464339a17acd1c267c0299df9f0b4e53eed9a8acb8f9f*
 *c59750dfe30a62ae41e8ba1fe138ce5bc575041afa2d7b87645e2f5d54526a9d*
 *c5a1680cc5dd2fe6fe2fd465429489a6c67ee5f4e7463344fe0dc92f8d672a9b*
 *c5af796b44a3d3d09e184ef622ad002b8298696c2de139392fd35898f5073527*
@@ -20721,6 +21105,7 @@
 *c742ea98e937cf3177ff80f3f1863798c1354cf4cefc8eabc677ce2fdb1f510c*
 *c74f294042ccfc39dec052d9871e6bbd4e69b019a353f6e02947303adeac3794*
 *c75e682dd8f063bd0c151b30095bae8061146928f6d8533ac983280ad2c6effc*
+*c7600f446daa53037a63ad765e0873a9c45adfd8944e5fee1c1586936ecf2928*
 *c786890a660e4bca317ce667bc660504f8167a5d5965867d748ed02d0caa5046*
 *c7874c257949a3c09dcb16f17c6fdb5ea0c5adb143004e7cc4adc63eb3ed785c*
 *c793af04a5ffa53c8dcde8f9453b312e40168de4081d64cbead076b8e7fcb0b9*
@@ -20747,6 +21132,7 @@
 *c850818a6b19486dae2a4c370797cbb4fa61a4ebd35cba8e94a60b54c4499c8b*
 *c85c00d64c49d48f8b3cd34210e4604ac10853758e206bd6f5aa6f9ee2d19b3e*
 *c85dda1fd27eb34db30a297fe5ddfa279904579ce968d8fbe08d68a263c71a8a*
+*c861d54834fecee5b581950037912e302f14fb706c732929d7cf3e5a954fdbe1*
 *c86b6630f868d20303e940cd8f1a8805f1013bc567938a79cedb318b07f5f498*
 *c86c8f8a69c07fbec8dd650c6604bf0c9876261f*
 *c86e8448571c6b7ad352c67c4b68bdca5cfb1bcab713eba5d8f3eaa4b3e90ba1*
@@ -20783,6 +21169,7 @@
 *c97df5d25ea1e9ed5b95606adc492cfb6d4fe97e2a538fcaef0ea66f1a239e64*
 *c97e3b0e4180217fe46b36d70163c750a40ed76d402ca6c1784e3d8e6c3b22b0*
 *c992b9a8a53c53465f035d5e254ecc1a9455f260fd110fe1600d5da4a37df413*
+*c995ae7e3e3ee04173a5ff56b676ed74057cbdc9fec4466a4402a42c1d56e060*
 *c9a56e555aa154cca1e25d511e2201cc522307ca09b54346860d375447ec7929*
 *c9bdea295fc4e88e634edc48697912379334da2c771e6130dc1702e32e70672c*
 *c9cc2b7d5ff7a0f9f7b97da9bf4a090bfd323be51bda6c12eb2b01c9efa816b5*
@@ -20920,6 +21307,7 @@
 *CB 4D 85 D2 74 10 41 8A 00 4D 03 C3 88 02 49 03 D3 4D 2B D3*
 *cb0a620a960506193df32016f825248dec7fe504d8b857ee54a88ad1bdf8d9ce*
 *cb0bdce759cc157371559d3a570630af5bc64c050a7cc79ef95062d3d0db987e*
+*cb10b5bb6fd0d22f1388cd1864af49f224b7caec1cb56145b225b6035da73428*
 *cb12cf3f7f44250c5a2142d506921aa3c2ae8a1c6ef2f3781b3bf2ae7eb6cad4*
 *cb183ce9401cd7ad838bedb22fb49717d5de7da10b8f64781aceb4912d6f5ec8*
 *cb1c1dec2980acb674da9b9cb077fda38cfc035a600f65c6fdc84cb8636eddb0*
@@ -20936,6 +21324,7 @@
 *cb825b66b73ae775bd034e0ff8506e2008e54c57862155446aba6552dd484017*
 *cb923918ef4e035f3ac3c144792f3d20e5519741c4e1f56ff9bee53f6cd4592c*
 *cb93e410d0d8660c4aef3b7f98c08408d3ca972b898705d681d9a569b61c703b*
+*cb9447135d98011ed452d9b69d6b88f732ce08e2481b1c2f78b4bdd36d090bb2*
 *cbab130e55af45dd1cc7b1644a799b92f7fa4b04f82b93e021e182399b8aefec*
 *cbbadc6ef65c597a7cd81e6f98758815d35ac0530367d87341dd0618b5c7359b*
 *cbbb2f474f0ca015a37d57ec856950db3ce62942c8dd737003a9cc8f7cf63c07*
@@ -20966,6 +21355,7 @@
 *cc5604a463e90dd1da595a73e2fd9e0282a465fe7cd41f46e34ed05a7b84b295*
 *cc5855ec2f5ac4e236e8e6cba698d4d307baa15a827c7719f4d6c8a58d28299b*
 *cc5b8ca570f2f1aa9aed761a466007e7bd4b807f823e5add1d10fb732a034e9c*
+*cc65a1b922258d72afbe7391a32a58cecfddb9ee4be41de53cd8a52b9b67b277*
 *CC848BD0-3B2D-4C1E-BFCF-75A9894A581D*
 *cc8bb64ef855405aeb66e480e8e7a2a65f61d495718fed2825083916cedd5e4c*
 *cc928db0c984d3a7e9822ebb7ac897ddb90f43848488a5c3261b5704085fa92a*
@@ -20975,6 +21365,7 @@
 *ccb9d0f9cd95c1665d9646771f7e21af912106f7cc7541c338552b66ca0df512*
 *cce469f76bb65315222426a32f579c4ba820587173b4dffb7f012f5b0bd5a877*
 *ccea30c929a2846362b054a4692f6ea16c077b8860080b31245b15e12b27e5fb*
+*ccf676c0d9c215b6de3a3219688e3f5e20a7a21191ef6a25b382c2c0ec19a7e2*
 *ccf830a3d9985235d37d82bc38432568ff15744e3772fbf52c947914cdd6745a*
 *ccfae00ec39b5da0ecd9b68049725f07ac4a340c837fd43468419a5a5929f103*
 *CCHOST=127.0.0.1*/tmp/c2*
@@ -21011,6 +21402,7 @@
 *cd46607d2b9a3046748fea6f99f34ea9342653b82af06e20858a447cc58f0f34*
 *CD517B47-6CA1-4AC3-BC37-D8A27F2F03A0*
 *cd5b16213c11faffa7ed44becec55368348013aa980e6a38f85f7f2a0aa2b85e*
+*cd618bc8eaec4bf2397840938f63f50ddea5458918186a249af976bd081e166e*
 *cd672b609691c61005f4c69233abbce538d334db30e809150f8087b7735bfd2e*
 *cd8055713f9f9249efa639e6c2b7c2db71a801de209f74872ef4112a7bf6103f*
 *cd84694d8b390661c5295f76a523381daaf840c0b3ef16cf02b11086ad8d4028*
@@ -21018,6 +21410,7 @@
 *cdaee04229c5aefdb806af27910f34d3*
 *cdb6b0d366c80ef521a59334a58f95ea5b7dbddc6e9f81ff28a11ec44ceba696*
 *cdb93e8cd015790f3895a76168b8ce42f73bc7da4ee4ab08c9ea7ae7fecbd9e3*
+*cdcb96e58514e182d0799884b64872caff34ed0eb552d842015941a7540347e7*
 *cdd1184f3b6ee040bb0f668cb15a4691d327009942857bd0c62b11cd0e3d0f50*
 *cddownloadelevategetprivsinjectpersistportscanpspwdrunassaveshellshutdownsleep*
 *cde0f088445933eef88c2663bf2684f6e020d30347a7a230658d534c05f4e8d9*
@@ -21035,6 +21428,7 @@
 *ce18273ca20bd38c567b0355ca2c85575651b39249294969daa51e568077a872*
 *ce189906ea564b5bd6d924791d90b65a3c56d4313d45bdab310145e55a042b6f*
 *CE2307EB-A69E-0EB9-386C-D322223A10A9*
+*CE23F388-34F5-4543-81D1-91CD244C9CB1*
 *ce26cac7b0d52a3922cc05a777bb83025430a6a5d31104840a0099d7bd0cb2f4*
 *ce2e6ef4cc10bd9de836c9de164dd80e043d713ef1ee3425b5bc29f4c7c6e39e*
 *ce30c574477d0b2527ccfe103b31d810f6c1aa8a83c08bfb5899214951d75c0d*
@@ -21385,6 +21779,7 @@
 *cmd.exe /Q /c ipconfig 1> * 2>&1 && certutil -encodehex *     
 *cmd.exe /Q /c ipconfig 1> \Windows\Temp\* 2>&1*
 *cmd.exe /Q /c nslookup 1> *\\127.0.0.1\ADMIN$\* 2>*
+*cmd.exe /Q /c powershell.exe -exec bypass -noni -nop -w 1 -C *\temp*
 *cmd.exe /Q /c powershell.exe -nop -w -hidden -c*IEX*
 *cmd.exe /Q /c powershelll.exe 1> *\\127.0.0.1\ADMIN$\* 2>*
 *cmd.exe /Q /c quser 1 > \\127.0.0.1\ADMIN$\*
@@ -21833,6 +22228,7 @@
 *Create %d IP@Loginl;Password*
 *Create a raw socket to listen for ICMP packets cause f scappy we don't need that shit*
 *CREATE DATABASE C2;*
+*CREATE DATABASE homados*
 *CREATE DATABASE jasmin_db*
 *CREATE TABLE [LDAPHUNTERFINDINGS]*
 *create_dummy_dll_file*
@@ -22129,6 +22525,7 @@
 *D00Movenok/HTMLSmuggler*
 *d013c82d6fa072f62559f257d81b72136dc33908494fdd1214c2c55dbf590a8b*
 *d02161cdc91cdee273f8b6e47f98a322756847ae3b5f4efe6d439fa5e13f9039*
+*d027404d259a269dc52eb697868f7e91cd32888fc9659d1851441aaa9ea3b8bd*
 *d0274f036468ef236d3a526bb6235289bdbe4c8828ee7feee1829a026f5f3bec*
 *d029b40b87bd1462c77138f017ab6914a3753c4ec47bcbf192231a6b2585cf36*
 *d04679accb8ad4bbd940d7afcb4d2765c3ea1421bb773b71e79f3f0233f847cd*
@@ -22142,6 +22539,7 @@
 *d0a44c5acf4946e913a8534d362d681bd50205d00549d3db028d8ce2802e9b86*
 *d0a965003f74317e82e25f5c479a66acb8048a470800be03f6cd8e413f5fd598*
 *d0c384c27b210cefdf2e15e0b9a66a03e5a552af78f3e05bcbf5de5574b6f475*
+*D0CBA7AF-93F5-378A-BB11-2A5D9AA9C4D7*
 *d0d03a0ae4722535a0e1d5d0c8385ce42015511e68d960fadef4b4eaf5942feb*
 *d0d4347afb60b25e067af0d693c644b76560164c793304e35af765d023c14df6*
 *d0d44151ff0e68bd7ec125589185f2a056d0424a65c49b5a23a7633762884733*
@@ -22156,6 +22554,7 @@
 *d12a87b47c9213d80b8dfe9626702c953ebbfa92320b01f5f8b42a520a232537*
 *d1409d4d6fc200f7f5569b844c0005eb1963a94a857ae4fb5caeb496783cca07*
 *d1455ccf2efda304183873600535c73e8205663b384ec30a8c9f2e6ecd0a91b0*
+*d14b86691ed977fd4c29e0c98bac637bffc86c46e83768f73432eb26def0bcaa*
 *d162ba6606bbb0ac0485c82b28cfa68132769c8c19fc92cc65b3aa2f8deafe87*
 *d162d2e96da627fac5a93d5e6faf379aff092bbd*
 *d166f3899cc7eb349d9ce4c8adc8f60e3a2908ed29ddf4a2e52e070d78e290ec*
@@ -22166,6 +22565,7 @@
 *d19215f26a1791d5f04cd626f65108628e507be6df194fec4fe25115d74469ab*
 *D19BD978-267A-4BF0-85CC-851E280FF4C2*
 *D1AE1ACF-8AA2-4935-ACDF-EC22BAE2DF76*
+*d1b397d550d1f9921048c02b3401aeeaa070c99e5c369738834e01a6100c5396*
 *d1b43d39823d14ec9524f63fa0125ad9606d5c3e32d8e10d34a25214c56d308f*
 *d1b7993dc84243e12f8b4650de9b71a85f5a3751c085d96f7211129c5e5f4eb0*
 *d1b8e13cf05c57e811ee4c90c985c018a7d1e937eca0f5860fecf36601032630*
@@ -22174,6 +22574,7 @@
 *d1d4d168eeedd0867537ba4cf5befd1ea7adab62843d21088e6c51e27dec34c5*
 *d1d8362d21a381b0703d4586b73ce78d5332507c62e1d90eb8eb83555db1d6c8*
 *d1d9b02741e5d8742853665aad6a36a74a977fb82108b894712008db8d170276*
+*d1e05f79d0b0643b230fbbde69607d9ce4f20b8f19a8c47a91bf8beeb50ea147*
 *d1e9bbf0fb621285de6ea7b4c2b3f8dc2a15d0e51639eafb8f2fb8aca47054e0*
 *d1f5e8ada7197e67b7bdede4827104e286c63f24407bb9eef80cc7c2bd2e065f*
 *d1fb14a96b35b807b6b2315bc198b778f0ced472685c708d757a5219ae06bba1*
@@ -22240,7 +22641,10 @@
 *D3m0n1z3dShell-main*
 *d42056fad9278acecf2a979acd6aa24bd1e757c8429a424b245dbc0a39bde9a2*
 *d423b1efdaf4f11171e6daf6e096e3651210cc454ccd6bb65ac07fd0aa0d7806*
+*d4254babd731bc584ca2e41f98f2f570b43ba92dcfbb0e0bee1cab109a5b096c*
 *d43a9a1559ceb6fa1906b0142c375b8d2fa52e3725df36ec795cb0e734e110ce*
+*d43fc4c6e67a332b6abbb4b35186e9a20fa962c6aa4521f49b19f5bf372262d2*
+*d44971afba15d74da67705ba5d44c7810be3b40baa11c25def44db606e6c8dfd*
 *d44d0425769fa2e0b6875e5ca25d45b251bbe98870c6b9bef34f7cea9f84c9c3*
 *d454762487d1118fa84e8931d4ae93bdf0c39fa1f42deb177825eb8d94e8f989*
 *d4570fddbd3aaf219c1b905e6e5405e2d0222fb20ca5bf539c593b4ee4b0a66e*
@@ -22275,6 +22679,7 @@
 *d5743f7c28385bcb3b4a07eabd2a49a3791f5b0a929b60c50700cadac1451da8*
 *d57894d047c6589b7baf7d8745523fe56197a09ffd33e5f577227c2c5a5a7adc*
 *d57bf75bc694c0f583e9e23acee5dc35a2ab719a842adb52008ed494d0cd5979*
+*d57d2b2a2a345eaef9c6b06bb8cfb2ce2578b775cdc5deacfcada080db784f33*
 *d59838007c4724beca80ad34c6adc749c526f6de636d79e06565499d0e390110*
 *d5ad2fca7e56448f82eb0da69d8578abf2acce9616d9849622ccd17655f73285*
 *d5b211c3a68fdd0231c3f6aa72dc980b8481e47fca6ce40605021d3e6222d7c5*
@@ -22328,11 +22733,13 @@
 *d7a7a6085fa6a9f8de0ae2c221c1ef110b9afc2a0122a058482ef3974d031ac0*
 *d7bb7585cd1659c0b55b9ec18b10aeecb33af953c547dc0912a4489996da6b31*
 *d7c2ffe601af16d168d881b88817df81e9bc8646e56643545bd9a11f01ebac6a*
+*d7cd7a952aab71b1a1bb8ae63ce23776e5b4cdd57a1ff1ab747e9fdf0e4a548b*
 *d7cfd598a2b8075da50af756bc164c272f247b69b1716b318b919f10cf0cfc8d*
 *D7D20588-8C18-4796-B2A4-386AECF14256*
 *d7d5ed843d7c8543f15ad0b236d08c00c848c80480bae5f67083dae041ffcb67*
 *d7eceeb90b1e75b17c42c6cef5b42e0ef1dc615efba9424bafce718304c7ee43*
 *d80046ee572c3222790560fc51c02de131507d5425bed6cecca98bc3f3ca50e9*
+*d8043ec0bd5263618118ce4f327126c9413fa5f041426117adc0d15e4a168144*
 *d80804bbcdbdd1933da9d9b7c0457ae73b85026e71970d1ab80af063b8fbac2e*
 *d80e2a137e1d2639c8e689549e5e17423f7ff19aa0bbfcab8e75b43c6c4b2d60*
 *d810084b9bb4b7c552be24f744165d6a46d777d39bf36f3a5951df7108b77437*
@@ -22341,8 +22748,10 @@
 *d83e80b7ad4adae59ae0257237f4efcbefa94117edfc36955311c14115a2461b*
 *d8445e3bd78bac3cc8f8a3f23b68ab971fb85ff061059f8256e41c6b892374f4*
 *d84d9d935f9f3392934ff2613e47032d3120f7c0ac4278a1e88bec65c5316a53*
+*d854d2be5826183cb7c1317e3d920871fd467d5506b70e3c5147599ca2704ee6*
 *d85882904decb15b9b4cf1000a05dfe8694a8d4c74a606a6df2b0cb06937f038*
 *d8588b3dfe75180aa8cff97c6d3cc9dc89da64a3acbb826742939869bca92b69*
+*d861f9c6114dd6d6e8227ec4fbb0f76318a36a384842eb76b5c3131a35b5c513*
 *d87c78f071b72de76e3569729f5dce81b6379a9ef115a5e4305e1e089531938e*
 *d8891b478ae421a3c0abc85bfa2b4bab4c4d35d46a26ba9f7fc1c6b3d0d30009*
 *d88c69e0ca8a72f71d225ece1756c338ab37ec8af40bd0cdae4d9a73ad20457e*
@@ -22355,9 +22764,11 @@
 *d8d88c5aecf5f0b27208387cc830fd094e2b0e7230a965728a6862ee9c8278e0*
 *d8dd09b01eb4e363d88ff53c0aace04c39dbea822b7adba7a883970abbf72a77*
 *d8edc288ad36a1dc853851dfe2255647e17020a528f64ca22b07258f3c918118*
+*d907d7686b725441db1deb645a7079ca79f4dd1d8a18ca4b2bb98c12622603ef*
 *D90EFC93-2F8B-4427-B967-0E78ED45611E*
 *d9137008fdb0e917c996162abb1b6d457b20c987958d4a5e496edc9666fa8392*
 *d919b4832a03cd1cc4c40803238e172dc2edd74317967546c4e485de14ddc5ba*
+*d92aeb275dc177206baa4ac355fa43c13bd53d309247b61a7fa563a062f15ecd*
 *d92b4a40c783bf64d9117a9daf35b4f75426f7f1743d9939d756b327f608eda7*
 *D934058E-A7DB-493F-A741-AE8E3DF867F4*
 *d941534ce99193cc7771684318af13748af81cf4a9a5b4fb02c791e066b563b2*
@@ -22402,6 +22813,7 @@
 *daem0nc0re/PrivFu*
 *daem0nc0re/VectorKernel*
 *daf162e5cc90599aab036b7bb4ed6d4c521b2f5732a6cb40b08a00e6714deaa3*
+*daf3ed8ab5cb22d59e4b1de343f15e343c7e2383547f38f550b1e18a3cf8d11d*
 *dafthack/DomainPasswordSpray*
 *dafthack/GraphRunner*
 *dafthack/HostRecon*
@@ -22457,6 +22869,7 @@
 *Data Name="ServiceName">chopper</Data>*
 *Data Name="ServiceName">final_seg</Data>*
 *Data Name="ServiceName">let me in</Data>*
+*Data Name="ServiceName">procexp</Data>*
 *data/implant/*/host.ps1*
 *data/ipwn*
 *data/payloads/stager.ps1*
@@ -22537,6 +22950,7 @@
 *dbf767a606cbb7c653296843204fe570a8b59b622faa3315ecf555ecc6e0803f*
 *dbf7d95c705622042a557724ccaeca139cdf0f95603ba67ea1db10ba4ec414ff*
 *dbGetNimplant*
+*dc07fa75e50a2b71b6e6163c0052fbeef8aa20896af6346a6646692d09bcc06b*
 *dc1baea53709f425ba181705c3f6c37d4840e3e88d71a5e3b39ee40948f12e87*
 *dc1bce76ba20f6d3a7020b35f18d47a74597018b0e58a9b1aff6d77be72f4a44*
 *dc25fef1e036e80dbbf1a5665fa13dc1ed6f8c56875161608cdf532d8a21a4a5*
@@ -22545,6 +22959,7 @@
 *dc3c1af9-ea3d-4401-9158-eb6dda735276*
 *dc3d98a8e8c0b0944291f9b462f552f174261982c4507f2de1ee9503353d10e9*
 *dc42d5e6752383656c1cc05459bd10dd9f6a25c3c715a38d1c14dc0391a00982*
+*dc56b9ac51cdacc0157d4180275cefb938e8476356a46b1faed2fddfb5d1907d*
 *dc57b353d32389a0af8a7ccb2054633ac502d899bb5bc9e656e91849215a57a1*
 *dc5d95d4ce6cee631b546e1bbfa9f090f66e4167edd5dd828f567c7fc30978dc*
 *DC6187CB-D5DF-4973-84A2-F92AAE90CDA9*
@@ -22606,6 +23021,7 @@
 *dd5cbddadb4446fe8e9558788ea449ac7f497973cf83ef9d8acc3803cfae956b*
 *dd6c8226641df9aa2a08e5e11949430e94773d763734ec3516a7976ad8d10f1a*
 *dd781cfd710345cca2df4d306245298efb61dc447d8004dd5542c1b2083e39a7*
+*dd789bbc91be5932fc0647ff4c88c3932ed9ccf2114265985c11481b6f79d848*
 *dd7fef5e3594eb18dd676e550e128d4b64cc5a469ff6954a677dc414265db468*
 *dd8057968d3560e9ecb42b2ed50b796ec09573d5263f689c8e0633a8b8a7127a*
 *dd811322b3c78642e3ca888d95f9c6f7d7b56247979358731bcac341f29c6822*
@@ -22647,6 +23063,7 @@
 *DebugAmsix64.exe*
 *DebugAmsix86.exe*
 *debugfs /dev/*
+*DEBUG-preobfuscation.vba*
 *Dec0ne/KrbRelayUp*
 *dec37f1ac505d447bb5d7b4c2bb61d438097b13c28263ffb4209ce41884784b6*
 *dec51bba37da4ecf4df8994cb21931fdfcc4f661c362cb8392f44229d42ef337*
@@ -22795,6 +23212,7 @@
 *df117b05c21cd8ef0c6c4d85290d81532838e4645677bdb2955a968eba9da682*
 *df1b9ddfb57a7fa9b93b250a689e392171764364ff929a701e7a2df763904b78*
 *df32f865014710359e52fcf0ba175ad479fec41cde92dc8dc4b7524145121ceb*
+*df35838ff39fcb2ec8c8783b4485abe8b7cd805bad795caf730e6886e48655a1*
 *df37d932eb846e608187b0aca6d182467ff24c548a044b9206a93913ec93c752*
 *df3adfbca15691d22d9dd17b3247e1ef434b0b85863ce1e6900565cdbf8b1cd4*
 *df4c83b6cc9b95717ed255abc28211a8f50db90f6b963c19c12e02bfce81c5ef*
@@ -23398,6 +23816,10 @@
 *dswmiexec.exe*
 *dtd-finder*
 *dtmsecurity/bof_helper*
+*DUAR_Survey_v3-cleanedx64.bin*
+*DUAR_Survey_v3-cleanedx86.bin*
+*DUAR_Survey_v4-cleanedx64.bin*
+*DUAR_Survey_v4-cleanedx86.bin*
 *dubmoat*
 *Dubmoat_ExtractData*
 *Dubmoat_PrintFilename*
@@ -23499,6 +23921,7 @@
 *-e ZQBjAGgAbwAgAEcAbwBkACAAQgBsAGUAcwBzACAAWQBvAHUAIQA=*
 *e022c33f7f02b564f42f4ae68edded719b3e4cfdb3ea9ce9de2d07dc1c586321*
 *e033b98287a6e38f34841095d91ef08af0170a7915e25da341a7b6142756d274*
+*e04c023e1ff561f7bdfaef366050533bf3f6e0a06675112911403fc5d3fafb71*
 *e04db985cc121db070da15582404750b26819e09e96a4a1026613ae25e034f73*
 *e05dfa6b3fc5b59044f4b18ba455d751c5a18948d1d0a032d3a11fb753659faa*
 *e066fd26097862651947220c02240ca24faceb5f4ca0d1279881d97f7cff2c17*
@@ -23518,6 +23941,7 @@
 *e105000f9beb2d9659ead318f0f8a9a3acf90606024c5eef2fe11a4d140c4ee2*
 *e10eff3227d730806c99dc8ac0f38a2262ed5ab3a86d90b4acb7efbb2d6d2def*
 *e114380d61281bb9bffe5246d366342cecc6dfa22814b308fa08b075e0b0f35f*
+*e11a3ad89cc8150c1ce7367b3360c717c6b39feb61986a37385af368df2083f9*
 *e11c8f5673861b72e624373d2ebfed1cc50ebd59c8633da4b87a1e2361a53c02*
 *E11DC25D-E96D-495D-8968-1BA09C95B673*
 *e12b5b70989233ee34a1984b959ac4e42a282148cc0f6f8a5434f2a1502e3fdd*
@@ -23586,6 +24010,7 @@
 *e3991de30b4675d89877b4b22a36e71c1ac11b399e9b6826195e87354f4d6837*
 *e3a6fd1ebf5912045e94cbe9cf44ec388351c89aab2054a647332e41f70f27df*
 *e3a9b1c8dfe7bfcebd4d908f7cc36df8d09ee579ab10738308f0536782a14fe2*
+*E3AEA3F6-D548-4989-9A42-80BAC9321AE0*
 *e3b8202dd0e456299e6c11495357e0e540ad0c73ff73723783b968d3d28c02ac*
 *e3bc166f9e3cd64e1eee1061f26cb80347f2cd4997971c91f3ae9cbe5cf35999*
 *e3e2ced2569d1ebef8f65b554979747881e5e060355fa6698c913036dfd892ba*
@@ -23606,6 +24031,7 @@
 *e4c382716cdf1d4d582eb2ac3279f498c8e335d119737fa390a766296738ee87*
 *e4d2ed3af31f30f40f83a73dd6c4dcce275ae8cc85d52c7f30a51bfdb7ebeec2*
 *e4df5a904c8eb505cb63d9905c398f632cf97ba193a6e25569d561d44f69e623*
+*e4ed972586dead9a986aaec11cf76e5e044549b69b2fb9bbf5a685f281997bc8*
 *e4f33ee9ba4d86685f8df4a89e192a354139edcf*
 *e50bd0143399ca09e3a293f2546cdacb0bf093294dda39263474ed55d8e1743d*
 *e5139e7b40768b3a2a6be05138cd8c5cd5fc71eb60b108e0743077f0e4df3a4d*
@@ -23613,6 +24039,7 @@
 *e51c2e66cc4407d842afa1c1f700549da5efd37a6bd2dcc5c8094b777c72bc76*
 *e52b09300e5f48a7584601a8c576ab946e4818156e40d355d36d087906bb66d1*
 *e52f7c5cdfbcfd07c3af1a5d4b192e804f2a29cc1cacff6573ad701cbeb8440a*
+*e532449171a8fb15657347c2b6df8391c93227af3fb386011a4e8b40d780ad24*
 *e5350eb7c85f40bd5eeb5df8b3cd58805d39b2469a1c1c9817957fbab77e9427*
 *E54195F0-060C-4B24-98F2-AD9FB5351045*
 *e54299149f25b882cb0900a2977eb6d72a4fa88fb96b67b370981b42b66d7733*
@@ -23633,7 +24060,9 @@
 *e5d6eb36d1fe75a3f558093179a13f0cd74a661397eba1c7a0963200a8a365c0*
 *E6104BC9-FEA9-4EE9-B919-28156C1F2EDE*
 *e614bcf1b052fd1faf384fea62ddc4365051cef7bced133d54cd972be74e550f*
+*E61C950E-A03D-40E2-AAD5-304C48570364*
 *e61df02bd13c250267ded9f0db8ef0e0f3a3eea63efbb8d041190883b0cee0cb*
+*e62043f8389effbe26300cc7cd1d9af3b25d6efc1eb0d604d837f58a89e485ad*
 *e6225af4ab483e49445f0021bc05efc405e544e7a725eb6ecb3f8777a8783109*
 *e62d0d5e71daca0aa1c2e899b0da9668167fcbd20060ef8c01a8d8b66f0a32b3*
 *e62f551dcaca8e16effff14816c75f5838640a23112052b50d99999bb4db7f1d*
@@ -23665,6 +24094,7 @@
 *e704bd6ebe126565b2334547aac8ef9bfcd9e3ec5ccf59b6e86d5b857610aa70*
 *e717e4a46f338480838e760a05b7a628ccca57b0d4d705a67359bf9481fa58ae*
 *E731C71B-4D1B-4BE7-AA4D-EDA52AF7F256*
+*e732db692f0686f1a3118614deda581f692219020f73e9728c9c9ead0ae50836*
 *e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a*
 *e73e6a2bc3fc1900fb2810bf53bed0471149fb07c60917027661d9d654c0f6e8*
 *e749b296484dbb4329fc0e4dff5fe963ddc7ff3450042ce267fdd1b5abcd2fdb*
@@ -23744,6 +24174,8 @@
 *ea9f997ffb3dd610c9848af65ed980b348c06d8ee11b7fb670d6a789f8075c5a*
 *eaae77ff59bd46d07499b29eaefb4ba3f1d1e36fe3c99ab46bb1fd578113cbe5*
 *eae10507ae68eb619503bf0ea16b0d7fd4a1eb5d817bde2746413fb27c1e5aa5*
+*eaf0b65b09feded70f455b4fff79bc1fd2009b927849ad4ba63228d79fc90d4e*
+*eaf13ef05abfd1faa71d5ce0aa0b19664bdc32d05dea7836ad6d9bc0b2ff1694*
 *eaphammer -i eth0 --channel 4 --auth wpa-eap --essid * --creds*
 *eaphammer*
 *eapmd5tojohn*
@@ -23780,7 +24212,9 @@
 *ebd8cbb85e4108ec6a13c3b25c839ac3d0ad4c0a07bf76e3f882daaf63e09fc9*
 *ebde1952b0cd01f7fd6534da9cd878040cc6b21c992be602f83ade3bfe6b404d*
 *ebdf64076861a73d92416c6203d50dd25f4c991372f7d47e7146e29ab41a6892*
+*ebf94bb78b8deae210b897fd7c7da691e9fcfd215e641f28c5a0056a69e63aa6*
 *ebf9bf76500715fe20c475140d200e76b51c400406683827eabb2ab70f9f986f*
+*ebfbe1788f944eda7614d311a9b6ca197a6d595910bf19e8f8dcfe7d92e77215*
 *ebfebca063aa056d7ffd8767c7c82d66c0c1a4339eb504a8e0636280dc5b839f*
 *ebfidpplhabeedpnhjnobghokpiioolj*
 *Ebowla-master.zip*
@@ -23806,6 +24240,7 @@
 *ece4f9a9ae3d7823ed86c3dcc5540b02c7504904bbe0878d17cd7bbf71ac61ee*
 *ece869c6e359a650da3a82c8d26239bde4293a591c0d634815595129654665ae*
 *ecebdd54145e9987d9ae0f389369e33571bbbad53970f990423902bdb2cc59d2*
+*ecec28a01376200b8746d6e2a9873d19b5191cdeb07ae926974b94d775b0c4cf*
 *ececdc677eaf4bf46268f4839d825090b16a40d37803c38600bf52bc79e1a363*
 *ecf32e9cc006fb558375569ad4021fe588206e04722fe0474a34d05d9cc358f5*
 *ecfb9ac1dd1fec043188b3c66c6fbc54c824c9de99e964abfc08836e9877701b*
@@ -24504,6 +24939,7 @@
 *ExtractBitlockerKeys-main*
 *ExtractDataXML_BruteForce*
 *Extract-HijackableKeysFromProcmonCSV*
+*extraction_folder*TotalRecall.txt*
 *extracttgsrepfrompcap.py*
 *extra-scripts*timecrack.py*
 *eyewitness -f urls.txt --web*
@@ -24518,6 +24954,7 @@
 *f0421fe369c03c1172e8f88730dbb20e427673c878d37a63a192dccca0be5d93*
 *f0439788bbeda72664259defbc0edb12825cbf2928c922e06103b7b715bae88a*
 *f052586d3c8b6cecbafff4773c2a67a130c00ecdece4ea43f101923c53c28f58*
+*f05885a68c1f16c7cbaa3657bbc57f54b7755910d1c96366543cc428729abcb3*
 *f062d1f8866ffa374149c6c672e92947654876e80faa847b5fba3eb098b22d46*
 *F06EAC7B-6996-4E78-B045-0DF6ED201367*
 *f0716ffcfd48207b8de4f82ccf9ba87e876f0700f6699fc1140d08b7a8f741b4*
@@ -24557,6 +24994,7 @@
 *f1zm0/acheron*
 *f1zm0/hades*
 *f205814e44353d23a5cef0e3cbfb37cc8ec4bfad9def53384d671dcc043c00ee*
+*f213e2033269abce384e1f85c7ab9730d3527f6b1258322e8d3ad17e4e1f6498*
 *f2179c77b91b691efbf523410bdd70aa97c9a6866d5d13004a8ff559243f18e0*
 *F233D36D-B64A-4F14-A9F9-B8557C2D4F5D*
 *f236aee384d7a0fab7fc186454ee6adb83b756843ecf75ec14b3df826a66ff1d*
@@ -24567,6 +25005,7 @@
 *f2915f5a3885391738923ecd18faf840074c65cd2e390e1474a4d84ce315b9ff*
 *f2a64b4fce0d07eafded5c2125d7d80b*
 *f2c1234d05744b49749b6ef743d7a71a45d96400ec1b510531032de8312a377d*
+*f2ca48973b72ab97f4cb482062d2ab8778078107767a36062e11243a3265e756*
 *f2d93a4d4188a53285c334699b010750786a607162a498f2ff2a93d823cbf0fc*
 *f2e4dc0f2862a37449a85eaa39fe3a7840822e7ae24e8999fb6401b084c9505a*
 *f2ea2ded9b06880391d161ba3763f120209c6e2831e2c0092733df29e96a59a5*
@@ -24589,13 +25028,16 @@
 *f38fg.tunnelmole.net*
 *f39405d1051750c03116c4e4894f67b95709e9143132392eddd3639a0882bda7*
 *f39f10c0867a52eb9e4d2adf0bfa821993c950feca35437e84d274fba00bc595*
+*f3a81e60a02caea629cba10af9f8bf769ca6d6e2d45d6228c30f3b544e1f7f09*
 *f3a97e2966c9b63bf0ce88346b568687f4253557841fd9c8acdee8ad25b27a97*
 *f3b57e4b17458688b689824705327c1e854a796a4e027b6e34855627e79454c0*
 *f3b5e0f54f1da134c5d3c135f5be8ae7e85e499e8e73fabf87ffe010c23749ef*
+*f3bdfbd2b36064266a9d9e4452aba93cb97980c37dbe472e0b3b72e1485500ab*
 *F3C62326-E221-4481-AC57-EF7F76AAF27B*
 *f3cb648c848b10ea67fe776ed08f1de7258d3e3e4f1b9a5779ecd500de9e9dd0*
 *f3e108c7993b8d46c832ac2499a97395cc18fc9c4c1656acc25c969c7090ffcd*
 *f3f0056b4e4777cf4f9a9e1111180dd2ce0111cb2e1a5b2c1a98197c4ed27035*
+*f3f1e7ecb0fbc06203f6300861cca295e2de0a1a2f636e4d6dcc2ac651f40acf*
 *f401f7bdae8094f273ab86529a90d93a192fed69897b908d1f5cc94f625b6b88*
 *f4081a8e30f75d46.js*
 *f4108e2e049af683395a2cff2dd6ab62bfbbf06da9e5e82e64fc62525a8c56ee*
@@ -24625,6 +25067,7 @@
 *f5028addc30229d68561491b4609ddfe0b908547cf31af3b810177d14c95645b*
 *f5031cd5e3b444296ef19016555560b69b8f9b54defbbd7e8202b9ef86510d4b*
 *f504340404e40fea29f2beb71c114ce3d310ca80631aff7c0f0c19198da897d4*
+*f515b31a54f823dfcef50ef4c3dbcc64e6062f5c5dc7f98b20b30c7cc0a5f3ff*
 *f52084516dff0a54b9cb0d8c8ab961db1154ceb43261257e7ea4e57cef4c1991*
 *f53253575b70dfd206586899b6de357f5288ddfae0e4bbc54f7804f01719cb76*
 *f5523c0081af67436ef06a92aa48d12f865cea26232c074f6e8f74a52d2e9e7f*
@@ -24711,6 +25154,7 @@
 *f84ef28bd00757a3e609bddd4e1267d8d0adbc25d3014bf291f3924139900c65*
 *f86331a57befd87e3ea359578a7a8b526d924dd11cf629ce1f24f2626d107928*
 *f865ac0b99a90f54ce67bbabb2e57226a5c61f58e7a867598a3d54fdfee895ee*
+*f8749220e3a914ff2323237dd52e8ec9fd2634be7b0b4266ef57872ffe29f845*
 *f87f4efe743195b9995c713d8219ee7b495691262a16a200b49ae65f29eecec6*
 *f888e9662215d81edb90112d66c462e3ba47b9007efe21492e9c8d76909836c5*
 *f889e16f7550565628be5da507bbf33ab1fca61ab3541015fbb7a120a3a9cc29*
@@ -24722,6 +25166,7 @@
 *f8c56ebf28222977e12ef4740c106dd6072e7964688ca2bf80d3cee2ec7edcfd*
 *f8d92121ac270672a940549d33b12b35414ddc844de5a56874b567bccd607b94*
 *F8E0A09D99FF46019C0C3F2B725E9887D9AE53CB7FAD0BB233BC8612C2CA51F2*
+*f8e1e243c0648d5bfcd2bb529571b4506f26897574537cffbf1399a171746713*
 *f8fab0f7fdafeea49e8d33a69185144d1116fe95ec89ce8b0ae7ad7cab21c70e*
 *f905a60a79e8e34f9a747703c5a34aacd35ef8fe07cef2dd4caf2f2f332f419e*
 *F90C57DF-CDE4-4CDE-A2B9-9124C307D53A*
@@ -24752,6 +25197,7 @@
 *fa06c45e4522706565bea7e2532ba67cf2cad3e57e38157c09e46445c1dd100a*
 *FA0DAF13-5058-4382-AE07-65E44AFB5592*
 *fa1d33fe72c69de384fe29f15ba46074e8c4b1a0a7e884fb0dddde4149775f08*
+*FA2052FB-9E23-43C8-A0EF-43BBB710DC61*
 *fa220acf9aa2972ac3ed01e854cfa219e017a533c0e629740b03151cf962dd91*
 *fa2f44b31d65e2b907ad9a3e1ddf95d9aac53905b53ff2bfeb178a7746b0cafe*
 *fa3ff4c4ead31c5754d9cd83bbee29512cfa4929722594998199e8fd51ae3bfb*
@@ -24761,6 +25207,7 @@
 *fa88cbb335f5284f0c23e4182474314ab936ac37a6f0099e7539e2a0e992d255*
 *fa8ff7e30ab51f8331ad6d9792d470406de52d66681c2b788361eb578558f913*
 *fa994debde4c3fc87853ccf7667ed991e2c77a21c3ddd54c024588372a96d831*
+*faa491fa7733cf0c51ffdcf97be3fd48231863ff59b4f6922e11bbb747bf1806*
 *fab5a95a10d4db67572f75b372b00c91484dbb600f14cc619f3cecefe2d117cf*
 *fad52d687cfe0824b40ba5fd96a6a3034537fc33c59d628049de8b93c4364ce9*
 *fad707c342f6f41c9f76434d28df10df06a52c924fd915b09951bd2c62294f7a*
@@ -24827,6 +25274,7 @@
 *fb3fc9cf96316c4e18a633564cfc32f0345a14ec544715fdeb23a8e773d7d46b*
 *fb436b85f221c5640e979d594788e7b377099191e153b76b16cc6f209b241528*
 *fb4a9c6269ea58b893c6978105fd3e2b2bc6e72e24715c1824b45f40c87b850d*
+*fb5490f0675eb7ff5a4f76341e77a1bec6b77d3546c9a779676285d0c2d3255c*
 *fb5f40bd41ffd98ff11efcc9afe2f431699c372b8806df096d7270cd5eae06a5*
 *fb6a2914759e6644c5067b1b7308bc295d4b6b357b1ad9f904b430ba588654f8*
 *fb75480462e81fe6c0d821641057d0534989a45452feb66851bf781e42e82ef5*
@@ -24839,6 +25287,7 @@
 *fbbc07b9b6d448c80d5bb8a086d715631b78e30eb10cb850601317b21256fb8d*
 *fbcbcfae5662f9f0dfbf7f5cb31c052399382232a51554197f4554d1bb06332f*
 *fbd415807cca02732e2b7b7ad2d8fd09db1ab75953fe24fe7b6238f691c6e5a8*
+*fbee25dd2d6b1faf917f4f6a90113e3c520125f325915b7dd70f304dd2dab4b1*
 *fbf810fe9b9d5d4e0e2c8bb919d1c6cdfb80531815e06dacfa1bc13320fc136d*
 *FC 48 83 E4 F0 E8 CC 00 00 00 41 51 41 50 52 48 31 D2 51 65 48 8B 52 60 48 8B 52 18 48 8B 52 20*
 *fc04cd7b616aa8a43a35a5318a9454f4228c74b056bfa07ec14105d249593e35*
@@ -24859,6 +25308,7 @@
 *fc80434203f482e80c4dd8f509a5ad4dae149a62399366b45b285ba4577e7cb7*
 *fc81435479e432562efbbb8ed75a397b565d70593af843bb1ac89628132c7ef7*
 *fc8516a68f470a92e9e4dd80b5928ddd732d2de4b43b483d23d068bb92509f0c*
+*fc8a13a2f3a3a9d94a0b82c0a95fd6baced84cab1c0debfa7df2f3331dd3e31d*
 *fc901b9f783876c3cb057dbed28b5612fd376963f148d1375bb0c8cf86bb2e10*
 *fc959cac98096ae179061a564cdce68687a17768f90ec9af568a5b58c0adfb5a*
 *fc97c521e6bd003e20bd27d2de03f954e9f557167a015bcbe3322b60542fca4e*
@@ -24870,6 +25320,7 @@
 *fcda7875e75e4d74879ad122a5861477e30c825cb90aceb76ac885cc2eb7e6dc*
 *fce455e607e33bce8fc0f29bb1bbf34e7a886c39bb48995ee3af25a91f2a57f9*
 *fce5693b62c0e3c49ba53a75354e6e9d99e44ba285faae08b25a1c220f471c7c*
+*FCE81BDA-ACAC-4892-969E-0414E765593B*
 *fcea3e6443289fde4faa10d9d892ce4f0c23f90913dbfde6c9f60c825f92150c*
 *fcfhplploccackoneaefokcmbjfbkenj*
 *fcrackzip *
@@ -24884,6 +25335,8 @@
 *fd57273dcd84084b20ad214de3b38c4e5a3f506da7810574d4a68dcdd63176cb*
 *fd735c976b71fe21f1f35dca8977865e69e4bb3a49ffb7c64c65d3a235d237a4*
 *fd744dbf0650a39ffac5325802e88075610333f5e4e0ef538da4dbfe91a712d0*
+*fd781d2a9ae86e8131b370be6b96807f532b41f093d8d85f906e9c2ece2f6c64*
+*fd7bbbf6cbc5d86a8c6ec8caa40aef39961bf9b3d15b515dbcd2469bf15e390b*
 *fd888cbda2c55514b80fc0aa97688abc5490ee41b8ca5c29e2f4ed3f5433a3d0*
 *fd8dddeb318eb9ccdeea441dfed3a0b01c1187e1b165b75e7aaf515142abb171*
 *FD93D181-2EC5-4863-8A8F-5F8C84C06B35*
@@ -24910,6 +25363,8 @@
 *FDF5A0F3-73DA-4A8B-804F-EDD499A176EF*
 *FE068381-F170-4C37-82C4-11A81FE60F1A*
 *fe06cf10cad44865c87cb7a2eef5d3b7614309ce016389add8260f19f16d770b*
+*FE102D27-DEC4-42E2-BF69-86C79E08B67D*
+*fe1ae959f9af863a11cefad541eb791a01e5bb9931cf5c57e478236ddad92ae6*
 *fe1eaa0c7066ad45a8a13838d15a6a6535e69250ecc3ed8c48bfb480c8b87e5a*
 *fe22bb52058886459e0ff6f9c1c70b4604b15c30b5f1e3ebfc58305d4e94a7e3*
 *fe24df06821a78f1ccc81a8459ed13a14558b632908b266864257636e4fa8812*
@@ -25170,6 +25625,7 @@
 *fjoaledfpmneenckfbpdfhkmimnjocfa*
 *fkasler/cuddlephish*
 *Flangvik/NetLoader*
+*Flangvik/SharpAppLocker*
 *Flangvik/SharpCollection*
 *Flangvik/SharpExfiltrate*
 *Flangvik/TeamFiltration*
@@ -25286,6 +25742,7 @@
 *from pysnaffler.ruleset import SnafflerRuleSet*
 *from pysnaffler.scanner import SnafflerScanner*
 *from pysnaffler.snaffler import *
+*from randomizers.vbarandomizer import vbaRandomizer*
 *from rarce import exploit*
 *from requests_ntlm import HttpNtlmAuth*
 *from ritm.lib import *
@@ -26102,6 +26559,7 @@
 *GhostPack*
 *GhostPack/ForgeCert*
 *GhostPack/Koh*
+*GhostPack/Lockless*
 *GhostPack/Rubeus*
 *GhostPack/SafetyKatz*
 *GhostPack/Seatbelt*
@@ -26905,6 +27363,7 @@
 *http://127.0.0.1:9090/*
 *http://127.0.0.1:9191*
 *http://192.168.1.179:8000/session*
+*http://192.168.126.130/upload.php*
 *http://212.111.43.206:9090/pk.html*
 *http://api.guerrillamail.com/ajax.php?*
 *http://arslan.koding.io/*
@@ -27022,6 +27481,7 @@
 *https://127.0.0.1:5000/register*
 *https://127.0.0.1:5000/results/*
 *https://127.0.0.1:5000/tasks/*
+*https://127.0.0.1:60443*
 *https://127.0.0.1:7443*
 *https://5pider.net/blog/2024/01/27/modern-shellcode-implant-design*
 *https://aadinternals.com/aadinternals/*
@@ -27370,6 +27830,7 @@
 *impacket.dcerpc*
 *impacket.dcerpc.v5*
 *impacket.git*
+*impacket.internal_helpers*
 *impacket.krb5.*
 *impacket.krb5.asn1*
 *impacket.krb5.ccache*
@@ -27569,6 +28030,7 @@
 *inject-amsiBypass *
 *inject-amsi-bypass*
 *inject-amsiBypass.*
+*InjectApp.InfectClickonceApp(*
 *inject-assembly *
 *inject-assembly.cna*
 *injectassembly.x64.bin*
@@ -28103,6 +28565,8 @@
 *Invoke-PasswordSprayOWA*
 *Invoke-Patamenia.ps1*
 *Invoke-PatchDll*
+*Invoke-Pbind *
+*Invoke-Pbind.ps1*
 *Invoke-Phant0m*
 *Invoke-Phant0m.ps1*
 *invoke-pipekat *
@@ -28968,6 +29432,7 @@
 *Killer tool for EDR/AV Evasion --> IAT Obfuscation*
 *kill-implant*
 *Killing ngrok tunnel*
+*killme:qAuxiAwegDsZI*
 *killprocess.py*
 *kimi_MDPC/kimi.py*
 *KimiNewt/pyshark*
@@ -29130,6 +29595,7 @@
 *kyleavery/inject-assembly*
 *kyleavery/pendulum*
 *L e G e N d - O f - S i R - D o O o M - R a T - THE HELL*
+*L"NanoDumpPwd"*
 *'l', 's', 'a', 's', 's', '.', 'e', 'x', 'e'*
 *'l','s','a','s','s','.','e','x','e'*
 *-l:NimScanToC.a *
@@ -29408,6 +29874,7 @@
 *LHOST=* LPORT=*
 *LHOST=0.tcp.ngrok.io*
 *liamg/traitor*
+*lib.obfuscator.randomizers.vbarandomizer*
 *lib/Bruteforcer.cs*
 *lib/ForgeTicket.*
 *lib/S4U.*
@@ -29614,6 +30081,8 @@
 *LocateBrc4Config*
 *lochiccbgeohimldjooaakjllnafhaid*
 *lockless *.dat*
+*LockLess.exe */copy*
+*LockLess.exe all*
 *LockLess.exe*
 *Locksmith-main.zip*
 *log4_shell.rb*
@@ -30170,6 +30639,7 @@
 *MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqqKav9bmrSMSPwnxA3ul*
 *MIIEoQIBAAKCAQEArJqP/6XFBa88x/DUootMmSzYa3MxcTV9FjNYUomqbQlGzuHa*
 *MIIEowIBAAKCAQEAvZtOCbMyFKJN3n89nctTfYLSeiCTNG01rAFl06hMkobyzr0c*
+*MIIEpAIBAAKCAQEAp4fWROz5dd1ylzYsMWYY6Y+EBfPjvieE7EniddfMkA7ss47F*
 *MIIEpAIBAAKCAQEAqqKav9bmrSMSPwnxA3ulIleTPGiL9LGtdROute8ncU0HzPyL*
 *MIIEpQIBAAKCAQEAuIGT1C2uPwb62IT/5IJdFioVAB/r3Pa885n4z+xEtGIm6XmD*
 *MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9ZoKnCHwsOdxe*
@@ -30390,6 +30860,7 @@
 *move-pre-custom-file *.exe *
 *movfuscator*
 *Mozilla/5.0 (*-bit) dnstwist*
+*Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like TsunamiWave*
 *Mozilla/5.0 (compatible; ngrok)*
 *mozilla2john.py*
 *mozlz4-win32.exe*
@@ -30433,6 +30904,7 @@
 *msf_exec.py*
 *msf_matchers*
 *msf_payload.ps1*
+*MSF_WS_JSON_RPC_API_TOKEN*
 *msf-auxiliarys*
 *msfcallback.bin*
 *msfconsole *
@@ -30574,6 +31046,7 @@
 *nagios-root-privesc.sh*
 *naksyn/Pyramid*
 *--name chisel -p *
+*name of the generated VBA module to include as a payload*
 *name="RustDesk Service"*
 *name=*Domain Admins*
 *named_pipes.txt*
@@ -30584,6 +31057,7 @@
 *namespace CredPhisher*
 *namespace Jasmin_Encrypter*
 *namespace KrbRelayUp*
+*namespace LockLess*
 *namespace NTLMInjector*
 *namespace POSTDump*
 *namespace POSTMiniDump*
@@ -30620,6 +31094,8 @@
 *nanodump_ssp_embedded.*
 *NanoDumpChoose*
 *nanodump-pipes*
+*NanoDumpPPLmedicPipe*
+*NanoDumpSSPPipe*
 *NanoDumpWriteDump*
 *nanorobeus*_cs.x64.*
 *nanorobeus*_cs.x86.*
@@ -30931,6 +31407,8 @@
 *New-HoneyHash.ps1*
 *New-InMemoryModule -ModuleName Win32*
 *New-InMemoryModule*
+*New-ItemProperty * "EnableModuleLogging" -PropertyType DWord -Value 0*
+*New-ItemProperty * "EnableScriptBlockLogging" -PropertyType DWord -Value 0*
 *New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\UtilMan.exe" -Name *
 *New-ItemProperty -Path "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\Userlist" -Name * -Value 0 -PropertyType Dword*
 *New-MailBoxExportRequest -Mailbox *@* -FilePath *.aspx*
@@ -31776,6 +32254,8 @@
 *payload.csproj*
 *payload.sct *
 *payload/encryptor_remote.py*
+*payload/pezor.py*
+*payload/windows/dllinject/bind_tcp_uuid*
 *payload_bootstrap_hint*
 *payload_creator.py*
 *payload_encryption.py*
@@ -31806,6 +32286,8 @@
 *payloads/Follina*
 *payloads/Powershell*
 *payloads/shellcodes*
+*payloads\payloadx64.bin*
+*payloads\payloadx86.bin*
 *payloads_examples*calc.js*
 *payloads_examples*calc.xll*
 *PayloadsAllTheThings*
@@ -32408,6 +32890,9 @@
 *ppenum.exe*
 *ppenum.x64.*
 *ppenum.x86.*
+*ppid_shellcode_spawn.bin*
+*ppidShellcodeSpawn4-cleaned.bin*
+*ppidShellcodeSpawn-cleaned.bin*
 *PPIDSpoof.ps1*
 *ppl* --elevate-handle *.dmp*
 *ppl_dump.x64*
@@ -33480,6 +33965,8 @@
 *REG ADD "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe" /v Debugger /t REG_SZ /d "C:\windows\system32\cmd.exe"*
 *reg add "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\Userlist" /v * /t REG_DWORD /d 0*
 *reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v "SettingsPageVisibility" /t REG_SZ /d "hide:recovery;windowsdefender" /f >nul*
+*reg add * EnableModuleLogging /t REG_DWORD /d 0*
+*reg add * EnableScriptBlockLogging /t REG_DWORD /d 0*
 *reg add *HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server* /v fDenyTSConnections /t REG_DWORD /d 0 /f*
 *REG ADD *HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sethc.exe* /t REG_SZ /v Debugger /d *\windows\system32\cmd.exe* /f*
 *REG ADD *HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\utilman.exe* /t REG_SZ /v Debugger /d *\windows\system32\cmd.exe* /f*
@@ -33886,6 +34373,7 @@
 *ridrelay*
 *ring04h#s5.go*
 *Ripemd-160.test-vectors.txt*
+*riskydissonance/SafetyDump*
 *rkervella/CarbonMonoxide*
 *rl.ammyy.com/*
 *rlwrap -cAr nc -lvnp *
@@ -33980,6 +34468,8 @@
 *ropfuscator.*
 *ropnop/go-windapsearch*
 *ropnop/kerbrute*
+*rotateproxy.exe *
+*rotateproxy.Info(*
 *rottenpotato.x64.dll*
 *rottenpotato.x86.dll*
 *RottenPotatoVulnerable.txt*
@@ -34310,6 +34800,7 @@
 *SafeBreach-Labs/EDRaser*
 *SafeBreach-Labs/PoolParty*
 *safetydump*
+*SafetyDump.exe *
 *safetydump.ninja*
 *SafetyKatz.csproj*
 *SafetyKatz.exe*
@@ -34382,7 +34873,12 @@
 *sc stop MBAMService*
 *sc stop RustDesk*
 *sc stop ViewerService*
+*sc.exe create aswSP_ArPot1*
+*sc.exe create aswSP_ArPot2*
+*sc.exe create aswSP_ArPot3*
+*sc.exe create aswSP_ArPots*
 *sc.exe create Cloudflared binPath=\*
+*sc.exe start aswSP_ArPot*
 *sc_inject_direct.exe*
 *sc_inject_indirect.exe*
 *sc0tfree*
@@ -34455,6 +34951,8 @@
 *ScheduleRunner.sln*
 *schlamperei.x86.dll*
 *schshell.cna*
+*SchTask.exe C:\Windows\System32\cmd.exe *
+*SchTask_0x727/releases*
 *schtask_callback*
 *SchTaskBackdoor.*
 *schtasks /create /tn "CursorSvc"*
@@ -34609,6 +35107,7 @@
 *SELECT name_on_card, expiration_month, expiration_year, card_number_encrypted FROM credit_cards*
 *SELECT origin_url, username_value, password_value FROM logins*
 *SELECT SYSTEM_USER as 'Logged in as'* CURRENT_USER as 'Mapped as'*
+*SELECT WindowTitle, TimeStamp, ImageToken *FROM WindowCapture*
 *self.sprayer.auth_O365*
 *self_delete.x64.o*
 *Self_Deletion_BOF*
@@ -34689,6 +35188,7 @@
 *Server-Side-Request-Forgery-Payloads.*
 *service pulseway start*
 *service pulseway stop*
+*service rotateproxy *
 *service tailscaled *
 *service.tunnelmole.com*
 *service/executable/
@@ -34819,7 +35319,10 @@
 *Seth-master.zip*
 *SetInitialCheckIn updates the time stamp that the Agent first successfully connected to the Merlin server*
 *sET-ItEM ( 'V'+'aR' +  'IA' + 'blE:1q2'  + 'uZx'*
+*Set-ItemProperty * "EnableModuleLogging" -Value 0*
+*Set-ItemProperty * "EnableScriptBlockLogging" -Value 0*
 *Set-ItemProperty *\excel\security*pythonfunctionwarnings*0*
+*Set-ItemProperty -Path "HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging" -Name "EnableModuleLogging" -Value 0*
 *set-killdate *
 *Set-Killdate*
 *setLoaderFlagZero*
@@ -34980,6 +35483,7 @@
 *SharpCat.exe*
 *SharpChisel.exe*
 *SharpChrome backupkey*
+*SharpChrome* backupkey *.pvk*
 *SharpChrome.cs*
 *SharpChrome.exe*
 *sharpchromium *
@@ -35024,6 +35528,7 @@
 *SharpDPAPI.csproj*
 *SharpDPAPI.Domain*
 *SharpDPAPI.exe*
+*SharpDPAPI.Helpers.*
 *SharpDPAPI.ps1*
 *SharpDPAPI.sln*
 *SharpDPAPI.txt*
@@ -35324,6 +35829,9 @@
 *ShellCode_Loader.py*
 *shellcode1 += b*
 *shellcode20.exe*
+*Shellcode2VBA(*
+*Shellcode2VBAFunc(*
+*Shellcode2VBAFunc*
 *shellcode30.exe*
 *shellcode35.exe*
 *shellcode40.exe*
@@ -36095,9 +36603,21 @@
 *stagers/*/diffiehellman.py*
 *stagers/*/get_sysinfo.py*
 *stagers/*/rc4.py*
+*stagers/mytest_reverse_http.bin*
+*stagers/mytest_reverse_https.bin*
+*stagers/x64_mytest_reverse_http.bin*
+*stagers/x64_mytest_reverse_https.bin*
 *Stagers\ExeStager\*
 *Stagers\SvcStager\*
 *stagerx64.bin*
+*Staging_w_padding_3.5_x64-cleaned.bin*
+*Staging_w_padding_3.5_x86-cleaned.bin*
+*Staging_w_padding_4.X_x64-cleaned.bin*
+*Staging_w_padding_4.X_x86-cleaned.bin*
+*Staging_w_padding_v3_x64-cleaned.bin*
+*Staging_w_padding_v3_x86-cleaned.bin*
+*Staging_w_padding_v4_x64-cleaned.bin*
+*Staging_w_padding_v4_x86-cleaned.bin*
 *standard::answer*
 *standard::base64*
 *standard::cd*
@@ -36148,6 +36668,7 @@
 *Start-CaptureServer.ps1*
 *startdaisy*
 *Start-domainACLsAnalysis*
+*Starting Browser Autopwn with Adobe Flash-only BrowserExploitServer-based exploits*
 *Starting bruteforce attack on *
 *Starting CcmExec service. Wait around 30 seconds for SCNotification.exe to run config file*
 *Starting enumerating file shares using domain credential for *
@@ -36162,6 +36683,7 @@
 *Starting share enumeration against * hosts*
 *Starting socks server * tunnel at *
 *Starting tailscaled*
+*starting the post exploitation with post exploitation modules*
 *Starting tor (via systemctl)*
 *Starting wstunnel server v*
 *-start-keylogger*
@@ -36415,6 +36937,7 @@
 *'System.Ma'+'nag'+'eme'+'nt.Autom'+'ation.A'+'ms'+'iU'+'ti'+'ls'*
 *System.Net.Sockets.TCPClient*GetStream()*iex*Out-String*
 *SYSTEM\CurrentControlSet\Services\dcrypt*
+*SYSTEM\CurrentControlSet\Services\procexp*
 *System32fileWritePermissions.txt*
 *systemctl * rmm.service*
 *systemctl disable cbdaemon*
@@ -36619,6 +37142,7 @@
 *Temp\dumpert*
 *Temp\graca.log*
 *Temp\iprange.log*
+*temp\pbind.exe*
 *temp\stager.exe*
 *templates*CSExec.cs*
 *templates*HIPS_LIPS_processes.txt*
@@ -36686,6 +37210,7 @@
 *The database engine created a new database*temp\Active Directory\ntds.dit*
 *The implant command allows users to run commands on slivers from their*
 *The malware Go file has been completed.*
+*The nanodump was created succesfully*
 *The Ransomware for RedTeams Coded by Siddhant Gour with *
 *The smart password spraying and bruteforcing tool for Active Directory Domain Services*
 *the zrok environment was successfully enabled*
@@ -36802,6 +37327,7 @@
 *timestomp.x64.o*
 *timing_attack * --brute-force*
 *timwhitez/Doge-Loader*
+*timwhitez/killProcessPOC*
 *title logon backdoor*
 *Tkn_Access_Check.ps1*
 *TlRMTVNTUAABAAAABYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAA*
@@ -37274,10 +37800,12 @@
 *URL must be provided for PNG embedding!*
 *ursnif_IcedID.profile*
 *USBPcap*
+*use command/file_basic_upload.json*
 *use exploit/*
 *use exploit/windows/*
 *use implant/*
 *use incognito*
+*use interactive/command_prompt.json*
 *Use nmap --script http-ntlm-info *
 *use powershell_stageless*
 *use safetykatz*
@@ -37338,6 +37866,8 @@
 *usestager *launcher_lnk*
 *usestager *shellcode*
 *usestager multi/launcher*
+*using ClickJack.Extensions*
+*using ClickJack.Modules*
 *using donutCS*
 *using KrbRelayUp.*
 *using NixImports*
@@ -38140,6 +38670,7 @@
 *x86PELoader/test_proxy_exe*
 *x90skysn3k*
 *x90skysn3k/brutespray*
+*xaitax/TotalRecall*
 *xargs -a /dev/null sh -p*
 *xato-net-10-million-usernames.txt*
 *X-C2-Beacon*
@@ -38295,6 +38826,7 @@
 *youcantpatchthis*
 *youhacker55/PayGen*
 *Your Moms Smart Vibrator*
+*your script has been obfuscated and output to *
 *Your version of Luna Token Grabber is outdated!*
 *YOUR_FILES_ARE_ENCRYPTED.HTML*
 *Yourman.sh Mini Shell*
@@ -38453,7 +38985,6 @@ cme smb *
 cme smb -*
 cme winrm *
 dcenum *
-delete_file *.dll
 detect-hooks
 doc.1a.*\.*
 doc.4a.*\.*
@@ -38487,7 +39018,9 @@ Get-NetGroup -FullData*
 get-spns *
 grab_token *
 HernanRodriguez1/SharpBruteForceSSH
+http://*.ngrok.io*
 http://tor2web.*
+https://*.ngrok.io*
 https://*.xyz/*.ps1
 https://tor2web.*
 https://transfer.sh/get/*/*.py*
