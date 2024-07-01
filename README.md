@@ -226,6 +226,8 @@ Another example of using the project csv files with splunk to hunt in DFIR artif
 I keep some relevant artefacts in separated lists, these lists are more precise and can be used in detection rules, they are available in this [github repo](https://github.com/mthcht/awesome-lists/tree/main/Lists)
 you will find:
 
+- 📋 Lists: https://github.com/mthcht/awesome-lists/tree/main/Lists
+- 🕵️‍♂️ ThreatHunting Guides: https://mthcht.medium.com/list/threat-hunting-708624e9266f
 - 🚰 Suspicious Named pipes: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv
 - 🔧 Suspicious Windows Services: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv
 - ⏲️ Suspicious Windows Tasks: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv
@@ -235,8 +237,20 @@ you will find:
 - 📇 Suspicious USB Ids: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_usb_ids_list.csv
 - 🔢 Suspicious MAC address: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_mac_address_list.csv
 - 📛 Suspicious Hostname: https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_hostnames_list.csv
-- 🧮 Metadata Executables: https://github.com/mthcht/awesome-lists/blob/main/Lists/executables_metadata_informations_list.csv
+- 🧮 Metadata Executables: https://github.com/mthcht/awesome-lists/blob/main/Lists/Windows%20Metadata/executables_metadata_informations_list.csv
 - 🕸️ DNS over HTTPS server list: https://github.com/mthcht/awesome-lists/blob/main/Lists/dns_over_https_servers_list.csv
+- 📚 Hijacklibs (updated automatically): https://github.com/mthcht/awesome-lists/blob/main/Lists/Hijacklibs/hijacklibs_list.csv
+- 🌐 TOR Nodes Lists (updated automatically): https://github.com/mthcht/awesome-lists/tree/main/Lists/TOR
+- 🛠️ LOLDriver List (updated automatically): https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/loldrivers_only_hashes_list.csv
+- 🛠️ Malicious Bootloader List (updated automatically): https://github.com/mthcht/awesome-lists/blob/main/Lists/Drivers/malicious_bootloaders_only_hashes_list.csv
+- 📜 Malicious SSL Certificates List (updated automatically): https://github.com/mthcht/awesome-lists/blob/main/Lists/SSL%20CERTS/ssl_certificates_malicious_list.csv
+- 🌐 DNSTWIST Lists (updated automatically): https://github.com/mthcht/awesome-lists/tree/main/Lists/DNSTWIST
+- 🌍 VPN IP address Lists (updated automatically): 
+  - 🛡️ NordVPN: https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/NordVPN/nordvpn_ips_list.csv
+  - 🛡️ ProtonVPN: https://github.com/mthcht/awesome-lists/blob/main/Lists/VPN/ProtonVPN/protonvpn_ip_list.csv
+- 🏢 Companies IP Range Lists (updated automatically): https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/bgp.he.net
+- 🔗 Others correlation Lists: https://github.com/mthcht/awesome-lists/tree/main/Lists/Others
+- 📋 Lists i need to finish: https://github.com/mthcht/awesome-lists/tree/main/todo
 
 Check out these [Guides](https://github.com/mthcht/awesome-lists/blob/main/Lists/README.md) to use some of the lists
 
