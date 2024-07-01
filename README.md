@@ -220,6 +220,7 @@ If you are working with the Elastic Stack, there is a lot of restrictions for li
 
 ### Splunk4DFIR
 Another example of using the project csv files with splunk to hunt in DFIR artifacts and logs: https://github.com/mf1d3l/Splunk4DFIR
+![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/418d69a8-022e-4836-83eb-329422ee01fc)
 
 ### Other awesome lists for detection
 I keep some relevant artefacts in separated lists, these lists are more precise and can be used in detection rules, they are available in this [github repo](https://github.com/mthcht/awesome-lists/tree/main/Lists)
