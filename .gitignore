@@ -10,3 +10,4 @@ result_search.log
 tools/O-Q/offensive_tool_keyword.csv
 _utils/find_breaking_caracters_before_regex.py
 .csv
+_utils/list_of_strings.csv

@@ -18,6 +18,9 @@
 * * 0x* - HOOK DETECTED*
 * */lsass.o*
 * ,exec(__import__('base64').b64decode("*
+* ./level-darwin-bundle-amd64.pkg*
+* ./level-linux-amd64 *
+* ./level-linux-arm64 *
 * ./sf.py -l 127.0.0.1:5001*
 * ./tor.keyring *
 * .\tor.keyring *
@@ -48,11 +51,13 @@
 * /dumpsecret /input:dpapi_system /offline*
 * /EV"NetSupport School"*
 * /f /im RemotePCS*
+* /F /TN "Level\Level Watchdog"*
 * /gethmac /mode:hashid /input:* /key:*
 * /getlsasecret /input:*
 * /getntlmhash /password:*
 * /getntlmhash | wtee *.ntlm*
 * /getsamkey /offline*
+* /HiveDump.ps1*
 * /impersonateuser:* /msdsspn:* /ptt*
 * /ldap * /printcmd*
 * /ldapfilter:'admincount=1'*
@@ -98,6 +103,7 @@
 * :Failed to make full encrypt*
 * [+] SUCCESS: AMSI Bypassed!*
 * \\\\localhost /user:Username /pwd:Password  \"C:\\InstallMe.bat*
+* \HiveDump.ps1*
 *- {phish_sub: *
 * | ./send -d *:123 -tM 0 -tm 0*
 * | Find-AmsiSignatures*
@@ -196,6 +202,7 @@
 * all_in_one_enum.ps1*
 * allseeingeye-info.nse*
 * -altgw *.zohoassist.com *
+* Amnesiac.ps1*
 * amqp-info.nse*
 * amsi_disable *
 * --am-si-bypass=*
@@ -261,6 +268,7 @@
 * audit UnquotedServicePath*
 * auth --prt * --prt-sessionkey *
 * --authmode ntlm --username * --password *
+* Author: Rob LP (@L3o4j)*
 * Author:ph4ntom*
 * auth-owners.nse*
 * auth-spoof.nse*
@@ -784,6 +792,7 @@
 * -Downgrade False -Restore False -Impersonate True * -challange *
 * download *\NTDS\NTDS.dit*
 * download *\Windows\System32\config\SYSTEM*
+* downloads.level.io*
 * DownloadServer=https://www.gotomypc.com *
 * dpap-brute.nse*
 * dpapi blob *.json *.dat*
@@ -873,6 +882,7 @@
 * -Enumerate * -Module *
 * enumeration_process.exe*
 * --enum-local-admins*
+* -ep Bypass -enc $b64FileServerMonitoringScript*
 * epmd-info.nse*
 * eppc-enum-processes.nse*
 * EternalHushCore *
@@ -1198,6 +1208,7 @@
 * HijackDLL-Threads.dll*
 * hiphp-cli.sh*
 * hiphp-desktop.sh*
+* HiveDump.ps1*
 * hnap-info.nse*
 * --hoax-port *
 * hollow.x64.*
@@ -1486,11 +1497,14 @@
 * Invoke-DCOMPowerPointPivot.ps1*
 * Invoke-Dump.ps1*
 * Invoke-ExcelMacroPivot.ps1*
+* Invoke-GrabTheHash*
 * Invoke-InternalMonologue.ps1*
 * Invoke-Mimikatz.ps1*
+* Invoke-Patamenia*
 * Invoke-PowerThIEf.ps1*
 * Invoke-Stealth.ps1*
 * Invoke-WMILM.ps1*
+* Invoke-WMIRemoting.ps1*
 * IObitUnlocker.exe*
 * --ip * --port * --type cmd --language *
 * -ip * -smb2support *lwpshare* 
@@ -1614,6 +1628,7 @@
 * killer.exe*
 * kimi.py *
 * KittyStager*
+* klg.ps1 *
 * klist * /service:*
 * knx-gateway-discover.nse*
 * knx-gateway-info.nse*
@@ -1824,6 +1839,7 @@
 * metasploit-xmlrpc-brute.nse*
 * -method * -nthash *
 * -Method GenRelayList*
+* -Method PSRemoting -Command *
 * -Method SessionHunter*
 * -Method Spray -AccountAsPassword*
 * -Method Spray -EmptyPassword*
@@ -2126,6 +2142,7 @@
 * parrot-backports *
 * parrot-security *
 * --passnotreq --domain * --user * --pass *
+* PassSpray.ps1*
 * passwd.py*
 * --password wordlists/*.txt*
 * password.lst*
@@ -2213,6 +2230,7 @@
 * --plugin o365enum*
 * pngZIP.ps1*
 * Podalirius (@podalirius_)*
+* Poisoners-Session.log*
 * polenum.py*
 * PoolParty.cpp*
 * PoolParty.exe*
@@ -2362,6 +2380,7 @@
 * rec2 crde_macos*
 * Recall folder found: *
 * received ACK from backdoor*
+* -Recommended -SprayEmptyPasswords*
 *----------------- Recon & Enumeration Modules -----------------*
 * reconFTW installer/updater script *
 * reconftw.sh *
@@ -2548,6 +2567,7 @@
 * SeatBelt.exe*
 * seatbelt_json.py*
 * --seclogon-duplicate*
+* secrets found for DPAPI_SYSTEM*
 * secretsdump.py*
 * SELECT ProcessId FROM Win32_Process * Name='ZAAudioClient.exe'*
 * self_deletion.exe*
@@ -2571,6 +2591,7 @@
 * --SessionEnum --Host *
 * set xmrig Type SERVICE_WIN32_OWN_PROCESS*
 * --set-as-owned smart -bp * kerberos * --kdc-ip *
+* Set-MasterBootRecord*
 * Set-MpPreference -DisableIOAVProtection *
 * SetMzLogonPwd *
 * set-objectowner * -target-sid * -owner-sid *
@@ -2879,6 +2900,7 @@
 * Starting tunneling server*
 * status gs-sshd*
 * StayKit.cna*
+* -Steal -ProcessID *
 * steal_token /process:* /command:*
 * stealthily grabs  passwords and browser history from windows systems*
 * stickykey.ps1*
@@ -3259,6 +3281,7 @@
 *"IPPrint C2 Server"*
 *"localadmin123!"*
 *"Malware resources needs to be free and wide"*
+*"message":"ably connection state: CONNECTED"}*
 *"MSGraph token is CAE capable"*
 *"My moto is to leave malware resources for free *
 *"N/A (Likely Pirated)"*
@@ -3326,8 +3349,10 @@
 *$DummyServiceName*
 *$dumpDir\lsass.txt*
 *$DumpLsass=*
+*$EmptyPasswordUsers*
 *$EncodedCommandExfil*
 *$env:COMPlus_ETWEnabled=0*
+*$env:LEVEL_API_KEY = "*";*
 *$env:TEMP\winkeykey.txt*
 *$Env:TMP\Camera.ps1*
 *$Env:TMP\GetLogs.ps1*
@@ -3360,8 +3385,12 @@
 *$N0q$x$Hc2$rQW*
 *$newClass["__CLASS"] = "PMEClass"*
 *$parametersConPtyShell*
+*$PotentialComputersWithEmptyPassword*
+*$PotentialUsersWithEmptyPassword*
 *$SmbLoginSpray=*
+*$SprayEmptyPasswords*
 *$SQLC2Command*
+*$tempFile = Join-Path ([System.IO.Path]::GetTempPath()) "install_windows.exe";*
 *$ThisIsNotTheStringYouAreLookingFor*
 *$TotalNbCurrentPwdDiscovered*
 *$tunneler_dir/loclx.log*
@@ -3553,6 +3582,7 @@
 *.asreproast.txt*
 *.asse.devtunnels.ms*
 *.athena_utils *
+*.aweray.net*
 *.AzureAD.Application_Owners.csv*
 *.AzureAD.DeviceList_Owners.csv*
 *.bashrc persistence setup successfully*
@@ -3636,6 +3666,7 @@
 *.exe 3 cmd*
 *.exe acl -dn * -scope * -trustee *
 *.exe --ACLScan * --OU *
+*.exe action=create * service=* displayname=* binpath=**
 *.exe action=GetScheduledTaskCOMHandler*
 *.exe action=ListRunningServices*
 *.exe action=ListScheduledTasks*
@@ -4326,10 +4357,12 @@
 */All_attack.txt*
 */all_in_one_enum.ps1*
 */allseeingeye-info.nse*
+*/Alpemix.zip*
 */amalshaji/portr-admin/*
 */amass/wordlists*
 */amidaware/rmmagent/releases/download/*
 */Amnesiac.git*
+*/Amnesiac.ps1*
 */Amperage.exe*
 */AmperageKit.git*
 */AmperageKit/releases/*
@@ -4362,10 +4395,13 @@
 */AntiTamper.exe*
 */antx-code/CVE-2022-0847*
 */Anydesk.exe
+*/anyplace-control/data2/*.exe*
+*/AnyViewerSetup.exe*
 */AoratosWin/*
 */APC_Injection.cpp*
 */apc_injection.exe*
 */APCLdr.*
+*/Apemix.exe*
 */api/admin/shutdown?token=*
 */api/agents/*/kill?token=*
 */api/agents/all/kill?token=*
@@ -4495,6 +4531,8 @@
 */avred.git*
 */avred.py*
 */avredweb.py *
+*/Aweray_Remote_*.exe*
+*/Aweray_Remote_*.zip*
 */awesome-burp-extensions/*
 */awesome-pentest*
 */aws__enum_account*
@@ -4802,7 +4840,7 @@
 */BypassFramework.py*
 */bypassuac/*
 */C2/Beacon/*.cs*
-*/c2/c2.go*
+*/C2/c2.go*
 */C2/Http/*.cs*
 */C2/server.py*
 */C2/SmbListener.*
@@ -5645,6 +5683,7 @@
 */etc/kidlogger*
 */etc/ld.so.preload && rm* process successfully hidden*
 */etc/letsencrypt/live/jprq.site/*
+*/etc/level/config.yaml*
 */etc/ltproxy.yml*
 */etc/pagekite.d*
 */etc/passwd*/.sudo_as_admin_successful*
@@ -5927,6 +5966,7 @@
 */getLegit/tsom*
 */getLegit/zijz*
 */get-loggedon/*.c*
+*/Get-LsaSecret.*
 */GetNPUsers.py*
 */Get-OSTokenInformation.ps1*
 */GetPasswords.ps1*
@@ -6557,6 +6597,7 @@
 */Invisi-Shell.git*
 */invocation:tor.service*
 */Invoke-Adeleginator*
+*/Invoke-ADEnum.git*
 */Invoke-ADSBackdoor.ps1*
 */Invoke-Bof/*
 */Invoke-CleverSpray.git*
@@ -6738,6 +6779,7 @@
 */kiwi.rb*
 */kiwi_passwords.yar*
 */klezVirus/CandyPotato*
+*/klg.ps1*
 */knqyf263/CVE-2022-0847*
 */knx-gateway-discover.nse*
 */knx-gateway-info.nse*
@@ -6816,6 +6858,8 @@
 */letmein.ps1*
 */LetMeOutSharp/*
 */LetMeowIn.git*
+*/level-windows-amd64.exe*
+*/level-windows-arm64.exe*
 */lexmark-config.nse*
 */lfs_injection.exe*
 */lgandx/Responder*
@@ -7644,6 +7688,7 @@
 */PassDetective.git*
 */passhash.sl*
 */passive_sqli.txt*
+*/PassSpray.ps1*
 */PassTheCert.exe*
 */PassTheCert.git*
 */PassTheChallenge.git*
@@ -7790,6 +7835,7 @@
 */POC_DLL.vcxproj*
 */PoC-CVE-2023-21554*
 */poisoners/*.py
+*/Poisoners-Session.log*
 */polenum.py*
 */PoolParty.cpp*
 */PoolParty.exe*
@@ -8159,6 +8205,7 @@
 */RDPCredentialStealer.git*
 */rdp-enum-encryption.nse*
 */RDPHook.dll*
+*/RDPKeylog.exe*
 */RDPMITM.py*
 */rdp-ntlm-info.nse*
 */rdp-sniffer.cap*
@@ -8274,7 +8321,7 @@
 */Remote/unexpireuser/*
 */RemoteAccessPolicyEnumeration.ps1*
 */Remote-administration-tools-archive.git*
-*/RemoteDesktop.exe*
+*/remotedesktop.exe*
 */RemoteHashRetrieval.ps1*
 */remoteit.exe*
 */remoteit.x86-win.exe*
@@ -8312,6 +8359,8 @@
 */responder/Responder.conf *
 */Responder/Responder.conf*
 */Responder-master.zip*
+*/Responder-Session.log*
+*/Responder-Windows.git*
 */rest_client_zrok/*
 */restic-*.tar.gz*
 */restic.exe*
@@ -8672,6 +8721,8 @@
 */SharpDPAPI.git*
 */SharpDump*
 */SharpDump.exe*
+*/SharpEdge.exe*
+*/SharpEdge.git*
 */SharpEDRChecker-*.zip*
 */SharpEDRChecker.exe*
 */SharpEDRChecker.git*
@@ -8699,6 +8750,7 @@
 */Sharp-Killer.sln*
 */SharpLAPS.exe*
 */SharpLDAP.git*
+*/SharpLogger.exe*
 */SharpMapExec.exe*
 */SharpMiniDump.exe*
 */SharpMove.exe*
@@ -8716,6 +8768,8 @@
 */SharpReg.exe*
 */SharpRoast.exe*
 */SharpRODC.git*
+*/SharpSC.exe*
+*/SharpSC.git*
 */SharpSCCM.exe*
 */SharpSCCM.git*
 */SharpSCCM/releases/download/*
@@ -8742,6 +8796,8 @@
 */SharpSpray.git*
 */SharpSpray-1.1.zip*
 */SharpSQLPwn.exe*
+*/SharpSSDP.git*
+*/SharpSSDP/*
 */SharpStay.exe*
 */SharpStay.git*
 */SharpStay/*
@@ -9198,6 +9254,7 @@
 */sudomy.api*
 */sullo/nikto*
 */sunlogin_rce*
+*/Suntour.ps1*
 */suo5.git*
 */suo5/releases/*
 */suo5-darwin-amd64*
@@ -9624,6 +9681,7 @@
 */usr/local/bin/cloudflared tunnel*
 */usr/local/bin/exegol*
 */usr/local/bin/jprq*
+*/usr/local/bin/level*
 */usr/local/bin/nullinux*
 */usr/local/bin/reverst*
 */usr/local/bin/sliver-server*
@@ -9652,6 +9710,8 @@
 */vainject.c*
 */vajra/phishApp.py*
 */Vanity_Dump.exe*
+*/var/lib/level/level.db*
+*/var/lib/level/level.log*
 */var/lib/ptunnel*
 */var/lib/tor/*
 */var/lib/zrok-*
@@ -10208,6 +10268,7 @@
 *[+] Downloading Fat Linpeas binaries*
 *[+] Downloading PS2exe and generating payload*
 *[+] DPAPI secrets exported*
+*[+] DpapiDump Loaded *
 *[+] DpapiDump Loaded*
 *[+] Dropping into shell*
 *[+] dropping suid shell*
@@ -10249,6 +10310,7 @@
 *[+] Hello from DllMain-PROCESS_ATTACH in Merlin*
 *[+] Hijackable DLL: *
 *[+] hijacking suid binary*
+*[+] HiveDump Loaded *
 *[+] HiveDump Loaded*
 *[+] HTTP Client Auth Context swapped with SYSTEM *
 *[+] HTTP reflected DCOM authentication succeeded!*
@@ -10258,6 +10320,8 @@
 *[+] Injected the * DLL into process *
 *[+] Injecting dropper.vba into *
 *[+] Injecting into existing process*
+*[+] Invoke-DCSync Loaded*
+*[+] Invoke-GrabTheHash Loaded*
 *[+] Invoking EfsRpcAddUsersToFile with target path: *
 *[+] Invoking EfsRpcAddUsersToFileEx with target path: *
 *[+] Invoking EfsRpcDecryptFileSrv with target path: *
@@ -10272,6 +10336,8 @@
 *[+] Invoking EfsRpcQueryUsersOnFile with target path: *
 *[+] Invoking EfsRpcRemoveUsersFromFile with target path: *
 *[+] Invoking EfsRpcSetEncryptedFileMetadata with target path: *
+*[+] Keylog saved to *
+*[+] Keylogger started *
 *[+] Keylogger started with PID *
 *[+] Keylogger started*
 *[+] Keylogger stopped*
@@ -10282,6 +10348,7 @@
 *[+] LSASS dump done!*
 *[+] LSASS Dump Read: *
 *[+] Malicious named pipe running on *
+*[+] Mimi Loaded *
 *[+] MIND YOUR OPSEC! Serving Pyramid files from folder *
 *[+] Minidump successfully saved to memory*
 *[+] My personal simple and stupid  Token Stealer... *
@@ -10308,6 +10375,7 @@
 *[+] popping root shell*
 *[+] Potenatially Hijackable DLL: *
 *[+] PowershellKerberos Loaded*
+*[+] PowerView Loaded *
 *[+] PowerView Loaded*
 *[+] PPID Spoofing has been disabled*
 *[+] printing b64encoded(zipped(cradle.py)) for scriptless execution on terminal:*
@@ -10371,6 +10439,7 @@
 *[+] Successfully updated extension names of fakedc GPO*
 *[+] Successfully uploaded GPO to SMB server *
 *[+] Sucessfully Dumped Process!*
+*[+] Sucessfully injected the shellcode into *
 *[+] Suitable Handle to LSASS Found from PID: *
 *[+] SysWhispers is not compatible with Obfuscator-LLVM; switching to GetSyscallStub*
 *[+] task has been created successfully  ..!*
@@ -10430,6 +10499,9 @@
 *[c0d3d p0is0n].exe*
 *[CamHacker]*
 *[D3m0niz3d]~#*
+*[Find-DomainUserLocation] Stealth enumeration *
+*[Find-InterestingDomainShareFile] Enumerating server*
+*[Get-DomainGPOUserLocalGroupMapping] Enumerating nested group memberships for*
 *[i] [HELL HALL] Press <Enter> To Run ... *
 *[i] AAD Join:*enumerate*
 *[i] Argument Spoofed.*
@@ -10442,6 +10514,8 @@
 *[i] Sending Encrypted SAM Save*
 *[i] Unhooked Ntdll Base Address: *
 *[info] TCP upload server started (tcp.pl)*
+*[Invoke-RevertToSelf] Token impersonation successfully reverted*
+*[Invoke-UserImpersonation] Alternate credentials successfully impersonated*
 *[IO.File]::ReadAllText(*stubps1tovbs.ps1*
 *[LOLSpoof] > *
 *[megaapi_impl.cpp:*
@@ -10494,6 +10568,7 @@
 *\*.O365.GroupMembership_AdminGroups.txt*
 *\*.O365.GroupMembership_VPNGroups.txt*
 *\*.O365.Roles_Admins.txt*
+*\*_AD-Audit_*.txt*
 *\*-internet-id-log.csv*
 *\.\pipe\$77childproc*
 *\.\pipe\$77childproc64*
@@ -10589,6 +10664,7 @@
 *\\swodniW\\:C*
 *\\system32\\msf.sys*
 *\\Users\\Fantastic\\Desktop\\DEMO\\plugins\\scripts\\*
+*\\Windows\\Temp\\Results.txt*
 *\\windows\\temp\\sam.tmp*
 *\\windows\\temp\\sys.tmp*
 *\\Windows\\Temp\\Yanri_res.rc*
@@ -10735,12 +10811,16 @@
 *\Alcatraz.exe*
 *\All_attack.txt*
 *\all_in_one_enum.ps1*
+*\Alpemix.ini*
+*\Alpemix.zip*
 *\AlphaControlAgent\obj\Release\AteraAgent.pdb*
 *\alphv1.txt*
 *\alphv2.txt*
 *\alphv3.txt*
 *\AlwaysInstallElevated.cs*
 *\AMMYY\access.log*
+*\Amnesiac.ps1*
+*\Amnesiac-main\*
 *\Amperage.exe*
 *\Amperage\Program.cs*
 *\Amperage_v2024.5.31_arm64.zip*
@@ -10786,10 +10866,16 @@
 *\AnyDesk\service.conf*
 *\AnyDeskPrintDriver.cat*
 *\anydeskprintdriver.inf*
+*\Anyplace Control - Admin.lnk*
+*\Anyplace Control\*
+*\anyplace-control.ini*
+*\AnyViewerSetup.exe*
+*\AnyViewerSetup.tmp*
 *\AoratosWin*
 *\APC_Injection.cpp*
 *\apc_injection.exe*
 *\APCLdr.*
+*\Apemix.exe*
 *\api_hooking.exe*
 *\Apollo.exe*
 *\Appdata\*\aloy64.exe*
@@ -10820,6 +10906,7 @@
 *\AppData\Local\Temp\*\Proxifier PE\*
 *\AppData\Local\Temp\*\server-3.3.5.0.exe*
 *\AppData\Local\Temp\*\server-3.3.5.0.msi*
+*\AppData\Local\Temp\*\zmstage.exe*
 *\AppData\Local\Temp\*_Radmin_3.*.zip*
 *\AppData\Local\Temp\Camera.ps1*
 *\AppData\Local\Temp\dwagent*
@@ -10849,6 +10936,7 @@
 *\appdata\roaming\*'DestPort'>4782</Data>*
 *\AppData\Roaming\AnyDesk\system.conf*
 *\AppData\Roaming\AnyDesk\user.conf*
+*\AppData\Roaming\Anyplace Control*
 *\AppData\Roaming\DameWare Development\*
 *\AppData\Roaming\freerdp*
 *\AppData\Roaming\NetSupport\*
@@ -10917,6 +11005,10 @@
 *\avred.py*
 *\avredweb.py *
 *\AWAYOKON-readme.txt*
+*\Aweray Remote.lnk*
+*\Aweray_Remote_*.exe*
+*\Aweray_Remote_*.zip*
+*\AweSun.exe*
 *\AzureC2Proxy\*
 *\AzureC2Relay*
 *\AzureHound.ps1*
@@ -11024,6 +11116,7 @@
 *\bin\uactoken2.x64.o*
 *\bin\wmiexec.x64.o*
 *\bin2hex.lua*
+*\BindShell.exe*
 *\bindshell.lua*
 *\BITB-main*
 *\bitdefender\getCredsbitdefender.h*
@@ -11101,6 +11194,7 @@
 *\c3pool\\miner.bat*
 *\c3pool\config.json*
 *\CachedGPPPassword.cs*
+*\cachedump.py*
 *\cAcTuS.readme.txt*
 *\cAcTuS.readme_2.txt*
 *\cAcTuS.readme_3.txt*
@@ -11277,6 +11371,7 @@
 *\CurrentControlSet\Control\SafeBoot\Network\AeroadminService*
 *\CurrentControlSet\Control\SafeBoot\Network\ScreenConnect Client (*
 *\CurrentControlSet\Services\AeroadminService*
+*\CurrentControlSet\Services\AlpemixSrvcx*
 *\CurrentControlSet\Services\BadWindowsService*
 *\CurrentControlSet\Services\bam\State\UserSettings\*\MicrosoftCorporationII.QuickAssist_*
 *\CurrentControlSet\Services\Mesh*
@@ -11804,6 +11899,7 @@
 *\ft.exe" /load*
 *\ft.exe" -install*
 *\FtpC2\*
+*\FTP-Clear-Text-Password-*.txt*
 *\FudgeC2*
 *\FWUprank.ps1
 *\g2comm.exe*
@@ -12039,7 +12135,10 @@
 *\HTMLSmuggler\*
 *\http_exfiltration.py*
 *\http_SCNotification.exe
+*\HTTP-Clear-Text-Password-*.txt*
 *\HTTP-Client.ps1*
+*\HTTP-NTLMv1-Client-*.txt*
+*\HTTP-NTLMv2-Client-*.txt*
 *\httprelayserver.py*
 *\http-request-smuggler\*
 *\HTTP-Server.py*
@@ -12074,6 +12173,7 @@
 *\Ignis RAT V1_YKW.exe*
 *\iis_controller.py*
 *\Ikeext-Privesc*
+*\IMAP-Clear-Text-Password-*.txt*
 *\impacket.*
 *\impacket.zip*
 *\impacket-out\*
@@ -12114,7 +12214,7 @@
 *\InternetConnect_x64_Release.exe*
 *\InternetIdService.exe*
 *\InternetIdService_*-*-*.txt
-*\Inveigh.exe*
+*\inveigh.exe*
 *\Inveigh.ps1*
 *\Inveigh\bin\*
 *\InventoryApplicationFile\aeroadmin*
@@ -12125,6 +12225,8 @@
 *\InventoryApplicationFile\tacticalagent-v2*
 *\InventoryApplicationFile\ultravnc_*
 *\InventoryApplicationFile\zaservice.exe*
+*\Invoke-ADEnum\*
+*\Invoke-ADEnum-main*
 *\Invoke-ADSBackdoor.ps1*
 *\Invoke-Bypass.ps1*
 *\Invoke-DCOM.ps1*
@@ -12241,6 +12343,7 @@
 *\Kirby.ps1*
 *\kitten.exe*
 *\KittyStager*
+*\klg.ps1*
 *\Koh.exe*
 *\Koh.pdb*
 *\Koh\Koh.*
@@ -12254,6 +12357,7 @@
 *\KrbRelayUp.exe*
 *\KrbRelayUp.lib*
 *\KrbSCM.cs*
+*\krbtgtAccounts.json*
 *\KRBUACBypass*
 *\ksjjhav.log*
 *\kuhl_m_sekurlsa.c*
@@ -12278,6 +12382,8 @@
 *\lazagne.zip*
 *\ldap_search_bof.py*
 *\ldap-checker.py*
+*\LDAP-Clear-Text-Password-*.txt*
+*\LDAP-NTLMv1-Client-*.txt*
 *\ldapper.py*
 *\LDAPPER-master*
 *\ldapph.db*
@@ -12286,6 +12392,10 @@
 *\LdrLockLiberator.c*
 *\LdrLockLiberatorWDK.c*
 *\letmein.ps1*
+*\level.exe*--check-service*
+*\level-remote-control-ffmpeg.exe.download*
+*\level-windows-amd64.exe*
+*\level-windows-arm64.exe*
 *\lfs_injection.exe*
 *\liblsarelay.dll*
 *\liblsarelayx.dll*
@@ -12368,6 +12478,7 @@
 *\logs\baseconsoleapp_*.log*
 *\logs\basupclphlp_*.log*
 *\Logs\DNTU.log*
+*\logs\RCService.txt*
 *\Logs\rut_log_*.html*
 *\LokiRAT_Relapse.exe*
 *\lolbin.exe*
@@ -12380,6 +12491,7 @@
 *\Look at this instruction.txt*
 *\lookup-sid.py*
 *\looneypwner.sh*
+*\lsadump.py*
 *\lsarelayx.cpp*
 *\lsarelayx.csproj*
 *\lsarelayx.sln*
@@ -12562,6 +12674,9 @@
 *\mspxtshlpsrv_*
 *\mspxwebcom.dll*
 *\mssql_priv.py*
+*\MSSQL-Clear-Text-Password-*.txt*
+*\MSSQL-NTLMv1-Client-*.txt*
+*\MSSQL-NTLMv2-Client-*.txt*
 *\mstscfox.dll*
 *\MultiDump.c*
 *\MultiDump.exe*
@@ -12882,6 +12997,7 @@
 *\Parasite-Invoke-main*
 *\ParsedMalleableData.txt*
 *\parsers\nessus.py*
+*\PassSpray.ps1*
 *\PassTheCert.cs*
 *\PassTheCert.exe*
 *\PassTheCert.sln*
@@ -13017,6 +13133,7 @@
 *\POC_DLL.dll*
 *\POC_DLL.vcxproj*
 *\Pocket RAT - Client.exe*
+*\Poisoners-Session.log*
 *\PoisonTendy\Invokes\*
 *\polenum.py*
 *\PoolParty.cpp*
@@ -13027,6 +13144,7 @@
 *\PoolParty-PoolParty\*
 *\pop_exfil_client.py*
 *\pop_exfil_server.py*
+*\POP3-Clear-Text-Password-*.txt*
 *\port_reuse.py*
 *\port_scan.py*
 *\portbender.*
@@ -13063,12 +13181,13 @@
 *\PowershellKerberos*
 *\PowerShellRunnerDll.h*
 *\Powershell-Scripts-for-Hackers-and-Pentesters*
+*\PowerSploit*
 *\PowerTools.ps1*
 *\PowerTools\PowerPick\*
-*\powerup.exe*
+*\Powerup.exe*
 *\PowerUp.ps1*
 *\PowerView.cna*
-*\PowerView.exe*
+*\Powerview.exe*
 *\PowerView.ps1*
 *\PowerView3.*
 *\ppid_spoofing.exe*
@@ -13129,18 +13248,25 @@
 *\progra~2\damewa~1\remoteshell\*
 *\Program Files (x86)\Advanced IP Scanner\*
 *\Program Files (x86)\Advanced Monitoring Agent\*
+*\Program Files (x86)\Anyplace Control*
 *\Program Files (x86)\Atera Networks*
 *\program files (x86)\gotomypc\g2tray.exe*
 *\Program Files (x86)\IObit\IObit Unlocker*
 *\Program Files (x86)\KidLogger*
+*\Program Files (x86)\Level\*
 *\Program Files (x86)\RemotePC\*
 *\program files (x86)\remotepc\remotepcperformance\*
 *\Program Files\Advanced Monitoring Agent\*
 *\Program Files\Atera Networks*
 *\Program Files\AutoHotkey*
+*\Program Files\Aweray*
 *\Program Files\CyberGhost*
 *\Program Files\FreeFileSync*
 *\Program Files\IObit\IObit Unlocker*
+*\Program Files\Level\level.db*
+*\Program Files\Level\osqueryi.exe*
+*\Program Files\Level\winpty.dll*
+*\Program Files\Level\winpty-agent.exe*
 *\Program Files\remoteit*
 *\Program Files\SIBER SYSTEMS\GOODSYNC\*
 *\Program Files\SubDir\Client.exe*
@@ -13152,6 +13278,7 @@
 *\ProgramData\Aeroadmin\*
 *\ProgramData\AMMYY\*
 *\ProgramData\Amperage*
+*\ProgramData\Anyplace Control *
 *\ProgramData\asrephashes.txt*
 *\programdata\bomgar-scc-*
 *\ProgramData\LogMeIn\*
@@ -13325,6 +13452,7 @@
 *\RDPCheck.exe*
 *\RDPCredsStealerDLL*
 *\RDPHook.dll*
+*\RDPKeylog.exe*
 *\RDPMITM.py*
 *\RdpStrike.asm*
 *\RdpStrike.cna*
@@ -13426,7 +13554,7 @@
 *\remoteaccess-jar-with-dependencies.jar*
 *\RemoteAccessPolicyEnumeration.ps1*
 *\RemoteCamera.dll*
-*\RemoteDesktop.exe*
+*\remotedesktop.exe*
 *\RemoteDesktop_x64.msi*
 *\RemoteHashRetrieval.ps1*
 *\remoteit.exe*
@@ -13506,6 +13634,7 @@
 *\ResolveDnsNameCommand.cs
 *\Resources\Disks-NoEncryption.txt*
 *\resources\PROCEXP.sys*
+*\Responder-Session.log*
 *\restic-*.tar.gz*
 *\restic.exe*
 *\RESTIC_*_WINDOWS_AMD64.E-FC5783E7.pf*
@@ -13821,6 +13950,10 @@
 *\SharpDPAPI.exe*
 *\SharpDPAPI\*
 *\SharpDump.exe*
+*\SharpEdge.csproj*
+*\SharpEdge.exe*
+*\SharpEdge.sln*
+*\SharpEdge-master*
 *\SharpEDRChecker-*.zip*
 *\SharpEDRChecker.cs*
 *\SharpEDRChecker.exe*
@@ -13848,6 +13981,7 @@
 *\Sharp-Killer.sln*
 *\SharpLAPS.exe*
 *\SharpLDAP\*
+*\SharpLogger.exe*
 *\SharpMapExec.exe*
 *\SharpMiniDump.exe*
 *\SharpMove.exe*
@@ -13868,8 +14002,10 @@
 *\SharpRoast.json*
 *\SharpRODC.*
 *\SharpRODC\*
+*\SharpSC.exe*
 *\SharpSCCM.exe*
 *\SharpSCCM-main*
+*\SharpSC-main*
 *\SharpSearch.exe*
 *\SharpSecDump.exe*
 *\SharpShares.exe*
@@ -13897,6 +14033,9 @@
 *\SharpSpray\*
 *\SharpSpray-1.1.zip*
 *\SharpSQLPwn.exe*
+*\SharpSSDP.csproj*
+*\SharpSSDP.sln*
+*\SharpSSDP\*
 *\SharpStay.exe*
 *\SharpSvc.exe*
 *\SharpTask.exe*
@@ -14000,16 +14139,21 @@
 *\SMB_RPC\*.py
 *\smb_SCNotification.exe*
 *\SMB_Staging.c*
+*\SMB-Clear-Text-Password-*.txt*
 *\SMBGrab.pl*
 *\SMBHunt.pl*
 *\SMBList.pl*
 *\smbmap.py*
+*\SMB-NTLMSSPv2-Client-*.txt*
+*\SMB-NTLMv1-Client-*.txt*
 *\smbrelayserver.py*
+*\SMBRelay-Session.txt*
 *\smbsr.db*
 *\smbsr.log*
 *\smbsr.py*
 *\smbsr_results.csv*
 *\Smeagol.log*
+*\SMTP-Clear-Text-Password-*.txt*
 *\smuggler.py*
 *\SmugglingCmdlet.csproj*
 *\SmugglingCmdlet.sln*
@@ -14027,6 +14171,7 @@
 *\socks5proxy.py*
 *\SoftPerfect Network Scanner*
 *\SOFTWARE\Ammyy\Admin*
+*\Software\AweSun\SunLogin\SunloginClient*
 *\SOFTWARE\Classes\.ahk\*
 *\SOFTWARE\Classes\AutoHotkeyScript\*
 *\SOFTWARE\Clients\Media\AnyDesk*
@@ -14178,6 +14323,7 @@
 *\strwinclt.exe*
 *\Suborner.sln*
 *\suncrypt.html*
+*\Suntour.ps1*
 *\suo5-gui-darwin.app.zip*
 *\suo5-gui-windows.exe*
 *\suo5-windows-amd64.exe*
@@ -14222,6 +14368,7 @@
 *\tailscaled.go*
 *\tailscale-setup-*.exe*
 *\TakeMyRDP*
+*\TakeMyRDP.pdb*
 *\tap-windows-*.exe*
 *\TaskCache\Tree\VSA XServiceCheck*
 *\Tasks\bypass-clm*
@@ -14280,6 +14427,7 @@
 *\Temp\fsdgss.log*
 *\temp\ft.exe*
 *\temp\hollow.dll*
+*\Temp\install_windows.exe*
 *\Temp\lsass.dmp*
 *\Temp\nxc_hosted*
 *\temp\pwned.trx*
@@ -14303,6 +14451,7 @@
 *\TestNetConnectionCommand.cs
 *\tests\beacon64.bin*
 *\TGSThief\*
+*\TGT_Monitor.ps1*
 *\thanatos.dll*
 *\thanatos.exe*
 *\the-backdoor-factory\*
@@ -14337,6 +14486,7 @@
 *\Token grabber.dll*
 *\TokenDump.exe*
 *\TokenExfiltereter.cs*
+*\Token-Impersonation.ps1*
 *\TokenPlayer.cpp*
 *\TokenPlayer.exe*
 *\TokenPlayer\TokenPlayer\*
@@ -14454,6 +14604,7 @@
 *\Users\Public\*ntds.jfm*
 *\users\public\desktop\Fix-Your-Files.txt*
 *\Users\Public\Desktop\TVTest.tmp*
+*\Users\Public\Documents\$($env:USERNAME)log.txt*
 *\Users\Public\DtcInstall.txt*
 *\Users\Public\nc.exe*
 *\Users\Public\revshell.exe*
@@ -14584,6 +14735,7 @@
 *\windows\temp\ncat.exe -nv *
 *\Windows\temp\payload.bin*
 *\windows\temp\pwned.trx*
+*\Windows\Temp\Results.txt*
 *\windows\temp\sam.tmp*
 *\Windows\Temp\ScreenConnect\*.cmd*
 *\Windows\Temp\ScreenConnect\*.ps1*
@@ -14746,6 +14898,7 @@
 *] Check for ADCS Vulnerabilities*
 *] Cleared all rat command queues!*
 *] Cloning GPO * from fakedc 
+*] Collecting Krbtgt*
 *] compile geacon with the public key from .beacon_keys*
 *] Completed Privesc Checks in *
 *] Creating c3pool_miner service*
@@ -14896,8 +15049,11 @@
 *~/.csexec*
 *< /dev/console | uudecode && uncompress*
 *</NetRipper>*
+*<\Level\Level Watchdog>*
 *<3 eo.oe*
 *<a href="rutils:*
+*<Alpemix>*
+*<AlpemixWEB>*
 *<CoffeLdr.h>*
 *<Data Name="RelativeTargetName">delete.me<*
 *<Data Name='OriginalFileName'>AdExp<*
@@ -14933,6 +15089,7 @@
 *<Provider Name='ScreenConnect Security Manager'/>*
 *<Provider Name='ScreenConnect Web Server'/>*
 *<SessionId>: list/steal token from specific session*
+*<Teknopars Bilisim>*
 *<title>Dynasty Persist</title>*
 *<title>PrivescCheck Report</title>*
 *<title>Sosyete Safe Mode Bypass Shell -*
@@ -14979,8 +15136,16 @@
 *>--~~--> Args? <--~~--<*
 *>> Where to hide the payload? Select a number: *
 *>Active Directory Editor<*
+*>Anyplace Control Software<*
+*>AnyViewer Setup<*
+*>AnyViewer<*
 *>AutoHotkey installer<*
 *>AutoHotkey Setup<*
+*>Auvik Networks Inc.<*
+*>AweRay Limited<*
+*>AweRay Pte. Ltd.<*
+*>AweSun.exe<*
+*>AweSun<*
 *>Bomgar Corporation</Data>*
 *>BrowsingHistoryView<*
 *>CursorSvc<*
@@ -15003,6 +15168,7 @@
 *>jprq - join public router*
 *>JSP Backdoor Reverse Shell<*
 *>KerberOPSEC</*
+*>Level Software, Inc.<*
 *>Make Me Admin<*
 *>MakeMeAdmin<*
 *>MDE_Enum<*
@@ -15026,6 +15192,7 @@
 *>Proxifier Setup<*
 *>Quick Assist Component<*
 *>Remote Desktop PassView<*
+*>Remote device management - https://level.io<*
 *>Remote Support Customer Client</Data>*
 *>Remote Utilities - Viewer</*
 *>Remote.it<*
@@ -15404,6 +15571,7 @@
 *0c28929dbbc6cfe733ed93670025f18f03642a4b323d7fd123ae63c9366afc31*
 *0c2b8e134f235970726f41712824ce62f42635e4bd647dfcdb58c8fff88cff36*
 *0c3379e3cc4fab5cbf1ce0aff52559da191a2b97c6fa27d5122232649f78e7cc*
+*0c509e431004929c0aaa10ba671db16a8d02003ac17419fdc31687bf9747e4b6*
 *0c64315cdf7bd0e51e76f04510c91d931b8b4de73f06ea7931666e62cb34739f*
 *0c649fe30b4986eff17b3913a02a89728126d530298659f1fe1ea07570428c2b*
 *0c6710b58b9054fd232c624dae29020bc765c962ae095a3eb53a0981379689b8*
@@ -15438,6 +15606,7 @@
 *0d1n * --post * --payloads *
 *0d1n --host*
 *0d1n*kill_listener.sh*
+*0d21ae4c38549782f8b066155b671b2a356721209a5ecaa64bba6edcc6e2f97e*
 *0d2536112fc0b0960f00bf8d8b8a824dd0bcaf9b46336398edc11f2fdab63ecf*
 *0d33356f9addc458bf9fc3861d9cafef954a51b66412b1cfc435eede351733f1*
 *0d6730ca52c1a887006e318a677aa70ed059c67c4bb82af56fec792b2a72e1c9*
@@ -15458,6 +15627,7 @@
 *0dd41d5c99202fa4387bb5b9db7ce55236fc913b65e3a9fb58f697d3480f14ef*
 *0de61f6d712f44fd8337794c3d933d3e0de24bae9235383904541997c604b47a*
 *0DE8DA5D-061D-4649-8A56-48729CF1F789*
+*0de968ffd4a6c60413cac739dccb1b162f8f93f3db754728fde8738e52706fa4*
 *0df149772508a04604ef6e5a1bd46715b95c81bd327e0ab9ca912d82a0bc82b4*
 *0DF38AD4-60AF-4F93-9C7A-7FB7BA692017*
 *0DF612AE-47D8-422C-B0C5-0727EA60784F*
@@ -15745,6 +15915,7 @@
 *162b04e6c89653b10bd38def513051067393d9080afd777210b0ce44f1a7d9fe*
 *162bc32dbc28b62c3a6bcaa33b83f4a99ca60453b229d35d0ae5bc1e80b98673*
 *16323ccc9d39811ba9388ec8121d47246139d82658b85e7a090da15e4cf8bd1b*
+*16337f81bede48a56cba8329bfe3cf02153c96d1e3650112ecdb03f58b25b17d*
 *1637c5d66df6ce383aee2ab51e305ae9b654cfb4ceb21cf09d5123a54d7d7b7d*
 *1640fb593deccf72c27363463e6001a1ced831f423b00c8687555115f9365bec*
 *1643e037fc61ff8a14184176044145d17ce1ef2bbf9fc7c2e0d1679853d9ec74*
@@ -15851,6 +16022,7 @@
 *19d9a81e3487b8a0624b927ca9a0703a716a383d41d61a22d4a1e20777713923*
 *19dc8d8108bab9207905b08b57193efc9fd4e13f2cb901c7ca1ffd727cd62e4a*
 *19e7a5fd08ffa93823b623f349a5922b026253d535381ced0ab0e107d1a67069*
+*19f46bd0cecc1c03859e2a19b2041f6538f4e43aa3124b3eaaec00767381935f*
 *19f900f1332f1cb5895c079d90c982f7eae6cb67f989116a3cbba5101fbbe9b1*
 *1a1a729fe607c59dae787bc5322efcf8cc5a9e87623c6d10e2a08531829bb9fb*
 *1a1b2883ad2c55fe3a1d4544bc1401e92a0b98148d85f6e5fdaa54154ba5a2e8*
@@ -16026,6 +16198,7 @@
 *1FDCAD33-E5D1-4D5F-ACD5-FA6F8661DFE5*
 *1fe3604bdf69ff5a881a77258a10583a3fea5958aaab958ee4c22080635f64ba*
 *1fe64b366408022e4d61c1e37f64e268f7e72f4d351425df36c35fb1cfc534fd*
+*1fe92c614cbb39738a9726a5d970ac526f579b7e146c65ecd02cf6d4e7d563c1*
 *1ff55dc3672f99ad539c438efcaac7d6311afbe8b0dd8828d20e15c9b0d6e595*
 *1ff7731d1b7af7110f27796e0fecb551cb5067030aa7d87e333d46f3f57f4214*
 *1ffe0ceded7146d5b921b40dc941e4e1db10feb40e68dbd4919da143541b9614*
@@ -16140,6 +16313,7 @@
 *237f52a3509094464bb92f82a4908a60c7a4cc9db9748f0cc254e75311bb8b0d*
 *2380b9b4e364c67332ead5d26bf108ef9a022ffe93c421d27d953ea9a5500474*
 *238214970b5fba5a7eab8d9fb50c79da888018ff2a63ad49d1114b8d478d559a*
+*2388c7f7f1073b922d235f675e32e1b6b8809dcef1cce1113bf712402cbad1cd*
 *23975ac9-f51c-443a-8318-db006fd83100*
 *2398f4a8e53345325f44bdd9f0cc7401bd9025d736c6d43b372f4dea77bf75b8*
 *23a1cde43eee4ebc3c7082d5827672fbf974b25a4cdf368538e4b0af26fda677*
@@ -16171,6 +16345,7 @@
 *24aae23bcf8b0a513988d69b1526eebd791007136a1faf08ea1df5a8d3884e50*
 *24b3db5da23d7a56cfff2480ff4fb63ccb8fad4522c490b4478a22711a3ffa1c*
 *24C53132B594B77D2109CAEE3E276EA4603EEF32BFECD5121746DB58258C50F7*
+*24d7bda466850d93fc1883a3937e1317fbb3f9e631ab0d2a4fa0b45c2c21c24f*
 *24f8d15c5c09600a2138153f68eebed5831b31d90ae785bf4d25c6129afe2be5*
 *24fccce2e9c6684480bfd8ac0e9ea3e36d4203922fa5a39ae9f63bc0542f68f5*
 *25125be2945ae98284abb64b279fe13021d1d02895b85a4e02a4fcd6ec8415cc*
@@ -16239,6 +16414,7 @@
 *26ee5086d8cc0404b7088ebe9e121e090261ce9185a9d4bf2394504fc8415f45*
 *26f5c3b1de7bc524883c2f5620ac07e5bed58bc8149a9d1ecafa47d586a5693a*
 *26fcb5597cb7d3eddd3bb24440de6555b3d34af4c9a3874b71fa27aff18ea3d5*
+*27049d9f4a7125e9be92e84edcad5dc118bc8503920fb3250b3e2f7577370b49*
 *270a5bef7babe4f56bdb59cb9af2b506d019e33b1d9399f42f361bf5655007b1*
 *2711dda772bc1073c031d6044b5fe5eddc6943420ebd7e214e0b5e60adcd89d6*
 *272175f4d98a6ab59e2f589ba7391fc36659b04d0f27f9cb6a300cf49dfd2016*
@@ -16357,6 +16533,7 @@
 *2bedfede524b3c27ab02fcdc3fd4b7e54c1aa83cad0e7642ff4c70700f51355a*
 *2bf454abbd1446061cac6ee9f57b12c572c07a3093e45e29b0cdc088ab18238e*
 *2c02d8f219e83bea4bb4c9ddf1222bdabc068f656992e967dc702e70a1aafd80*
+*2c03dc7ed9a0770af9e8ba9c8fffa0e8b8ffcdf1f7efe5d2d33a32fe736989cd*
 *2C059FE7-C868-4C6D-AFA0-D62BA3C1B2E1*
 *2c08ea21df4710665340d0e5c3166db390dbc1edeb5ea9cd00f3d80c2523ac07*
 *2c183c4c53ddb0419f401cf690f16ccbeefc829f09fafca2a19700665c322cbc*
@@ -16487,6 +16664,7 @@
 *310d3ef0d6aedac04e40ec62115f8d44d06a57a058030cc1a99e2d6665187eb7*
 *310FC5BE-6F5E-479C-A246-6093A39296C0*
 *3112a8da28bf74a57ed30ef6ee827f6f832e3053db1ec04fc0f465b6e0c2f2d0*
+*31218c2e08ddf852de490f4d48d3d5751c3bc66ae9a73c815421dd20cd6b748e*
 *313624d826ed99d5bb9dce9401b5459c57addec56744a917516aae5a683d6c44*
 *314215d36ba200db6ce4ea71ff15203b3b048203621329269801c6c27042ba7c*
 *3150f104ac2f5f1eead627411f14fdc43e50e18aaba185cdfba03cd99475dfac*
@@ -16539,6 +16717,7 @@
 *332436f5e6ee1c744ab5c658cc360e3d9f084e39ba583d8b2bcbf2e36f68a7fb*
 *33323e73135262eaea63742b1c638a42fd535238c2bf2e6baa1b42fb593b0ddd*
 *3342b13f536e40d34e2a0155667854ddd3904c193db870c7c759365530b2ae82*
+*334ec9e7d937c42e8ef12f9d4ec90862ecc5410c06442393a38390b34886aa59*
 *335628fdb196d750906961db6ce9ec4c35fb7c16f6883c441c6c620468e273c1*
 *3356e2d9bb13604bd6e11826ef39f433f6b847c7d3d172e33ceb7d9da779c079*
 *33571B09-4E94-43CB-ABDC-0226D769E701*
@@ -16618,6 +16797,7 @@
 *3658b250fc3dd383aa2a7cc2add77d00e005129ba54fdf5fdd20570ced68c72f*
 *365-Stealer.py*
 *365-Stealer-master*
+*3660fe9f10b94d38fecaea009e6625850a46b1d47bb7788fc47f286c1008e2ec*
 *366294485d6a2c872b0ebf033cb129a23ed2fce4ca2dc3e7905cb49a808ba7a6*
 *36855e25edfdc11367442a67a436dbb0cc79454dbf92435de3e6017f25378703*
 *3688991da39646b2fb375ce860fc34e29341598abb35e10ddc9f4650460a1f2c*
@@ -16634,6 +16814,7 @@
 *36c88f1852f3c162bf64d973bb6f69ffb7e22503015e104716fc51eaddcbe875*
 *36cbfc729051ef456ce4f71973619ce33c05ef4c3072a6cdf4e1ff555ab5a231*
 *36d16c928a88a7a600fb6d3599f13e1b601c79b0eafd7cb1e2dde43d42893d0f*
+*36E00152-E073-4DA8-AA0C-375B6DD680C4*
 *36e59507a58d54c025b62c0ef2699382e6ca9211062540ee263544bf54854768*
 *36ea25323b263a1ac1d300a2bd8267905eaa7d752fd9e7d7b4ec40f836c737a6*
 *36EBF9AA-2F37-4F1D-A2F1-F2A45DEEAF21*
@@ -16656,6 +16837,7 @@
 *378f6e87219651f96e607e40c229e5f17df4ad71836409881fe3cc77c6780ac7*
 *379331177374643353a85fea9cd5934f1207a0fc6bb2370b658090240263ccbd*
 *37aaa060ddae57e5457ffc47f65362682d64da54775c2211705b8a7becc9e657*
+*37B9B43761672219E98BFA826E7AF17E799592BC57ACBC4AAC38DAF5EFAAF653*
 *37bc6496577a618cfba0ea53759dabf7e01e218ede999d5290d32040cd219eba*
 *37c8e2bf772fd684c117fbf61f18c99e5d2e7c7a00cd175534e32f9835fb72e3*
 *37da8267b295caeca8fadb13206ba1c498a7012673430c5d856fe93862446a28*
@@ -16757,6 +16939,7 @@
 *3b5cbf0dddc3ef7e3af7d783baef315bf47be6ce11ff83455a2165befe6711f5*
 *3b61efcac1e3a7512a89d104037349f917e562139db0f92c28de29b2e216f82f*
 *3b66b9ef669a7aca55f87ccce04ab1849d23d18c522b5f2514ca0637398ca250*
+*3b6a44069c343b15c9bafec9feb7d5597f936485c68f29316e96fe97aa15d06d*
 *3b73d2414403cb76345c4885921348b96a63499c04027df1cba8b9825959bc1e*
 *3b765fc9d51180b7ff8c93aa1ab9369fdff33f5ec4ebc4c2e913f8355ca12903*
 *3b76d79a32202f1cdbae1e5ed949ee7a75f373a9280fbdfd15a6cc4490a1b595*
@@ -16779,6 +16962,7 @@
 *3c1785d7fa372507bd98842717b7bc12744b15f7a7a97856790f664561c959c2*
 *3C21F82B-B958-457A-82BB-B8A795316D3D*
 *3c27f3968cf79a0b5e9402eea64b259d0b4e22d08932281a20ff9a67a472911c*
+*3c2ff027b13ba2b710d9ce7055cebd5e220b2713b12c765598bf0bcef9dc3cef*
 *3c3a96d02e34589d314b230c417b122970e492282767211866c8ac042e8bd556*
 *3c4ba52ba41f4b7f3d87a8817dcb01838345e9bf1bd574aab09041905d5bde82*
 *3c4e769a29f03bcc9e998adcd1281142abfb5ff1dd66da5a435830a1cff34217*
@@ -16787,6 +16971,7 @@
 *3c5d50fa8f74bb4bf13e8b086490bc1d520b0a03b56e8d2b2f3ef65bbab2486a*
 *3C601672-7389-42B2-B5C9-059846E1DA88*
 *3c625eb5dbccce53faab97b9bfd0ef14f6c08730eae0d6442d201a64597c96ea*
+*3c6898fa2726b6487fcb12b854021b4e23f984e2bcdf5b5fe300c36cec2ad1a4*
 *3c6bef218514ed8b5f4b07dac9005fa1f844750589c60d9c39e8ac2c2b6c6373*
 *3C8AA457-3659-4CDD-A685-66F7ED10DC4F*
 *3c9e03e28899ba18e42f51006f7d94192fbae009885fd91cfc75b354cffebf58*
@@ -16816,6 +17001,7 @@
 *3d86ecb9e14e7d1a86e16fa28b61fed96ca5bb9dccbfc1c2f8d1231325755ef1*
 *3d99d90feac8540dcb9639318d5e3ef96726b11f58d418d08023117ff7fcd9fc*
 *3d9b9f20cf22e17016d2e46bbf85f4e1dbb605959e8ed288bac7daf67cbff731*
+*3D9D679D-6052-4C5E-BD91-2BC3DED09D0A*
 *3d9e27be3e47c7e35f0a8b3cc989ec9fe4915f323518fc380a64c080a752a7a7*
 *3da0eb5c83daa77c9e52759d3b668774b0bccbe16b87c74301ec08979ffb15d4*
 *3da905463c66fecfe69d608e98c6cd1defda607d176a73f2b38192a79db3fc65*
@@ -16827,6 +17013,7 @@
 *3dc341f1a1daa80084699b292d0493012a3a85a5cbc157f6984c04def0d2dce7*
 *3dca957edf214b435721c18bbacef52a660d618150453589bd95631eb92b5cc8*
 *3dcf212a13eccca01b047a9becb99480bfbb9d0ad9b095407ca9b3546c429274*
+*3DDF7FBB35EC90BCF15E723F1445EEB71E71C9757243EFEC1CEB4E74A10A1D9F*
 *3dec7fe9898d3e4b31c6d61a1316390572bc6964128f14ad1595e4b252e10085*
 *3df5882d88914a064cbba240e1b3615c69c432f807f949a80d0d4b5a9f44ef77*
 *3e02ce91331011e03e8de89723c52367ff14d75f7f81b94ad3741f9cc56c5736*
@@ -17142,6 +17329,7 @@
 *47ab8ed046a22fb188930af037aa05a7f74e3e39331d56c32d736589f7ac78b2*
 *47adbdef1e6009d49324930f31963210ebaf0f9a3e8cb293f027d81c1aedc309*
 *47b8e0993b997e7f465802945187521ba8c68592af990215cdf43bef121f8df7*
+*47d121087c05568fe90a25ef921f9e35d40bc6bec969e33e75337fc9b580f0e8*
 *47e0483c22d1a0554dfa2b9b51895e866932b4c7269dee4ccc6ad41b3e433abc*
 *47e4818c3db3471c950cdb4c4732232bafc584997098c92ada8a0f720e2ad448*
 *47eb5cfc14028872dab22f2202be7f5df00288463ca798191286ddb99bf7b34f*
@@ -17239,6 +17427,7 @@
 *4c02774a5edb8a559beebcb64833177a893b49fb8eb9bfd2e650155a207c7ba7*
 *4c069fe55bd14ff52667766cd057196992b0275c78a2d8d7139b7d57c90234fa*
 *4c0700a6f8d222d9b2023a800e0f286fc43e0354ec23ea21f9344adfd2fe12c8*
+*4c0fdf591ecec6aaeb3b6529f7b3800125910f16bc23496ba279a4bee0c2361c*
 *4c12c1e287a1fcf28bb7a542fc5c355c42bd8e65db20f7a8b77d58edae502af4*
 *4c1c75f1a66eab31836ec53726fc47591a534688e79a5818ef63c1682de88cd5*
 *4c22a00104b52b74247f83b5c50ca09d5e9ed2db3d7d1843fe75fc283d50ffb1*
@@ -17302,6 +17491,7 @@
 *4db3484ba73cd09d06aeee140adcd85fb6c72fb76d05a86ae95fb27e9c795e45*
 *4db9721f4c76b487e34fa87bb6a76632fb37873de18982892268a70b18b8a4a9*
 *4dbcad57d73bd7245c37f330719add5e842b4c8dd7830039ce50ca2d615ffe16*
+*4dbd32931bc77778850c20282a9e3adebd4d23b7ef4b0635380b520c432b48d9*
 *4dc4fec23df1e9a1fcd37f4edf731466f14eefa9eded63a3387ee14adf70e104*
 *4DD3206C-F14A-43A3-8EA8-88676810B8CD*
 *4ddc82b4af931ab55f44d977bde81bfbc4151b5dcdccc03142831a301b5ec3c8*
@@ -17373,6 +17563,7 @@
 *505152535657556A605A6863616C6354594883EC2865488B32488B7618488B761048AD488B30488B7E3003573C8B5C17288B741F204801FE8B541F240FB72C178D5202AD813C0757696E4575EF8B741F1C4801FE8B34AE4801F799FFD74883C4305D5F5E5B5A5958C3*
 *5059f0c09b5561445b48a8566a3754caf1472f8539194b35428bb3ff7690f06e*
 *505bb78684c53f9fb96c92611bbd7ed7096c166f3621fc602b4f0402e0605621*
+*5062dae017d539693b9e6cef1cf8018aa4963b6a01ef2614cff020fd85f8ba07*
 *5067F916-9971-47D6-BBCB-85FB3982584F*
 *506efcecbd3508595df39add1b44c29682bd595e2b1f6ac11476baa4a5ddabc8*
 *5071ae9c0b80dd380ce78be640a8116f262c9a22ffe54cbbb062e9922ab18776*
@@ -17490,6 +17681,7 @@
 *5494EDD3-132D-4238-AC25-FA384D78D4E3*
 *549f93a48257b5d2003ff8faa655e0f8509f53d052eac0d952b06508caa05ef9*
 *54a2a04e9a0ac34095592b4475306313c5a8026c862e442d073d63bf192893f2*
+*54a43829632b2b9984076cb2e24c2d4cbd5e50c410eb4320591e3fc347dec662*
 *54b2757e66ac5e8173d2af618fed10afc4c3b28d02c6324847c24d8bb17c8a45*
 *54b3370eb307a1b726f60f1c1accfb1159feb6e38d6dfda1fe1c6c1d09f79446*
 *54b65d41295622a4039388c986b9df46b81960d797db9b436179c6b3d1a6b82f*
@@ -17607,6 +17799,7 @@
 *5829a7b027c1fe0c12ba6e6fa4e53e8d21c94de346c0c3919a73da2565561979*
 *582b8f96d51ff83c2daf3970faa3c141a18dc8b1af0b23a3dc40aee1d04c6702*
 *58338E42-6010-493C-B8C8-2FD2CFC30FFB*
+*583409661e2afdf55553b7da2e510aef9cd10c542d98ebc4ee1962d1d4472bc1*
 *58482e19d6376bbe0120289b6d39a35de15b68d00713f821ab0c7f28f85a31ee*
 *5852511a70f384dcf32e29b3ec2f3d10d2704fdaae504d07d3876a887ca05cf4*
 *58553520765d913785914cb41570a76668b07e43c40d313841f7c03fddc899cd*
@@ -18076,6 +18269,7 @@
 *6988f41ce97bebcfae509ed20ba95dc1a7148dcafdfb7c58452088d6d6d74df4*
 *69927f9215cf2d0717141e91851febb1c045715a11ebf9f55bc4181114625d41*
 *69964da9297a1caaa4ba0c389d4ba8a97f14d9a58cdb1cb549525ffa9684529c*
+*6997588d3c194d5a1d3c32ae3e2fe1475374dfe0c5845485d550796440621bbb*
 *699c657acc47997abe868108294ab6625eae117242db51d6db5a715606a3e56e*
 *69a200568ae92a6eee56c9fcc170b088432871fb058c29459e7bf112a58d722f*
 *69ace7287faa4854605ab46018d92332ba0d16ff926ebf17330359a4dbd7d693*
@@ -18090,6 +18284,7 @@
 *6a0271fa021d2854ea36531869d30a75d6ee7ff31a521e22e9b382ef1c545882*
 *6a0b2e5491caa977cc4efcea1a90b67480126b0d3148d1436add939bfbe785d5*
 *6a14782fd71e08ded40b8652783cb49695b09e4abbaaf8c22cc22d582032191f*
+*6a1d85188bb481088fdd202dbb994910de83b05a2b49420faf1dc4a66143918b*
 *6a1d90427fe92c1dae2ac16d5b0e7f6b2c823a1447cdad213cdb987390329b26*
 *6A2BA6F7-3399-4890-9453-2D5BE8EEBBA9*
 *6a31601415f4b02531aa031b1f246cec9f652f62927bc9b3c4443aac9c2ff625*
@@ -18117,6 +18312,7 @@
 *6b2324bb337f722067e6c1b5cef5f64e89338e2beccf95289aaaa2af8a0556b9*
 *6b34ffba8e7ce5f0e5e7c157d7e65d320850c98de350d332421e8373aa9fa3a4*
 *6b3d229a02f91fbac23a4385a1b8ca8fe851c9c99c94341dfc5fda41cecc1283*
+*6b49ab14afa0c2764f31c768dcc45b7efee3967d3cd4f572c4bb99cc4e128c38*
 *6b4a7999ab5fa112e69ea99a01bcf41a23c8a01780f96eb1647fa98b80694113*
 *6b6ae7b2bf3914eead08418884e8ad8121d7f5649424cf57888a884f1461f9a5*
 *6b6aede14ee7f52374cf3fbc5d790afa32f23dc0791514ce26306514e4a22ee4*
@@ -18127,6 +18323,7 @@
 *6b994027ecb764471cdcf3d547532203e4fcbe55fd68ad04a5f9881b56fce399*
 *6ba3ca97783fab63b22995124ef0472633762b2364f1d2a1a0bafb2983777ad9*
 *6babb664a4c688234f19f258d7a4de2ffd2b8eb51a9ae6c35ea0bee20d214453*
+*6badff5495258b349559b9d2154ffcc7a435828dd57c4caf1c79f5d0ff9eb675*
 *6bef9db4560b6c7da2def271f7bc5bf6988fafa3e654f8a2bfb589fd7d79b2db*
 *6bf2e2c83556bad748940200d1ab7e6d10906a50062a0e5ac6ffe779b4449428*
 *6BF82CF9845C649557FC02D1E3D0B6A9FB4F827CC7815BF477DD0CB51246DA45*
@@ -18164,6 +18361,7 @@
 *6d36fafede6a64aa20f1581d749024d75bb7d3b9c311c6bf1a3b5a31eefe9581*
 *6d5aef94f94fcf9b0987102f2b436e37f173e9638b08d1cd45d14132071617db*
 *6d5cc4d1a8fcd83a5b3a6468f8e45a702836579926920267b8f320b7a2b82e1c*
+*6d6629cbd6d624b1a977decf53adbb0e2fb46a07d8ac7392324572dbafe26d48*
 *6d686399731d32af0783b096717c5a14fdbe74e1e432ee2e8fdaace36ebbbe3d*
 *6d6a190059cb9ace0b4e16aace82f752ae57df9b36db03508acb3bb4fabe4d05*
 *6d7d84fd5a11387aa706ed690f5855893594d5ded8ddeaf49cb449927c071f5f*
@@ -18185,6 +18383,7 @@
 *6e1611b4524f7426cbd8d7351b269a1239ee710e575e9e460fce110c35962de6*
 *6e2028eb0bc06325c6101c497832e66a95ce482b1771455bc7a873ef22291c65*
 *6e2966ff6488fa05ed5ffb24ae5dde4fe1954b3006aa0269510ac9feaf099c78*
+*6E383DE4-DE89-4247-A41A-79DB1DC03AAA*
 *6e44d4eec61c35b14e9e43158b8a169269a98be0e2ae8992cdb0a50ea09b97a1*
 *6e469301d72958686bc78469c7c9d6a79fb848e77e6b00a037526d44f5d48819*
 *6e50021a61b3fb16c39a89ae4e7a5c183c2d85012597911f3f405f62bb94026e*
@@ -18394,6 +18593,7 @@
 *75e409f0ea3bfc0d705982be384a2a2da1262415fef8b0c253fd9821f9673bf6*
 *75E5F9A0-8D69-4426-9F16-4A65E941974D*
 *75e74ba8d2f24a1c4d0543fe9eb5476cfab3b433073412337b6806669a295fce*
+*75f068e65a36c0dfcd7b59c00ab3a0e73f6bc07ca84091f472caada25e32cfcd*
 *75f3f565f1024b367a72a934cff9735e3fd9311ce5ad77de20c103cc72442edc*
 *75f525cfddff5015fe3aada97fd9ed1b51657297f1f5fa494c3b73ad7766105a*
 *760980ec830603bf3bee659f92e939d2af88eef7bc50c2911cce1a41d35d881d*
@@ -18495,6 +18695,7 @@
 *795f2e9d0314898ba5a63bd1fdc5fa18*
 *796c8853196cd8a5b4aaed85718ff95c86006200fa5f579a9523f66421873004*
 *796d3702d3376d0116192eef85fbb05e2f10531c57958489bbadb92372c120e6*
+*796f70f040f3edcf0b48a711ad9ebce5a1f1dbbad15195d577e9c19c04fd0b88*
 *79806039befe2c12c794ab8951aa17edf316843a8b968d22bd7abc9937252014*
 *79816edc41cd5e2aeb19f0227e9cb9ab0b5abcc54931c6bf29813f8762828805*
 *7983d5af3fb00770345c09aca16a8d8ff122dbe81b58a0de69b571b55f4dae1e*
@@ -18939,6 +19140,7 @@
 *89bd3a31299f6bbf9be9bcf5f1456c11333590290626f11017079fd84ee58ca1*
 *89bfa445e98341969422b43a84c9751b15eb7db2b10e2be755629d04b4cd2a31*
 *89c0d3180d1baa0b0ca6fb7dd3af81a80400ea4c5674101a5800c074bd3aec98*
+*89c2214589dff9530c6367d2968ba26cd9533eb279b88dc755b06d66ed575428*
 *89ce01a4f096106970ed68939f64e6ff319ce9b8a07c3cef1db0e88029ba2466*
 *89d3c1ac21486c9deb1a08ac10cc6b722a19801163dad4d8b57c1aa8a18f32b8*
 *89d3f128432dd85a62c1f1c394dc8a0397ba23c5a193449dabcae0d1f84d3b18*
@@ -19062,6 +19264,7 @@
 *8d9a8c8e646b26d5242d8fa7018bc58147435076d8b9c19fb3df35be786fa2da*
 *8dac9832-d464-4916-b102-9efa913bdc44*
 *8dacc97038a845b73c4f156f3fb4d00ef5b4cfa7a8e6b10e0bd8e5c918d62fd1*
+*8db1d4921a94819ac9222d02e9db1539d2fe613f0fe0459698f3daa3d56d934e*
 *8db6879b0c3f33cf027515fb91fa397a09f2989ef9660b3243901ae38f6ace3c*
 *8dc4871ac544d2cd0ff7ccd84b8862eaf9ba0af18bd5b71e29146b17e4b13783*
 *8dca31ac3cffeacb63b9f572bb9f4b53481e51d1d74269168834c395725f0b6e*
@@ -19128,6 +19331,7 @@
 *90023e0492635199b386d05e8bffdb806f0cc6a6d0e6a2dbc9a58867d002b566*
 *901e877ce39c5b9a7f35c58b30a6d1be15c94f44b0d1ae84007c59d7a11011a2*
 *90229D7D-5CC2-4C1E-80D3-4B7C7289B480*
+*902337b62862f99bbf97131701eaab2be82fd5a84b7d379cec0acff56a2bf670*
 *9033c6def481bde4bf7f2361966ae0ea92dfda5763a167460dcf0e231a2d02b8*
 *9036e04e3c1caa4b91d008a010df98e93449cfcd1ace8922d96883bd1587764c*
 *9037b5197eeeb068f24a73f9ac99320e0aeed9a91a69f18eec013c689be871bb*
@@ -19343,6 +19547,7 @@
 *985ac7064c18852f34f9243d5d51703fca8e5540efe1d01a259640b5798c2724*
 *9865ed1503bfac59d77f262ec4d443bc2eef2e850120ca601d406ff8d61c8bbb*
 *987001995ecb92cb1fa659097e4be63c46568c00e4f91ed0162d0ed973831c50*
+*9870daa238c3cab7fa949a1f8b80d3451c78eb07d18030ad061d8b91d612decc*
 *9871de1742c1132c9b3171c4ae970e66b6ebe3a6cf31c35db881a32e33cc4016*
 *987d8536a5a920ff49ab1d0948bc5d7c45a7610b2737e407971c361d7072485a*
 *987ebc109f9bb594b780a59dbe5f5b5c3694f5ac21bb0bd044b4e06ccb64bdab*
@@ -19493,6 +19698,7 @@
 *9d6d883e78e055575e91b222042d50bb7a9d9e4f046257bc7c38e7f57deb552e*
 *9D7620A4CEBA92370E8828B3CB1007AEFF63AB36A2CBE5F044FDDE14ABAB1EBF*
 *9d780803519141fc8c14c067688184d7df094190cf74825b6ea6651e7ccd911b*
+*9d7bfb3aeba4145896ece197216c4269deee6cce93eed3ffafe442ed05aeb4c4*
 *9d8990ef035b5e7673e07a0093398642d0fb7f910349228e2c068dcce54127f0*
 *9da47a94bbb8d9322de8b7bb34958578776a47fdd440d2cca413fec7c78bc795*
 *9dc2d1ac93b43a6f3450e6d99201dfa4b7e75e8872d97b6cc90e455201ff0c83*
@@ -19564,6 +19770,7 @@
 *A Silent (Hidden) Free Crypto Miner Builder*
 *A Variant Of WinGo/Merlin.A*
 *a very fast brute force webshell password tool.*
+*a.aomeisoftware.com*
 *a0038697d35fbe64f1d9edc3493da99bdd0f27f7a79502134605c3064b2c704e*
 *a003f5539bcf1c36e9d8f0565857dc8478015da4f97fa64bcb91f6495bbfc105*
 *a0101bdeeb3f99c0640c203716381ef9f6bad8e89973eaa608c801ed3f6ccace*
@@ -19653,6 +19860,7 @@
 *a2d412b6feac0c34d148158e5791940e5060bf4b9e6db33e7c444bf715553dc6*
 *a2dbso6dijaqsmut36r6y4nps4cwivmfog5bpzf6uojovce6f3gl36id.onion*
 *a2e65bd4579385605e7233852bea4627cf94a2ee83e6233d462740b7e930c284*
+*a2fa034d006bdbc3ee2a15e55eb647f8097355c288a858da1e309fe8ac1cf0a3*
 *a306e29eb09842d5accb058f5dd939c9466ae664c1fe9915100c15e0a581b1f0*
 *a314666c9d3b9d80540bb50378fe104b1c509fa239bc80567f26492f76c526b0*
 *A315E53B-397A-4074-B988-535A100D45DC*
@@ -19673,6 +19881,7 @@
 *a3ac47f75e01e2efedea26ee4cf9ef3b4f45d12c45dd429438e03224c055832c*
 *a3adf686eebbb786431c1df3c1988eb013877596d162ed642fb7e52e285e7296*
 *a3afae22698d3cb4d3f9fff03a42ccf61b3666bd6ef5c455ce6488b6788883a3*
+*a3bf479adb8b6bd523617d51a5c872f86d0a1d2104e63749830b2bd254567d80*
 *a3ca8d72edaf4ffb84a38e88a31f9e537d7d7b76f7cc7966583c7b4b4a811c74*
 *a3db95daa151cb6ab640f368e1850108099cf94eee2bd2c3fd2789ee83bbcb71*
 *a3f01a59bca7cb330bf680019595bbbf5f8167494fab4c46eaaf836fdc3a1902*
@@ -19846,6 +20055,7 @@
 *a9fd574e1f0c58461722fc1abc15cd01efb472bcdc1f703de2b918f2fa7dec64*
 *AA_v3.exe* -elevated*
 *AA_v3.exe* -service -lunch*
+*aa013dcded3e67135ec91768764bc46d0509c78f061134e1a7917603fff3d6a8*
 *aa09c80172ca9e37f28d8da004771b57c2ba1eac4a8957b7b0422c0fcbd6f59d*
 *aa0daaab2228d5befff8982d5b44267a0272e971799dd77225449e005ec5d83e*
 *aa12c40bc0ef87b1b706f1e9062d72d8c67c3b4b3347741efb38cf71817777d2*
@@ -20231,7 +20441,7 @@
 *ADRecon.ps1*
 *ADRecon-Report-*
 *adsearch* --domain-admins*
-*adsearch.exe*
+*ADSearch.exe*
 *ADSearch.sln*
 *ADSearch\ADSearch.cs*
 *adsearch-master.zip
@@ -20263,6 +20473,7 @@
 *ae17da575c55344775eb7b9d6d429265097a5bc90392862e0daea221e983d5fe*
 *ae19fadd759b7d9bd55fb0aebf9c903d129f9ca13c0240c7b1dc53c0c934fe14*
 *ae205d0552b3a1a407d43025a1b85de9de6c9edaf7690aae3ef8ca03b07ec4a9*
+*ae219371bbfc41040dc9150b688271b9cd51cb325e4c328f954a6b474dfb019d*
 *ae2342b247b29e9e790ef5ca3bff74f49167b54a0c846321fb5e7e24bf892d74*
 *ae23c8ef1b6f0106c344867ca48101e1c94834e4e2b667879eb99aef0e4cbcf1*
 *ae2bed75480f578573b7cdb5e7c48cbbaf6012171eb4d9faf9d147aa8ea793e5*
@@ -20368,6 +20579,7 @@
 *AgentCore/MeshServer_*
 *AgentPackageInternalPooler\log.txt*
 *AgentPackageRunCommandInteractive\log.txt*
+*agents.level.io*
 *agents/Follina-2*
 *agetty -o -p -l /bin/sh -a root tty*
 *AggressiveProxy.cna*
@@ -20392,7 +20604,7 @@
 *aiifbnbfobpmeekipheeijimdpnlpgpp*
 *aiocmd\nested_completer.py*
 *Airbash*
-*Aircrack-ng*
+*aircrack-ng*
 *aireplay-ng *
 *Airgeddon*
 *airman604/splunk_whisperer*
@@ -20473,7 +20685,7 @@
 *AMSI_Bypass.ps1*
 *AMSI_bypass_20*.ps1
 *AMSI_patch-main*
-*Amsi-Bypass*
+*amsi-bypass*
 *AmsiBypass.cs*
 *amsibypass.exe*
 *Amsi-Killer.exe*
@@ -20483,7 +20695,7 @@
 *AmsiOpenSession.cpp*
 *AmsiOpenSession.sln*
 *AmsiOpenSession.vcxproj*
-*AmsiTrigger.exe*
+*AMSITrigger.exe*
 *amsitrigger_x64.exe*
 *AmsiTrigger_x86.exe*
 *An interactive shell to spoof some LOLBins*
@@ -20517,7 +20729,13 @@
 *antoniomika/sish*
 *AnyDesk Software GmbH*
 *anydesk.exe --set-password*
+*AnyplaceControlInstall.exe*
 *anypotato.exe*
+*AnyViewer\audio_sniffer.dll*
+*AnyViewer\AVCore.exe*
+*AnyViewer\RCService.exe*
+*AnyViewer\ScreanCap.exe*
+*AnyViewer\SplashWin.exe*
 *aoacugmutagkwctu.onion*
 *aodkkagnadcbobfpggfnjeongemjbjca*
 *aojlhgbkmkahabcmcpifbolnoichfeep*
@@ -20662,6 +20880,7 @@
 *arvato@atomsilo.com*
 *AS 'Login that can be impersonated'*
 *as 'Owner that can be impersonated'*
+*asapi.aweray.net*
 *ASBBypass.ps1*
 *asgardmaster5@protonmail.com*
 *Ashley.Mowat@protonmail.com*
@@ -20708,6 +20927,8 @@
 *assoc *findstr s1x*
 *AsStrongAsFuck.exe*
 *AsStrongAsFuck.py*
+*as-tk.aweray.com*
+*as-tk.aweray.com/track*
 *Async RDP Client. Duckyscript will be executed by pressing ESC 3 times*
 *async_webshell-all.py*
 *AsyncRAT  Simple RAT*
@@ -20835,6 +21056,8 @@
 *autotimeline *
 *autotimeline.py*
 *autotimeliner.git*
+*auvik.agent.exe*
+*AuvikService.exe*
 *aux/dump_credentials*
 *aux/enum_system.rc*
 *aux/msf/*
@@ -20859,6 +21082,8 @@
 *aW52YWxpZF91c2VyQGNvbnRvc28uY29tOlBhc3N3b3JkMQ*
 *Aw8KAw4LDgvZDgLUz2rLC2rPBMC*
 *AwAAAAhEZWxlZ2F0ZQd0YXJnZXQwB21ldGhvZDADAwMwU3lzdGVtLkRlbGVnYXRlU2VyaWFsaXph*
+*Aweray_Remote.exe*
+*awerayimg.com*
 *awesome-cve-poc*
 *Awesome-Hacking*
 *Awesome-Hacking-Resources*
@@ -21153,6 +21378,7 @@
 *b8ad30b89d6cabe30501ed963b21dcaec70b3283608682678629feae2c1b2235*
 *b8ae91971edca5937251c1f9a09ca5eb2c48a98ef4a80187394f2c037bbefb46*
 *B8AEE3F1-0642-443C-B42C-33BADCD42365*
+*b8b0e6a5452420520359221d8f527a35ec6b4da45f55179a1ffd5b820d1c35dc*
 *b8c9caeda6743d224835019b8bdc0105ad54f9a804a33e7e51acb605a8e8bc25*
 *b8e1e263041bda37b87db45bd826c8dc4a81c0b60055df4f028ec4971cd55211*
 *b8f44b3631dcc6e055b710d873486f3b3385ea06f38d160a7f6da2d7e6c809c3*
@@ -21456,6 +21682,7 @@
 *be0815883380c13d0a6855395acf07270cdbf4c8e13018439cffacd8e52485c6*
 *be21413da8a75c62583b1c9eaf5194f5853f5ee8aba7e67510069717a0fbfcf2*
 *be28f0c338095b629bfd563abd38c472c6b88618c3647a97c79f6c78cf620e15*
+*be3345a2cedd13aae147564426bb743332b2053868ba7c3e64f14c247416f86c*
 *be3ae8e7cd4138850830f1d0b40cb409160a4449dda205a325c95de7bd2b76b0*
 *be4d5112b9928f8c5dbb51c2e67163fb82fed8abdda5b75ffafeff43b96fc8c0*
 *be5cfdd35404d90af8b73a2c53fcc2e2ca3aafb2af4f5484b8aea25f8cb60e73*
@@ -21918,7 +22145,7 @@
 *Browser-password-stealer-master*
 *browserpivot *
 *BrowsingHistoryView.cfg*
-*BrowsingHistoryView.exe*
+*browsinghistoryview.exe*
 *BROWSINGHISTORYVIEW.EXE-*.pf*
 *BrowsingHistoryView.html*
 *browsinghistoryview.zip*
@@ -22026,6 +22253,7 @@
 *Building ABPTTS configuration *
 *Building Evil Lsass Twin*
 *Building SYSTEM impersonation*
+*builds.level.io*
 *BulletsPassView.exe*
 *BulletsPassView.zip*
 *BulletsPassView_setup.exe*
@@ -22414,6 +22642,7 @@
 *c5d484d2c6817bbf05a900cd6bced458311b72af57d14b29421816620769f4ac*
 *c5deda524fb386a888b702d1eef8d55ad8b619affb88b2ed8bd913d24a3cde98*
 *c5e2433d83689028f6985189c18eec20838211d9ed3eb04d8a244d8a08f5d12e*
+*c5e68c5635bed872ce6ac0c2be5395cc15c2dbaa5f0052b86575cdd0b762902e*
 *c5fb70cf2c8a3681d7e8397c8ac82c119f5bd64055dd47432c5e5672ce9a3986*
 *c5fe2c5f7455220ef30d3ed6620a2221997f6b340228a0dbad9694ffb217f232*
 *c60fd707d75bddb69967290cc46c2acf53ffd76899f1cda2f88be8165a25bb1c*
@@ -22424,6 +22653,7 @@
 *c63738e628229ff8c8611bac4d15f1cd87fd58c88071765e147d1a50c56d37a2*
 *c654a7ea1dc15b2c30ddeeba64c1f1fb4e7f1f53cb858a7f78ce508e2b6f259a*
 *c66a79726a52709cb4ceb004f0b2dda9d7159aa04678e002d9be27fb7d887a3c*
+*c66bc18ad7289d0a5a0cf3e627566e0871cb230d6f3a2f3ede5948ebd18f2b48*
 *c66ea235f3bec5713b4b30abb7fa938c472f9f66b1f1fcaacdf8b0e7c36a735b*
 *c671953a8131c23c8039827f79fc96c021aac1e2b6dfff805ee68f490847b3ef*
 *c672719ea7d0abfbf7b69605b975d697afeb5cad770e9cb68e57ee18d7e598d1*
@@ -22445,6 +22675,7 @@
 *c6ffad5c09f5fb6fe7241d3fe9c9cd968ceea15e483a180ac45bd0b4e15d7bcd*
 *C7038612-8183-67A7-8A9C-1379C2674156*
 *c708b83f-4167-4b4c-a1db-d2011ecb3200*
+*c71270964c15f42df8e82477be2e7c833c947f7be29f1ee269835b06360bc5d5*
 *c725919e6357126d512c638f993cf572112f323da359645e4088f789eb4c7b8c*
 *c728e54e57a93ffbbe606d72fa12abb736236e7a1e263b49cf7e302de32f1100*
 *c730a89142b73d047b4387f6f3f0d8dfacef57a2e4945a0a942cc72f0bd05253*
@@ -22786,6 +23017,7 @@
 *cdcb96e58514e182d0799884b64872caff34ed0eb552d842015941a7540347e7*
 *cdd1184f3b6ee040bb0f668cb15a4691d327009942857bd0c62b11cd0e3d0f50*
 *cdd738401073d7c2c6b919b1a97e136c12467c6ccfbdc1f8b55baa67e4f9afe7*
+*cddd9cbec4525bc73c44a2c154b12372210e9ccedb9cafd7c495a590c481f6a8*
 *cddownloadelevategetprivsinjectpersistportscanpspwdrunassaveshellshutdownsleep*
 *cde0f088445933eef88c2663bf2684f6e020d30347a7a230658d534c05f4e8d9*
 *cded4541c570c91fd895adeca650b968f20fb68809e59f007a896730d097d8af*
@@ -23076,6 +23308,7 @@
 *client.py --server-ip * --server-port *
 *client.py*--domain*--hashes*
 *client.teamviewer.com*
+*client-api.aweray.com*
 *clientcuworpelkdwecucgvfhp5uz5n7uohsnokndrlhm2zkntyg3had.onion*
 *ClipboardImplant*
 *clipboardinject.*
@@ -23478,6 +23711,7 @@
 *contiuevxdgdhn3zl2kubpajtfgqq4ssj2ipv6ujw7fwhggev3rk6hqd.onion*
 *control.*.logmeinrescue.com*
 *control.rsc-app*.logmeinrescue.com
+*controlserver.anyviewer.com*
 *ConvertFrom-LDAPLogonHours*
 *ConvertFrom-UACValue*
 *Convert-NetToLua -infile *
@@ -23954,6 +24188,7 @@
 *d0274f036468ef236d3a526bb6235289bdbe4c8828ee7feee1829a026f5f3bec*
 *d029b40b87bd1462c77138f017ab6914a3753c4ec47bcbf192231a6b2585cf36*
 *d04679accb8ad4bbd940d7afcb4d2765c3ea1421bb773b71e79f3f0233f847cd*
+*d04cd33cbf5406ac9d9ecfef2276fa1188526125f52c01233542c701f624d7a5*
 *d0659e8489bc633b617e86f4e7994a593ada5cfc8463f79631d9672623b79750*
 *d0684a4f8a1dde0fefa5272d38fd96c21388f0398beff1a2847ff0c021611068*
 *d06d9e05ba5582691f8d5939cbbc37e171260c088a60770e2d45c27c9f1ac2ed*
@@ -23976,6 +24211,7 @@
 *d0fd70c59cf45c5c1eb9c73ba1ccfa433d715a3a57b1312a26a02c60210cbfb8*
 *d101dd8673efe4f892eaf2124dc57be97140bdab7b2f79f8180ca6869a1eef3f*
 *d110395a75afff8f1e8c54c7ae5fbd9e085ec21da4c472e4fb11346c17d8652d*
+*D116BEC7-8DEF-4FCE-BF84-C8504EF4E481*
 *d11fdf3e02243a642c2158357522d457d4111058723c5ce79c355c40b4495350*
 *d12a87b47c9213d80b8dfe9626702c953ebbfa92320b01f5f8b42a520a232537*
 *d1409d4d6fc200f7f5569b844c0005eb1963a94a857ae4fb5caeb496783cca07*
@@ -24551,9 +24787,7 @@
 *decrypt.py .\*.txt utf-16-le*
 *decrypt_chrome_password(*
 *decrypt_chrome_password.py*
-*Decrypt-Bytes*
 *decrypt-chrome-passwords-main*
-*Decrypt-CipherText*
 *Decrypting DPAPI data with masterkey *
 *DecryptNextCharacterWinSCP*
 *decryptteamviewer*
@@ -24818,6 +25052,9 @@
 *Discord-RAT-2.0-discordrat.zip*
 *Discord-RAT-2.0-master.zip*
 *Discord-RAT-by-Biscuit-main*
+*Discover-PSInterestingServices*
+*Discover-PSMSExchangeServers*
+*Discover-PSMSSQLServers*
 *Discovery_AccountDiscovery_GetNetDomainUser.py*
 *Discovery_AccountDiscovery_PowerView.py*
 *Discovery_ApplicationWindowDiscovery_EnumApplication.py*
@@ -24867,6 +25104,8 @@
 *diversenok/TokenUniverse*
 *Diverto/IPPrintC2*
 *djhohnstein/SharpChromium*
+*djhohnstein/SharpLogger*
+*djhohnstein/SharpSC*
 *DKMC-master.zip*
 *dl.wireshark.org*
 *DLHell v2.0*
@@ -25936,6 +26175,7 @@
 *eee0125ce7d147791c5b6df258e849476727218f04d1ebbd1a305e64b8e9e777*
 *eee20962a1056f525bbe1c99c656794511697e510221522e7d62efd943457190*
 *eeee2b0a6ad1c7e4614fed4dfbe58b63776f6a3a6758267b5a976b4dc4315f48*
+*eef2ceac990c985faaa8e869e66e47652863bd94a14a87de4245996111717326*
 *eefd30efe33687408541ad00fead452f4f341c32fad1a77e84006ae7aa4fbe9a*
 *eeriedusk/nysm*
 *ef012e22ef53045f48b574b395788c8639f853484bd78f4c9ad63532d916c1f9*
@@ -26141,6 +26381,7 @@
 *enum4linux*
 *enum4linux_*.txt*
 *enum4linux-ng -A -u *
+*Enum-AllTokens*
 *EnumCLR.exe*
 *Enum-Creds*
 *enumdomains;quit*
@@ -26540,6 +26781,7 @@
 *F0A581F1-D9BE-42EB-B262-E6A7CC839D2B*
 *f0b1a06aa6d5ea27814565755c6bfe2520dd71c4df02768fe7d621c3c3d0db75*
 *f0d19d73955298f2766e55ff49347e31b2482a3bcba107ccbe38630b1aac355a*
+*f0d99239fa828a18f0756ec717a663b5e64af9cf4e4130ec0a27bdf5d592ac96*
 *f0ded25a361ea53de7518a357c03d733d8caf206f7a90a8e3b4d6a29563c9277*
 *f0e1e5a2b52773889dc1e7c44c5a80716a0dd98beee46b705748773e292e1d88*
 *f11f0d5b7f14d4751f40b9c2c92928dfdbe0d055981e140ba0a5d75ecfe72e10*
@@ -26586,6 +26828,7 @@
 *f253b430b9d2dafe0e67a9974e7a806f21c6589c02aed1cdc595d23fe619f492*
 *f27479a8728d9126cc055daeb5cddd01cabfa37d*
 *f2754719c9b797be118057367989dc2da30a55d3f17260b55d252efdf7967579*
+*f2816b74ccb015b5eb7910f0ee389531ffaa0df8bc613d419cc4d4a50e99bb4e*
 *f2915f5a3885391738923ecd18faf840074c65cd2e390e1474a4d84ce315b9ff*
 *f2a64b4fce0d07eafded5c2125d7d80b*
 *f2c1234d05744b49749b6ef743d7a71a45d96400ec1b510531032de8312a377d*
@@ -26735,6 +26978,7 @@
 *F7581FB4-FAF5-4CD0-888A-B588F5BC69CD*
 *f7685768c93c8405a525090484261be417913ca2bcfdcce9596856dc3b5c64e0*
 *f7851e5b0bca91e7ae15d879a7c5be4f63014c2c4b85bc756f6eddcf8c1eaa39*
+*f7a755d30fe841ce34b0ef2f4bd3265fab3623945636267c3d5d67c111a9a2a3*
 *f7b0550a05c30a38b721f15f90e84f104a3f98e3e8db7af96e5a98e7b79ecc11*
 *f7b6475de06cdecd9b187a735bb3f960fa56bc12c7205225e0550dd7a7814a34*
 *f7c1d9613d4f4a7d5cc193f7a52c83aa3be1abf466de9ef0a9e2b2faaa846a69*
@@ -26763,6 +27007,7 @@
 *f88a7b4bbe98f4e4d0f9e4c2f4de2a448f13ed7783772e6f5d6881c18b324bb4*
 *f891fa68159f087901b55f0109bdf40a39e312fc31fb9caafca22726798e7aeb*
 *f89d5657f9c876889a0a1a0b5a7c599819d9cb731c529527af700c464b586bde*
+*f8a603588cb91acf4c4a745f74326d202f4d63243fefaf048e1076174a18a50a*
 *f8a705f52d2b4587dfbf680d12d4b1af6d5ed91872257a756e2d5f4bdee24c45*
 *f8b3dcc1c49da62b5302c64901e03eb6f15f0904fdf24e795bd8545e32d31604*
 *f8b9c30d3cef82aebdf5dfce8ba7d6a4943a4b51ef64223b59c5241e3023d8e5*
@@ -27179,6 +27424,7 @@
 *Find-DangerousACLPermissions*
 *findDelegation.py -dc-ip *
 *findDelegation.py*
+*Find-DLLHijack*
 *Find-DomainShare -*
 *Find-DomainShare -CheckShareAccess*
 *Find-FileWMImplant*
@@ -27203,6 +27449,7 @@
 *FindModule *.dll*
 *FindObjects-BOF*
 *Find-PathDLLHijack*
+*Find-PathHijack*
 *Find-PotentiallyCrackableAccounts.json*
 *Find-ProcessDLLHijack*
 *FindProcessTokenAndDuplicate*
@@ -27442,6 +27689,7 @@
 *func decryptMalware(*
 *func_get_powershell_dll*
 *func_install_wine_dotnettojscript*
+*function Amnesiac *
 *function Base64_Obfuscation*
 *function BXOR_Obfuscation*
 *function DumpSAM*
@@ -27927,14 +28175,20 @@
 *Get-DomainAdmins.ps1*
 *Get-DomainComputer -TrustedToAuth | select name
 *Get-DomainComputer -TrustedToAuth*
+*Get-DomainDFSshare*
 *Get-DomainDFSShareV1*
 *Get-DomainDFSShareV2*
+*Get-DomainFileServer*
 *Get-DomainForeignGroupMember*
+*Get-DomainForeignUser*
+*Get-DomainGPOComputerLocalGroupMapping*
+*Get-DomainGPOUserLocalGroupMapping*
 *Get-DomainManagedSecurityGroup*
 *Get-DomainObjectACL -*
 *Get-DomainSearcher*
 *GetDomainsForEnumeration*
 *Get-DomainSpn*
+*Get-DomainSPNTicket *
 *getdomainspnticket*
 *Get-DomainSPNTicket*
 *GetDomainSPNTickets(*
@@ -27983,8 +28237,10 @@
 *Get-InactiveDomainAdmins*
 *Get-InternetExplorerBookmarks*
 *Get-InternetExplorerHistory*
+*Get-Item -Path "HKLM:\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths*
 *Get-ItemProperty -Path HKLM:\Software\TightVNC\Server -Name *Password* | select -ExpandProperty Password*
 *Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\Lsa -Name *RunAsPPL*
+*Get-KeePassconfig*
 *Get-KeePassConfigTrigger*
 *Get-KeePassDatabaseKey*
 *Get-KeePassINIFields*
@@ -27993,7 +28249,7 @@
 *Get-KeystrokeData*
 *Get-Keystrokes *
 *Get-Keystrokes*
-*Get-Killdate*
+*get-killdate*
 *Get-KIWI_KERBEROS_LOGON_SESSION*
 *Get-LastLoggedon -*
 *Get-LastLoggedOn*
@@ -28004,6 +28260,7 @@
 *getLogger("NemesisConnector")*
 *Get-LolDrivers*
 *Get-LsaRunAsPPLStatus*
+*Get-LsaSecret *
 *Get-LSASecret*
 *Get-LSASecret.ps1*
 *Get-LSASecrets.ps1*
@@ -28071,9 +28328,14 @@
 *get-process *amsi.dll*
 *GetProcHandleClient.exe *
 *getProcUAC1password.h*
+*Get-PSADForestInfo *
+*Get-PSADForestKRBTGTInfo *
 *Get-RBCD-Threaded*
+*Get-RegAlwaysInstallElevated*
+*Get-RegAutoLogon*
 *Get-RegistryAlwaysInstallElevated*
 *Get-RegistryAutoLogon*
+*Get-RegLoggedOn *
 *GetRektBoy724/SharpUnhooker*
 *Get-RemoteCachedCredential*
 *Get-RemoteDesktopUserSessionList*
@@ -28091,6 +28353,7 @@
 *get-screenshot*
 *get-screenshotallwindows*
 *Get-SecurityPackages.ps1*
+*Get-ServiceUnquoted*
 *Get-ShadowCopies*
 *Get-SharePointSiteURLs*
 *GetShellcode(*
@@ -28121,7 +28384,7 @@
 *Get-SQLPersistTriggerDDL*
 *Get-SQLRecoverPwAutoLogon*
 *Get-SQLServerCredential*
-*Get-SqlServerLinkCrawl*
+*Get-SQLServerLinkCrawl*
 *Get-SQLServerLoginDefaultPw*
 *Get-SQLServerPasswordHash*
 *Get-SQLServerPriv*
@@ -28152,9 +28415,10 @@
 *Getting the Obfuscated JS Code*
 *Get-TrustTicket.ps1*
 *Get-UnattendSensitiveData*
+*Get-UniqueTokens*
 *get-unixUserPassword.py*
 *Get-UnquotedService*
-*Get-USBKeystrokes*
+*Get-USBKeyStrokes*
 *Get-UserBadPwdCount*
 *get-userPassword.py*
 *Get-UserPrivileges*
@@ -28168,6 +28432,8 @@
 *Get-VaultCredential.ps1*
 *Get-VaultCreds*
 *Get-VolumeShadowCopy*
+*Get-VulnAutoRun*
+*Get-VulnSchTask*
 *Get-WebCredentials*
 *Get-WebCredentials.ps1*
 *GetWebDAVStatus.csproj*
@@ -28184,11 +28450,12 @@
 *Get-WmiObject -Namespace "root\directory\ldap" -Class ds_user *
 *Get-WmiObject win32_loggedonuser -ComputerName *
 *Get-WmiObject Win32_ShadowCopy | Remove-WmiObject*
+*Get-WMIRegCachedRDPConnection *
 *getwmiregcachedrdpconnection*
-*Get-WMIRegCachedRDPConnection*
+*get-wmiregcachedrdpconnection*
 *getwmireglastloggedon*
-*Get-WMIRegLastLoggedOn*
-*Get-WMIRegMountedDrive*
+*get-wmireglastloggedon*
+*get-wmiregmounteddrive*
 *Get-WorkingHours*
 *gexplorer.exe*
 *ggackgngljinccllcmbgnpgpllcjepgc*
@@ -29156,6 +29423,7 @@
 *https://*.free.beeceptor.com*
 *https://*.gofile.io/uploadFile*
 *https://*.localhost.run*
+*https://*.my.auvik.com/*
 *https://*.ngrok.io*
 *https://*.onion*
 *https://*.pagekite.me*
@@ -29208,6 +29476,7 @@
 *https://api.tailscale.com/api/v2/*
 *https://api.telegram.org/bot*/sendMessage*
 *https://app.action1.com/agent/*/Windows/*.msi*
+*https://app.level.io/devices*
 *https://apps.apple.com/us/app/tailscale/id*
 *https://assist.zoho.com/assist-join?key=*
 *https://assist.zoho.com/customer-session-details?client_token=*
@@ -29246,8 +29515,13 @@
 *https://dns.blokada.org/dns-query*
 *https://dns10.quad9.net:5053/dns-query*
 *https://dnsdumpster.com/*
+*https://docs.level.io/1.0/admin-guides/level-watchdog-task*
 *https://docs.ssi.sh/*
 *https://download.advanced-ip-scanner.com/download/files/*.exe*
+*https://downloads.level.io/install_linux.sh*
+*https://downloads.level.io/install_mac_os.sh*
+*https://downloads.level.io/install_windows.exe*
+*https://downloads.level.io/stable/level-linux-amd64*
 *https://downloads.solarwinds.com/solarwinds/Release/DameWare/*
 *https://drive.google.com/file/d/1WLJGs3ZUypf6hLh5WL4AJmsKdUOZo5yZ*
 *https://erwan2212.github.io/NTHASH-FPC*
@@ -29278,6 +29552,7 @@
 *https://homeway.io/install.sh*
 *https://hunter.io/*
 *https://hypertunnel.ga*
+*https://ip138.com/iplookup.asp?ip=*&action=2*
 *https://ipv4.myip.wtf/text*
 *https://itm4n.github.io/windows-registry-rpceptmapper-eop/*
 *https://join-zoom-online-meeting*
@@ -29355,6 +29630,7 @@
 *https://sniff.su/*.zip*
 *https://sshx.io/get*
 *https://sshx.io/s/*
+*https://sun.aweray.com/*/download*
 *https://t.me/BotFather*
 *https://t.me/eightbase*
 *https://t.me/machine1337*
@@ -29543,6 +29819,7 @@
 *ie_win_missingflash-prettytheft*
 *iepv.exe /stext *
 *IERMTCBpbnRvIHByb2Nlc3MgOiA=*
+*iex(new-object net.webclient).downloadstring(*/pwv.ps1*
 *if [ -f /tmp/tmpwatch ] * then*
 *If no process provided, it will attempt to inject into explorer.exe*
 *if os.getlogin() in ["WDAGUtilityAccount","Abby","Peter Wilson","hmarc","patex","JOHN-PC","RDhJ0CNFevzX","kEecfMwgj","Frank","8Nl0ColNQ5bq"*
@@ -29824,6 +30101,7 @@
 *Inject-LocalShellcode*
 *InjectMate.py*
 *InjectMateCommunity.py*
+*Inject-NetRipper*
 *Injector.exe*
 *injector.ps1*.kirbi*
 *InjectPERemote.cs*
@@ -29903,6 +30181,7 @@
 *install udmp_parser*
 *install wapiti*
 *install -y tailscale*
+*install.bat AweSun*
 *install.tunnelmole.com
 *install_aclpwn*
 *install_ad_apt_tools*
@@ -30068,6 +30347,8 @@
 *Invoke-ACLScanner*
 *Invoke-ADCSTemplateRecon*
 *Invoke-Adeleginator*
+*Invoke-ADEnum -*
+*Invoke-ADEnum.ps1*
 *Invoke-ADSBackdoor*
 *Invoke-ADSBackdoor.json*
 *Invoke-AirstrikeAttackCheck*
@@ -30076,7 +30357,7 @@
 *Invoke-AmsiBypass*
 *Invoke-APIConnectionHijack.ps1*
 *Invoke-ApplicationsOnStartupCheck*
-*Invoke-ARPScan*
+*invoke-arpscan*
 *Invoke-ARPScan.ps1*
 *Invoke-ASREPRoast*
 *InvokeAssembly.x64.dll*
@@ -30111,6 +30392,7 @@
 *Invoke-BuildAnonymousSMBServer -*
 *Invoke-BuildAnonymousSMBServer.ps1*
 *Invoke-BypassUAC*
+*Invoke-BypassUACTokenManipulation*
 *Invoke-CallbackIEX*
 *Invoke-Carbuncle*
 *Invoke-Cats -pwds*
@@ -30130,6 +30412,7 @@
 *Invoke-ConPtyShell *
 *Invoke-ConPtyShell*
 *Invoke-ConPtyShell.ps1*
+*Invoke-CopyFile*
 *Invoke-CreateRemoteThread*
 *Invoke-CredentialFilesCheck*
 *Invoke-CredentialGuardCheck*
@@ -30144,7 +30427,9 @@
 *Invoke-DCOMObjectScan.json*
 *invoke-dcompayload*
 *Invoke-DCOMPowerPointPivot*
+*Invoke-DCSync *
 *Invoke-DCSync*
+*Invoke-DCSync.ps1*
 *Invoke-DeadUserBackdoor*
 *Invoke-DefenderExclusionsCheck*
 *Invoke-DeleteGroup -Tokens * -groupID *
@@ -30152,6 +30437,8 @@
 *Invoke-DeleteOAuthApp*
 *Invoke-DHCPCheckup*
 *Invoke-DinvokeKatz*
+*Invoke-DisableMachineAcctChange*
+*Invoke-DllEncode*
 *Invoke-DllHijackingCheck*
 *Invoke-DllInjection*
 *Invoke-DNSExfiltrator*
@@ -30163,13 +30450,15 @@
 *Invoke-DomainPasswordSpray*
 *Invoke-DOSfuscation*
 *Invoke-DowngradeAccount*
+*Invoke-DpapiDump*
 *Invoke-DriveFileDownload*
 *Invoke-DriverCoInstallersCheck*
+*Invoke-DropboxUpload*
 *Invoke-DumpApps*
 *Invoke-DumpCAPS*
 *Invoke-DumpMDEConfig*
 *Invoke-DumpOWAMailboxViaMSGraphApi*
-*invoke-edrchecker*
+*Invoke-EDRChecker*
 *Invoke-EDRChecker.ps1*
 *Invoke-EgressCheck*
 *Invoke-EgressCheck.ps1*
@@ -30196,6 +30485,7 @@
 *Invoke-ExecuteMSBuild*
 *Invoke-ExecuteMSBuild.ps1*
 *Invoke-ExecutionCommand.json*
+*Invoke-ExfilDataToGitHub*
 *Invoke-ExploitableLeakedHandlesCheck*
 *Invoke-Eyewitness*
 *Invoke-FakeLogonScreen*
@@ -30204,6 +30494,8 @@
 *invokefilefinder*
 *Invoke-FileFinder*
 *Invoke-FileTransferWMImplant*
+*Invoke-FindDLLHijack*
+*Invoke-FindPathHijack*
 *Invoke-FodHelperBypass*
 *Invoke-ForgeUserAgent -Device *
 *Invoke-ForgeUserAgent*
@@ -30258,6 +30550,7 @@
 *Invoke-JSRatRegsvr*
 *Invoke-JSRatRundll*
 *Invoke-JuicyPotato*
+*Invoke-KeeThief*
 *invoke-kerberoast *
 *invokekerberoast*
 *Invoke-Kerberoast*
@@ -30271,14 +30564,17 @@
 *Invoke-LocalAdminGroupCheck*
 *Invoke-Lockless*
 *Invoke-Locksmith.ps1*
+*Invoke-LockWorkStation*
 *Invoke-LoginPrompt.ps1*
 *Invoke-LoopBackdoor*
+*Invoke-LSADump *
 *Invoke-LSADump*
 *Invoke-LsaProtectionCheck*
 *Invoke-LsaProtectionsCheck*
 *Invoke-LSWMImplant*
 *Invoke-M.i.m.i.k.a.t.z*
 *Invoke-MachineRoleCheck*
+*Invoke-MailSearch*
 *Invoke-MalSCCM*
 *Invoke-MapDomainTrust*
 *Invoke-MassCommand.ps1*
@@ -30331,6 +30627,7 @@
 *Invoke-OxidResolver*
 *Invoke-P0wnedshell*
 *Invoke-P0wnedshellx86*
+*Invoke-PacketCapture*
 *Invoke-PacketKnock*
 *Invoke-Pandemonium -Command*
 *Invoke-Pandemonium.ps1*
@@ -30394,6 +30691,7 @@
 *Invoke-PrivescCheck.ps1*
 *invokeprocesshunter*
 *Invoke-ProcessHunter*
+*Invoke-ProcessKiller*
 *Invoke-ProcessPunisher*
 *Invoke-ProcessScan*
 *Invoke-ProcSpawn -Command *
@@ -30403,6 +30701,7 @@
 *Invoke-PSAmsiScan*
 *Invoke-PsExec*
 *Invoke-PsExec.ps1*
+*Invoke-PsExecCmd*
 *invoke-psexecpayload*
 *Invoke-PsGcat*
 *Invoke-PsGcat.ps1*
@@ -30412,6 +30711,7 @@
 *Invoke-PSInject*
 *Invoke-PSInject.ps1*
 *Invoke-PSObfuscation*
+*Invoke-PSRemoting*
 *Invoke-PsUACme*
 *Invoke-PsUACme.ps1*
 *Invoke-PuttyCreds*
@@ -30451,10 +30751,12 @@
 *Invoke-ResolverBackdoor*
 *Invoke-RestMethod -ContentType 'Application/Json' -Uri $discord -Method Post -Body ($Body | ConvertTo-Json)*
 *Invoke-RestMethod -Uri https://content.dropboxapi.com/2/files/upload -Method Post  -InFile *  -Headers *
+*Invoke-ReverseDNSLookup*
 *Invoke-ReverseSocksProxy*
 *invokereverttoself*
 *Invoke-RevertToSelf*
 *Invoke-RevShellServer.ps1*
+*Invoke-RickASCII*
 *Invoke-RIDHijacking*
 *invoke-ridhijacking.py*
 *Invoke-Rubeus *
@@ -30467,18 +30769,21 @@
 *Invoke-S4U-persistence.ps1*
 *Invoke-SafetyKatz*
 *Invoke-SamBackupFilesCheck*
+*Invoke-SAMDump *
 *Invoke-SAMDump*
 *Invoke-SauronEye*
 *Invoke-SccmCacheFolderCheck*
 *Invoke-ScheduledTasksCheck*
 *Invoke-ScheduledTasksImagePermissionsCheck*
 *Invoke-ScheduledTasksUnquotedPathCheck*
+*Invoke-Schtasks*
 *Invoke-SCMPermissionsCheck*
 *Invoke-SCOMDecrypt*
 *Invoke-ScriptSentry*
 *Invoke-SCShell*
 *Invoke-SDCLTBypass*
 *Invoke-SDPropagator*
+*Invoke-SearchGAL*
 *Invoke-SearchMailbox*
 *Invoke-SearchSharePointAndOneDrive*
 *Invoke-SearchTeams -Tokens *
@@ -30493,17 +30798,25 @@
 *Invoke-SensitiveHiveFileAccessCheck*
 *Invoke-SensitiveHiveShadowCopyCheck*
 *Invoke-ServiceAbuse*
+*Invoke-ServiceCMD*
+*Invoke-ServiceDisable*
+*Invoke-ServiceEnable*
 *Invoke-Service-persistence.ps1*
 *Invoke-ServicesImagePermissionsCheck*
 *Invoke-ServicesPermissionsCheck*
 *Invoke-ServicesPermissionsRegistryCheck*
+*Invoke-ServiceStart*
+*Invoke-ServiceStop*
 *Invoke-ServicesUnquotedPathCheck*
+*Invoke-ServiceUserAdd*
 *Invoke-SessionGopher*
 *Invoke-SessionHunter*
+*Invoke-SessionHunter.ps1*
 *Invoke-ShadowSpray*
 *invoke-sharefinder *
 *invokesharefinder*
 *Invoke-ShareFinder*
+*Invoke-ShareHunter *
 *Invoke-SharpAllowedToAct*
 *Invoke-SharpBlock*
 *Invoke-SharpBypassUAC*
@@ -30585,6 +30898,7 @@
 *Invoke-SocksProxy*
 *Invoke-SocksProxy.*
 *Invoke-SocksProxy.ps1*
+*Invoke-SpawnAs*
 *Invoke-SpoolSample*
 *Invoke-SprayEmptyPassword*
 *Invoke-SQLAudit*
@@ -30638,6 +30952,7 @@
 *Invoke-ThirdPartyDriversCheck*
 *Invoke-ThreadedFunction*
 *Invoke-Thunderfox*
+*Invoke-Thunderstruck*
 *Invoke-TmpDavFS*
 *Invoke-TokenDuplication.ps1*
 *Invoke-TokenManipulation -CreateProcess *cmd.exe*
@@ -30678,6 +30993,7 @@
 *Invoke-WCMDump*
 *Invoke-WCMDump.ps1*
 *Invoke-WDigest.ps1*
+*Invoke-WdigestDowngrade*
 *Invoke-WebCamAvi.ps1*
 *Invoke-WebRequest https://tinyurl.com/*
 *Invoke-WebRequest ifconfig.me/ip*Content.Trim()
@@ -30692,9 +31008,11 @@
 *invoke-winrmsession*
 *Invoke-WireTap*
 *Invoke-WlanProfilesCheck*
+*Invoke-WLMDR*
 *Invoke-WmicDriveBy.*
 *Invoke-WmiCommand *
 *Invoke-WmiCommand*
+*Invoke-WMIDebugger*
 *invoke-wmiexec *
 *Invoke-WMIExec*
 *Invoke-WMIExec.ps1*
@@ -31089,7 +31407,7 @@
 *Kerberoast(*
 *kerberoast(self)*
 *Kerberoast.*
-*kerberoast.py*
+*Kerberoast.py*
 *kerberoast_attack*
 *kerberoast_blind_output_*
 *kerberoast_john_results_*
@@ -31178,6 +31496,7 @@
 *keylogger stopped*
 *Keylogger*
 *Keylogger.cs*
+*Keylogger.csproj*
 *KeyLogger.dll*
 *Keylogger.exe*
 *Keylogger.java*
@@ -31665,17 +31984,21 @@
 *lejgfmmlngaigdmmikblappdafcmkndb*
 *lem0nSec/ShellGhost*
 *lengjibo/FourEye*
+*leo4j.gitbook.io/amnesiac*
 *Leo4j/Amnesiac*
+*Leo4j/Invoke-ADEnum*
 *Leo4j/Invoke-SMBRemoting*
 *leonardred1989@protonmail.com*
 *letmeinbrudipls*
 *LetMeOutSharp.*
 *LetMeowIn.exe*
 *LetMeowIn-main.zip*
+*LEVEL_API_KEY=* bash -c "$(curl -L *
 *leviathansecurity/TunnelVision*
 *lexfo/sshimpanzee*
 *LFI scanner checks.jar*
 *lgandx/Pcredz*
+*lgandx/Responder-Windows*
 *LgBkAGwAbAAAAAAASgAVAAEAUAByAG8AZAB1AGMAdABOAGEAbQBlAAAAAABTAGgAYQByAHAAUwBo*
 *lgmpcpglpngdoalbgeoldeajfclnhafa*
 *LHOST=* LPORT=*
@@ -31962,6 +32285,7 @@
 *LogonPasswords\*-LogonPasswords.txt*
 *LogonPasswords\.AllUniqueNTLM.txt*
 *LogonTracer*
+*logs.logdna.com*
 *logs/maitm.log"*
 *logs/Responder-Session.log*
 *logs/ridenum.log*
@@ -32205,6 +32529,7 @@
 *Manage Remote Access Service.exe*
 *manage/reflective_dll_inject*
 *ManagedEasyHook.dll*
+*managedsupport.kaseya.net*
 *manageengine_adselfservice_plus_cve_2022_28810.*
 *manageengine_xnode/CVE*
 *manager/keepass.py*
@@ -32444,6 +32769,7 @@
 *metagoofil*
 *metame -i *.exe*
 *Metasploit*
+*metasploit.exe*
 *metasploit.go*
 *metasploit.rb*
 *metasploit/framework*
@@ -32526,6 +32852,7 @@
 *MIGkAgEBBDBido1KtKSwQah/WIoGkDZDX2WPXdexUVAmi0tf6Pd9vK5pfpt2II*
 *MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqqKav9bmrSMSPwnxA3ul*
 *MIIEoQIBAAKCAQEArJqP/6XFBa88x/DUootMmSzYa3MxcTV9FjNYUomqbQlGzuHa*
+*MIIEowIBAAKCAQEAunMwNRcEEAUJQSZDeDh/hGmpPEzMr1v9fVYie4uFD33thh1k*
 *MIIEowIBAAKCAQEAvZtOCbMyFKJN3n89nctTfYLSeiCTNG01rAFl06hMkobyzr0c*
 *MIIEpAIBAAKCAQEAp4fWROz5dd1ylzYsMWYY6Y+EBfPjvieE7EniddfMkA7ss47F*
 *MIIEpAIBAAKCAQEAqqKav9bmrSMSPwnxA3ulIleTPGiL9LGtdROute8ncU0HzPyL*
@@ -32587,7 +32914,7 @@
 *MimiTickets\*-Tickets.txt*
 *minidump*minikerberos*
 *minidump.* lsass.dmp*
-*Minidump.exe*
+*minidump.exe*
 *Minidump.sln*
 *minidump_add_memory_block*
 *minidump_add_memory64_block*
@@ -32965,6 +33292,7 @@
 *namespace hidden_tear*
 *namespace hidden_tear.Tools,*
 *namespace Jasmin_Encrypter*
+*namespace Keylogger*
 *namespace KrbRelayUp*
 *namespace LockLess*
 *namespace NTLMInjector*
@@ -32976,7 +33304,9 @@
 *namespace RemotePipeList*
 *namespace Rubeus*
 *namespace SafetyDump*
+*namespace SharpSC*
 *namespace SharpShares*
+*namespace SharpSSDP*
 *namespace SilentCryptoMiner*
 *namespace WheresMyImplant*
 *namespace WmEye*
@@ -33260,6 +33590,8 @@
 *NetRipper DLL (64 bits) successfully compiled*
 *netscan.exe /*
 *netscan_setup.exe*
+*netsh  advfirewall firewall * rule name="AweSun*
+*netsh  advfirewall firewall add rule name=\"Level Agent\"*
 *netsh add helper netshBad.DLL*
 *netsh advfirewall firewall add rule name="Radmin Server *
 *netsh advfirewall firewall add rule name='NimScan'*
@@ -33885,6 +34217,7 @@
 *onionpipe-linux-amd64-static*
 *OnionScan*
 *Online - Reverse Shell Generator*
+*online.level.io*
 *online_brute.gz.torrent*
 *oofgbpoabipfcfjapgnbbjjaenockbdp*
 *ookhnhpkphagefgdiemllfajmkdkcaim*
@@ -34408,7 +34741,7 @@
 *PetitPotam.cpp*
 *PetitPotam.exe*
 *PetitPotam.ps1*
-*PetitPotam.py*
+*petitpotam.py*
 *PetitPotam.sln*
 *PetitPotam.vcxproj*
 *PetitPotam:main*
@@ -34928,6 +35261,7 @@
 *pre2k auth * --dc-ip *
 *prepare_ppl_command_line*
 *prepareResponseForHiddenAPICall*
+*Preparing Windows for Responder...\nDisabling NetBIOS*
 *Prepouce/CoercedPotato*
 *Press a key to end PoC?*
 *PrimusC2-main.zip*
@@ -35095,6 +35429,8 @@
 *profiles new --mtls *
 *ProgIDsUACBypass.*
 *Program Files (x86)\Advanced Port Scanner\*
+*Program Files (x86)\Anyplace Control*
+*Program Files (x86)\AnyViewer*
 *Program Files (x86)\Common Files\Two Pilots*
 *Program Files (x86)\Proxifier*
 *Program Files (x86)\Radmin Viewer 3\*
@@ -35107,6 +35443,7 @@
 *program files*\netsupport\*
 *Program Files\DWAgent*
 *Program Files\File Shredder\*
+*Program Files\Level\level.log*
 *Program Files\remoteit-bin*
 *Program Files\SimpleHelp*
 *Program Files\VSA X\*
@@ -35592,6 +35929,7 @@
 *QuickAssist.exe launched*
 *quser.x64.o*
 *quser.x86.o*
+*quser;net sessions;query session;klist sessions*
 *qvo5sd7p5yazwbrgioky7rdu4vslxrcaeruhjr7ztn3t2pihp56ewlqd.onion*
 *QW1zaVNjYW5CdWZmZXI=*
 *qwinsta /server:*
@@ -35868,6 +36206,7 @@
 *RealBlindingEDR/releases*
 *realgam3*
 *Real-Passwords*
+*realtime.ably.io*
 *Reaper.exe kp *
 *Reaper.exe sp *
 *Reaper-main.zip*
@@ -36249,6 +36588,7 @@
 *Remove-Item (Get-PSreadlineOption).HistorySavePath*
 *Remove-Item *C:\Program Files*\TeamViewer\TeamViewer*_Logfile.log*
 *Remove-Item *C:\Users\*\AppData\Roaming\AnyDesk\connection_trace.txt*
+*Remove-Item -Path *\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt*
 *Remove-ItemProperty *HKLM:\SOFTWARE\YourSoftware\Schedule\TaskCache\Tree\* -Name *SD*
 *Remove-KeePassConfigTrigger*
 *RemoveKeePassTrigger.ps1*
@@ -36304,12 +36644,15 @@
 *Responder.py*
 *Responder/tools/MultiRelay/bin/Runas.exe*
 *Responder/tools/MultiRelay/bin/Syssvc.exe*
+*Responder\Responder.exe*
+*ResponderConfigDump *
 *responder-http-off*
 *responder-http-on*
 *Responder-Session.log*
 *responder-smb-off*
 *responder-smb-on*
 *Responder-Windows*
+*rest.ably.io*
 *RestartKeePass.ps1*
 *restic check --read-data*
 *restic init --repo *
@@ -36323,6 +36666,7 @@
 *Restore your data possible only buying private key from us*
 *restore_signature.sh *.dmp*
 *Restore-AADIntADFSAutoRollover*
+*Restore-ServiceEXE -ServiceName *
 *RestrictedAdmin.exe*
 *Results are on disk, enumerating next DC!*
 *resuming a previous NTDS.DIT dump session *
@@ -36822,6 +37166,8 @@
 *Rvn0xsy/Cooolis-ms*
 *rvrsh3ll/BOF_Collection*
 *rvrsh3ll/SharpCOM*
+*rvrsh3ll/SharpEdge*
+*rvrsh3ll/SharpSSDP*
 *rvrsh3ll/TokenTactics*
 *RwBlAHQALQBDAG8AbQBwAHUAdABlAHIASQBuAGYAbwAgAHwAIABzAGUAbABlAGMAdAAgAC0ARQB4AHAAYQBuAGQAUAByAG8AcABlAHIAdAB5ACAAVwBpAG4AZABvAHcAcwBQAHIAbwBkAHUAYwB0AE4AYQBtAGUA*
 *RwBlAHQALQBXAG0AaQBPAGIAagBlAGMAdAAgAFcAaQBuADMAMgBfAE4AZQB0AHcAbwByAGsAQQBkAGEAcAB0AGUAcgBDAG8AbgBmAGkAZwB1AHIAYQB0AGkAbwBuACAAfAAgAFMAZQBsAGUAYwB0AC0ATwBiAGoAZQBjAHQAIAAtAEUAeABwAGEAbgBkAFAAcgBvAHAAZQByAHQAeQAgAEkAUABBAGQAZAByAGUAcwBzACAAfAAgAFcAaABlAHIAZQAtAE8AYgBqAGUAYwB0ACAAewAoACQAXwAgAC0AbABpAGsAZQAgACIAMQAwAC4AKgAuACoALgAqACIAKQAgAC0AbwByACAAKAAkAF8AIAAtAGwAaQBrAGUAIAAiADEAOQAyAC4AMQA2ADgALgAqAC4AKgAiACkAIAAtAG8AcgAgACgAJABfACAALQBsAGkAawBlACAAIgAxADcAMgAuADEANgA4AC4AKgAuACoAIgApAH0A*
@@ -37263,6 +37609,7 @@
 *server-7566091c4e4a2a24.js*
 *server-console.exe +*
 *server-console.py --mifi-ip *
+*serverinfo.alpemix.com*
 *ServerlessRedirector-main*
 *--server-port * --server-ip * --proxy-ip * --proxy-port *
 *serverscan.linux.elf*
@@ -37408,6 +37755,7 @@
 *Set-DCShadowPermissions*
 *setdes linux x64 blahblahblah*
 *Set-DesktopACLToAllow*
+*Set-DesktopACLToAllowEveryone*
 *Set-DomainObject -Identity 'CN=Allowed RODC Password Replication Group* -Set @{'member'=@(*
 *Set-DomainObject -Identity 'CN=Denied RODC Password Replication Group* -Clear 'member'*
 *Set-DomainObject -Identity 'CN=RODC* -Set @{'msDS-NeverRevealGroup'=@(*
@@ -37428,6 +37776,7 @@
 *Set-MacAttribute.ps1*
 *Set-MacroSecurityOff *
 *Set-MacroSecurityOff.ps1*
+*Set-MasterBootRecord *
 *Set-MpPreference -DisableIOAVProtection $true*
 *Set-MpPreference -DisableRealtimeMonitoring $true*
 *Set-MpPreference -DisableRealtimeMonitoring *true*
@@ -37831,6 +38180,7 @@
 *SharpSpray\Program.cs*
 *SharpSQLPwn*
 *SharpSQLPwn.exe*
+*SharpSSDP.exe*
 *SharpStay.csproj*
 *Sharpstay.exe*
 *SharpStay.sln*
@@ -37912,6 +38262,7 @@
 *shell_smbadmin -Targets *
 *shell_startup_files_modification.py*
 *shell_tknadmin -Domain * -DomainController *
+*shell_tknadmin -Targets *
 *shell_wmiadmin -Domain * -DomainController*
 *Shell3er.ps1*
 *shellc *.bin *
@@ -39532,6 +39883,7 @@
 *token::run*
 *token::whoami*
 *TokenDump.exe*
+*Token-Impersonation -MakeToken -Username *
 *Token-Impersonation -Rev2Self*
 *Token-Impersonation -Steal*
 *Token-Impersonation.ps1*
@@ -40362,6 +40714,7 @@
 *WerTrigger-master*
 *wevtutil cl *
 *wevtutil clear-log*
+*wevtutil el | ForEach-Object {wevtutil cl *
 *wevtutil qe security /format:text /q:*Event[System[(EventID=4624)]*find *Source Network Address*
 *wevtutil.exe cl *
 *wevtutil.exe clear-log*
@@ -40579,7 +40932,7 @@
 *Win-Ops-Master.*
 *Winpayloads*
 *winPEAS.bat*
-*WinPEAS.exe*
+*winPEAS.exe*
 *winPEAS.Info.FilesInfo.Office.Office*
 *winPEAS.ps1*
 *winPEAS.txt*
@@ -40683,6 +41036,7 @@
 *wmi_persistence.rb*
 *WMIBackdoor.ps1*
 *wmic /* /user:administrator process call create *cmd.exe /c *
+*wmic /interactive:off nicconfig where TcpipNetbiosOptions=0 call SetTcpipNetbios 2*
 *wmic /namespace:\\root\default path stdRegProv call DeleteValue *SOFTWARE\YourSoftware\Schedule\TaskCache\Tree\*=*SD*
 *wmic /node:* /user:* /password:* process call create "\\*\*.exe*
 *wmic /node:* path Win32_TerminalServiceSetting where AllowTSConnections="0" call SetAllowTSConnections "1"*
@@ -40697,6 +41051,7 @@
 *wmic SHADOWCOPY /nointeractive*
 *wmic shadowcopy call create Volume='C:\'*
 *wmic shadowcopy delete*
+*wmic startup get Caption,Command,Location,User*
 *wmic useraccount get /ALL /format:csv*
 *wmic volume list brief*
 *wmic*/Namespace:\\root\SecurityCenter2 Path AntiVirusProduct Get displayName*
@@ -40804,6 +41159,7 @@
 *write_payload_dll_transacted*
 *write_what_where.py*
 *WriteAndExecuteShellcode*
+*Write-CMDServiceBinary*
 *WriteDLLPermission.txt*
 *writefile_bcpxpcmdshell.sql*
 *Write-HijackDll*
@@ -40815,7 +41171,10 @@
 *WritePayloadDllTransacted*
 *Write-PortscanOut*
 *Write-ServiceBinary*
+*Write-ServiceEXE *
+*Write-ServiceEXECMD*
 *Write-UserAddMSI*
+*Write-UserAddServiceBinary*
 *writing-rootkit.txt*
 *ws://localhost:58082*
 *wscript_elevator*
@@ -40849,6 +41208,7 @@
 *www.1secmail.com/api/v1/?action=*
 *www.4everproxy.com/tor-proxy*
 *www.ammyy.com/files/v*
+*www.anyplace-control.com/install*
 *www.autohotkey.com/download/*
 *www.bad-rat.de.vu*
 *www.dwservice.net*
