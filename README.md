@@ -252,7 +252,18 @@ you will find:
 - 🔗 Others correlation Lists: https://github.com/mthcht/awesome-lists/tree/main/Lists/Others
 - 📋 Lists i need to finish: https://github.com/mthcht/awesome-lists/tree/main/todo
 
-Check out these [Guides](https://github.com/mthcht/awesome-lists/blob/main/Lists/README.md) to use some of the lists
+Check out these Guides to use some of the lists:
+  - [Windows Services Searches](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
+  - [User-Agents Searches](https://mthcht.medium.com/threat-hunting-suspicious-user-agents-3dd764470bd0)
+  - [DNS Over HTTPS Searches](https://mthcht.medium.com/detecting-dns-over-https-30fddb55ac78)
+  - [Suspicious TLDs Searches](https://mthcht.medium.com/threat-hunting-suspicious-tlds-a742c2adbf58)
+  - [HijackLibs Searches](https://mthcht.medium.com/detect-dll-hijacking-techniques-from-hijacklibs-with-splunk-c760d2e0656f)
+  - [Phishing & DNSTWIST Searches](https://detect.fyi/detecting-phishing-attempts-with-dnstwist-37c426b3bbb8)
+  - [Browsers extensions Searches](https://mthcht.medium.com/detecting-browser-extensions-installations-e0ac2b45c46b)
+  - [C2 hiding in plain sigh](https://mthcht.medium.com/c2-hiding-in-plain-sight-7a83963b9344)
+  - [HTML Smuggling artifacts](https://mthcht.medium.com/detecting-html-smuggling-phishing-attempts-15af824e60e4)
+  - [PSEXEC & similar tools Searches](https://mthcht.medium.com/detecting-psexec-and-similar-tools-c812bf3dca6c)
+  - [Time Slipping detection](https://mthcht.medium.com/event-log-manipulations-1-time-slipping-55bf95631c40)
 
 ## DFIR Hunt for keywords in files (No SIEM)
 After conducting a thorough review of various tools, I discovered that [ripgrep](https://github.com/BurntSushi/ripgrep) significantly outperforms its competitors when it comes to rapidly matching an extensive list of regex patterns against each line of a large log file or even multiple files simultaneously. It proved to be the most efficient solution for handling massive amounts of data, providing unparalleled speed and flexibility.
