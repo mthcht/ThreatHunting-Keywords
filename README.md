@@ -229,6 +229,8 @@ you will find:
 - 📋 Lists: https://github.com/mthcht/awesome-lists/tree/main/Lists
 - 🕵️‍♂️ ThreatHunting Guides: https://mthcht.medium.com/list/threat-hunting-708624e9266f
 - 🚰 Suspicious Named pipes: [suspicious_named_pipe_list.csv](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv)
+- 🌐 Suspicious TLDs (updated automatically): [[suspicious_TLDs]](https://github.com/mthcht/awesome-lists/tree/main/Lists/TLDs)
+- 🌐 Suspicious ASNs (updated automatically): [](https://github.com/mthcht/awesome-lists/tree/main/Lists/ASNs)
 - 🔧 Suspicious Windows Services: [suspicious_windows_services_names_list.csv](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_services_names_list.csv)
 - ⏲️ Suspicious Windows Tasks: [suspicious_windows_tasks_list.csv](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_windows_tasks_list.csv)
 - 🚪 Suspicious destination port: [suspicious_ports_list.csv](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_ports_list.csv)
@@ -256,6 +258,7 @@ you will find:
 - 🏢 Companies IP Range Lists (updated automatically): [Default Lists + script](https://github.com/mthcht/awesome-lists/tree/main/Lists/Ranges_IP_Address_Company_List/bgp.he.net)
 - 🔗 Others correlation Lists: https://github.com/mthcht/awesome-lists/tree/main/Lists/Others
 - 📋 Lists i need to finish: https://github.com/mthcht/awesome-lists/tree/main/todo
+
 
 Check out these Guides to use some of the lists:
   - [Windows Services Searches](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
