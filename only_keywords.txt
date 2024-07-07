@@ -166,6 +166,7 @@
 * addcomputer_LDAP_spn.py*
 * addcomputer_with_spns.py *
 * --AddComputerTask --TaskName * --Author * --Command * --Arguments * --GPOName *
+* Add-KeeThiefLurker.ps1*
 * --AddLocalAdmin --UserAccount * --GPOName *
 * Add-RemoteRegBackdoor.ps1*
 * address-info.nse*
@@ -883,6 +884,8 @@
 * enumeration_process.exe*
 * --enum-local-admins*
 * -ep Bypass -enc $b64FileServerMonitoringScript*
+* -ep Bypass-nop function *[System.Security.Cryptography.Aes]::Create()*.CreateDecryptor()*.TransformFinalBlock*[System.Text.Encoding]::Utf8.GetString*
+* -ep Unrestricted -nop function *[System.Security.Cryptography.Aes]::Create()*.CreateDecryptor()*.TransformFinalBlock*[System.Text.Encoding]::Utf8.GetString*
 * epmd-info.nse*
 * eppc-enum-processes.nse*
 * EternalHushCore *
@@ -891,6 +894,8 @@
 * etwunhook.cpp*
 * etwunhook.exe*
 * -eval *caplets.update* ui.update*
+* -EventName KeeThief -WMI*
+* -EventName WmiBackdoor -PermanentCommand *
 * EventViewer-UACBypass*
 * evil.corp *
 * evil_DDL_trigger*
@@ -2253,6 +2258,7 @@
 * PowerBreach.ps1*
 * powercat.ps1
 * powercat.ps1*
+* PowerLurk.ps1*
 * Powermad.ps1*
 * PowerTools.ps1*
 * PowerUp.ps1*
@@ -2561,6 +2567,10 @@
 * --script-args dns-srv-enum.domain=*
 * -ScriptString * -GetMinimallyObfuscated*
 * -ScriptString * -PSAmsiScanner *
+* --search "(&(objectCategory=computer)(userAccountControl:1.2.840.113556.1.4.803:=524288))*
+* --search "(&(objectCategory=group)(cn=*Admins*
+* --search "(&(objectCategory=group)(cn=MS SQL Admins)*
+* --search "(&(objectCategory=user)(userAccountControl:1.2.840.113556.1.4.803:=4194304))*
 * --search password --from_date * --to_date *
 * -seatbelt -Command *
 * Seatbelt.Commands.Windows*
@@ -3576,6 +3586,7 @@
 *.api.123456.*
 *.api.mega.co.nz*
 *.api.splashtop.com*
+*.apitest.barracudamsp.com*
 *.apps.123456.*
 *.arsenal.json*
 *.asp --adcs --template Machine -smb2support*
@@ -3604,6 +3615,7 @@
 *.com/dcsync/*
 *.com/SecureAuthCorp*
 *.com/SpiderLabs*
+*.comodo.com/static/frontend/static-pages/enroll-wizard/token*
 *.config/systemd/user/remotemoe.service*
 *.config/telebit/telebitd.yml*
 *.console.gotoassist.com*
@@ -3681,6 +3693,7 @@
 *.exe asktgt /user:* /rc4:* /createnetonly:*cmd.exe*
 *.exe asktgt /user:* /rc4:* /ptt*
 *.exe --asrep
+*.exe audit ModifiableServices*
 *.exe AzureStorage --connectionstring * --filepath * --extensions *
 *.exe -b * -p 'C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Default'*
 *.exe -b all -f json --dir results -cc*
@@ -3718,6 +3731,7 @@
 *.exe DomainGPPPassword*
 *.exe DontReqPreAuth -action list*
 *.exe DontReqPreAuth -action write -target *
+*.exe dump /luid:* /service:krbtgt*
 *.exe dump /luid:0x5379f2 /nowrap*
 *.exe --effective --allow --outfile "C:\Windows\Tasks\Rules.json"*
 *.exe --effective --allow --rules="FileHashRule,FilePathRule" --outfile=*
@@ -4269,6 +4283,7 @@
 */add_groupmember.py*
 */addcomputer_LDAP_spn.py*
 */addcomputer_with_spns.py*
+*/Add-KeeThiefLurker.ps1*
 */Add-RemoteRegBackdoor.ps1*
 */address-info.nse*
 */AddTrustedDomain.py*
@@ -4437,6 +4452,7 @@
 */app/pgrokd/*
 */AppFiles/ipscan.exe*
 */Applications/Anydesk.app/*
+*/Applications/Managed Workplace/Onsite Manager/logs/*
 */Applications/remoteit.app/*
 */Aqua Server Editor.exe*
 */aquasecurity/cloudsploit*
@@ -7903,6 +7919,8 @@
 */powerkatz_x64.dll*
 */powerkatz_x86.dll*
 */powerloader.py*
+*/PowerLurk.git*
+*/PowerLurk.ps1*
 */Powermad.git*
 */Powermad.ps1*
 */PowerPick.exe*
@@ -8321,6 +8339,7 @@
 */Remote/unexpireuser/*
 */RemoteAccessPolicyEnumeration.ps1*
 */Remote-administration-tools-archive.git*
+*/RemoteControlSetup.exe*
 */remotedesktop.exe*
 */RemoteHashRetrieval.ps1*
 */remoteit.exe*
@@ -9362,6 +9381,7 @@
 */teams_dump.git*
 */teams_dump.py*
 */teams_localdb.py*
+*/teamserver.service*
 */TeamServer_linux *
 */TeamServer_win.exe*
 */teamserver-linux.tar.gz*
@@ -9440,6 +9460,9 @@
 */tls-nextprotoneg.nse*
 */tls-ticketbleed.nse*
 */tmmmp *
+*/tmp/*/enroll.sh*
+*/tmp/*/itsm.service*
+*/tmp/*/itsm-linux*
 */tmp/*-passwords.txt*
 */tmp/*-usernames.txt*
 */tmp/.llock*
@@ -10656,6 +10679,7 @@
 *\\MeshAgent*
 *\\pipe\\$77control*
 *\\pipe\\DAV RPC SERVICE*
+*\\pipe\\openssh-ssh-agent*
 *\\pipe\\petit\\pipe\\srvsvc*
 *\\PPLmedic\\ntstuff*
 *\\RustDeskIddDriver*
@@ -10762,6 +10786,7 @@
 *\add_computer.py*
 *\addcomputer_LDAP_spn.py*
 *\addcomputer_with_spns.py*
+*\Add-KeeThiefLurker.ps1*
 *\Add-RemoteRegBackdoor.ps1*
 *\AddTrustedDomain.py*
 *\AddTrustedDomain.vba*
@@ -10912,12 +10937,14 @@
 *\AppData\Local\Temp\dwagent*
 *\AppData\Local\Temp\factura.exe*
 *\AppData\Local\Temp\GetLogs.ps1*
+*\AppData\Local\Temp\ITarian_Remote_Access_*
 *\AppData\Local\Temp\KPortScan*
 *\AppData\Local\Temp\Leaked.txt*
 *\AppData\Local\Temp\Payload.ps1*
 *\AppData\Local\Temp\Procmon.exe*
 *\AppData\Local\Temp\Procmon64.exe*
 *\AppData\Local\Temp\Proxifier PE\*
+*\AppData\Local\Temp\Remote_Control_by_Itarian*
 *\AppData\Local\Temp\RemoteHelp\EBWebView*
 *\AppData\Local\Temp\rutserv*
 *\AppData\Local\Temp\Screenshot.ps1*
@@ -11159,6 +11186,7 @@
 *\Boot\EfiGuardDxe.efi*
 *\bootkit-rs*
 *\brc.zip*
+*\BRMM_2024.1-Release*
 *\BrowserEnum.log*
 *\BrowserExfelterator.cs*
 *\browserhistory.csv*
@@ -11295,6 +11323,7 @@
 *\Commands\Machinecredentials.cs*
 *\common_pass.txt*
 *\COM-Object-hijacking-master*
+*\ComodoRemoteControl.exe*
 *\CompressArchiveCommand.cs
 *\ComunicationC2.cpp*
 *\CONCRETE_STEEL.exe"*
@@ -11374,8 +11403,11 @@
 *\CurrentControlSet\Services\AlpemixSrvcx*
 *\CurrentControlSet\Services\BadWindowsService*
 *\CurrentControlSet\Services\bam\State\UserSettings\*\MicrosoftCorporationII.QuickAssist_*
+*\CurrentControlSet\Services\ItsmRsp*
+*\CurrentControlSet\Services\ITSMService*
 *\CurrentControlSet\Services\Mesh*
 *\CurrentControlSet\Services\MiniInternetIdService*
+*\CurrentControlSet\Services\RmmService*
 *\CurrentControlSet\Services\ScreenConnect *
 *\CurrentControlSet\Services\SupremoService*
 *\CurrentControlSet\Services\TeamViewer*
@@ -12259,6 +12291,13 @@
 *\Iraq RAT V.1.exe*
 *\ironvest\getCredsironvest.h*
 *\irs.exe*
+*\ITarian Remote Access.lnk*
+*\itarian\endpoint manager\itsmagent.exe*
+*\itarian\endpoint manager\itsmservice.exe*
+*\itarian\endpoint manager\rhost.exe*
+*\ITarian\RemoteControl*
+*\ITarian_Remote_Access_*.log*
+*\ITarianRemoteAccess.exe*
 *\itRAT.exe*
 *\itsdangerous.zip*
 *\Ivy\Cryptor*
@@ -12687,6 +12726,8 @@
 *\MutationGate.exe*
 *\MutationGate.sln*
 *\MutationGate.vcxproj*
+*\MWDiagnosticCollector.exe*
+*\MWDiagnosticCollectorResult_*.zip*
 *\mystikal.py*
 *\nanodump*
 *\nanodump.c*
@@ -12946,6 +12987,7 @@
 *\onesixtyone.py*
 *\online_brute.gz*
 *\Open Source\MeshCentral\*
+*\OpenSSHTestTasks\*
 *\openvpn.exe*
 *\options.vnc*
 *\oracle-patator.py*
@@ -13100,6 +13142,7 @@
 *\pipe\brutepipe*
 *\pipe\chrome_remote_desktop*
 *\pipe\moj_ML_ntsvcs *
+*\pipe\openssh-ssh-agent*
 *\pipe\PAExecErr*
 *\pipe\PAExecIn*
 *\pipe\PAExecOut*
@@ -13168,6 +13211,8 @@
 *\powerkatz.dll*
 *\powerkatz_x64.dll*
 *\powerkatz_x86.dll*
+*\PowerLurk.ps1*
+*\PowerLurk-main*
 *\Powermad*
 *\Powermad.ps1*
 *\PowerPick.exe*
@@ -13250,9 +13295,13 @@
 *\Program Files (x86)\Advanced Monitoring Agent\*
 *\Program Files (x86)\Anyplace Control*
 *\Program Files (x86)\Atera Networks*
+*\Program Files (x86)\Barracuda RMM\*
 *\program files (x86)\gotomypc\g2tray.exe*
 *\Program Files (x86)\IObit\IObit Unlocker*
+*\Program Files (x86)\ITarian\Endpoint Manager\*
+*\Program Files (x86)\ITarian\RemoteControl\*
 *\Program Files (x86)\KidLogger*
+*\Program Files (x86)\Level Platforms\*
 *\Program Files (x86)\Level\*
 *\Program Files (x86)\RemotePC\*
 *\program files (x86)\remotepc\remotepcperformance\*
@@ -13260,9 +13309,11 @@
 *\Program Files\Atera Networks*
 *\Program Files\AutoHotkey*
 *\Program Files\Aweray*
+*\Program Files\Barracuda RMM\*
 *\Program Files\CyberGhost*
 *\Program Files\FreeFileSync*
 *\Program Files\IObit\IObit Unlocker*
+*\Program Files\Level Platforms\*
 *\Program Files\Level\level.db*
 *\Program Files\Level\osqueryi.exe*
 *\Program Files\Level\winpty.dll*
@@ -13280,6 +13331,7 @@
 *\ProgramData\Amperage*
 *\ProgramData\Anyplace Control *
 *\ProgramData\asrephashes.txt*
+*\ProgramData\Barracuda MSP\*
 *\programdata\bomgar-scc-*
 *\ProgramData\LogMeIn\*
 *\ProgramData\megatmp.M1.txt*
@@ -13551,9 +13603,15 @@
 *\Remote Utilities\MiniInternetId*
 *\Remote.It-Installer-*
 *\remote_assistance_host.exe*
+*\Remote_Control_by_ITarian_*.log*
 *\remoteaccess-jar-with-dependencies.jar*
 *\RemoteAccessPolicyEnumeration.ps1*
 *\RemoteCamera.dll*
+*\remotecontrol\rcontrol.exe*
+*\remotecontrol\rviewer.exe*
+*\RemoteControlbyITarian (3).exe*
+*\RemoteControlbyITarian_(3).exe*
+*\RemoteControlSetup.exe*
 *\remotedesktop.exe*
 *\RemoteDesktop_x64.msi*
 *\RemoteHashRetrieval.ps1*
@@ -13674,6 +13732,7 @@
 *\rm_injection.exe*
 *\rmm-client-site-server.exe*
 *\rmm-installer.ps1*
+*\RmmService.exe*
 *\ROADtools\*
 *\roaster.py*
 *\roblox cookies.txt*
@@ -14175,13 +14234,16 @@
 *\SOFTWARE\Classes\.ahk\*
 *\SOFTWARE\Classes\AutoHotkeyScript\*
 *\SOFTWARE\Clients\Media\AnyDesk*
+*\SOFTWARE\ITarian\RemoteControl*
 *\SOFTWARE\Kaseya\*
 *\Software\Kidlogger*
+*\SOFTWARE\Level Platforms\Managed Workplace\*
 *\Software\LogMeInRescue\*
 *\SOFTWARE\Microsoft\Tracing\PCMonitorSrv_RAS*
 *\SOFTWARE\Microsoft\Tracing\Quick Assist Installer*
 *\Software\MSDART\Active Directory Explorer*
 *\Software\NetSupport Ltd\*
+*\Software\OpenSSH\DefaultShell*
 *\SOFTWARE\ORL\VNCHooks\Application_Prefs\WinVNC*
 *\SOFTWARE\Policies\Sinclair Community College\Make Me Admin*
 *\SOFTWARE\Sinclair Community College\Make Me Admin*
@@ -14192,6 +14254,7 @@
 *\SOFTWARE\TAP-Windows*
 *\Software\TeamViewer\Temp*
 *\SOFTWARE\Usoris\Remote Utilities\*
+*\SOFTWARE\WOW6432Node\ITarian\ITSM\*
 *\SOFTWARE\WOW6432Node\Microsoft\Tracing\Proxifier_*
 *\SOFTWARE\WOW6432Node\Supremo\*
 *\SOFTWARE\WOW6432Node\TightVNC\*
@@ -15146,6 +15209,11 @@
 *>AweRay Pte. Ltd.<*
 *>AweSun.exe<*
 *>AweSun<*
+*>Barracuda MSP<*
+*>Barracuda Networks, Inc.*
+*>Barracuda RMM Setup AutoRun<*
+*>Barracuda RMM Setup<*
+*>Barracuda RMM*<*
 *>Bomgar Corporation</Data>*
 *>BrowsingHistoryView<*
 *>CursorSvc<*
@@ -15169,6 +15237,7 @@
 *>JSP Backdoor Reverse Shell<*
 *>KerberOPSEC</*
 *>Level Software, Inc.<*
+*>LPI Level Platforms<*
 *>Make Me Admin<*
 *>MakeMeAdmin<*
 *>MDE_Enum<*
@@ -15191,6 +15260,7 @@
 *>Product: Remote Utilities Server -- *
 *>Proxifier Setup<*
 *>Quick Assist Component<*
+*>Remote Control by Itarian<*
 *>Remote Desktop PassView<*
 *>Remote device management - https://level.io<*
 *>Remote Support Customer Client</Data>*
@@ -15198,6 +15268,7 @@
 *>Remote.it<*
 *>REPLACE_ME_DummyServiceName<*
 *>Representative Console</Data>*
+*>RmmService<*
 *>sdelete.exe<*
 *>SetACL.exe<*
 *>SetACL64..exe<*
@@ -16312,6 +16383,7 @@
 *237ee4007c3014829ab2635b0caa1ee4c89c3cbf71e43e76b3c1e2da0931aa00*
 *237f52a3509094464bb92f82a4908a60c7a4cc9db9748f0cc254e75311bb8b0d*
 *2380b9b4e364c67332ead5d26bf108ef9a022ffe93c421d27d953ea9a5500474*
+*238111f4c27f2bad38c5b5eac85aacf4305baaa7c854911e3cbffe7a58cc9964*
 *238214970b5fba5a7eab8d9fb50c79da888018ff2a63ad49d1114b8d478d559a*
 *2388c7f7f1073b922d235f675e32e1b6b8809dcef1cce1113bf712402cbad1cd*
 *23975ac9-f51c-443a-8318-db006fd83100*
@@ -17034,6 +17106,7 @@
 *3ebdcf2fcbe2c7439b0b0e3bc4dcd00a4fd4df7f02e88b160f085b35f5d2f350*
 *3ec41c041f4c5b1c1c781ddcd9d0286a0a920253783edb27a8fc8085d9ecb6f8*
 *3ec8a46dfacff51b3a19034479c2c68b74c92342e483295152754f939a8d1d31*
+*3EC9B9A8-0AFE-44A7-8B95-7F60E750F042*
 *3ECA4B56CE358B13E1128A1E6149ED07CA0A8C55997B50A1E2C4EA46BD586B84*
 *3ed6aa523846443c89fc204956bf871d327a14862e0a65dad6e6f4854937e099*
 *3ee17b78ee6df429959331d016e7a2a64931584c70275c2b72da8b5ff33a3d59*
@@ -18622,6 +18695,7 @@
 *76dc564506eb2419fffad94ca1eafd192f053261ec01d97848a259d15698d520*
 *76e5d42d4d2971de51de652417cfe38461ef9e18672e1070a1138910c8448a2f*
 *76EFDEE3-81CF-4ADA-94DC-EA5509FF6FFC*
+*76f677acfe19ca1e1e39c391e4923dc38e1e3f752097c5808c171c1d5228194e*
 *76FFA92B-429B-4865-970D-4E7678AC34EA*
 *772a8b19e2abd21dc6f10dc1ac4ff07e52e8f242716c1308e14a1e9fb81e7cd7*
 *7734774a6bbb47e7c0f32f4903928df120887180ddae7bb2bd4d15cd17a4a7c1*
@@ -18747,6 +18821,7 @@
 *7af0afcd0f9db86c97a7357aaaedd26ab3746e828d5c0febdd063099d0d3fee9*
 *7afe27385edf41f8365eed21b7f34467b574f2cb91f618ddcae75024f6403c41*
 *7b05dd49119858395e365446d7168cc725a999d9d98b7ccabfafc3b5da7a6f74*
+*7b0HYBxJliUmL23Ke39K9UrX4HShCIBgEyTYkEAQ7MGIzeaS7B1pRyMpqyqBymVWZV1mFkDM7Z28995777333nvvvfe6O51OJ*
 *7b1aa993de7f49a7731c952cf3abedad501f45dc378e18b9b8245eaba78e72c5*
 *7b1f95fad0a9d54d14ec51545fa5739a6b0764117843a3d468f387cfbe133e6f*
 *7b206d4ff0ebe922b4242b4821c84f9e5c05579fdc4c43033ae9a45f6494cac9*
@@ -18933,6 +19008,7 @@
 *81930048c93d8db07af024cd0355809248501dec0ce182a734d16e6bd48055a3*
 *81b115a9e1d6c8333dbac2759eadbd56badd489ecc04eadff97217671d789776*
 *81c02fac6308e64ef8eba1bf4088b04daf1d33ac295c9a376b31e616cd3d4cec*
+*81c3f4341d0cecc16beaae19c88e54dda2730a4eaf06cc0fea0119822d7482c3*
 *81cd3e0dfad46b8baf1d60ca5487c459fd64fdfd31340964ad6b4627605ceb5d*
 *81da530e620cf0c86a3b6a99d562e7c175951d9417264be1dab397c4146814ab*
 *81e16f20ad480d901964c4b9bfc2f0321a4693cb123f4d3148277bd9f7bc3f5d*
@@ -20333,6 +20409,7 @@
 *Adding GlobaLeaks PGP key to trusted APT keys*
 *Add-KeePassConfigTrigger*
 *AddKeePassTrigger.ps1*
+*Add-KeeThiefLurker *
 *AddMenuItemA("Grab browser Passwords"*
 *AddMenuItemA("Pentest"*
 *Add-MpPreference -DisableBehaviorMonitoring True*
@@ -21528,6 +21605,8 @@
 *bananaKitten.exe*
 *BaRMIe*
 *baron-samedit-heap-based-overflow-sudo.txt*
+*Barracuda RMM Onsite Manager - InstallShield Wizard*
+*Barracuda RMM Onsite Manager.msi*
 *base64 -d /tmp/*
 *base64_conversion_commands.ps1*
 *basemmnnqwxevlymli5bs36o5ynti55xojzvn246spahniugwkff2pad.onion*
@@ -21903,6 +21982,7 @@
 *bin/striker*
 *bin/telebit.js*
 *bin/void.zip*
+*bin/wireshark*
 *Bin\bin32\zlibwapi.dll*
 *Bin\bin64\zlibwapi.dll*
 *bin\psexec_command.x64.o*
@@ -24141,6 +24221,7 @@
 *CVE-2024-1086-1.0.0.zip*
 *cvescanner.py*
 *cwB0AGEAcgB0ACAAYwBhAGwAYwA=*
+*cwn-log-collector-production-clone.*.elasticbeanstalk.com*
 *cyberark/ACLight*
 *cyberark/kubesploit*
 *cyberark/PipeViewer*
@@ -27438,6 +27519,7 @@
 *Find-InterestingDomainShareFile*
 *find-interestingfile -*
 *Find-InterestingFile*
+*Find-KeePassconfig *
 *Find-KeePassconfig*
 *Find-LocalAdminAccess *
 *Find-LocalAdminAccess -Verbose*
@@ -27467,6 +27549,7 @@
 *findstr *net use*
 *findstr *password*
 *findstr *vnc.ini*
+*findstr /S /I cpassword *\policies\*.xml*
 *findstr /si secret *.docx*
 *findstr lsass*
 *findstr.exe Tvndrgaaa*
@@ -27547,6 +27630,7 @@
 *foreign_lsass.c*
 *foreign_lsass.x64*
 *foreign_lsass.x86*
+*forfiles.exe* /p * /m * /c *powershell . mshta*
 *forge_ticket.rb*
 *forge_ticket_spec.rb*
 *ForgeCert.exe*
@@ -27693,8 +27777,10 @@
 *function Base64_Obfuscation*
 *function BXOR_Obfuscation*
 *function DumpSAM*
+*function Find-KeePassconfig*
 *function GNLPH*Get-ItemProperty "HKLM:SAM\SAM\Domains\Account\Users\*
 *function ImpersonateFromParentPid*
+*function Local:Get-KeePassINIFields*
 *function psenum*
 *Function PsMapExec*
 *function Use-Zeus*
@@ -28242,6 +28328,7 @@
 *Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Control\Lsa -Name *RunAsPPL*
 *Get-KeePassconfig*
 *Get-KeePassConfigTrigger*
+*Get-KeePassDatabaseKey *
 *Get-KeePassDatabaseKey*
 *Get-KeePassINIFields*
 *Get-KeePassXMLFields*
@@ -29992,6 +30079,7 @@
 *Import-DllImports -PEInfo *
 *Import-DllImports*
 *Import-DllInRemoteProcess*
+*Import-Module *\OpenSSHUtils*
 *Import-Module *Microsoft.ActiveDirectory.Management.dll*
 *Import-Module AADInternals*
 *Import-Module DSInternals*
@@ -30264,6 +30352,7 @@
 *Install-ServiceBinary*
 *Install-SQLC2AgentLink*
 *Install-SQLC2Server*
+*install-sshd.ps1*
 *Install-SSP -Path*.dll*
 *Install-SSP.ps1*
 *install-tor2web.sh*
@@ -31091,6 +31180,7 @@
 *issue_shell_whoami*
 *it will extract domain controller private key through RPC uses it to decrypt all credentials*
 *It2H@Qp3Xe*sxdc#KA8)dbMtI5Q7&FK*
+*ITarianRemoteAccessSetup.exe*
 *Itay Migdal*
 *itaymigdal/LOLSpoof*
 *it-gorillaz/lnk2pwn*
@@ -32059,6 +32149,7 @@
 *linpeas_linux_amd64*
 *linpeas_linux_arm*
 *linpeas_linux_arm64*
+*Linux ITSM Agent/* -e /tmp/install.sh *
 *Linux.Backdoor*
 *Linux.Cloudsnooper*
 *Linux.NOODLERAT*
@@ -32596,6 +32687,7 @@
 *mdavis332/DomainPasswordSpray*
 *MDE_Enum /local /asr*
 *MDE_Enum /local /paths*
+*mdmsupport.comodo.com*
 *mDNSSpoofer*
 *mdornseif/DeNiSe*
 *MDSDLL_x64.dll*
@@ -33171,9 +33263,15 @@
 *msgfilter -P /bin/sh -p -c '/bin/sh*
 *Mshikaki.exe*
 *Mshikaki-main*
+*mshta "C:\Users\Public\*
 *mshta http*.hta*
+*mshta https://tinyurl.com/*
 *mshta javascript:*script:https:*
+*mshta javascript:a=(GetObject("script:http*.sct*)).Exec();close();*
 *mshta vbscript:Close(Execute(*script:https://*.sct*
+*mshta.exe https://tinyurl.com/*
+*mshta.exe javascript:a=(GetObject("script:http*.sct*)).Exec();close();*
+*mshta.exe* "C:\Users\Public\*
 *mshta.exe* http://*
 *mshta.exe* https://*
 *mshta.exe* javascript:*script:https:*
@@ -33468,12 +33566,126 @@
 *net rpc group members 'Domain admins' -U *
 *net rpc group members 'Domain Users' -W *
 *net start RPCPerformanceService*
+*net start ssh-agent*
 *net start SysUpdate*
+*net stop "Sophos *
+*net stop "SQL Backups"*
+*net stop "SQLsafe Backup Service"*
+*net stop "storagecraft imagemanager*"
+*net stop "Symantec System Recovery"*
+*net stop "Veeam Backup Catalog Data Service"*
+*net stop "Zoolz 2 Service"*
 *net stop \"windows event log\"*
+*net stop AcronisAgent*
+*net stop AcrSch2Svc*
+*net stop agntsvc*
+*net stop Antivirus*
+*net stop ARSM /y*
+*net stop arsm*
+*net stop AVP*
+*net stop backp*
+*net stop backup*
+*net stop BackupExec*
+*net stop BackupExecAgent*
 *net stop badrv*
+*net stop bedbg /y*
+*net stop cbservi*
+*net stop cbvscserv*
+*net stop DCAgent*
+*net stop EhttpSrv*
+*net stop ekrn*
+*net stop EPSecurityService*    
+*net stop EPUpdateService*       
+*net stop EsgShKernel*
+*net stop ESHASRV*
+*net stop FA_Scheduler*
 *net stop IKEEXT*
+*net stop IMAP4Svc*
+*net stop KAVFS*
+*net stop KAVFSGT*
+*net stop kavfsslp*
+*net stop klnagent*
+*net stop macmnsvc*
+*net stop masvc*
+*net stop MBAMService*
+*net stop MBEndpointAgent*    
+*net stop McAfeeEngineService*    
+*net stop McAfeeFramework*
+*net stop McAfeeFrameworkMcAfeeFramework*
+*net stop McShield*
+*net stop mfefire*
+*net stop mfemms*
+*net stop mfevtp*
+*net stop mozyprobackup*
+*net stop MsDtsServer*
+*net stop MsDtsServer100*
+*net stop MsDtsServer110*
+*net stop msftesql$PROD*
+*net stop MSOLAP$SQL_2008*
+*net stop MSOLAP$SYSTEM_BGC*
+*net stop MSOLAP$TPS*
+*net stop MSOLAP$TPSAMA*
+*net stop MSSQL$BKUPEXEC*
 *net stop MSSQL$CONTOSO1*
+*net stop MSSQL$ECWDB2*
+*net stop MSSQL$PRACTICEMGT*
+*net stop MSSQL$PRACTTICEBGC*
+*net stop MSSQL$PROD*
+*net stop MSSQL$PROFXENGAGEMENT*
+*net stop MSSQL$SBSMONITORING*
+*net stop MSSQL$SHAREPOINT*
+*net stop MSSQL$SOPHOS*
+*net stop MSSQL$SQL_2008*
+*net stop MSSQL$SQLEXPRESS*
+*net stop MSSQL$SYSTEM_BGC*
+*net stop MSSQL$TPS*
+*net stop MSSQL$TPSAMA*
+*net stop MSSQL$VEEAMSQL*
+*net stop sacsvr*
+*net stop SAVAdminService*
+*net stop SAVService*
+*net stop shadowprotectsvc*
+*net stop ShMonitor*
+*net stop Smcinst*
+*net stop SmcService*
+*net stop sms_site_sql_backup*
+*net stop SntpService*    
+*net stop sophossps*
+*net stop spxservice*
+*net stop sqbcoreservice*
+*net stop SQLAgent$SOPH
+*net stop SQLAgent$VEEAMSQL*
+*net stop stc_endpt_svc*
+*net stop stop SepMasterService*
+*net stop svcGenericHost*
+*net stop swi_filter*
+*net stop swi_service*
+*net stop swi_update*
+*net stop swi_update_64*
 *net stop tacticalrmm*
+*net stop TmCCSF*
+*net stop tmlisten*
+*net stop TrueKey*
+*net stop TrueKeyScheduler*    
+*net stop TrueKeyServiceHel
+*net stop vapiendpoint*       
+*net stop VeeamBackupSvc*
+*net stop VeeamBrokerSvc *
+*net stop VeeamCatalogSvc*
+*net stop VeeamCloudSvc*
+*net stop VeeamDeploymentService*
+*net stop VeeamDeploySvc*
+*net stop VeeamDeploySvc*    
+*net stop VeeamEnterpriseManagerSvc*
+*net stop VeeamHvIntegrationSvc*
+*net stop VeeamMountSvc*
+*net stop VeeamNFSSvc*
+*net stop VeeamRESTSvc*
+*net stop VeeamTransportSvc*
+*net stop vsnapvss*
+*net stop vssvc*
+*net stop wbengine*
+*net stop WRSVC*
 *net user *$* /*
 *net user /add icebreaker *
 *net user AutoRDPwn*
@@ -33588,6 +33800,7 @@
 *net-proxy/sshuttle*
 *NetRipper DLL (32 bits) successfully compiled*
 *NetRipper DLL (64 bits) successfully compiled*
+*netsat -naop*
 *netscan.exe /*
 *netscan_setup.exe*
 *netsh  advfirewall firewall * rule name="AweSun*
@@ -33610,6 +33823,7 @@
 *netsh wlan show profiles key=clear*
 *netsh.exe add helper *\temp\*.dll*
 *netsh.exe interface ip delete arpcache >C:\Windows\TEMP\ipconfig.out 2>&1*
+*netsh.exe trace start maxSize=1 fileMode=single capture=yes traceFile=*\TEMP*.etl*
 *netsh.exe wlan show profiles key=clear*
 *netsh.exe* interface portproxy show all*
 *NetshHelperBeacon.exe*
@@ -33677,6 +33891,7 @@
 *New-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\UtilMan.exe" -Name *
 *New-ItemProperty -Path "HKLM:\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\Userlist" -Name * -Value 0 -PropertyType Dword*
 *New-MailBoxExportRequest -Mailbox *@* -FilePath *.aspx*
+*New-NetFirewallRule * -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22*
 *New-Object System.Management.ManagementClass("\\\$env:computername\root\cimv2*["__CLASS"] = "PMEClass"*
 *New-Object System.Net.Sockets.TCPClient(*$stream = $client.GetStream()*[byte[]]$bytes = 0..65535*
 *new-operator --name * --lhost *
@@ -33685,6 +33900,7 @@
 *New-PSAmsiScanner -*
 *New-PSDrive -Name T -PSProvider FileSystem -Root \\$IP\transfer *
 *New-RoutingPacket*
+*New-Service -Name sshd*
 *New-UserPersistenceOption*
 *New-VolumeShadowCopy*
 *New-WmiSession.ps1*
@@ -35094,6 +35310,7 @@
 *PowerMemory*
 *PowerOPS*
 *powerpick -Command *
+*powerpick Get-*
 *powerpick.py*
 *PowerPick.x64.dll*
 *powerpreter.psm1*
@@ -35208,7 +35425,7 @@
 *powerstager*
 *PowerUp.ps1*
 *PowerUpSQL*
-*PowerView.ps1*
+*powerview.ps1*
 *PowerView_dev.ps1*
 *PowerView3-Aggressor*
 *ppajinakbfocjfnijggfndbdmjggcmde*
@@ -36420,8 +36637,10 @@
 *Register-AADIntProxyAgent*
 *Register-AADIntPTAAgent*
 *Register-AADIntSyncAgent*
+*Register-MaliciousWmiEvent*
 *register-python-argcomplete --no-defaults exegol*
 *Register-SQLC2Agent*
+*Registry KeeTheifLurker * Created*
 *registry_hijacking_eventvwr*
 *registry_hijacking_fodhelper*
 *RegistryImplant*
@@ -36592,6 +36811,7 @@
 *Remove-ItemProperty *HKLM:\SOFTWARE\YourSoftware\Schedule\TaskCache\Tree\* -Name *SD*
 *Remove-KeePassConfigTrigger*
 *RemoveKeePassTrigger.ps1*
+*Remove-KeeThiefLurker *
 *remove-persistence*
 *Remove-Persistence.ps1*
 *remove-persistence-cron*
@@ -36600,6 +36820,7 @@
 *removeRegTrace*
 *Remove-SQLC2Agent*
 *Remove-SQLC2Command*
+*Remove-TemplateLurker -EventName *
 *Remove-Update.ps1*
 *Remove-VolumeShadowCopy*
 *Removing AIX package from all standard users*
@@ -36803,6 +37024,7 @@
 *rmg-*-jar-with-dependencies.jar*
 *rmg*--yso*
 *RMIRegistryExploit.java*
+*rmm.barracudamsp.com*
 *RMM.WebRemote.exe*
 *rmmod diamorphine*
 *rmmod -r*
@@ -37777,6 +37999,7 @@
 *Set-MacroSecurityOff *
 *Set-MacroSecurityOff.ps1*
 *Set-MasterBootRecord *
+*Set-MPPreference -DisableIntrusionPreventionSystem $true*
 *Set-MpPreference -DisableIOAVProtection $true*
 *Set-MpPreference -DisableRealtimeMonitoring $true*
 *Set-MpPreference -DisableRealtimeMonitoring *true*
@@ -37796,6 +38019,7 @@
 *Set-RemoteShellAccess.ps1*
 *Set-RemoteWMI.ps1*
 *Set-SamAccountPasswordHash * -NTHash *
+*Set-Service -Name sshd -StartupType 'Automatic'*
 *Set-ServiceBinPath*
 *set-shellcode-process default*
 *setspn -A HTTP/*
@@ -39189,6 +39413,7 @@
 *StartRPCPerformanceServiceOnStart*
 *Starts a PSCMD channel on the remote end*
 *Starts the godoh C2 server*
+*Start-Service sshd*
 *Start-SimpleHTTPServer.ps1*
 *Start-TCPMonitor*
 *startupfolderperistence.py*
@@ -39252,6 +39477,119 @@
 *Stop-Process -Force -Name remote_assistance_host*
 *Stop-Process -Force -Name remote_assistance_host_uiaccess*
 *Stop-Process -Force -Name remoting_native_messaging_host*
+*Stop-Process -Name "Sophos *
+*Stop-Process -Name "SQL Backups"*
+*Stop-Process -Name "SQLsafe Backup Service"*
+*Stop-Process -Name "storagecraft imagemanager*"
+*Stop-Process -Name "Symantec System Recovery"*
+*Stop-Process -Name "Veeam Backup Catalog Data Service"*
+*Stop-Process -Name "Zoolz 2 Service"*
+*Stop-Process -Name AcronisAgent*
+*Stop-Process -Name AcrSch2Svc*
+*Stop-Process -Name agntsvc*
+*Stop-Process -Name Antivirus*
+*Stop-Process -Name ARSM /y*
+*Stop-Process -Name arsm*
+*Stop-Process -Name AVP*
+*Stop-Process -Name backp*
+*Stop-Process -Name backup*
+*Stop-Process -Name BackupExec*
+*Stop-Process -Name BackupExecAgent*
+*Stop-Process -Name bedbg /y*
+*Stop-Process -Name cbservi*
+*Stop-Process -Name cbvscserv*
+*Stop-Process -Name DCAgent*
+*Stop-Process -Name EhttpSrv*
+*Stop-Process -Name ekrn*
+*Stop-Process -Name EPSecurityService*    
+*Stop-Process -Name EPUpdateService*       
+*Stop-Process -Name EsgShKernel*
+*Stop-Process -Name ESHASRV*
+*Stop-Process -Name FA_Scheduler*
+*Stop-Process -Name IMAP4Svc*
+*Stop-Process -Name KAVFS*
+*Stop-Process -Name KAVFSGT*
+*Stop-Process -Name kavfsslp*
+*Stop-Process -Name klnagent*
+*Stop-Process -Name macmnsvc*
+*Stop-Process -Name masvc*
+*Stop-Process -Name MBAMService*
+*Stop-Process -Name MBEndpointAgent*    
+*Stop-Process -Name McAfeeEngineService*    
+*Stop-Process -Name McAfeeFramework*
+*Stop-Process -Name McAfeeFrameworkMcAfeeFramework*
+*Stop-Process -Name McShield*
+*Stop-Process -Name mfefire*
+*Stop-Process -Name mfemms*
+*Stop-Process -Name mfevtp*
+*Stop-Process -Name mozyprobackup*
+*Stop-Process -Name MsDtsServer*
+*Stop-Process -Name MsDtsServer100*
+*Stop-Process -Name MsDtsServer110*
+*Stop-Process -Name msftesql$PROD*
+*Stop-Process -Name MSOLAP$SQL_2008*
+*Stop-Process -Name MSOLAP$SYSTEM_BGC*
+*Stop-Process -Name MSOLAP$TPS*
+*Stop-Process -Name MSOLAP$TPSAMA*
+*Stop-Process -Name MSSQL$BKUPEXEC*
+*Stop-Process -Name MSSQL$ECWDB2*
+*Stop-Process -Name MSSQL$PRACTICEMGT*
+*Stop-Process -Name MSSQL$PRACTTICEBGC*
+*Stop-Process -Name MSSQL$PROD*
+*Stop-Process -Name MSSQL$PROFXENGAGEMENT*
+*Stop-Process -Name MSSQL$SBSMONITORING*
+*Stop-Process -Name MSSQL$SHAREPOINT*
+*Stop-Process -Name MSSQL$SOPHOS*
+*Stop-Process -Name MSSQL$SQL_2008*
+*Stop-Process -Name MSSQL$SQLEXPRESS*
+*Stop-Process -Name MSSQL$SYSTEM_BGC*
+*Stop-Process -Name MSSQL$TPS*
+*Stop-Process -Name MSSQL$TPSAMA*
+*Stop-Process -Name MSSQL$VEEAMSQL*
+*Stop-Process -Name sacsvr*
+*Stop-Process -Name SAVAdminService*
+*Stop-Process -Name SAVService*
+*Stop-Process -Name shadowprotectsvc*
+*Stop-Process -Name ShMonitor*
+*Stop-Process -Name Smcinst*
+*Stop-Process -Name SmcService*
+*Stop-Process -Name sms_site_sql_backup*
+*Stop-Process -Name SntpService*    
+*Stop-Process -Name sophossps*
+*Stop-Process -Name spxservice*
+*Stop-Process -Name sqbcoreservice*
+*Stop-Process -Name SQLAgent$SOPH
+*Stop-Process -Name SQLAgent$VEEAMSQL*
+*Stop-Process -Name stc_endpt_svc*
+*Stop-Process -Name stop SepMasterService*
+*Stop-Process -Name svcGenericHost*
+*Stop-Process -Name swi_filter*
+*Stop-Process -Name swi_service*
+*Stop-Process -Name swi_update*
+*Stop-Process -Name swi_update_64*
+*Stop-Process -Name TmCCSF*
+*Stop-Process -Name tmlisten*
+*Stop-Process -Name TrueKey*
+*Stop-Process -Name TrueKeyScheduler*    
+*Stop-Process -Name TrueKeyServiceHel
+*Stop-Process -Name vapiendpoint*       
+*Stop-Process -Name VeeamBackupSvc*
+*Stop-Process -Name VeeamBrokerSvc *
+*Stop-Process -Name VeeamCatalogSvc*
+*Stop-Process -Name VeeamCloudSvc*
+*Stop-Process -Name VeeamDeploymentService*
+*Stop-Process -Name VeeamDeploySvc*
+*Stop-Process -Name VeeamDeploySvc*    
+*Stop-Process -Name VeeamEnterpriseManagerSvc*
+*Stop-Process -Name VeeamHvIntegrationSvc*
+*Stop-Process -Name VeeamMountSvc*
+*Stop-Process -Name VeeamNFSSvc*
+*Stop-Process -Name VeeamRESTSvc*
+*Stop-Process -Name VeeamTransportSvc*
+*Stop-Process -Name vsnapvss*
+*Stop-Process -Name vssvc*
+*Stop-Process -Name wbengine*
+*Stop-Process -Name WRSVC*
 *StorageExplorer-linux-x64.tar.gz*
 *StorageExplorer-windows-x64.exe*
 *stormshadow07*
@@ -39314,6 +39652,7 @@
 *sudo ./dnsstager*
 *sudo ./recv -f *
 *sudo ./startup.sh*
+*sudo ./teamserver *
 *sudo apache2 -f /etc/shadow*
 *sudo bloodhound*
 *sudo iodine *
@@ -39368,6 +39707,7 @@
 *SW2_PopulateSyscallList*
 *SW2_RVA2VA*
 *SW3_GetSyscallAddress*
+*Sw4mpf0x/PowerLurk*
 *swagkarna/Defeat-Defender-V*
 *swaks --to * --from * --header *Subject: * --body * --server *
 *SwampThing.exe*
@@ -39445,6 +39785,7 @@
 *systemctl enable connectd*
 *systemctl enable IMDS*
 *systemctl enable --now tailscaled*
+*systemctl enable teamserver.service*
 *systemctl restart remotemoe*
 *systemctl start connectd_schannel*
 *systemctl start IMDS*
@@ -39453,10 +39794,12 @@
 *systemctl start remotemoe*
 *systemctl start sliver*
 *systemctl start sshuttle*
+*systemctl start teamserver.service*
 *systemctl start tor*
 *systemctl status IMDS*
 *systemctl status pulseway*
 *systemctl status remotemoe*
+*systemctl status teamserver.service*
 *systemctl stop cbdaemon*
 *systemctl stop connectd_schannel*
 *systemctl stop falcon-sensor.service*
@@ -39560,7 +39903,50 @@
 *taskkill /F /IM lsass.exe*
 *taskkill /F /IM msiexec.exe*
 *taskkill /F /T /IM keepass.exe /FI*
+*taskkill /im agntsvc.exe /F*
+*taskkill /IM CNTAoSMgr.exe /F*
+*taskkill /im dbeng50.exe /F*
+*taskkill /im dbsnmp.exe /F*
+*taskkill /im encsvc.exe /F*
+*taskkill /im excel.exe /F*
+*taskkill /im firefoxconfig.exe /F*
+*taskkill /im infopath.exe /F*
+*taskkill /im isqlplussvc.exe /F*
+*taskkill /IM mbamtray.exe /F*
+*taskkill /im msaccess.exe /F*
+*taskkill /im msftesql.exe /F*
+*taskkill /im mspub.exe /F*
+*taskkill /im mydesktopqos.exe /F*
+*taskkill /im mydesktopservice.exe /F*
+*taskkill /im mysqld.exe /F*
+*taskkill /im mysqld-nt.exe /F*
+*taskkill /im mysqld-opt.exe /F*
+*taskkill /IM Ntrtsc*
+*taskkill /im ocautoupds.exe /F*
+*taskkill /im ocomm.exe /F*
+*taskkill /im ocssd.exe /F*
+*taskkill /im onenote.exe /F*
+*taskkill /im oracle.exe /F*
+*taskkill /im outlook.exe /F*
+*taskkill /IM PccNTMon.exe /F*
+*taskkill /im powerpnt.exe /F*
+*taskkill /im savfmsesp.exe /f*
+*taskkill /im sqbcoreservice.exe /F*
+*taskkill /im sqlagent.exe /F*
+*taskkill /im sqlbrowser.exe /F*
+*taskkill /im sqlservr.exe /F*
+*taskkill /im synctime.exe /F*
+*taskkill /im tbirdconfig.exe /F*
+*taskkill /im thebat.exe /F*
+*taskkill /im thebat64.exe /F*
+*taskkill /im thunderbird.exe /F*
+*taskkill /IM tmlisten.exe /F*
 *taskkill /IM tor.exe /F*
+*taskkill /im visio.exe /F*
+*taskkill /im winword.exe /F*
+*taskkill /im wordpad.exe /F*
+*taskkill /im xfssvccon.exe /F*
+*taskkill /im zoolz.exe /F*
 *taskkill.exe /F /IM lsass.exe*
 *taskkill.exe /F /IM msiexec.exe*
 *tasklist /fi *Imagename eq lsass.exe* | find *lsass*
@@ -39591,6 +39977,7 @@
 *TeamFiltration-v*-win-x86_64.zip*
 *teams_dump.py teams*
 *teams_dump-main.zip*
+*teamserver * c2-profiles/*
 *teamserver* no_evasion.profile*
 *teamServer*ZoomAPI.py*
 *TeamServer.C2Profiles*
@@ -40757,6 +41144,7 @@
 *Wh1t3Fox/polenum*
 *WhatBreach*
 *whatlicense-main.zip*
+*whatsmyip.ccrmm.avg.com*
 *whcli forward --token=*-*-* --target=https://localhost*
 *Where do you want to store PDF C2 output *
 *whereami.cna*
@@ -41032,6 +41420,8 @@
 *wmeye.csproj*
 *wmeye.exe *
 *wmeye.sln*
+*WMI KeeTheifLurker *
+*WMI KeeTheifLurker * Created*
 *Wmi_Persistence.ps1*
 *wmi_persistence.rb*
 *WMIBackdoor.ps1*
@@ -41048,6 +41438,24 @@
 *wmic process call create*ntdsutil *ac i ntds* ifm*create full*
 *wmic process get commandline -all*
 *wmic service brief*
+*wmic service where "name like '%veeam%'" call stopservice*
+*wmic service where "name like 'acronisagent%'" call stopservice*
+*wmic service where "name like 'acrsch2svc%'" call stopservice*
+*wmic service where "name like 'agntsvc%'" call stopservice*
+*wmic service where "name like 'arsm%'" call stopservice*
+*wmic service where "name like 'backp%'" call stopservice*
+*wmic service where "name like 'backup%'" call stopservice*
+*wmic service where "name like 'cbservi%'" call stopservice*
+*wmic service where "name like 'cbvscserv%'" call stopservice*
+*wmic service where "name like 'shadowprotectsvc%'" call stopservice*
+*wmic service where "name like 'spxservice%'" call stopservice*
+*wmic service where "name like 'sqbcoreservice%'" call stopservice*
+*wmic service where "name like 'stc_endpt_svc%'" call stopservice*
+*wmic service where "name like 'storagecraft imagemanager%'" call stopservice*
+*wmic service where "name like 'veeam%'" call stopservice*
+*wmic service where "name like 'vsnapvss%'" call stopservice*
+*wmic service where "name like 'vssvc%'" call stopservice*
+*wmic service where "name like 'wbengine%'" call stopservice*
 *wmic SHADOWCOPY /nointeractive*
 *wmic shadowcopy call create Volume='C:\'*
 *wmic shadowcopy delete*
