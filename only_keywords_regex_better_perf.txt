@@ -8878,7 +8878,7 @@
 .{0,1000}\\hack\-browser\-data\-windows\-32bit\.zip.{0,1000}
 .{0,1000}\\hack\-browser\-data\-windows\-64bit\.zip.{0,1000}
 .{0,1000}\\HackBrowserData.{0,1000}
-.{0,1000}\\Hades\.exe.{0,1000}
+.{0,1000}\\hades\.exe.{0,1000}
 .{0,1000}\\hades\-main\.zip.{0,1000}
 .{0,1000}\\HAKOPS\sB\?nder\.exe.{0,1000}
 .{0,1000}\\HAKOPS\sRAT\.exe.{0,1000}
@@ -9393,7 +9393,7 @@
 .{0,1000}\\metasploit\.go.{0,1000}
 .{0,1000}\\Meterpeter_.{0,1000}\.zip.{0,1000}
 .{0,1000}\\mhydeath64.{0,1000}
-.{0,1000}\\Microsoft\.RemoteAssistance\.QuickAssist\\.{0,1000}
+.{0,1000}\\microsoft\.remoteassistance\.quickassist\\.{0,1000}
 .{0,1000}\\Microsoft\sAzure\sStorage\sExplorer\.zip.{0,1000}
 .{0,1000}\\MiCROSOFT_R\.A\.T_1\.0\.exe.{0,1000}
 .{0,1000}\-\-mifi\-username\s.{0,1000}\s\-\-mifi\-password\s.{0,1000}\s\-\-number\s\+.{0,1000}
@@ -10587,7 +10587,7 @@
 .{0,1000}\\RPCOTAViewerHostKeyPopup\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.log.{0,1000}
-.{0,1000}\\rpcperfviewer\.exe.{0,1000}
+.{0,1000}\\RPCPerfViewer\.exe.{0,1000}
 .{0,1000}\\RPCPerfViewer\.log.{0,1000}
 .{0,1000}\\RPCPing\.txt.{0,1000}
 .{0,1000}\\RPCPreUninstall\.log.{0,1000}
@@ -10855,7 +10855,7 @@
 .{0,1000}\\SharpPersistSD\.sln.{0,1000}
 .{0,1000}\\sharppick\.exe.{0,1000}
 .{0,1000}\\SharpPrinter\.exe.{0,1000}
-.{0,1000}\\SharpRDP\.exe.{0,1000}
+.{0,1000}\\sharprdp\.exe.{0,1000}
 .{0,1000}\\SharpRDP\\.{0,1000}
 .{0,1000}\\SharpRDPHijack.{0,1000}
 .{0,1000}\\SharpRDPThief\\.{0,1000}
@@ -10889,7 +10889,7 @@
 .{0,1000}\\SharpSploit\-master.{0,1000}
 .{0,1000}\\SharpSploitConsole\..{0,1000}
 .{0,1000}\\SharpSpray\.csproj.{0,1000}
-.{0,1000}\\SharpSpray\.exe.{0,1000}
+.{0,1000}\\sharpspray\.exe.{0,1000}
 .{0,1000}\\SharpSpray\.sln.{0,1000}
 .{0,1000}\\SharpSpray\\.{0,1000}
 .{0,1000}\\SharpSpray\-1\.1\.zip.{0,1000}
@@ -11209,7 +11209,7 @@
 .{0,1000}\\Suprise\\Suprise\.exe.{0,1000}
 .{0,1000}\\SurveyFile_x64_Release\.exe.{0,1000}
 .{0,1000}\\SurveyRegistry_x64_Release\.exe.{0,1000}
-.{0,1000}\\SweetPotato\.exe.{0,1000}
+.{0,1000}\\Sweetpotato\.exe.{0,1000}
 .{0,1000}\\SweetPotato\\Program\.cs.{0,1000}
 .{0,1000}\\SweetPotato\-master\.zip.{0,1000}
 .{0,1000}\\swodniW\\\:C.{0,1000}
@@ -11544,7 +11544,6 @@
 .{0,1000}\\VSAX\\working.{0,1000}
 .{0,1000}\\VSAX_x64\.msi.{0,1000}
 .{0,1000}\\vsxrc\-clip\.exe.{0,1000}
-.{0,1000}\\WaaSMedicPS\.dll.{0,1000}
 .{0,1000}\\Wait_For_Command\.ps1.{0,1000}
 .{0,1000}\\Waitfor\-Persistence\.ps1.{0,1000}
 .{0,1000}\\Waitfor\-Persistence\\.{0,1000}
@@ -11999,7 +11998,7 @@
 .{0,1000}\>NetSupport\sClient\sApplication\<\/.{0,1000}
 .{0,1000}\>NETSUPPORT\sLTD\.\<\/.{0,1000}
 .{0,1000}\>NetSupport\sLtd\<\/.{0,1000}
-.{0,1000}\>NetSupport\sremote\sControl\<\/.{0,1000}
+.{0,1000}\>NetSupport\sRemote\sControl\<\/.{0,1000}
 .{0,1000}\>NimScan\<.{0,1000}
 .{0,1000}\>Obfuscar\sConsole\sUtility\<.{0,1000}
 .{0,1000}\>Password\sRecovery\sfor\sRemote\sDesktop\<.{0,1000}
@@ -28536,17 +28535,17 @@
 .{0,1000}Get\-VulnSchTask.{0,1000}
 .{0,1000}Get\-WebCredentials.{0,1000}
 .{0,1000}Get\-WebCredentials\.ps1.{0,1000}
-.{0,1000}Get\-WLAN\-Keys.{0,1000}
+.{0,1000}Get\-Wlan\-Keys.{0,1000}
 .{0,1000}Get\-Wlan\-Keys\.ps1.{0,1000}
 .{0,1000}Get\-WMIEventLogins.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\s\-Namespace\s\"root\\directory\\ldap\"\s\-Class\sds_user\s.{0,1000}
 .{0,1000}Get\-WmiObject\swin32_loggedonuser\s\-ComputerName\s.{0,1000}
 .{0,1000}Get\-WmiObject\sWin32_ShadowCopy\s\|\sRemove\-WmiObject.{0,1000}
-.{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
+.{0,1000}get\-wmiregcachedrdpconnection.{0,1000}
 .{0,1000}Get\-WMIRegCachedRDPConnection\s.{0,1000}
 .{0,1000}Get\-WMIRegLastLoggedOn.{0,1000}
-.{0,1000}get\-wmiregmounteddrive.{0,1000}
+.{0,1000}Get\-WMIRegMountedDrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
 .{0,1000}get_BeaconHealthCheck_settings.{0,1000}
@@ -30996,7 +30995,7 @@
 .{0,1000}Invoke\-Sharphound.{0,1000}
 .{0,1000}Invoke\-Sharphound2.{0,1000}
 .{0,1000}Invoke\-Sharphound3.{0,1000}
-.{0,1000}Invoke\-Sharphound4.{0,1000}
+.{0,1000}Invoke\-SharpHound4.{0,1000}
 .{0,1000}Invoke\-SharpImpersonation.{0,1000}
 .{0,1000}Invoke\-SharpImpersonationNoSpace.{0,1000}
 .{0,1000}Invoke\-SharpKatz.{0,1000}
@@ -31173,7 +31172,7 @@
 .{0,1000}Invoke\-WMIDebugger.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}invoke\-wmiexec\s.{0,1000}
+.{0,1000}Invoke\-WMIExec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMILM.{0,1000}
 .{0,1000}Invoke\-WMILM\.json.{0,1000}
@@ -31660,7 +31659,7 @@
 .{0,1000}Keylogger.{0,1000}
 .{0,1000}Keylogger\.cs.{0,1000}
 .{0,1000}Keylogger\.csproj.{0,1000}
-.{0,1000}KeyLogger\.dll.{0,1000}
+.{0,1000}keylogger\.dll.{0,1000}
 .{0,1000}Keylogger\.exe.{0,1000}
 .{0,1000}Keylogger\.java.{0,1000}
 .{0,1000}Keylogger\.My.{0,1000}
@@ -32075,7 +32074,7 @@
 .{0,1000}ldap_shell\.py.{0,1000}
 .{0,1000}ldapasn1\.py.{0,1000}
 .{0,1000}ldapattack\.py.{0,1000}
-.{0,1000}LDAPDomainDump.{0,1000}
+.{0,1000}ldapdomaindump.{0,1000}
 .{0,1000}ldapdomaindump\.zip.{0,1000}
 .{0,1000}ldapfilter\:.{0,1000}admincount\=1.{0,1000}\s\/format\:hashcat.{0,1000}
 .{0,1000}LdapMiner.{0,1000}
@@ -35348,7 +35347,7 @@
 .{0,1000}PowerPick\.x64\.dll.{0,1000}
 .{0,1000}powerpick\s\-Command\s.{0,1000}
 .{0,1000}powerpick\sGet\-.{0,1000}
-.{0,1000}powerpreter\.psm1.{0,1000}
+.{0,1000}Powerpreter\.psm1.{0,1000}
 .{0,1000}powerpwn\.powerdump.{0,1000}
 .{0,1000}powerpwn_tests.{0,1000}
 .{0,1000}PowerSCCM\.ps1.{0,1000}
@@ -35459,7 +35458,7 @@
 .{0,1000}powerstager.{0,1000}
 .{0,1000}PowerUp\.ps1.{0,1000}
 .{0,1000}PowerUpSQL.{0,1000}
-.{0,1000}powerview\.ps1.{0,1000}
+.{0,1000}PowerView\.ps1.{0,1000}
 .{0,1000}PowerView_dev\.ps1.{0,1000}
 .{0,1000}PowerView3\-Aggressor.{0,1000}
 .{0,1000}ppajinakbfocjfnijggfndbdmjggcmde.{0,1000}
@@ -36556,7 +36555,7 @@
 .{0,1000}ReflectiveDll\.x64\.dll.{0,1000}
 .{0,1000}ReflectiveDll\.x86\.dll.{0,1000}
 .{0,1000}ReflectiveDLLInjection.{0,1000}
-.{0,1000}ReflectiveDllInjection\..{0,1000}
+.{0,1000}ReflectiveDLLInjection\..{0,1000}
 .{0,1000}ReflectiveDLLInjection\.h.{0,1000}
 .{0,1000}ReflectiveDLLInjection\/dll.{0,1000}
 .{0,1000}ReflectiveLoader\..{0,1000}
@@ -36637,7 +36636,7 @@
 .{0,1000}reg\squery\s\"HKEY_LOCAL_MACHINE\\SOFTWARE\\MICROSOFT\\WINDOWS\sNT\\CURRENTVERSION\\WINLOGON\"\s\/v\sCACHEDLOGONSCOUNT.{0,1000}
 .{0,1000}reg\squery\shkcu\\software\\.{0,1000}\\putty\\session.{0,1000}
 .{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\\s\/v\sRunAsPPL.{0,1000}
-.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\s\/v\sRunAsPPL.{0,1000}
+.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA\s\/v\sRunAsPPL.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH\\Agent.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\realvnc.{0,1000}
@@ -36748,10 +36747,10 @@
 .{0,1000}Remote\sSupport\-windows32\-offline\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows32\-online\.exe.{0,1000}
 .{0,1000}Remote\sSupport\-windows64\-offline\.exe.{0,1000}
-.{0,1000}Remote\sSupport\-windows64\-online\.exe.{0,1000}
+.{0,1000}remote\ssupport\-windows64\-online\.exe.{0,1000}
 .{0,1000}Remote\sSystem\s\-\sMDE_Enum\s.{0,1000}
 .{0,1000}Remote\sUtilities\sPty\s\(Cy\)\sLtd\..{0,1000}
-.{0,1000}remote\swork\-windows64\-online\.exe.{0,1000}
+.{0,1000}Remote\sWork\-windows64\-online\.exe.{0,1000}
 .{0,1000}remote_exploit\.erb.{0,1000}
 .{0,1000}remote_exploit_cmd_stager\..{0,1000}
 .{0,1000}remote_exploit_demo_template\.erb.{0,1000}
@@ -37801,7 +37800,6 @@
 .{0,1000}sends\sthe\sjscript\sfile\sto\sthe\srat\s\(JS\sand\sHTA\sonly\)\sto\sbe\sevaulated\sin\sline\.\sUseful\sfor\sGadget2JS\spayloads.{0,1000}
 .{0,1000}SendToPasteBin\.ps1.{0,1000}
 .{0,1000}sense2john\.py.{0,1000}
-.{0,1000}SenseCncProxy\.exe.{0,1000}
 .{0,1000}sensepost\/godoh.{0,1000}
 .{0,1000}sensepost\/impersonate.{0,1000}
 .{0,1000}sensepost\/kwetza.{0,1000}
@@ -38564,7 +38562,7 @@
 .{0,1000}shellter\.exe.{0,1000}
 .{0,1000}shepardsbind_recv\.py.{0,1000}
 .{0,1000}shepbind_serv\.exe.{0,1000}
-.{0,1000}sherlock\.ps1.{0,1000}
+.{0,1000}Sherlock\.ps1.{0,1000}
 .{0,1000}Sherlock_Vulns\.txt.{0,1000}
 .{0,1000}Shhhavoc\.py\s.{0,1000}
 .{0,1000}Shhhloader\.py.{0,1000}
@@ -38669,8 +38667,8 @@
 .{0,1000}SimpleHelp\-install\-64\.exe.{0,1000}
 .{0,1000}SimpleHelp\s\-\ssimple\-help\.com.{0,1000}
 .{0,1000}simplehelp\sremote\swork\.exe.{0,1000}
-.{0,1000}SimpleHelp\sRemote\sWorkWinLauncher\.exe.{0,1000}
-.{0,1000}simplehelp\stechnician\.exe.{0,1000}
+.{0,1000}simplehelp\sremote\sworkwinlauncher\.exe.{0,1000}
+.{0,1000}SimpleHelp\sTechnician\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-java\-online\.jar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-offline\.tar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-online\.tar.{0,1000}
@@ -38687,7 +38685,7 @@
 .{0,1000}SimpleHelp\sTechnician\-windows32\-offline\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows32\-online\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows64\-offline\.exe.{0,1000}
-.{0,1000}SimpleHelp\sTechnician\-windows64\-online\.exe.{0,1000}
+.{0,1000}simplehelp\stechnician\-windows64\-online\.exe.{0,1000}
 .{0,1000}simplehelp\stechnicianwinlauncher\.exe.{0,1000}
 .{0,1000}simplehelpcustomer\.exe.{0,1000}
 .{0,1000}SimpleHTTPServer\.SimpleHTTPRequestHandler.{0,1000}
@@ -38882,7 +38880,7 @@
 .{0,1000}SnaffCore\/ShareFind.{0,1000}
 .{0,1000}SnaffCore\/TreeWalk.{0,1000}
 .{0,1000}Snaffler\.csproj.{0,1000}
-.{0,1000}snaffler\.exe.{0,1000}
+.{0,1000}Snaffler\.exe.{0,1000}
 .{0,1000}snaffler\.log.{0,1000}
 .{0,1000}Snaffler\.Properties.{0,1000}
 .{0,1000}Snaffler\.sln.{0,1000}
@@ -40954,7 +40952,6 @@
 .{0,1000}w32\-speaking\-shellcode\-eaf\.bin.{0,1000}
 .{0,1000}w3af_gui.{0,1000}
 .{0,1000}W64\/Merlin\.T!tr.{0,1000}
-.{0,1000}WaaSMedicCapsule\.dll.{0,1000}
 .{0,1000}WaaSMedicPayload\.dll.{0,1000}
 .{0,1000}WAF\-bypass\-Cheat\-Sheet.{0,1000}
 .{0,1000}wafw00f.{0,1000}

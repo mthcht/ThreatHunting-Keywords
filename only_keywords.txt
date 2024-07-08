@@ -10966,6 +10966,11 @@
 *\AppData\Roaming\Anyplace Control*
 *\AppData\Roaming\DameWare Development\*
 *\AppData\Roaming\freerdp*
+*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.bat*
+*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.cmd*
+*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.hta*
+*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.ps1*
+*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\*.vbs*
 *\AppData\Roaming\NetSupport\*
 *\AppData\Roaming\Radmin*
 *\AppData\Roaming\rclone\rclone.conf*
@@ -14733,7 +14738,6 @@
 *\VSAX\working*
 *\VSAX_x64.msi*
 *\vsxrc-clip.exe*
-*\WaaSMedicPS.dll*
 *\Wait_For_Command.ps1*
 *\Waitfor-Persistence.ps1*
 *\Waitfor-Persistence\*
@@ -30028,6 +30032,7 @@
 *ImplantSSP.csproj*
 *import _eternalhush*
 *import apypykatz*
+*import base64,sys;exec(base64.b64decode(*
 *import BaseSprayModule*
 *import BlankOBF*
 *import bloodhound.ad.authentication*
@@ -37802,7 +37807,6 @@
 *sends the jscript file to the rat (JS and HTA only) to be evaulated in line. Useful for Gadget2JS payloads*
 *SendToPasteBin.ps1*
 *sense2john.py*
-*SenseCncProxy.exe*
 *sensepost/godoh*
 *sensepost/impersonate*
 *sensepost/kwetza*
@@ -40999,7 +41003,6 @@
 *w32-speaking-shellcode-eaf.bin*
 *w3af_gui*
 *W64/Merlin.T!tr*
-*WaaSMedicCapsule.dll*
 *WaaSMedicPayload.dll*
 *WAF-bypass-Cheat-Sheet*
 *wafw00f https://*
