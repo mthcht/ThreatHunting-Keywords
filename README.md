@@ -27,7 +27,7 @@
 - [ThreatHunting-Keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/threathunting-keywords.csv)
 - [Greyware tools keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/greyware_tool_keyword.csv)
 - [Offensive tools keywords](https://raw.githubusercontent.com/mthcht/ThreatHunting-Keywords/main/offensive_tool_keyword.csv)
-- [Signature keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv)
+- [AV Signature keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/signature_keyword.csv)
 - [individual tools (one csv file by tool)](https://github.com/mthcht/ThreatHunting-Keywords/tree/main/tools)
 - [All keywords only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords.txt)
 - [All keywords regex only](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/only_keywords_regex.txt)
