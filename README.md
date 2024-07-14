@@ -290,6 +290,8 @@ You will get the matched lines like this with the line number (but without the m
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/9ecaefe3-82a0-4434-85ad-488067e43290)
 
 #### Better option for very large files (on windows):
+[DFIR_hunt_in_file.ps1](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/DFIR_hunt_in_file.ps1)
+
 `powershell -ep Bypass -File .\DFIR_hunt_in_file.ps1 -patternFile "only_keywords_regex.txt" -targetFile "C:\Users\mthcht\collection\20230406154410_EvtxECmd_Output.csv" -rgPath "C:\Users\mthcht\Downloads\ripgrep-13.0.0-x86_64-pc-windows-msvc\ripgrep-13.0.0-x86_64-pc-windows-msvc\rg.exe"`
 - `-targetFile`: specify the file to search in (in the example, a DFIR-ORC extract logs)
 - `-patternFile`: the file containing the regex patterns `only_keywords_regex.txt`
