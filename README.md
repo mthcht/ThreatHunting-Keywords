@@ -51,6 +51,8 @@ If you're part of a Security Operations Center (SOC) and are managing hundreds o
 
 This approach encourages the creation of high-quality, purposeful rules while keeping your simple field keyword detections organized and manageable in one place. The end result? One comprehensive detection rule that covers all of them. This streamlines your process and optimizes your detection capabilities.
 
+For Incident Responders, you can use this list during your investigation on raw logs or files to quickly identify known exploitation tools with the yara rules [Yara Rules](https://github.com/mthcht/ThreatHunting-Keywords-yara-rules/tree/main/yara_rules), [a powershell script](#better-option-for-very-large-files-on-windows) or by quickly ingesting your logs in splunk with [Splunk4DFIR](https://github.com/mf1d3l/Splunk4DFIR)
+
 ### For the redteam:
 
 To evade detection by simple keyword detection, it is critical to recompile and rename all custom strings, class or function names, variable names, argument names, executable names, default user-agents, certificates, or any other strings that could potentially be associated with the tools you are using during your operation. Employ the most common names for everything to blend in with normal traffic. Scripts located [here](https://github.com/mthcht/Purpleteam/blob/main/Logging/ThreatHunting.md#extract-informations-from-powershell-scripts) can assist you in identifying some of these.
