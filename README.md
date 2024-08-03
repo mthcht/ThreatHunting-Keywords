@@ -96,6 +96,7 @@ However, if you're developing public "red team tools", consider aiding the blue 
   - If the keyword is not relevant for network activity logs, the value is 0 (disabled).
 - `metadata_popularity_score`: score from 1 to 10 (low to high popularity)
 - `metadata_severity_score`: score from 1 to 10 (low to high severity)
+- `metadata_tags`: tags to identify specific artifacts, multiple tags can be associated with a keyword, when some of the specific artifacts can't be added in the lists without more detection context, they are added in my [other awesome lists for_detection](#Other-awesome-lists-for-detection)
 - `metadata_comment`: This field may contain a useful comment added for the keyword.
 - `metadata_github_stars`: Number of stars on the github project (if the tool is on github, if elsewhere the value is N/A) this is used to calculate the popularity score 
 - `metadata_github_forks`: Number of forks on the github project (if the tool is on github, if elsewhere the value is N/A) can be used for dashboard stats of the most used tools
