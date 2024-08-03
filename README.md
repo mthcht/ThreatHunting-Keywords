@@ -5,7 +5,7 @@
 
 
 ## Table of Contents
-- [What is Threat Hunting](#What-is-Threat-Hunting?)
+- [What is Threat Hunting](#what-is-threat-hunting-)
 - [Files](#Files)
 - [ThreatHunting-Keywords for the blueteam](#for-the-blueteam)
 - [ThreatHunting-Keywords for the redteam](#for-the-redteam)
