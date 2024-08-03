@@ -12,3 +12,5 @@ _utils/find_breaking_caracters_before_regex.py
 .csv
 _utils/list_of_strings.csv
 tools/O-Q/powersherll.csv
+_utils/AddedLines.csv
+_utils/RemovedLines.csv
