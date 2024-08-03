@@ -3,9 +3,12 @@
 
 ![image](images/thk2.png)
 
+
 ## Table of Contents
-- [For the blueteam](#for-the-blueteam)
-- [For the redteam](#for-the-redteam)
+- [What is Threat Hunting](#What-is-Threat-Hunting?)
+- [Files](#Files)
+- [ThreatHunting-Keywords for the blueteam](#for-the-blueteam)
+- [ThreatHunting-Keywords for the redteam](#for-the-redteam)
 - [Content of the lookup](#content-of-the-threat-hunting-keywords-file)
 - [Hunt wih a SIEM](#use-the-list-to-hunt-with-splunk)
   - [raw logs](#hunt-all-the-keywords-in-raw-logs-)
@@ -23,6 +26,15 @@
 - [SIGMA rules](#sigma-rules)
 - [contribute](#-contributing)
 
+## What is Threat Hunting ?
+
+Threat hunting is a proactive and iterative approach to detecting malicious activities within an organization's network or systems that may have bypassed automated security measures. Unlike reactive investigations triggered by security alerts, threat hunting is driven by hypotheses derived from threat intelligence (TI). These hypotheses help hunters uncover unknown threats, potential threats, or known threats that may evaded security detections, as well as vulnerabilities or indicators of compromise (IoCs) that automated systems might miss or exclude. The primary goal is to identify the tactics, techniques, and procedures (TTPs) used by threat actors enhancing the organization’s ability to preemptively detect and mitigate potential attacks.
+
+### Threat Hunting Lifecycle in SOC Operations
+My process suggestion to organizing partially automated threat hunting sessions to maintain high-quality detection rules within a SOC
+
+![image](https://github.com/user-attachments/assets/a0de81ce-2317-475a-9531-18ba69f696c5)
+
 ## Files
 - [ThreatHunting-Keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/threathunting-keywords.csv)
 - [Greyware tools keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/greyware_tool_keyword.csv)
@@ -37,7 +49,7 @@
 - [Sigma Rules](https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules)
 
 ### For the blueteam:
-This List can be valuable for ThreatHunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
+The ThreatHunting-Keywords Lists can be valuable for Threat Hunters, SOC and CERT teams for static analysis on SIEM as it assists in identifying threat actors (or redteamers 😆) using default configurations from renowned exploitation tools in logs.
 It differs from IOC feeds in its enduring relevance: the keywords here have no 'expiration dates' and can detect threats years after their inclusion, they are flexible accepting wildcard and non sensitive case matches and only focused on default keywords.
 
 Primarily designed for Threat Hunting, this list can be useful in complex scenarios.
