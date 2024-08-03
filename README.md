@@ -213,10 +213,11 @@ Note that filtering using the search command after the `|lookup` doesn't expedit
 
 ![pngwing com](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/ba6c2a3d-15c4-4a32-9d25-e8a8eaaae927)
 
-If you are working with the Elastic Stack, there is a lot of restrictions for lists (you cannot use special caracters, spaces ...), you have two options:
+If you are working with the Elastic Stack, there is a lot of restrictions for lists (you cannot use special caracters, spaces ...), you have 3 options:
 - Use another list available here in the same repo https://github.com/mthcht/ThreatHunting-Keywords/tree/main/elk (it's not a direct extract of threathunting-keywords.csv, it's modified for ELK and not updated)
 - Use Sigma "hunting" rules, directly extracted from this project https://github.com/mthcht/ThreatHunting-Keywords-sigma-rules with pysigma for the convertion
-
+- Use some of my lists as an IOC list with wildcard queries https://www.elastic.co/guide/en/elasticsearch/reference/8.15/query-dsl-wildcard-query.html#wildcard-top-level-params
+ 
 ### Dashboard Example
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/804c74c1-c50e-4e50-93d4-507e202d8773)
 
