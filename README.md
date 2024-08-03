@@ -30,7 +30,7 @@
 
 Threat hunting is a proactive and iterative approach to detecting malicious activities within an organization's network or systems that may have bypassed automated security measures. Unlike reactive investigations triggered by security alerts, threat hunting is driven by threat intelligence (TI)-driven checks and hypotheses derived from systematic and opportunistic analysis. These hypotheses help hunters uncover unknown threats, potential threats, or known threats that may have evaded security detections, as well as vulnerabilities or indicators of compromise (IoCs) that automated systems might miss or exclude. The process also focuses on identifying precursors to alerts/dashboards and improving SOC/triage workflows while also contributing to shadow asset inventory management and escalates low/mid-fidelity events that require further investigation. The primary goal is to identify the tactics, techniques, and procedures (TTPs) used by threat actors, enhancing the organization’s ability to preemptively detect and mitigate potential attacks.
 
-### Threat Hunting Lifecycle in SOC Operations
+#### Threat Hunting Lifecycle in SOC Operations
 My process suggestion to organizing partially automated threat hunting sessions to maintain high-quality detection rules within a SOC
 
 ![image](https://github.com/user-attachments/assets/a0de81ce-2317-475a-9531-18ba69f696c5)
