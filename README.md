@@ -276,7 +276,7 @@ you will find:
 - 📋 Lists i need to finish: https://github.com/mthcht/awesome-lists/tree/main/todo
 
 
-Check out these Guides to use some of the lists:
+Check out these [Guides](https://github.com/mthcht/awesome-lists/tree/main/Lists#how-to-use-the-lists) to use some of the lists: 
   - [Windows Services Searches](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
   - [User-Agents Searches](https://mthcht.medium.com/threat-hunting-suspicious-user-agents-3dd764470bd0)
   - [DNS Over HTTPS Searches](https://mthcht.medium.com/detecting-dns-over-https-30fddb55ac78)
@@ -288,6 +288,9 @@ Check out these Guides to use some of the lists:
   - [HTML Smuggling artifacts](https://mthcht.medium.com/detecting-html-smuggling-phishing-attempts-15af824e60e4)
   - [PSEXEC & similar tools Searches](https://mthcht.medium.com/detecting-psexec-and-similar-tools-c812bf3dca6c)
   - [Time Slipping detection](https://mthcht.medium.com/event-log-manipulations-1-time-slipping-55bf95631c40)
+  - [Suspicious Named pipes](https://medium.com/detect-fyi/threat-hunting-suspicious-named-pipes-a4206e8a4bc8)
+ 
+... more [here](https://github.com/mthcht/awesome-lists/tree/main/Lists#how-to-use-the-lists) 
 
 ## DFIR Hunt for keywords in files (No SIEM)
 After conducting a thorough review of various tools, I discovered that [ripgrep](https://github.com/BurntSushi/ripgrep) significantly outperforms its competitors when it comes to rapidly matching an extensive list of regex patterns against each line of a large log file or even multiple files simultaneously. It proved to be the most efficient solution for handling massive amounts of data, providing unparalleled speed and flexibility.
