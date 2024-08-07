@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta viewport="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hunting Keywords</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.css">
     <script src="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@latest"></script>
     <style>
-		/* GitHub logo style */
-		.github-logo {
-			position: absolute;
-			top: 10px;
-			right: 10px;
-			width: 32px;
-			height: 32px;
-			background-color: white; /* Add background color */
-			border-radius: 50%; /* Make it circular */
-			padding: 4px; /* Add padding to create a border effect */
-		}
+        /* GitHub logo style */
+        .github-logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 32px;
+            height: 32px;
+            background-color: white; /* Add background color */
+            border-radius: 50%; /* Make it circular */
+            padding: 4px; /* Add padding to create a border effect */
+        }
         .handsontable .htCore .ht_master .wtHolder {
             overflow-y: hidden !important;
         }
@@ -39,8 +39,8 @@
         }
 
         .handsontable, .wtHolder {
-            color: ##53A757; /* Green text */
-            background-color: ##201F1F !important; /* Dark background for the table */
+            color: #53A757; /* Green text */
+            background-color: #201F1F !important; /* Dark background for the table */
         }
 
         /* Specific overrides for table cells */
@@ -70,30 +70,29 @@
         }
 
         /* Customizing scrollbar for dark theme */
-        ::webkit-scrollbar {
+        ::-webkit-scrollbar {
             width: 8px;
             height: 8px;
         }
 
-        ::webkit-scrollbar-track {
+        ::-webkit-scrollbar-track {
             background: #003049;
         }
 
-        ::webkit-scrollbar-thumb {
+        ::-webkit-scrollbar-thumb {
             background: #555;
         }
 
-        ::webkit-scrollbar-thumb:hover {
+        ::-webkit-scrollbar-thumb:hover {
             background: #444;
         }
         .ascii-art-container {
-		    white-space: nowrap; /* Prevents the content from wrapping */
+            white-space: nowrap; /* Prevents the content from wrapping */
             text-align: center; /* Center the content horizontally */
             width: 100%; /* Ensure the container spans the full width */
-			max-width: 100%; /* Ensures the container does not exceed the viewport width */
+            max-width: 100%; /* Ensures the container does not exceed the viewport width */
             overflow: auto; /* In case the ASCII art is wider than the screen */
-			overflow-x: auto; /* Enables horizontal scrolling */
-
+            overflow-x: auto; /* Enables horizontal scrolling */
         }
         pre {
             display: inline-block; /* Allows the <pre> block to be centered by text-align */
@@ -101,16 +100,37 @@
             word-wrap: break-word; /* Breaks the text to prevent overflow */
         }
         .ascii-art-container pre {
-		    white-space: pre; /* Maintains spacing and formatting of the ASCII art */
-		    overflow-x: auto; /* Allows horizontal scrolling if needed */
+            white-space: pre; /* Maintains spacing and formatting of the ASCII art */
+            overflow-x: auto; /* Allows horizontal scrolling if needed */
             color: #32CD32; /* Light green color */
-			display: inline-block; /* Treats the pre element as a block while keeping it inline */
+            display: inline-block; /* Treats the pre element as a block while keeping it inline */
         }
-		@keyframes spin {
-			0% { transform: rotate(0deg); }
-			100% { transform: rotate(360deg); }
-		}
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
 
+        /* Media query for mobile devices */
+        @media (max-width: 600px) {
+            .github-logo {
+                width: 24px;
+                height: 24px;
+                padding: 2px;
+            }
+            .handsontable td, .handsontable th {
+                font-size: 12px;
+                padding: 5px;
+            }
+            .handsontable .htCore th {
+                font-size: 14px;
+            }
+            .ht_master .htBorders .current, .ht_master .htBorders .area {
+                border-width: 2px;
+            }
+            pre {
+                font-size: 10px;
+            }
+        }
     </style>
 </head>
 
@@ -139,8 +159,8 @@
     });
 
     function loadCSV(filePath) {
-		// Show loading indicator
-		document.getElementById('loadingIndicator').style.display = 'block';
+        // Show loading indicator
+        document.getElementById('loadingIndicator').style.display = 'block';
 
         fetch(filePath)
         .then(response => response.text())
@@ -171,16 +191,16 @@
                     }));
 
                     createHandsontable(data, colHeaders, columns);
-					// Hide loading indicator once loading is complete
-					document.getElementById('loadingIndicator').style.display = 'none';
+                    // Hide loading indicator once loading is complete
+                    document.getElementById('loadingIndicator').style.display = 'none';
                     }
             });
         })
-		.catch(error => {
-			console.error('Error loading the CSV file:', error);
-			// Hide loading indicator in case of error
-			document.getElementById('loadingIndicator').style.display = 'none';
-		});
+        .catch(error => {
+            console.error('Error loading the CSV file:', error);
+            // Hide loading indicator in case of error
+            document.getElementById('loadingIndicator').style.display = 'none';
+        });
     }
 
     function createHandsontable(data, colHeaders, columns) {
@@ -193,60 +213,63 @@
             colHeaders: colHeaders,
             rowHeaders: true,
             columns: columns.map(column => {
-                // Check if the column is the one that needs custom width
+                // Custom width for specific columns
                 if (column.data === 'keyword') {
-                    return { ...column, width: 200 }; // Custom width for this specific column
+                    return { ...column, width: 200 };
                 }
                 if (column.data === 'metadata_keyword_regex') {
-                    return { ...column, width: 200 }; // Custom width for this specific column
+                    return { ...column, width: 200 };
                 }
                 if (column.data === 'metadata_keyword_type') {
-                    return { ...column, width: 150 }; // Custom width for this specific column
+                    return { ...column, width: 150 };
                 }
                 if (column.data === 'metadata_description') {
-                    return { ...column, width: 200 }; // Custom width for this specific column
+                    return { ...column, width: 200 };
                 }
                 if (column.data === 'metadata_malwares_name') {
-                    return { ...column, width: 50 }; // Custom width for this specific column
+                    return { ...column, width: 50 };
                 }
                 if (column.data === 'metadata_tool_techniques') {
-                    return { ...column, width: 120 }; // Custom width for this specific column
+                    return { ...column, width: 120 };
                 }
                 if (column.data === 'metadata_tool_tactics') {
-                    return { ...column, width: 120 }; // Custom width for this specific column
+                    return { ...column, width: 120 };
                 }
                 if (column.data === 'metadata_groups_name') {
-                    return { ...column, width: 50 }; // Custom width for this specific column
+                    return { ...column, width: 50 };
                 }
                 if (column.data === 'metadata_category') {
-                    return { ...column, width: 150 }; // Custom width for this specific column
+                    return { ...column, width: 150 };
                 }
                 if (column.data === 'metadata_link') {
-                    return { ...column, width: 150 }; // Custom width for this specific column
+                    return { ...column, width: 150 };
                 }
                 if (column.data === 'metadata_tool') {
-                    return { ...column, width: 170 }; // Custom width for this specific column
+                    return { ...column, width: 170 };
                 }
                 if (column.data === 'metadata_comment') {
-                    return { ...column, width: 100 }; // Custom width for this specific column
+                    return { ...column, width: 100 };
                 }
                 if (column.data === 'metadata_severity_score') {
-                    return { ...column, width: 130 }; // Custom width for this specific column
+                    return { ...column, width: 130 };
                 }
                 if (column.data === 'metadata_popularity_score') {
-                    return { ...column, width: 130 }; // Custom width for this specific column
+                    return { ...column, width: 130 };
                 }
                 return column; // Return other columns as is
             }),
-			licenseKey: 'non-commercial-and-evaluation', // Specify the license key here
+            licenseKey: 'non-commercial-and-evaluation', // Specify the license key here
             colWidths: 100, // Set fixed width for all columns
             rowHeights: 23, // Set initial height for all rows
             manualColumnResize: true, // Allow manual resizing of columns
             manualRowResize: true, // Allow manual resizing of rows
             filters: true,
             dropdownMenu: true,
-			// enable sorting for all columns
-			columnSorting: true
+            // enable sorting for all columns
+            columnSorting: true,
+            stretchH: 'all', // Ensure the table stretches to fill the container
+            width: '100%', // Ensure the table width is 100%
+            height: 'auto', // Allow the table to adjust height automatically
         });
     }
 </script>
