@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta viewport="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hunting Keywords</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.css">
     <script src="https://cdn.jsdelivr.net/npm/handsontable@latest/dist/handsontable.full.min.js"></script>
@@ -30,12 +30,16 @@
             line-height: 23px !important;
         }
         /* Dark theme overrides for Handsontable */
-        body, html {
+        html, body {
+            height: 100%; /* Full height */
+            margin: 0;
+            padding: 0;
             background-color: #0d1b2a; /* Dark background for the page */
         }
-        /* Ensures the container also has a dark background */
+        /* Ensure the container also has a dark background and full height */
         #example {
             background-color: #0d1b2a; /* Dark background for the container */
+            height: 100%; /* Full height */
         }
 
         .handsontable, .wtHolder {
@@ -111,6 +115,24 @@
 			100% { transform: rotate(360deg); }
 		}
 
+        /* Responsive design adjustments */
+        @media (max-width: 768px) {
+            .github-logo {
+                width: 24px;
+                height: 24px;
+            }
+            .handsontable td {
+                font-size: 12px;
+                height: 20px !important;
+                line-height: 20px !important;
+            }
+            .handsontable th {
+                font-size: 12px;
+            }
+            #example {
+                overflow-x: auto;
+            }
+        }
     </style>
 </head>
 
