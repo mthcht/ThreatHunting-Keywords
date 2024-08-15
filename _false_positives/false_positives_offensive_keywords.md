@@ -6,6 +6,8 @@ This page lists expected behaviors for certain keywords you might encounter duri
 ---
 ## Keyword: `*Add-MpPreference -ExclusionPath *`
 
+*in the list https://github.com/mthcht/ThreatHunting-Keywords/blob/6d33e2ff1a778f748daa317eab9bf28a0b849c94/tools/O-Q/powershell.csv#L29*
+
 ### [MODORGANIZER](https://github.com/ModOrganizer2/modorganizer)
 
 - process: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Add-MpPreference -ExclusionPath "\"C:\Modding\MO2\""`
@@ -20,6 +22,9 @@ Recommendation: do not exclude this behavior, remove the exclusion path and unin
 
 ---
 ## Keyword: `*DisableRealtimeMonitoring $true*`
+
+*in the list https://github.com/mthcht/ThreatHunting-Keywords/blob/6d33e2ff1a778f748daa317eab9bf28a0b849c94/tools/O-Q/powershell.csv#L106*
+
   - `*Set-MpPreference -DisableRealtimeMonitoring *true*`
   - `*DisableRealtimeMonitoring $true*`
 
@@ -52,6 +57,8 @@ recommendation: exclude the ParentImage + ParentUser + ParentCommandLine + Comma
 
 ## Keyword: `*\Ninja.py*`
 
+*in the list https://github.com/mthcht/ThreatHunting-Keywords/blob/6d33e2ff1a778f748daa317eab9bf28a0b849c94/tools/L-N/Ninja.csv#L14*
+
 ### Node module gyp
 
 Sysmon Event ID 11
@@ -65,6 +72,8 @@ recommendation: exclude Image `*\Program Files\nodejs\node.exe` + TargetFilename
 ---
 
 ## keyword: `*bloodhound.exe*`
+
+*in the list https://github.com/mthcht/ThreatHunting-Keywords/blob/2b9e3ccd93f0ed84ac31b773e95aceb6913fe06f/tools/A-C/bloodhound.csv#L9*
 
 ref: https://wtfbins.wtf/bin/13
 
