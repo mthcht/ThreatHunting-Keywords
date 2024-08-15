@@ -16,7 +16,7 @@ AND
 - process: `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe Add-MpPreference -ExclusionPath "\"C:\Users\mthcht\AppData\Local\ModOrganizer\""`
 - parent_process: `C:\Users\mthcht\AppData\Local\Temp\is-DFK6J.tmp\Mod Organizer 2-6194-2-4-4-1640622655.tmp`
 
-Recommandation: do not exclude this behavior, remove the exclusion path and uninstall the software (not something we want to see on your enterprise workstation but not malicious)
+Recommendation: do not exclude this behavior, remove the exclusion path and uninstall the software (not something we want to see on your enterprise workstation but not malicious)
 
 ---
 ## Keyword: `*DisableRealtimeMonitoring $true*`
@@ -33,7 +33,7 @@ Security EventID 4688
         <Data Name="CommandLine">-Command Set-MpPreference -DisableRealtimeMonitoring $true</Data>
         <Data Name="ParentProcessName">C:\Program Files\McAfee\Endpoint Security\Threat Prevention\mfetp.exe</Data>
 ```
-recommandation: exclude the ParentProcessName + CommandLine
+recommendation: exclude the ParentProcessName + CommandLine
 
 Sysmon EventID 1
 ```xml
@@ -46,7 +46,7 @@ Sysmon EventID 1
         <Data Name="ParentCommandLine">"C:\Program Files\McAfee\Endpoint Security\Threat Prevention\mfetp.exe" -mms</Data>
         <Data Name="ParentUser">AUTORITY NT\System</Data>
 ```
-recommandation: exclude the ParentImage + ParentUser + ParentCommandLine + CommandLine 
+recommendation: exclude the ParentImage + ParentUser + ParentCommandLine + CommandLine 
 
 ---
 
@@ -60,7 +60,7 @@ Sysmon Event ID 11
         <Data Name="TargetFilename">C:\Users\mthcht\AppData\Local\Yarn\Cache\v6\npm-node-gyp-9.4.0-integrity\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py</Data>
 ```
 
-recommandation: exclude Image `*\Program Files\nodejs\node.exe` + TargetFilename `C:\Users\*\AppData\Local\Yarn\Cache\v6\npm-node-gyp-*-integrity\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py`
+recommendation: exclude Image `*\Program Files\nodejs\node.exe` + TargetFilename `C:\Users\*\AppData\Local\Yarn\Cache\v6\npm-node-gyp-*-integrity\node_modules\node-gyp\gyp\pylib\gyp\generator\ninja.py`
 
 ---
 
@@ -72,6 +72,6 @@ ref: https://wtfbins.wtf/bin/13
 C:\Program Files (x86)\Silver Bullet Technology\Ranger\Logging\Bloodhound.exe
 ```
 
-recommandation: exclude this process path along with the parent process along with the hashs observed for the legitimate tool
+recommendation: exclude this process path along with the parent process along with the hashs observed for the legitimate tool
 
 ---
