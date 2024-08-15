@@ -1,4 +1,6 @@
-*Help me populate this page with the expected false positives you've encountered during your hunt. If a keyword is not relevant, we will completely remove it from the hunting list.*
+This page lists expected behaviors for certain keywords you might encounter during threat hunting sessions. If you're using these lists as part of your detection rules and creating exclusions, I strongly recommend making the exclusions as specific as possible to avoid overly broad filters. Keep in mind that attackers could exploit poorly defined exclusions. This resource is intended solely as a reference to help document expected behaviors and assist with large-scale triage by providing potential explanations for the results you observe.
+
+*Help me populate this page with the expected behaviors you've encountered during your hunt. If a keyword is not relevant, we will completely remove it from the hunting list.*
 
 
 ---
@@ -70,6 +72,6 @@ ref: https://wtfbins.wtf/bin/13
 C:\Program Files (x86)\Silver Bullet Technology\Ranger\Logging\Bloodhound.exe
 ```
 
-recommandation: exclude this process path along with the parent process
+recommandation: exclude this process path along with the parent process along with the hashs observed for the legitimate tool
 
 ---
