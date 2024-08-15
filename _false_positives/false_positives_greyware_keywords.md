@@ -1,4 +1,6 @@
-Help me populate this page with the expected false positives you've encountered during your hunt. If a keyword is not relevant, we will completely remove it from the hunting list.
+This page lists expected behaviors for certain keywords you might encounter during threat hunting sessions. If you're using my detection lists as part of your detection rules and creating exclusions referencing this page, I strongly recommend making the exclusions as specific as possible to your environnement to avoid overly broad filters. This resource is intended solely as a reference to help document expected behaviors and assist with large-scale triage by providing potential explanations for the results you observe. Keep in mind that attackers could exploit poorly defined exclusions ([example](https://br0k3nlab.com/LoFP/))
+
+*Help me populate this page with the expected false positives you've encountered during your hunt. If a keyword is not relevant, we will completely remove it from the hunting list.*
 
 ---
 
