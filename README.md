@@ -423,6 +423,17 @@ Check out the lookup translated in [SIGMA rules](https://github.com/mthcht/Threa
 Coverage for 2223 tools (updated the 2024/08/24):
 ![Capture d'écran 2024-08-24 121019](https://github.com/user-attachments/assets/cf09fc8f-b12e-4fa4-9c13-5a96cbd6eb2d)
 
+splunk search:
+```
+| inputlookup threathunting-keywords.csv
+| stats count by metadata_tool metadata_tool_techniques
+| makemv delim=" - " metadata_tool_techniques
+| mvexpand metadata_tool_techniques
+| stats count by metadata_tool_techniques
+```
+
+and use this splunk visualization: https://splunkbase.splunk.com/app/5742
+
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
