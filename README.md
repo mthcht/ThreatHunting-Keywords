@@ -428,7 +428,7 @@ splunk search:
 
 <details>
   
-```sql
+```
 | inputlookup threathunting-keywords.csv
 | stats count by metadata_tool metadata_tool_techniques
 | makemv delim=" - " metadata_tool_techniques
