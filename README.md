@@ -418,8 +418,50 @@ Check out the lookup translated in [SIGMA rules](https://github.com/mthcht/Threa
 
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/11223acf-ccd6-4a6c-8038-6afd336d3629)
 
+## MITRE ATT&CK technique mapping
+
+Coverage for 2223 tools (updated the 2024/08/24):
+![Capture d'écran 2024-08-24 121019](https://github.com/user-attachments/assets/cf09fc8f-b12e-4fa4-9c13-5a96cbd6eb2d)
+
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
-#### If you want me to add a tool to the list, create a issue with this template: https://github.com/mthcht/ThreatHunting-Keywords/issues/1
-#### Propose changes to the list with a PR (provide false positives feedbacks, logs sample if you can), if a keyword is generating too many false positives in too many environments we can delete it)
+#### If you want me to add a tool to the list, create a issue with this template:
+
+<details>
+
+---
+### Tool Name:
+>  ``
+
+Please provide the name of the tool.
+
+### Official Website or Source Code Link:
+>  ``
+
+Provide a link to the tool's official website or source code repository (GitHub, GitLab, etc.). If documentation is available, please include it.
+
+### Tool Description:
+>  ``
+
+Describe the tool's purpose, functionality, and notable features. If you're unsure, leave this blank, and I'll review the tool in more detail.
+
+### Known Usage by Malicious Actors (if applicable):
+>  ``
+
+If you have information on known or potential misuse of this tool by malicious actors, please share it here.
+
+### Tool Classification:
+Please choose the most appropriate category for the tool:
+  - [ ] Offensive (Primarily used by attackers, not legitimate for general use)
+  - [ ] Greyware (Legitimate tool that is often abused by malicious actors)
+  - [ ] Generic Signatures/Keywords (Common signatures or terms linked to malware as detected by security products)
+
+---
+
+
+</details>
+
+#### Propose changes to the list with a PR (provide false positives feedbacks, logs sample if you can), **if a keyword is generating too many false positives in too many environments we can delete it**)
+
+I will decide whether a tool is worth adding to the list. Tools that are widely used and recognized in the community are more likely to be included than obscure or new ones
