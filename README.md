@@ -448,7 +448,22 @@ and use this splunk visualization: https://splunkbase.splunk.com/app/5742
 </details>
 
 
+### Threat Actor Groups by tools in this project
 
+splunk search
+```
+| inputlookup threathunting-keywords.csv
+| search metadata_groups_name!=N/A
+| stats values(metadata_tool) as metadata_tool by metadata_groups_name
+| eval group=split(metadata_groups_name, " - ")
+| mvexpand group
+| stats values(metadata_tool) as tools by group
+| mvcombine delim="," tools
+| table group tools
+| transpose 0 column_name="group" header_field=group
+```
+
+exported in the file `tools_matrix_by_groups.csv` 
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
