@@ -420,8 +420,11 @@ Check out the lookup translated in [SIGMA rules](https://github.com/mthcht/Threa
 
 ## MITRE ATT&CK technique mapping
 
-Coverage for 2223 tools (updated the 2024/08/24):
-![Capture d'écran 2024-08-24 121019](https://github.com/user-attachments/assets/cf09fc8f-b12e-4fa4-9c13-5a96cbd6eb2d)
+with splunk addon https://splunkbase.splunk.com/app/5742
+![image](https://github.com/user-attachments/assets/d4bc9ca3-c0d4-4a04-b3a9-7c66b86afb9e)
+
+Coverage for 2242 tools (updated the 2024/08/30):
+![image](https://github.com/user-attachments/assets/45d90cb8-5342-494b-8600-9009f24f0ed5)
 
 
 splunk search:
