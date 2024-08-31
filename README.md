@@ -453,11 +453,16 @@ and use this splunk visualization: https://splunkbase.splunk.com/app/5742
 Splunk dashboards (this is just one example; a wide variety of filters can be applied using the available fields in the file):
 
 #### Threat Actor Groups by tools in this project
+
+splunk xml dashboard example:
+
+<details>
+
 ```
 <form version="1.1">
   <label>tools matrix</label>
   <description>tools_matrix</description>
-  <fieldset submitButton="false">
+  <fieldset submitButton="false" autoRun="true">
     <input type="multiselect" token="category" searchWhenChanged="true">
       <label>tool categories</label>
       <fieldForLabel>metadata_category</fieldForLabel>
@@ -477,30 +482,69 @@ Splunk dashboards (this is just one example; a wide variety of filters can be ap
       <valueSuffix>"</valueSuffix>
       <delimiter> ,</delimiter>
     </input>
+    <input type="multiselect" token="groups" searchWhenChanged="true">
+      <label>groups name</label>
+      <choice value="*">ALL</choice>
+      <prefix>metadata_groups_name IN (</prefix>
+      <suffix>)</suffix>
+      <initialValue>*</initialValue>
+      <valuePrefix>"</valuePrefix>
+      <valueSuffix>"</valueSuffix>
+      <delimiter>,</delimiter>
+      <fieldForLabel>metadata_groups_name</fieldForLabel>
+      <fieldForValue>metadata_groups_name</fieldForValue>
+      <search>
+        <query>| inputlookup threathunting-keywords.csv
+| stats count by metadata_groups_name
+|  fields - count
+| eval metadata_groups_name = split(metadata_groups_name, " - ")
+| mvexpand metadata_groups_name
+|  dedup metadata_groups_name</query>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </search>
+    </input>
   </fieldset>
   <row>
     <panel>
       <viz type="sankey_diagram_app.sankey_diagram">
         <search>
           <query>| inputlookup threathunting-keywords.csv
-| search metadata_groups_name!=N/A $category$
+| search metadata_groups_name!=N/A 
 | stats count as detection_patterns by metadata_groups_name metadata_tool
 | eval metadata_groups_name = split(metadata_groups_name, " - ")
-| mvexpand metadata_groups_name</query>
+| mvexpand metadata_groups_name
+| search $groups$</query>
           <earliest>-24h@h</earliest>
           <latest>now</latest>
         </search>
         <option name="drilldown">none</option>
+        <option name="height">728</option>
         <option name="refresh.display">progressbar</option>
+        <option name="sankey_diagram_app.sankey_diagram.colorMode">categorical</option>
+        <option name="sankey_diagram_app.sankey_diagram.maxColor">#3fc77a</option>
+        <option name="sankey_diagram_app.sankey_diagram.minColor">#d93f3c</option>
+        <option name="sankey_diagram_app.sankey_diagram.numOfBins">6</option>
+        <option name="sankey_diagram_app.sankey_diagram.showBackwards">false</option>
+        <option name="sankey_diagram_app.sankey_diagram.showLabels">true</option>
+        <option name="sankey_diagram_app.sankey_diagram.showLegend">true</option>
+        <option name="sankey_diagram_app.sankey_diagram.showSelf">false</option>
+        <option name="sankey_diagram_app.sankey_diagram.showTooltip">true</option>
+        <option name="sankey_diagram_app.sankey_diagram.styleBackwards">false</option>
+        <option name="sankey_diagram_app.sankey_diagram.useColors">true</option>
       </viz>
     </panel>
   </row>
 </form>
 ```
 
+</details>
+
 ![image](https://github.com/user-attachments/assets/479fecba-6034-45cf-a667-ecf191c82ac2)
 
 ![image](https://github.com/user-attachments/assets/38537df0-3731-4a0b-a187-a7e714562d44)
+
+![image](https://github.com/user-attachments/assets/bb4cc432-0739-4ff7-be10-3e0db185fcb2)
 
 
 ## 🤝 Contributing
