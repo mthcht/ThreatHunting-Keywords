@@ -450,7 +450,7 @@ and use this splunk visualization: https://splunkbase.splunk.com/app/5742
 
 ### Tools matrix
 
-splunk dashboards (just an example, a lot of different filter can be done with the fields available in the file):
+Splunk dashboards (this is just one example; a wide variety of filters can be applied using the available fields in the file):
 
 #### Threat Actor Groups by tools in this project
 ```
