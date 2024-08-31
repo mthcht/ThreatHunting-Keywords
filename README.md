@@ -448,22 +448,60 @@ and use this splunk visualization: https://splunkbase.splunk.com/app/5742
 </details>
 
 
-### Threat Actor Groups by tools in this project
+### Tools matrix
 
-splunk search
+splunk dashboards (just an example, a lot of different filter can be done with the fields available in the file):
+
+#### Threat Actor Groups by tools in this project
 ```
-| inputlookup threathunting-keywords.csv
-| search metadata_groups_name!=N/A
-| stats values(metadata_tool) as metadata_tool by metadata_groups_name
-| eval group=split(metadata_groups_name, " - ")
-| mvexpand group
-| stats values(metadata_tool) as tools by group
-| mvcombine delim="," tools
-| table group tools
-| transpose 0 column_name="group" header_field=group
+<form version="1.1">
+  <label>tools matrix</label>
+  <description>tools_matrix</description>
+  <fieldset submitButton="false">
+    <input type="multiselect" token="category" searchWhenChanged="true">
+      <label>tool categories</label>
+      <fieldForLabel>metadata_category</fieldForLabel>
+      <fieldForValue>metadata_category</fieldForValue>
+      <search>
+        <query>| inputlookup threathunting-keywords.csv
+| stats count by metadata_category
+|  fields - count</query>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </search>
+      <choice value="*">all</choice>
+      <prefix>metadata_category IN (</prefix>
+      <suffix>)</suffix>
+      <initialValue>*</initialValue>
+      <valuePrefix>"</valuePrefix>
+      <valueSuffix>"</valueSuffix>
+      <delimiter> ,</delimiter>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <viz type="sankey_diagram_app.sankey_diagram">
+        <search>
+          <query>| inputlookup threathunting-keywords.csv
+| search metadata_groups_name!=N/A $category$
+| stats count as detection_patterns by metadata_groups_name metadata_tool
+| eval metadata_groups_name = split(metadata_groups_name, " - ")
+| mvexpand metadata_groups_name</query>
+          <earliest>-24h@h</earliest>
+          <latest>now</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
+      </viz>
+    </panel>
+  </row>
+</form>
 ```
 
-exported in the file `tools_matrix_by_groups.csv` 
+![image](https://github.com/user-attachments/assets/479fecba-6034-45cf-a667-ecf191c82ac2)
+
+![image](https://github.com/user-attachments/assets/38537df0-3731-4a0b-a187-a7e714562d44)
+
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
