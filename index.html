@@ -28,6 +28,10 @@
             text-overflow: ellipsis;
             height: 23px !important;
             line-height: 23px !important;
+            border-color: #2f4f4f !important; /* Darker color for cell borders */
+        }
+        .handsontable th {
+            border-color: #2f4f4f !important; /* Darker color for header cell borders */
         }
         /* Dark theme overrides for Handsontable */
         html, body {
@@ -43,8 +47,8 @@
         }
 
         .handsontable, .wtHolder {
-            color: ##53A757; /* Green text */
-            background-color: ##201F1F !important; /* Dark background for the table */
+            color: #53A757; /* Green text */
+            background-color: #201F1F !important; /* Dark background for the table */
         }
 
         /* Specific overrides for table cells */
@@ -74,20 +78,20 @@
         }
 
         /* Customizing scrollbar for dark theme */
-        ::webkit-scrollbar {
+        ::-webkit-scrollbar {
             width: 8px;
             height: 8px;
         }
 
-        ::webkit-scrollbar-track {
+        ::-webkit-scrollbar-track {
             background: #003049;
         }
 
-        ::webkit-scrollbar-thumb {
+        ::-webkit-scrollbar-thumb {
             background: #555;
         }
 
-        ::webkit-scrollbar-thumb:hover {
+        ::-webkit-scrollbar-thumb:hover {
             background: #444;
         }
         .ascii-art-container {
