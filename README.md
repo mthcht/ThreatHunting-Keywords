@@ -510,7 +510,7 @@ splunk xml dashboard example:
       <viz type="sankey_diagram_app.sankey_diagram">
         <search>
           <query>| inputlookup threathunting-keywords.csv
-| search metadata_groups_name!=N/A 
+| search metadata_groups_name!=N/A $category$
 | stats count as detection_patterns by metadata_groups_name metadata_tool
 | eval metadata_groups_name = split(metadata_groups_name, " - ")
 | mvexpand metadata_groups_name
