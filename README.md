@@ -120,6 +120,7 @@ match_type = WILDCARD(keyword)
 ```
 
 - now we can use our lookup definition to hunt 🏹
+- :warning: if the following section searches don't appear to be working it may be due to splunk resource limitation settings, especially if you are running splunk under default configuration. For starter you may have to consider increasing the `[lookup]` stanza `max_memtable_bytes` value.
 
 ## Example use cases with `threathunting-keywords`:
 ![image](https://github.com/mthcht/ThreatHunting-Keywords/assets/75267080/07813e37-62de-4582-a784-2875ed0a2525)
