@@ -990,7 +990,7 @@
 .* enumeration_process\.exe.*
 .* --enum-local-admins.*
 .* -ep Bypass -enc \$b64FileServerMonitoringScript.*
-.* -ep Bypass-nop function .*\[System\.Security\.Cryptography\.Aes]::Create\(\).*\.CreateDecryptor\(\).*\.TransformFinalBlock.*\[System\.Text\.Encoding]::Utf8\.GetString.*
+.* -ep Bypass -nop function .*\[System\.Security\.Cryptography\.Aes]::Create\(\).*\.CreateDecryptor\(\).*\.TransformFinalBlock.*\[System\.Text\.Encoding]::Utf8\.GetString.*
 .* -ep Unrestricted -nop function .*\[System\.Security\.Cryptography\.Aes]::Create\(\).*\.CreateDecryptor\(\).*\.TransformFinalBlock.*\[System\.Text\.Encoding]::Utf8\.GetString.*
 .* epmd-info\.nse.*
 .* eppc-enum-processes\.nse.*
@@ -2392,7 +2392,6 @@
 .* -payload .*-Lhost .*-Lport.*
 .* payload add .*
 .* --payload CommonsCollections.*
-.* payload start .*
 .* --payload x64/c/ipv6 .*
 .* --payload_file .* --payload_path.*
 .* payload_placement\.exe.*
@@ -3576,12 +3575,10 @@
 .*!files upload .*
 .*!handlers load .*
 .*!implants .*
-.*!interactive .*
 .*!modules load .*
 .*!process 0 0 lsass\.exe.*
 .*!processprotect .*lsass\.exe.*
 .*!put .*/tmp.*
-.*!shell .*
 .*!tunnels --tcp.*
 .*!use .*aes256_py.*
 .*!use .*reflected_assembly.*
@@ -3773,7 +3770,6 @@
 .*%APPDATA%/Indexing\..*
 .*%appdata%\\\(s\)AINT.*
 .*%APPDATA%\\Windows:winrm\.vbs.*
-.*%comspec% /k .*\.bat.*
 .*%COMSPEC%.*echo.*\\pipe\\.*
 .*%LOCALAPPDATA%\\MEGAcmd.*
 .*%SystemRoot%\\\\MEMORY\.DMP.*
@@ -4017,7 +4013,6 @@
 .*\.doc\.sfx.*
 .*\.doc\.vbs.*
 .*\.docx\.bat.*
-.*\.docx\.dll.*
 .*\.docx\.exe.*
 .*\.docx\.htm.*
 .*\.docx\.iso.*
@@ -4497,6 +4492,7 @@
 .*\.search\.123456\..*
 .*\.secure\.123456\..*
 .*\.server_DoElevationRequest\(\(Get-NtProcess -ProcessId \$pid\).*.*cmd\.exe.*.*C:\\.*.*
+.*\.servicedesk\.atera\.com/GetAgent.*
 .*\.sh .*--checksec.*
 .*\.sh .*cvelist-file:.*
 .*\.sh --at --custom --command .* --time .*
@@ -5099,7 +5095,6 @@
 .*/batik_svg.*
 .*/bazarloader\.profile.*
 .*/bbaranoff/CVE-2022-0847/.*
-.*/beacon\.h
 .*/beacon_202_no_acl\.log.*
 .*/beacon_257-objects\.log.*
 .*/beacon_compatibility.*
@@ -7224,6 +7219,7 @@
 .*/HWSyscalls\.cpp.*
 .*/hXOR\.exe.*
 .*/hXOR-Packer\.git.*
+.*/hydra -.*
 .*/hyperion\.exe.*
 .*/hypertunnel\.git.*
 .*/hypertunnel-tcp-relay.*\.tar\.gz.*
@@ -7386,6 +7382,7 @@
 .*/iodine\.exe.*
 .*/iodine\.git.*
 .*/iodine-master/.*
+.*/ionide .*
 .*/io-tl/Mara.*
 .*/IOXIDResolver\.py.*
 .*/ip_spoof\.rb.*
@@ -8684,7 +8681,6 @@
 .*/persist_userinit\.py.*
 .*/persist_wmic\.py.*
 .*/PersistBOF/.*
-.*/Persistence\.cpp.*
 .*/Persistence\.sh.*
 .*/persistence/.*\.ps1
 .*/persistence/.*\.psm1
@@ -8943,6 +8939,7 @@
 .*/Proxifier/Proxifier\.app/.*
 .*/ProxifierPE\.zip.*
 .*/ProxifierSetup\.exe.*
+.*/Proxmark3.*
 .*/proxy/Tor\.py.*
 .*/proxy/tor_paths\.py.*
 .*/Proxy_Def_File_Generator\.cna.*
@@ -11071,7 +11068,6 @@
 .*/victim_info_key\.py.*
 .*/view -c ':py3 import os.*os\.execl\(\\.*/bin/sh\\.*
 .*/viewerhostkeypopup\.exe.*
-.*/viper\.conf.*
 .*/viper\.py.*
 .*/viper\.sln.*
 .*/viper/Docker/.*
@@ -11170,6 +11166,7 @@
 .*/well_known_sids\.py.*
 .*/WerTrigger\.git.*
 .*/WfpTokenDup\.exe.*
+.*/wfuzz .*
 .*/whatlicense\.git.*
 .*/WheresMyImplant/.*
 .*/Whisker\.exe.*
@@ -13688,7 +13685,6 @@
 .*\\gandcrab\.txt.*
 .*\\GatewayConsoleExe_d64\.exe.*
 .*\\Gay Porn Mailer\.exe.*
-.*\\gcloud\\application_default_credentials\.json.*
 .*\\geacon\\tools\\BeaconTool\\.*
 .*\\gecko-new\.php.*
 .*\\gecko-old\.php.*
@@ -14435,7 +14431,6 @@
 .*\\LSASecrets\.txt.*
 .*\\lsass\.DMP
 .*\\lsass\.dmp.*
-.*\\lsass\.exe.*
 .*\\lsass\.rar.*
 .*\\lsass\.zip.*
 .*\\Lsass_Shtinkering\.cpp.*
@@ -14447,6 +14442,7 @@
 .*\\LsassSilentProcessExit.*
 .*\\lsassy_dump\.py.*
 .*\\lsa-whisperer-.*
+.*\\lslsass\.exe.*
 .*\\LTProxy-main.*
 .*\\luajit\.exe.*
 .*\\luna\.log.*
@@ -15167,7 +15163,6 @@
 .*\\persist_userinit\.py.*
 .*\\persist_wmic\.py.*
 .*\\Persiste\.ps1.*
-.*\\Persistence\.cpp.*
 .*\\Persistence\.exe.*
 .*\\Persistence\.vbs.*
 .*\\persistence\\elevated\\rid_hijack.*
@@ -15519,6 +15514,7 @@
 .*\\pspy\\pspy\.go.*
 .*\\PSRansom -.*
 .*\\PSRansom\.ps1.*
+.*\\PSRecon\\.*
 .*\\PSReflect\.psm1.*
 .*\\psscanner\\psscanner\.go.*
 .*\\PTASpy\.dll.*
@@ -15971,9 +15967,8 @@
 .*\\RPCClipboardAttended\.exe.*
 .*\\RPCConfig\.ini.*
 .*\\RPCCoreViewer\.exe.*
-.*\\RPCCoreViewerL\.exe.*
 .*\\RpcDND_Console\.exe.*
-.*\\rpcdownloader\.exe.*
+.*\\RPCDownloader\.exe.*
 .*\\RPCDownloaderLogFile\.txt.*
 .*\\RPCDragDrop\.txt.*
 .*\\rpcdump\.py.*
@@ -16125,7 +16120,7 @@
 .*\\ScreenConnect\.WindowsBackstageShell\.exe.*
 .*\\ScreenConnect\.WindowsClient\.exe.*
 .*\\ScreenConnect\\Bin\\.*
-.*\\Screenshot\.exe.*
+.*\\Screenshot\.exe .*
 .*\\Screenshot\.ps1.*
 .*\\ScriptBlock-Smuggling.*
 .*\\Scripts\\CreateRegKey\.scp.*
@@ -16759,6 +16754,7 @@
 .*\\Suprise\\Suprise\.exe.*
 .*\\SurveyFile_x64_Release\.exe.*
 .*\\SurveyRegistry_x64_Release\.exe.*
+.*\\SwampThing\.csproj.*
 .*\\SweetPotato\.dll.*
 .*\\Sweetpotato\.exe.*
 .*\\SweetPotato\\Program\.cs.*
@@ -17399,6 +17395,8 @@
 .*\\xorencrypt\.py.*
 .*\\xp_evil_template\.cpp.*
 .*\\XpertRAT\.exe.*
+.*\\xpipe\.c.*
+.*\\xpipe\.o.*
 .*\\xRAT 2\.exe.*
 .*\\xrat-master\\.*
 .*\\XRulez\.cpp.*
@@ -25536,7 +25534,6 @@
 .*7eb2d2b7d0eaf25f822afa65e9887683ad2c1dd48c2cc447a76a6526222acf06.*
 .*7eb4b08bab7663e0998d4cff0f69acf6c9b583d3698bfc27aa08af44a9a6a51c.*
 .*7eb68ed7e2a9ca4802a0988d2d41cf8b859c00b8add791c52a304f434120c5b1.*
-.*7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6.*
 .*7ebdb680e615f690bd52c661487379f9df8de648ecf38743e49fe12c6ace6dc7.*
 .*7ebe05cf3029272503d357300458d6bf36cde819120533d8ed84c1f9888dfc94.*
 .*7ebff99259931e26c3baf8dd78c1af671d73a6c91a1d6ec9107c0c225df76bf0.*
@@ -25923,7 +25920,6 @@
 .*853d769d63efcbc5d78f3f81c7cae176bf34c248d3bbbf6f32b4bc5d5de561e8.*
 .*853e033af8339767d2ccc03845763bd250238ee0642d4042e027a5359a56760d.*
 .*85474d2a885a2dbe2dfd334d9d25fbf1079c1d88c857428e2e1cf3e59f2c0a9b.*
-.*854A20FB-2D44-457D-992F-EF13785D2B51.*
 .*855322cbaedbf7d7ea08a730405d5969a4f754a75571791b357d8ddce030e89f.*
 .*85549f76ecf192f4e61cdcbedc8af83b48a76d78924ab9c09eaeb31141944770.*
 .*8558952E-C76B-4976-949F-76A977DA7F8A.*
@@ -29190,8 +29186,6 @@
 .*ASRepToHashcat.*
 .*asse\.rel\.tunnels\.api\.visualstudio\.com.*
 .*Assemblies/SharpMove\.exe.*
-.*assembly .*\.asm .*
-.*assembly .*\.exe .*
 .*assembly AMSITrigger .*
 .*Assembly\.GetType\(.*System\.Management\.Automation\.AmsiUtils.*\)\.getField\(.*amsiInitFailed.*.*'NonPublic.*Static'\)\.SetValue\(\$null.*\$true\).*
 .*Assembly\.GetType\('System\.Management\.Automation\.AmsiUtils'\)\.GetField\('amsiInitFailed'.*'NonPublic.*Static'\)\.SetValue\(\$null.*\$true\).*
@@ -30108,6 +30102,7 @@
 .*backstab\.x86\..*
 .*Backstab/Driverloading.*
 .*Backstab-master.*
+.*Backup-GPO -All -Path .*
 .*BackupOperatorToDA\.cpp.*
 .*BackupOperatorToDA\.exe.*
 .*BackupOperatorToDA\.sln.*
@@ -31467,7 +31462,6 @@
 .*C2 Client.*
 .*C2 Framework for villains.*
 .*C2 Nimplant Server.*
-.*C2 Server.*
 .*c2 target,eg 127\.0\.0\.1:64535.*
 .*c2\.hak5\.org.*
 .*C2\.KillDate.*
@@ -32754,9 +32748,9 @@
 .*class ReverseBash.*
 .*class T2WRPCServer\(.*
 .*Cleanup-57BFF48E-24FB-48E9-A390-AC62ADF38B07\.json.*
-.*clear_cmd
 .*clear_command_history\.py.*
 .*clear_me_from_history\(\)\?.*
+.*Clear-EventLog -LogName Security.*
 .*ClearEventlog\.vbs.*
 .*Clear-KeyCredentials -target .*
 .*Clearlogs.*
@@ -33294,7 +33288,6 @@
 .*coreImplantFlags binds all flags common to all sliver implant types.*
 .*CoreSecurity/impacket/.*
 .*corrupt data that was marshalled by Ndr64ConformantVaryingArrayMarshall.*
-.*Corrupted MAC on input.*
 .*corscanner -i urls\.txt -t 100.*
 .*Could not find address marker in shellcode.*
 .*Could not parse \.dmp file with pypykatz.*
@@ -33401,7 +33394,6 @@
 .*createnewshellcode.*
 .*CreateObject\(.*.*W.*.*\+.*.*S.*.*\+.*.*cr.*.*\+.*.*ip.*.*\+.*.*t\..*.*\+.*.*S.*.*\+.*.*h.*.*\+.*.*e.*.*\+.*.*l.*.*\+.*.*l.*.*.*
 .*createpbindpayload.*
-.*CreateProcessAsUser.*
 .*createproxypayload -.*
 .*createproxypayload.*
 .*CreatePseudoConsole function found! Spawning a fully interactive shell.*
@@ -33514,18 +33506,14 @@
 .*crypto::certtohw.*
 .*crypto::cng.*
 .*crypto::extract.*
-.*crypto::hash.*
 .*crypto::keys.*
 .*crypto::providers.*
 .*crypto::sc.*
 .*crypto::scauth.*
-.*crypto::stores.*
-.*crypto::system.*
 .*crypto::tpminfo.*
 .*crypto_identifier.*
 .*Cryptolocker-1\.0\.0\.rar.*
 .*cryptr3fmuv4di5uiczofjuypopr63x2gltlsvhur2ump4ebru2xd3yd\.onion.*
-.*CryptUnprotectData\(.*
 .*cryptvortex .*
 .*crystal eval 'require .*process.*;require .*socket.*;.*Socket\.tcp.*connect.*Process\.new.*output\.gets_to_end.*
 .*cs2modrewrite\.py.*
@@ -35040,7 +35028,6 @@
 .*dirscanner\.py.*
 .*dirscraper.*
 .*dirsearch -r -w /usr/share/wordlists/seclists/Discovery/Web-Content/quickhits\.txt.*
-.*dirsearch.*
 .*dirTraversal\.txt.*
 .*dirTraversal-nix\.txt.*
 .*dirTraversal-win\.txt.*
@@ -35165,7 +35152,6 @@
 .*dll_spawn_cmd\.cpp.*
 .*dll_spawn_cmd\.exe.*
 .*DLL_TO_HIJACK_WIN10.*
-.*DllCanUnloadNow.*
 .*dllexploit\..*
 .*DllExport -.*
 .*DLLHijackAuditKit.*
@@ -35181,7 +35167,6 @@
 .*DllInstall is used when executing the Merlin agent with regsvr32\.exe.*
 .*dllKitten\.dll.*
 .*DllLdr\.x64\.bin.*
-.*dllload .*
 .*Dll-Loader -http -path .*
 .*Dll-Loader -local -path.*
 .*Dll-Loader -smb -path .*
@@ -35694,7 +35679,6 @@
 .*dumpcreds.*mimipenguin.*
 .*dumpCredStore\.ps1.*
 .*Dumped LSASS memory to .*
-.*Dumpert.*
 .*Dumpert\.bin.*
 .*dumpert\.dmp.*
 .*Dumpert\.exe.*
@@ -35716,7 +35700,6 @@
 .*DumpPEFromMemory\.cpp.*
 .*DumpPEFromMemory\.exe.*
 .*DumpPEFromMemoryMemory\.exe.*
-.*DumpProcessByName.*
 .*DumpProcessPid -targetPID .* -outputFile.*
 .*DumpSAM\.ps1.*
 .*DumpShellcode\..*
@@ -37029,7 +37012,6 @@
 .*Erebus/.*spacerunner.*
 .*ERPScan-tockenchpoken\.zip.*
 .*Error converting offlinesam path.*
-.*error in libcrypto.*
 .*Error parsing lsass dump with pypykatz.*
 .*Error: Could not create a thread for the shellcode.*
 .*eRv6yTYhShell.*
@@ -37082,7 +37064,6 @@
 .*EvanMcBroom/lsa-whisperer.*
 .*evasion/has_recycle_bin\..*
 .*evasion_shellcode\.js.*
-.*event::clear.*
 .*event::drop.*
 .*EventAggregation\.dll\.bak.*
 .*EventAggregation\.dll\.patched.*
@@ -39307,6 +39288,7 @@
 .*Get-ADDBAccount.* -BootKey.* -DBPath .*\.ntds\.dit
 .*Get-ADDBAccount.* -DataBasePath .*\.ntds\.dit.* -BootKey.*
 .*Get-ADGroup -Filter .*Name -like .*admin.*
+.*Get-ADGroupMember -Identity .*Domain Admins.*.*
 .*Get-ADObject -Filter \{msDS-AllowedToDelegateTo .* -Properties msDS-AllowedToDelegateTo.*
 .*Get-ADObject -SearchBase .*CN=Shadow Principal Configuration.*CN=Services.* \(Get-ADRootDSE\)\.configurationNamingContext\) \| select .*msDS-ShadowPrincipalSid.*
 .*Get-ADReplAccount -All .*
@@ -39516,7 +39498,6 @@
 .*Get-LastLoggedon -.*
 .*Get-LastLoggedOn \?ComputerName .*
 .*Get-LastLoggedOn.*
-.*getLocalAdm.*
 .*Get-LocalGroupMember -Group Administrators.*
 .*Get-LoggedOnLocal -.*
 .*Get-LoggedonLocal -ComputerName .*
@@ -40407,7 +40388,6 @@
 .*HeapEncryptDecrypt\.exe.*
 .*HeapEncryptDecrypt\.sln.*
 .*HeapEncryptDecrypt\.vcxproj.*
-.*HeartBleed.*
 .*HEHE - YOU HAVE BEEN PWENED.*
 .*hekatomb -hashes .*
 .*hekatomb-.*\.tar\.gz.*
@@ -40494,7 +40474,6 @@
 .*hidden-tear-remake\.zip.*
 .*HiddenUser\.ps1.*
 .*hide-implant.*
-.*HideProcess.*
 .*higioemojdadgdbhbbbkfbebbdlfjbip.*
 .*HIJACK_DLL_PATH.*
 .*hijack_hunter .*
@@ -40505,7 +40484,6 @@
 .*hijackDll.*WINMM\.dll.*
 .*Hijacked timer queue handle from the target process: .*
 .*Hijacked worker factory handle from the target process: .*
-.*Hijacker.*
 .*HijackHunter\.csproj.*
 .*HijackHunter\.exe.*
 .*Hijack-MultipleKeys -dll .*
@@ -40658,7 +40636,6 @@
 .*http.*://.*/Terminator\.sys
 .*http.*://127\.0\.0\.1:4433.*
 .*http.*://127\.0\.0\.1:5556.*
-.*http.*://127\.0\.0\.1:8081.*
 .*http.*://localhost:4433.*
 .*http.*://localhost:5556.*
 .*http.*://localhost:8081.*
@@ -41303,14 +41280,12 @@
 .*hXOR-Packer\.v0\.1\.zip.*
 .*hXOR-Packer-main.*
 .*hxt254aygrsziejn\.onion.*
-.*hydra -.*
 .*hydra .* ftp://.*
 .*hydra .* http-post-form .*
 .*hydra .* mysql://.*
 .*hydra .* ssh://.*
 .*hydra .* telnet://.*
 .*hydra smtp-enum.*
-.*hydra\.c.*
 .*hydra:x:10001:.*
 .*HYDRA_PROXY_HTTP.*
 .*hydra-cobaltstrike.*
@@ -41521,7 +41496,6 @@
 .*ImpersonateFromParentPid -ppid.*
 .*ImpersonateLocalService.*
 .*ImpersonateLoggedOnUser worked, but thread is not running as SYSTEM.*
-.*ImpersonateLoggedOnUser.*
 .*impersonate-main\.zip.*
 .*impersonateprocess\.py.*
 .*impersonateuser\.boo.*
@@ -41733,7 +41707,6 @@
 .*injector\.ps1.*\.kirbi.*
 .*InjectPERemote\.cs.*
 .*InjectPEWMIFSRemote.*
-.*InjectProc.*
 .*injectremote\.boo.*
 .*Inject-RemoteShellcode .*
 .*Inject-RemoteShellcode.*
@@ -41915,13 +41888,10 @@
 .*Internal-Monologue\.exe.*
 .*InternalMonologueDll.*
 .*InternalMonologueExe.*
-.*InternetCrackUrl.*
 .*InternetIdService\.exe.*
 .*IntruderPayloadGeneratorFactory\.class.*
 .*IntruderPayloadProcessor\.class.*
 .*IntruderPayloads.*
-.*invalid certificate signing key.*
-.*invalid elliptic curve value.*
 .*-Inveigh .*
 .*Inveigh Relay.*
 .*Inveigh\.exe.*
@@ -42414,6 +42384,7 @@
 .*Invoke-RDPThief\.ps1.*
 .*Invoke-RDPwrap\.ps1.*
 .*Invoke-ReadC2Output.*
+.*Invoke-Recon .*
 .*invoke-reflectivedllinjection-ps1.*
 .*InvokeReflectivePEInjection.*
 .*Invoke-ReflectivePEInjection.*
@@ -42795,7 +42766,6 @@
 .*iomoath/PowerShx.*
 .*iomoath/SharpSpray.*
 .*ionice /bin/sh -p.*
-.*ionide .*
 .*ionided .*
 .*ios7tojohn\.pl.*
 .*IOXIDResolver\.py.*
@@ -43615,6 +43585,7 @@
 .*lan_fingerprint_common\..*
 .*lan_ping_sweep\.json.*
 .*lan_sw_port_scan\.json.*
+.*landhb/HideProcess.*
 .*landxxeaf2hoyl2jvcwuazypt6imcsbmhb7kx3x33yhparvtmkatpaad\.onion.*
 .*lanjelot.*
 .*LANMAN password IS however set\. Will now install new password as NT pass instead.*
@@ -43856,7 +43827,6 @@
 .*linikatzV2\.sh.*
 .*link_tcp 127\.0\.0\.1 .*
 .*linkedin2username\.py -u.*
-.*LinkedInt.*
 .*link-inject.*inject link into process.*
 .*linpeas_builder\.py.*
 .*linpeas_darwin_amd64.*
@@ -44438,7 +44408,7 @@
 .*masscan --nmap.*
 .*masscan -p.*
 .*masscan.*  -p.*
-.*masscan\.exe\t.*
+.*masscan\.exe .*.*
 .*massdns -r .*\.txt.*
 .*mastadonster@onionmail\.org.*
 .*master/bootkit/src.*
@@ -44823,7 +44793,6 @@
 .*minidump_add_memory_block.*
 .*minidump_add_memory64_block.*
 .*minidumptomemsharp\.lsa\.lsaproviderduper\.boo.*
-.*MiniDumpWriteDump.*
 .*MiniEmpireDLL\.dll.*
 .*minikerberos\.zip.*
 .*mining in background will be started using your startup directory script and only work when your are logged in this host.*
@@ -46437,7 +46406,6 @@
 .*onionpipe/tor.*
 .*onionpipe-darwin-amd64-static.*
 .*onionpipe-linux-amd64-static.*
-.*OnionScan.*
 .*Online - Reverse Shell Generator.*
 .*online\.level\.io.*
 .*online_brute\.gz\.torrent.*
@@ -47080,7 +47048,6 @@
 .*Persist\\startup\.cs.*
 .*Persist\\winlogon\.cs.*
 .*PersistBOF\.cna.*
-.*Persistence\.cpp.*
 .*Persistence\.exe.*
 .*Persistence\.psm1.*
 .*Persistence/InstallWMI.*
@@ -47510,7 +47477,6 @@
 .*Powermad\.psm1.*
 .*Powermad-master.*
 .*PowerMemory.*
-.*PowerOPS.*
 .*powerpick -Command .*
 .*powerpick Get-.*
 .*powerpick\.py.*
@@ -47803,13 +47769,6 @@
 .*Process is not 64-bit, this version of katz won't work yo'!.*
 .*process must run as NT AUTHORITY\\\\SYSTEM to dump lsass memory.*
 .*process::exports.*
-.*process::imports.*
-.*process::list.*
-.*process::resume.*
-.*process::run.*
-.*process::runp.*
-.*process::start.*
-.*process::stop.*
 .*process::suspend.*
 .*process_herpaderping.*
 .*process_imports\.cna.*
@@ -47924,7 +47883,6 @@
 .*Provided that the current user has the SeImpersonate privilege, this tool will have an escalation to SYSTEM.*
 .*provider name=.*n-able take control - \[dameware].* />.*
 .*prowler gcp --credentials-file path.*
-.*Proxmark.*
 .*proxmark3 -p /dev/ttyACM0.*
 .*Proxy bypass enabled for Neo4j connection.*
 .*Proxy Shellcode Handler.*
@@ -48035,7 +47993,7 @@
 .*pspy-testing:latest.*
 .*PSRansom by @JoelGMSec.*
 .*PSRansom\.ps1.*
-.*PSRecon.*
+.*PSRecon\.ps1.*
 .*psreflect .*
 .*PSRunspace-InvokeRun-certutilCoded\.txt.*
 .*pstgdump\.exe.*
@@ -48938,6 +48896,7 @@
 .*reg add .*HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PackagePointAndPrint.* /f /v PackagePointAndPrintServerList /t REG_DWORD /d 1.*
 .*reg add .*HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PackagePointAndPrint\\ListofServers.* /f /v 1 /t REG_SZ /d .*
 .*reg add .*HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows NT\\Printers\\PointAndPrint.* /f /v RestrictDriverInstallationToAdministrators /t REG_DWORD /d 0.*
+.*reg add .*HKLM\\SYSTEM\\CurrentControlSet\\Control\\Terminal Server.* /v fDenyTSConnections /t REG_DWORD /d 0 /f.*
 .*REG ADD .*HKLM\\System\\CurrentControlSet\\Control\\TerminalServer\\WinStations\\RDP-Tcp.* /v PortNumber /t REG_DWORD /d 443 /f.*
 .*reg add .*HKLM\\System\\CurrentControlSet\\Control\\WMI\\Autologger\\DefenderApiLogger.* /v .*Start.* /t REG_DWORD /d .*0.* /f.*
 .*reg add .*HKLM\\System\\CurrentControlSet\\Control\\WMI\\Autologger\\DefenderAuditLogger.* /v .*Start.* /t REG_DWORD /d .*0.* /f.*
@@ -49030,6 +48989,7 @@
 .*reg query HKCU /f passw /t REG_SZ /s.*
 .*reg query HKCU /f pwd /t REG_SZ /s.*
 .*reg query hkcu\\software\\.*\\putty\\session.*
+.*reg query HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run.*
 .*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa /v RunAsPPL.*
 .*reg query HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\ /v RunAsPPL.*
 .*reg query HKLM /f passw /t REG_SZ /s.*
@@ -50009,6 +49969,7 @@
 .*sam_the_admin\.py.*
 .*SamAdduser\.exe.*
 .*sambaPipe\.py.*
+.*samdump .*
 .*samdump\(bearer, commands.*
 .*samdump\.exe.*
 .*samdump\.py.*
@@ -50017,14 +49978,7 @@
 .*samdump2 SYSTEM SAM > .*
 .*samdump2 SYSTEM SAM.*
 .*samdump2\.c.*
-.*SamOfflineAddMemberToAlias.*
-.*SamOfflineCloseHandle.*
 .*SamOfflineConnect.*
-.*SamOfflineCreateAliasInDomain.*
-.*SamOfflineCreateUserInDomain.*
-.*SamOfflineDeleteAlias.*
-.*SamOfflineDeleteUser.*
-.*SamOfflineEnumerateAliasesInDomain.*
 .*SamOfflineEnumerateDomainsInSamServer.*
 .*SamOfflineEnumerateUsersInDomain2.*
 .*SamOfflineGetMembersInAlias.*
@@ -50375,7 +50329,6 @@
 .*secinject\.x64.*
 .*secinject\.x86.*
 .*secinject/src.*
-.*SecLists.*
 .*--seclogon-leak-local.*
 .*--seclogon-leak-remote.*
 .*secrary.*
@@ -50546,14 +50499,7 @@
 .*service\.tunnelmole\.com.*
 .*service/executable/
 .*service/executable/compile\.exe.*
-.*service::me.*
 .*service::preshutdown.*
-.*service::remove.*
-.*service::resume.*
-.*service::shutdown.*
-.*service::start.*
-.*service::stop.*
-.*service::suspend.*
 .*service_permissions_escalate\.rb.*
 .*ServiceBase\.Run\(new MakeMeAdminService\(.*
 .*servicedigilogos@protonmail\.com.*
@@ -50596,7 +50542,6 @@
 .*Set Listener dbx.*
 .*set Listener onedrive.*
 .*set obfuscate .*
-.*set PAYLOAD .*
 .*set pipename .*
 .*set Profile apt1\.profile.*
 .*set shellcode .*
@@ -50832,7 +50777,6 @@
 .*sharp ADCollector.*
 .*sharp ADSearch.*
 .*sharp BetterSafetyKatz.*
-.*Sharp Compile.*
 .*sharp init  download/update SharpCollection tools.*
 .*sharp InveighZero.*
 .*sharp SharpAllowedToAct.*
@@ -51053,7 +50997,6 @@
 .*SharpNoPSExec\.exe.*
 .*SharpNoPSExec\.sln.*
 .*SharpNoPSExec-master.*
-.*SharpPack.*
 .*SharpPersistSD\.RegHelper.*
 .*SharpPersistSD\.SecurityDescriptor.*
 .*SharpPersistSD\.SvcHelper.*
@@ -51361,12 +51304,10 @@
 .*Shwmae webauthn .*
 .*Shwmae webauthn.*
 .*Shwmae\.exe sign.*
-.*sid::add.*
 .*sid::clear.*
 .*sid::lookup.*
 .*sid::modify.*
 .*sid::patch.*
-.*sid::query.*
 .*sigflip.*/Bof/.*
 .*SigFlip\.exe -.*
 .*SigFlip\.WinTrustData.*
@@ -52638,6 +52579,7 @@
 .*systemctl stop IMDS.*
 .*systemctl stop pulseway.*
 .*systemctl stop remotemoe.*
+.*systemctl stop usbguard\.service.*
 .*systemctl --user start remotemoe\.service.*
 .*systemprofile\\AppData\\Roaming\\freerdp\\server.*
 .*SysWhispers\.git .*
@@ -53176,9 +53118,6 @@
 .*token.* -CreateProcess .* -ProcessId .*
 .*token.* -ImpersonateUser -Username .*
 .*token::elevate.*
-.*token::list.*
-.*token::revert.*
-.*token::run.*
 .*token::whoami.*
 .*TokenDump\.exe.*
 .*Token-Impersonation -MakeToken -Username .*
@@ -53287,7 +53226,6 @@
 .*torify nuclei .*
 .*torify sqlmap .*
 .*torpastezr7464pevuvdjisbvaf4yqi4n7sgz7lkwgqwxznwy5duj4ad\.onion.*
-.*torproject.*
 .*torproject\.org/dist/torbrowser/.*\..*
 .*--tor-proxy.*--pwndb.*
 .*TorPylle.*
@@ -53300,7 +53238,6 @@
 .*toto %3e c:\\\\temp\\\\toto\.txt.*
 .*touch -a.*
 .*touch -m.*
-.*touch -r .*
 .*touch -t .*
 .*tplmap.*
 .*tQgGur6TFdW9YMbiyuaj9g6yBJb2tCbcgrEq.*
@@ -53597,7 +53534,6 @@
 .*unDefender-master.*
 .*undertheradar-main.*
 .*undgrddapc4reaunnrdrmnagvdelqfvmgycuvilgwb5uxm25sxawaoqd\.onion.*
-.*unexpected bytes remain after decoding.*
 .*Unhandled Rubeus exception:.*
 .*unhide-implant.*
 .*unhook kernel32.*
@@ -53837,9 +53773,7 @@
 .*ValdikSS/dropbear-sshj.*
 .*valid_user@contoso\.com:Password1.*
 .*vanhauser-thc/thc-hydra.*
-.*vault::.*
 .*vault::cred.*
-.*vault::list.*
 .*vaults\..*\.swi-rc\.com.*
 .*VBA Obfuscation Tools combined with an MS office document generator.*
 .*Vbad/VBad\.py.*
@@ -54205,7 +54139,6 @@
 .*WfpTokenDup\.exe -.*
 .*WfpTokenDup\.exe.*
 .*wfuzz --.*\.txt.*
-.*wfuzz.*
 .*wfuzz\.bat.*
 .*wfuzz\.get_payload.*
 .*wfuzz\.py.*
@@ -54373,7 +54306,6 @@
 .*Windows Credentials Editor v1\.3beta.*
 .*'Windows Defender has blocked some of our Features\.Please Turn off Windows Defender and run again.*
 .*Windows Downdate: Craft any downgrading Windows Updates.*
-.*Windows Exploit.*
 .*windows go build -o proxy\.exe cmd/proxy/main\.go.*
 .*-WindowS Hidden -ep Bypass -enc \$b64FileServerMonitoringScript.*
 .*-WindowS Hidden -ep Bypass -enc \$b64monitoringScript.*
@@ -54880,9 +54812,7 @@
 .*xoxb-2144924547920-3393858142400-qEIcN8hBt0WgwRaJImILqMAj.*
 .*xpipe \\\\.*
 .*xpipe.*lsass.*
-.*xpipe\.c.*
 .*xpipe\.cna.*
-.*xpipe\.o.*
 .*xpn.*ntlmquic.*
 .*xrdp\.c.*
 .*Xre0uS/MultiDump.*
@@ -55114,29 +55044,18 @@
 \\\\f53f.*
 \\\\fullduplex_.*
 \\\\interprocess_.*
-\\\\lsarpc_.*
 \\\\mojo_.*
 \\\\msagent_.*
 \\\\MsFteWds.*
-\\\\msrpc_.*
 \\\\MSSE-.*
 \\\\mypipe-.*
-\\\\netlogon_.*
-\\\\ntsvcs.*
 \\\\PGMessagePipe.*
 \\\\postex_.*
 \\\\postex_ssh_.*
-\\\\samr_.*
-\\\\scerpc_.*
 \\\\SearchTextHarvester.*
-\\\\spoolss_.*
-\\\\srvsvc_.*
-\\\\status_.*
 \\\\UIA_PIPE.*
-\\\\win\\msrpc_.*
-\\\\winsock.*
 \\\\Winsock2\\CatalogChangeListener-.*
-\\\\wkssvc_.*
+\\Ladon .*\.exe.*
 afrog -.*
 BypassUAC .*
 cd PayGen
@@ -55162,15 +55081,11 @@ fw_walk total.*
 get-spns .*
 https://.*\.xyz/.*\.ps1
 hydra -.*
-impersonate .*\\.*
 import boko.*
 inceptor.*dotnet.*
 kerberoast .*
 koh exit.*
 koh list.*
-Ladon .*-.* .*
-Ladon .*\.exe.*
-Ladon .*/.* .*
 Ladon Mac .* 
 Lapsdump .*
 ldapsearch -h .* -x.*
@@ -55187,7 +55102,6 @@ nanodump.*
 needle_sift .*
 net\.recon .*
 nikto -.*
-nmap .*
 noclient-3\..*
 onex install .*
 polenum .*:.*
@@ -55196,11 +55110,8 @@ psgrep .*
 python3 start_campaign\.py
 rcat listen .*
 remotereg .*
-rev2self.*
 runof .*\.o.*
 runpe .*\.exe.*
-samdump .*
-ScareCrow -.*
 scrun\.exe .*
 set shellcode .*
 set_child .*\.exe
@@ -55209,12 +55120,9 @@ sh_executor .*
 sharescan .*\.txt
 SigFlip .*\.exe.*
 sniffer -.*
-spawn .*\.exe .*\.bin.*
 SprayAD .* .* 
 ss -lntp.*
 sudomy -.*
-SwampThing\.csproj
-TokenStrip .*
 token-vault create.*
 token-vault remove.*
 token-vault set .*
