@@ -243,6 +243,11 @@ Another example of using the project csv files with splunk to hunt in DFIR artif
 I keep some relevant artefacts in separated lists, these lists are more precise and can be used in detection rules, they are available in this [github repo](https://github.com/mthcht/awesome-lists/tree/main/Lists)
 you will find:
 
+My intelligence-gathering sheet for planning Threat Hunting sessions
+
+![intelligence gathering sheet](https://github.com/user-attachments/assets/420b9c4c-d92d-40f6-886d-452d0e3d6300)
+
+
 - 📋 Lists: https://github.com/mthcht/awesome-lists/tree/main/Lists
 - 🕵️‍♂️ ThreatHunting Guides: https://mthcht.medium.com/list/threat-hunting-708624e9266f
 - 🚰 Suspicious Named pipes: [suspicious_named_pipe_list.csv](https://github.com/mthcht/awesome-lists/blob/main/Lists/suspicious_named_pipe_list.csv)
