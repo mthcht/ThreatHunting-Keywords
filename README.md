@@ -33,7 +33,8 @@ Threat hunting is a proactive and iterative approach to detecting malicious acti
 #### Threat Hunting Lifecycle in SOC Operations
 My process suggestion to organizing partially automated threat hunting sessions to maintain high-quality detection rules within a SOC
 
-![image](https://github.com/user-attachments/assets/e2828a33-dd8f-4c34-a017-57f6e8cf1ed3)
+![image](https://github.com/user-attachments/assets/d6dddfa0-b1b1-4a33-a9f7-09d3b950f228)
+
 
 ## Files
 - [ThreatHunting-Keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/threathunting-keywords.csv)
