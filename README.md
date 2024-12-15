@@ -39,7 +39,7 @@ Threat hunting is a proactive and iterative approach to detecting malicious acti
 
 #### Advantages of Threat Hunting:
 
--  🔍 Identifiy Visibility Gaps
+- 🔍 Identifiy Visibility Gaps
   - Detects areas where monitoring and detection are insufficient, addressing blind spots in the network or systems to mitigate hidden threats.
 - 🛠️ Fills Detection Gaps
   - Proactively searching for anomalies, precursors, and TTPs that may not trigger alerts
