@@ -9,7 +9,6 @@
   - [Advantages of Threat Hunting](#Advantages-of-Threat-Hunting)
   - [Bridging Threat Hunting With Core Services](#Bridging-Threat-Hunting-With-Core-Services)
   - [Detection Maturity Level](#Detection-Maturity-Level)
-  - [Detection Maturity Level](#Detection-Maturity-Level)
   - [Key Focus Areas for Intelligence Gathering](#Threat-Hunting-Checklist---Key-Focus-Areas-for-Intelligence-Gathering)
 - [Files](#Files)
 - [ThreatHunting-Keywords for the blueteam](#for-the-blueteam)
