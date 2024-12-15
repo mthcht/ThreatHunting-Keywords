@@ -10,6 +10,7 @@
   - [Bridging Threat Hunting With Core Services](#Bridging-Threat-Hunting-With-Core-Services)
   - [Detection Maturity Level](#Detection-Maturity-Level)
   - [Key Focus Areas for Intelligence Gathering](#Threat-Hunting-Checklist---Key-Focus-Areas-for-Intelligence-Gathering)
+  - [Targeted Threat Hunting process](#targeted-threat-hunting-methodology-example)
 - [Files](#Files)
 - [ThreatHunting-Keywords for the blueteam](#for-the-blueteam)
 - [ThreatHunting-Keywords for the redteam](#for-the-redteam)
