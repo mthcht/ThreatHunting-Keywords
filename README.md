@@ -73,6 +73,10 @@ SOC teams focus on deploying high-fidelity detections across all levels of the D
 
 Ideally, each threat hunting session should have clear objectives. This flowchart provides a structured approach to guide your process, from preparation and investigation to actionable recommendations.
 
+---
+
+🎯 List of keywords for ThreatHunting sessions
+
 ## Files
 - [ThreatHunting-Keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/threathunting-keywords.csv)
 - [Greyware tools keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/greyware_tool_keyword.csv)
