@@ -70,7 +70,7 @@ SOC teams focus on deploying high-fidelity detections across all levels of the D
 ### Targeted Threat Hunting Methodology Example
 ![image](https://github.com/user-attachments/assets/a2ec4a06-d94a-4585-8945-10c7ab3361e4)
 
-Each threat hunting session should have clear objectives. This flowchart provides a structured approach to guide your process, from preparation and investigation to actionable recommendations.
+Ideally, each threat hunting session should have clear objectives. This flowchart provides a structured approach to guide your process, from preparation and investigation to actionable recommendations.
 
 ## Files
 - [ThreatHunting-Keywords](https://github.com/mthcht/ThreatHunting-Keywords/blob/main/threathunting-keywords.csv)
