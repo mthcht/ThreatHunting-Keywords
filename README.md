@@ -6,6 +6,11 @@
 
 ## Table of Contents
 - [What is Threat Hunting](#what-is-threat-hunting-)
+  - [Advantages of Threat Hunting](#Advantages-of-Threat-Hunting)
+  - [Bridging Threat Hunting With Core Services](#Bridging-Threat-Hunting-With-Core-Services)
+  - [Detection Maturity Level](#Detection-Maturity-Level)
+  - [Detection Maturity Level](#Detection-Maturity-Level)
+  - [Key Focus Areas for Intelligence Gathering](#Threat-Hunting-Checklist---Key-Focus-Areas-for-Intelligence-Gathering)
 - [Files](#Files)
 - [ThreatHunting-Keywords for the blueteam](#for-the-blueteam)
 - [ThreatHunting-Keywords for the redteam](#for-the-redteam)
@@ -59,7 +64,7 @@ My process suggestion to organizing partially automated threat hunting sessions 
 ![image](https://github.com/user-attachments/assets/78a905f9-8f0a-49d9-bc96-511a5dc32933)
 SOC teams focus on deploying high-fidelity detections across all levels of the Detection Maturity Pyramid, targeting known threats with minimal false positives. Threat hunting complements this by addressing unknown threats, advanced TTPs, and anomalies prone to **high false-positive rates**, bridging gaps and enhancing detection coverage beyond standard SOC capabilities.
 
-### Threat Hunting Checklist: Key Focus Areas for Intelligence Gathering
+### Threat Hunting Checklist - Key Focus Areas for Intelligence Gathering
 
 ![image](https://github.com/mthcht/awesome-lists/blob/main/Lists/CheatSheets/mthcht/intelligence_gathering_sheet_for_threat_hunting.png?raw=true)
 
