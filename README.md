@@ -32,9 +32,24 @@
 
 Threat hunting is a proactive and iterative approach to detecting malicious activities within an organization's network or systems that may have bypassed automated security measures. Unlike reactive investigations triggered by security alerts, threat hunting is driven by threat intelligence (TI)-driven checks and hypotheses derived from systematic and opportunistic analysis. These hypotheses help hunters uncover unknown threats, potential threats, or known threats that may have evaded security detections, as well as vulnerabilities or indicators of compromise (IoCs) that automated systems might miss or exclude. The process also focuses on identifying precursors to alerts/dashboards and improving SOC/triage workflows while also contributing to shadow asset inventory management and escalates low/mid-fidelity events that require further investigation. The primary goal is to identify the tactics, techniques, and procedures (TTPs) used by threat actors, enhancing the organization’s ability to preemptively detect and mitigate potential attacks.
 
+![image](https://github.com/user-attachments/assets/8db886ac-8a73-443a-82dc-06e0fd56673a)
+
+#### Advantages of Threat Hunting:
+
+- Identifiy Visibility Gaps
+  - Detects areas where monitoring and detection are insufficient, addressing blind spots in the network or systems to mitigate hidden threats.
+- Fills Detection Gaps
+  - Proactively searching for anomalies, precursors, and TTPs that may not trigger alerts
+- Improves SOC Efficiency
+  - Integrates threat hunting insights into SOC workflows to uncover events that static detections might miss. By reducing false positives and escalating overlooked events, it allows SOC analysts to focus on critical threats and refine detection logic for future use.
+- Enhances Threat Detection and supports Continuous Improvement
+  - Identifies advanced, unknown, or hidden threats that bypass automated detection systems and feeds valuable data back into SOC processes, improving tools, training, and future detection capabilities
+- Reduces Attack Surface
+  - Discovers unmanaged or unauthorized systems, applications, and shadow IT within the network, enabling organizations to address security blind spots and reduce exposure to potential threats.
+
 ### Bridging Threat Hunting With Core Services
 
-![image](https://github.com/user-attachments/assets/4542aac6-3e0d-4942-b74b-65dddf5e37c8)
+![image](https://github.com/user-attachments/assets/00be9b16-670c-473e-9c11-ae5297799025)
 
 ### Threat Hunting Lifecycle in SOC Operations
 My process suggestion to organizing partially automated threat hunting sessions to maintain high-quality detection rules within a SOC
@@ -44,7 +59,7 @@ My process suggestion to organizing partially automated threat hunting sessions 
 ### Detection Maturity Level
 
 ![image](https://github.com/user-attachments/assets/78a905f9-8f0a-49d9-bc96-511a5dc32933)
-SOC teams focus on deploying high-fidelity detections across all levels of the Detection Maturity Pyramid, targeting known threats with minimal false positives. Threat hunting complements this by addressing unknown threats, advanced TTPs, and anomalies prone to high false-positive rates, bridging gaps and enhancing detection coverage beyond standard SOC capabilities.
+SOC teams focus on deploying high-fidelity detections across all levels of the Detection Maturity Pyramid, targeting known threats with minimal false positives. Threat hunting complements this by addressing unknown threats, advanced TTPs, and anomalies prone to **high false-positive rates**, bridging gaps and enhancing detection coverage beyond standard SOC capabilities.
 
 ### Threat Hunting Checklist: Key Focus Areas for Intelligence Gathering
 
