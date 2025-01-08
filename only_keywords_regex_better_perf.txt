@@ -1624,7 +1624,7 @@
 .{0,1000}\/Ben0xA\/.{0,1000}
 .{0,1000}\/beRoot\.exe.{0,1000}
 .{0,1000}\/BeRoot\.git.{0,1000}
-.{0,1000}\/beRoot\.py.{0,1000}
+.{0,1000}\/beroot\.py.{0,1000}
 .{0,1000}\/beRoot\.zip.{0,1000}
 .{0,1000}\/BeRoot\/Linux\/.{0,1000}
 .{0,1000}\/beroot\/modules\/.{0,1000}\.py.{0,1000}
@@ -1886,7 +1886,7 @@
 .{0,1000}\/c\slol\sfuck\sthis.{0,1000}
 .{0,1000}\/c\sping\s127\.0\.0\.1\s\&\&\sdel\s\\\\.{0,1000}
 .{0,1000}\/C2\/Beacon\/.{0,1000}\.cs.{0,1000}
-.{0,1000}\/C2\/c2\.go.{0,1000}
+.{0,1000}\/c2\/c2\.go.{0,1000}
 .{0,1000}\/C2\/Http\/.{0,1000}\.cs.{0,1000}
 .{0,1000}\/C2\/server\.py.{0,1000}
 .{0,1000}\/C2\/SmbListener\..{0,1000}
@@ -3317,7 +3317,7 @@
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.rar.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.raw.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.reg.{0,1000}
-.{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.RGS.{0,1000}
+.{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.rgs.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.run.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.scpt.{0,1000}
 .{0,1000}\/github\.com\/.{0,1000}\/raw\/main\/.{0,1000}\.script.{0,1000}
@@ -4216,7 +4216,7 @@
 .{0,1000}\/latest\/download\/tunwg.{0,1000}
 .{0,1000}\/lazagne\.exe.{0,1000}
 .{0,1000}\/LaZagne\.git.{0,1000}
-.{0,1000}\/laZagne\.py.{0,1000}
+.{0,1000}\/LaZagne\.py.{0,1000}
 .{0,1000}\/lazagne\.zip.{0,1000}
 .{0,1000}\/LaZagne\/Windows\/.{0,1000}
 .{0,1000}\/ld\.so\s\/bin\/sh\s\-p.{0,1000}
@@ -4936,7 +4936,7 @@
 .{0,1000}\/nopac\.py.{0,1000}
 .{0,1000}\/NoPowerShell\.exe.{0,1000}
 .{0,1000}\/nopowershell\.git.{0,1000}
-.{0,1000}\/nopowershell\/.{0,1000}
+.{0,1000}\/NoPowerShell\/.{0,1000}
 .{0,1000}\/norouteconfig\.sh.{0,1000}
 .{0,1000}\/noseyparker\.git.{0,1000}
 .{0,1000}\/NotQuite0DayFriday\/zip\/trunk.{0,1000}
@@ -5570,7 +5570,7 @@
 .{0,1000}\/proxychains\.conf.{0,1000}
 .{0,1000}\/proxychains\.git.{0,1000}
 .{0,1000}\/proxychains\-ng.{0,1000}
-.{0,1000}\/proxylogon\.git.{0,1000}
+.{0,1000}\/ProxyLogon\.git.{0,1000}
 .{0,1000}\/proxylogon\.py.{0,1000}
 .{0,1000}\/proxymaybeshell.{0,1000}
 .{0,1000}\/proxyTunnel\.ps1.{0,1000}
@@ -5966,7 +5966,7 @@
 .{0,1000}\/remote\-method\-guesser\.git.{0,1000}
 .{0,1000}\/RemoteAccessPolicyEnumeration\.ps1.{0,1000}
 .{0,1000}\/RemoteControlSetup\.exe.{0,1000}
-.{0,1000}\/remotedesktop\.exe.{0,1000}
+.{0,1000}\/RemoteDesktop\.exe.{0,1000}
 .{0,1000}\/RemoteHashRetrieval\.ps1.{0,1000}
 .{0,1000}\/remoteit\.exe.{0,1000}
 .{0,1000}\/remoteit\.x86\-win\.exe.{0,1000}
@@ -7100,7 +7100,7 @@
 .{0,1000}\/suspendresume\.x86.{0,1000}
 .{0,1000}\/svn\-brute\.nse.{0,1000}
 .{0,1000}\/SweetPotato\.dll.{0,1000}
-.{0,1000}\/Sweetpotato\.exe.{0,1000}
+.{0,1000}\/SweetPotato\.exe.{0,1000}
 .{0,1000}\/SweetPotato\.git.{0,1000}
 .{0,1000}\/SweetPotato\-master\.zip.{0,1000}
 .{0,1000}\/SweetPotato_CS.{0,1000}
@@ -7724,7 +7724,7 @@
 .{0,1000}\/veeam_dump\.py.{0,1000}
 .{0,1000}\/VeeamHax\.exe
 .{0,1000}\/Vegile\.git.{0,1000}
-.{0,1000}\/Venom\.git.{0,1000}
+.{0,1000}\/venom\.git.{0,1000}
 .{0,1000}\/venom\.sh\s.{0,1000}
 .{0,1000}\/Venom\.v1\.0\.1\.7z.{0,1000}
 .{0,1000}\/Venom\.v1\.0\.2\.7z.{0,1000}
@@ -9609,7 +9609,7 @@
 .{0,1000}\\clfs_eop\.exe.{0,1000}
 .{0,1000}\\ClickJack\.csproj.{0,1000}
 .{0,1000}\\ClickJack\.exe
-.{0,1000}\\Clipboard\.ps1.{0,1000}
+.{0,1000}\\clipboard\.ps1.{0,1000}
 .{0,1000}\\ClipboardMITM\.py.{0,1000}
 .{0,1000}\\cliws\.exe.{0,1000}
 .{0,1000}\\CloakNDaggerC2.{0,1000}
@@ -10706,7 +10706,7 @@
 .{0,1000}\\hack\-browser\-data\-windows\-32bit\.zip.{0,1000}
 .{0,1000}\\hack\-browser\-data\-windows\-64bit\.zip.{0,1000}
 .{0,1000}\\HackBrowserData.{0,1000}
-.{0,1000}\\Hades\.exe.{0,1000}
+.{0,1000}\\hades\.exe.{0,1000}
 .{0,1000}\\hades\-main\.zip.{0,1000}
 .{0,1000}\\HAKOPS\sB\?nder\.exe.{0,1000}
 .{0,1000}\\HAKOPS\sRAT\.exe.{0,1000}
@@ -10870,7 +10870,7 @@
 .{0,1000}\\InternetConnect_x64_Release\.exe.{0,1000}
 .{0,1000}\\InternetIdService\.exe.{0,1000}
 .{0,1000}\\InternetIdService_.{0,1000}\-.{0,1000}\-.{0,1000}\.txt
-.{0,1000}\\inveigh\.exe.{0,1000}
+.{0,1000}\\Inveigh\.exe.{0,1000}
 .{0,1000}\\inveigh\.log.{0,1000}
 .{0,1000}\\Inveigh\.ps1.{0,1000}
 .{0,1000}\\Inveigh\.psd1.{0,1000}
@@ -11027,7 +11027,7 @@
 .{0,1000}\\keyLogger\.cs.{0,1000}
 .{0,1000}\\Keylogger\.dll.{0,1000}
 .{0,1000}\\Keylogger\.ps1.{0,1000}
-.{0,1000}\\Keylogger\.txt.{0,1000}
+.{0,1000}\\keylogger\.txt.{0,1000}
 .{0,1000}\\keylogger\\src\\main\.rs.{0,1000}
 .{0,1000}\\KeyLoggerOffline\..{0,1000}
 .{0,1000}\\KidLogger\\.{0,1000}
@@ -11957,7 +11957,7 @@
 .{0,1000}\\passwordboss\\app\\getCredspasswordbossapp2\.h.{0,1000}
 .{0,1000}\\Passwordfiles\.txt.{0,1000}
 .{0,1000}\\passwords\.doc.{0,1000}
-.{0,1000}\\passwords\.docx.{0,1000}
+.{0,1000}\\Passwords\.docx.{0,1000}
 .{0,1000}\\passwords\.txt.{0,1000}
 .{0,1000}\\passwords\.xls.{0,1000}
 .{0,1000}\\passwords\.xlsx.{0,1000}
@@ -12166,7 +12166,7 @@
 .{0,1000}\\PowerBreach\.ps1.{0,1000}
 .{0,1000}\\PowerBruteLogon.{0,1000}
 .{0,1000}\\powercat\.ps1
-.{0,1000}\\Powercat\.ps1.{0,1000}
+.{0,1000}\\powercat\.ps1.{0,1000}
 .{0,1000}\\powercat\-master\\.{0,1000}
 .{0,1000}\\powerfun\.ps1.{0,1000}
 .{0,1000}\\powerglot\\.{0,1000}
@@ -12205,7 +12205,7 @@
 .{0,1000}\\PowerUp\.ps1.{0,1000}
 .{0,1000}\\PowerUpSQL\.ps1.{0,1000}
 .{0,1000}\\PowerView\.cna.{0,1000}
-.{0,1000}\\Powerview\.exe.{0,1000}
+.{0,1000}\\PowerView\.exe.{0,1000}
 .{0,1000}\\PowerView\.Log.{0,1000}
 .{0,1000}\\PowerView\.ps1.{0,1000}
 .{0,1000}\\PowerView3\..{0,1000}
@@ -12376,7 +12376,7 @@
 .{0,1000}\\ps_stager\.ps1.{0,1000}
 .{0,1000}\\PS1ToBase64\.ps1.{0,1000}
 .{0,1000}\\Ps1ToVbs\.ps1.{0,1000}
-.{0,1000}\\PS2EXE\.ps1.{0,1000}
+.{0,1000}\\ps2exe\.ps1.{0,1000}
 .{0,1000}\\PS2EXE\\.{0,1000}\.ps1.{0,1000}
 .{0,1000}\\PSAsyncShell\.ps1.{0,1000}
 .{0,1000}\\PSAsyncShell\.sh.{0,1000}
@@ -12672,7 +12672,7 @@
 .{0,1000}\\Remote\sSupportEmbedExample\.html.{0,1000}
 .{0,1000}\\Remote\sUtilities\\Logs.{0,1000}
 .{0,1000}\\Remote\sUtilities\\MiniInternetId.{0,1000}
-.{0,1000}\\remote\sutilities\s\-\shost\\.{0,1000}
+.{0,1000}\\Remote\sUtilities\s\-\sHost\\.{0,1000}
 .{0,1000}\\remote\sutilities\sagent\\.{0,1000}
 .{0,1000}\\Remote\sUtilities\sAgent\\Logs.{0,1000}
 .{0,1000}\\Remote\sUtilities\sFiles\\rdp_connections\\.{0,1000}
@@ -12746,7 +12746,7 @@
 .{0,1000}\\RemotePCUDEHost\.inf.{0,1000}
 .{0,1000}\\RemotePCUDEHost\.sys.{0,1000}
 .{0,1000}\\RemotePCUIA\.exe.{0,1000}
-.{0,1000}\\RemotePCUIU\.exe.{0,1000}
+.{0,1000}\\remotepcuiu\.exe.{0,1000}
 .{0,1000}\\RemotePCViewer\.msi.{0,1000}
 .{0,1000}\\RemotePenetration\.exe.{0,1000}
 .{0,1000}\\RemotePotato0\.cpp.{0,1000}
@@ -12889,7 +12889,7 @@
 .{0,1000}\\RPCOTAViewerHostKeyPopup\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.exe.{0,1000}
 .{0,1000}\\RPCPerformanceService\.log.{0,1000}
-.{0,1000}\\rpcperfviewer\.exe.{0,1000}
+.{0,1000}\\RPCPerfViewer\.exe.{0,1000}
 .{0,1000}\\RPCPerfViewer\.log.{0,1000}
 .{0,1000}\\RPCPing\.txt.{0,1000}
 .{0,1000}\\RPCPreUninstall\.log.{0,1000}
@@ -13017,7 +13017,7 @@
 .{0,1000}\\SchTask_0x727\\.{0,1000}
 .{0,1000}\\SchTaskBackdoor\..{0,1000}
 .{0,1000}\\SCMUACBypass\.cpp.{0,1000}
-.{0,1000}\\scmuacbypass\.exe.{0,1000}
+.{0,1000}\\SCMUACBypass\.exe.{0,1000}
 .{0,1000}\\SCMUACBypass\\.{0,1000}
 .{0,1000}\\ScreenConnect\.Client\.exe.{0,1000}
 .{0,1000}\\ScreenConnect\.ClientService\.exe.{0,1000}
@@ -13235,7 +13235,7 @@
 .{0,1000}\\SharpPersistSD\.sln.{0,1000}
 .{0,1000}\\sharppick\.exe.{0,1000}
 .{0,1000}\\SharpPrinter\.exe.{0,1000}
-.{0,1000}\\SharpRDP\.exe.{0,1000}
+.{0,1000}\\sharprdp\.exe.{0,1000}
 .{0,1000}\\SharpRDP\.pdb.{0,1000}
 .{0,1000}\\SharpRDP\\.{0,1000}
 .{0,1000}\\SharpRDPHijack.{0,1000}
@@ -13694,7 +13694,7 @@
 .{0,1000}\\SurveyFile_x64_Release\.exe.{0,1000}
 .{0,1000}\\SurveyRegistry_x64_Release\.exe.{0,1000}
 .{0,1000}\\SweetPotato\.dll.{0,1000}
-.{0,1000}\\Sweetpotato\.exe.{0,1000}
+.{0,1000}\\SweetPotato\.exe.{0,1000}
 .{0,1000}\\SweetPotato\\Program\.cs.{0,1000}
 .{0,1000}\\SweetPotato\-master\.zip.{0,1000}
 .{0,1000}\\SwitchPriv\.exe.{0,1000}
@@ -14787,7 +14787,7 @@
 .{0,1000}\>NetSupport\sClient\sApplication\<\/.{0,1000}
 .{0,1000}\>NETSUPPORT\sLTD\.\<\/.{0,1000}
 .{0,1000}\>NetSupport\sLtd\<\/.{0,1000}
-.{0,1000}\>NetSupport\sRemote\sControl\<\/.{0,1000}
+.{0,1000}\>NetSupport\sremote\sControl\<\/.{0,1000}
 .{0,1000}\>NimScan\<.{0,1000}
 .{0,1000}\>NoPowerShell\<.{0,1000}
 .{0,1000}\>Nsocks\.dll\<.{0,1000}
@@ -27528,7 +27528,7 @@
 .{0,1000}894368f2b42eac9feee89560aa890c1215883b716232c66f20bf4145d6bbf671.{0,1000}
 .{0,1000}894399f27a67fa61608ef9a098bf9dc3ec009582d98193616cde9ab3b59f7a51.{0,1000}
 .{0,1000}8943acdb8de2a40ca4fd8e1a2f98029aa6e8d78c9f19430b6ac557b6fb8ce4cb.{0,1000}
-.{0,1000}894A784E\-E04C\-483C\-A762\-B6C03E744D0B.{0,1000}
+.{0,1000}894a784e\-e04c\-483c\-a762\-b6c03e744d0b.{0,1000}
 .{0,1000}895b297899e043df918c8b93301014d48fc1d9ddf926174ea1ad5cf05cc7c79a.{0,1000}
 .{0,1000}895b5c7ece8b458dff80ed790fc1633675a05fc9c4bd994ac89cf8e9d83bd32b.{0,1000}
 .{0,1000}895d847eec516f9d8eb2cf8a08408c92523d1430d9dc2e91c5ed5268eb424479.{0,1000}
@@ -30145,7 +30145,7 @@
 .{0,1000}ADRecon\s.{0,1000}\sby\sPrashant\sMahajan\s\(\@prashant3535\).{0,1000}
 .{0,1000}ADRecon\s\-OutputDir\s.{0,1000}
 .{0,1000}adsearch.{0,1000}\s\-\-domain\-admins.{0,1000}
-.{0,1000}adsearch\.exe.{0,1000}
+.{0,1000}ADSearch\.exe.{0,1000}
 .{0,1000}ADSearch\.sln.{0,1000}
 .{0,1000}ADSearch\\ADSearch\.cs.{0,1000}
 .{0,1000}adsearch\-master\.zip
@@ -30480,7 +30480,7 @@
 .{0,1000}amnoibeflfphhplmckdbiajkjaoomgnj.{0,1000}
 .{0,1000}Amperage\s\-\sRecall\ssetup\stool\sfor\sunsupported\shardware.{0,1000}
 .{0,1000}AMS1\-Patch\.exe.{0,1000}
-.{0,1000}amsi\-bypass.{0,1000}
+.{0,1000}Amsi\-Bypass.{0,1000}
 .{0,1000}Amsi\-Killer\.exe.{0,1000}
 .{0,1000}Amsi\-Killer\.sln.{0,1000}
 .{0,1000}Amsi\-Killer\.vcxproj.{0,1000}
@@ -30494,7 +30494,7 @@
 .{0,1000}AmsiOpenSession\.cpp.{0,1000}
 .{0,1000}AmsiOpenSession\.sln.{0,1000}
 .{0,1000}AmsiOpenSession\.vcxproj.{0,1000}
-.{0,1000}AmsiTrigger\.exe.{0,1000}
+.{0,1000}AMSITrigger\.exe.{0,1000}
 .{0,1000}AmsiTrigger_x64\.exe.{0,1000}
 .{0,1000}AmsiTrigger_x86\.exe.{0,1000}
 .{0,1000}An\sinteractive\sshell\sto\sspoof\ssome\sLOLBins.{0,1000}
@@ -31655,7 +31655,7 @@
 .{0,1000}bacd13f058e7510d63f1958a1aa67acea3e5f74059577dbdafe0420f74e69c05.{0,1000}
 .{0,1000}bacd392be7fb78662fb91e354b4d6443e824d06ae47d4819b0cdf657c8e02eff.{0,1000}
 .{0,1000}Backdoor\..{0,1000}
-.{0,1000}backdoor\.asp.{0,1000}
+.{0,1000}Backdoor\.ASP.{0,1000}
 .{0,1000}Backdoor\.ASP\.FUZZSHELL\.A.{0,1000}
 .{0,1000}Backdoor\.ASP\.WEBSHELL\..{0,1000}
 .{0,1000}backdoor\.aspx.{0,1000}
@@ -31666,7 +31666,7 @@
 .{0,1000}Backdoor\.Linux\.Sshdkit.{0,1000}
 .{0,1000}Backdoor\.Merlin.{0,1000}
 .{0,1000}Backdoor\.MSIL\.Sandman.{0,1000}
-.{0,1000}backdoor\.php.{0,1000}
+.{0,1000}Backdoor\.PHP.{0,1000}
 .{0,1000}Backdoor\.PHP\.WebShell\..{0,1000}
 .{0,1000}Backdoor\.Quasar.{0,1000}
 .{0,1000}backdoor\.sh\s\-v\s.{0,1000}\s\-p\s.{0,1000}
@@ -34863,7 +34863,7 @@
 .{0,1000}config\/51pwn\/CVE\-.{0,1000}
 .{0,1000}CONFIG_NETKIT_DEBUG.{0,1000}
 .{0,1000}config_steal\s\/etc\/krb5\.conf\s\/etc\/krb5\.keytab.{0,1000}
-.{0,1000}Confuser\.CLI\.Exe.{0,1000}
+.{0,1000}Confuser\.CLI\.exe.{0,1000}
 .{0,1000}Confuser\.DynCipher\.dll.{0,1000}
 .{0,1000}Confuser\.Renamer\.dll.{0,1000}
 .{0,1000}ConfuserEx\.CLI\:\s.{0,1000}
@@ -40382,7 +40382,6 @@
 .{0,1000}File\sShredder\.exe.{0,1000}
 .{0,1000}File\sShredder\ssetup\.exe.{0,1000}
 .{0,1000}File\sspecifed\sto\sbackdoor\sdoes\snot\sexist\:\s.{0,1000}
-.{0,1000}file_hash_sha256.{0,1000}
 .{0,1000}file_parsers\/group_policy_preferences\.py.{0,1000}
 .{0,1000}file_shredder_setup\.exe.{0,1000}
 .{0,1000}File_Smuggler_Http_Handler.{0,1000}
@@ -41356,7 +41355,7 @@
 .{0,1000}Get\-Keystrokes.{0,1000}
 .{0,1000}Get\-Keystrokes\.ps1.{0,1000}
 .{0,1000}Get\-Keystrokes\s.{0,1000}
-.{0,1000}Get\-Killdate.{0,1000}
+.{0,1000}get\-killdate.{0,1000}
 .{0,1000}Get\-KIWI_KERBEROS_LOGON_SESSION.{0,1000}
 .{0,1000}Get\-LAPSPasswords.{0,1000}
 .{0,1000}Get\-LAPSPasswords\.ps1.{0,1000}
@@ -41530,8 +41529,8 @@
 .{0,1000}Get\-WebCredentials.{0,1000}
 .{0,1000}Get\-WebCredentials\.ps1.{0,1000}
 .{0,1000}Get\-WinUpdates\.ps1.{0,1000}
-.{0,1000}Get\-Wlan\-Keys.{0,1000}
-.{0,1000}Get\-WLAN\-Keys\.ps1.{0,1000}
+.{0,1000}Get\-WLAN\-Keys.{0,1000}
+.{0,1000}Get\-Wlan\-Keys\.ps1.{0,1000}
 .{0,1000}Get\-WMIEventLogins.{0,1000}
 .{0,1000}Get\-WmiObject\s\-class\sSMS_Authority\s\-namespace\sroot\\CCM.{0,1000}
 .{0,1000}Get\-WmiObject\s\-Namespace\s\"root\\directory\\ldap\"\s\-Class\sds_user\s.{0,1000}
@@ -41539,8 +41538,8 @@
 .{0,1000}Get\-WmiObject\sWin32_ShadowCopy\s\|\sRemove\-WmiObject.{0,1000}
 .{0,1000}Get\-WMIRegCachedRDPConnection.{0,1000}
 .{0,1000}Get\-WMIRegCachedRDPConnection\s.{0,1000}
-.{0,1000}get\-wmireglastloggedon.{0,1000}
-.{0,1000}Get\-WMIRegMountedDrive.{0,1000}
+.{0,1000}Get\-WMIRegLastLoggedOn.{0,1000}
+.{0,1000}get\-wmiregmounteddrive.{0,1000}
 .{0,1000}Get\-WorkingHours.{0,1000}
 .{0,1000}get_beacon\(.{0,1000}
 .{0,1000}get_BeaconHealthCheck_settings.{0,1000}
@@ -42143,7 +42142,7 @@
 .{0,1000}HackTool\.ASP\..{0,1000}\..{0,1000}
 .{0,1000}HackTool\.BadPotato.{0,1000}
 .{0,1000}HackTool\.DecryptRDCMan.{0,1000}
-.{0,1000}Hacktool\.Earthworm.{0,1000}
+.{0,1000}HackTool\.EarthWorm.{0,1000}
 .{0,1000}HackTool\.Equation.{0,1000}
 .{0,1000}Hacktool\.Gsecdump.{0,1000}
 .{0,1000}Hacktool\.Hakc2.{0,1000}
@@ -43889,7 +43888,7 @@
 .{0,1000}Invoke\-AccessCheckForUser.{0,1000}
 .{0,1000}Invoke\-ACLcsvFileAnalysis.{0,1000}
 .{0,1000}Invoke\-ACLPwn.{0,1000}
-.{0,1000}invoke\-aclscanner.{0,1000}
+.{0,1000}Invoke\-ACLScanner.{0,1000}
 .{0,1000}Invoke\-ACLScanner\s.{0,1000}\s\-Filter\s.{0,1000}
 .{0,1000}Invoke\-ACLScanner\s.{0,1000}\s\-Name\s.{0,1000}
 .{0,1000}Invoke\-ADCSTemplateRecon.{0,1000}
@@ -43905,7 +43904,7 @@
 .{0,1000}Invoke\-AmsiBypass.{0,1000}
 .{0,1000}Invoke\-APIConnectionHijack\.ps1.{0,1000}
 .{0,1000}Invoke\-ApplicationsOnStartupCheck.{0,1000}
-.{0,1000}Invoke\-ARPScan.{0,1000}
+.{0,1000}invoke\-arpscan.{0,1000}
 .{0,1000}Invoke\-ARPScan\.ps1.{0,1000}
 .{0,1000}Invoke\-ASREPRoast.{0,1000}
 .{0,1000}Invoke\-Assembly\.ps1.{0,1000}
@@ -43927,7 +43926,7 @@
 .{0,1000}Invoke\-Binary\s.{0,1000}\.exe.{0,1000}
 .{0,1000}Invoke\-BitlockerCheck.{0,1000}
 .{0,1000}Invoke\-BlockETW.{0,1000}
-.{0,1000}invoke\-bloodhound.{0,1000}
+.{0,1000}Invoke\-BloodHound.{0,1000}
 .{0,1000}Invoke\-Bloodhound\.ps1.{0,1000}
 .{0,1000}Invoke\-BloodHound\s\-CollectionMethod.{0,1000}
 .{0,1000}Invoke\-BloodHound\s\-CollectionMethods\s.{0,1000}
@@ -43954,7 +43953,7 @@
 .{0,1000}Invoke\-CcmNaaCredentialsCheck.{0,1000}
 .{0,1000}Invoke\-Certify.{0,1000}
 .{0,1000}Invoke\-CheckAccess.{0,1000}
-.{0,1000}invoke\-checklocaladminaccess.{0,1000}
+.{0,1000}Invoke\-CheckLocalAdminAccess.{0,1000}
 .{0,1000}Invoke\-CheckLocalAdminAccess\s\-ComputerName\s.{0,1000}
 .{0,1000}Invoke\-ClearScript.{0,1000}
 .{0,1000}Invoke\-ClearScript\.ps1.{0,1000}
@@ -44021,7 +44020,7 @@
 .{0,1000}Invoke\-DumpCAPS.{0,1000}
 .{0,1000}Invoke\-DumpMDEConfig.{0,1000}
 .{0,1000}Invoke\-DumpOWAMailboxViaMSGraphApi.{0,1000}
-.{0,1000}invoke\-edrchecker.{0,1000}
+.{0,1000}Invoke\-EDRChecker.{0,1000}
 .{0,1000}Invoke\-EDRChecker\.ps1.{0,1000}
 .{0,1000}Invoke\-EgressCheck.{0,1000}
 .{0,1000}Invoke\-EgressCheck\.ps1.{0,1000}
@@ -44107,7 +44106,7 @@
 .{0,1000}Invoke\-InstalledServicesCheck.{0,1000}
 .{0,1000}Invoke\-Interceptor.{0,1000}
 .{0,1000}Invoke\-Interceptor\.ps1.{0,1000}
-.{0,1000}Invoke\-Internalmonologue.{0,1000}
+.{0,1000}Invoke\-InternalMonologue.{0,1000}
 .{0,1000}Invoke\-InternalMonologue\.ps1.{0,1000}
 .{0,1000}Invoke\-Inveigh.{0,1000}
 .{0,1000}Invoke\-Inveigh\.ps1.{0,1000}
@@ -44171,7 +44170,7 @@
 .{0,1000}Invoke\-Mimikatz\-old.{0,1000}
 .{0,1000}Invoke\-Mimikatz\s\-Command\s.{0,1000}
 .{0,1000}Invoke\-MimikatzWDigestDowngrade.{0,1000}
-.{0,1000}Invoke\-mimikittenz.{0,1000}
+.{0,1000}Invoke\-Mimikittenz.{0,1000}
 .{0,1000}Invoke\-mimikittenz\.ps1.{0,1000}
 .{0,1000}Invoke\-MITM6.{0,1000}
 .{0,1000}Invoke\-ModifiableProgramsCheck.{0,1000}
@@ -44209,7 +44208,7 @@
 .{0,1000}Invoke\-Obfuscation\s\-ScriptPath\s.{0,1000}
 .{0,1000}Invoke\-OpenInboxFinder.{0,1000}
 .{0,1000}Invoke\-OpenOWAMailboxInBrowser.{0,1000}
-.{0,1000}Invoke\-OxidResolver.{0,1000}
+.{0,1000}Invoke\-Oxidresolver.{0,1000}
 .{0,1000}Invoke\-P0wnedshell.{0,1000}
 .{0,1000}Invoke\-P0wnedshellx86.{0,1000}
 .{0,1000}Invoke\-PacketCapture.{0,1000}
@@ -44287,7 +44286,7 @@
 .{0,1000}Invoke\-PrivescAudit\s.{0,1000}
 .{0,1000}Invoke\-PrivescCheck.{0,1000}
 .{0,1000}Invoke\-PrivescCheck\.ps1.{0,1000}
-.{0,1000}Invoke\-ProcessHunter.{0,1000}
+.{0,1000}invoke\-processhunter.{0,1000}
 .{0,1000}Invoke\-ProcessKiller.{0,1000}
 .{0,1000}Invoke\-ProcessPunisher.{0,1000}
 .{0,1000}Invoke\-ProcessScan.{0,1000}
@@ -44300,7 +44299,7 @@
 .{0,1000}Invoke\-PsExecCmd.{0,1000}
 .{0,1000}invoke\-psexecpayload.{0,1000}
 .{0,1000}Invoke\-PsGcat.{0,1000}
-.{0,1000}Invoke\-PsGcat\.ps1.{0,1000}
+.{0,1000}Invoke\-PSGcat\.ps1.{0,1000}
 .{0,1000}Invoke\-PsGcatAgent.{0,1000}
 .{0,1000}Invoke\-PsGcatAgent\.ps1.{0,1000}
 .{0,1000}Invoke\-PSImage.{0,1000}
@@ -44515,7 +44514,7 @@
 .{0,1000}Invoke\-SMBRemoting.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\.ps1.{0,1000}
 .{0,1000}Invoke\-SMBRemoting\-main.{0,1000}
-.{0,1000}Invoke\-SMBScanner.{0,1000}
+.{0,1000}Invoke\-SmbScanner.{0,1000}
 .{0,1000}Invoke\-SmbScanner\.ps1.{0,1000}
 .{0,1000}Invoke\-Snaffler.{0,1000}
 .{0,1000}invoke\-sniffer\s.{0,1000}
@@ -44527,7 +44526,7 @@
 .{0,1000}Invoke\-SocksProxy\s.{0,1000}
 .{0,1000}Invoke\-SpawnAs.{0,1000}
 .{0,1000}Invoke\-SpoolFool.{0,1000}
-.{0,1000}Invoke\-Spoolsample.{0,1000}
+.{0,1000}Invoke\-SpoolSample.{0,1000}
 .{0,1000}Invoke\-SpoolSample\.ps1.{0,1000}
 .{0,1000}Invoke\-SprayEmptyPassword.{0,1000}
 .{0,1000}Invoke\-SQLAudit.{0,1000}
@@ -44657,7 +44656,7 @@
 .{0,1000}Invoke\-WMIDebugger.{0,1000}
 .{0,1000}Invoke\-WMIExec.{0,1000}
 .{0,1000}Invoke\-WMIExec\.ps1.{0,1000}
-.{0,1000}invoke\-wmiexec\s.{0,1000}
+.{0,1000}Invoke\-WMIExec\s.{0,1000}
 .{0,1000}invoke\-wmijspayload.{0,1000}
 .{0,1000}Invoke\-WMILM.{0,1000}
 .{0,1000}Invoke\-WMILM\.json.{0,1000}
@@ -45086,7 +45085,7 @@
 .{0,1000}Kerberoast\(.{0,1000}
 .{0,1000}kerberoast\(self\).{0,1000}
 .{0,1000}Kerberoast\..{0,1000}
-.{0,1000}Kerberoast\.py.{0,1000}
+.{0,1000}kerberoast\.py.{0,1000}
 .{0,1000}kerberoast\s\/.{0,1000}
 .{0,1000}Kerberoast\s\-username\s.{0,1000}
 .{0,1000}Kerberoast\sAttack\s\-\sServices\sConfigured\sWith\sa\sWeak\sPassword.{0,1000}
@@ -45177,7 +45176,7 @@
 .{0,1000}Keylogger.{0,1000}
 .{0,1000}Keylogger\.cs.{0,1000}
 .{0,1000}Keylogger\.csproj.{0,1000}
-.{0,1000}keylogger\.dll.{0,1000}
+.{0,1000}KeyLogger\.dll.{0,1000}
 .{0,1000}Keylogger\.exe.{0,1000}
 .{0,1000}Keylogger\.java.{0,1000}
 .{0,1000}Keylogger\.My.{0,1000}
@@ -45593,7 +45592,7 @@
 .{0,1000}lawrenceamer\/Tchopper.{0,1000}
 .{0,1000}layer8secure\/SilentHound.{0,1000}
 .{0,1000}Lazagne.{0,1000}Passwords\.txt.{0,1000}
-.{0,1000}Lazagne\.exe.{0,1000}
+.{0,1000}laZagne\.exe.{0,1000}
 .{0,1000}laZagne\.exe\sbrowsers.{0,1000}
 .{0,1000}Lazagne\.py.{0,1000}
 .{0,1000}lazagne\.softwares\.sysadmin\.aws.{0,1000}
@@ -45615,7 +45614,7 @@
 .{0,1000}ldap_shell\.py.{0,1000}
 .{0,1000}ldapasn1\.py.{0,1000}
 .{0,1000}ldapattack\.py.{0,1000}
-.{0,1000}LDAPDomainDump.{0,1000}
+.{0,1000}ldapdomaindump.{0,1000}
 .{0,1000}ldapdomaindump\.zip.{0,1000}
 .{0,1000}ldapfilter\:.{0,1000}admincount\=1.{0,1000}\s\/format\:hashcat.{0,1000}
 .{0,1000}LdapMiner.{0,1000}
@@ -46535,7 +46534,7 @@
 .{0,1000}MeshCentral\sServer\sTCP\sports.{0,1000}
 .{0,1000}MeshCentral\sServer\sUDP\sports.{0,1000}
 .{0,1000}MeshCentralAssistant\.exe.{0,1000}
-.{0,1000}meshcentralinstaller\.exe.{0,1000}
+.{0,1000}MeshCentralInstaller\.exe.{0,1000}
 .{0,1000}MeshCentralRoot\-.{0,1000}
 .{0,1000}MeshCentralRoot\-a.{0,1000}
 .{0,1000}MeshCentralRouter\.exe.{0,1000}
@@ -47463,7 +47462,7 @@
 .{0,1000}net\sstop\s\"Veeam\sBackup\sCatalog\sData\sService\".{0,1000}
 .{0,1000}net\sstop\s\"Zoolz\s2\sService\".{0,1000}
 .{0,1000}net\sstop\s\\\"windows\sevent\slog\\\".{0,1000}
-.{0,1000}net\sstop\sacronisagent.{0,1000}
+.{0,1000}net\sstop\sAcronisAgent.{0,1000}
 .{0,1000}net\sstop\sAcrSch2Svc.{0,1000}
 .{0,1000}net\sstop\sagntsvc.{0,1000}
 .{0,1000}net\sstop\sAntivirus.{0,1000}
@@ -47558,7 +47557,7 @@
 .{0,1000}net\sstop\sSAVAdminService.{0,1000}
 .{0,1000}net\sstop\sSAVService.{0,1000}
 .{0,1000}net\sstop\ssedsvc.{0,1000}
-.{0,1000}net\sstop\sShadowProtectSvc.{0,1000}
+.{0,1000}net\sstop\sshadowprotectsvc.{0,1000}
 .{0,1000}net\sstop\ssharedaccess.{0,1000}
 .{0,1000}net\sstop\sShMonitor.{0,1000}
 .{0,1000}net\sstop\sSmcinst.{0,1000}
@@ -47961,7 +47960,7 @@
 .{0,1000}Nirsoft\sPasswordFox\s\(PUA\).{0,1000}
 .{0,1000}nishang\.exe.{0,1000}
 .{0,1000}nishang\.ps1.{0,1000}
-.{0,1000}nishang\.psm1.{0,1000}
+.{0,1000}Nishang\.psm1.{0,1000}
 .{0,1000}nishang\-0\-3\-4\.html.{0,1000}
 .{0,1000}Nishang\-all\-in\-one.{0,1000}
 .{0,1000}NixImports\.csproj.{0,1000}
@@ -48067,7 +48066,7 @@
 .{0,1000}NoPowerShell\.Commands\.Management.{0,1000}
 .{0,1000}NoPowerShell\.csproj.{0,1000}
 .{0,1000}NoPowerShell\.dll.{0,1000}
-.{0,1000}nopowershell\.exe.{0,1000}
+.{0,1000}NoPowerShell\.exe.{0,1000}
 .{0,1000}NoPowerShell\.sln.{0,1000}
 .{0,1000}NoPowerShell\/.{0,1000}\.cs.{0,1000}
 .{0,1000}NoPowerShell_trunk\.zip.{0,1000}
@@ -49086,7 +49085,7 @@
 .{0,1000}PetitPotam\.cpp.{0,1000}
 .{0,1000}PetitPotam\.exe.{0,1000}
 .{0,1000}PetitPotam\.ps1.{0,1000}
-.{0,1000}petitpotam\.py.{0,1000}
+.{0,1000}PetitPotam\.py.{0,1000}
 .{0,1000}PetitPotam\.sln.{0,1000}
 .{0,1000}PetitPotam\.vcxproj.{0,1000}
 .{0,1000}PetitPotam\:main.{0,1000}
@@ -49616,7 +49615,7 @@
 .{0,1000}PowerUp\.ps1.{0,1000}
 .{0,1000}PowerUpSQL.{0,1000}
 .{0,1000}PowerUpSQL\.ps1.{0,1000}
-.{0,1000}powerview\.ps1.{0,1000}
+.{0,1000}PowerView\.ps1.{0,1000}
 .{0,1000}PowerView\.ShareInfo.{0,1000}
 .{0,1000}PowerView\.SPNTicket.{0,1000}
 .{0,1000}PowerView\-2\.0\-tricks\.ps1.{0,1000}
@@ -49691,7 +49690,7 @@
 .{0,1000}PrintSpoofer\..{0,1000}
 .{0,1000}PrintSpoofer\-.{0,1000}
 .{0,1000}PrintSpoofer\.cpp.{0,1000}
-.{0,1000}PrintSpoofer\.exe.{0,1000}
+.{0,1000}printspoofer\.exe.{0,1000}
 .{0,1000}printspoofer\.py.{0,1000}
 .{0,1000}PrintSpoofer\.sln.{0,1000}
 .{0,1000}PrintSpoofer\-master.{0,1000}
@@ -51052,7 +51051,7 @@
 .{0,1000}reg\squery\sHKCU\s\/f\spassw\s\/t\sREG_SZ\s\/s.{0,1000}
 .{0,1000}reg\squery\sHKCU\s\/f\spwd\s\/t\sREG_SZ\s\/s.{0,1000}
 .{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\\s\/v\sRunAsPPL.{0,1000}
-.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\LSA\s\/v\sRunAsPPL.{0,1000}
+.{0,1000}reg\squery\sHKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa\s\/v\sRunAsPPL.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\OpenSSH\\Agent.{0,1000}
 .{0,1000}reg\squery\shklm\\software\\realvnc.{0,1000}
@@ -51649,7 +51648,7 @@
 .{0,1000}RPCKeyMouseHandler\.txt.{0,1000}
 .{0,1000}rpcmap\.py.{0,1000}
 .{0,1000}RPCPerformanceHealthCheck.{0,1000}
-.{0,1000}RPCPerformanceService\.exe.{0,1000}
+.{0,1000}rpcperformanceservice\.exe.{0,1000}
 .{0,1000}rpcperfviewer\.exe\s.{0,1000}
 .{0,1000}RPCPerfViewer\.log.{0,1000}
 .{0,1000}rpcprinterdownloader\.exe.{0,1000}
@@ -53377,7 +53376,7 @@
 .{0,1000}SignToolExHook\.dll.{0,1000}
 .{0,1000}SigPloit.{0,1000}
 .{0,1000}sigthief\.exe\.manifest.{0,1000}
-.{0,1000}SigThief\.py.{0,1000}
+.{0,1000}Sigthief\.py.{0,1000}
 .{0,1000}SigThief\-master.{0,1000}
 .{0,1000}sigwhatever\.exe.{0,1000}
 .{0,1000}SilenceDefender\.ps1.{0,1000}
@@ -53427,7 +53426,7 @@
 .{0,1000}SimpleHelp\-install\-64\.exe.{0,1000}
 .{0,1000}SimpleHelp\s\-\ssimple\-help\.com.{0,1000}
 .{0,1000}simplehelp\sremote\swork\.exe.{0,1000}
-.{0,1000}SimpleHelp\sRemote\sWorkWinLauncher\.exe.{0,1000}
+.{0,1000}simplehelp\sremote\sworkwinlauncher\.exe.{0,1000}
 .{0,1000}simplehelp\stechnician\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-java\-online\.jar.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-linux32\-offline\.tar.{0,1000}
@@ -53445,7 +53444,7 @@
 .{0,1000}SimpleHelp\sTechnician\-windows32\-offline\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows32\-online\.exe.{0,1000}
 .{0,1000}SimpleHelp\sTechnician\-windows64\-offline\.exe.{0,1000}
-.{0,1000}simplehelp\stechnician\-windows64\-online\.exe.{0,1000}
+.{0,1000}SimpleHelp\sTechnician\-windows64\-online\.exe.{0,1000}
 .{0,1000}simplehelp\stechnicianwinlauncher\.exe.{0,1000}
 .{0,1000}simplehelpcustomer\.exe.{0,1000}
 .{0,1000}SimpleHTTPServer\.SimpleHTTPRequestHandler.{0,1000}
@@ -53657,7 +53656,7 @@
 .{0,1000}SnaffCore\/ShareFind.{0,1000}
 .{0,1000}SnaffCore\/TreeWalk.{0,1000}
 .{0,1000}Snaffler\.csproj.{0,1000}
-.{0,1000}snaffler\.exe.{0,1000}
+.{0,1000}Snaffler\.exe.{0,1000}
 .{0,1000}snaffler\.log.{0,1000}
 .{0,1000}Snaffler\.Properties.{0,1000}
 .{0,1000}Snaffler\.sln.{0,1000}
@@ -54271,7 +54270,7 @@
 .{0,1000}Stop\-Process\s\-Name\s\"Symantec\sSystem\sRecovery\".{0,1000}
 .{0,1000}Stop\-Process\s\-Name\s\"Veeam\sBackup\sCatalog\sData\sService\".{0,1000}
 .{0,1000}Stop\-Process\s\-Name\s\"Zoolz\s2\sService\".{0,1000}
-.{0,1000}Stop\-Process\s\-Name\sacronisagent.{0,1000}
+.{0,1000}Stop\-Process\s\-Name\sAcronisAgent.{0,1000}
 .{0,1000}Stop\-Process\s\-Name\sacrsch2svc.{0,1000}
 .{0,1000}Stop\-Process\s\-Name\sagntsvc.{0,1000}
 .{0,1000}Stop\-Process\s\-Name\sAntivirus.{0,1000}
@@ -56439,7 +56438,7 @@
 .{0,1000}WinhttpShellcode\.vcxproj.{0,1000}
 .{0,1000}Winpayloads.{0,1000}
 .{0,1000}winPEAS\.bat.{0,1000}
-.{0,1000}winPEAS\.exe.{0,1000}
+.{0,1000}WinPEAS\.exe.{0,1000}
 .{0,1000}winPEAS\.Info\.FilesInfo\.Office\.Office.{0,1000}
 .{0,1000}winPEAS\.KnownFileCreds\.Browsers\.Chrome.{0,1000}
 .{0,1000}winPEAS\.ps1.{0,1000}

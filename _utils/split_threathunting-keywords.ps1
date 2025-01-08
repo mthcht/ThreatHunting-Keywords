@@ -83,6 +83,12 @@ $groupedData.Keys | ForEach-Object {
 # Filter and export new CSVs
 $parentPath = Join-Path $PSScriptRoot '..'
 
+# Create threathunting-keywords_without_hashes.csv 
+$data |
+    Where-Object { $_.metadata_tags -notlike '*#filehash*' } |
+    Export-Csv -Path (Join-Path $parentPath 'threathunting-keywords_without_hashes.csv') -NoTypeInformation -Encoding UTF8
+
+
 # 1. offensive_tool_keyword_network_detection.csv
 $data |
 Where-Object {
@@ -90,6 +96,7 @@ Where-Object {
     $_.metadata_keyword_type -eq 'offensive_tool_keyword'
 } |
 Export-Csv -Path (Join-Path $parentPath 'offensive_tool_keyword_network_detection.csv') -NoTypeInformation -Encoding UTF8
+
 
 # 2. offensive_tool_keyword_endpoint_detection.csv
 $data |
@@ -114,6 +121,154 @@ Where-Object {
     $_.metadata_keyword_type -eq 'greyware_tool_keyword'
 } |
 Export-Csv -Path (Join-Path $parentPath 'greyware_tool_keyword_network_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 5. RMM_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'RMM'
+} |
+Export-Csv -Path (Join-Path $parentPath 'RMM_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 6. Credential_Access_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Credential Acess'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Credential_Access_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 7. Lateral_Movement_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Lateral Movement'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Lateral_Movement_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 8. Data_Exfiltration_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Data Exfiltration'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Data_Exfiltration_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 9. Persistence_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Persistence'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Persistence_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 10. Privilege_Escalation_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Privilege Escalation'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Privilege_Escalation_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 11. Discovery_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Discovery'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Discovery_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 12. Phishing_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Phishing'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Phishing_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 13. C2_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'C2'
+} |
+Export-Csv -Path (Join-Path $parentPath 'C2_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 14. Collection_category_detection.csv
+$data |
+Where-Object {
+    $_.metadata_category -eq 'Collection'
+} |
+Export-Csv -Path (Join-Path $parentPath 'Collection_category_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 15. file_hashes_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#filehash*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'file_hashes_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 16. script_or_binary_content_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#content*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'script_or_binary_content_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 17. deviceid_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#deviceid*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'deviceid_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 18. email_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#email*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'email_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 19. GUIDproject_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#GUIDproject*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'GUIDproject_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 20. productname_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#productname*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'productname_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 21. linux_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#linux*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'linux_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 21. base64_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#base64*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'base64_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 21. PastebinLike_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#PastebinLike*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'PastebinLike_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 21. FileHosting_Services_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#filehostingservice*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'FileHosting_Services_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
+# 22. VPN_Services_tag_detection.csv
+$data |
+Where-Object {
+    $_.metadata_tags -like '*#VPN*'
+} |
+Export-Csv -Path (Join-Path $parentPath 'VPN_Services_tag_detection.csv') -NoTypeInformation -Encoding UTF8
+
 
 # Export only keywords
 $keywords = $data |

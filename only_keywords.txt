@@ -126,6 +126,7 @@
 * /v DisableOnAccessProtection /t REG_DWORD /d 1 /f*
 * /v DisableRealtimeMonitoring /t REG_DWORD /d 1 /f*
 * /v DisableScanOnRealtimeEnable /t REG_DWORD /d 1 /f*
+* /var/log -type f -exec */tr* -s 0 {} \*
 * :Failed to make full encrypt*
 * [+] SUCCESS: AMSI Bypassed!*
 * \\\\localhost /user:Username /pwd:Password  \"C:\\InstallMe.bat*
@@ -2552,7 +2553,7 @@
 * proxyTunnel.ps1*
 * ps /target:*.xml /unprotect*
 * PS1ToBase64.ps1*
-* ps2exe.ps1*
+* PS2EXE.ps1*
 * PSAsyncShell.ps1*
 * PSAsyncShell.sh*
 * psexec_merged.bin*
@@ -3654,7 +3655,6 @@
 *"-c \"sh -i >& /dev/tcp/*
 *"C:\Windows\system32\ARP.EXE" /a*
 *"Custom DLL's are fking awesome !"*
-*"deritim@proton.me"*
 *"DLL's are awesome ! Especially Exec in Rust"*
 *"Don't use this for evil, please"*
 *"dsdoskdosk837928hduijfh"*
@@ -4750,7 +4750,6 @@
 *//RRh0St/InJ3C*
 *//shuck.sh*
 *//StaticSyscallsDump/*
-*/???/???/f?n? /var/log -type f -exec /???/???/tr?????e -s 0 {} \*
 */_distutils_hack.zip*
 */_sish/api/clients*
 */_sish/console*
@@ -5241,7 +5240,7 @@
 */Ben0xA/*
 */beRoot.exe*
 */BeRoot.git*
-*/beroot.py*
+*/beRoot.py*
 */beRoot.zip*
 */BeRoot/Linux/*
 */beroot/modules/*.py*
@@ -5502,7 +5501,7 @@
 */c lol fuck this*
 */c ping 127.0.0.1 && del \\*
 */C2/Beacon/*.cs*
-*/C2/c2.go*
+*/c2/c2.go*
 */C2/Http/*.cs*
 */C2/server.py*
 */C2/SmbListener.*
@@ -7703,7 +7702,7 @@
 */KaynStrike.cna*
 */KaynStrike.git*
 */KCMTicketFormatter*
-*/KDStab.*
+*/kdstab.*
 */KDStab/*
 */KeeFarce.exe*
 */KeeFarce.git*
@@ -7841,7 +7840,7 @@
 */latest/download/tunwg*
 */lazagne.exe*
 */LaZagne.git*
-*/LaZagne.py*
+*/laZagne.py*
 */lazagne.zip*
 */LaZagne/Windows/*
 */ld.so /bin/sh -p*
@@ -8561,7 +8560,7 @@
 */NoPowerShell.exe*
 */No-PowerShell.exe*
 */nopowershell.git*
-*/NoPowerShell/*
+*/nopowershell/*
 */norouteconfig.sh*
 */noseyparker.git*
 */NotQuite0DayFriday/zip/trunk*
@@ -9594,7 +9593,7 @@
 */RemoteAccessPolicyEnumeration.ps1*
 */Remote-administration-tools-archive.git*
 */RemoteControlSetup.exe*
-*/remotedesktop.exe*
+*/RemoteDesktop.exe*
 */RemoteHashRetrieval.ps1*
 */remoteit.exe*
 */remoteit.x86-win.exe*
@@ -9914,7 +9913,7 @@
 */schtasksenum/*.*
 */sc-loader.exe*
 */scmuacbypass.cpp*
-*/SCMUACBypass.exe*
+*/scmuacbypass.exe*
 */SCMUACBypass.git*
 */SCMUACBypass/*
 */SCOMDecrypt.git*
@@ -11358,7 +11357,7 @@
 */veeam-creds.git*
 */VeeamHax.exe
 */Vegile.git*
-*/venom.git*
+*/Venom.git*
 */venom.sh *
 */Venom.v1.0.1.7z*
 */Venom.v1.0.2.7z*
@@ -11759,7 +11758,6 @@
 *:CreateProcessFromParent((Get-Process "lsass").Id*
 *:ddos-udp - started udp flood*
 *?? MITM ????*
-*?_USBSTOR#Disk&Ven_&Prod_&Rev_0000*53f56307-b6bf-11d0-94f2-00a0c91efb8b*
 *?function Invoke-CylanceDisarm*
 *?function Invoke-SessionExec*
 *@" ( _/_   _//   ~b33f"*
@@ -12399,7 +12397,7 @@
 *\\.\pipe\EasySystem*
 *\\.\pipe\hashdump*
 *\\.\pipe\keylogger*
-*\\.\pipe\merlin*
+*\\.\pipe\Merlin*
 *\\.\pipe\mimi*
 *\\.\pipe\mimikatz*
 *\\.\pipe\netview*
@@ -12916,7 +12914,7 @@
 *\Babylon RAT.exe*
 *\BabyShark-master.zip*
 *\backdoor.bat*
-*\Backdoor.exe*
+*\backdoor.exe*
 *\Backdoor.PHP.Agent.php*
 *\backdoor\backdoor.mk*
 *\backdoor\backdoor.project*
@@ -13418,7 +13416,7 @@
 *\dafthack\MSOLSpray*
 *\dagonlocker.html*
 *\DameWare Development\MrcVerbLog*
-*\dameware mini remote control x64\*
+*\Dameware Mini Remote Control x64\*
 *\DameWare Mini Remote Control*.exe*
 *\Dameware Mini Remote Control.lnk*
 *\dameware remote everywhere agent*
@@ -14309,7 +14307,7 @@
 *\hack-browser-data-osx-64bit.zip*
 *\hack-browser-data-windows-32bit.zip*
 *\hack-browser-data-windows-64bit.zip*
-*\hades.exe*
+*\Hades.exe*
 *\hades-main.zip*
 *\HAKOPS B?nder.exe*
 *\HAKOPS RAT.exe*
@@ -14469,7 +14467,7 @@
 *\InternetConnect_x64_Release.exe*
 *\InternetIdService.exe*
 *\InternetIdService_*-*-*.txt
-*\inveigh.exe*
+*\Inveigh.exe*
 *\inveigh.log*
 *\Inveigh.ps1*
 *\Inveigh.psd1*
@@ -14771,7 +14769,7 @@
 *\LMIRescueMqttMessages_*.dat*
 *\LMIRescueUpdater.log*
 *\LMIRhook.000.dll*
-*\LMIRTechConsole.exe*
+*\lmirtechconsole.exe*
 *\LMITrs-*.trs*
 *\lnk_parser_cmd.exe -r *
 *\Lnk2Pwn.java*
@@ -15026,7 +15024,7 @@
 *\meterpreterTip2.txt*
 *\mhydeath64*
 *\Microsoft Azure Storage Explorer.zip*
-*\microsoft.remoteassistance.quickassist\*
+*\Microsoft.RemoteAssistance.QuickAssist\*
 *\Microsoft\Windows\CurrentVersion\Run\Eraser*
 *\Microsoft\Windows\Start Menu\Programs\eHorus Agent\*
 *\Microsoft\Windows\Start Menu\Programs\Eraser\Eraser.lnk*
@@ -15732,7 +15730,7 @@
 *\PortQryV2\*
 *\portr.exe*
 *\portr-main\*
-*\PortScan.exe*
+*\Portscan.exe*
 *\Port-Scan.ps1*
 *\port-scan-tcp.ps1*
 *\port-scan-udp.ps1*
@@ -15750,7 +15748,7 @@
 *\PowerBreach.ps1*
 *\PowerBruteLogon*
 *\powercat.ps1
-*\Powercat.ps1*
+*\powercat.ps1*
 *\powercat-master\*
 *\powerfun.ps1*
 *\powerglot\*
@@ -15786,11 +15784,11 @@
 *\PowerTool64.exe*
 *\PowerTools.ps1*
 *\PowerTools\PowerPick\*
-*\Powerup.exe*
+*\powerup.exe*
 *\PowerUp.ps1*
 *\PowerUpSQL.ps1*
 *\PowerView.cna*
-*\Powerview.exe*
+*\PowerView.exe*
 *\PowerView.Log*
 *\PowerView.ps1*
 *\PowerView3.*
@@ -15960,7 +15958,7 @@
 *\ps_stager.ps1*
 *\PS1ToBase64.ps1*
 *\Ps1ToVbs.ps1*
-*\ps2exe.ps1*
+*\PS2EXE.ps1*
 *\PS2EXE\*.ps1*
 *\PSAsyncShell.ps1*
 *\PSAsyncShell.sh*
@@ -16256,7 +16254,7 @@
 *\Remote Command Executor.sln*
 *\remote support.exe*
 *\Remote SupportEmbedExample.html*
-*\Remote Utilities - Host\*
+*\remote utilities - host\*
 *\remote utilities agent\*
 *\Remote Utilities Agent\Logs*
 *\Remote Utilities Files\rdp_connections\*
@@ -16274,7 +16272,7 @@
 *\RemoteControlbyITarian (3).exe*
 *\RemoteControlbyITarian_(3).exe*
 *\RemoteControlSetup.exe*
-*\remotedesktop.exe*
+*\RemoteDesktop.exe*
 *\RemoteDesktop_x64.msi*
 *\RemoteHashRetrieval.ps1*
 *\remoteit.exe*
@@ -16333,7 +16331,7 @@
 *\RemotePCUDEHost.inf*
 *\RemotePCUDEHost.sys*
 *\RemotePCUIA.exe*
-*\remotepcuiu.exe*
+*\RemotePCUIU.exe*
 *\RemotePCViewer.msi*
 *\RemotePenetration.exe*
 *\RemotePotato0.cpp*
@@ -16407,7 +16405,7 @@
 *\ROADtoken\bin\*
 *\ROADtools\*
 *\roaster.py*
-*\roblox cookies.txt*
+*\Roblox Cookies.txt*
 *\roboform\app\getCredsroboformapp.h*
 *\roboform\app\getCredsroboformapp2.h*
 *\roboform\app\getCredsroboformapp3.h*
@@ -16597,7 +16595,7 @@
 *\SchTask_0x727\*
 *\SchTaskBackdoor.*
 *\sc-loader.exe*
-*\scmuacbypass.cpp*
+*\SCMUACBypass.cpp*
 *\SCMUACBypass.exe*
 *\SCMUACBypass\*
 *\ScreenConnect Client (*
@@ -16846,11 +16844,11 @@
 *\SharpSploitConsole.*
 *\SharpSploit-master*
 *\SharpSpray.csproj*
-*\sharpspray.exe*
+*\SharpSpray.exe*
 *\SharpSpray.sln*
 *\SharpSpray\*
 *\SharpSpray-1.1.zip*
-*\SharpSQL.exe*
+*\SharpSql.exe*
 *\SharpSQL.pdb*
 *\SharpSQLPwn.exe*
 *\SharpSSDP.csproj*
@@ -17267,7 +17265,7 @@
 *\SurveyRegistry_x64_Release.exe*
 *\SwampThing.csproj*
 *\SweetPotato.dll*
-*\Sweetpotato.exe*
+*\SweetPotato.exe*
 *\SweetPotato\Program.cs*
 *\SweetPotato-master.zip*
 *\SwitchPriv.exe*
@@ -17977,7 +17975,7 @@
 *\Zoho Assist\Zoho Assist Remote support*
 *\ZohoMeeting.7z*
 *\ZohoMeeting.exe*
-*\zohomeeting\agent.exe*
+*\ZohoMeeting\agent.exe*
 *\ZohoMeeting\agent_ui.exe*
 *\ZohoMeeting\Connect.exe*
 *\ZohoMeeting\Connection.conf*
@@ -18179,6 +18177,7 @@
 *_snmp_snmpwalk_user_accounts.txt*
 *_tcp_cc2(*
 *_udp_cc2(*
+*_USBSTOR#Disk&Ven_&Prod_&Rev_0000*53f56307-b6bf-11d0-94f2-00a0c91efb8b*
 *{os.getlogin()} | Fentanyl*
 *{process_to_inject}.exe*
 *| base64 -d *
@@ -21610,7 +21609,7 @@
 *2efdffd1cf3adab21ff760f009d8893d8c4cbcf63b2c3bfcc1139457c9cd430b*
 *2effa3692c2567b15931e21ad84374cbfbffca84aec823bbb190f492b062a2ef*
 *2f00562c23c765a32f3e1b39da4aae0db8cf0d47e19c800bba2678c7be198503*
-*2f00a05b-263d-4fcc-846b-da82bd684603*
+*2F00A05B-263D-4FCC-846B-DA82BD684603*
 *2f07406d517a0f5b8b4e46ecb1ef412924abf1bd43c451ed324f5a23e2d9e2de*
 *2f1f3b1b11933cc4f1396967bc588143aaa84313f08cf5aa1c4d009509d4d20d*
 *2f23c814d800ebaf516418f4cde8dcfc04fb6f50f343ef8ac94d40066463fd78*
@@ -24710,7 +24709,7 @@
 *5ef00c89ac391313af63b02f4f8a1fa5509c6a6bddf98c2299a765548cae5ff8*
 *5ety7tpkim5me6eszuwcje7bmy25pbtrjtue7zkqqgziljwqy3rrikqd.onion*
 *5f01feb0f870564dae6ef4741dc3b0e200517ea1d712d095a67f4c84bc922bea*
-*5f026c27-f8e6-4052-b231-8451c6a73838*
+*5F026C27-F8E6-4052-B231-8451C6A73838*
 *5f1660b704a8b580082b81e14a41d2da9ff1edeebc59b885acb92f1ab1f46838*
 *5f1e553e2e9c1d7979f5a8eb99d701099a0f79dd0537a9c3fae283b225f50bba*
 *5f27ca4597ebd322f8fca8f3f74a1771d0e5a3f2f9d53779345f73f62c9f5440*
@@ -27293,7 +27292,7 @@
 *894368f2b42eac9feee89560aa890c1215883b716232c66f20bf4145d6bbf671*
 *894399f27a67fa61608ef9a098bf9dc3ec009582d98193616cde9ab3b59f7a51*
 *8943acdb8de2a40ca4fd8e1a2f98029aa6e8d78c9f19430b6ac557b6fb8ce4cb*
-*894A784E-E04C-483C-A762-B6C03E744D0B*
+*894a784e-e04c-483c-a762-b6c03e744d0b*
 *895b297899e043df918c8b93301014d48fc1d9ddf926174ea1ad5cf05cc7c79a*
 *895b5c7ece8b458dff80ed790fc1633675a05fc9c4bd994ac89cf8e9d83bd32b*
 *895d847eec516f9d8eb2cf8a08408c92523d1430d9dc2e91c5ed5268eb424479*
@@ -30158,7 +30157,7 @@
 *airbase-ng -*
 *Airbash*
 *aircrack.txt*
-*aircrack-ng*
+*Aircrack-ng*
 *aircrack-ptw-*
 *airdecap-ng -*
 *aireplay-ng *
@@ -30252,7 +30251,7 @@
 *AMSI_Bypass.ps1*
 *AMSI_bypass_20*.ps1
 *AMSI_patch-main*
-*amsi-bypass*
+*Amsi-Bypass*
 *AmsiBypass.cs*
 *amsibypass.exe*
 *Amsi-Killer.exe*
@@ -30263,7 +30262,7 @@
 *AmsiOpenSession.sln*
 *AmsiOpenSession.vcxproj*
 *AMSITrigger.exe*
-*amsitrigger_x64.exe*
+*AmsiTrigger_x64.exe*
 *AmsiTrigger_x86.exe*
 *An interactive shell to spoof some LOLBins*
 *An0nUD4Y/Evilginx2-Phishlets*
@@ -31449,7 +31448,7 @@
 *Backdoor.Linux.Sshdkit*
 *Backdoor.Merlin*
 *Backdoor.MSIL.Sandman*
-*backdoor.php*
+*Backdoor.PHP*
 *Backdoor.PHP.WebShell.*
 *Backdoor.Quasar*
 *backdoor.sh -v * -p *
@@ -31515,7 +31514,7 @@
 *BadgerWcslen*
 *Bad-Pdf*
 *BadPotato.cs*
-*badpotato.exe*
+*BadPotato.exe*
 *BadPotato.Win32*
 *BadPotato-master.zip*
 *BadRat 1.6/server_unpacked.exe*
@@ -32439,7 +32438,7 @@
 *BrowserSnatch64.exe*
 *BrowserSnatch-master.zip*
 *BrowsingHistoryView.cfg*
-*browsinghistoryview.exe*
+*BrowsingHistoryView.exe*
 *BROWSINGHISTORYVIEW.EXE-*.pf*
 *BrowsingHistoryView.html*
 *browsinghistoryview.zip*
@@ -34675,7 +34674,7 @@
 *config/51pwn/CVE-*
 *CONFIG_NETKIT_DEBUG*
 *config_steal /etc/krb5.conf /etc/krb5.keytab*
-*Confuser.CLI.exe*
+*Confuser.CLI.Exe*
 *Confuser.DynCipher.dll*
 *Confuser.Renamer.dll*
 *ConfuserEx (CLI)*
@@ -36468,6 +36467,7 @@
 *deploycaptureserver.ps1*
 *DeployPrinterNightmare.exe*
 *derdiarikucisv@gmx.de*
+*deritim@proton.me*
 *Description=Monero miner service*
 *'Description'>Dameware products</Data>*
 *Description'>IE Passwords Viewer*
@@ -40244,7 +40244,6 @@
 *File Shredder setup.exe*
 *File Shredder.exe*
 *File specifed to backdoor does not exist: *
-*file_hash_sha256*
 *file_parsers/group_policy_preferences.py*
 *file_shredder_setup.exe*
 *File_Smuggler_Http_Handler*
@@ -43821,7 +43820,7 @@
 *Invoke-AmsiBypass*
 *Invoke-APIConnectionHijack.ps1*
 *Invoke-ApplicationsOnStartupCheck*
-*invoke-arpscan*
+*Invoke-ARPScan*
 *Invoke-ARPScan.ps1*
 *Invoke-ASREPRoast*
 *Invoke-Assembly.ps1*
@@ -44007,7 +44006,7 @@
 *Invoke-HiveDump*
 *Invoke-HiveNightmare.ps1*
 *Invoke-HoneypotBuster*
-*invoke-hostenum -*
+*Invoke-HostEnum -*
 *Invoke-HostEnum*
 *Invoke-HostRecon*
 *invoke-hostscan*
@@ -44221,7 +44220,7 @@
 *Invoke-ps2exe*
 *Invoke-PSAmsiScan*
 *Invoke-PsExec*
-*Invoke-PsExec.ps1*
+*Invoke-PSexec.ps1*
 *Invoke-PsExecCmd*
 *invoke-psexecpayload*
 *Invoke-PsGcat*
@@ -44445,7 +44444,7 @@
 *Invoke-SMBRemoting*
 *Invoke-SMBRemoting.ps1*
 *Invoke-SMBRemoting-main*
-*Invoke-SmbScanner*
+*Invoke-SMBScanner*
 *Invoke-SmbScanner.ps1*
 *Invoke-Snaffler*
 *invoke-sniffer *
@@ -44535,7 +44534,7 @@
 *Invoke-UserGroupsCheck*
 *Invoke-UserHunter -CheckAccess*
 *invokeuserhunter*
-*Invoke-UserHunter*
+*invoke-userhunter*
 *Invoke-UserImpersonation -Credential *
 *Invoke-UserImpersonation -Credential * -Quiet*
 *Invoke-UserImpersonation*
@@ -47285,7 +47284,7 @@
 *nessuscli fix*
 *nessus-updates*.tar.gz*
 *net  group "domain admins" /domain*
-*net  group "domain computers" /domain*
+*net  group "Domain Computers" /domain*
 *net  group "enterprise admins" /domain*
 *net  group "ESX Admins" /domain /add*
 *net  group "ESX Admins"*
@@ -49056,7 +49055,7 @@
 *PetitPotam.cpp*
 *PetitPotam.exe*
 *PetitPotam.ps1*
-*petitpotam.py*
+*PetitPotam.py*
 *PetitPotam.sln*
 *PetitPotam.vcxproj*
 *PetitPotam:main*
