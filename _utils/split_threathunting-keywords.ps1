@@ -132,7 +132,7 @@ Export-Csv -Path (Join-Path $parentPath 'RMM_category_detection.csv') -NoTypeInf
 # 6. Credential_Access_category_detection.csv
 $data |
 Where-Object {
-    $_.metadata_category -eq 'Credential Acess'
+    $_.metadata_category -eq 'Credential Access'
 } |
 Export-Csv -Path (Join-Path $parentPath 'Credential_Access_category_detection.csv') -NoTypeInformation -Encoding UTF8
 
