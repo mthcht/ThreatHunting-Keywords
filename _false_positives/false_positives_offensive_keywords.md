@@ -75,7 +75,7 @@ recommendation: exclude Image `*\Program Files\nodejs\node.exe` + TargetFilename
 
 *in the list https://github.com/mthcht/ThreatHunting-Keywords/blob/2b9e3ccd93f0ed84ac31b773e95aceb6913fe06f/tools/A-C/bloodhound.csv#L9*
 
-ref: https://wtfbins.wtf/bin/13/
+ref: https://wtfbins.wtf/13/
 
 ```
 C:\Program Files (x86)\Silver Bullet Technology\Ranger\Logging\Bloodhound.exe
