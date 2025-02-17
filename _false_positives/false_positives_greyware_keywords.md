@@ -52,3 +52,11 @@ Kaspersky kavfswp.exe changed whoami.exe file creation time
 - process: `C:\Program Files (x86)\Kaspersky Lab\Kaspersky Security for Windows Server\kavfswp.exe`
 - target file_path: `C:\Windows\SysWOW64\whoami.exe` OR `C:\Windows\System32\whoami.exe`
 - user: `NT AUTHORITY\SYSTEM`
+
+### Keyword: `reg*save*HKLM\*SYSTEM *`
+
+`ir_agent.exe` is the core executable of the **Rapid7 Insight Agent** and it might be collecting registry information for vulnerability assessments, configuration analysis, or forensic investigations.
+
+- parent_process_path: `C:\Program Files\Rapid7\Insight Agent\components\insight_agent\*\ir_agent.exe`
+- process: `C:\Windows\System32\reg.exe save HKLM\SYSTEM "C:\Program Files\Rapid7\Insight Agent\components\insight_agent\common\ir_agent_tmp\agent.jobs.tem_realtime_*\tmp*\HKEY_LOCAL_MACHINE_SYSTEM.hiv`
+- src_user: `*$`
