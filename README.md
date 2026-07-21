@@ -324,6 +324,7 @@ My intelligence-gathering sheet for planning Threat Hunting sessions
 
 Check out these [Guides](https://github.com/mthcht/awesome-lists/tree/main/Lists#how-to-use-the-lists) to use some of the lists: 
   - [Windows Services Searches](https://detect.fyi/threat-hunting-suspicious-windows-service-names-2f0dceea204c)
+  - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source autonomous pentest engine (GPL-3.0): AD + Kubernetes + web, evidence trail on every finding, runs on local or hosted models.
   - [User-Agents Searches](https://mthcht.medium.com/threat-hunting-suspicious-user-agents-3dd764470bd0)
   - [DNS Over HTTPS Searches](https://mthcht.medium.com/detecting-dns-over-https-30fddb55ac78)
   - [Suspicious TLDs Searches](https://mthcht.medium.com/threat-hunting-suspicious-tlds-a742c2adbf58)
